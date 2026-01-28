@@ -1,4 +1,5 @@
 rse.db
 dashboard.log
 .env
+.scorecard_tokens.env
 devel/software/scicrunch
