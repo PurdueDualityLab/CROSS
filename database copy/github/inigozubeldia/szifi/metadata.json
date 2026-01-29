@@ -1,0 +1,53 @@
+{
+  "parser": "github",
+  "uid": "github/inigozubeldia/szifi",
+  "url": "https://github.com/inigozubeldia/szifi",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2023MNRAS.522.4766Z",
+      "https://ui.adsabs.harvard.edu/abs/2025ascl.soft02029Z/abstract"
+    ],
+    "title": "SZiFi: Sunyaev-Zeldovich iterative finder",
+    "url": "https://github.com/inigozubeldia/szifi",
+    "name": "szifi",
+    "full_name": "inigozubeldia/szifi",
+    "html_url": "https://github.com/inigozubeldia/szifi",
+    "created_at": "2022-09-30T11:31:09Z",
+    "updated_at": "2024-10-15T14:40:47Z",
+    "clone_url": "https://github.com/inigozubeldia/szifi.git",
+    "size": 373,
+    "stargazers_count": 8,
+    "watchers_count": 8,
+    "language": "Python",
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/inigozubeldia",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49374875?v=4",
+      "login": "inigozubeldia",
+      "type": "User"
+    },
+    "timestamp": "2025-03-02 00:47:50.346872",
+    "avatar": "https://avatars.githubusercontent.com/u/49374875?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"$ pip install -e .\"",
+        "\"SZiFi ... is a Python implementation of the iterative multi-frequency matched filter (iMMF) galaxy cluster finding method... It can be used to detect galaxy clusters in millimetre-wavelength intensity maps\" (domain-specific analysis tool).",
+        "\"You'll then be able to import SZiFi in Python with `import szifi`\" (used as an importable Python package, i.e., a dependency)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:26:22Z"
+    }
+  }
+}

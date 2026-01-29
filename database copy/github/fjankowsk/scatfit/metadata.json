@@ -1,0 +1,68 @@
+{
+  "parser": "github",
+  "uid": "github/fjankowsk/scatfit",
+  "url": "https://github.com/fjankowsk/scatfit",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2022ascl.soft08003J/abstract"
+    ],
+    "title": "Scatfit: Scattering fits of time domain radio signals (Fast Radio Bursts or pulsars)",
+    "url": "https://github.com/fjankowsk/scatfit",
+    "name": "scatfit",
+    "full_name": "fjankowsk/scatfit",
+    "html_url": "https://github.com/fjankowsk/scatfit",
+    "description": "Scattering fits of Fast Radio Burst and pulsar data.",
+    "created_at": "2022-11-11T13:36:39Z",
+    "updated_at": "2022-11-11T21:42:51Z",
+    "clone_url": "https://github.com/fjankowsk/scatfit.git",
+    "size": 18284,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/fjankowsk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10989149?v=4",
+      "login": "fjankowsk",
+      "type": "User"
+    },
+    "topics": [
+      "astronomy",
+      "astrophysics",
+      "fastradiobursts",
+      "pulsars",
+      "ionised-media",
+      "radio-astronomy"
+    ],
+    "timestamp": "2022-12-04 00:35:30.441097",
+    "avatar": "https://avatars.githubusercontent.com/u/10989149?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "\"The software is primarily developed and maintained by Fabian Jankowski.\"",
+        "\"This repository contains code to fit fast radio burst (FRB) or pulsar profiles to measure scattering and other parameters.\" and the CLI usage examples (`scatfit-fitfrb`, `scatfit-simpulse`) show it is run as an end-user analysis program.",
+        "PyPI badge and link: `[![PyPI latest release](https://img.shields.io/pypi/v/scatfit.svg)](https://pypi.org/project/scatfit/)` indicating distribution via the PyPI package registry."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T23:52:25Z"
+    }
+  }
+}

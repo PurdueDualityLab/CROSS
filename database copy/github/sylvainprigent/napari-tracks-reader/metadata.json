@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/sylvainprigent/napari-tracks-reader",
+  "url": "https://github.com/sylvainprigent/napari-tracks-reader",
+  "data": {
+    "doi": "10.1093/bioinformatics/btac365",
+    "name": "napari-tracks-reader",
+    "url": "https://github.com/sylvainprigent/napari-tracks-reader",
+    "full_name": "sylvainprigent/napari-tracks-reader",
+    "html_url": "https://github.com/sylvainprigent/napari-tracks-reader",
+    "description": "napari reader plugin for tracking",
+    "created_at": "2021-05-11T12:20:14Z",
+    "updated_at": "2022-05-30T10:20:33Z",
+    "clone_url": "https://github.com/sylvainprigent/napari-tracks-reader.git",
+    "size": 302,
+    "stargazers_count": 6,
+    "watchers_count": 6,
+    "language": "Python",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/sylvainprigent",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9695951?v=4",
+      "login": "sylvainprigent",
+      "type": "User"
+    },
+    "topics": [
+      "napari-plugin"
+    ],
+    "timestamp": "2022-11-27 00:41:39.592479",
+    "avatar": "https://avatars.githubusercontent.com/u/9695951?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install napari-tracks-reader\"",
+        "\"Read tracks from various tracking softwares output files to napari tracks layer.\" (a plugin component for napari, intended to be used by other software rather than as a standalone app)",
+        "\"This [napari] plugin was generated with [Cookiecutter] using with [@napari]'s [cookiecutter-napari-plugin] template.\" (indicates it is a plugin/library in a scientific visualization ecosystem)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T03:59:48Z"
+    }
+  }
+}

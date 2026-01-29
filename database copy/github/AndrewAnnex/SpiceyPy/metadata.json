@@ -1,0 +1,73 @@
+{
+  "parser": "github",
+  "uid": "github/AndrewAnnex/SpiceyPy",
+  "url": "https://github.com/AndrewAnnex/SpiceyPy",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/#abs/2018AJ....156...20P",
+      "https://ui.adsabs.harvard.edu/#abs/2017LPICo1986.7081A",
+      "https://ui.adsabs.harvard.edu/abs/2019ascl.soft03016A/abstract"
+    ],
+    "title": "SpiceyPy: Python wrapper for the NAIF C SPICE Toolkit",
+    "url": "https://github.com/AndrewAnnex/SpiceyPy",
+    "name": "SpiceyPy",
+    "full_name": "AndrewAnnex/SpiceyPy",
+    "html_url": "https://github.com/AndrewAnnex/SpiceyPy",
+    "description": "SpiceyPy: a Pythonic Wrapper for the SPICE Toolkit.",
+    "created_at": "2014-01-13T19:29:09Z",
+    "updated_at": "2022-07-11T09:25:32Z",
+    "clone_url": "https://github.com/AndrewAnnex/SpiceyPy.git",
+    "size": 3385,
+    "stargazers_count": 286,
+    "watchers_count": 286,
+    "language": "Python",
+    "open_issues_count": 8,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 26,
+    "owner": {
+      "html_url": "https://github.com/AndrewAnnex",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2126916?v=4",
+      "login": "AndrewAnnex",
+      "type": "User"
+    },
+    "topics": [
+      "python",
+      "nasa",
+      "toolkit",
+      "spice",
+      "space",
+      "ephemeris",
+      "navigation",
+      "hacktoberfest"
+    ],
+    "timestamp": "2022-07-17 17:17:04.869093",
+    "avatar": "https://avatars.githubusercontent.com/u/2126916?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"If you wish to install spiceypy from source first download or clone the project. Then run ``python -m build`` and install the resulting wheel file in `dist`.\"",
+        "\"SpiceyPy is a Python wrapper for the NAIF C SPICE Toolkit\" (indicates it is a library-style wrapper used by other code, i.e., a dependency).",
+        "\"SpiceyPy can be installed using pip by running: `pip install spiceypy`\" (distribution via PyPI package registry)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T16:35:34Z"
+    }
+  }
+}

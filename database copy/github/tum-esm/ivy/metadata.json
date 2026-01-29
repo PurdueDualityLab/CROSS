@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/tum-esm/ivy",
+  "url": "https://github.com/tum-esm/ivy",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.17201084",
+    "name": "ivy",
+    "url": "https://github.com/tum-esm/ivy",
+    "full_name": "tum-esm/ivy",
+    "html_url": "https://github.com/tum-esm/ivy",
+    "description": "a python boilerplate for an IoT node data acqusition system (DAS)",
+    "created_at": "2024-12-28T23:11:45Z",
+    "updated_at": "2025-10-03T14:38:16Z",
+    "clone_url": "https://github.com/tum-esm/ivy.git",
+    "homepage": "https://tum-esm-ivy.netlify.app",
+    "size": 1670,
+    "stargazers_count": 5,
+    "watchers_count": 5,
+    "language": "Python",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/tum-esm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/89810129?v=4",
+      "login": "tum-esm",
+      "type": "Organization"
+    },
+    "timestamp": "2025-10-05 00:52:58.002732",
+    "avatar": "https://avatars.githubusercontent.com/u/89810129?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Builds and releases",
+      "distribution_details": null,
+      "evidence": [
+        "\"A Python boilerplate for an IoT node data acquisition system (DAS) supporting remote configuration and software updates. An Ivy-based network is made up of many (remote) computers running autonomously - e.g., performing measurements, controlling actuators, etc. - and a central backend connecting these devices.\"",
+        "\"The idea of Ivy is that you can start building your own DAS based on Ivy instead of starting from scratch. You have full control over the codebase but do not have to rewrite all the logic that every autonomous DAS has to implement.\"",
+        "The repository is owned by the GitHub organization `tum-esm`, which corresponds to a specific research group/lab rather than a general-purpose institution account. Also, releases are advertised via a GitHub tag badge linking to `https://github.com/tum-esm/ivy/releases`."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T04:32:01Z"
+    }
+  }
+}

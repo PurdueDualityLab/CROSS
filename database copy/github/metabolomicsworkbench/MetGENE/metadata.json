@@ -1,0 +1,55 @@
+{
+  "parser": "github",
+  "uid": "github/metabolomicsworkbench/MetGENE",
+  "url": "https://github.com/metabolomicsworkbench/MetGENE",
+  "data": {
+    "doi": "10.1093/GIGASCIENCE/GIAD089",
+    "name": "MetGENE",
+    "url": "https://github.com/metabolomicsworkbench/MetGENE",
+    "full_name": "metabolomicsworkbench/MetGENE",
+    "html_url": "https://github.com/metabolomicsworkbench/MetGENE",
+    "description": "Gene-centric Metabolomics Information Retrieval Tool",
+    "created_at": "2022-08-26T22:38:12Z",
+    "updated_at": "2023-10-13T18:09:14Z",
+    "clone_url": "https://github.com/metabolomicsworkbench/MetGENE.git",
+    "size": 3373,
+    "language": "PHP",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/metabolomicsworkbench",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55557713?v=4",
+      "login": "metabolomicsworkbench",
+      "type": "Organization"
+    },
+    "timestamp": "2024-04-21 00:35:52.038427",
+    "avatar": "https://avatars.githubusercontent.com/u/55557713?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"The MetGENE tool is available through the web at <a href=\"https://bdcw.org/MetGENE\">MetGENE</a> and also as a REST API\"",
+        "\"Gene-centric Metabolomics Information Retrieval Tool\" and description of using genes to retrieve associated metabolites, reactions, pathways, and studies indicate it is a domain analysis tool used directly for scientific interpretation.",
+        "\"We also provide the source code so that one can clone this tool and run it locally as a web application for their personal use.\" indicates distribution via cloning the repository source."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:18:33Z"
+    }
+  }
+}

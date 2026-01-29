@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/bayesn/bayesn",
+  "url": "https://github.com/bayesn/bayesn",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2024arXiv240108755G",
+      "https://ui.adsabs.harvard.edu/abs/2024ascl.soft04011G/abstract"
+    ],
+    "title": "BayeSN: NumPyro implementation of BayeSN",
+    "url": "https://github.com/bayesn/bayesn",
+    "name": "bayesn",
+    "full_name": "bayesn/bayesn",
+    "html_url": "https://github.com/bayesn/bayesn",
+    "description": "A numpyro implementation of BayeSN, the optical-NIR SED model for type Ia supernovae",
+    "created_at": "2023-09-26T15:35:55Z",
+    "updated_at": "2024-05-04T22:05:33Z",
+    "clone_url": "https://github.com/bayesn/bayesn.git",
+    "size": 7487,
+    "stargazers_count": 9,
+    "watchers_count": 9,
+    "language": "Jupyter Notebook",
+    "open_issues_count": 3,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/bayesn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/89660624?v=4",
+      "login": "bayesn",
+      "type": "Organization"
+    },
+    "timestamp": "2024-05-05 00:36:23.509591",
+    "avatar": "https://avatars.githubusercontent.com/u/89660624?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "\"Developed and maintained by: Matt Grayling ... on behalf of the BayeSN Team (@bayesn).\"",
+        "\"BayeSN is a probabilistic optical-NIR SED model for type Ia supernovae, allowing for hierarchical analysis of the population distribution of physical properties as well as cosmology-independent distance estimation for individual SNe.\"",
+        "\"BayeSN can be pip-installed via the command `pip install bayesn`.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T22:00:20Z"
+    }
+  }
+}

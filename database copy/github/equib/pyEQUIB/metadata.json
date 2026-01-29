@@ -1,0 +1,67 @@
+{
+  "parser": "github",
+  "uid": "github/equib/pyEQUIB",
+  "url": "https://github.com/equib/pyEQUIB",
+  "data": {
+    "timestamp": "2020-11-29 00:22:13.792388",
+    "name": "pyEQUIB",
+    "url": "https://api.github.com/repos/equib/pyEQUIB",
+    "full_name": "equib/pyEQUIB",
+    "html_url": "https://github.com/equib/pyEQUIB",
+    "private": false,
+    "description": "pyEQUIB - Python Package for Plasma Diagnostics and Abundance Analysis",
+    "created_at": "2018-02-17T01:23:06Z",
+    "updated_at": "2020-11-25T04:09:52Z",
+    "clone_url": "https://github.com/equib/pyEQUIB.git",
+    "homepage": "https://equib.github.io/pyEQUIB/",
+    "size": 3826,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "Python",
+    "open_issues_count": 0,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 0,
+    "owner": {
+      "html_url": "https://github.com/equib",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/24842786?v=4",
+      "login": "equib",
+      "type": "Organization"
+    },
+    "topics": [
+      "atomic-level-populations",
+      "chemical-elements",
+      "line-emissivities",
+      "statistical-equilibrium",
+      "python",
+      "pyequib"
+    ]
+  },
+  "doi": "https://doi.org/10.5281/zenodo.4287576",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Vendor or commercial entity",
+      "supply_chain_role": "Unknown",
+      "research_role": "Unknown",
+      "distribution_pathway": "Unknown",
+      "distribution_details": null,
+      "evidence": [
+        "\"The documentation for AtomNeb is produced by Sphinx Python Documentation Generator\" (indicates a Python software project but not its role in the supply chain).",
+        "Links to API documentation (\"API Documentation is available on equib.github.io/pyEQUIB\") show it is a code library with an API, but do not specify whether it is used as an application or dependency.",
+        "README snippet does not mention installation method (no reference to PyPI, conda, containers, or binaries), so distribution pathway cannot be determined from README."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T23:45:13Z"
+    }
+  }
+}

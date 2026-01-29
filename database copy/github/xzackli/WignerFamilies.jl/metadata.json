@@ -1,0 +1,69 @@
+{
+  "parser": "github",
+  "uid": "github/xzackli/WignerFamilies.jl",
+  "url": "https://github.com/xzackli/WignerFamilies.jl",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2022PhRvD.106h3501P",
+      "https://ui.adsabs.harvard.edu/abs/2024ascl.soft04007L/abstract"
+    ],
+    "title": "WignerFamilies: Compute families of wigner symbols with recurrence relations",
+    "url": "https://github.com/xzackli/WignerFamilies.jl",
+    "name": "WignerFamilies.jl",
+    "full_name": "xzackli/WignerFamilies.jl",
+    "html_url": "https://github.com/xzackli/WignerFamilies.jl",
+    "description": "compute families of wigner symbols with recurrence relations",
+    "created_at": "2020-04-30T16:18:25Z",
+    "updated_at": "2024-04-15T20:49:28Z",
+    "clone_url": "https://github.com/xzackli/WignerFamilies.jl.git",
+    "size": 490,
+    "stargazers_count": 10,
+    "watchers_count": 10,
+    "language": "Julia",
+    "open_issues_count": 3,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/xzackli",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8048811?v=4",
+      "login": "xzackli",
+      "type": "User"
+    },
+    "topics": [
+      "wigner-symbols",
+      "wigner-3j",
+      "julia",
+      "quantum",
+      "cosmology"
+    ],
+    "timestamp": "2024-05-05 00:36:24.458930",
+    "avatar": "https://avatars.githubusercontent.com/u/8048811?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "Julia General registry",
+      "evidence": [
+        "README install command: \"Pkg.add(\"WignerFamilies\")\"",
+        "\"This package implements methods described in Luscombe and Luban 1998 ... for generating families of Wigner 3j and 6j symbols by recurrence relation.\"",
+        "\"It exposes `wigner3j_f(j₂, j₃, m₂, m₃)` which returns a simple wrapper around a vector of the type`WignerSymbolVector`.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:57:07Z"
+    }
+  }
+}

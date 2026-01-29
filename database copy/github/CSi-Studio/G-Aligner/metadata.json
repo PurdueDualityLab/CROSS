@@ -1,0 +1,51 @@
+{
+  "parser": "github",
+  "uid": "github/CSi-Studio/G-Aligner",
+  "url": "https://github.com/CSi-Studio/G-Aligner",
+  "data": {
+    "doi": "10.1186/S12859-023-05525-4",
+    "name": "G-Aligner",
+    "url": "https://github.com/CSi-Studio/G-Aligner",
+    "full_name": "CSi-Studio/G-Aligner",
+    "html_url": "https://github.com/CSi-Studio/G-Aligner",
+    "description": "G-Aligner: a graph-based feature alignment method for untargeted LC-MS-based metabolomics",
+    "created_at": "2023-06-01T17:26:21Z",
+    "updated_at": "2024-03-25T00:54:56Z",
+    "clone_url": "https://github.com/CSi-Studio/G-Aligner.git",
+    "size": 209,
+    "stargazers_count": 16,
+    "watchers_count": 16,
+    "language": "Python",
+    "open_issues_count": 1,
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/CSi-Studio",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50073614?v=4",
+      "login": "CSi-Studio",
+      "type": "Organization"
+    },
+    "timestamp": "2024-04-28 00:37:06.948467",
+    "avatar": "https://avatars.githubusercontent.com/u/50073614?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Vendor or commercial entity",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"Place the data download from the Zenodo repository as follows.\"",
+        "“G-Aligner: a graph-based feature alignment method for untargeted LC-MS-based metabolomics”",
+        "“G-Aligner enables comprehensive analysis of all potential correspondences among features all runs for the first time.”"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T16:51:18Z"
+    }
+  }
+}

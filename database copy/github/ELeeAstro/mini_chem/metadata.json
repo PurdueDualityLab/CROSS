@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/ELeeAstro/mini_chem",
+  "url": "https://github.com/ELeeAstro/mini_chem",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2022A%26A...664A..82T",
+      "https://ui.adsabs.harvard.edu/abs/2025ascl.soft03021L/abstract"
+    ],
+    "title": "mini-chem: Miniature chemical kinetics model for gas giant GCMs",
+    "url": "https://github.com/ELeeAstro/mini_chem",
+    "name": "mini_chem",
+    "full_name": "ELeeAstro/mini_chem",
+    "html_url": "https://github.com/ELeeAstro/mini_chem",
+    "description": "An efficient, lightweight chemical kinetic scheme for GCM models.",
+    "created_at": "2021-04-07T09:51:27Z",
+    "updated_at": "2024-12-30T11:41:58Z",
+    "clone_url": "https://github.com/ELeeAstro/mini_chem.git",
+    "size": 84605,
+    "stargazers_count": 4,
+    "watchers_count": 4,
+    "language": "Fortran",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/ELeeAstro",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38210132?v=4",
+      "login": "ELeeAstro",
+      "type": "User"
+    },
+    "timestamp": "2025-03-30 00:52:18.191187",
+    "avatar": "https://avatars.githubusercontent.com/u/38210132?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This repository contains the standalone version of mini-chem, containing the source code and testing modules for users to use for their own purposes.\"",
+        "\"Mini-chem is a kinetic chemistry network solver primarily for gas giant atmospheric modelling... making it a lightweight and easy to couple network to large scale 3D GCM models, or other models of interest\"",
+        "\"The fortran code can be compiled by altering the makefiles in each src_ directory. 'make' or 'make debug' ... can be used to compile the examples. The executable is then in the main directory.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T17:05:17Z"
+    }
+  }
+}

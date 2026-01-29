@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/IMMM-SFA/gamut",
+  "url": "https://github.com/IMMM-SFA/gamut",
+  "data": {
+    "timestamp": "2021-10-24 00:35:06.893010",
+    "name": "gamut",
+    "url": "https://api.github.com/repos/IMMM-SFA/gamut",
+    "full_name": "IMMM-SFA/gamut",
+    "html_url": "https://github.com/IMMM-SFA/gamut",
+    "private": false,
+    "description": "An R package to identify multi-sector teleconnection complexity",
+    "created_at": "2019-08-20T20:14:55Z",
+    "updated_at": "2021-10-21T15:13:29Z",
+    "clone_url": "https://github.com/IMMM-SFA/gamut.git",
+    "homepage": "https://immm-sfa.github.io/gamut/",
+    "size": 38044,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": "R",
+    "open_issues_count": 0,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/IMMM-SFA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31457237?v=4",
+      "login": "IMMM-SFA",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "doi": "https://doi.org/10.5281/zenodo.5590217",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"devtools\")\"",
+        "\"gamut is a tool for exploring teleconnections between cities of the United States and human activities that occur in their associated water supply catchments.\"",
+        "\"gamut can be installed remotely from the repository using the R devtools package... devtools::install_github('IMMM-SFA/gamut')\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T17:48:20Z"
+    }
+  }
+}

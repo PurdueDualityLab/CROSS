@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/GalacticDynamics-Oxford/Agama",
+  "url": "https://github.com/GalacticDynamics-Oxford/Agama",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2019MNRAS.482.1525V",
+      "https://ui.adsabs.harvard.edu/abs/2018ascl.soft05008V/abstract"
+    ],
+    "title": "AGAMA: Action-based galaxy modeling framework",
+    "url": "https://github.com/GalacticDynamics-Oxford/Agama",
+    "name": "Agama",
+    "full_name": "GalacticDynamics-Oxford/Agama",
+    "html_url": "https://github.com/GalacticDynamics-Oxford/Agama",
+    "description": "Action-based galaxy modeling framework",
+    "created_at": "2015-09-01T13:04:03Z",
+    "updated_at": "2022-06-26T23:19:52Z",
+    "clone_url": "https://github.com/GalacticDynamics-Oxford/Agama.git",
+    "size": 23621,
+    "stargazers_count": 38,
+    "watchers_count": 38,
+    "language": "C++",
+    "open_issues_count": 6,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 16,
+    "owner": {
+      "html_url": "https://github.com/GalacticDynamics-Oxford",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9365694?v=4",
+      "login": "GalacticDynamics-Oxford",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-17 16:31:17.683464",
+    "avatar": "https://avatars.githubusercontent.com/u/9365694?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This is the AGAMA library for galaxy modelling.\"",
+        "\"The core of the library is written in C++, and there are Python and Fortran interfaces; it may be used as a plugin for other stellar-dynamical software packages: amuse, gala, galpy, nemo.\"",
+        "\"Instructions for compilation are in the file INSTALL. The package also contains collection of examples and test programs both in C++ and Python.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T17:41:13Z"
+    }
+  }
+}

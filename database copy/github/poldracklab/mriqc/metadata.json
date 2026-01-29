@@ -1,0 +1,67 @@
+{
+  "parser": "github",
+  "uid": "github/poldracklab/mriqc",
+  "url": "https://github.com/nipreps/mriqc",
+  "data": {
+    "title": "MRIQC",
+    "url": "https://github.com/nipreps/mriqc",
+    "credit": [],
+    "description": "Automated Quality Control and visual reports for Quality Assessment of structural (T1w, T2w) and functional MRI of the brain",
+    "name": "mriqc",
+    "full_name": "nipreps/mriqc",
+    "html_url": "https://github.com/nipreps/mriqc",
+    "created_at": "2016-01-04T18:31:38Z",
+    "updated_at": "2022-07-18T09:56:34Z",
+    "clone_url": "https://github.com/nipreps/mriqc.git",
+    "homepage": "http://mriqc.readthedocs.io",
+    "size": 93056,
+    "stargazers_count": 203,
+    "watchers_count": 203,
+    "language": "Python",
+    "open_issues_count": 80,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "subscribers_count": 17,
+    "owner": {
+      "html_url": "https://github.com/nipreps",
+      "avatar_url": "https://avatars.githubusercontent.com/u/48300745?v=4",
+      "login": "nipreps",
+      "type": "Organization"
+    },
+    "topics": [
+      "mri",
+      "quality-control",
+      "quality-reporter",
+      "machine-learning",
+      "neuroimaging"
+    ],
+    "timestamp": "2022-07-18 17:45:54.983648",
+    "avatar": "https://avatars.githubusercontent.com/u/48300745?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Containers",
+      "distribution_details": null,
+      "evidence": [
+        "README container command: \"docker run --rm -v .:/src/mriqc mriqc_devel\"",
+        "\"MRIQC extracts no-reference IQMs (image quality metrics) from structural (T1w and T2w), functional and diffusion MRI...\" (end-user analysis application).",
+        "\"This work is steered and maintained by the `NiPreps Community <https://www.nipreps.org>`__.\" (community governance)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:55:15Z"
+    }
+  }
+}

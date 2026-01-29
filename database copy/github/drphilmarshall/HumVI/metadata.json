@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/drphilmarshall/HumVI",
+  "url": "https://github.com/drphilmarshall/HumVI",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2016MNRAS.455.1171M",
+      "https://ui.adsabs.harvard.edu/abs/2015ascl.soft11014M/abstract"
+    ],
+    "title": "HumVI: Human Viewable Image creation",
+    "url": "https://github.com/drphilmarshall/HumVI",
+    "name": "HumVI",
+    "full_name": "drphilmarshall/HumVI",
+    "html_url": "https://github.com/drphilmarshall/HumVI",
+    "description": "Color composite image creation, mostly following the Lupton, Wherry et al (2004) algorithm.",
+    "created_at": "2012-05-17T03:50:51Z",
+    "updated_at": "2022-07-04T06:14:44Z",
+    "clone_url": "https://github.com/drphilmarshall/HumVI.git",
+    "size": 34647,
+    "stargazers_count": 12,
+    "watchers_count": 12,
+    "language": "Python",
+    "open_issues_count": 5,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 7,
+    "owner": {
+      "html_url": "https://github.com/drphilmarshall",
+      "avatar_url": "https://avatars.githubusercontent.com/u/710903?v=4",
+      "login": "drphilmarshall",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:22:33.450000",
+    "avatar": "https://avatars.githubusercontent.com/u/710903?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"The main executable script is `HumVI.py`. It takes in 3 FITS files as input, and returns a color composite, color-saturated png image\" (end-user program behavior).",
+        "\"If you use HumVI in your research, please cite this paper ... (Marshall et al 2015).\" (used directly in research workflows to generate results/figures).",
+        "README shows usage via cloning and running `HumVI.py`, with no mention of package managers or binaries, implying distribution via the GitHub source repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T23:37:11Z"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "parser": "github",
+  "uid": "github/FergusDonnan/Running-Optimal-Average",
+  "url": "https://github.com/FergusDonnan/Running-Optimal-Average",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2021arXiv210712318D",
+      "https://ui.adsabs.harvard.edu/abs/2021ascl.soft07002D/abstract"
+    ],
+    "title": "ROA: Running Optimal Average",
+    "url": "https://github.com/FergusDonnan/Running-Optimal-Average",
+    "name": "Running-Optimal-Average",
+    "full_name": "FergusDonnan/Running-Optimal-Average",
+    "html_url": "https://github.com/FergusDonnan/Running-Optimal-Average",
+    "created_at": "2021-03-19T11:25:02Z",
+    "updated_at": "2021-07-02T10:50:54Z",
+    "clone_url": "https://github.com/FergusDonnan/Running-Optimal-Average.git",
+    "size": 9,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Python",
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/FergusDonnan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/80899217?v=4",
+      "login": "FergusDonnan",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:11:35.810939",
+    "avatar": "https://avatars.githubusercontent.com/u/80899217?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install ROA\"",
+        "\"install using pip: pip install ROA\" (indicates distribution via Python package registry, likely PyPI)",
+        "\"Import using: from ROA import RunningOptimalAverage\" (shows it is intended to be imported as a library/dependency)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T17:17:45Z"
+    }
+  }
+}

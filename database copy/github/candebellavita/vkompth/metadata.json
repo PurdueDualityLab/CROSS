@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/candebellavita/vkompth",
+  "url": "https://github.com/candebellavita/vkompth",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2022arXiv220613609B",
+      "https://ui.adsabs.harvard.edu/abs/2022ascl.soft07020B/abstract"
+    ],
+    "title": "vKompth: Time-dependent Comptonization model for black-hole X-ray binaries",
+    "url": "https://github.com/candebellavita/vkompth",
+    "name": "vkompth",
+    "full_name": "candebellavita/vkompth",
+    "html_url": "https://github.com/candebellavita/vkompth",
+    "created_at": "2022-03-14T15:15:46Z",
+    "updated_at": "2022-07-29T09:24:48Z",
+    "clone_url": "https://github.com/candebellavita/vkompth.git",
+    "size": 651,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Fortran",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/candebellavita",
+      "avatar_url": "https://avatars.githubusercontent.com/u/79205399?v=4",
+      "login": "candebellavita",
+      "type": "User"
+    },
+    "timestamp": "2022-07-31 00:40:08.475879",
+    "avatar": "https://avatars.githubusercontent.com/u/79205399?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This is the Fortran version of the vKompth code from Bellavita et al. 2022...\" (research code tied to specific papers, hosted under a personal GitHub user).",
+        "\"Run `make` to compile the main program `vKompth` source code, together with the corresponding XSPEC models and python wrappers\" (end-user program and models for analysis).",
+        "\"A GUI will load plotting both rms and lags for `vkompthbb` and `vkompthdk` model variants, allowing to modify parameters on-the-fly\" and instructions are all based on cloning/compiling from source, with no mention of package managers or binaries."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T22:49:06Z"
+    }
+  }
+}

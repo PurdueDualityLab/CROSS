@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/fforster/delight",
+  "url": "https://github.com/fforster/DELIGHT",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2022arXiv220804310F",
+      "https://ui.adsabs.harvard.edu/abs/2022ascl.soft08012F/abstract"
+    ],
+    "title": "DELIGHT: Identify host galaxies of transient candidates",
+    "url": "https://github.com/fforster/DELIGHT",
+    "name": "DELIGHT",
+    "full_name": "fforster/DELIGHT",
+    "html_url": "https://github.com/fforster/DELIGHT",
+    "description": "Deep Learning Identification of Galaxy Hosts in Transients",
+    "created_at": "2022-01-16T21:53:20Z",
+    "updated_at": "2022-08-12T15:45:23Z",
+    "clone_url": "https://github.com/fforster/DELIGHT.git",
+    "size": 122777,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "Python",
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/fforster",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5090828?v=4",
+      "login": "fforster",
+      "type": "User"
+    },
+    "timestamp": "2022-09-04 00:43:34.930666",
+    "avatar": "https://avatars.githubusercontent.com/u/5090828?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"* xarray (`python -m pip install xarray`)\"",
+        "\"The Deep Learning Identification of Galaxy Hosts in Transients (DELIGHT, Förster et al. 2022) is a library created by the ALeRCE broker to automatically identify host galaxies of transient candidates using multi-resolution images and a convolutional neural network\"",
+        "\"You can install it using `pip install astro-delight`, but we recommend cloning this repository and `pip install .` from there.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:51:37Z"
+    }
+  }
+}

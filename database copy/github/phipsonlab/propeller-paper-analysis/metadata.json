@@ -1,0 +1,56 @@
+{
+  "parser": "github",
+  "uid": "github/phipsonlab/propeller-paper-analysis",
+  "url": "https://github.com/phipsonlab/propeller-paper-analysis",
+  "data": {
+    "doi": "10.1093/BIOINFORMATICS/BTAC582",
+    "name": "propeller-paper-analysis",
+    "url": "https://github.com/phipsonlab/propeller-paper-analysis",
+    "full_name": "phipsonlab/propeller-paper-analysis",
+    "html_url": "https://github.com/phipsonlab/propeller-paper-analysis",
+    "description": "The website hosts the analysis and evaluation of different statistical methods for  determining differences in cell type proportions in single cell RNA-seq data.",
+    "created_at": "2022-05-31T23:56:50Z",
+    "updated_at": "2022-09-15T09:40:12Z",
+    "clone_url": "https://github.com/phipsonlab/propeller-paper-analysis.git",
+    "size": 5306,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/phipsonlab",
+      "avatar_url": "https://avatars.githubusercontent.com/u/103480133?v=4",
+      "login": "phipsonlab",
+      "type": "Organization"
+    },
+    "timestamp": "2022-11-06 00:44:32.618692",
+    "avatar": "https://avatars.githubusercontent.com/u/103480133?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This github repository hosts the analysis for the propeller paper.\"",
+        "\"The analysis website can be found at the following link: https://phipsonlab.github.io/propeller-paper-analysis/\"",
+        "\"A [workflowr][] project.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T01:51:32Z"
+    }
+  }
+}

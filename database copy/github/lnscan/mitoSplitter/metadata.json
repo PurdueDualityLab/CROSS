@@ -1,0 +1,50 @@
+{
+  "parser": "github",
+  "uid": "github/lnscan/mitoSplitter",
+  "url": "https://github.com/lnscan/mitoSplitter",
+  "data": {
+    "doi": "10.1073/pnas.2307722120",
+    "name": "mitoSplitter",
+    "url": "https://github.com/lnscan/mitoSplitter",
+    "full_name": "lnscan/mitoSplitter",
+    "html_url": "https://github.com/lnscan/mitoSplitter",
+    "created_at": "2023-04-15T10:18:29Z",
+    "updated_at": "2023-09-21T10:41:27Z",
+    "clone_url": "https://github.com/lnscan/mitoSplitter.git",
+    "size": 509140,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "JavaScript",
+    "open_issues_count": 1,
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/lnscan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63651125?v=4",
+      "login": "lnscan",
+      "type": "User"
+    },
+    "timestamp": "2023-11-12 00:35:25.727208",
+    "avatar": "https://avatars.githubusercontent.com/u/63651125?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install -r requirement.txt\"",
+        "Install instructions use git clone from GitHub and local environment setup: `git clone https://github.com/lnscan/mitoSplitter.git`",
+        "Usage is via a shell pipeline script as an end-user tool: `sh mitoSplitter_pipeline.sh <-i input.bam> <-b barcode.list> <-o out_dir> ...`"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:56:20Z"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "parser": "github",
+  "uid": "github/smirarab/sepp",
+  "url": "https://github.com/smirarab/sepp",
+  "data": {
+    "title": "SEPP",
+    "url": "https://github.com/smirarab/sepp",
+    "credit": [],
+    "tags": [
+      "metagenomic-sequencing-analysis",
+      "high-throughput-sequencing"
+    ],
+    "description": "Ensemble of HMM methods (SEPP, TIPP, UPP)",
+    "name": "sepp",
+    "full_name": "smirarab/sepp",
+    "html_url": "https://github.com/smirarab/sepp",
+    "created_at": "2012-07-05T21:35:23Z",
+    "updated_at": "2022-05-26T20:32:49Z",
+    "clone_url": "https://github.com/smirarab/sepp.git",
+    "size": 34827,
+    "stargazers_count": 63,
+    "watchers_count": 63,
+    "language": "Python",
+    "open_issues_count": 21,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 16,
+    "owner": {
+      "html_url": "https://github.com/smirarab",
+      "avatar_url": "https://avatars.githubusercontent.com/u/826296?v=4",
+      "login": "smirarab",
+      "type": "User"
+    },
+    "timestamp": "2022-07-18 17:46:48.581647",
+    "avatar": "https://avatars.githubusercontent.com/u/826296?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "Anaconda (bioconda)",
+      "evidence": [
+        "\"This repository includes code for SEPP, TIPP, UPP, HIPPI.  The three methods use ensembles of Hidden Markov Models (HMMs) in different ways, each focusing on a different problem.\"",
+        "\"SEPP... addresses the problem of phylogenetic placement of short reads into reference alignments and trees.\" and similar descriptions for UPP and HIPPI performing domain-specific analyses.",
+        "\"SEPP, TIPP, UPP, HIPPI are under active research development at UIUC by the Warnow Lab and former student Siavash Mirarab (now at UCSD).\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T03:30:41Z"
+    }
+  }
+}

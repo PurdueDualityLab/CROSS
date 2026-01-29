@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/sfschen/velocileptors",
+  "url": "https://github.com/sfschen/velocileptors",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2020JCAP...07..062C",
+      "https://ui.adsabs.harvard.edu/abs/2023ascl.soft08014C/abstract"
+    ],
+    "title": "velocileptors: Velocity-based Lagrangian and Eulerian PT expansions of redshift-space distortions",
+    "url": "https://github.com/sfschen/velocileptors",
+    "name": "velocileptors",
+    "full_name": "sfschen/velocileptors",
+    "html_url": "https://github.com/sfschen/velocileptors",
+    "description": "A code for velocity-based Lagrangian and Eulerian PT expansions of redshift-space distortions.",
+    "created_at": "2020-02-01T19:18:22Z",
+    "updated_at": "2023-07-29T09:47:35Z",
+    "clone_url": "https://github.com/sfschen/velocileptors.git",
+    "size": 6981,
+    "stargazers_count": 15,
+    "watchers_count": 15,
+    "language": "Jupyter Notebook",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 7,
+    "owner": {
+      "html_url": "https://github.com/sfschen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8505965?v=4",
+      "login": "sfschen",
+      "type": "User"
+    },
+    "timestamp": "2023-09-03 00:32:32.280700",
+    "avatar": "https://avatars.githubusercontent.com/u/8505965?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"python3 -m pip install -v git+https://github.com/sfschen/velocileptors\"",
+        "\"This code computes the real- and redshift-space power spectra and correlation functions of biased tracers using 1-loop perturbation theory\"",
+        "\"For most situations computing the power spectrum wedges or multipoles is as simple as:\n\n```\nfrom velocileptors.LPT.moment_expansion_fftw import MomentExpansion\n```\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T03:23:47Z"
+    }
+  }
+}

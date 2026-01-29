@@ -1,0 +1,57 @@
+{
+  "parser": "github",
+  "uid": "github/highamm/sptotal",
+  "url": "https://github.com/highamm/sptotal",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.7962631",
+    "name": "sptotal",
+    "url": "https://github.com/highamm/sptotal",
+    "full_name": "highamm/sptotal",
+    "html_url": "https://github.com/highamm/sptotal",
+    "description": "Package for Fitting Spatial Linear Models and Predicting Total Abundances for Finite Populations",
+    "created_at": "2019-02-18T00:56:03Z",
+    "updated_at": "2023-05-24T18:29:01Z",
+    "clone_url": "https://github.com/highamm/sptotal.git",
+    "size": 10051,
+    "stargazers_count": 4,
+    "watchers_count": 4,
+    "language": "R",
+    "license": {
+      "key": "gpl-2.0",
+      "name": "GNU General Public License v2.0",
+      "spdx_id": "GPL-2.0",
+      "url": "https://api.github.com/licenses/gpl-2.0",
+      "node_id": "MDc6TGljZW5zZTg="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/highamm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34220951?v=4",
+      "login": "highamm",
+      "type": "User"
+    },
+    "timestamp": "2023-05-28 00:37:45.074908",
+    "avatar": "https://avatars.githubusercontent.com/u/34220951?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"sptotal\")\"",
+        "\"`sptotal` implements finite population block kriging (FPBK...)\" and is described as an R package with functions like `slmfit()` and `predict.slmfit()` indicating it is intended to be used by other R code as a package dependency.",
+        "\"The `sptotal` package can be used for spatial prediction in settings where there are a finite number of sites and some of these sites were not sampled.\" This shows it directly performs domain-specific spatial prediction for research data."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:19:59Z"
+    }
+  }
+}

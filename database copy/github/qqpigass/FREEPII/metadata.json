@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/qqpigass/FREEPII",
+  "url": "https://github.com/qqpigass/FREEPII",
+  "data": {
+    "name": "FREEPII",
+    "url": "https://github.com/qqpigass/FREEPII",
+    "full_name": "qqpigass/FREEPII",
+    "html_url": "https://github.com/qqpigass/FREEPII",
+    "private": false,
+    "description": "Source code for FREEPII",
+    "created_at": "2024-04-11T11:17:30Z",
+    "updated_at": "2025-01-23T07:23:40Z",
+    "clone_url": "https://github.com/qqpigass/FREEPII.git",
+    "homepage": null,
+    "size": 144535,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": "Python",
+    "open_issues_count": 0,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/qqpigass",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68411347?v=4",
+      "login": "qqpigass",
+      "type": "User"
+    },
+    "topics": [],
+    "timestamp": "2025-08-10 01:00:09.096444",
+    "avatar": "https://avatars.githubusercontent.com/u/68411347?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"Note: The current GO association is established based on the go.obo in the folder. If you download a new go.obo, please re-establish the GO association, otherwise there may be an error when running th\"",
+        "\"Execute the following command to run the preprocessing process `python -W ignore ./Code/preprocess_step.py`\" (end users run scripts directly).",
+        "\"Execute the following command to train FREEPII and generate predicted PPIs and clusters `python -W ignore ./Code/run_FREEPII.py`\" (application-style usage to produce predictions and complexes)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T02:01:15Z"
+    }
+  }
+}

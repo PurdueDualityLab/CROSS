@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/open-aviation/tangram",
+  "url": "https://github.com/open-aviation/tangram",
+  "data": {
+    "doi": "https://doi.org/10.6084/m9.figshare.30401569",
+    "name": "tangram",
+    "url": "https://github.com/open-aviation/tangram",
+    "full_name": "open-aviation/tangram",
+    "html_url": "https://github.com/open-aviation/tangram",
+    "description": "An open platform for modular, real-time aviation research",
+    "created_at": "2023-03-09T13:58:41Z",
+    "updated_at": "2025-11-06T14:04:38Z",
+    "clone_url": "https://github.com/open-aviation/tangram.git",
+    "homepage": "http://mode-s.org/tangram/",
+    "size": 18053,
+    "stargazers_count": 20,
+    "watchers_count": 20,
+    "language": "Python",
+    "open_issues_count": 2,
+    "license": {
+      "key": "agpl-3.0",
+      "name": "GNU Affero General Public License v3.0",
+      "spdx_id": "AGPL-3.0",
+      "url": "https://api.github.com/licenses/agpl-3.0",
+      "node_id": "MDc6TGljZW5zZTE="
+    },
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/open-aviation",
+      "avatar_url": "https://avatars.githubusercontent.com/u/104085040?v=4",
+      "login": "open-aviation",
+      "type": "Organization"
+    },
+    "timestamp": "2025-11-09 00:55:02.387463",
+    "avatar": "https://avatars.githubusercontent.com/u/104085040?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "\"tangram is a modular platform for real-time geospatial and air traffic management research. Built on a plugin-first architecture, it enables researchers to visualize and analyze moving entities... in a unified web interface.\"",
+        "\"This project is currently funded by the Dutch Research Council (NWO)'s Open Science Fund\" and the history section describes development within an academic research context.",
+        "PyPI badges at the top of the README: \"https://img.shields.io/pypi/v/tangram-core.svg\" linking to \"https://pypi.python.org/pypi/tangram-core\"."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T01:43:29Z"
+    }
+  }
+}

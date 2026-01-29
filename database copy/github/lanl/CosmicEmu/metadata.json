@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/lanl/CosmicEmu",
+  "url": "https://github.com/lanl/CosmicEmu",
+  "data": {
+    "doi": [],
+    "title": "CosmicEmu: High Precision Emulator for the Nonlinear Matter Power Spectrum",
+    "url": "https://github.com/lanl/CosmicEmu",
+    "name": "CosmicEmu",
+    "full_name": "lanl/CosmicEmu",
+    "html_url": "https://github.com/lanl/CosmicEmu",
+    "description": "Fast predictions for the matter power spectrum.",
+    "created_at": "2017-04-13T19:32:11Z",
+    "updated_at": "2022-07-26T17:52:36Z",
+    "clone_url": "https://github.com/lanl/CosmicEmu.git",
+    "size": 1570,
+    "stargazers_count": 10,
+    "watchers_count": 10,
+    "language": "C",
+    "open_issues_count": 1,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/lanl",
+      "avatar_url": "https://avatars.githubusercontent.com/u/585305?v=4",
+      "login": "lanl",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-31 00:40:22.841385",
+    "avatar": "https://avatars.githubusercontent.com/u/585305?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"The Cosmic Emu requires the GNU Scientific Library (GSL). The makefile for both spectrum emulators includes lines to point to your installation of the GSL. The Cosmic Emu can produce predictions for t\"",
+        "\"The Cosmic Emu produces predictions for the matter power spectrum based on eight cosmological parameters and redshift.\"",
+        "\"Simply type \\\"make\\\" at the command line to compile. The resulting program, emu.exe, is intended to be a demonstration of how to use the emu() and emuInit() functions.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:49:27Z"
+    }
+  }
+}

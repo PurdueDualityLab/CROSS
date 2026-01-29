@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/madysonb/EVA",
+  "url": "https://github.com/madysonb/EVA",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2023ApJ...953..127B",
+      "https://ui.adsabs.harvard.edu/abs/2024ascl.soft06014B/abstract"
+    ],
+    "title": "EVA: Excess Variability-based Age",
+    "url": "https://github.com/madysonb/EVA",
+    "name": "EVA",
+    "full_name": "madysonb/EVA",
+    "html_url": "https://github.com/madysonb/EVA",
+    "description": "Calculate group age using Gaia excess uncertainties",
+    "created_at": "2023-02-08T18:36:12Z",
+    "updated_at": "2023-08-03T14:50:26Z",
+    "clone_url": "https://github.com/madysonb/EVA.git",
+    "size": 23579,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "Jupyter Notebook",
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/madysonb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54335494?v=4",
+      "login": "madysonb",
+      "type": "User"
+    },
+    "timestamp": "2024-06-30 00:39:08.466664",
+    "avatar": "https://avatars.githubusercontent.com/u/54335494?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This notebook computes the VarX values and VarX90 ages for a given list of stars\"",
+        "\"A seperate python file (analysisFunctions.py) contains all function definitions used below, as well as some additional helper functions.\"",
+        "\"An example use is in Var90Diagnostic.ipynb\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T01:00:12Z"
+    }
+  }
+}

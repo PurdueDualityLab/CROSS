@@ -1,0 +1,49 @@
+{
+  "parser": "github",
+  "uid": "github/biofold/PhD-SNPg",
+  "url": "https://github.com/biofold/PhD-SNPg",
+  "data": {
+    "doi": "10.1093/nar/gkx369",
+    "name": "PhD-SNPg",
+    "url": "https://github.com/biofold/PhD-SNPg",
+    "full_name": "biofold/PhD-SNPg",
+    "html_url": "https://github.com/biofold/PhD-SNPg",
+    "created_at": "2016-04-14T16:04:30Z",
+    "updated_at": "2023-01-31T16:42:39Z",
+    "clone_url": "https://github.com/biofold/PhD-SNPg.git",
+    "size": 89756,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Python",
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/biofold",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15142086?v=4",
+      "login": "biofold",
+      "type": "Organization"
+    },
+    "timestamp": "2023-04-23 00:39:37.624592",
+    "avatar": "https://avatars.githubusercontent.com/u/15142086?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"1) Download PhD-SNPg script from github\"",
+        "\"PhD-SNPg is a program for the annotation of single nucleotide variants that uses data from the UCSC repository.\"",
+        "\"PhD-SNPg can take in input a single variation or a file containing multiple single nucleotide variants.\" and example commands like \"python2 predict_variants.py test/test_variants_hg38.tsv -g hg38\" indicate it is run as an end-user analysis tool."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T22:06:06Z"
+    }
+  }
+}

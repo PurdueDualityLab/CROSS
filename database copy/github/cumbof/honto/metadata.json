@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/cumbof/honto",
+  "url": "https://github.com/cumbof/honto",
+  "data": {
+    "doi": "10.1093/BIOINFORMATICS/BTAC763",
+    "name": "honto",
+    "url": "https://github.com/cumbof/honto",
+    "full_name": "cumbof/honto",
+    "html_url": "https://github.com/cumbof/honto",
+    "description": "A novel method for assessing and measuring homophily in networks",
+    "created_at": "2022-05-06T01:52:53Z",
+    "updated_at": "2022-12-17T00:32:08Z",
+    "clone_url": "https://github.com/cumbof/honto.git",
+    "size": 154504,
+    "stargazers_count": 4,
+    "watchers_count": 4,
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/cumbof",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3764656?v=4",
+      "login": "cumbof",
+      "type": "User"
+    },
+    "topics": [
+      "graphs",
+      "homophily",
+      "networks"
+    ],
+    "timestamp": "2023-01-29 00:42:08.040743",
+    "avatar": "https://avatars.githubusercontent.com/u/3764656?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install honto\"",
+        "\"`honto` is a tool designed for assessing and measuring homophily in networks whose nodes have categorical attributes\"",
+        "\"Once installed, you can start running `honto` by specifying some arguments: `honto --input_edges ...`\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:13:18Z"
+    }
+  }
+}

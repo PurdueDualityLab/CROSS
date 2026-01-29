@@ -1,0 +1,55 @@
+{
+  "parser": "github",
+  "uid": "github/fjdu/myRadex",
+  "url": "https://github.com/fjdu/myRadex",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2016A%26A...586A..50G",
+      "https://ui.adsabs.harvard.edu/abs/2022ascl.soft05011D/abstract"
+    ],
+    "title": "myRadex: Radex with a twist",
+    "url": "https://github.com/fjdu/myRadex",
+    "name": "myRadex",
+    "full_name": "fjdu/myRadex",
+    "html_url": "https://github.com/fjdu/myRadex",
+    "description": "Similar to radex, with a different way to solve the statistical equilibrium problem",
+    "created_at": "2014-06-16T05:01:17Z",
+    "updated_at": "2021-11-25T05:40:06Z",
+    "clone_url": "https://github.com/fjdu/myRadex.git",
+    "size": 5105,
+    "stargazers_count": 5,
+    "watchers_count": 5,
+    "language": "Fortran",
+    "open_issues_count": 4,
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/fjdu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1042334?v=4",
+      "login": "fjdu",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 16:48:42.806021",
+    "avatar": "https://avatars.githubusercontent.com/u/1042334?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"To use this code, you first need to compile it using the `makefile` (the executable is named `my_radex`) by running `make` in the command line, then edit the configuration file (`configure.dat`) to meet your needs.  After this execute the command `./my_radex configure.dat` and you will get the results.\"",
+        "\"This code solves essentially the same problem as `RADEX` ... except that we take a different approach to solve the statistical equilibrium problem. Given an initial distribution, what we do is to evolve the system towards equilibrium using an ODE solver.\"",
+        "\"For its usage, see [this Jupyter notebook](https://github.com/fjdu/myRadex/blob/master/example.ipynb).\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T23:52:28Z"
+    }
+  }
+}

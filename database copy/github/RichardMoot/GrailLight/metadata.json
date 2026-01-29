@@ -1,0 +1,69 @@
+{
+  "parser": "github",
+  "uid": "github/RichardMoot/GrailLight",
+  "url": "https://github.com/RichardMoot/GrailLight",
+  "data": {
+    "name": "GrailLight",
+    "url": "https://github.com/RichardMoot/GrailLight",
+    "full_name": "RichardMoot/GrailLight",
+    "html_url": "https://github.com/RichardMoot/GrailLight",
+    "private": false,
+    "description": "Light-weight chart parser for multimodal type-logical grammars",
+    "created_at": "2015-03-24T16:24:00Z",
+    "updated_at": "2021-07-23T03:21:27Z",
+    "clone_url": "https://github.com/RichardMoot/GrailLight.git",
+    "homepage": null,
+    "size": 16857,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "Prolog",
+    "open_issues_count": 3,
+    "license": {
+      "key": "lgpl-2.1",
+      "name": "GNU Lesser General Public License v2.1",
+      "spdx_id": "LGPL-2.1",
+      "url": "https://api.github.com/licenses/lgpl-2.1",
+      "node_id": "MDc6TGljZW5zZTEx"
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/RichardMoot",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1473033?v=4",
+      "login": "RichardMoot",
+      "type": "User"
+    },
+    "topics": [
+      "parser",
+      "parsing",
+      "logical-grammars",
+      "logic-programming",
+      "chart-parser",
+      "categorial-grammar",
+      "natural-language-processing",
+      "natural-language-understanding"
+    ],
+    "timestamp": "2023-07-02 01:41:39.227172",
+    "avatar": "https://avatars.githubusercontent.com/u/1473033?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Grail Light is a light-weight chart parser for multimodal type-logical grammars, written in SWI Prolog. It is accompanied by a set of auxiliary tools for interaction with the supertagger, interactive parsing, corpus extraction, etc.\"",
+        "\"Clone the repository, enter the Grail Light directory, start SWI Prolog then type. `[grail_light_cr,annodis].` This will load Grail Light as well as the sentences from the Annodis corpus. To parse a sentence, type `sentence(2, Semantics).`\"",
+        "\"Together with DeepGrail ... Grail Light can function as a wide-coverage parser for French, assigning Discourse Representation Structures as the meaning of parsed sentences. Grail Light produces natural deduction proofs like those found in the TLGbank\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T20:09:33Z"
+    }
+  }
+}

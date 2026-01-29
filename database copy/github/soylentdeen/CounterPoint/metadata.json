@@ -1,0 +1,55 @@
+{
+  "parser": "github",
+  "uid": "github/soylentdeen/CounterPoint",
+  "url": "https://github.com/soylentdeen/CounterPoint",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2013AJ....146...51D",
+      "https://ui.adsabs.harvard.edu/abs/2015ascl.soft12013D/abstract"
+    ],
+    "title": "CounterPoint: Zeeman-split absorption lines",
+    "url": "https://github.com/soylentdeen/CounterPoint",
+    "name": "CounterPoint",
+    "full_name": "soylentdeen/CounterPoint",
+    "html_url": "https://github.com/soylentdeen/CounterPoint",
+    "description": "Python Companion to MoogStokes",
+    "created_at": "2012-02-29T12:22:46Z",
+    "updated_at": "2021-09-03T15:55:17Z",
+    "clone_url": "https://github.com/soylentdeen/CounterPoint.git",
+    "homepage": "http://www.mpia.de/~deen/Software/CounterPoint/CounterPoint.html",
+    "size": 136,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "Python",
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/soylentdeen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/210195?v=4",
+      "login": "soylentdeen",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:22:25.598090",
+    "avatar": "https://avatars.githubusercontent.com/u/210195?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This is CounterPoint, the Python Companion to MoogStokes\" (indicates a Python tool likely imported/used alongside another research code)",
+        "Minimal README with no mention of institutions, companies, or communities suggests an individual-maintained project.",
+        "Described as a companion to MoogStokes, which implies it is part of a scientific workflow and directly tied to research code rather than generic tooling."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T03:43:56Z"
+    }
+  }
+}

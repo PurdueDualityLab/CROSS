@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/ajshajib/LensingETC",
+  "url": "https://github.com/ajshajib/LensingETC",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2022ApJ...938..141S",
+      "https://ui.adsabs.harvard.edu/abs/2022ascl.soft10027S/abstract"
+    ],
+    "title": "LensingETC: Lensing Exposure Time Calculator",
+    "url": "https://github.com/ajshajib/LensingETC",
+    "name": "LensingETC",
+    "full_name": "ajshajib/LensingETC",
+    "html_url": "https://github.com/ajshajib/LensingETC",
+    "description": "Lensing Exposure Time Calculator",
+    "created_at": "2022-01-26T06:12:55Z",
+    "updated_at": "2022-03-11T02:16:36Z",
+    "clone_url": "https://github.com/ajshajib/LensingETC.git",
+    "size": 84012,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Jupyter Notebook",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/ajshajib",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20169048?v=4",
+      "login": "ajshajib",
+      "type": "User"
+    },
+    "timestamp": "2022-11-06 00:42:45.830070",
+    "avatar": "https://avatars.githubusercontent.com/u/20169048?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install lenstronomy\"",
+        "\"The `LensingETC` tool allows to optimize observing strategies for multi-filter imaging campaigns of galaxy-scale strong lensing systems.\"",
+        "\"This package does not need an installation, as it is intended to be used through a Jupyter notebook that is placed at the same directory of the file `lensing_etc.py`.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T21:03:28Z"
+    }
+  }
+}

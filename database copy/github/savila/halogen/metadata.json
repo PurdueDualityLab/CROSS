@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/savila/halogen",
+  "url": "https://github.com/savila/HALOGEN",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2015MNRAS.450.1856A",
+      "https://ui.adsabs.harvard.edu/abs/2015ascl.soft05017A/abstract"
+    ],
+    "title": "HALOGEN: Approximate synthetic halo catalog generator",
+    "url": "https://github.com/savila/HALOGEN",
+    "name": "HALOGEN",
+    "full_name": "savila/HALOGEN",
+    "html_url": "https://github.com/savila/HALOGEN",
+    "created_at": "2014-12-11T14:28:00Z",
+    "updated_at": "2015-05-08T04:16:16Z",
+    "clone_url": "https://github.com/savila/HALOGEN.git",
+    "size": 9740,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "C",
+    "open_issues_count": 6,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/savila",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6678454?v=4",
+      "login": "savila",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:23:00.241638",
+    "avatar": "https://avatars.githubusercontent.com/u/6678454?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"HALOGEN is a C program for creating realistic synthetic dark matter halo catalogs in a flash.\"",
+        "\"After modifying ``Makefile.defs``, all (4) executables can be compiled with ``make``... The executables will be compiled into the top-level directory.\"",
+        "\"The primary usage is by using the fully combined executable, and simply runs as $ 2LPT-HALOGEN <2LPT.input> <HALOGEN.input>\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T03:19:09Z"
+    }
+  }
+}

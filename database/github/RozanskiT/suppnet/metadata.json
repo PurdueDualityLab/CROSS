@@ -1,39 +1,258 @@
 {
-    "parser": "github",
-    "uid": "github/RozanskiT/suppnet",
+  "parser": "github",
+  "uid": "github/RozanskiT/suppnet",
+  "url": "https://github.com/RozanskiT/suppnet",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2021arXiv211115052R",
+      "https://ui.adsabs.harvard.edu/abs/2022ascl.soft02004R/abstract"
+    ],
+    "title": "SUPPNet: Spectrum normalization neural network",
     "url": "https://github.com/RozanskiT/suppnet",
-    "data": {
-        "doi": [
-            "https://ui.adsabs.harvard.edu/abs/2021arXiv211115052R",
-            "https://ui.adsabs.harvard.edu/abs/2022ascl.soft02004R/abstract"
-        ],
-        "title": "SUPPNet: Spectrum normalization neural network",
-        "url": "https://github.com/RozanskiT/suppnet",
-        "name": "suppnet",
-        "full_name": "RozanskiT/suppnet",
-        "html_url": "https://github.com/RozanskiT/suppnet",
-        "description": "SUPPNet: Neural network for stellar spectrum normalisation",
-        "created_at": "2021-03-05T11:45:58Z",
-        "updated_at": "2022-05-04T13:32:57Z",
-        "clone_url": "https://github.com/RozanskiT/suppnet.git",
-        "homepage": "https://rozanskit.com/suppnet/",
-        "size": 170690,
-        "stargazers_count": 1,
-        "watchers_count": 1,
-        "language": "Jupyter Notebook",
-        "subscribers_count": 1,
-        "owner": {
-            "html_url": "https://github.com/RozanskiT",
-            "avatar_url": "https://avatars.githubusercontent.com/u/30845410?v=4",
-            "login": "RozanskiT",
-            "type": "User"
-        },
-        "topics": [
-            "spectroscopy",
-            "astronomy",
-            "astronomy-software"
-        ],
-        "timestamp": "2022-07-17 16:49:24.073547",
-        "avatar": "https://avatars.githubusercontent.com/u/30845410?v=4"
+    "name": "suppnet",
+    "full_name": "RozanskiT/suppnet",
+    "html_url": "https://github.com/RozanskiT/suppnet",
+    "description": "SUPPNet: Neural network for stellar spectrum normalisation",
+    "created_at": "2021-03-05T11:45:58Z",
+    "updated_at": "2022-05-04T13:32:57Z",
+    "clone_url": "https://github.com/RozanskiT/suppnet.git",
+    "homepage": "https://rozanskit.com/suppnet/",
+    "size": 170690,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Jupyter Notebook",
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/RozanskiT",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30845410?v=4",
+      "login": "RozanskiT",
+      "type": "User"
+    },
+    "topics": [
+      "spectroscopy",
+      "astronomy",
+      "astronomy-software"
+    ],
+    "timestamp": "2022-07-17 16:49:24.073547",
+    "avatar": "https://avatars.githubusercontent.com/u/30845410?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install -e .\"",
+        "\"SUPPNet: Neural network for stellar spectrum normalisation\" (domain-specific stellar spectra processing tool).",
+        "\"The program window should pop-up and from now you can normalise your spectra. Typical usage scenarios are:\" (end-user program for performing a research task)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T20:12:20Z"
     }
+  },
+  "openssf_scorecard": {
+    "data": {
+      "date": "2026-01-23T09:09:11-05:00",
+      "repo": {
+        "name": "github.com/RozanskiT/suppnet",
+        "commit": "52b83bb49b6bdc62e65ba49460ae70304448076d"
+      },
+      "scorecard": {
+        "version": "v5.4.0",
+        "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+      },
+      "score": 2.5,
+      "checks": [
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no binaries found in the repo",
+          "name": "Binary-Artifacts",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#binary-artifacts",
+            "short": "Determines if the project has generated executable (binary) artifacts in the source repository."
+          }
+        },
+        {
+          "details": null,
+          "score": 3,
+          "reason": "branch protection is not maximal on development and all release branches",
+          "name": "Branch-Protection",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#branch-protection",
+            "short": "Determines if the default and release branches are protected with GitHub's branch protection settings."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "0 out of 1 merged PRs checked by a CI test -- score normalized to 0",
+          "name": "CI-Tests",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#ci-tests",
+            "short": "Determines if the project runs tests before pull requests are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no effort to earn an OpenSSF best practices badge detected",
+          "name": "CII-Best-Practices",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#cii-best-practices",
+            "short": "Determines if the project has an OpenSSF (formerly CII) Best Practices Badge."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "Found 0/29 approved changesets -- score normalized to 0",
+          "name": "Code-Review",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#code-review",
+            "short": "Determines if the project requires human code review before pull requests (aka merge requests) are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "project has 0 contributing companies or organizations -- score normalized to 0",
+          "name": "Contributors",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#contributors",
+            "short": "Determines if the project has a set of contributors from multiple organizations (e.g., companies)."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no workflows found",
+          "name": "Dangerous-Workflow",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dangerous-workflow",
+            "short": "Determines if the project's GitHub Action workflows avoid dangerous patterns."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no update tool detected",
+          "name": "Dependency-Update-Tool",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dependency-update-tool",
+            "short": "Determines if the project uses a dependency update tool."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "project is not fuzzed",
+          "name": "Fuzzing",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#fuzzing",
+            "short": "Determines if the project uses fuzzing."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "license file not detected",
+          "name": "License",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#license",
+            "short": "Determines if the project has defined a license."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0",
+          "name": "Maintained",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#maintained",
+            "short": "Determines if the project is \"actively maintained\"."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "packaging workflow not detected",
+          "name": "Packaging",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#packaging",
+            "short": "Determines if the project is published as a package that others can easily download, install, easily update, and uninstall."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no dependencies found",
+          "name": "Pinned-Dependencies",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#pinned-dependencies",
+            "short": "Determines if the project has declared and pinned the dependencies of its build process."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "SAST tool is not run on all commits -- score normalized to 0",
+          "name": "SAST",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#sast",
+            "short": "Determines if the project uses static code analysis."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "security policy file not detected",
+          "name": "Security-Policy",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#security-policy",
+            "short": "Determines if the project has published a security policy."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no releases found",
+          "name": "Signed-Releases",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#signed-releases",
+            "short": "Determines if the project cryptographically signs release artifacts."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "No tokens found",
+          "name": "Token-Permissions",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#token-permissions",
+            "short": "Determines if the project's workflows follow the principle of least privilege."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "0 existing vulnerabilities detected",
+          "name": "Vulnerabilities",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#vulnerabilities",
+            "short": "Determines if the project has open, known unfixed vulnerabilities."
+          }
+        }
+      ],
+      "metadata": null
+    },
+    "timestamp_utc": "2026-01-23T14:09:34Z"
+  }
 }

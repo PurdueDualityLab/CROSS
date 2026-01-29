@@ -1,0 +1,28 @@
+{
+  "repo": "https://github.com/apache/poi-site",
+  "timestamp_utc": "2026-01-24T03:52:57Z",
+  "repo_metadata": {
+    "name": "poi-site",
+    "full_name": "apache/poi-site",
+    "html_url": "https://github.com/apache/poi-site",
+    "description": "Apache POI Website",
+    "default_branch": "main",
+    "archived": false,
+    "fork": false,
+    "stargazers_count": 1
+  },
+  "data": {
+    "date": "2026-01-23T22:52:57-05:00",
+    "repo": {
+      "name": "github.com/apache/poi-site",
+      "commit": "HEAD"
+    },
+    "scorecard": {
+      "version": "v5.4.0",
+      "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+    },
+    "score": -1.0,
+    "checks": null,
+    "metadata": null
+  }
+}

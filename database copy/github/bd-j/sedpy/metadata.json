@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/bd-j/sedpy",
+  "url": "https://github.com/bd-j/sedpy",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2019arXiv190407238V",
+      "https://ui.adsabs.harvard.edu/abs/2019ascl.soft05026J/abstract"
+    ],
+    "title": "SEDPY: Modules for storing and operating on astronomical source spectral energy distribution",
+    "url": "https://github.com/bd-j/sedpy",
+    "name": "sedpy",
+    "full_name": "bd-j/sedpy",
+    "html_url": "https://github.com/bd-j/sedpy",
+    "description": "Utilities for astronomical spectral energy distributions",
+    "created_at": "2013-08-21T11:30:21Z",
+    "updated_at": "2022-07-05T18:08:24Z",
+    "clone_url": "https://github.com/bd-j/sedpy.git",
+    "size": 3513,
+    "stargazers_count": 22,
+    "watchers_count": 22,
+    "language": "Python",
+    "open_issues_count": 2,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/bd-j",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4146628?v=4",
+      "login": "bd-j",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:16:40.633870",
+    "avatar": "https://avatars.githubusercontent.com/u/4146628?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"python -m pip install astro-sedpy\"",
+        "\"Modules for storing and operating on astronomical source spectral energy distributions.\"",
+        "\"Then in python, e.g.,\n\n\t\tfrom sedpy import observate\" (shows it is imported as a Python module/library)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T22:01:57Z"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/mtholder/ncl",
+  "url": "https://github.com/mtholder/ncl",
+  "data": {
+    "url": "https://github.com/mtholder/ncl",
+    "title": "Ncl-tools",
+    "description": "Nexus Class Library ",
+    "doi": "https://academic.oup.com/bioinformatics/article/19/17/2330/206304/NCL-a-C-class-library-for-interpreting-data-files",
+    "name": "ncl",
+    "full_name": "mtholder/ncl",
+    "html_url": "https://github.com/mtholder/ncl",
+    "created_at": "2012-12-11T17:50:04Z",
+    "updated_at": "2021-08-11T15:20:27Z",
+    "clone_url": "https://github.com/mtholder/ncl.git",
+    "size": 968,
+    "stargazers_count": 6,
+    "watchers_count": 6,
+    "language": "C++",
+    "open_issues_count": 7,
+    "license": {
+      "key": "gpl-2.0",
+      "name": "GNU General Public License v2.0",
+      "spdx_id": "GPL-2.0",
+      "url": "https://api.github.com/licenses/gpl-2.0",
+      "node_id": "MDc6TGljZW5zZTg="
+    },
+    "subscribers_count": 6,
+    "owner": {
+      "html_url": "https://github.com/mtholder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136067?v=4",
+      "login": "mtholder",
+      "type": "User"
+    },
+    "timestamp": "2022-07-20 17:26:24.443588",
+    "avatar": "https://avatars.githubusercontent.com/u/136067?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Most documentation for this C++ class library is in the form of HTML files in the html directory.\"",
+        "\"incorporating the NCL into your own applications.\"",
+        "\"This git repo was forked from https://github.com/mtholder/ncl so that all of the open tree of life developers would have write permissions.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T01:29:08Z"
+    }
+  }
+}

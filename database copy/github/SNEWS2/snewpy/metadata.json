@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/SNEWS2/snewpy",
+  "url": "https://github.com/SNEWS2/snewpy",
+  "data": {
+    "timestamp": "2021-11-28 00:36:05.354051",
+    "name": "snewpy",
+    "url": "https://api.github.com/repos/SNEWS2/snewpy",
+    "full_name": "SNEWS2/snewpy",
+    "html_url": "https://github.com/SNEWS2/snewpy",
+    "private": false,
+    "description": "collection of models from the community in common format for use by the SNEWS teams",
+    "created_at": "2019-11-14T13:35:50Z",
+    "updated_at": "2021-11-26T17:05:32Z",
+    "clone_url": "https://github.com/SNEWS2/snewpy.git",
+    "homepage": null,
+    "size": 251944,
+    "stargazers_count": 4,
+    "watchers_count": 4,
+    "language": "Jupyter Notebook",
+    "open_issues_count": 22,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "subscribers_count": 8,
+    "owner": {
+      "html_url": "https://github.com/SNEWS2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/56884608?v=4",
+      "login": "SNEWS2",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "doi": "https://doi.org/10.5281/zenodo.5719209",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"Alternatively, you can run the following command to explicitly download models you want to use to a subdirectory named `SNEWPY-models/<model_name>/` in the current directory:\"",
+        "\"SNEWPY is a Python package for working with supernova neutrinos.\"",
+        "\"You can also calculate the observed event rate in all neutrino detectors supported by SNOwGLoBES, use the included SN models and flavor transformations in third-party code (like event generators), and much more.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T20:16:33Z"
+    }
+  }
+}

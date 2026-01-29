@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% load django_vite %}
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport"
+              content="width=device-width,initial-scale=1.0,viewport-fit=cover" />
+        <title>{{ title }}</title>
+        {% include "headers-icons.html" %}
+        {% include "pwa/headers.html" %}
+        {% include "headers-script-globals.html" %}
+        {% vite_hmr_client %}
+        {% vite_asset "src/main.js" %}
+    </head>
+    <body>
+        <noscript>
+            <h1>Codex doesn't work without JavaScript</h1>
+            Please enable it to continue.
+        </noscript>
+        <div id="App" />
+    </body>
+</html>

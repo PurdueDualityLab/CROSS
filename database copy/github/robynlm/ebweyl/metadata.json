@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/robynlm/ebweyl",
+  "url": "https://github.com/robynlm/ebweyl",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2023CQGra..40m5010M",
+      "https://ui.adsabs.harvard.edu/abs/2024ascl.soft04015M/abstract"
+    ],
+    "title": "EBWeyl: Compute the electric and magnetic parts of the Weyl tensor",
+    "url": "https://github.com/robynlm/ebweyl",
+    "name": "ebweyl",
+    "full_name": "robynlm/ebweyl",
+    "html_url": "https://github.com/robynlm/ebweyl",
+    "created_at": "2022-08-22T10:04:59Z",
+    "updated_at": "2023-09-06T06:53:15Z",
+    "clone_url": "https://github.com/robynlm/ebweyl.git",
+    "size": 69,
+    "stargazers_count": 9,
+    "watchers_count": 9,
+    "language": "Python",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/robynlm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/111498435?v=4",
+      "login": "robynlm",
+      "type": "User"
+    },
+    "timestamp": "2024-05-05 00:36:22.157871",
+    "avatar": "https://avatars.githubusercontent.com/u/111498435?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"The ebweyl module provides : * A FiniteDifferencing class... * A Weyl class that computes for a given metric the variables of the 3+1 formalism...\" (indicates a module with classes, i.e., a library/dependency)",
+        "\"EBWeyl: a Code to Invariantly Characterize Numerical Spacetimes\" (research code directly used to characterize numerical spacetimes, i.e., core scientific computation)",
+        "README describes functionality of a module but gives no installation instructions via package managers, binaries, or services, implying distribution directly from the source repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T02:11:47Z"
+    }
+  }
+}

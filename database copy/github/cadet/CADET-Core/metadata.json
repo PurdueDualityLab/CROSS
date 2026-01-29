@@ -1,0 +1,65 @@
+{
+  "parser": "github",
+  "uid": "github/cadet/CADET-Core",
+  "url": "https://github.com/cadet/CADET-Core",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.15656988",
+    "name": "CADET-Core",
+    "url": "https://github.com/cadet/CADET-Core",
+    "full_name": "cadet/CADET-Core",
+    "html_url": "https://github.com/cadet/CADET-Core",
+    "description": "The heart of CADET. A modular, fast, and accurate modeling and simulation framework for biotechnology processes.",
+    "created_at": "2014-01-29T12:46:02Z",
+    "updated_at": "2025-07-11T08:19:49Z",
+    "clone_url": "https://github.com/cadet/CADET-Core.git",
+    "size": 48573,
+    "stargazers_count": 74,
+    "watchers_count": 74,
+    "language": "C++",
+    "open_issues_count": 129,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 13,
+    "owner": {
+      "html_url": "https://github.com/cadet",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68232670?v=4",
+      "login": "cadet",
+      "type": "Organization"
+    },
+    "topics": [
+      "chromatography",
+      "chromatography-analysis",
+      "simulator",
+      "general-rate-model",
+      "cadet"
+    ],
+    "timestamp": "2025-07-13 01:00:45.004769",
+    "avatar": "https://avatars.githubusercontent.com/u/68232670?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "conda-forge",
+      "evidence": [
+        "\"CADET-Core 5.0: High-Performance Solver for Advanced Biotechnology Process Modeling\" – indicates it is a domain-specific solver used for scientific modeling, i.e., an application for research tasks.",
+        "\"CADET-Core can be installed via conda from the ``conda-forge`` channel. `conda install -c conda-forge cadet`\" – shows distribution via the conda-forge package registry.",
+        "\"The development of CADET-Core has been a collaborative effort, with multiple dedicated individuals contributing their expertise to create a powerful and versatile open-source software tool... to provide the scientific community with a valuable resource.\" – indicates a research-focused tool directly used in scientific work."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T22:33:10Z"
+    }
+  }
+}

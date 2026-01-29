@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/RJArthern/WAVI.jl",
+  "url": "https://github.com/RJArthern/WAVI.jl",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.10723504",
+    "name": "WAVI.jl",
+    "url": "https://github.com/RJArthern/WAVI.jl",
+    "full_name": "RJArthern/WAVI.jl",
+    "html_url": "https://github.com/RJArthern/WAVI.jl",
+    "description": "WAVI ice sheet model",
+    "created_at": "2020-08-06T17:31:05Z",
+    "updated_at": "2024-03-15T21:22:28Z",
+    "clone_url": "https://github.com/RJArthern/WAVI.jl.git",
+    "homepage": "https://rjarthern.github.io/WAVI.jl/",
+    "size": 19503,
+    "stargazers_count": 25,
+    "watchers_count": 25,
+    "language": "Julia",
+    "open_issues_count": 19,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/RJArthern",
+      "avatar_url": "https://avatars.githubusercontent.com/u/69319382?v=4",
+      "login": "RJArthern",
+      "type": "User"
+    },
+    "timestamp": "2024-03-17 00:34:19.377137",
+    "avatar": "https://avatars.githubusercontent.com/u/69319382?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "Julia General registry",
+      "evidence": [
+        "README install command: \"julia>Pkg.add(PackageSpec(url=\"https://github.com/WAVI-ice-sheet-model/WAVI.jl.git\", rev = \"main\"))\"",
+        "\"WAVI (Wavelet-based Adaptive-grid Vertically-integrated Ice-model) is a fast and friendly ice sheet model, written in Julia.\"",
+        "\"Let's run the MISMIP+ experiment ... We'll run the model to steady state for 10000 years ... run_simulation!(simulation)\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T19:54:02Z"
+    }
+  }
+}

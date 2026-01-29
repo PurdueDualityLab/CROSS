@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/PrincetonUniversity/Athena-Cversion",
+  "url": "https://github.com/PrincetonUniversity/Athena-Cversion",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2008ApJS..178..137S",
+      "https://ui.adsabs.harvard.edu/abs/2010ascl.soft10014S/abstract"
+    ],
+    "title": "Athena: Grid-based code for astrophysical magnetohydrodynamics (MHD)",
+    "url": "https://github.com/PrincetonUniversity/Athena-Cversion",
+    "name": "Athena-Cversion",
+    "full_name": "PrincetonUniversity/Athena-Cversion",
+    "html_url": "https://github.com/PrincetonUniversity/Athena-Cversion",
+    "created_at": "2017-05-23T15:23:19Z",
+    "updated_at": "2021-11-01T14:28:22Z",
+    "clone_url": "https://github.com/PrincetonUniversity/Athena-Cversion.git",
+    "size": 8990,
+    "stargazers_count": 39,
+    "watchers_count": 39,
+    "language": "C",
+    "open_issues_count": 1,
+    "subscribers_count": 10,
+    "owner": {
+      "html_url": "https://github.com/PrincetonUniversity",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1919273?v=4",
+      "login": "PrincetonUniversity",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-17 17:25:06.733705",
+    "avatar": "https://avatars.githubusercontent.com/u/1919273?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Unknown",
+      "research_role": "Unknown",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "Owner organization is listed as PrincetonUniversity, indicating an institutional project.",
+        "README only states: \"For documentation please go to https://princetonuniversity.github.io/Athena-Cversion/\" with no information on whether this is an application, library, or tool.",
+        "The only concrete usage-related information is a GitHub Pages URL, implying users access documentation via a hosted web service. No install or package instructions are provided."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T19:51:00Z"
+    }
+  }
+}

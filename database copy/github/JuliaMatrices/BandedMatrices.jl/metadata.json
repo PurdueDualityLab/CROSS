@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/JuliaMatrices/BandedMatrices.jl",
+  "url": "https://github.com/JuliaMatrices/BandedMatrices.jl",
+  "data": {
+    "timestamp": "2022-05-12 03:43:40.869394",
+    "name": "BandedMatrices.jl",
+    "url": "https://api.github.com/repos/JuliaMatrices/BandedMatrices.jl",
+    "full_name": "JuliaMatrices/BandedMatrices.jl",
+    "html_url": "https://github.com/JuliaMatrices/BandedMatrices.jl",
+    "private": false,
+    "description": "A Julia package for representing banded matrices",
+    "created_at": "2016-03-23T23:44:12Z",
+    "updated_at": "2022-04-19T22:44:26Z",
+    "clone_url": "https://github.com/JuliaMatrices/BandedMatrices.jl.git",
+    "homepage": null,
+    "size": 2212,
+    "stargazers_count": 101,
+    "watchers_count": 101,
+    "language": "Julia",
+    "open_issues_count": 53,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 11,
+    "owner": {
+      "html_url": "https://github.com/JuliaMatrices",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20272228?v=4",
+      "login": "JuliaMatrices",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "rsotm": "2022-02",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "Julia General registry (via JuliaHub)",
+      "evidence": [
+        "\"A Julia package for representing banded matrices\"",
+        "Badges and text indicate it is a Julia *package* (e.g., used via `BandedMatrix(...)` constructors and linear algebra operations), implying it is imported as a library dependency.",
+        "JuliaHub badges: \"[![deps](https://juliahub.com/docs/General/BandedMatrices/stable/deps.svg)](https://juliahub.com/ui/Packages/General/BandedMatrices?t=2)\" and \"[![version](https://juliahub.com/docs/General/BandedMatrices/stable/version.svg)](https://juliahub.com/ui/Packages/General/BandedMatrices)\", indicating distribution through the Julia General registry/JuliaHub."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T18:08:25Z"
+    }
+  }
+}

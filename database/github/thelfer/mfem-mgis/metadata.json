@@ -1,37 +1,256 @@
 {
-    "parser": "github",
-    "uid": "github/thelfer/mfem-mgis",
+  "parser": "github",
+  "uid": "github/thelfer/mfem-mgis",
+  "url": "https://github.com/thelfer/mfem-mgis",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.15166161",
+    "name": "mfem-mgis",
     "url": "https://github.com/thelfer/mfem-mgis",
-    "data": {
-        "doi": "https://doi.org/10.5281/zenodo.15166161",
-        "name": "mfem-mgis",
-        "url": "https://github.com/thelfer/mfem-mgis",
-        "full_name": "thelfer/mfem-mgis",
-        "html_url": "https://github.com/thelfer/mfem-mgis",
-        "description": "Couple MFEM and MGIS",
-        "created_at": "2020-06-08T09:13:22Z",
-        "updated_at": "2025-04-12T21:32:36Z",
-        "clone_url": "https://github.com/thelfer/mfem-mgis.git",
-        "size": 77472,
-        "stargazers_count": 11,
-        "watchers_count": 11,
-        "language": "C++",
-        "open_issues_count": 12,
-        "license": {
-            "key": "lgpl-3.0",
-            "name": "GNU Lesser General Public License v3.0",
-            "spdx_id": "LGPL-3.0",
-            "url": "https://api.github.com/licenses/lgpl-3.0",
-            "node_id": "MDc6TGljZW5zZTEy"
-        },
-        "subscribers_count": 4,
-        "owner": {
-            "html_url": "https://github.com/thelfer",
-            "avatar_url": "https://avatars.githubusercontent.com/u/13975528?v=4",
-            "login": "thelfer",
-            "type": "User"
-        },
-        "timestamp": "2025-04-13 02:14:00.659971",
-        "avatar": "https://avatars.githubusercontent.com/u/13975528?v=4"
+    "full_name": "thelfer/mfem-mgis",
+    "html_url": "https://github.com/thelfer/mfem-mgis",
+    "description": "Couple MFEM and MGIS",
+    "created_at": "2020-06-08T09:13:22Z",
+    "updated_at": "2025-04-12T21:32:36Z",
+    "clone_url": "https://github.com/thelfer/mfem-mgis.git",
+    "size": 77472,
+    "stargazers_count": 11,
+    "watchers_count": 11,
+    "language": "C++",
+    "open_issues_count": 12,
+    "license": {
+      "key": "lgpl-3.0",
+      "name": "GNU Lesser General Public License v3.0",
+      "spdx_id": "LGPL-3.0",
+      "url": "https://api.github.com/licenses/lgpl-3.0",
+      "node_id": "MDc6TGljZW5zZTEy"
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/thelfer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13975528?v=4",
+      "login": "thelfer",
+      "type": "User"
+    },
+    "timestamp": "2025-04-13 02:14:00.659971",
+    "avatar": "https://avatars.githubusercontent.com/u/13975528?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This project shows how to build an `MFEM` `NonlinearFormIntegrator` on top of the `MGIS` library.\" (indicates it is an extension/component to be used within MFEM, i.e., a dependency)",
+        "\"Some examples of MFEM-MGIS use (with mesh inputs) are stored on another repository here: `MFEM-MGIS-EXAMPLES`.\" (shows it is used to run scientific examples, implying direct role in simulations/analyses)",
+        "README only references GitHub pages for docs and examples and links to installation guidelines, with no mention of package managers or binaries, implying distribution via the source repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T04:24:21Z"
     }
+  },
+  "openssf_scorecard": {
+    "data": {
+      "date": "2026-01-23T15:08:22-05:00",
+      "repo": {
+        "name": "github.com/thelfer/mfem-mgis",
+        "commit": "c433e794c8e2926b0eb1778e00374454b34bb072"
+      },
+      "scorecard": {
+        "version": "v5.4.0",
+        "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+      },
+      "score": 4.6,
+      "checks": [
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no binaries found in the repo",
+          "name": "Binary-Artifacts",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#binary-artifacts",
+            "short": "Determines if the project has generated executable (binary) artifacts in the source repository."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "branch protection not enabled on development/release branches",
+          "name": "Branch-Protection",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#branch-protection",
+            "short": "Determines if the default and release branches are protected with GitHub's branch protection settings."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "3 out of 3 merged PRs checked by a CI test -- score normalized to 10",
+          "name": "CI-Tests",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#ci-tests",
+            "short": "Determines if the project runs tests before pull requests are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no effort to earn an OpenSSF best practices badge detected",
+          "name": "CII-Best-Practices",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#cii-best-practices",
+            "short": "Determines if the project has an OpenSSF (formerly CII) Best Practices Badge."
+          }
+        },
+        {
+          "details": null,
+          "score": 5,
+          "reason": "Found 3/6 approved changesets -- score normalized to 5",
+          "name": "Code-Review",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#code-review",
+            "short": "Determines if the project requires human code review before pull requests (aka merge requests) are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 6,
+          "reason": "project has 2 contributing companies or organizations -- score normalized to 6",
+          "name": "Contributors",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#contributors",
+            "short": "Determines if the project has a set of contributors from multiple organizations (e.g., companies)."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no dangerous workflow patterns detected",
+          "name": "Dangerous-Workflow",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dangerous-workflow",
+            "short": "Determines if the project's GitHub Action workflows avoid dangerous patterns."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no update tool detected",
+          "name": "Dependency-Update-Tool",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dependency-update-tool",
+            "short": "Determines if the project uses a dependency update tool."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "project is not fuzzed",
+          "name": "Fuzzing",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#fuzzing",
+            "short": "Determines if the project uses fuzzing."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "license file detected",
+          "name": "License",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#license",
+            "short": "Determines if the project has defined a license."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "30 commit(s) and 16 issue activity found in the last 90 days -- score normalized to 10",
+          "name": "Maintained",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#maintained",
+            "short": "Determines if the project is \"actively maintained\"."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "packaging workflow not detected",
+          "name": "Packaging",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#packaging",
+            "short": "Determines if the project is published as a package that others can easily download, install, easily update, and uninstall."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "dependency not pinned by hash detected -- score normalized to 0",
+          "name": "Pinned-Dependencies",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#pinned-dependencies",
+            "short": "Determines if the project has declared and pinned the dependencies of its build process."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "SAST tool is not run on all commits -- score normalized to 0",
+          "name": "SAST",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#sast",
+            "short": "Determines if the project uses static code analysis."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "security policy file not detected",
+          "name": "Security-Policy",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#security-policy",
+            "short": "Determines if the project has published a security policy."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no releases found",
+          "name": "Signed-Releases",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#signed-releases",
+            "short": "Determines if the project cryptographically signs release artifacts."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "detected GitHub workflow tokens with excessive permissions",
+          "name": "Token-Permissions",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#token-permissions",
+            "short": "Determines if the project's workflows follow the principle of least privilege."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "0 existing vulnerabilities detected",
+          "name": "Vulnerabilities",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#vulnerabilities",
+            "short": "Determines if the project has open, known unfixed vulnerabilities."
+          }
+        }
+      ],
+      "metadata": null
+    },
+    "timestamp_utc": "2026-01-23T20:08:36Z"
+  }
 }

@@ -1,0 +1,49 @@
+{
+  "parser": "github",
+  "uid": "github/jeaadams/ExoPix",
+  "url": "https://github.com/jeaadams/ExoPix",
+  "data": {
+    "doi": [],
+    "title": "ExoPix: Exoplanet Imaging with JWST",
+    "url": "https://github.com/jeaadams/ExoPix",
+    "name": "ExoPix",
+    "full_name": "jeaadams/ExoPix",
+    "html_url": "https://github.com/jeaadams/ExoPix",
+    "created_at": "2019-10-28T14:44:02Z",
+    "updated_at": "2020-09-22T04:26:50Z",
+    "clone_url": "https://github.com/jeaadams/ExoPix.git",
+    "size": 19985,
+    "language": "Jupyter Notebook",
+    "open_issues_count": 1,
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/jeaadams",
+      "avatar_url": "https://avatars.githubusercontent.com/u/39896713?v=4",
+      "login": "jeaadams",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:13:19.330010",
+    "avatar": "https://avatars.githubusercontent.com/u/39896713?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install -r requirements.txt\"",
+        "\"The tutorials contained in ExoPix are aimed at providng an understanding of simulated data from the James Webb Space Telescope. These notebooks can be used to estimate JWST's performance imaging exoplanets.\"",
+        "\"Upon cloning our repository, you'll need to install the packages in our requirements.txt.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:31:52Z"
+    }
+  }
+}

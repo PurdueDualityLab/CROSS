@@ -1,0 +1,69 @@
+{
+  "parser": "github",
+  "uid": "github/T0ngChen/medRCT",
+  "url": "https://github.com/T0ngChen/medRCT",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.15705472",
+    "name": "medRCT",
+    "url": "https://github.com/T0ngChen/medRCT",
+    "full_name": "T0ngChen/medRCT",
+    "html_url": "https://github.com/T0ngChen/medRCT",
+    "description": "📦R package medRCT",
+    "created_at": "2024-05-22T04:01:26Z",
+    "updated_at": "2025-06-28T11:56:08Z",
+    "clone_url": "https://github.com/T0ngChen/medRCT.git",
+    "homepage": "https://t0ngchen.github.io/medRCT/",
+    "size": 3419,
+    "stargazers_count": 4,
+    "watchers_count": 4,
+    "language": "R",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/T0ngChen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44077157?v=4",
+      "login": "T0ngChen",
+      "type": "User"
+    },
+    "topics": [
+      "causal-inference",
+      "causal-mediation-analysis",
+      "interventional-effects",
+      "mediation",
+      "target-trial",
+      "rstats",
+      "mediation-analysis",
+      "rstat",
+      "rstats-package"
+    ],
+    "timestamp": "2025-06-29 00:58:44.991460",
+    "avatar": "https://avatars.githubusercontent.com/u/44077157?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"remotes::install_github(\"T0ngChen/medRCT\")\"",
+        "\"The R package `medRCT` for causal mediation analysis supports the estimation of interventional effects\" (an R package intended to be used via library(medRCT), i.e., as a dependency).",
+        "\"# Load the medRCT package\nlibrary(medRCT)\" (shows it is imported as a package rather than run as a standalone application)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T20:23:28Z"
+    }
+  }
+}

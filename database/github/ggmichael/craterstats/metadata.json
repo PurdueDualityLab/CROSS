@@ -1,41 +1,260 @@
 {
-    "parser": "github",
-    "uid": "github/ggmichael/craterstats",
+  "parser": "github",
+  "uid": "github/ggmichael/craterstats",
+  "url": "https://github.com/ggmichael/craterstats",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2021LPICo2610.7010M",
+      "https://ui.adsabs.harvard.edu/abs/2022ascl.soft06009M/abstract"
+    ],
+    "title": "Craterstats3: Analyze and plot crater count data for planetary surface dating",
     "url": "https://github.com/ggmichael/craterstats",
-    "data": {
-        "doi": [
-            "https://ui.adsabs.harvard.edu/abs/2021LPICo2610.7010M",
-            "https://ui.adsabs.harvard.edu/abs/2022ascl.soft06009M/abstract"
-        ],
-        "title": "Craterstats3: Analyze and plot crater count data for planetary surface dating",
-        "url": "https://github.com/ggmichael/craterstats",
-        "name": "craterstats",
-        "full_name": "ggmichael/craterstats",
-        "html_url": "https://github.com/ggmichael/craterstats",
-        "description": "Craterstats - a tool to analyse and plot crater count data for planetary surface dating",
-        "created_at": "2021-02-23T19:41:11Z",
-        "updated_at": "2022-02-19T01:19:53Z",
-        "clone_url": "https://github.com/ggmichael/craterstats.git",
-        "size": 179,
-        "stargazers_count": 12,
-        "watchers_count": 12,
-        "language": "Python",
-        "open_issues_count": 4,
-        "license": {
-            "key": "bsd-3-clause",
-            "name": "BSD 3-Clause \"New\" or \"Revised\" License",
-            "spdx_id": "BSD-3-Clause",
-            "url": "https://api.github.com/licenses/bsd-3-clause",
-            "node_id": "MDc6TGljZW5zZTU="
-        },
-        "subscribers_count": 5,
-        "owner": {
-            "html_url": "https://github.com/ggmichael",
-            "avatar_url": "https://avatars.githubusercontent.com/u/75208810?v=4",
-            "login": "ggmichael",
-            "type": "User"
-        },
-        "timestamp": "2022-07-17 16:48:29.194820",
-        "avatar": "https://avatars.githubusercontent.com/u/75208810?v=4"
+    "name": "craterstats",
+    "full_name": "ggmichael/craterstats",
+    "html_url": "https://github.com/ggmichael/craterstats",
+    "description": "Craterstats - a tool to analyse and plot crater count data for planetary surface dating",
+    "created_at": "2021-02-23T19:41:11Z",
+    "updated_at": "2022-02-19T01:19:53Z",
+    "clone_url": "https://github.com/ggmichael/craterstats.git",
+    "size": 179,
+    "stargazers_count": 12,
+    "watchers_count": 12,
+    "language": "Python",
+    "open_issues_count": 4,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/ggmichael",
+      "avatar_url": "https://avatars.githubusercontent.com/u/75208810?v=4",
+      "login": "ggmichael",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 16:48:29.194820",
+    "avatar": "https://avatars.githubusercontent.com/u/75208810?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"Download the latest version [here](https://github.com/ggmichael/craterstats/releases),\"",
+        "\"This is a Python reimplementation and extension of the Craterstats-II software, a tool to analyse and plot crater count data for planetary surface dating.\"",
+        "\"Craterstats can be installed as a standalone executable for Windows. Download the latest version here, unzip to wherever you prefer, and double-click `create_desktop_shortcut.bat` to create a start-up icon.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:59:15Z"
     }
+  },
+  "openssf_scorecard": {
+    "data": {
+      "date": "2026-01-23T11:26:26-05:00",
+      "repo": {
+        "name": "github.com/ggmichael/craterstats",
+        "commit": "30adbef5035b5fdd68394c89e953690faec830d4"
+      },
+      "scorecard": {
+        "version": "v5.4.0",
+        "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+      },
+      "score": 3.5,
+      "checks": [
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no binaries found in the repo",
+          "name": "Binary-Artifacts",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#binary-artifacts",
+            "short": "Determines if the project has generated executable (binary) artifacts in the source repository."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "branch protection not enabled on development/release branches",
+          "name": "Branch-Protection",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#branch-protection",
+            "short": "Determines if the default and release branches are protected with GitHub's branch protection settings."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no pull request found",
+          "name": "CI-Tests",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#ci-tests",
+            "short": "Determines if the project runs tests before pull requests are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no effort to earn an OpenSSF best practices badge detected",
+          "name": "CII-Best-Practices",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#cii-best-practices",
+            "short": "Determines if the project has an OpenSSF (formerly CII) Best Practices Badge."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "Found 0/30 approved changesets -- score normalized to 0",
+          "name": "Code-Review",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#code-review",
+            "short": "Determines if the project requires human code review before pull requests (aka merge requests) are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "project has 15 contributing companies or organizations",
+          "name": "Contributors",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#contributors",
+            "short": "Determines if the project has a set of contributors from multiple organizations (e.g., companies)."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no dangerous workflow patterns detected",
+          "name": "Dangerous-Workflow",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dangerous-workflow",
+            "short": "Determines if the project's GitHub Action workflows avoid dangerous patterns."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no update tool detected",
+          "name": "Dependency-Update-Tool",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dependency-update-tool",
+            "short": "Determines if the project uses a dependency update tool."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "project is not fuzzed",
+          "name": "Fuzzing",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#fuzzing",
+            "short": "Determines if the project uses fuzzing."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "license file detected",
+          "name": "License",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#license",
+            "short": "Determines if the project has defined a license."
+          }
+        },
+        {
+          "details": null,
+          "score": 6,
+          "reason": "8 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 6",
+          "name": "Maintained",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#maintained",
+            "short": "Determines if the project is \"actively maintained\"."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "packaging workflow not detected",
+          "name": "Packaging",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#packaging",
+            "short": "Determines if the project is published as a package that others can easily download, install, easily update, and uninstall."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "dependency not pinned by hash detected -- score normalized to 0",
+          "name": "Pinned-Dependencies",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#pinned-dependencies",
+            "short": "Determines if the project has declared and pinned the dependencies of its build process."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no SAST tool detected",
+          "name": "SAST",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#sast",
+            "short": "Determines if the project uses static code analysis."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "security policy file not detected",
+          "name": "Security-Policy",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#security-policy",
+            "short": "Determines if the project has published a security policy."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "Project has not signed or included provenance with any releases.",
+          "name": "Signed-Releases",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#signed-releases",
+            "short": "Determines if the project cryptographically signs release artifacts."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "detected GitHub workflow tokens with excessive permissions",
+          "name": "Token-Permissions",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#token-permissions",
+            "short": "Determines if the project's workflows follow the principle of least privilege."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "0 existing vulnerabilities detected",
+          "name": "Vulnerabilities",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#vulnerabilities",
+            "short": "Determines if the project has open, known unfixed vulnerabilities."
+          }
+        }
+      ],
+      "metadata": null
+    },
+    "timestamp_utc": "2026-01-23T16:26:33Z"
+  }
 }

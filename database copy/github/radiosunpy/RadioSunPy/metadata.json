@@ -1,0 +1,64 @@
+{
+  "parser": "github",
+  "uid": "github/radiosunpy/RadioSunPy",
+  "url": "https://github.com/radiosunpy/RadioSunPy",
+  "data": {
+    "doi": [],
+    "title": "RadioSunPy: A Robust Preprocessing Pipeline for RATAN-600 Solar Radio Observations Data",
+    "url": "https://github.com/radiosunpy/RadioSunPy",
+    "name": "RadioSunPy",
+    "full_name": "radiosunpy/RadioSunPy",
+    "html_url": "https://github.com/radiosunpy/RadioSunPy",
+    "description": "RATAN-600 radioastronomical solar data and methods Python library ",
+    "created_at": "2024-09-12T08:06:39Z",
+    "updated_at": "2024-10-24T16:46:27Z",
+    "clone_url": "https://github.com/radiosunpy/RadioSunPy.git",
+    "homepage": "https://radiosunpy.github.io/RadioSunPy/",
+    "size": 22590,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Jupyter Notebook",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/radiosunpy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/181330173?v=4",
+      "login": "radiosunpy",
+      "type": "User"
+    },
+    "topics": [
+      "physics",
+      "radio-astronomy",
+      "solar-physics"
+    ],
+    "timestamp": "2024-10-27 00:46:06.073212",
+    "avatar": "https://avatars.githubusercontent.com/u/181330173?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install radiosunpy\"",
+        "\"RadioSunPy is a Python package developed for accessing, visualizing, and analyzing multi-band radio observations of the Sun from the RATAN-600 complex.\"",
+        "\"The package offers comprehensive data processing functionalities, including direct access to raw data, essential processing steps such as calibration and quiet Sun normalization, and tools for analyzing solar activity.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T02:03:24Z"
+    }
+  }
+}

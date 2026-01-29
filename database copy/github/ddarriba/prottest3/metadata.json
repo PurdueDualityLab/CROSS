@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/ddarriba/prottest3",
+  "url": "https://github.com/ddarriba/prottest3",
+  "data": {
+    "title": "prottest3",
+    "url": "https://github.com/ddarriba/prottest3",
+    "credit": [],
+    "description": "Automatically exported from code.google.com/p/prottest3",
+    "name": "prottest3",
+    "full_name": "ddarriba/prottest3",
+    "html_url": "https://github.com/ddarriba/prottest3",
+    "created_at": "2015-03-14T02:24:31Z",
+    "updated_at": "2022-05-09T22:00:52Z",
+    "clone_url": "https://github.com/ddarriba/prottest3.git",
+    "size": 14664,
+    "stargazers_count": 29,
+    "watchers_count": 29,
+    "language": "Java",
+    "open_issues_count": 9,
+    "license": {
+      "key": "gpl-2.0",
+      "name": "GNU General Public License v2.0",
+      "spdx_id": "GPL-2.0",
+      "url": "https://api.github.com/licenses/gpl-2.0",
+      "node_id": "MDc6TGljZW5zZTg="
+    },
+    "subscribers_count": 10,
+    "owner": {
+      "html_url": "https://github.com/ddarriba",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3135601?v=4",
+      "login": "ddarriba",
+      "type": "User"
+    },
+    "timestamp": "2022-07-18 17:46:27.543626",
+    "avatar": "https://avatars.githubusercontent.com/u/3135601?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Vendor or commercial entity",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"Download\"",
+        "\"ProtTest is a bioinformatic tool for the selection of best-fit models of aminoacid replacement for the data at hand.\"",
+        "\"ProtTest is written in Java and uses the program PhyML ... for the maximum likelihood (ML) estimation of phylogenetic trees and model parameters.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:29:24Z"
+    }
+  }
+}

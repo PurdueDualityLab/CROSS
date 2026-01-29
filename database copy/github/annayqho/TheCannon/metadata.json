@@ -1,0 +1,63 @@
+{
+  "parser": "github",
+  "uid": "github/annayqho/TheCannon",
+  "url": "https://github.com/annayqho/TheCannon",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2016ApJ...823..114N",
+      "https://ui.adsabs.harvard.edu/abs/2015ApJ...808...16N",
+      "https://ui.adsabs.harvard.edu/abs/2016ascl.soft02010H/abstract"
+    ],
+    "title": "The Cannon: Data-driven method for determining stellar parameters and abundances from stellar spectra",
+    "url": "https://github.com/annayqho/TheCannon",
+    "name": "TheCannon",
+    "full_name": "annayqho/TheCannon",
+    "html_url": "https://github.com/annayqho/TheCannon",
+    "description": "a data-driven method for determining stellar parameters and abundances from stellar spectra",
+    "created_at": "2014-09-26T08:54:18Z",
+    "updated_at": "2021-07-22T12:57:39Z",
+    "clone_url": "https://github.com/annayqho/TheCannon.git",
+    "size": 386212,
+    "stargazers_count": 33,
+    "watchers_count": 33,
+    "language": "Python",
+    "open_issues_count": 15,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 13,
+    "owner": {
+      "html_url": "https://github.com/annayqho",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8926184?v=4",
+      "login": "annayqho",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:22:10.566989",
+    "avatar": "https://avatars.githubusercontent.com/u/8926184?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This is the code associated with *The Cannon*, a data-driven method for determining stellar labels (physical parameters and chemical abundances) from stellar spectra in the context of large spectroscopic surveys.\"",
+        "Authors listed as individuals with affiliations (\"Anna Ho\", \"Melissa Ness\", etc.) and copyright statement: \"Copyright 2015 the authors. TheCannon is open-source software released under the MIT License.\"",
+        "README presents it as a research method implementation with documentation and citation requirements, but gives no instructions for installation via package managers or binaries, implying use directly from the source repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T21:18:26Z"
+    }
+  }
+}

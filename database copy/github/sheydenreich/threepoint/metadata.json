@@ -1,0 +1,53 @@
+{
+  "parser": "github",
+  "uid": "github/sheydenreich/threepoint",
+  "url": "https://github.com/sheydenreich/threepoint",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2023A%26A...672A..44H",
+      "https://ui.adsabs.harvard.edu/abs/2023ascl.soft06054H/abstract"
+    ],
+    "title": "threepoint: Covariance of third-order aperture statistics",
+    "url": "https://github.com/sheydenreich/threepoint",
+    "name": "threepoint",
+    "full_name": "sheydenreich/threepoint",
+    "html_url": "https://github.com/sheydenreich/threepoint",
+    "created_at": "2021-02-06T15:11:14Z",
+    "updated_at": "2023-04-23T01:49:52Z",
+    "clone_url": "https://github.com/sheydenreich/threepoint.git",
+    "size": 70753,
+    "stargazers_count": 4,
+    "watchers_count": 4,
+    "language": "C",
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/sheydenreich",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38494130?v=4",
+      "login": "sheydenreich",
+      "type": "User"
+    },
+    "timestamp": "2023-07-02 00:53:45.588777",
+    "avatar": "https://avatars.githubusercontent.com/u/38494130?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"1. Download the newest release and unpack it\"",
+        "\"This code models the third-order aperture statistics ... the natural components of the shear three-point correlation function ... and the covariance of the third-order aperture statistics.\"",
+        "\"Three quantities are the key outputs of the code: the aperture statistics ... the natural components of the 3Pt-Correlation Function ... and the covariance ... of the aperture statistics.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T03:25:51Z"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/CAMI-challenge/CAMITAX",
+  "url": "https://github.com/CAMI-challenge/CAMITAX",
+  "data": {
+    "timestamp": "2021-02-07 00:22:50.101822",
+    "name": "CAMITAX",
+    "url": "https://api.github.com/repos/CAMI-challenge/CAMITAX",
+    "full_name": "CAMI-challenge/CAMITAX",
+    "html_url": "https://github.com/CAMI-challenge/CAMITAX",
+    "private": false,
+    "description": "CAMITAX: Taxon labels for microbial genomes",
+    "created_at": "2018-04-06T11:05:51Z",
+    "updated_at": "2020-08-31T07:02:28Z",
+    "clone_url": "https://github.com/CAMI-challenge/CAMITAX.git",
+    "homepage": "https://doi.org/10.1101/532473",
+    "size": 151820,
+    "stargazers_count": 25,
+    "watchers_count": 25,
+    "language": "Nextflow",
+    "open_issues_count": 3,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "subscribers_count": 6,
+    "owner": {
+      "html_url": "https://github.com/CAMI-challenge",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8009060?v=4",
+      "login": "CAMI-challenge",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "doi": "10.1093/GIGASCIENCE/GIZ154",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"**Warning:** This will download ~30 GB of data, expect this to run a while! `/path/to/db/folder` should have >100 GB of available disk space. Note that you have to do this only once; specify the locat\"",
+        "\"CAMITAX assigns one NCBI Taxonomy ID (taxID) to an input genome G by combining genome distance-, 16S rRNA gene-, and gene homology-based taxonomic assignments with phylogenetic placement.\"",
+        "\"If your input genomes are in the folder `input/` with file extension `.fasta`, please run: `nextflow run CAMI-challenge/CAMITAX -profile docker --db /path/to/db/folder --i input --x fasta`\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T16:48:03Z"
+    }
+  }
+}

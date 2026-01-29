@@ -1,0 +1,65 @@
+{
+  "parser": "github",
+  "uid": "github/wrenfold/wrenfold",
+  "url": "https://github.com/wrenfold/wrenfold",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.14723141",
+    "name": "wrenfold",
+    "url": "https://github.com/wrenfold/wrenfold",
+    "full_name": "wrenfold/wrenfold",
+    "html_url": "https://github.com/wrenfold/wrenfold",
+    "description": "Toolkit for generating code from symbolic math expressions.",
+    "created_at": "2021-10-30T22:37:31Z",
+    "updated_at": "2025-01-29T03:23:21Z",
+    "clone_url": "https://github.com/wrenfold/wrenfold.git",
+    "size": 3744,
+    "stargazers_count": 47,
+    "watchers_count": 47,
+    "language": "C++",
+    "open_issues_count": 19,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/wrenfold",
+      "avatar_url": "https://avatars.githubusercontent.com/u/167943873?v=4",
+      "login": "wrenfold",
+      "type": "Organization"
+    },
+    "topics": [
+      "code-generation",
+      "computer-vision",
+      "mathematics",
+      "robotics",
+      "symbolic-math"
+    ],
+    "timestamp": "2025-02-02 00:46:25.419471",
+    "avatar": "https://avatars.githubusercontent.com/u/167943873?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install wrenfold\"",
+        "\"`wrenfold` is a framework for converting symbolic mathematical expressions (written in Python) into generated numerical code in other languages (C++, Rust, Python). It aims to bridge the gap between prototyping of functions in expressive symbolic form, and performant production code. wrenfold is particularly relevant to domains where numerical optimization is employed to solve differentiable objective functions, such as robotics or computer vision.\"",
+        "\"Install wrenfold from [PyPi](https://pypi.org/project/wrenfold/):```bash\npip install wrenfold\n``` wrenfold is also available on [conda-forge](https://anaconda.org/conda-forge/wrenfold):\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:54:47Z"
+    }
+  }
+}

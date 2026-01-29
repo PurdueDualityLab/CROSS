@@ -1,0 +1,51 @@
+{
+  "parser": "github",
+  "uid": "github/Chenmi0619/GALMoss",
+  "url": "https://github.com/Chenmi0619/GALMoss",
+  "data": {
+    "doi": [],
+    "title": "GalMOSS: A package for GPU-accelerated Galaxy Profile Fitting",
+    "url": "https://github.com/Chenmi0619/GALMoss",
+    "name": "GALMoss",
+    "full_name": "Chenmi0619/GALMoss",
+    "html_url": "https://github.com/Chenmi0619/GALMoss",
+    "description": "a galaxy surface bightness fitting code via gradient descent",
+    "created_at": "2023-04-14T08:15:30Z",
+    "updated_at": "2024-02-12T15:52:35Z",
+    "clone_url": "https://github.com/Chenmi0619/GALMoss.git",
+    "size": 8436,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Python",
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/Chenmi0619",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112360046?v=4",
+      "login": "Chenmi0619",
+      "type": "User"
+    },
+    "timestamp": "2024-03-03 00:33:52.139340",
+    "avatar": "https://avatars.githubusercontent.com/u/112360046?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install galmoss\"",
+        "“GalMOSS a Python-based, Torch-powered tool for two-dimensional fitting of galaxy profiles.”",
+        "“Here, we demonstrate how to fit a single Sérsic profile to SDSS image data using the GALMoss package.”"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T16:52:53Z"
+    }
+  }
+}

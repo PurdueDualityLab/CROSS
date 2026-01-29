@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/LauraHerold/pinc",
+  "url": "https://github.com/LauraHerold/pinc",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2025PhRvD.111h3504H",
+      "https://ui.adsabs.harvard.edu/abs/2025ascl.soft06023H/abstract"
+    ],
+    "title": "pinc: Compute profile likelihoods in cosmology",
+    "url": "https://github.com/LauraHerold/pinc",
+    "name": "pinc",
+    "full_name": "LauraHerold/pinc",
+    "html_url": "https://github.com/LauraHerold/pinc",
+    "description": "Simple simulated-annealing minimization for computing profile likelihoods in cosmology",
+    "created_at": "2024-05-22T13:10:53Z",
+    "updated_at": "2025-04-03T14:55:42Z",
+    "clone_url": "https://github.com/LauraHerold/pinc.git",
+    "size": 3068,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Jupyter Notebook",
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/LauraHerold",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28920885?v=4",
+      "login": "LauraHerold",
+      "type": "User"
+    },
+    "timestamp": "2025-07-13 01:00:06.465356",
+    "avatar": "https://avatars.githubusercontent.com/u/28920885?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Simple simulated-annealing minimization to compute profiles in cosmology, i.e. profile likelihoods or global bestfits with MontePython and (any version of) CLASS.\"",
+        "\"We provide all notebooks to reproduce the plots in arXiv:2408.07700 in `asymptotic checks`.\"",
+        "\"The `pinc` scripts can be simply copied into any existing `MontePython` installation but need to be adapted by hand to the system and submission protocol (here `slurm`).\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T18:40:32Z"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/AstroUGent/shadowfax",
+  "url": "https://github.com/AstroUGent/shadowfax",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2016A%26C....16..109V",
+      "https://ui.adsabs.harvard.edu/abs/2016ascl.soft05003V/abstract"
+    ],
+    "title": "Shadowfax: Moving mesh hydrodynamical integration code",
+    "url": "https://github.com/AstroUGent/shadowfax",
+    "name": "shadowfax",
+    "full_name": "AstroUGent/shadowfax",
+    "html_url": "https://github.com/AstroUGent/shadowfax",
+    "description": "A public moving mesh hydrodynamical integration code, including gravity and a collisionless component.",
+    "created_at": "2015-12-15T09:29:50Z",
+    "updated_at": "2021-02-11T21:59:58Z",
+    "clone_url": "https://github.com/AstroUGent/shadowfax.git",
+    "size": 4388,
+    "stargazers_count": 14,
+    "watchers_count": 14,
+    "language": "C++",
+    "open_issues_count": 3,
+    "license": {
+      "key": "agpl-3.0",
+      "name": "GNU Affero General Public License v3.0",
+      "spdx_id": "AGPL-3.0",
+      "url": "https://api.github.com/licenses/agpl-3.0",
+      "node_id": "MDc6TGljZW5zZTE="
+    },
+    "subscribers_count": 9,
+    "owner": {
+      "html_url": "https://github.com/AstroUGent",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16303138?v=4",
+      "login": "AstroUGent",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-17 17:21:49.984811",
+    "avatar": "https://avatars.githubusercontent.com/u/16303138?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "Owner is an organization named AstroUGent, suggesting an astronomy research group at Ghent University.",
+        "README: \"A moving mesh hydrodynamical integration code. More information on installation and running can be found in the wiki.\" (end users run the code).",
+        "README points to GitHub wiki for \"Installation\" and compilation instructions, with no mention of package managers or binaries, implying use via cloning/building from the source repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T16:38:03Z"
+    }
+  }
+}

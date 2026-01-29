@@ -1,0 +1,53 @@
+{
+  "parser": "github",
+  "uid": "github/astromer-science/main-code",
+  "url": "https://github.com/astromer-science/main-code",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2022arXiv220501677D",
+      "https://ui.adsabs.harvard.edu/abs/2022ascl.soft05020D/abstract"
+    ],
+    "title": "ASTROMER: Building light curves embeddings using transfomers",
+    "url": "https://github.com/astromer-science/main-code",
+    "name": "main-code",
+    "full_name": "astromer-science/main-code",
+    "html_url": "https://github.com/astromer-science/main-code",
+    "description": "Latest stable implemention of ASTROMER ",
+    "created_at": "2022-04-04T15:07:52Z",
+    "updated_at": "2022-07-14T11:28:36Z",
+    "clone_url": "https://github.com/astromer-science/main-code.git",
+    "size": 138169,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "Jupyter Notebook",
+    "owner": {
+      "html_url": "https://github.com/astromer-science",
+      "avatar_url": "https://avatars.githubusercontent.com/u/102744454?v=4",
+      "login": "astromer-science",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-17 16:48:38.441746",
+    "avatar": "https://avatars.githubusercontent.com/u/102744454?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install -r requirements.txt\"",
+        "\"Astromer 2 is a foundational model for light curve analysis, designed to extract robust embeddings from astronomical time-series data using self-supervised learning.\"",
+        "\"This directory contains the core execution flows for the model... `pretrain.py`: Executes the self-supervised pretraining on MACHO data. `finetune.py`: Adapts the pretrained model to labeled datasets. `classify.py`: Runs the downstream classification tasks.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T21:37:16Z"
+    }
+  }
+}

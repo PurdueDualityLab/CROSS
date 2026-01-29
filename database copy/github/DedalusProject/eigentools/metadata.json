@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/DedalusProject/eigentools",
+  "url": "https://github.com/DedalusProject/eigentools",
+  "data": {
+    "timestamp": "2021-06-27 00:22:27.299218",
+    "name": "eigentools",
+    "url": "https://api.github.com/repos/DedalusProject/eigentools",
+    "full_name": "DedalusProject/eigentools",
+    "html_url": "https://github.com/DedalusProject/eigentools",
+    "private": false,
+    "description": "The Eigentools package for Dedalus",
+    "created_at": "2019-11-07T00:15:53Z",
+    "updated_at": "2021-06-22T14:46:09Z",
+    "clone_url": "https://github.com/DedalusProject/eigentools.git",
+    "homepage": null,
+    "size": 5404,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Python",
+    "open_issues_count": 0,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/DedalusProject",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25985571?v=4",
+      "login": "DedalusProject",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "doi": "https://doi.org/10.5281/zenodo.4968601",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "\"Eigentools is a set of tools for studying linear eigenvalue problems. The underlying eigenproblems are solved using Dedalus... Eigentools extends Dedalus's `EigenvalueProblem` object\" (indicates it is a library-like extension used by other software, i.e., a dependency).",
+        "Bullet list of features such as \"simple plotting of specified eigenmodes\", \"computation of pseudospectra\", and \"tools to find critical parameters for linear stability analysis\" show it directly performs scientific analysis tasks (direct research execution).",
+        "\"Eigentools can be `pip` installed\" indicates distribution via a Python package registry (PyPI)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T17:01:40Z"
+    }
+  }
+}

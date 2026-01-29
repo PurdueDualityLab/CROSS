@@ -1,0 +1,69 @@
+{
+  "parser": "github",
+  "uid": "github/ropensci/assertr",
+  "url": "https://github.com/ropensci/assertr",
+  "data": {
+    "timestamp": "2022-01-27 10:11:35.117403",
+    "name": "assertr",
+    "url": "https://api.github.com/repos/ropensci/assertr",
+    "full_name": "ropensci/assertr",
+    "html_url": "https://github.com/ropensci/assertr",
+    "private": false,
+    "description": "Assertive programming for R analysis pipelines",
+    "created_at": "2015-01-20T18:11:23Z",
+    "updated_at": "2022-01-24T18:02:40Z",
+    "clone_url": "https://github.com/ropensci/assertr.git",
+    "homepage": "https://docs.ropensci.org/assertr",
+    "size": 14691,
+    "stargazers_count": 387,
+    "watchers_count": 387,
+    "language": "R",
+    "open_issues_count": 10,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "owner": {
+      "html_url": "https://github.com/ropensci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1200269?v=4",
+      "login": "ropensci",
+      "type": "Organization"
+    },
+    "topics": [
+      "predicate-functions",
+      "analysis-pipeline",
+      "assertions",
+      "assertion-methods",
+      "assertion-library",
+      "r",
+      "rstats",
+      "r-package",
+      "peer-reviewed",
+      "scalereprod"
+    ]
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"assertr\")\"",
+        "\"The assertr package supplies a suite of functions designed to verify assumptions about data early in an analysis pipeline\" (R package intended to be imported and used by other R code).",
+        "\"You can install the latest version on CRAN like this `install.packages(\"assertr\")`\" (distribution via CRAN package registry)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T02:24:13Z"
+    }
+  }
+}

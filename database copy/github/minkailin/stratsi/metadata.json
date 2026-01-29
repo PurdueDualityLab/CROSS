@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/minkailin/stratsi",
+  "url": "https://github.com/minkailin/stratsi",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2020arXiv201112300L",
+      "https://ui.adsabs.harvard.edu/abs/2021ascl.soft01018L/abstract"
+    ],
+    "title": "stratsi: Stratified streaming instability",
+    "url": "https://github.com/minkailin/stratsi",
+    "name": "stratsi",
+    "full_name": "minkailin/stratsi",
+    "html_url": "https://github.com/minkailin/stratsi",
+    "description": "stratified streaming instability",
+    "created_at": "2019-10-16T12:01:42Z",
+    "updated_at": "2022-04-28T14:18:10Z",
+    "clone_url": "https://github.com/minkailin/stratsi.git",
+    "size": 8835,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "Python",
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/minkailin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4484564?v=4",
+      "login": "minkailin",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:12:56.169748",
+    "avatar": "https://avatars.githubusercontent.com/u/4484564?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "The repo consists of executable scripts like `stratsi_1fluid.py` described as “Complete code for solving the one-fluid linearized equations.”",
+        "Usage is shown as running scripts directly, e.g. “python3.7 stratsi_plot.py --mode 8” indicating end-user execution rather than import as a library.",
+        "Outputs are scientific data products and figures such as eigenvalues, eigenvectors, and plots of equilibrium disk structure and growth rates, which are core research results."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T01:21:47Z"
+    }
+  }
+}

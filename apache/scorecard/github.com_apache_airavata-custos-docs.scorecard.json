@@ -1,0 +1,28 @@
+{
+  "repo": "https://github.com/apache/airavata-custos-docs",
+  "timestamp_utc": "2026-01-24T00:40:27Z",
+  "repo_metadata": {
+    "name": "airavata-custos-docs",
+    "full_name": "apache/airavata-custos-docs",
+    "html_url": "https://github.com/apache/airavata-custos-docs",
+    "description": "Apache airavata",
+    "default_branch": "main",
+    "archived": false,
+    "fork": false,
+    "stargazers_count": 0
+  },
+  "data": {
+    "date": "2026-01-23T19:40:27-05:00",
+    "repo": {
+      "name": "github.com/apache/airavata-custos-docs",
+      "commit": "HEAD"
+    },
+    "scorecard": {
+      "version": "v5.4.0",
+      "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+    },
+    "score": -1.0,
+    "checks": null,
+    "metadata": null
+  }
+}

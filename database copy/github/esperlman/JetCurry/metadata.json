@@ -1,0 +1,52 @@
+{
+  "parser": "github",
+  "uid": "github/esperlman/JetCurry",
+  "url": "https://github.com/esperlman/JetCurry",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2017arXiv170200534L",
+      "https://ui.adsabs.harvard.edu/abs/2017ascl.soft02005K/abstract"
+    ],
+    "title": "JetCurry: Modeling 3D geometry of AGN jets from 2D images",
+    "url": "https://github.com/esperlman/JetCurry",
+    "name": "JetCurry",
+    "full_name": "esperlman/JetCurry",
+    "html_url": "https://github.com/esperlman/JetCurry",
+    "created_at": "2016-12-15T21:22:06Z",
+    "updated_at": "2020-09-02T16:05:44Z",
+    "clone_url": "https://github.com/esperlman/JetCurry.git",
+    "size": 2663,
+    "language": "HTML",
+    "open_issues_count": 1,
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/esperlman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19291620?v=4",
+      "login": "esperlman",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:20:45.168450",
+    "avatar": "https://avatars.githubusercontent.com/u/19291620?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Models the 3D geometry of AGN jets.\"",
+        "\"Usage\n\npython JetCurryMain.py input [-out_dir]\" (indicates it is run as a standalone program, not imported as a library)",
+        "README provides only command-line usage from the repository and no mention of package managers, containers, or binaries, implying distribution via source repo."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T23:46:37Z"
+    }
+  }
+}

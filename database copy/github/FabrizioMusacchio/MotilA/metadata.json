@@ -1,0 +1,69 @@
+{
+  "parser": "github",
+  "uid": "github/FabrizioMusacchio/MotilA",
+  "url": "https://github.com/FabrizioMusacchio/MotilA",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.17807127",
+    "name": "MotilA",
+    "url": "https://github.com/FabrizioMusacchio/MotilA",
+    "full_name": "FabrizioMusacchio/MotilA",
+    "html_url": "https://github.com/FabrizioMusacchio/MotilA",
+    "description": "Pipeline for analyzing microglial fine process motility from 4D/5D multi-photon imaging data",
+    "created_at": "2025-03-21T10:53:03Z",
+    "updated_at": "2025-12-26T13:45:59Z",
+    "clone_url": "https://github.com/FabrizioMusacchio/MotilA.git",
+    "homepage": "https://motila.readthedocs.io/",
+    "size": 63125,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "Python",
+    "open_issues_count": 1,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/FabrizioMusacchio",
+      "avatar_url": "https://avatars.githubusercontent.com/u/81537532?v=4",
+      "login": "FabrizioMusacchio",
+      "type": "User"
+    },
+    "topics": [
+      "image-processing",
+      "image-segmentation",
+      "microglia",
+      "microglial-motility",
+      "motility",
+      "motility-analysis",
+      "neuroscience",
+      "python"
+    ],
+    "timestamp": "2026-01-11 01:01:51.478614",
+    "avatar": "https://avatars.githubusercontent.com/u/81537532?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install motila\"",
+        "“MotilA is a Python-based image analysis pipeline designed to quantify microglial fine process motility from 4D and 5D time-lapse image stacks…”",
+        "“Here is an example of how to use MotilA for single file processing. First, import the necessary modules: `import motila as mt` … `mt.process_stack(...)`”"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T17:10:49Z"
+    }
+  }
+}

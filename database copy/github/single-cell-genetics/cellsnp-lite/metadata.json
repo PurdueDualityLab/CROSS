@@ -1,0 +1,69 @@
+{
+  "parser": "github",
+  "uid": "github/single-cell-genetics/cellsnp-lite",
+  "url": "https://github.com/single-cell-genetics/cellsnp-lite",
+  "data": {
+    "title": "cellsnp‑lite",
+    "url": "https://github.com/single-cell-genetics/cellsnp-lite",
+    "credit": [],
+    "tags": [
+      "scrna-seq-analysis",
+      "genomics"
+    ],
+    "description": "Efficient genotyping bi-allelic SNPs on single cells",
+    "name": "cellsnp-lite",
+    "full_name": "single-cell-genetics/cellsnp-lite",
+    "html_url": "https://github.com/single-cell-genetics/cellsnp-lite",
+    "created_at": "2020-07-31T01:06:22Z",
+    "updated_at": "2022-11-15T05:18:04Z",
+    "clone_url": "https://github.com/single-cell-genetics/cellsnp-lite.git",
+    "homepage": "https://cellsnp-lite.readthedocs.io",
+    "size": 495,
+    "stargazers_count": 47,
+    "watchers_count": 47,
+    "language": "C",
+    "open_issues_count": 14,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "subscribers_count": 8,
+    "owner": {
+      "html_url": "https://github.com/single-cell-genetics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57483384?v=4",
+      "login": "single-cell-genetics",
+      "type": "Organization"
+    },
+    "topics": [
+      "single-cell",
+      "genetic-variants",
+      "genotyping"
+    ],
+    "timestamp": "2022-11-27 00:42:11.475904",
+    "avatar": "https://avatars.githubusercontent.com/u/57483384?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "conda",
+      "evidence": [
+        "README install command: \"conda install -c bioconda cellsnp-lite\"",
+        "\"Cellsnp-lite is a C/C++ tool for efficient genotyping bi-allelic SNPs on single cells. You can use *cellsnp-lite* after read alignment to obtain the *snp x cell* pileup...\"",
+        "\"The output from *cellsnp-lite* can be directly used for downstream analysis such as: Donor deconvolution... Allele-specific CNV analysis... Clonal substructure discovery...\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T03:28:37Z"
+    }
+  }
+}

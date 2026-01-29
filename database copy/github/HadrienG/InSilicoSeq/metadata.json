@@ -1,0 +1,67 @@
+{
+  "parser": "github",
+  "uid": "github/HadrienG/InSilicoSeq",
+  "url": "https://github.com/HadrienG/InSilicoSeq",
+  "data": {
+    "url": "https://github.com/HadrienG/InSilicoSeq",
+    "title": "Insilicoseq",
+    "description": ":rocket: A sequencing simulator",
+    "doi": "https://doi.org/10.1093/bioinformatics/bty630",
+    "name": "InSilicoSeq",
+    "full_name": "HadrienG/InSilicoSeq",
+    "html_url": "https://github.com/HadrienG/InSilicoSeq",
+    "created_at": "2016-11-16T12:55:51Z",
+    "updated_at": "2022-07-11T06:33:19Z",
+    "clone_url": "https://github.com/HadrienG/InSilicoSeq.git",
+    "homepage": "https://insilicoseq.readthedocs.io",
+    "size": 6360,
+    "stargazers_count": 119,
+    "watchers_count": 119,
+    "language": "Python",
+    "open_issues_count": 22,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 7,
+    "owner": {
+      "html_url": "https://github.com/HadrienG",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7337110?v=4",
+      "login": "HadrienG",
+      "type": "User"
+    },
+    "topics": [
+      "bioinformatics",
+      "illumina-sequencing",
+      "sequencing",
+      "simulation",
+      "metagenomics"
+    ],
+    "timestamp": "2022-07-20 17:26:09.897313",
+    "avatar": "https://avatars.githubusercontent.com/u/7337110?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install InSilicoSeq\"",
+        "\"InSilicoSeq is a sequencing simulator producing realistic Illumina reads. Primarily intended for simulating metagenomic samples, it can also be used to produce sequencing data from a single genome.\"",
+        "\"InSilicoSeq has two subcommands: `iss generate` to generate Illumina reads and `iss model` to create an error model from which the reads will take their characteristics.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T17:45:14Z"
+    }
+  }
+}

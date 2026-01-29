@@ -1,0 +1,63 @@
+{
+  "parser": "github",
+  "uid": "github/DeepRank/DeepRank-GNN",
+  "url": "https://github.com/DeepRank/Deeprank-GNN",
+  "data": {
+    "timestamp": "2022-03-13 00:44:17.400156",
+    "name": "Deeprank-GNN",
+    "url": "https://api.github.com/repos/DeepRank/Deeprank-GNN",
+    "full_name": "DeepRank/Deeprank-GNN",
+    "html_url": "https://github.com/DeepRank/Deeprank-GNN",
+    "private": false,
+    "description": "Graph Network for protein-protein interface",
+    "created_at": "2018-07-13T15:23:32Z",
+    "updated_at": "2022-03-11T16:56:05Z",
+    "clone_url": "https://github.com/DeepRank/Deeprank-GNN.git",
+    "homepage": "",
+    "size": 101172,
+    "stargazers_count": 21,
+    "watchers_count": 21,
+    "language": "Python",
+    "open_issues_count": 2,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/DeepRank",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31408512?v=4",
+      "login": "DeepRank",
+      "type": "Organization"
+    },
+    "topics": [
+      "graph",
+      "protein"
+    ]
+  },
+  "doi": "10.5281/zenodo.5705564",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install DeepRank-GNN\"",
+        "\"There is a new version called DeepRank-GNN-esm ... Next to that, there is a new DeepRank2 version, an improved and unified version of DeepRank-GNN, DeepRank, and DeepRank-Mut.\" (indicates a research project line maintained by a research group rather than a company or broad foundation)",
+        "\"Once the dependencies installed, you can install the latest release of DeepRank-GNN using the PyPi package manager: pip install DeepRank-GNN\" (shows it is a Python package distributed via PyPI)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T17:01:45Z"
+    }
+  }
+}

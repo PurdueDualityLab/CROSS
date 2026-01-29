@@ -1,0 +1,28 @@
+{
+  "repo": "https://github.com/apache/hamilton-101",
+  "timestamp_utc": "2026-01-24T02:03:13Z",
+  "repo_metadata": {
+    "name": "hamilton-101",
+    "full_name": "apache/hamilton-101",
+    "html_url": "https://github.com/apache/hamilton-101",
+    "description": "Apache hamilton",
+    "default_branch": "main",
+    "archived": false,
+    "fork": false,
+    "stargazers_count": 0
+  },
+  "data": {
+    "date": "2026-01-23T21:03:12-05:00",
+    "repo": {
+      "name": "github.com/apache/hamilton-101",
+      "commit": "HEAD"
+    },
+    "scorecard": {
+      "version": "v5.4.0",
+      "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+    },
+    "score": -1.0,
+    "checks": null,
+    "metadata": null
+  }
+}

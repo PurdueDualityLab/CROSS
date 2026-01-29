@@ -1,0 +1,68 @@
+{
+  "parser": "github",
+  "uid": "github/astrocatalogs/astrocats",
+  "url": "https://github.com/astrocatalogs/astrocats",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2023PASP..135b4503M",
+      "https://ui.adsabs.harvard.edu/abs/2017ApJ...835...64G",
+      "https://ui.adsabs.harvard.edu/abs/2024ascl.soft11008G/abstract"
+    ],
+    "title": "Astrocats: Construct astronomical catalogs",
+    "url": "https://github.com/astrocatalogs/astrocats",
+    "name": "astrocats",
+    "full_name": "astrocatalogs/astrocats",
+    "html_url": "https://github.com/astrocatalogs/astrocats",
+    "description": "Astrocats package for constructing astronomical catalogs",
+    "created_at": "2016-01-11T08:24:37Z",
+    "updated_at": "2024-02-07T09:11:00Z",
+    "clone_url": "https://github.com/astrocatalogs/astrocats.git",
+    "homepage": "https://astrocats.space",
+    "size": 137977,
+    "stargazers_count": 40,
+    "watchers_count": 40,
+    "language": "Python",
+    "open_issues_count": 21,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 9,
+    "owner": {
+      "html_url": "https://github.com/astrocatalogs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16644580?v=4",
+      "login": "astrocatalogs",
+      "type": "Organization"
+    },
+    "topics": [
+      "catalog",
+      "open-astronomy-catalogs"
+    ],
+    "timestamp": "2024-12-01 00:56:10.133775",
+    "avatar": "https://avatars.githubusercontent.com/u/16644580?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"The Astrocats package enables astronomers to construct their own curated catalogs of astronomical data with the intention of producing shareable catalogs of that data in human-readable formats.\"",
+        "\"Astrocats is used by several existing open astronomy catalogs, including: * The Open Supernova Catalog ... * The Open TDE Catalog ... * The Open Nova Catalog ... * The Open Black Hole Catalog\"",
+        "\"The process for creating one's own open astronomy catalog involves checking out this package...\" and the install example uses `git clone git@github.com:astrocatalogs/astrocats.git` indicating source-repo based distribution; it also says \"Astrocats will soon be listed on PyPi... for now the install must be performed manually.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T21:26:55Z"
+    }
+  }
+}

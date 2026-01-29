@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/LTLA/gesel.js",
+  "url": "https://github.com/LTLA/gesel.js",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.10032294",
+    "name": "gesel.js",
+    "url": "https://github.com/LTLA/gesel.js",
+    "full_name": "LTLA/gesel.js",
+    "html_url": "https://github.com/LTLA/gesel.js",
+    "description": "Client-side gene set queries.",
+    "created_at": "2023-03-02T17:06:39Z",
+    "updated_at": "2023-10-21T00:31:01Z",
+    "clone_url": "https://github.com/LTLA/gesel.js.git",
+    "homepage": "https://ltla.github.io/gesel.js",
+    "size": 1124,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "JavaScript",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/LTLA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8166669?v=4",
+      "login": "LTLA",
+      "type": "User"
+    },
+    "timestamp": "2023-10-28 21:36:39.882236",
+    "avatar": "https://avatars.githubusercontent.com/u/8166669?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Vendor or commercial entity",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"That said, some applications may prefer to download the entire database up-front rather than performing range requests for each query.\"",
+        "\"[**gesel**](https://www.npmjs.com/package/gesel) can be installed with the usual commands: npm i gesel\" (indicates npm package registry distribution and that it is a library).",
+        "\"**gesel** is implemented as an ES6 module, so importing is as simple as: import * as gesel from \"gesel\";\" (shows it is intended to be imported as a dependency)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T18:40:03Z"
+    }
+  }
+}

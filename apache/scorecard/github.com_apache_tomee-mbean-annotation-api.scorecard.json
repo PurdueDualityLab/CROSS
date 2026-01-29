@@ -1,0 +1,28 @@
+{
+  "repo": "https://github.com/apache/tomee-mbean-annotation-api",
+  "timestamp_utc": "2026-01-24T04:59:38Z",
+  "repo_metadata": {
+    "name": "tomee-mbean-annotation-api",
+    "full_name": "apache/tomee-mbean-annotation-api",
+    "html_url": "https://github.com/apache/tomee-mbean-annotation-api",
+    "description": "Apache tomee",
+    "default_branch": "main",
+    "archived": false,
+    "fork": false,
+    "stargazers_count": 0
+  },
+  "data": {
+    "date": "2026-01-23T23:59:38-05:00",
+    "repo": {
+      "name": "github.com/apache/tomee-mbean-annotation-api",
+      "commit": "HEAD"
+    },
+    "scorecard": {
+      "version": "v5.4.0",
+      "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+    },
+    "score": -1.0,
+    "checks": null,
+    "metadata": null
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "parser": "github",
+  "uid": "github/EMSL-Computing/Pore2Chip",
+  "url": "https://github.com/EMSL-Computing/Pore2Chip",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.16903861",
+    "name": "Pore2Chip",
+    "url": "https://github.com/EMSL-Computing/Pore2Chip",
+    "full_name": "EMSL-Computing/Pore2Chip",
+    "html_url": "https://github.com/EMSL-Computing/Pore2Chip",
+    "description": "A python package that takes XCT images of porous materials and generates representative digital twin micromodels",
+    "created_at": "2024-07-03T17:01:36Z",
+    "updated_at": "2025-08-29T20:36:51Z",
+    "clone_url": "https://github.com/EMSL-Computing/Pore2Chip.git",
+    "homepage": "https://www.emsl.pnnl.gov/science/instruments-resources/terraforms-pore2chip",
+    "size": 33737,
+    "stargazers_count": 7,
+    "watchers_count": 7,
+    "language": "Python",
+    "open_issues_count": 1,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/EMSL-Computing",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43354427?v=4",
+      "login": "EMSL-Computing",
+      "type": "Organization"
+    },
+    "topics": [
+      "lab",
+      "openpnm",
+      "pore-network",
+      "soil",
+      "xct",
+      "experimental-design",
+      "flow",
+      "model-data-fusion",
+      "neural-networks",
+      "reactive-transport",
+      "terraforms",
+      "lab-on-chip",
+      "microfluidics-chip-enrichment",
+      "porous-materials",
+      "porous-media",
+      "python",
+      "scientific-visualization",
+      "data-analysis",
+      "data-visualization",
+      "machine-learning"
+    ],
+    "timestamp": "2025-08-31 00:53:18.760705",
+    "avatar": "https://avatars.githubusercontent.com/u/43354427?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install pore2chip\"",
+        "\"Pore2Chip is a Python module designed to streamline the process of analyzing X-ray computed tomography (XCT) images of soil and creating 2D micromodel designs based on that analysis.\"",
+        "\"In essence, Pore2Chip offers a comprehensive solution for researchers and engineers working with soil microstructures. It efficiently bridges the gap between XCT data and micromodel development, paving the way for a deeper understanding of soil behavior...\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T17:05:30Z"
+    }
+  }
+}

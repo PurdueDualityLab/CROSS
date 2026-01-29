@@ -1,0 +1,56 @@
+{
+  "parser": "github",
+  "uid": "github/DTsuna/CHIPS",
+  "url": "https://github.com/DTsuna/CHIPS",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2023ApJ...945..104T",
+      "https://ui.adsabs.harvard.edu/abs/2022ApJ...929..177T",
+      "https://ui.adsabs.harvard.edu/abs/2023ascl.soft06046T/abstract"
+    ],
+    "title": "CHIPS: Circumstellar matter and light curves of interaction-powered transients simulator",
+    "url": "https://github.com/DTsuna/CHIPS",
+    "name": "CHIPS",
+    "full_name": "DTsuna/CHIPS",
+    "html_url": "https://github.com/DTsuna/CHIPS",
+    "description": "Open source code to unveil the Complete History of Interaction-Powered Supernovae",
+    "created_at": "2018-12-12T14:00:13Z",
+    "updated_at": "2023-04-18T21:11:26Z",
+    "clone_url": "https://github.com/DTsuna/CHIPS.git",
+    "size": 59740,
+    "stargazers_count": 6,
+    "watchers_count": 6,
+    "language": "Fortran",
+    "open_issues_count": 1,
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/DTsuna",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20248820?v=4",
+      "login": "DTsuna",
+      "type": "User"
+    },
+    "timestamp": "2023-07-02 00:53:49.831327",
+    "avatar": "https://avatars.githubusercontent.com/u/20248820?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"CHIPS is a tool for simulating the circumstellar matter and light curves of interaction-powered transients.\"",
+        "\"Steps for running CHIPS: 1. git clone this repository ... 3. Execute the script run.py. For example, to simulate an interaction-powered SN...\"",
+        "\"CHIPS can generate a realistic CSM ... It can also generate light curves from CSM interaction ... which can also be compared with observed light curves.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T17:00:36Z"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/hanyk/BayeSED3",
+  "url": "https://github.com/hanyk/BayeSED3",
+  "data": {
+    "doi": [],
+    "title": "BayeSED3: A code for Bayesian SED synthesis and analysis of galaxies and AGNs",
+    "url": "https://github.com/hanyk/BayeSED3",
+    "name": "BayeSED3",
+    "full_name": "hanyk/BayeSED3",
+    "html_url": "https://github.com/hanyk/BayeSED3",
+    "description": "A code for Bayesian SED synthesis and analysis of galaxies and AGNs",
+    "created_at": "2024-09-11T08:19:32Z",
+    "updated_at": "2024-10-24T18:49:21Z",
+    "clone_url": "https://github.com/hanyk/BayeSED3.git",
+    "size": 136287,
+    "stargazers_count": 7,
+    "watchers_count": 7,
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/hanyk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7869600?v=4",
+      "login": "hanyk",
+      "type": "User"
+    },
+    "timestamp": "2024-10-27 00:46:05.136290",
+    "avatar": "https://avatars.githubusercontent.com/u/7869600?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install -r requirements.txt\"",
+        "\"BayeSED3 is a general and sophisticated tool for the full Bayesian interpretation of spectral energy distributions (SEDs) of galaxies and AGNs. It performs Bayesian parameter estimation...\"",
+        "\"Quick Start: BayeSED3 can be used directly from the repository root ... python run_test.py gal plot\" (end users run it as a program/CLI/GUI for SED analysis)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:07:35Z"
+    }
+  }
+}

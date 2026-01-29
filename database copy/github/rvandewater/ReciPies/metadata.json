@@ -1,0 +1,67 @@
+{
+  "parser": "github",
+  "uid": "github/rvandewater/ReciPies",
+  "url": "https://github.com/rvandewater/ReciPies",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.15863617",
+    "name": "ReciPies",
+    "url": "https://github.com/rvandewater/ReciPies",
+    "full_name": "rvandewater/ReciPies",
+    "html_url": "https://github.com/rvandewater/ReciPies",
+    "description": "🥧 Easily define reproducible preprocessing steps for ML on Polars and Pandas DataFrames. ",
+    "created_at": "2022-11-25T11:56:34Z",
+    "updated_at": "2026-01-06T03:48:03Z",
+    "clone_url": "https://github.com/rvandewater/ReciPies.git",
+    "homepage": "https://rvandewater.github.io/ReciPies/",
+    "size": 5694,
+    "stargazers_count": 8,
+    "watchers_count": 8,
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/rvandewater",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23501069?v=4",
+      "login": "rvandewater",
+      "type": "User"
+    },
+    "topics": [
+      "tidymodels",
+      "data-science",
+      "pandas",
+      "python",
+      "scikit-learn",
+      "polars",
+      "machine-learning"
+    ],
+    "timestamp": "2026-01-11 01:01:47.651756",
+    "avatar": "https://avatars.githubusercontent.com/u/23501069?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install recipies\"",
+        "“ReciPies provides a concise, human‑readable, and fully reproducible way to declare, execute, and share preprocessing pipelines… It lets users describe transformations as a recipe made of ordered steps…”",
+        "“Here's a simple example of using ReciPies: … from recipies import Ingredients, Recipe”"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T03:14:30Z"
+    }
+  }
+}

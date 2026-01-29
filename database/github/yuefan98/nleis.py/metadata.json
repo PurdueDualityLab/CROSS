@@ -1,45 +1,264 @@
 {
-    "parser": "github",
-    "uid": "github/yuefan98/nleis.py",
+  "parser": "github",
+  "uid": "github/yuefan98/nleis.py",
+  "url": "https://github.com/yuefan98/nleis.py",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.14606367",
+    "name": "nleis.py",
     "url": "https://github.com/yuefan98/nleis.py",
-    "data": {
-        "doi": "https://doi.org/10.5281/zenodo.14606367",
-        "name": "nleis.py",
-        "url": "https://github.com/yuefan98/nleis.py",
-        "full_name": "yuefan98/nleis.py",
-        "html_url": "https://github.com/yuefan98/nleis.py",
-        "description": "A NLEIS toolbox for impedance.py that provides RC level nonlinear equivalent circuit modeling (nECM) and analysis",
-        "created_at": "2024-02-13T21:33:41Z",
-        "updated_at": "2025-02-01T14:27:38Z",
-        "clone_url": "https://github.com/yuefan98/nleis.py.git",
-        "size": 3201,
-        "stargazers_count": 5,
-        "watchers_count": 5,
-        "language": "Python",
-        "license": {
-            "key": "mit",
-            "name": "MIT License",
-            "spdx_id": "MIT",
-            "url": "https://api.github.com/licenses/mit",
-            "node_id": "MDc6TGljZW5zZTEz"
-        },
-        "subscribers_count": 1,
-        "owner": {
-            "html_url": "https://github.com/yuefan98",
-            "avatar_url": "https://avatars.githubusercontent.com/u/97193085?v=4",
-            "login": "yuefan98",
-            "type": "User"
-        },
-        "topics": [
-            "eis",
-            "electrochemistry",
-            "2nd-nleis",
-            "lithium-ion-batteries",
-            "impedance-py",
-            "battery",
-            "fuel-cell"
-        ],
-        "timestamp": "2025-02-02 00:46:24.464221",
-        "avatar": "https://avatars.githubusercontent.com/u/97193085?v=4"
+    "full_name": "yuefan98/nleis.py",
+    "html_url": "https://github.com/yuefan98/nleis.py",
+    "description": "A NLEIS toolbox for impedance.py that provides RC level nonlinear equivalent circuit modeling (nECM) and analysis",
+    "created_at": "2024-02-13T21:33:41Z",
+    "updated_at": "2025-02-01T14:27:38Z",
+    "clone_url": "https://github.com/yuefan98/nleis.py.git",
+    "size": 3201,
+    "stargazers_count": 5,
+    "watchers_count": 5,
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/yuefan98",
+      "avatar_url": "https://avatars.githubusercontent.com/u/97193085?v=4",
+      "login": "yuefan98",
+      "type": "User"
+    },
+    "topics": [
+      "eis",
+      "electrochemistry",
+      "2nd-nleis",
+      "lithium-ion-batteries",
+      "impedance-py",
+      "battery",
+      "fuel-cell"
+    ],
+    "timestamp": "2025-02-02 00:46:24.464221",
+    "avatar": "https://avatars.githubusercontent.com/u/97193085?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install nleis\"",
+        "\"`nleis.py` aims to address this gap by providing a Python toolbox that is designed to work with and extend the capabilities of `impedance.py`.\" (toolbox/library extending another package)",
+        "\"The `nleis.py` is avaliable in a standalone version now. You can install it directly with pip.```bash\npip install nleis\n```\" (distribution via PyPI package registry)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T05:09:45Z"
     }
+  },
+  "openssf_scorecard": {
+    "data": {
+      "date": "2026-01-23T15:37:54-05:00",
+      "repo": {
+        "name": "github.com/yuefan98/nleis.py",
+        "commit": "dedb92683c62cd6a471f8ca7b529124258de062f"
+      },
+      "scorecard": {
+        "version": "v5.4.0",
+        "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+      },
+      "score": 3.3,
+      "checks": [
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no binaries found in the repo",
+          "name": "Binary-Artifacts",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#binary-artifacts",
+            "short": "Determines if the project has generated executable (binary) artifacts in the source repository."
+          }
+        },
+        {
+          "details": null,
+          "score": 3,
+          "reason": "branch protection is not maximal on development and all release branches",
+          "name": "Branch-Protection",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#branch-protection",
+            "short": "Determines if the default and release branches are protected with GitHub's branch protection settings."
+          }
+        },
+        {
+          "details": null,
+          "score": 2,
+          "reason": "8 out of 27 merged PRs checked by a CI test -- score normalized to 2",
+          "name": "CI-Tests",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#ci-tests",
+            "short": "Determines if the project runs tests before pull requests are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no effort to earn an OpenSSF best practices badge detected",
+          "name": "CII-Best-Practices",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#cii-best-practices",
+            "short": "Determines if the project has an OpenSSF (formerly CII) Best Practices Badge."
+          }
+        },
+        {
+          "details": null,
+          "score": 1,
+          "reason": "Found 4/26 approved changesets -- score normalized to 1",
+          "name": "Code-Review",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#code-review",
+            "short": "Determines if the project requires human code review before pull requests (aka merge requests) are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "project has 0 contributing companies or organizations -- score normalized to 0",
+          "name": "Contributors",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#contributors",
+            "short": "Determines if the project has a set of contributors from multiple organizations (e.g., companies)."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no dangerous workflow patterns detected",
+          "name": "Dangerous-Workflow",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dangerous-workflow",
+            "short": "Determines if the project's GitHub Action workflows avoid dangerous patterns."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no update tool detected",
+          "name": "Dependency-Update-Tool",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dependency-update-tool",
+            "short": "Determines if the project uses a dependency update tool."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "project is not fuzzed",
+          "name": "Fuzzing",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#fuzzing",
+            "short": "Determines if the project uses fuzzing."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "license file detected",
+          "name": "License",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#license",
+            "short": "Determines if the project has defined a license."
+          }
+        },
+        {
+          "details": null,
+          "score": 2,
+          "reason": "3 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 2",
+          "name": "Maintained",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#maintained",
+            "short": "Determines if the project is \"actively maintained\"."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "packaging workflow detected",
+          "name": "Packaging",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#packaging",
+            "short": "Determines if the project is published as a package that others can easily download, install, easily update, and uninstall."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "dependency not pinned by hash detected -- score normalized to 0",
+          "name": "Pinned-Dependencies",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#pinned-dependencies",
+            "short": "Determines if the project has declared and pinned the dependencies of its build process."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "SAST tool is not run on all commits -- score normalized to 0",
+          "name": "SAST",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#sast",
+            "short": "Determines if the project uses static code analysis."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "security policy file not detected",
+          "name": "Security-Policy",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#security-policy",
+            "short": "Determines if the project has published a security policy."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no releases found",
+          "name": "Signed-Releases",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#signed-releases",
+            "short": "Determines if the project cryptographically signs release artifacts."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "detected GitHub workflow tokens with excessive permissions",
+          "name": "Token-Permissions",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#token-permissions",
+            "short": "Determines if the project's workflows follow the principle of least privilege."
+          }
+        },
+        {
+          "details": null,
+          "score": 3,
+          "reason": "7 existing vulnerabilities detected",
+          "name": "Vulnerabilities",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#vulnerabilities",
+            "short": "Determines if the project has open, known unfixed vulnerabilities."
+          }
+        }
+      ],
+      "metadata": null
+    },
+    "timestamp_utc": "2026-01-23T20:38:18Z"
+  }
 }

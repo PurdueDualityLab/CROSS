@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/mrc-ide/dde",
+  "url": "https://github.com/mrc-ide/dde",
+  "data": {
+    "timestamp": "2022-05-12 03:43:50.333131",
+    "name": "dde",
+    "url": "https://api.github.com/repos/mrc-ide/dde",
+    "full_name": "mrc-ide/dde",
+    "html_url": "https://github.com/mrc-ide/dde",
+    "private": false,
+    "description": ":clock1130::soon::clock9: Delay differential equation solver",
+    "created_at": "2016-06-15T08:32:26Z",
+    "updated_at": "2021-01-27T09:46:38Z",
+    "clone_url": "https://github.com/mrc-ide/dde.git",
+    "homepage": "https://mrc-ide.github.io/dde",
+    "size": 3233,
+    "stargazers_count": 14,
+    "watchers_count": 14,
+    "language": "R",
+    "open_issues_count": 4,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/mrc-ide",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25453642?v=4",
+      "login": "mrc-ide",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "contact": "Rich FitzJohn <r.fitzjohn@imperial.ac.uk>",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"dde\")\"",
+        "\"This package solves ordinary differential equations (ODEs), delay differential equations (DDEs) and discrete-time *difference* (or recursion) equations\"",
+        "\"To store the history without using ever-growing (or just huge) amounts of memory, `dde` uses a ring buffer to hold the history over time\" (indicates it is an R package/library used by other code)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:27:13Z"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "parser": "github",
+  "uid": "github/astroboylrx/PLAN",
+  "url": "https://github.com/astroboylrx/PLAN",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2019NatAs...3..808N",
+      "https://ui.adsabs.harvard.edu/abs/2019ApJ...885...69L",
+      "https://ui.adsabs.harvard.edu/abs/2019ascl.soft11001L/abstract"
+    ],
+    "title": "PLAN: A Clump-finder for Planetesimal Formation Simulations",
+    "url": "https://github.com/astroboylrx/PLAN",
+    "name": "PLAN",
+    "full_name": "astroboylrx/PLAN",
+    "html_url": "https://github.com/astroboylrx/PLAN",
+    "description": "PLAN: PLanetesimal ANalyzer",
+    "created_at": "2016-03-11T17:40:38Z",
+    "updated_at": "2022-06-08T03:40:10Z",
+    "clone_url": "https://github.com/astroboylrx/PLAN.git",
+    "size": 1121,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "C++",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/astroboylrx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3999966?v=4",
+      "login": "astroboylrx",
+      "type": "User"
+    },
+    "topics": [
+      "astronomy",
+      "astrophysics",
+      "athena",
+      "particles",
+      "barnes-hut",
+      "3d",
+      "vtk",
+      "mpi",
+      "openmp",
+      "cmake"
+    ],
+    "timestamp": "2022-07-17 17:15:39.362100",
+    "avatar": "https://avatars.githubusercontent.com/u/3999966?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"PLanetesimal ANalyzer (`PLAN` ... ) identifies and characterizes planetesimals produced in numerical simulations of the Streaming Instability\"",
+        "\"Currently, `PLAN` works with the 3D particle output of `Athena` and finds gravitationally bound clumps robustly and efficiently.\"",
+        "Build and usage are described via cloning and compiling with CMake/Make and then running `./plan` or `mpirun ./plan`, with no mention of package managers or binary releases."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T21:26:42Z"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "parser": "github",
+  "uid": "github/LSSTDESC/chroma",
+  "url": "https://github.com/LSSTDESC/chroma",
+  "data": {
+    "doi": [
+      "http://adsabs.harvard.edu/abs/2015ApJ...807..182M",
+      "https://ui.adsabs.harvard.edu/abs/2018ascl.soft04007M/abstract"
+    ],
+    "title": "chroma: Chromatic effects for LSST weak lensing",
+    "url": "https://github.com/LSSTDESC/chroma",
+    "name": "chroma",
+    "full_name": "LSSTDESC/chroma",
+    "html_url": "https://github.com/LSSTDESC/chroma",
+    "description": "Investigations of chromatic effects for LSST weak lensing, as documented here: https://LSSTDESC.github.io/chroma/ and here:",
+    "created_at": "2013-04-05T23:48:38Z",
+    "updated_at": "2022-07-14T01:21:57Z",
+    "clone_url": "https://github.com/LSSTDESC/chroma.git",
+    "homepage": "http://arxiv.org/abs/1409.6273",
+    "size": 26088,
+    "stargazers_count": 8,
+    "watchers_count": 8,
+    "language": "Ruby",
+    "open_issues_count": 3,
+    "subscribers_count": 27,
+    "owner": {
+      "html_url": "https://github.com/LSSTDESC",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2731443?v=4",
+      "login": "LSSTDESC",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-17 17:19:02.848477",
+    "avatar": "https://avatars.githubusercontent.com/u/2731443?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "Repository owner is the LSSTDESC organization, which corresponds to the LSST Dark Energy Science Collaboration, a specific research collaboration/lab-like group.",
+        "README describes it as “Investigations of chromatic PSF effects and implications for studies of weak gravitational lensing,” indicating it is a domain-specific research code used for scientific investigations.",
+        "Links to a project website and journal article about the same topic, implying this code is part of the research work rather than a general-purpose library or infrastructure."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T18:39:46Z"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "parser": "github",
+  "uid": "github/MartianColonist/Cthulhu",
+  "url": "https://github.com/MartianColonist/Cthulhu",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.13888354",
+    "name": "Cthulhu",
+    "url": "https://github.com/MartianColonist/Cthulhu",
+    "full_name": "MartianColonist/Cthulhu",
+    "html_url": "https://github.com/MartianColonist/Cthulhu",
+    "description": "A Python package to calculate cross sections for substellar atmospheres",
+    "created_at": "2020-08-27T20:44:27Z",
+    "updated_at": "2024-10-05T18:58:37Z",
+    "clone_url": "https://github.com/MartianColonist/Cthulhu.git",
+    "size": 116361,
+    "language": "Python",
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/MartianColonist",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22718554?v=4",
+      "login": "MartianColonist",
+      "type": "User"
+    },
+    "timestamp": "2024-10-06 00:47:04.224626",
+    "avatar": "https://avatars.githubusercontent.com/u/22718554?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Cthulhu is a Python package designed for user-friendly calculations of molecular and atomic cross sections for exoplanet and brown dwarf atmosphere models.\"",
+        "\"Cthulhu is a Python package designed for user-friendly calculations...\" (indicates a library-style Python package, i.e., dependency artifact)",
+        "README only references documentation and contribution via the GitHub project and ReadTheDocs, with no mention of PyPI, containers, or other distribution channels, implying use via the source repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T19:05:54Z"
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "parser": "github",
+  "uid": "github/BradyAJohnston/MolecularNodes",
+  "url": "https://github.com/BradyAJohnston/MolecularNodes",
+  "data": {
+    "title": "Molecular Nodes",
+    "url": "https://github.com/BradyAJohnston/MolecularNodes",
+    "credit": [
+      "Brady A Johnston"
+    ],
+    "tags": [
+      "structure-visualization-&-analysis",
+      "visualization",
+      "visualization"
+    ],
+    "description": "Toolbox for molecular animations in Blender, powered by Geometry Nodes.",
+    "name": "MolecularNodes",
+    "full_name": "BradyAJohnston/MolecularNodes",
+    "html_url": "https://github.com/BradyAJohnston/MolecularNodes",
+    "created_at": "2022-04-25T07:14:42Z",
+    "updated_at": "2024-08-31T04:02:50Z",
+    "clone_url": "https://github.com/BradyAJohnston/MolecularNodes.git",
+    "homepage": "https://bradyajohnston.github.io/MolecularNodes/",
+    "size": 834837,
+    "stargazers_count": 879,
+    "watchers_count": 879,
+    "language": "Python",
+    "open_issues_count": 52,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 19,
+    "owner": {
+      "html_url": "https://github.com/BradyAJohnston",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36021261?v=4",
+      "login": "BradyAJohnston",
+      "type": "User"
+    },
+    "topics": [
+      "blender",
+      "biochemistry",
+      "geometry-nodes",
+      "protein",
+      "protein-structure",
+      "protein-visualization",
+      "sciart",
+      "visualisation",
+      "structural-biology",
+      "blender-addon",
+      "protein-data-bank",
+      "molecule",
+      "proteins",
+      "pdb",
+      "molecular-modeling",
+      "molecular",
+      "molecular-graphics",
+      "molecular-dynamics"
+    ],
+    "timestamp": "2024-09-01 00:47:25.559225",
+    "avatar": "https://avatars.githubusercontent.com/u/36021261?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"<a href=\"https://patreon.com/bradyajohnston\"><img src=\"https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dbradyajohnston%26type%3Dpatrons&style=for-t\"",
+        "\"MolecularNodes enables quick import and visualisation of structural biology data inside of Blender.\"",
+        "\"The add-on enables creating animations from static crystal structures, styling proteins and other molecules... importing and playing back molecular dynamics trajectories...\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T16:47:22Z"
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "parser": "github",
+  "uid": "github/pachterlab/kb_python",
+  "url": "https://github.com/pachterlab/kb_python",
+  "data": {
+    "title": "kb‑python",
+    "url": "https://github.com/pachterlab/kb_python",
+    "credit": [],
+    "tags": [
+      "scrna-seq-analysis",
+      "high-throughput-sequencing"
+    ],
+    "description": "A wrapper for the kallisto | bustools workflow for single-cell RNA-seq pre-processing",
+    "name": "kb_python",
+    "full_name": "pachterlab/kb_python",
+    "html_url": "https://github.com/pachterlab/kb_python",
+    "created_at": "2019-10-14T23:50:12Z",
+    "updated_at": "2025-05-11T04:06:03Z",
+    "clone_url": "https://github.com/pachterlab/kb_python.git",
+    "homepage": "https://www.kallistobus.tools/",
+    "size": 238644,
+    "stargazers_count": 161,
+    "watchers_count": 161,
+    "language": "Python",
+    "open_issues_count": 3,
+    "license": {
+      "key": "bsd-2-clause",
+      "name": "BSD 2-Clause \"Simplified\" License",
+      "spdx_id": "BSD-2-Clause",
+      "url": "https://api.github.com/licenses/bsd-2-clause",
+      "node_id": "MDc6TGljZW5zZTQ="
+    },
+    "subscribers_count": 11,
+    "owner": {
+      "html_url": "https://github.com/pachterlab",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10359946?v=4",
+      "login": "pachterlab",
+      "type": "Organization"
+    },
+    "topics": [
+      "bustools",
+      "kallisto",
+      "single-cell-rna-seq",
+      "rna-velocity-estimation",
+      "scrna-seq",
+      "kb-python"
+    ],
+    "timestamp": "2025-05-25 00:57:37.998130",
+    "avatar": "https://avatars.githubusercontent.com/u/10359946?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install kb-python\"",
+        "\"kb-python is a python package for processing single-cell RNA-sequencing. It wraps the `kallisto` | `bustools` single-cell RNA-seq command line tools in order to unify multiple processing workflows.\"",
+        "\"kb-python facilitates fast and uniform pre-processing of single-cell sequencing data to answer relevant research questions.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:45:43Z"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "parser": "github",
+  "uid": "github/vidarsko/ComFiT",
+  "url": "https://github.com/vidarsko/ComFiT",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.11395524",
+    "name": "ComFiT",
+    "url": "https://github.com/vidarsko/ComFiT",
+    "full_name": "vidarsko/ComFiT",
+    "html_url": "https://github.com/vidarsko/ComFiT",
+    "description": "A python library for simulating field theories with topological defects",
+    "created_at": "2023-09-04T08:11:32Z",
+    "updated_at": "2024-06-13T14:39:22Z",
+    "clone_url": "https://github.com/vidarsko/ComFiT.git",
+    "size": 165384,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/vidarsko",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8513212?v=4",
+      "login": "vidarsko",
+      "type": "User"
+    },
+    "timestamp": "2024-06-16 00:39:06.359002",
+    "avatar": "https://avatars.githubusercontent.com/u/8513212?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install comfit\"",
+        "\"ComFiT is an open-source Python library for simulating field theories including the Schrödinger equation, damped Gross-Pitaevskii equation, phase-field crystal models, and hydrodynamic models for active nematics.\"",
+        "\"It uses an object-oriented approach to provide functions for system setup, time evolution, data analysis, and visualization.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:38:31Z"
+    }
+  }
+}

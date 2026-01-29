@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/Crompulence/cpl-library",
+  "url": "https://github.com/Crompulence/cpl-library",
+  "data": {
+    "timestamp": "2022-05-12 03:43:27.831174",
+    "name": "cpl-library",
+    "url": "https://api.github.com/repos/Crompulence/cpl-library",
+    "full_name": "Crompulence/cpl-library",
+    "html_url": "https://github.com/Crompulence/cpl-library",
+    "private": false,
+    "description": null,
+    "created_at": "2015-07-29T15:16:16Z",
+    "updated_at": "2022-05-11T08:51:52Z",
+    "clone_url": "https://github.com/Crompulence/cpl-library.git",
+    "homepage": "http://www.cpl-library.org",
+    "size": 74947,
+    "stargazers_count": 16,
+    "watchers_count": 16,
+    "language": "C++",
+    "open_issues_count": 7,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 7,
+    "owner": {
+      "html_url": "https://github.com/Crompulence",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13557676?v=4",
+      "login": "Crompulence",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "rsotm": "2019-11",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Vendor or commercial entity",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"- bin - binary folder containing excutable files cplexec, cplf90 and cplc++\"",
+        "\"CPL Library is a communications and topology management system for coupling any continuum fluid dynamics (CFD) solver to any molecular dynamics (MD) code...\"",
+        "\"Compiling CPL Library with GCC, as a shared library, is likely to work with the makefile provided in the top level directory\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T16:58:37Z"
+    }
+  }
+}

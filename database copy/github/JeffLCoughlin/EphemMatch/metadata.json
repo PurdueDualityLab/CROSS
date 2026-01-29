@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/JeffLCoughlin/EphemMatch",
+  "url": "https://github.com/JeffLCoughlin/EphemMatch",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2018ApJS..235...38T",
+      "https://ui.adsabs.harvard.edu/abs/2021ascl.soft01008C/abstract"
+    ],
+    "title": "EphemMatch: Ephemeris matching of DR25 TCEs, KOIs, and EBs for false positive identification",
+    "url": "https://github.com/JeffLCoughlin/EphemMatch",
+    "name": "EphemMatch",
+    "full_name": "JeffLCoughlin/EphemMatch",
+    "html_url": "https://github.com/JeffLCoughlin/EphemMatch",
+    "description": "Code to do ephemeris matching of DR25 TCEs, KOIs, and EBs for false positive identificaiton.",
+    "created_at": "2018-01-29T23:33:11Z",
+    "updated_at": "2019-11-06T19:56:13Z",
+    "clone_url": "https://github.com/JeffLCoughlin/EphemMatch.git",
+    "size": 4660,
+    "language": "Gnuplot",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/JeffLCoughlin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11861045?v=4",
+      "login": "JeffLCoughlin",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:13:00.737861",
+    "avatar": "https://avatars.githubusercontent.com/u/11861045?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"The code reads in the period, epoch, positional information, etc. of all the Kepler DR25 TCEs, as well as the cumulative KOI list, and lists of EBs from the Kepler Eclipsing Binary Working Group (http\"",
+        "\"The EphemMatch code is provided, along with the required input files.\"",
+        "\"The code reads in the period, epoch, positional information, etc. of all the Kepler DR25 TCEs... The code will then perform matching to identify two different objects that have a statistically identical period and epoch... and perform logic to identify which is the real source...\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T18:04:58Z"
+    }
+  }
+}

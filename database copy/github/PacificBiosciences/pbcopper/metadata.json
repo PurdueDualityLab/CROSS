@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/PacificBiosciences/pbcopper",
+  "url": "https://github.com/PacificBiosciences/pbcopper",
+  "data": {
+    "url": "https://github.com/PacificBiosciences/pbcopper",
+    "title": "Libpbcopper-dev",
+    "description": "Core C++ library for data structures, algorithms, and utilities",
+    "name": "pbcopper",
+    "full_name": "PacificBiosciences/pbcopper",
+    "html_url": "https://github.com/PacificBiosciences/pbcopper",
+    "created_at": "2016-06-22T23:08:45Z",
+    "updated_at": "2022-06-08T06:40:42Z",
+    "clone_url": "https://github.com/PacificBiosciences/pbcopper.git",
+    "size": 8659,
+    "stargazers_count": 5,
+    "watchers_count": 5,
+    "language": "C++",
+    "open_issues_count": 1,
+    "license": {
+      "key": "bsd-3-clause-clear",
+      "name": "BSD 3-Clause Clear License",
+      "spdx_id": "BSD-3-Clause-Clear",
+      "url": "https://api.github.com/licenses/bsd-3-clause-clear",
+      "node_id": "MDc6TGljZW5zZTIx"
+    },
+    "subscribers_count": 9,
+    "owner": {
+      "html_url": "https://github.com/PacificBiosciences",
+      "avatar_url": "https://avatars.githubusercontent.com/u/999745?v=4",
+      "login": "PacificBiosciences",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-20 17:29:40.520157",
+    "avatar": "https://avatars.githubusercontent.com/u/999745?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Vendor or commercial entity",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"Download repo & compile library:\"",
+        "\"The **pbcopper** library provides a suite of data structures, algorithms, and utilities for PacBio C++ applications.\" (library used by other applications → dependency)",
+        "Primary API modules such as \"PacBio::Data : main data types & data structures\" and \"PacBio::Pbmer : DeBruijn graphs and kmers\" indicate domain-specific data structures and algorithms used directly in scientific analysis."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T19:47:00Z"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/ggmichael/craterstats",
+  "url": "https://github.com/ggmichael/craterstats",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2021LPICo2610.7010M",
+      "https://ui.adsabs.harvard.edu/abs/2022ascl.soft06009M/abstract"
+    ],
+    "title": "Craterstats3: Analyze and plot crater count data for planetary surface dating",
+    "url": "https://github.com/ggmichael/craterstats",
+    "name": "craterstats",
+    "full_name": "ggmichael/craterstats",
+    "html_url": "https://github.com/ggmichael/craterstats",
+    "description": "Craterstats - a tool to analyse and plot crater count data for planetary surface dating",
+    "created_at": "2021-02-23T19:41:11Z",
+    "updated_at": "2022-02-19T01:19:53Z",
+    "clone_url": "https://github.com/ggmichael/craterstats.git",
+    "size": 179,
+    "stargazers_count": 12,
+    "watchers_count": 12,
+    "language": "Python",
+    "open_issues_count": 4,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/ggmichael",
+      "avatar_url": "https://avatars.githubusercontent.com/u/75208810?v=4",
+      "login": "ggmichael",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 16:48:29.194820",
+    "avatar": "https://avatars.githubusercontent.com/u/75208810?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"Download the latest version [here](https://github.com/ggmichael/craterstats/releases),\"",
+        "\"This is a Python reimplementation and extension of the Craterstats-II software, a tool to analyse and plot crater count data for planetary surface dating.\"",
+        "\"Craterstats can be installed as a standalone executable for Windows. Download the latest version here, unzip to wherever you prefer, and double-click `create_desktop_shortcut.bat` to create a start-up icon.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:59:15Z"
+    }
+  }
+}

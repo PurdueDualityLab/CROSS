@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/ziyewang/ARG_SHINE",
+  "url": "https://github.com/ziyewang/ARG_SHINE",
+  "data": {
+    "timestamp": "2021-12-12 00:38:32.835787",
+    "name": "ARG_SHINE",
+    "url": "https://api.github.com/repos/ziyewang/ARG_SHINE",
+    "full_name": "ziyewang/ARG_SHINE",
+    "html_url": "https://github.com/ziyewang/ARG_SHINE",
+    "private": false,
+    "description": null,
+    "created_at": "2020-10-29T12:13:24Z",
+    "updated_at": "2020-11-06T08:24:35Z",
+    "clone_url": "https://github.com/ziyewang/ARG_SHINE.git",
+    "homepage": null,
+    "size": 5758,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": "Python",
+    "open_issues_count": 0,
+    "license": null,
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/ziyewang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37959011?v=4",
+      "login": "ziyewang",
+      "type": "User"
+    },
+    "topics": []
+  },
+  "doi": "10.1093/NARGAB/LQAB066",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"You can run ARG_SHINE against a fasta file (protein sequences) with the following commmand\" (end-user execution on data)",
+        "\"git lfs clone https://github.com/ziyewang/ARG_SHINE\" (obtaining software via cloning the repo)",
+        "\"Please send bug reports or questions to Ziye Wang: zwang17@fudan.edu.cn\" (single named maintainer contact)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T05:12:35Z"
+    }
+  }
+}

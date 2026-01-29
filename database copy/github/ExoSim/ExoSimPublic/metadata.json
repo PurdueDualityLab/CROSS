@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/ExoSim/ExoSimPublic",
+  "url": "https://github.com/ExoSim/ExoSimPublic",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2018ExA....46...67Z",
+      "https://ui.adsabs.harvard.edu/abs/2021ExA...tmp....9S",
+      "https://ui.adsabs.harvard.edu/abs/2020ascl.soft02008S/abstract"
+    ],
+    "title": "ExoSim: Simulator for predicting signal and noise in transit spectroscopy observations",
+    "url": "https://github.com/ExoSim/ExoSimPublic",
+    "name": "ExoSimPublic",
+    "full_name": "ExoSim/ExoSimPublic",
+    "html_url": "https://github.com/ExoSim/ExoSimPublic",
+    "created_at": "2019-12-10T08:58:28Z",
+    "updated_at": "2021-11-21T05:10:57Z",
+    "clone_url": "https://github.com/ExoSim/ExoSimPublic.git",
+    "size": 16110,
+    "stargazers_count": 7,
+    "watchers_count": 7,
+    "language": "Python",
+    "open_issues_count": 1,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 12,
+    "owner": {
+      "html_url": "https://github.com/ExoSim",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9990672?v=4",
+      "login": "ExoSim",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-17 17:14:58.231786",
+    "avatar": "https://avatars.githubusercontent.com/u/9990672?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install pytransit==2.1.1\"",
+        "\"ExoSim (Exoplanet Observation Simulator) is a generic time-domain simulator of exoplanet transit spectroscopy.\"",
+        "\"Next, download the ExoSim repository from github and unzip on your computer.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T17:09:35Z"
+    }
+  }
+}

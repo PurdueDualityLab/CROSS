@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/sarrvesh/cuFFS",
+  "url": "https://github.com/sarrvesh/cuFFS",
+  "data": {
+    "doi": [
+      "http://adsabs.harvard.edu/abs/2018arXiv181006250S",
+      "https://ui.adsabs.harvard.edu/abs/2018ascl.soft10015S/abstract"
+    ],
+    "title": "cuFFS: CUDA-accelerated Fast Faraday Synthesis",
+    "url": "https://github.com/sarrvesh/cuFFS",
+    "name": "cuFFS",
+    "full_name": "sarrvesh/cuFFS",
+    "html_url": "https://github.com/sarrvesh/cuFFS",
+    "description": "A GPU-accelerated Rotation Measure Synthesis code",
+    "created_at": "2015-07-10T23:41:45Z",
+    "updated_at": "2021-11-24T11:24:50Z",
+    "clone_url": "https://github.com/sarrvesh/cuFFS.git",
+    "size": 4567,
+    "stargazers_count": 8,
+    "watchers_count": 8,
+    "language": "C",
+    "open_issues_count": 16,
+    "license": {
+      "key": "gpl-2.0",
+      "name": "GNU General Public License v2.0",
+      "spdx_id": "GPL-2.0",
+      "url": "https://api.github.com/licenses/gpl-2.0",
+      "node_id": "MDc6TGljZW5zZTg="
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/sarrvesh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8722194?v=4",
+      "login": "sarrvesh",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:17:48.625704",
+    "avatar": "https://avatars.githubusercontent.com/u/8722194?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "Title and description indicate a domain-specific CUDA-accelerated Faraday synthesis code, implying an end-user scientific application rather than a reusable library: \"CUDA-accelerated Fast Faraday Synthesis (cuFFS)\"",
+        "Installation section only references building from source via a script: \"See build.sh for sample compiler instruction.\", with no mention of package managers or binaries.",
+        "Notes describe assumptions about scientific data formats and usage (FITS cubes, pixel values), indicating it directly processes research data: \"The input cubes must have 3 axes (2 spatial dimensions and 1 frequency axis)... use the helper/makeFitsCube.py to get the data in the required format.\"]}```}**Note**: The extra characters after the JSON object appear to be a formatting error. The correct JSON object is:```json{"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T03:18:56Z"
+    }
+  }
+}

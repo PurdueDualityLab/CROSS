@@ -1,0 +1,68 @@
+{
+  "parser": "github",
+  "uid": "github/grant-m-s/astronomicAL",
+  "url": "https://github.com/grant-m-s/AstronomicAL",
+  "data": {
+    "timestamp": "2021-09-05 00:34:53.175529",
+    "name": "AstronomicAL",
+    "url": "https://api.github.com/repos/grant-m-s/AstronomicAL",
+    "full_name": "grant-m-s/AstronomicAL",
+    "html_url": "https://github.com/grant-m-s/AstronomicAL",
+    "private": false,
+    "description": "An interactive dashboard for visualisation, integration and classification of data using Active Learning.",
+    "created_at": "2021-02-11T13:50:16Z",
+    "updated_at": "2021-09-04T23:49:28Z",
+    "clone_url": "https://github.com/grant-m-s/AstronomicAL.git",
+    "homepage": "https://astronomical.readthedocs.io",
+    "size": 62769,
+    "stargazers_count": 14,
+    "watchers_count": 14,
+    "language": "Python",
+    "open_issues_count": 1,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/grant-m-s",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12834844?v=4",
+      "login": "grant-m-s",
+      "type": "User"
+    },
+    "topics": [
+      "machine-learning",
+      "active-learning",
+      "astronomy",
+      "interactive",
+      "labelling",
+      "python",
+      "data-visualization"
+    ]
+  },
+  "doi": "https://doi.org/10.5281/zenodo.5396671",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"AstronomicAL is a human-in-the-loop interactive labelling and training dashboard that allows users to create reliable datasets and robust classifiers using active learning.\"",
+        "\"To install AstronomicAL and its dependencies, the user can clone the repository and from within the repo folder run `pip install -r requirements.txt`.\"",
+        "\"To begin using the software, run `bokeh serve astronomicAL --show` and your browser should automatically open to localhost:5006/astronomicAL\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:04:12Z"
+    }
+  }
+}

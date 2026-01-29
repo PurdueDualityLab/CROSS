@@ -1,0 +1,28 @@
+{
+  "repo": "https://github.com/apache/commons-testrepo",
+  "timestamp_utc": "2026-01-24T01:01:40Z",
+  "repo_metadata": {
+    "name": "commons-testrepo",
+    "full_name": "apache/commons-testrepo",
+    "html_url": "https://github.com/apache/commons-testrepo",
+    "description": "Apache Commons test gitbox bootstrap repository",
+    "default_branch": "master",
+    "archived": false,
+    "fork": false,
+    "stargazers_count": 1
+  },
+  "data": {
+    "date": "2026-01-23T20:01:40-05:00",
+    "repo": {
+      "name": "github.com/apache/commons-testrepo",
+      "commit": "HEAD"
+    },
+    "scorecard": {
+      "version": "v5.4.0",
+      "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+    },
+    "score": -1.0,
+    "checks": null,
+    "metadata": null
+  }
+}

@@ -1,0 +1,26 @@
+taxonomy_field,category,count,percent
+actor_unit,Research group or lab,2003,28.75
+actor_unit,Individual maintainer,1979,28.41
+actor_unit,"Institution (university, lab, government research organization)",1785,25.62
+actor_unit,Community or foundation (open source governance),695,9.98
+actor_unit,Vendor or commercial entity,350,5.02
+actor_unit,Unknown,142,2.04
+actor_unit,Mixed or shared responsibility,11,0.16
+actor_unit,Platform operator (registry or hosting operator),1,0.01
+supply_chain_role,Application software,4545,65.25
+supply_chain_role,Dependency software artifact,2090,30.0
+supply_chain_role,Unknown,237,3.4
+supply_chain_role,Infrastructure,86,1.23
+supply_chain_role,Governance software,6,0.09
+supply_chain_role,Runtime instrumentation software,2,0.03
+research_role,Direct research execution,4408,63.28
+research_role,Research-support tooling,2290,32.87
+research_role,Unknown,244,3.5
+research_role,Incidental or general-purpose,24,0.34
+distribution_pathway,Package registry,3419,49.08
+distribution_pathway,Source repo,1682,24.15
+distribution_pathway,Installer or binary,1029,14.77
+distribution_pathway,Network service,352,5.05
+distribution_pathway,Unknown,225,3.23
+distribution_pathway,Containers,147,2.11
+distribution_pathway,Builds and releases,112,1.61

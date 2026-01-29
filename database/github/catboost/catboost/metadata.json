@@ -1,63 +1,282 @@
 {
-    "parser": "github",
-    "uid": "github/catboost/catboost",
+  "parser": "github",
+  "uid": "github/catboost/catboost",
+  "url": "https://github.com/catboost/catboost",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2021arXiv210801074K",
+      "https://ui.adsabs.harvard.edu/abs/2017arXiv170609516P",
+      "https://ui.adsabs.harvard.edu/abs/2021ascl.soft08008C/abstract"
+    ],
+    "title": "CatBoost: High performance gradient boosting on decision trees library",
     "url": "https://github.com/catboost/catboost",
-    "data": {
-        "doi": [
-            "https://ui.adsabs.harvard.edu/abs/2021arXiv210801074K",
-            "https://ui.adsabs.harvard.edu/abs/2017arXiv170609516P",
-            "https://ui.adsabs.harvard.edu/abs/2021ascl.soft08008C/abstract"
-        ],
-        "title": "CatBoost: High performance gradient boosting on decision trees library",
-        "url": "https://github.com/catboost/catboost",
-        "name": "catboost",
-        "full_name": "catboost/catboost",
-        "html_url": "https://github.com/catboost/catboost",
-        "description": "A fast, scalable, high performance Gradient Boosting on Decision Trees library, used for ranking, classification, regression and other machine learning tasks for Python, R, Java, C++. Supports computation on CPU and GPU.",
-        "created_at": "2017-07-18T05:29:04Z",
-        "updated_at": "2022-07-15T23:24:44Z",
-        "clone_url": "https://github.com/catboost/catboost.git",
-        "homepage": "https://catboost.ai",
-        "size": 1031134,
-        "stargazers_count": 6635,
-        "watchers_count": 6635,
-        "language": "C",
-        "open_issues_count": 415,
-        "license": {
-            "key": "apache-2.0",
-            "name": "Apache License 2.0",
-            "spdx_id": "Apache-2.0",
-            "url": "https://api.github.com/licenses/apache-2.0",
-            "node_id": "MDc6TGljZW5zZTI="
-        },
-        "subscribers_count": 193,
-        "owner": {
-            "html_url": "https://github.com/catboost",
-            "avatar_url": "https://avatars.githubusercontent.com/u/29043415?v=4",
-            "login": "catboost",
-            "type": "Organization"
-        },
-        "topics": [
-            "machine-learning",
-            "decision-trees",
-            "gradient-boosting",
-            "gbm",
-            "gbdt",
-            "python",
-            "r",
-            "kaggle",
-            "gpu-computing",
-            "catboost",
-            "tutorial",
-            "categorical-features",
-            "gpu",
-            "coreml",
-            "data-science",
-            "big-data",
-            "cuda",
-            "data-mining"
-        ],
-        "timestamp": "2022-07-17 17:11:15.305344",
-        "avatar": "https://avatars.githubusercontent.com/u/29043415?v=4"
+    "name": "catboost",
+    "full_name": "catboost/catboost",
+    "html_url": "https://github.com/catboost/catboost",
+    "description": "A fast, scalable, high performance Gradient Boosting on Decision Trees library, used for ranking, classification, regression and other machine learning tasks for Python, R, Java, C++. Supports computation on CPU and GPU.",
+    "created_at": "2017-07-18T05:29:04Z",
+    "updated_at": "2022-07-15T23:24:44Z",
+    "clone_url": "https://github.com/catboost/catboost.git",
+    "homepage": "https://catboost.ai",
+    "size": 1031134,
+    "stargazers_count": 6635,
+    "watchers_count": 6635,
+    "language": "C",
+    "open_issues_count": 415,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "subscribers_count": 193,
+    "owner": {
+      "html_url": "https://github.com/catboost",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29043415?v=4",
+      "login": "catboost",
+      "type": "Organization"
+    },
+    "topics": [
+      "machine-learning",
+      "decision-trees",
+      "gradient-boosting",
+      "gbm",
+      "gbdt",
+      "python",
+      "r",
+      "kaggle",
+      "gpu-computing",
+      "catboost",
+      "tutorial",
+      "categorical-features",
+      "gpu",
+      "coreml",
+      "data-science",
+      "big-data",
+      "cuda",
+      "data-mining"
+    ],
+    "timestamp": "2022-07-17 17:11:15.305344",
+    "avatar": "https://avatars.githubusercontent.com/u/29043415?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Vendor or commercial entity",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"- Best in class [prediction](https://catboost.ai/docs/concepts/c-plus-plus-api.html) speed.\"",
+        "\"CatBoost is a machine learning method based on gradient boosting over decision trees.\"",
+        "\"Install CatBoost by following the guide for the * [Python package] * [R-package] * [Сommand line] * [Package for Apache Spark]\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T22:50:56Z"
     }
+  },
+  "openssf_scorecard": {
+    "data": {
+      "date": "2026-01-23T10:18:31-05:00",
+      "repo": {
+        "name": "github.com/catboost/catboost",
+        "commit": "d6102feeb5b9561bdc36027aab34c2a5449b2fc1"
+      },
+      "scorecard": {
+        "version": "v5.4.0",
+        "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+      },
+      "score": 5.0,
+      "checks": [
+        {
+          "details": null,
+          "score": 9,
+          "reason": "binaries present in source code",
+          "name": "Binary-Artifacts",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#binary-artifacts",
+            "short": "Determines if the project has generated executable (binary) artifacts in the source repository."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "branch protection not enabled on development/release branches",
+          "name": "Branch-Protection",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#branch-protection",
+            "short": "Determines if the default and release branches are protected with GitHub's branch protection settings."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no pull request found",
+          "name": "CI-Tests",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#ci-tests",
+            "short": "Determines if the project runs tests before pull requests are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no effort to earn an OpenSSF best practices badge detected",
+          "name": "CII-Best-Practices",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#cii-best-practices",
+            "short": "Determines if the project has an OpenSSF (formerly CII) Best Practices Badge."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "Found 0/30 approved changesets -- score normalized to 0",
+          "name": "Code-Review",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#code-review",
+            "short": "Determines if the project requires human code review before pull requests (aka merge requests) are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "project has 4 contributing companies or organizations",
+          "name": "Contributors",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#contributors",
+            "short": "Determines if the project has a set of contributors from multiple organizations (e.g., companies)."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no dangerous workflow patterns detected",
+          "name": "Dangerous-Workflow",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dangerous-workflow",
+            "short": "Determines if the project's GitHub Action workflows avoid dangerous patterns."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "update tool detected",
+          "name": "Dependency-Update-Tool",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dependency-update-tool",
+            "short": "Determines if the project uses a dependency update tool."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "project is fuzzed",
+          "name": "Fuzzing",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#fuzzing",
+            "short": "Determines if the project uses fuzzing."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "license file detected",
+          "name": "License",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#license",
+            "short": "Determines if the project has defined a license."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "30 commit(s) and 24 issue activity found in the last 90 days -- score normalized to 10",
+          "name": "Maintained",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#maintained",
+            "short": "Determines if the project is \"actively maintained\"."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "packaging workflow detected",
+          "name": "Packaging",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#packaging",
+            "short": "Determines if the project is published as a package that others can easily download, install, easily update, and uninstall."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "dependency not pinned by hash detected -- score normalized to 0",
+          "name": "Pinned-Dependencies",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#pinned-dependencies",
+            "short": "Determines if the project has declared and pinned the dependencies of its build process."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no SAST tool detected",
+          "name": "SAST",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#sast",
+            "short": "Determines if the project uses static code analysis."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "security policy file detected",
+          "name": "Security-Policy",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#security-policy",
+            "short": "Determines if the project has published a security policy."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "Project has not signed or included provenance with any releases.",
+          "name": "Signed-Releases",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#signed-releases",
+            "short": "Determines if the project cryptographically signs release artifacts."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "detected GitHub workflow tokens with excessive permissions",
+          "name": "Token-Permissions",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#token-permissions",
+            "short": "Determines if the project's workflows follow the principle of least privilege."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "37 existing vulnerabilities detected",
+          "name": "Vulnerabilities",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#vulnerabilities",
+            "short": "Determines if the project has open, known unfixed vulnerabilities."
+          }
+        }
+      ],
+      "metadata": null
+    },
+    "timestamp_utc": "2026-01-23T15:20:30Z"
+  }
 }

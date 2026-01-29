@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/HEAP-EXPOSOME/biopipe",
+  "url": "https://github.com/HEAP-EXPOSOME/biopipe",
+  "data": {
+    "name": "biopipe",
+    "url": "https://github.com/HEAP-EXPOSOME/biopipe",
+    "full_name": "HEAP-EXPOSOME/biopipe",
+    "html_url": "https://github.com/HEAP-EXPOSOME/biopipe",
+    "private": false,
+    "description": "Taxonomy classification pipeline (bacteria, virus, fungi)",
+    "created_at": "2025-06-24T12:44:28Z",
+    "updated_at": "2025-06-24T12:44:28Z",
+    "clone_url": "https://github.com/HEAP-EXPOSOME/biopipe.git",
+    "homepage": null,
+    "size": 120,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": null,
+    "open_issues_count": 0,
+    "license": null,
+    "subscribers_count": 0,
+    "owner": {
+      "html_url": "https://github.com/HEAP-EXPOSOME",
+      "avatar_url": "https://avatars.githubusercontent.com/u/86734080?v=4",
+      "login": "HEAP-EXPOSOME",
+      "type": "Organization"
+    },
+    "topics": [],
+    "timestamp": "2025-06-29 00:59:07.233984",
+    "avatar": "https://avatars.githubusercontent.com/u/86734080?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"1. Install the packages using PyPI or conda installer in the Project Environment\"",
+        "\"Biopipe is a collection of bioinformatics programs setup to process sequencing data parallely on a Hopsworks cluster.\"",
+        "\"airflow_pipeline - Python script for the running the pipeline as Airflow DAG\" and description of analysis steps (quality trimming, taxonomy classification, downstream analysis) indicate it is an analysis pipeline, i.e., an application directly used for research."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T17:44:03Z"
+    }
+  }
+}

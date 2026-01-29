@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/rrwick/Deepbinner",
+  "url": "https://github.com/rrwick/Deepbinner",
+  "data": {
+    "url": "https://github.com/rrwick/Deepbinner",
+    "title": "Deepbinner",
+    "description": "a signal-level demultiplexer for Oxford Nanopore reads",
+    "doi": "https://www.biorxiv.org/content/early/2018/07/10/366526",
+    "name": "Deepbinner",
+    "full_name": "rrwick/Deepbinner",
+    "html_url": "https://github.com/rrwick/Deepbinner",
+    "created_at": "2018-02-19T00:21:26Z",
+    "updated_at": "2022-07-17T17:48:43Z",
+    "clone_url": "https://github.com/rrwick/Deepbinner.git",
+    "size": 10942,
+    "stargazers_count": 118,
+    "watchers_count": 118,
+    "language": "Python",
+    "open_issues_count": 31,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 10,
+    "owner": {
+      "html_url": "https://github.com/rrwick",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7053555?v=4",
+      "login": "rrwick",
+      "type": "User"
+    },
+    "timestamp": "2022-07-20 17:28:12.981173",
+    "avatar": "https://avatars.githubusercontent.com/u/7053555?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"If you are using multi-read fast5 files (new in 2019), then you'll also need to have the `multi_to_single_fast5` tool installed on your path. You can get it here: [github.com/nanoporetech/ont_fast5_ap\"",
+        "\"Deepbinner is a tool for demultiplexing barcoded Oxford Nanopore sequencing reads.\"",
+        "\"You can install Deepbinner using pip, either from a local copy: git clone https://github.com/rrwick/Deepbinner.git pip3 install ./Deepbinner\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T03:13:36Z"
+    }
+  }
+}

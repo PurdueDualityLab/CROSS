@@ -1,0 +1,63 @@
+{
+  "parser": "github",
+  "uid": "github/tseemann/snp-dists",
+  "url": "https://github.com/tseemann/snp-dists",
+  "data": {
+    "title": "snp‑dists",
+    "url": "https://github.com/tseemann/snp-dists",
+    "credit": [],
+    "tags": [
+      "read-alignment",
+      "high-throughput-sequencing"
+    ],
+    "description": "Pairwise SNP distance matrix from a FASTA sequence alignment",
+    "name": "snp-dists",
+    "full_name": "tseemann/snp-dists",
+    "html_url": "https://github.com/tseemann/snp-dists",
+    "created_at": "2017-08-19T08:16:01Z",
+    "updated_at": "2022-05-20T02:05:59Z",
+    "clone_url": "https://github.com/tseemann/snp-dists.git",
+    "size": 54,
+    "stargazers_count": 82,
+    "watchers_count": 82,
+    "language": "C",
+    "open_issues_count": 13,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/tseemann",
+      "avatar_url": "https://avatars.githubusercontent.com/u/453972?v=4",
+      "login": "tseemann",
+      "type": "User"
+    },
+    "timestamp": "2022-07-18 17:46:57.458334",
+    "avatar": "https://avatars.githubusercontent.com/u/453972?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "conda",
+      "evidence": [
+        "README install command: \"conda install -c bioconda snp-dists\"",
+        "\"Convert a FASTA alignment to SNP distance matrix\" (command-line tool performing an analysis task, used directly by researchers).",
+        "\"USAGE\n  snp-dists [opts] aligned.fasta[.gz] > matrix.tsv\" (invoked as an end-user program, not as a library)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:31:19Z"
+    }
+  }
+}

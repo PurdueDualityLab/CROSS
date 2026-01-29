@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/dylancromer/ostrich",
+  "url": "https://github.com/dylancromer/ostrich",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2022JCAP...10..034C",
+      "https://ui.adsabs.harvard.edu/abs/2024ascl.soft01011C/abstract"
+    ],
+    "title": "ostrich: Surrogate modeling using PCA and Gaussian process interpolation",
+    "url": "https://github.com/dylancromer/ostrich",
+    "name": "ostrich",
+    "full_name": "dylancromer/ostrich",
+    "html_url": "https://github.com/dylancromer/ostrich",
+    "created_at": "2021-01-29T19:31:22Z",
+    "updated_at": "2023-11-28T19:00:55Z",
+    "clone_url": "https://github.com/dylancromer/ostrich.git",
+    "size": 3417,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "Jupyter Notebook",
+    "license": {
+      "key": "agpl-3.0",
+      "name": "GNU Affero General Public License v3.0",
+      "spdx_id": "AGPL-3.0",
+      "url": "https://api.github.com/licenses/agpl-3.0",
+      "node_id": "MDc6TGljZW5zZTE="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/dylancromer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24197261?v=4",
+      "login": "dylancromer",
+      "type": "User"
+    },
+    "timestamp": "2024-03-03 00:33:57.118169",
+    "avatar": "https://avatars.githubusercontent.com/u/24197261?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install --user -e .\"",
+        "\"Ostrich is a library for performing emulation, also called surrogate modeling, using PCA and Gaussian process interpolation.\"",
+        "\"Ostrich was used in [Cromer et al, 2022] to emulate a galaxy cluster weak-lensing model, and its methodology is described there.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:39:09Z"
+    }
+  }
+}

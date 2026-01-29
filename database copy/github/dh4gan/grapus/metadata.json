@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/dh4gan/grapus",
+  "url": "https://github.com/dh4gan/grapus",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2013MNRAS.432.3168F",
+      "https://ui.adsabs.harvard.edu/abs/2020ascl.soft10005F/abstract"
+    ],
+    "title": "GRAPUS: GRAvitational instability PopUlation Synthesis",
+    "url": "https://github.com/dh4gan/grapus",
+    "name": "grapus",
+    "full_name": "dh4gan/grapus",
+    "html_url": "https://github.com/dh4gan/grapus",
+    "description": "Population synthesis of self-gravitating disc fragmentation and tidal downsizing in protostellar discs",
+    "created_at": "2018-02-21T15:06:18Z",
+    "updated_at": "2018-08-10T09:03:11Z",
+    "clone_url": "https://github.com/dh4gan/grapus.git",
+    "size": 132,
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/dh4gan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2436460?v=4",
+      "login": "dh4gan",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:13:42.757307",
+    "avatar": "https://avatars.githubusercontent.com/u/2436460?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This repository executes population synthesis modelling of self-gravitating disc fragmentation and tidal downsizing in protostellar discs.\"",
+        "\"The code is written in FORTRAN 90 throughout. The supplied Makefile compiles the program using gfortran through the command `> make` And run using the command `> ./grapus`\"",
+        "\"If you plan to use this code for your own research, or if you would like to contribute to this repository then please get in touch with a brief description of what you would like to do.  I will seek co-authorship for any subsequent publications.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T23:33:05Z"
+    }
+  }
+}

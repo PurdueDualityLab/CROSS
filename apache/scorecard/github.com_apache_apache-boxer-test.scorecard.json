@@ -1,0 +1,28 @@
+{
+  "repo": "https://github.com/apache/apache-boxer-test",
+  "timestamp_utc": "2026-01-24T00:44:26Z",
+  "repo_metadata": {
+    "name": "apache-boxer-test",
+    "full_name": "apache/apache-boxer-test",
+    "html_url": "https://github.com/apache/apache-boxer-test",
+    "description": "Apache apache",
+    "default_branch": "main",
+    "archived": false,
+    "fork": false,
+    "stargazers_count": 1
+  },
+  "data": {
+    "date": "2026-01-23T19:44:26-05:00",
+    "repo": {
+      "name": "github.com/apache/apache-boxer-test",
+      "commit": "HEAD"
+    },
+    "scorecard": {
+      "version": "v5.4.0",
+      "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+    },
+    "score": -1.0,
+    "checks": null,
+    "metadata": null
+  }
+}

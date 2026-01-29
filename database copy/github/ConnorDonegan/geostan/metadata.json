@@ -1,0 +1,73 @@
+{
+  "parser": "github",
+  "uid": "github/ConnorDonegan/geostan",
+  "url": "https://github.com/ConnorDonegan/geostan",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.7311716",
+    "name": "geostan",
+    "url": "https://github.com/ConnorDonegan/geostan",
+    "full_name": "ConnorDonegan/geostan",
+    "html_url": "https://github.com/ConnorDonegan/geostan",
+    "description": "Bayesian spatial analysis",
+    "created_at": "2020-03-18T15:02:51Z",
+    "updated_at": "2022-10-15T20:49:05Z",
+    "clone_url": "https://github.com/ConnorDonegan/geostan.git",
+    "homepage": "https://connordonegan.github.io/geostan",
+    "size": 153214,
+    "stargazers_count": 38,
+    "watchers_count": 38,
+    "language": "R",
+    "open_issues_count": 3,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/ConnorDonegan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24845033?v=4",
+      "login": "ConnorDonegan",
+      "type": "User"
+    },
+    "topics": [
+      "stan",
+      "bayesian",
+      "spatial",
+      "epidemiology",
+      "public-health",
+      "r-package",
+      "bayesian-inference",
+      "rspatial",
+      "r",
+      "modeling",
+      "rstats",
+      "bayesian-statistics"
+    ],
+    "timestamp": "2022-11-20 00:43:07.885574",
+    "avatar": "https://avatars.githubusercontent.com/u/24845033?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"geostan\")\"",
+        "\"The geostan R package supports a complete spatial analysis workflow with Bayesian models for areal data\" (indicates an R package intended to be used within R, i.e., as a dependency).",
+        "\"There are two ways to install geostan: directly from the package github repository or from the Comprehensive R Archive Network (CRAN).\" (shows distribution via CRAN and GitHub)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T16:56:12Z"
+    }
+  }
+}

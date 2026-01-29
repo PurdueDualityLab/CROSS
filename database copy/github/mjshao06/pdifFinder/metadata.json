@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/mjshao06/pdifFinder",
+  "url": "https://github.com/mjshao06/pdifFinder",
+  "data": {
+    "doi": "10.1093/BIB/BBAC521",
+    "name": "pdifFinder",
+    "url": "https://github.com/mjshao06/pdifFinder",
+    "full_name": "mjshao06/pdifFinder",
+    "html_url": "https://github.com/mjshao06/pdifFinder",
+    "created_at": "2022-08-03T11:28:18Z",
+    "updated_at": "2022-08-19T04:27:02Z",
+    "clone_url": "https://github.com/mjshao06/pdifFinder.git",
+    "size": 1824,
+    "language": "Python",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/mjshao06",
+      "avatar_url": "https://avatars.githubusercontent.com/u/91299313?v=4",
+      "login": "mjshao06",
+      "type": "User"
+    },
+    "timestamp": "2023-02-19 00:39:46.559033",
+    "avatar": "https://avatars.githubusercontent.com/u/91299313?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"You should install BLAST and add it in environment variable, you can download from `https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/`. BLAST version is 2.10.1 in pdifFinder.\"",
+        "\"Author:     Shao Mengjie; Liang Qian; Xiaoting Hua\" (individual authors listed, no project-level governance described)",
+        "\"This program is designed for annotation of antimicrobal resistance(AMR), pdif site and pdif-ARGs module in bacteria.\" (end-user analysis program)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:22:37Z"
+    }
+  }
+}

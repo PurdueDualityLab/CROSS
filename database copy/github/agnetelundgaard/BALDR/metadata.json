@@ -1,0 +1,47 @@
+{
+  "parser": "github",
+  "uid": "github/agnetelundgaard/BALDR",
+  "url": "https://github.com/agnetelundgaard/BALDR",
+  "data": {
+    "doi": "10.1371/JOURNAL.PCBI.1011403",
+    "name": "BALDR",
+    "url": "https://github.com/agnetelundgaard/BALDR",
+    "full_name": "agnetelundgaard/BALDR",
+    "html_url": "https://github.com/agnetelundgaard/BALDR",
+    "created_at": "2022-08-04T12:41:36Z",
+    "updated_at": "2023-08-17T08:07:24Z",
+    "clone_url": "https://github.com/agnetelundgaard/BALDR.git",
+    "size": 22566,
+    "language": "R",
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/agnetelundgaard",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42959833?v=4",
+      "login": "agnetelundgaard",
+      "type": "User"
+    },
+    "timestamp": "2024-03-03 00:35:14.977251",
+    "avatar": "https://avatars.githubusercontent.com/u/42959833?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Code for the BALDR tool, including data retrieval, preparation, and report generation.\" (describes a standalone tool rather than a library)",
+        "The README only presents \"Code for the BALDR tool\" with no indication it is a library imported by other software or distributed via a package manager, implying direct use from the repository.",
+        "The description of data retrieval, preparation, and report generation suggests it is used to directly produce analytical outputs (reports), indicating direct research execution."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T21:01:47Z"
+    }
+  }
+}

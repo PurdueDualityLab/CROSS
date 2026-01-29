@@ -1,49 +1,268 @@
 {
-    "parser": "github",
-    "uid": "github/metawards/MetaWards",
-    "url": "https://github.com/metawards/MetaWards",
-    "data": {
-        "timestamp": "2022-02-20 00:46:05.659767",
-        "name": "MetaWards",
-        "url": "https://api.github.com/repos/metawards/MetaWards",
-        "full_name": "metawards/MetaWards",
-        "html_url": "https://github.com/metawards/MetaWards",
-        "private": false,
-        "description": "MetaWards disease metapopulation analysis and modelling software. Professional geographical SIR model with a flexible plugin architecture to support complex scenario modelling",
-        "created_at": "2020-04-03T16:51:01Z",
-        "updated_at": "2022-02-16T20:39:34Z",
-        "clone_url": "https://github.com/metawards/MetaWards.git",
-        "homepage": "https://metawards.org",
-        "size": 167812,
-        "stargazers_count": 9,
-        "watchers_count": 9,
-        "language": "Python",
-        "open_issues_count": 0,
-        "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "spdx_id": "GPL-3.0",
-            "url": "https://api.github.com/licenses/gpl-3.0",
-            "node_id": "MDc6TGljZW5zZTk="
-        },
-        "subscribers_count": 3,
-        "owner": {
-            "html_url": "https://github.com/metawards",
-            "avatar_url": "https://avatars.githubusercontent.com/u/63117563?v=4",
-            "login": "metawards",
-            "type": "Organization"
-        },
-        "topics": [
-            "epidemiology",
-            "epidemic-simulations",
-            "sir-model",
-            "epidemiology-analysis",
-            "epidemic-model",
-            "epidemics",
-            "covid-19",
-            "covid",
-            "coronavirus"
-        ]
+  "parser": "github",
+  "uid": "github/metawards/MetaWards",
+  "url": "https://github.com/metawards/MetaWards",
+  "data": {
+    "timestamp": "2022-02-20 00:46:05.659767",
+    "name": "MetaWards",
+    "url": "https://api.github.com/repos/metawards/MetaWards",
+    "full_name": "metawards/MetaWards",
+    "html_url": "https://github.com/metawards/MetaWards",
+    "private": false,
+    "description": "MetaWards disease metapopulation analysis and modelling software. Professional geographical SIR model with a flexible plugin architecture to support complex scenario modelling",
+    "created_at": "2020-04-03T16:51:01Z",
+    "updated_at": "2022-02-16T20:39:34Z",
+    "clone_url": "https://github.com/metawards/MetaWards.git",
+    "homepage": "https://metawards.org",
+    "size": 167812,
+    "stargazers_count": 9,
+    "watchers_count": 9,
+    "language": "Python",
+    "open_issues_count": 0,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
     },
-    "doi": "https://doi.org/10.5281/zenodo.5562738"
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/metawards",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63117563?v=4",
+      "login": "metawards",
+      "type": "Organization"
+    },
+    "topics": [
+      "epidemiology",
+      "epidemic-simulations",
+      "sir-model",
+      "epidemiology-analysis",
+      "epidemic-model",
+      "epidemics",
+      "covid-19",
+      "covid",
+      "coronavirus"
+    ]
+  },
+  "doi": "https://doi.org/10.5281/zenodo.5562738",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install metawards\"",
+        "\"MetaWards implements a stochastic metapopulation model of disease transmission. It can scale from modelling local transmission up to full national- or international-scale metapopulation models.\"",
+        "\"You can either load and use the Python classes directly, or you can run the `metawards` front-end command line program that is automatically installed.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:18:52Z"
+    }
+  },
+  "openssf_scorecard": {
+    "data": {
+      "date": "2026-01-23T12:37:13-05:00",
+      "repo": {
+        "name": "github.com/metawards/MetaWards",
+        "commit": "85cb86868402f1d9195079e4144c57d4de1fb5db"
+      },
+      "scorecard": {
+        "version": "v5.4.0",
+        "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+      },
+      "score": 4.3,
+      "checks": [
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no binaries found in the repo",
+          "name": "Binary-Artifacts",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#binary-artifacts",
+            "short": "Determines if the project has generated executable (binary) artifacts in the source repository."
+          }
+        },
+        {
+          "details": null,
+          "score": 6,
+          "reason": "branch protection is not maximal on development and all release branches",
+          "name": "Branch-Protection",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#branch-protection",
+            "short": "Determines if the default and release branches are protected with GitHub's branch protection settings."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "0 out of 3 merged PRs checked by a CI test -- score normalized to 0",
+          "name": "CI-Tests",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#ci-tests",
+            "short": "Determines if the project runs tests before pull requests are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no effort to earn an OpenSSF best practices badge detected",
+          "name": "CII-Best-Practices",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#cii-best-practices",
+            "short": "Determines if the project has an OpenSSF (formerly CII) Best Practices Badge."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "Found 0/22 approved changesets -- score normalized to 0",
+          "name": "Code-Review",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#code-review",
+            "short": "Determines if the project requires human code review before pull requests (aka merge requests) are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "project has 9 contributing companies or organizations",
+          "name": "Contributors",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#contributors",
+            "short": "Determines if the project has a set of contributors from multiple organizations (e.g., companies)."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no dangerous workflow patterns detected",
+          "name": "Dangerous-Workflow",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dangerous-workflow",
+            "short": "Determines if the project's GitHub Action workflows avoid dangerous patterns."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "update tool detected",
+          "name": "Dependency-Update-Tool",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dependency-update-tool",
+            "short": "Determines if the project uses a dependency update tool."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "project is not fuzzed",
+          "name": "Fuzzing",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#fuzzing",
+            "short": "Determines if the project uses fuzzing."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "license file detected",
+          "name": "License",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#license",
+            "short": "Determines if the project has defined a license."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0",
+          "name": "Maintained",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#maintained",
+            "short": "Determines if the project is \"actively maintained\"."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "packaging workflow not detected",
+          "name": "Packaging",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#packaging",
+            "short": "Determines if the project is published as a package that others can easily download, install, easily update, and uninstall."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "dependency not pinned by hash detected -- score normalized to 0",
+          "name": "Pinned-Dependencies",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#pinned-dependencies",
+            "short": "Determines if the project has declared and pinned the dependencies of its build process."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "SAST tool is not run on all commits -- score normalized to 0",
+          "name": "SAST",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#sast",
+            "short": "Determines if the project uses static code analysis."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "security policy file detected",
+          "name": "Security-Policy",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#security-policy",
+            "short": "Determines if the project has published a security policy."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no releases found",
+          "name": "Signed-Releases",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#signed-releases",
+            "short": "Determines if the project cryptographically signs release artifacts."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "detected GitHub workflow tokens with excessive permissions",
+          "name": "Token-Permissions",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#token-permissions",
+            "short": "Determines if the project's workflows follow the principle of least privilege."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "46 existing vulnerabilities detected",
+          "name": "Vulnerabilities",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#vulnerabilities",
+            "short": "Determines if the project has open, known unfixed vulnerabilities."
+          }
+        }
+      ],
+      "metadata": null
+    },
+    "timestamp_utc": "2026-01-23T17:37:26Z"
+  }
 }

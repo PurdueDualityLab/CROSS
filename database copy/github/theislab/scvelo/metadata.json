@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/theislab/scvelo",
+  "url": "https://github.com/theislab/scvelo",
+  "data": {
+    "doi": "10.1038/s41587-020-0591-3",
+    "name": "scvelo",
+    "url": "https://github.com/theislab/scvelo",
+    "full_name": "theislab/scvelo",
+    "html_url": "https://github.com/theislab/scvelo",
+    "description": "RNA Velocity generalized through dynamical modeling",
+    "created_at": "2018-08-20T19:03:07Z",
+    "updated_at": "2023-09-02T21:42:14Z",
+    "clone_url": "https://github.com/theislab/scvelo.git",
+    "homepage": "https://scvelo.org",
+    "size": 27513,
+    "stargazers_count": 351,
+    "watchers_count": 351,
+    "language": "Python",
+    "open_issues_count": 64,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "subscribers_count": 15,
+    "owner": {
+      "html_url": "https://github.com/theislab",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22319415?v=4",
+      "login": "theislab",
+      "type": "Organization"
+    },
+    "timestamp": "2023-09-03 00:34:07.570017",
+    "avatar": "https://avatars.githubusercontent.com/u/22319415?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "Owner is GitHub org `theislab`, and README cites papers with overlapping authors including Theis, indicating a specific research lab team maintains it.",
+        "\"scVelo is a scalable toolkit for RNA velocity analysis in single cells\" (a domain-specific analysis toolkit users run for RNA velocity studies).",
+        "\"[badge-pypi]: https://img.shields.io/pypi/v/scvelo.svg\" and link to \"https://pypi.org/project/scvelo\" indicate distribution via the PyPI package registry."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T04:24:05Z"
+    }
+  }
+}

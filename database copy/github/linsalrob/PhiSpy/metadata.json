@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/linsalrob/PhiSpy",
+  "url": "https://github.com/linsalrob/PhiSpy",
+  "data": {
+    "title": "PhiSpy",
+    "url": "https://github.com/linsalrob/PhiSpy",
+    "credit": [],
+    "tags": [
+      "high-throughput-sequencing"
+    ],
+    "description": "Prediction of prophages from bacterial genomes",
+    "name": "PhiSpy",
+    "full_name": "linsalrob/PhiSpy",
+    "html_url": "https://github.com/linsalrob/PhiSpy",
+    "created_at": "2016-06-13T01:42:45Z",
+    "updated_at": "2023-06-15T18:48:22Z",
+    "clone_url": "https://github.com/linsalrob/PhiSpy.git",
+    "size": 214805,
+    "stargazers_count": 49,
+    "watchers_count": 49,
+    "language": "Jupyter Notebook",
+    "open_issues_count": 10,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 9,
+    "owner": {
+      "html_url": "https://github.com/linsalrob",
+      "avatar_url": "https://avatars.githubusercontent.com/u/836231?v=4",
+      "login": "linsalrob",
+      "type": "User"
+    },
+    "timestamp": "2023-07-02 01:37:31.413435",
+    "avatar": "https://avatars.githubusercontent.com/u/836231?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"python3 -m pip install --user PhiSpy\"",
+        "\"PhiSpy identifies prophages in Bacterial (and probably Archaeal) genomes. Given an annotated genome it will use several approaches to identify the most likely prophage regions.\"",
+        "\"Initial versions of PhiSpy were written by ... [Edwards Bioinformatics Lab]\" and improvements by lab-associated authors, indicating a lab-based project."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:55:23Z"
+    }
+  }
+}

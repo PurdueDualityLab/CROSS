@@ -1,49 +1,268 @@
 {
-    "parser": "github",
-    "uid": "github/Ouranosinc/xclim",
+  "parser": "github",
+  "uid": "github/Ouranosinc/xclim",
+  "url": "https://github.com/Ouranosinc/xclim",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.7916446",
+    "name": "xclim",
     "url": "https://github.com/Ouranosinc/xclim",
-    "data": {
-        "doi": "https://doi.org/10.5281/zenodo.7916446",
-        "name": "xclim",
-        "url": "https://github.com/Ouranosinc/xclim",
-        "full_name": "Ouranosinc/xclim",
-        "html_url": "https://github.com/Ouranosinc/xclim",
-        "description": "Library of derived climate variables, ie climate indicators, based on xarray. ",
-        "created_at": "2018-07-27T18:02:20Z",
-        "updated_at": "2023-05-19T17:42:32Z",
-        "clone_url": "https://github.com/Ouranosinc/xclim.git",
-        "homepage": "https://xclim.readthedocs.io/en/stable/",
-        "size": 56784,
-        "stargazers_count": 232,
-        "watchers_count": 232,
-        "language": "Python",
-        "open_issues_count": 49,
-        "license": {
-            "key": "apache-2.0",
-            "name": "Apache License 2.0",
-            "spdx_id": "Apache-2.0",
-            "url": "https://api.github.com/licenses/apache-2.0",
-            "node_id": "MDc6TGljZW5zZTI="
-        },
-        "subscribers_count": 20,
-        "owner": {
-            "html_url": "https://github.com/Ouranosinc",
-            "avatar_url": "https://avatars.githubusercontent.com/u/1696763?v=4",
-            "login": "Ouranosinc",
-            "type": "Organization"
-        },
-        "topics": [
-            "climate-analysis",
-            "climate-science",
-            "python",
-            "xarray",
-            "icclim",
-            "netcdf4",
-            "xclim",
-            "anuclim",
-            "dask"
-        ],
-        "timestamp": "2023-05-21 00:37:40.001850",
-        "avatar": "https://avatars.githubusercontent.com/u/1696763?v=4"
+    "full_name": "Ouranosinc/xclim",
+    "html_url": "https://github.com/Ouranosinc/xclim",
+    "description": "Library of derived climate variables, ie climate indicators, based on xarray. ",
+    "created_at": "2018-07-27T18:02:20Z",
+    "updated_at": "2023-05-19T17:42:32Z",
+    "clone_url": "https://github.com/Ouranosinc/xclim.git",
+    "homepage": "https://xclim.readthedocs.io/en/stable/",
+    "size": 56784,
+    "stargazers_count": 232,
+    "watchers_count": 232,
+    "language": "Python",
+    "open_issues_count": 49,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "subscribers_count": 20,
+    "owner": {
+      "html_url": "https://github.com/Ouranosinc",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1696763?v=4",
+      "login": "Ouranosinc",
+      "type": "Organization"
+    },
+    "topics": [
+      "climate-analysis",
+      "climate-science",
+      "python",
+      "xarray",
+      "icclim",
+      "netcdf4",
+      "xclim",
+      "anuclim",
+      "dask"
+    ],
+    "timestamp": "2023-05-21 00:37:40.001850",
+    "avatar": "https://avatars.githubusercontent.com/u/1696763?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Vendor or commercial entity",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"$ pip install xclim\"",
+        "\"xclim: Climate services library\" and described as \"an operational Python library for climate services\" with import example `import xclim` → indicates it is a reusable Python library dependency.",
+        "\"xclim currently provides over 150 indices related to mean, minimum and maximum daily temperature, daily precipitation, streamflow and sea ice concentration, numerous bias-adjustment algorithms, as well as a dedicated module for ensemble analysis.\" → domain-specific climate analysis directly used in research."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T19:44:20Z"
     }
+  },
+  "openssf_scorecard": {
+    "data": {
+      "date": "2026-01-23T08:41:37-05:00",
+      "repo": {
+        "name": "github.com/Ouranosinc/xclim",
+        "commit": "48979cd96c472d552024f02469fb0de9703bcade"
+      },
+      "scorecard": {
+        "version": "v5.4.0",
+        "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+      },
+      "score": 8.5,
+      "checks": [
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no binaries found in the repo",
+          "name": "Binary-Artifacts",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#binary-artifacts",
+            "short": "Determines if the project has generated executable (binary) artifacts in the source repository."
+          }
+        },
+        {
+          "details": null,
+          "score": 5,
+          "reason": "branch protection is not maximal on development and all release branches",
+          "name": "Branch-Protection",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#branch-protection",
+            "short": "Determines if the default and release branches are protected with GitHub's branch protection settings."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "6 out of 6 merged PRs checked by a CI test -- score normalized to 10",
+          "name": "CI-Tests",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#ci-tests",
+            "short": "Determines if the project runs tests before pull requests are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 5,
+          "reason": "badge detected: Passing",
+          "name": "CII-Best-Practices",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#cii-best-practices",
+            "short": "Determines if the project has an OpenSSF (formerly CII) Best Practices Badge."
+          }
+        },
+        {
+          "details": null,
+          "score": 5,
+          "reason": "Found 6/11 approved changesets -- score normalized to 5",
+          "name": "Code-Review",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#code-review",
+            "short": "Determines if the project requires human code review before pull requests (aka merge requests) are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "project has 18 contributing companies or organizations",
+          "name": "Contributors",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#contributors",
+            "short": "Determines if the project has a set of contributors from multiple organizations (e.g., companies)."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no dangerous workflow patterns detected",
+          "name": "Dangerous-Workflow",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dangerous-workflow",
+            "short": "Determines if the project's GitHub Action workflows avoid dangerous patterns."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "update tool detected",
+          "name": "Dependency-Update-Tool",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dependency-update-tool",
+            "short": "Determines if the project uses a dependency update tool."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "project is not fuzzed",
+          "name": "Fuzzing",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#fuzzing",
+            "short": "Determines if the project uses fuzzing."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "license file detected",
+          "name": "License",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#license",
+            "short": "Determines if the project has defined a license."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "30 commit(s) and 10 issue activity found in the last 90 days -- score normalized to 10",
+          "name": "Maintained",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#maintained",
+            "short": "Determines if the project is \"actively maintained\"."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "packaging workflow detected",
+          "name": "Packaging",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#packaging",
+            "short": "Determines if the project is published as a package that others can easily download, install, easily update, and uninstall."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "all dependencies are pinned",
+          "name": "Pinned-Dependencies",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#pinned-dependencies",
+            "short": "Determines if the project has declared and pinned the dependencies of its build process."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "SAST tool is run on all commits",
+          "name": "SAST",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#sast",
+            "short": "Determines if the project uses static code analysis."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "security policy file detected",
+          "name": "Security-Policy",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#security-policy",
+            "short": "Determines if the project has published a security policy."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no releases found",
+          "name": "Signed-Releases",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#signed-releases",
+            "short": "Determines if the project cryptographically signs release artifacts."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "GitHub workflow tokens follow principle of least privilege",
+          "name": "Token-Permissions",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#token-permissions",
+            "short": "Determines if the project's workflows follow the principle of least privilege."
+          }
+        },
+        {
+          "details": null,
+          "score": 9,
+          "reason": "1 existing vulnerabilities detected",
+          "name": "Vulnerabilities",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#vulnerabilities",
+            "short": "Determines if the project has open, known unfixed vulnerabilities."
+          }
+        }
+      ],
+      "metadata": null
+    },
+    "timestamp_utc": "2026-01-23T13:42:03Z"
+  }
 }

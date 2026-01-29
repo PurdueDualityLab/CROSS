@@ -1,0 +1,68 @@
+{
+  "parser": "github",
+  "uid": "github/tanner-trickle/EXCEED-DM",
+  "url": "https://github.com/tanner-trickle/EXCEED-DM",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2021PhRvD.104i5015G",
+      "https://ui.adsabs.harvard.edu/abs/2022arXiv221014917T",
+      "https://ui.adsabs.harvard.edu/abs/2022ascl.soft11020T/abstract"
+    ],
+    "title": "EXCEED-DM: EXtended Calculation of Electronic Excitations for Direct detection of Dark Matter",
+    "url": "https://github.com/tanner-trickle/EXCEED-DM",
+    "name": "EXCEED-DM",
+    "full_name": "tanner-trickle/EXCEED-DM",
+    "html_url": "https://github.com/tanner-trickle/EXCEED-DM",
+    "description": "EXCEED-DM: EXtended Calculation of Electronic Excitations for Direct detection of Dark Matter",
+    "created_at": "2021-04-05T16:35:26Z",
+    "updated_at": "2022-10-28T08:17:38Z",
+    "clone_url": "https://github.com/tanner-trickle/EXCEED-DM.git",
+    "size": 295249,
+    "stargazers_count": 9,
+    "watchers_count": 9,
+    "language": "Fortran",
+    "license": {
+      "key": "agpl-3.0",
+      "name": "GNU Affero General Public License v3.0",
+      "spdx_id": "AGPL-3.0",
+      "url": "https://api.github.com/licenses/agpl-3.0",
+      "node_id": "MDc6TGljZW5zZTE="
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/tanner-trickle",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46977645?v=4",
+      "login": "tanner-trickle",
+      "type": "User"
+    },
+    "topics": [
+      "physics",
+      "particle-physics",
+      "materials-science",
+      "condensed-matter-physics"
+    ],
+    "timestamp": "2022-12-04 00:35:20.189520",
+    "avatar": "https://avatars.githubusercontent.com/u/46977645?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"EXCEED-DM is an OpenMPI Fortran program that computes Dark Matter (DM) induced electronic transition rates.\"",
+        "\"EXCEED-DM provides a complete framework for computing DM-electron interaction rates. Given an electronic configuration, EXCEED-DM computes the relevant electronic matrix elements, then particle physics specific rates from these matrix elements.\"",
+        "Documentation link and usage description imply cloning and running the program from the GitHub repository; no mention of package managers, containers, or binaries."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T04:00:47Z"
+    }
+  }
+}

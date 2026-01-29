@@ -1,0 +1,66 @@
+{
+  "parser": "github",
+  "uid": "github/jmd-dk/concept",
+  "url": "https://github.com/jmd-dk/concept",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2022MNRAS.513..991D",
+      "https://ui.adsabs.harvard.edu/abs/2023ascl.soft06035D/abstract"
+    ],
+    "title": "CONCEPT: COsmological N-body CodE in PyThon",
+    "url": "https://github.com/jmd-dk/concept",
+    "name": "concept",
+    "full_name": "jmd-dk/concept",
+    "html_url": "https://github.com/jmd-dk/concept",
+    "description": "COsmological N-body CodE in PyThon",
+    "created_at": "2014-10-14T02:38:38Z",
+    "updated_at": "2023-06-26T23:16:22Z",
+    "clone_url": "https://github.com/jmd-dk/concept.git",
+    "size": 15156,
+    "stargazers_count": 67,
+    "watchers_count": 67,
+    "language": "Python",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 10,
+    "owner": {
+      "html_url": "https://github.com/jmd-dk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9202794?v=4",
+      "login": "jmd-dk",
+      "type": "User"
+    },
+    "topics": [
+      "cosmology",
+      "nbody-simulation",
+      "python"
+    ],
+    "timestamp": "2023-07-02 00:53:54.099288",
+    "avatar": "https://avatars.githubusercontent.com/u/9202794?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"CO*N*CEPT (COsmological N-body CodE in PyThon) is a free and open-source simulation code for cosmological structure formation.\"",
+        "\"To get started with CO*N*CEPT, walking through the tutorial is highly recommended. That said, installation can be as simple as bash <(wget -O- https://raw.githubusercontent.com/jmd-dk/concept/master/install)\"",
+        "\"To run a small sample simulation, navigate to the directory where CO*N*CEPT is installed and invoke ./concept -p param/example_basic -n 2 --local\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:35:18Z"
+    }
+  }
+}

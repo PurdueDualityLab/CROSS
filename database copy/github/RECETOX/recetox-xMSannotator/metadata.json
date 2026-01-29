@@ -1,0 +1,63 @@
+{
+  "parser": "github",
+  "uid": "github/RECETOX/recetox-xMSannotator",
+  "url": "https://github.com/RECETOX/recetox-xMSannotator",
+  "data": {
+    "name": "recetox-xMSannotator",
+    "url": "https://github.com/RECETOX/recetox-xMSannotator",
+    "full_name": "RECETOX/recetox-xMSannotator",
+    "html_url": "https://github.com/RECETOX/recetox-xMSannotator",
+    "private": false,
+    "description": "This is a custom adaptation of the original version of xMSannotator. It is a complete rewrite of the original functionality, following the same program structure.",
+    "created_at": "2021-06-07T09:30:59Z",
+    "updated_at": "2025-08-25T16:59:07Z",
+    "clone_url": "https://github.com/RECETOX/recetox-xMSannotator.git",
+    "homepage": "",
+    "size": 237540,
+    "stargazers_count": 5,
+    "watchers_count": 5,
+    "language": "R",
+    "open_issues_count": 15,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 0,
+    "owner": {
+      "html_url": "https://github.com/RECETOX",
+      "avatar_url": "https://avatars.githubusercontent.com/u/69039108?v=4",
+      "login": "RECETOX",
+      "type": "Organization"
+    },
+    "topics": [
+      "mass-spectrometry",
+      "hacktoberfest"
+    ],
+    "timestamp": "2025-11-09 00:55:25.877968",
+    "avatar": "https://avatars.githubusercontent.com/u/69039108?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "Conda (bioconda)",
+      "evidence": [
+        "\"This is a customized fork of ... xMSannotator ... for untargeted mass spectrometry experiments.\"",
+        "\"Use as a Galaxy Tool ... this branch we intend to use in our pipelines.\"",
+        "\"The package itself is also installable via Conda (https://anaconda.org/bioconda/r-recetox-xmsannotator).\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T19:53:45Z"
+    }
+  }
+}

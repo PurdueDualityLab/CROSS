@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/TearsWaiting/MIMML",
+  "url": "https://github.com/TearsWaiting/MIMML",
+  "data": {
+    "timestamp": "2022-05-22 00:37:07.033692",
+    "name": "MIMML",
+    "url": "https://api.github.com/repos/TearsWaiting/MIMML",
+    "full_name": "TearsWaiting/MIMML",
+    "html_url": "https://github.com/TearsWaiting/MIMML",
+    "private": false,
+    "description": "The implement of MIMML in paper: Accelerating Bioactive Peptides Discovery via Mutual Information based Meta-learning",
+    "created_at": "2021-05-25T08:58:51Z",
+    "updated_at": "2022-04-26T00:09:50Z",
+    "clone_url": "https://github.com/TearsWaiting/MIMML.git",
+    "homepage": null,
+    "size": 1686844,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "Python",
+    "open_issues_count": 0,
+    "license": null,
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/TearsWaiting",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45462505?v=4",
+      "login": "TearsWaiting",
+      "type": "User"
+    },
+    "topics": []
+  },
+  "doi": "10.1093/BIB/BBAB499",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"- **User should download the project and go to the directory: '../MIMML/main/' and run script test to check if the code works properly.**\"",
+        "\"The implement of MIMML in paper: Accelerating Bioactive Peptides Discovery via Mutual Information based Meta-learning.\"",
+        "\"We provide the implements of main experiments of our papers, which could run with the following commands.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T20:24:47Z"
+    }
+  }
+}

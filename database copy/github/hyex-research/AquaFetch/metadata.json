@@ -1,0 +1,66 @@
+{
+  "parser": "github",
+  "uid": "github/hyex-research/AquaFetch",
+  "url": "https://github.com/hyex-research/AquaFetch",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.16792359",
+    "name": "AquaFetch",
+    "url": "https://github.com/hyex-research/AquaFetch",
+    "full_name": "hyex-research/AquaFetch",
+    "html_url": "https://github.com/hyex-research/AquaFetch",
+    "description": "A Unified Python Interface for Water Resource Data Acquisition",
+    "created_at": "2025-01-19T12:17:46Z",
+    "updated_at": "2025-08-21T14:34:25Z",
+    "clone_url": "https://github.com/hyex-research/AquaFetch.git",
+    "homepage": "https://aquafetch.readthedocs.io",
+    "size": 28731,
+    "stargazers_count": 7,
+    "watchers_count": 7,
+    "language": "Python",
+    "open_issues_count": 2,
+    "license": {
+      "key": "agpl-3.0",
+      "name": "GNU Affero General Public License v3.0",
+      "spdx_id": "AGPL-3.0",
+      "url": "https://api.github.com/licenses/agpl-3.0",
+      "node_id": "MDc6TGljZW5zZTE="
+    },
+    "owner": {
+      "html_url": "https://github.com/hyex-research",
+      "avatar_url": "https://avatars.githubusercontent.com/u/144527953?v=4",
+      "login": "hyex-research",
+      "type": "Organization"
+    },
+    "topics": [
+      "big-data",
+      "database",
+      "hydrology",
+      "wastewater-treatment",
+      "water",
+      "water-quality"
+    ],
+    "timestamp": "2025-08-24 00:55:48.167229",
+    "avatar": "https://avatars.githubusercontent.com/u/144527953?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install aqua-fetch\"",
+        "\"AquaFetch is a Python package designed for the automated downloading, parsing, cleaning, and harmonization of freely available water resource datasets...\" (library-style description)",
+        "Usage examples show `from aqua_fetch import RainfallRunoff` and other functions/classes being imported into user code, indicating it is used as a dependency library."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:23:19Z"
+    }
+  }
+}

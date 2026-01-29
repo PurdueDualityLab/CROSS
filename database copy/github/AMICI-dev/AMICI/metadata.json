@@ -1,0 +1,81 @@
+{
+  "parser": "github",
+  "uid": "github/AMICI-dev/AMICI",
+  "url": "https://github.com/AMICI-dev/AMICI",
+  "data": {
+    "doi": "10.1093/bioinformatics/btab227",
+    "name": "AMICI",
+    "url": "https://github.com/AMICI-dev/AMICI",
+    "full_name": "AMICI-dev/AMICI",
+    "html_url": "https://github.com/AMICI-dev/AMICI",
+    "description": "Advanced Multilanguage Interface to CVODES and IDAS",
+    "created_at": "2015-10-05T10:08:05Z",
+    "updated_at": "2025-05-10T18:52:34Z",
+    "clone_url": "https://github.com/AMICI-dev/AMICI.git",
+    "homepage": "https://amici.readthedocs.io/",
+    "size": 219721,
+    "stargazers_count": 120,
+    "watchers_count": 120,
+    "language": "C++",
+    "open_issues_count": 129,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 10,
+    "owner": {
+      "html_url": "https://github.com/AMICI-dev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68919097?v=4",
+      "login": "AMICI-dev",
+      "type": "Organization"
+    },
+    "topics": [
+      "differentialequations",
+      "sensitivities",
+      "simulation",
+      "adjoint-sensitivities",
+      "forward-sensitivities",
+      "sbml",
+      "systemsbiology",
+      "cvode",
+      "python",
+      "kinetic-modeling",
+      "mechanistic-models",
+      "sensitivity-analysis",
+      "cvodes",
+      "idas",
+      "pysb",
+      "petab",
+      "ode",
+      "parameter-estimation",
+      "hacktoberfest",
+      "modeling"
+    ],
+    "timestamp": "2025-05-11 00:54:10.617770",
+    "avatar": "https://avatars.githubusercontent.com/u/68919097?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"<img src=\"https://sonarcloud.io/api/project_badges/measure?project=ICB-DCM_AMICI&metric=sqale_index\" alt=\"SonarCloud technical debt\"></a>\"",
+        "\"AMICI provides a Python and C++ interface for the SUNDIALS solvers CVODES ... and IDAS ...\" (library-style interface to other tools)",
+        "\"There are several tools for parameter estimation offering good integration with AMICI: * pyPESTO ... * pyABC ... * parPE ...\" (used as a component by other research tools)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T16:20:27Z"
+    }
+  }
+}

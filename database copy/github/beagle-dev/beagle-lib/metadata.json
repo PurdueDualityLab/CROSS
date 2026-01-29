@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/beagle-dev/beagle-lib",
+  "url": "https://github.com/beagle-dev/beagle-lib",
+  "data": {
+    "timestamp": "2021-05-30 01:12:05.486165",
+    "name": "beagle-lib",
+    "url": "https://api.github.com/repos/beagle-dev/beagle-lib",
+    "full_name": "beagle-dev/beagle-lib",
+    "html_url": "https://github.com/beagle-dev/beagle-lib",
+    "private": false,
+    "description": "general purpose library for evaluating the likelihood of sequence evolution on trees",
+    "created_at": "2015-04-15T11:24:17Z",
+    "updated_at": "2021-05-12T03:08:31Z",
+    "clone_url": "https://github.com/beagle-dev/beagle-lib.git",
+    "homepage": "",
+    "size": 16663,
+    "stargazers_count": 92,
+    "watchers_count": 92,
+    "language": "C++",
+    "open_issues_count": 53,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 26,
+    "owner": {
+      "html_url": "https://github.com/beagle-dev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/780253?v=4",
+      "login": "beagle-dev",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "doi": "10.1093/sysbio/syr100",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"### Current binary installers\"",
+        "\"BEAGLE is a high-performance library that can perform the core calculations at the heart of most Bayesian and Maximum Likelihood phylogenetics packages.\"",
+        "\"The project involves an open API and fast implementations of a library for evaluating phylogenetic likelihoods...\" and lists software that \"can make use of the BEAGLE library\" (BEAST, BEAST2, MrBayes, etc.), indicating it is a dependency library."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T22:02:00Z"
+    }
+  }
+}

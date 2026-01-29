@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/ngbusca/QuasarNET",
+  "url": "https://github.com/ngbusca/QuasarNET",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2020ApJ...901..153D",
+      "https://ui.adsabs.harvard.edu/abs/2018arXiv180809955B",
+      "https://ui.adsabs.harvard.edu/abs/2021ascl.soft06016B/abstract"
+    ],
+    "title": "QuasarNET: CNN for redshifting and classification of astrophysical spectra",
+    "url": "https://github.com/ngbusca/QuasarNET",
+    "name": "QuasarNET",
+    "full_name": "ngbusca/QuasarNET",
+    "html_url": "https://github.com/ngbusca/QuasarNET",
+    "created_at": "2018-01-24T13:12:10Z",
+    "updated_at": "2022-07-01T15:49:23Z",
+    "clone_url": "https://github.com/ngbusca/QuasarNET.git",
+    "size": 91114,
+    "stargazers_count": 8,
+    "watchers_count": 8,
+    "language": "Jupyter Notebook",
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/ngbusca",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4727509?v=4",
+      "login": "ngbusca",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:11:47.246622",
+    "avatar": "https://avatars.githubusercontent.com/u/4727509?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install -r requirements.txt --user\"",
+        "\"QuasarNET: A convolutional neural network for redshifting and classification of astrophysical spectra\" (domain-specific analysis tool).",
+        "Installation is via cloning and installing from the GitHub repository: \"git clone https://github.com/ngbusca/QuasarNET.git\" and then \"python setup.py install\"."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:36:48Z"
+    }
+  }
+}

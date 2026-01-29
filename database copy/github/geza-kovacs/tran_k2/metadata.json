@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/geza-kovacs/tran_k2",
+  "url": "https://github.com/geza-kovacs/tran_k2",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2020A%26A...643A.169K",
+      "https://ui.adsabs.harvard.edu/abs/2020ascl.soft12012K/abstract"
+    ],
+    "title": "TRAN_K2: Planetary transit search",
+    "url": "https://github.com/geza-kovacs/tran_k2",
+    "name": "tran_k2",
+    "full_name": "geza-kovacs/tran_k2",
+    "html_url": "https://github.com/geza-kovacs/tran_k2",
+    "description": "Planetary transit search in the presence of stellar variability and instrumental systematics",
+    "created_at": "2020-09-30T13:00:59Z",
+    "updated_at": "2020-10-04T16:17:21Z",
+    "clone_url": "https://github.com/geza-kovacs/tran_k2.git",
+    "size": 113,
+    "language": "Shell",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/geza-kovacs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72140288?v=4",
+      "login": "geza-kovacs",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:13:12.245503",
+    "avatar": "https://avatars.githubusercontent.com/u/72140288?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "README refers to multiple code/script files and information files (e.g., \"paper_inf.txt\", \"file_format_inf.txt\" and \"run_inf.txt\"), indicating an executable research codebase rather than a reusable library.",
+        "The presence of a \"paper_inf.txt\" file suggests the software is tied to a specific research paper, implying it is used to generate or analyze results for that work.",
+        "Instructions about using the codes/scripts (\"the codes/scripts should be used without this extension\") and a run information file (\"run_inf.txt\") indicate users run this code directly from the repository source."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T23:59:09Z"
+    }
+  }
+}

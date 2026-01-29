@@ -1,0 +1,56 @@
+{
+  "parser": "github",
+  "uid": "github/tomoyukif/MCPtaggR",
+  "url": "https://github.com/tomoyukif/MCPtaggR",
+  "data": {
+    "doi": "10.1093/DNARES/DSAD027",
+    "name": "MCPtaggR",
+    "url": "https://github.com/tomoyukif/MCPtaggR",
+    "full_name": "tomoyukif/MCPtaggR",
+    "html_url": "https://github.com/tomoyukif/MCPtaggR",
+    "created_at": "2021-11-02T10:21:37Z",
+    "updated_at": "2024-01-30T07:54:50Z",
+    "clone_url": "https://github.com/tomoyukif/MCPtaggR.git",
+    "size": 337163,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "R",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/tomoyukif",
+      "avatar_url": "https://avatars.githubusercontent.com/u/40555133?v=4",
+      "login": "tomoyukif",
+      "type": "User"
+    },
+    "timestamp": "2024-04-21 00:35:53.610612",
+    "avatar": "https://avatars.githubusercontent.com/u/40555133?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"BiocManager\")\"",
+        "\"MCPtaggR provides the functions to conduct mappable-collinear-polymorphic tag genotyping (MCPtagg). MCPtagg is a pipeline for next generation sequencing (NGS)-based genotyping technique...\"",
+        "\"A package to conduct mappable-collinear-polymorphic tag genotyping.\" (R package intended to be installed and used within R, i.e., as a dependency)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:28:33Z"
+    }
+  }
+}

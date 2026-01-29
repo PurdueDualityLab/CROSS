@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/wangjun1996/VisFeature",
+  "url": "https://github.com/wangjun1996/VisFeature",
+  "data": {
+    "timestamp": "2021-01-03 00:36:12.009955",
+    "name": "VisFeature",
+    "url": "https://api.github.com/repos/wangjun1996/VisFeature",
+    "full_name": "wangjun1996/VisFeature",
+    "html_url": "https://github.com/wangjun1996/VisFeature",
+    "private": false,
+    "description": "A stand-alone program for visualizing and analyzing statistical features of biological sequences",
+    "created_at": "2019-06-28T08:46:41Z",
+    "updated_at": "2020-05-09T02:18:15Z",
+    "clone_url": "https://github.com/wangjun1996/VisFeature.git",
+    "homepage": "",
+    "size": 214510,
+    "stargazers_count": 6,
+    "watchers_count": 6,
+    "language": "HTML",
+    "open_issues_count": 2,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 0,
+    "owner": {
+      "html_url": "https://github.com/wangjun1996",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/43462056?v=4",
+      "login": "wangjun1996",
+      "type": "User"
+    },
+    "topics": []
+  },
+  "doi": "10.1093/BIOINFORMATICS/BTZ689",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"- For ***Microsoft Windows platform***, just download the `VisFeature-win32-x64.zip` package from https://github.com/wangjun1996/VisFeature/releases. Unpack it to your favorite location and then open \"",
+        "\"VisFeature: A stand-alone program for visualizing and analyzing statistical features of biological sequences\"",
+        "\"For Microsoft Windows platform, just download the `VisFeature-win32-x64.zip` package from https://github.com/wangjun1996/VisFeature/releases. Unpack it ... and then open `VisFeature.exe`.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:51:04Z"
+    }
+  }
+}

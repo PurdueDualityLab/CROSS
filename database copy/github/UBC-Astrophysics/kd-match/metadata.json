@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/UBC-Astrophysics/kd-match",
+  "url": "https://github.com/UBC-Astrophysics/kd-match",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2013MNRAS.433..935H",
+      "https://ui.adsabs.harvard.edu/abs/2021ascl.soft07022H/abstract"
+    ],
+    "title": "Kd-match: Correspondences of objects between two catalogs through pattern matching",
+    "url": "https://github.com/UBC-Astrophysics/kd-match",
+    "name": "kd-match",
+    "full_name": "UBC-Astrophysics/kd-match",
+    "html_url": "https://github.com/UBC-Astrophysics/kd-match",
+    "description": "Rapidly matches stellar catalogues",
+    "created_at": "2015-11-07T23:05:31Z",
+    "updated_at": "2018-04-05T21:16:47Z",
+    "clone_url": "https://github.com/UBC-Astrophysics/kd-match.git",
+    "homepage": "http://ubc-astrophysics.github.io/kd-match/",
+    "size": 360,
+    "language": "C",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/UBC-Astrophysics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12797825?v=4",
+      "login": "UBC-Astrophysics",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-17 17:11:24.725871",
+    "avatar": "https://avatars.githubusercontent.com/u/12797825?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"Both finding the matching triangles and later the matching objects in the catalogues require finding neigh- bours in a two-dimensional space. If the space were one dimensional, one would use a binary \"",
+        "The README describes an astronomy-specific algorithm and method for matching catalogues of objects, indicating it is a domain research code rather than a generic library: \"Finding the correspondances between catalogues of objects has long been a goal of astronomy.\"",
+        "The text focuses on the scientific method and algorithmic approach (triangle and quadrilateral matching, k-d trees) used in astrometry, implying the software directly implements research analysis: \"This algorithm dramatically speeds the search over the two dimensions, and runs the search for the astrometry.net algorithm (Lang et al. 2010).\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T20:34:37Z"
+    }
+  }
+}

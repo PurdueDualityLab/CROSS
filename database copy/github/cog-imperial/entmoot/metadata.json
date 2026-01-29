@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/cog-imperial/entmoot",
+  "url": "https://github.com/cog-imperial/entmoot",
+  "data": {
+    "timestamp": "2022-05-12 03:43:26.701493",
+    "name": "entmoot",
+    "url": "https://api.github.com/repos/cog-imperial/entmoot",
+    "full_name": "cog-imperial/entmoot",
+    "html_url": "https://github.com/cog-imperial/entmoot",
+    "private": false,
+    "description": null,
+    "created_at": "2020-08-26T16:48:31Z",
+    "updated_at": "2022-04-19T13:53:20Z",
+    "clone_url": "https://github.com/cog-imperial/entmoot.git",
+    "homepage": null,
+    "size": 529,
+    "stargazers_count": 28,
+    "watchers_count": 28,
+    "language": "Python",
+    "open_issues_count": 1,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "subscribers_count": 7,
+    "owner": {
+      "html_url": "https://github.com/cog-imperial",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30658188?v=4",
+      "login": "cog-imperial",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "contact": "Alexander Thebolt <alexander.thebelt18@imperial.ac.uk>",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"ENTMOOT (ENsemble Tree Model Optimization Tool) is a framework to perform Bayesian Optimization using tree-based surrogate models.\"",
+        "\"When using any ENTMOOT for any publications please reference this software package as:\" followed by a journal article citation, indicating it is a research method/tool used directly in publications.",
+        "Badges and links point to GitHub and Read the Docs, with no mention of package managers or binaries, implying users obtain and use it from the source repository/documentation."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T22:59:30Z"
+    }
+  }
+}

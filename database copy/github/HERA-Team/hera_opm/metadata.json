@@ -1,0 +1,65 @@
+{
+  "parser": "github",
+  "uid": "github/HERA-Team/hera_opm",
+  "url": "https://github.com/HERA-Team/hera_opm",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2020arXiv201011969L",
+      "https://ui.adsabs.harvard.edu/abs/2021ascl.soft04001L/abstract"
+    ],
+    "title": "hera_opm: The HERA Online Processing Module",
+    "url": "https://github.com/HERA-Team/hera_opm",
+    "name": "hera_opm",
+    "full_name": "HERA-Team/hera_opm",
+    "html_url": "https://github.com/HERA-Team/hera_opm",
+    "description": "Online processing of HERA data",
+    "created_at": "2018-02-14T00:00:38Z",
+    "updated_at": "2022-01-05T00:45:13Z",
+    "clone_url": "https://github.com/HERA-Team/hera_opm.git",
+    "size": 24394,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Python",
+    "open_issues_count": 8,
+    "license": {
+      "key": "bsd-2-clause",
+      "name": "BSD 2-Clause \"Simplified\" License",
+      "spdx_id": "BSD-2-Clause",
+      "url": "https://api.github.com/licenses/bsd-2-clause",
+      "node_id": "MDc6TGljZW5zZTQ="
+    },
+    "subscribers_count": 36,
+    "owner": {
+      "html_url": "https://github.com/HERA-Team",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14352544?v=4",
+      "login": "HERA-Team",
+      "type": "Organization"
+    },
+    "topics": [
+      "pipeline"
+    ],
+    "timestamp": "2022-07-17 17:12:20.847646",
+    "avatar": "https://avatars.githubusercontent.com/u/14352544?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install .\"",
+        "\"`hera_opm` provides a convenient and flexible framework for developing data analysis pipelines for operating on HERA data.\"",
+        "\"The `hera_opm` package essentially converts a pipeline defined in a configuration file into a format that can be parsed by `makeflow`... Once the `makeflow` instructions file has been generated, the `makeflow` program itself is used to execute the steps in the pipeline.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T17:44:31Z"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/d-tear/SIAL",
+  "url": "https://github.com/d-tear/SIAL",
+  "data": {
+    "timestamp": "2020-12-20 00:25:36.416056",
+    "name": "SIAL",
+    "url": "https://api.github.com/repos/d-tear/SIAL",
+    "full_name": "d-tear/SIAL",
+    "html_url": "https://github.com/d-tear/SIAL",
+    "private": false,
+    "description": "Simple Image Analysis Library",
+    "created_at": "2020-02-03T19:50:59Z",
+    "updated_at": "2020-12-15T05:54:07Z",
+    "clone_url": "https://github.com/d-tear/SIAL.git",
+    "homepage": null,
+    "size": 222,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": "Java",
+    "open_issues_count": 0,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/d-tear",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19397687?v=4",
+      "login": "d-tear",
+      "type": "User"
+    },
+    "topics": []
+  },
+  "doi": "https://doi.org/10.5281/zenodo.4312250",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"To download SIAL, open FIJI, go to “Help > Update…” and then update FIJI. After FIJI is finished downloading all updates, a window named “ImageJ Updater” will open. Select “Manage Update Sites > Add u\"",
+        "\"SIAL: A simple image analysis library for wet-lab scientists\" and described as a FIJI plugin with user-facing programs (File Randomizer, PhenoScoreKeeper, ROI Recorder), indicating an end-user application.",
+        "\"SIAL aids users in human-assisted image analysis by providing programs for image pseudonymization, phenotype scoring, and ROI harvesting\" – these are core analysis tasks contributing directly to research results."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:14:18Z"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "parser": "github",
+  "uid": "github/BenWibking/quokka",
+  "url": "https://github.com/BenWibking/quokka",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2022MNRAS.512.1430W",
+      "https://ui.adsabs.harvard.edu/abs/2021ascl.soft10009W/abstract"
+    ],
+    "title": "Quokka: Two-moment AMR radiation hydrodynamics on GPUs for astrophysics",
+    "url": "https://github.com/BenWibking/quokka",
+    "name": "quokka",
+    "full_name": "BenWibking/quokka",
+    "html_url": "https://github.com/BenWibking/quokka",
+    "description": "Two-moment AMR radiation hydrodynamics on GPUs for astrophysics",
+    "created_at": "2020-02-07T03:26:54Z",
+    "updated_at": "2022-06-23T15:51:59Z",
+    "clone_url": "https://github.com/BenWibking/quokka.git",
+    "homepage": "https://quokka-code.readthedocs.io",
+    "size": 35297,
+    "stargazers_count": 13,
+    "watchers_count": 13,
+    "language": "C++",
+    "open_issues_count": 17,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/BenWibking",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1781919?v=4",
+      "login": "BenWibking",
+      "type": "User"
+    },
+    "topics": [
+      "cuda",
+      "gpu",
+      "hydrodynamics",
+      "adaptive-mesh-refinement"
+    ],
+    "timestamp": "2022-07-17 16:50:12.100697",
+    "avatar": "https://avatars.githubusercontent.com/u/1781919?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=BenWibking_TwoMomentRad&metric=alert_status&token=5049c56ffe08dcc83afd5ca4c8e0d951a2836652)](https://sonarcloud.io/dash\"",
+        "\"Quokka is a two-moment radiation hydrodynamics code that uses the piecewise-parabolic method, with AMR and subcycling in time. Runs on CPUs (MPI+vectorized) or NVIDIA GPUs (MPI+CUDA) with a single-source codebase. Written in C++20.\" (indicates a simulation code users run directly)",
+        "\"For detailed instructions on installing the code, please refer to the Quokka Documentation\" (suggests users obtain and build/run the code themselves, typical of application software from a source repo)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T16:44:35Z"
+    }
+  }
+}

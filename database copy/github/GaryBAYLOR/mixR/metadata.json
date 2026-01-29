@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/GaryBAYLOR/mixR",
+  "url": "https://github.com/GaryBAYLOR/mixR",
+  "data": {
+    "timestamp": "2022-01-16 00:40:46.081963",
+    "name": "mixR",
+    "url": "https://api.github.com/repos/GaryBAYLOR/mixR",
+    "full_name": "GaryBAYLOR/mixR",
+    "html_url": "https://github.com/GaryBAYLOR/mixR",
+    "private": false,
+    "description": "R package for fitting finite mixture models for both raw and binned data",
+    "created_at": "2021-04-22T20:33:26Z",
+    "updated_at": "2022-01-05T19:58:23Z",
+    "clone_url": "https://github.com/GaryBAYLOR/mixR.git",
+    "homepage": null,
+    "size": 26255,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": "R",
+    "open_issues_count": 0,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/GaryBAYLOR",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12647683?v=4",
+      "login": "GaryBAYLOR",
+      "type": "User"
+    },
+    "topics": []
+  },
+  "doi": "https://doi.org/10.5281/zenodo.5842096",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages('mixR')\"",
+        "\"mixR: An R package for finite mixture modeling for both raw and binned data\"",
+        "\"install.packages('mixR')\" (R package intended to be loaded via library(mixR) and used by other R scripts)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T17:41:28Z"
+    }
+  }
+}

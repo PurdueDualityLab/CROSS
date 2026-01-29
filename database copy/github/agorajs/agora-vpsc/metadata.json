@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/agorajs/agora-vpsc",
+  "url": "https://github.com/agorajs/agora-vpsc",
+  "data": {
+    "name": "agora-vpsc",
+    "url": "https://github.com/agorajs/agora-vpsc",
+    "full_name": "agorajs/agora-vpsc",
+    "html_url": "https://github.com/agorajs/agora-vpsc",
+    "private": false,
+    "description": "VPSC adapter for agora-framework",
+    "created_at": "2019-09-18T08:25:13Z",
+    "updated_at": "2024-10-04T15:20:56Z",
+    "clone_url": "https://github.com/agorajs/agora-vpsc.git",
+    "homepage": null,
+    "size": 215,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": "JavaScript",
+    "open_issues_count": 4,
+    "license": null,
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/agorajs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55066786?v=4",
+      "login": "agorajs",
+      "type": "Organization"
+    },
+    "topics": [],
+    "timestamp": "2024-10-27 00:53:18.343273",
+    "avatar": "https://avatars.githubusercontent.com/u/55066786?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "README title: \"Implementation of the Fast Node Overlap Removal (VPSC) algorithm\" – indicates a specific algorithm implementation likely used as a component/library.",
+        "The algorithm is for \"removing node overlapping in graph visualization\" – a concrete algorithmic method directly used in graph drawing/visualization research workflows.",
+        "No installation or packaging instructions are given beyond the repository itself, implying distribution primarily via the source repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T21:01:54Z"
+    }
+  }
+}

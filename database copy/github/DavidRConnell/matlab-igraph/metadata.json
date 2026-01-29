@@ -1,0 +1,64 @@
+{
+  "parser": "github",
+  "uid": "github/DavidRConnell/matlab-igraph",
+  "url": "https://github.com/DavidRConnell/matlab-igraph",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.17064969",
+    "name": "matlab-igraph",
+    "url": "https://github.com/DavidRConnell/matlab-igraph",
+    "full_name": "DavidRConnell/matlab-igraph",
+    "html_url": "https://github.com/DavidRConnell/matlab-igraph",
+    "description": "Igraph bindings for matlab",
+    "created_at": "2023-09-02T00:47:44Z",
+    "updated_at": "2025-09-05T19:03:30Z",
+    "clone_url": "https://github.com/DavidRConnell/matlab-igraph.git",
+    "homepage": "https://davidrconnell.github.io/matlab-igraph",
+    "size": 4334,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "MATLAB",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/DavidRConnell",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35470740?v=4",
+      "login": "DavidRConnell",
+      "type": "User"
+    },
+    "topics": [
+      "graph",
+      "graph-algorithms",
+      "matlab",
+      "network-analysis"
+    ],
+    "timestamp": "2025-09-07 00:52:08.720038",
+    "avatar": "https://avatars.githubusercontent.com/u/35470740?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"It's also possible to download the toolbox directly from the [release page](https://github.com/DavidRConnell/matlab-igraph/releases), however, this will need to be manually updated. If manually downlo\"",
+        "\"A toolbox that brings the power of the igraph C library to MATLAB.\"",
+        "\"This toolbox aims to provide a consistent API to perform graph analyses inside MATLAB while following MATLAB's conventions.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T17:01:18Z"
+    }
+  }
+}

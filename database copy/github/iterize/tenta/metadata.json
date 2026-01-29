@@ -1,0 +1,69 @@
+{
+  "parser": "github",
+  "uid": "github/iterize/tenta",
+  "url": "https://github.com/iterize/tenta",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.14597567",
+    "name": "tenta",
+    "url": "https://github.com/iterize/tenta",
+    "full_name": "iterize/tenta",
+    "html_url": "https://github.com/iterize/tenta",
+    "description": "Manage your sensors remotely and in real-time",
+    "created_at": "2023-08-27T13:25:30Z",
+    "updated_at": "2025-01-09T15:01:06Z",
+    "clone_url": "https://github.com/iterize/tenta.git",
+    "homepage": "https://tenta.onrender.com",
+    "size": 4478,
+    "stargazers_count": 8,
+    "watchers_count": 8,
+    "language": "TypeScript",
+    "open_issues_count": 2,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/iterize",
+      "avatar_url": "https://avatars.githubusercontent.com/u/137326893?v=4",
+      "login": "iterize",
+      "type": "Organization"
+    },
+    "topics": [
+      "dashboard",
+      "internet-of-things",
+      "iot",
+      "mqtt",
+      "network",
+      "python",
+      "real-time",
+      "sensor"
+    ],
+    "timestamp": "2025-01-12 00:48:22.224589",
+    "avatar": "https://avatars.githubusercontent.com/u/137326893?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Vendor or commercial entity",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Tenta allows you to manage sensors remotely and in real-time\" and describes a dashboard available at http://localhost:3000, indicating it is an application users run.",
+        "\"It is designed to be used as a building block in your IoT stack, together with other awesome tools like Grafana, DuckDB, or polars\" suggests it supports data collection/management rather than performing domain-specific analysis itself.",
+        "\"You can try out Tenta in a few minutes with Docker Compose. Clone the repository and run\" indicates distribution via cloning the source repo and running locally."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:28:16Z"
+    }
+  }
+}

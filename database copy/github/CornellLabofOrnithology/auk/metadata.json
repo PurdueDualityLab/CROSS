@@ -1,0 +1,66 @@
+{
+  "parser": "github",
+  "uid": "github/CornellLabofOrnithology/auk",
+  "url": "https://github.com/CornellLabofOrnithology/auk",
+  "data": {
+    "timestamp": "2022-01-27 10:11:35.310288",
+    "name": "auk",
+    "url": "https://api.github.com/repos/CornellLabofOrnithology/auk",
+    "full_name": "CornellLabofOrnithology/auk",
+    "html_url": "https://github.com/CornellLabofOrnithology/auk",
+    "private": false,
+    "description": "Working with eBird data in R",
+    "created_at": "2017-07-01T20:28:25Z",
+    "updated_at": "2022-01-19T20:10:35Z",
+    "clone_url": "https://github.com/CornellLabofOrnithology/auk.git",
+    "homepage": "https://CornellLabofOrnithology.github.io/auk/",
+    "size": 10466,
+    "stargazers_count": 99,
+    "watchers_count": 99,
+    "language": "R",
+    "open_issues_count": 5,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 23,
+    "owner": {
+      "html_url": "https://github.com/CornellLabofOrnithology",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1395442?v=4",
+      "login": "CornellLabofOrnithology",
+      "type": "Organization"
+    },
+    "topics": [
+      "r",
+      "ebird",
+      "dataset",
+      "dataset",
+      "ebird",
+      "data-access"
+    ]
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"auk\")\"",
+        "\"auk: eBird Data Extraction and Processing in R\" and installation via `install.packages(\"auk\")` indicate it is an R package intended to be used from R code, i.e., as a dependency/library.",
+        "\"This package acts as a front end for AWK, allowing users to filter eBird data before import into R.\" and extensive examples of filtering and reading data show it directly processes research data for ecological analyses."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T16:56:37Z"
+    }
+  }
+}

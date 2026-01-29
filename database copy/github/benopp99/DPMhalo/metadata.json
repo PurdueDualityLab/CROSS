@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/benopp99/DPMhalo",
+  "url": "https://github.com/benopp99/DPMhalo",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2025arXiv250514782O",
+      "https://ui.adsabs.harvard.edu/abs/2025ascl.soft07030O/abstract"
+    ],
+    "title": "DPMhalo: Descriptive Parametric Model for gaseous halos",
+    "url": "https://github.com/benopp99/DPMhalo",
+    "name": "DPMhalo",
+    "full_name": "benopp99/DPMhalo",
+    "html_url": "https://github.com/benopp99/DPMhalo",
+    "description": "The Descriptive Parametric Model",
+    "created_at": "2024-08-27T23:21:42Z",
+    "updated_at": "2025-03-14T15:09:18Z",
+    "clone_url": "https://github.com/benopp99/DPMhalo.git",
+    "size": 1026,
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/benopp99",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50880489?v=4",
+      "login": "benopp99",
+      "type": "User"
+    },
+    "timestamp": "2025-08-10 00:59:27.281906",
+    "avatar": "https://avatars.githubusercontent.com/u/50880489?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install dpmhalo\"",
+        "\"The Descriptive Parametric Model for gaseous halos version 1.2\" (domain-specific scientific modeling tool).",
+        "\"Upon installation, test that you can access a script to create halo radial profiles for a given M200c and redshift\" (directly generates scientific model outputs)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T22:03:20Z"
+    }
+  }
+}

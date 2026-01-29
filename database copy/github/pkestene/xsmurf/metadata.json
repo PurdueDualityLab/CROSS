@@ -1,0 +1,73 @@
+{
+  "parser": "github",
+  "uid": "github/pkestene/xsmurf",
+  "url": "https://github.com/pkestene/xsmurf",
+  "data": {
+    "doi": [],
+    "title": "Xsmurf - Measuring multifractal properties with the continuous wavelet transform modulus maxima (WTMM) method",
+    "url": "https://github.com/pkestene/xsmurf",
+    "name": "xsmurf",
+    "full_name": "pkestene/xsmurf",
+    "html_url": "https://github.com/pkestene/xsmurf",
+    "description": "a wavelet-based multifractal image analysis tool implementing the WTMM (Wavelet Transform Modulus Maxima) method.",
+    "created_at": "2015-09-14T09:11:00Z",
+    "updated_at": "2021-10-26T17:03:46Z",
+    "clone_url": "https://github.com/pkestene/xsmurf.git",
+    "size": 2768,
+    "stargazers_count": 7,
+    "watchers_count": 7,
+    "language": "C",
+    "license": {
+      "key": "gpl-2.0",
+      "name": "GNU General Public License v2.0",
+      "spdx_id": "GPL-2.0",
+      "url": "https://api.github.com/licenses/gpl-2.0",
+      "node_id": "MDc6TGljZW5zZTg="
+    },
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/pkestene",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8276295?v=4",
+      "login": "pkestene",
+      "type": "User"
+    },
+    "topics": [
+      "multifractal-analysis",
+      "tcl",
+      "wavelet",
+      "modulus-maxima",
+      "tk",
+      "continuous-wavelet",
+      "fractal",
+      "multifractal",
+      "wtmm",
+      "singularity-spectrum",
+      "monofractal",
+      "turbulence",
+      "holder-exponent"
+    ],
+    "timestamp": "2022-07-17 17:22:39.637487",
+    "avatar": "https://avatars.githubusercontent.com/u/8276295?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Xsmurf is a C/Tcl/Tk software implementation of the image processing WTMM method used to perform multifractal analysis.\"",
+        "\"Run ... ./main/xsmurf\" (describes running an end-user executable rather than importing a library).",
+        "Installation and usage are described via ./configure, make, and running the built executable from the repository, with no mention of package managers or binary releases."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T01:53:06Z"
+    }
+  }
+}

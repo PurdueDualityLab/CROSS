@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/haowang-astro/jetsimpy",
+  "url": "https://github.com/haowang-astro/jetsimpy",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2024arXiv240219359W",
+      "https://ui.adsabs.harvard.edu/abs/2024ascl.soft04022W/abstract"
+    ],
+    "title": "jetsimpy: Hydrodynamic model of gamma-ray burst jet and afterglow",
+    "url": "https://github.com/haowang-astro/jetsimpy",
+    "name": "jetsimpy",
+    "full_name": "haowang-astro/jetsimpy",
+    "html_url": "https://github.com/haowang-astro/jetsimpy",
+    "description": "A hydrodynamic model of gamma-ray burst jet and afterglow",
+    "created_at": "2023-09-12T20:52:34Z",
+    "updated_at": "2024-05-03T22:32:06Z",
+    "clone_url": "https://github.com/haowang-astro/jetsimpy.git",
+    "size": 60,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "C++",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/haowang-astro",
+      "avatar_url": "https://avatars.githubusercontent.com/u/144850029?v=4",
+      "login": "haowang-astro",
+      "type": "User"
+    },
+    "timestamp": "2024-05-05 00:36:19.919748",
+    "avatar": "https://avatars.githubusercontent.com/u/144850029?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install .\"",
+        "\"Hydrodynamic simulations of relativistic blastwave with tabulated angular energy and Lorentz factor profiles. Efficient Gamma-Ray Burst afterglow modeling.\"",
+        "\"Additionally, you can add your own radiation model by defining a lambda function in a c++ source file... After adding your own model, just install the package as usual and refer to this model with its model name from Python side.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:07:48Z"
+    }
+  }
+}

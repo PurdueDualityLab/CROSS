@@ -1,41 +1,260 @@
 {
-    "parser": "github",
-    "uid": "github/radiocosmology/driftscan",
+  "parser": "github",
+  "uid": "github/radiocosmology/driftscan",
+  "url": "https://github.com/radiocosmology/driftscan",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2023ApJ...947...16A",
+      "https://ui.adsabs.harvard.edu/abs/2023ascl.soft08013S/abstract"
+    ],
+    "title": "Driftscan: Drift scan telescope analysis",
     "url": "https://github.com/radiocosmology/driftscan",
-    "data": {
-        "doi": [
-            "https://ui.adsabs.harvard.edu/abs/2023ApJ...947...16A",
-            "https://ui.adsabs.harvard.edu/abs/2023ascl.soft08013S/abstract"
-        ],
-        "title": "Driftscan: Drift scan telescope analysis",
-        "url": "https://github.com/radiocosmology/driftscan",
-        "name": "driftscan",
-        "full_name": "radiocosmology/driftscan",
-        "html_url": "https://github.com/radiocosmology/driftscan",
-        "description": "Data analysis of transit radio interferometers, particularly for 21cm cosmology.",
-        "created_at": "2011-08-22T21:24:24Z",
-        "updated_at": "2023-02-27T15:14:51Z",
-        "clone_url": "https://github.com/radiocosmology/driftscan.git",
-        "size": 4618,
-        "stargazers_count": 14,
-        "watchers_count": 14,
-        "language": "Python",
-        "open_issues_count": 19,
-        "license": {
-            "key": "other",
-            "name": "Other",
-            "spdx_id": "NOASSERTION",
-            "url": null,
-            "node_id": "MDc6TGljZW5zZTA="
-        },
-        "subscribers_count": 24,
-        "owner": {
-            "html_url": "https://github.com/radiocosmology",
-            "avatar_url": "https://avatars.githubusercontent.com/u/6320724?v=4",
-            "login": "radiocosmology",
-            "type": "Organization"
-        },
-        "timestamp": "2023-09-03 00:32:32.916191",
-        "avatar": "https://avatars.githubusercontent.com/u/6320724?v=4"
+    "name": "driftscan",
+    "full_name": "radiocosmology/driftscan",
+    "html_url": "https://github.com/radiocosmology/driftscan",
+    "description": "Data analysis of transit radio interferometers, particularly for 21cm cosmology.",
+    "created_at": "2011-08-22T21:24:24Z",
+    "updated_at": "2023-02-27T15:14:51Z",
+    "clone_url": "https://github.com/radiocosmology/driftscan.git",
+    "size": 4618,
+    "stargazers_count": 14,
+    "watchers_count": 14,
+    "language": "Python",
+    "open_issues_count": 19,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 24,
+    "owner": {
+      "html_url": "https://github.com/radiocosmology",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6320724?v=4",
+      "login": "radiocosmology",
+      "type": "Organization"
+    },
+    "timestamp": "2023-09-03 00:32:32.916191",
+    "avatar": "https://avatars.githubusercontent.com/u/6320724?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"$ pip install git+ssh://git@github.com/radiocosmology/driftscan\"",
+        "\"This is a Python project for simulating and analysing transit radio telescopes, with a particular focus on 21 cm cosmology.\"",
+        "\"Install this package with `pip`.  Either directly from GitHub: $ pip install git+ssh://git@github.com/radiocosmology/driftscan or else from a local copy: $ pip install [-e] .\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T02:03:22Z"
     }
+  },
+  "openssf_scorecard": {
+    "data": {
+      "date": "2026-01-23T13:38:25-05:00",
+      "repo": {
+        "name": "github.com/radiocosmology/driftscan",
+        "commit": "56217e171fce62b54331aa8079742412851e6e7c"
+      },
+      "scorecard": {
+        "version": "v5.4.0",
+        "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+      },
+      "score": 4.6,
+      "checks": [
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no binaries found in the repo",
+          "name": "Binary-Artifacts",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#binary-artifacts",
+            "short": "Determines if the project has generated executable (binary) artifacts in the source repository."
+          }
+        },
+        {
+          "details": null,
+          "score": 6,
+          "reason": "branch protection is not maximal on development and all release branches",
+          "name": "Branch-Protection",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#branch-protection",
+            "short": "Determines if the default and release branches are protected with GitHub's branch protection settings."
+          }
+        },
+        {
+          "details": null,
+          "score": 3,
+          "reason": "4 out of 13 merged PRs checked by a CI test -- score normalized to 3",
+          "name": "CI-Tests",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#ci-tests",
+            "short": "Determines if the project runs tests before pull requests are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no effort to earn an OpenSSF best practices badge detected",
+          "name": "CII-Best-Practices",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#cii-best-practices",
+            "short": "Determines if the project has an OpenSSF (formerly CII) Best Practices Badge."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "all changesets reviewed",
+          "name": "Code-Review",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#code-review",
+            "short": "Determines if the project requires human code review before pull requests (aka merge requests) are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "project has 4 contributing companies or organizations",
+          "name": "Contributors",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#contributors",
+            "short": "Determines if the project has a set of contributors from multiple organizations (e.g., companies)."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no dangerous workflow patterns detected",
+          "name": "Dangerous-Workflow",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dangerous-workflow",
+            "short": "Determines if the project's GitHub Action workflows avoid dangerous patterns."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no update tool detected",
+          "name": "Dependency-Update-Tool",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dependency-update-tool",
+            "short": "Determines if the project uses a dependency update tool."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "project is not fuzzed",
+          "name": "Fuzzing",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#fuzzing",
+            "short": "Determines if the project uses fuzzing."
+          }
+        },
+        {
+          "details": null,
+          "score": 9,
+          "reason": "license file detected",
+          "name": "License",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#license",
+            "short": "Determines if the project has defined a license."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0",
+          "name": "Maintained",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#maintained",
+            "short": "Determines if the project is \"actively maintained\"."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "packaging workflow not detected",
+          "name": "Packaging",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#packaging",
+            "short": "Determines if the project is published as a package that others can easily download, install, easily update, and uninstall."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "dependency not pinned by hash detected -- score normalized to 0",
+          "name": "Pinned-Dependencies",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#pinned-dependencies",
+            "short": "Determines if the project has declared and pinned the dependencies of its build process."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "SAST tool is not run on all commits -- score normalized to 0",
+          "name": "SAST",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#sast",
+            "short": "Determines if the project uses static code analysis."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "security policy file not detected",
+          "name": "Security-Policy",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#security-policy",
+            "short": "Determines if the project has published a security policy."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no releases found",
+          "name": "Signed-Releases",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#signed-releases",
+            "short": "Determines if the project cryptographically signs release artifacts."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "detected GitHub workflow tokens with excessive permissions",
+          "name": "Token-Permissions",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#token-permissions",
+            "short": "Determines if the project's workflows follow the principle of least privilege."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "0 existing vulnerabilities detected",
+          "name": "Vulnerabilities",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#vulnerabilities",
+            "short": "Determines if the project has open, known unfixed vulnerabilities."
+          }
+        }
+      ],
+      "metadata": null
+    },
+    "timestamp_utc": "2026-01-23T18:38:39Z"
+  }
 }

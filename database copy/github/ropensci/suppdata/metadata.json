@@ -1,0 +1,64 @@
+{
+  "parser": "github",
+  "uid": "github/ropensci/suppdata",
+  "url": "https://github.com/ropensci/suppdata",
+  "data": {
+    "timestamp": "2022-01-27 10:11:35.130092",
+    "name": "suppdata",
+    "url": "https://api.github.com/repos/ropensci/suppdata",
+    "full_name": "ropensci/suppdata",
+    "html_url": "https://github.com/ropensci/suppdata",
+    "private": false,
+    "description": "Grabbing SUPPlementary DATA in R",
+    "created_at": "2015-07-05T19:46:57Z",
+    "updated_at": "2021-12-07T05:30:05Z",
+    "clone_url": "https://github.com/ropensci/suppdata.git",
+    "homepage": "https://docs.ropensci.org/suppdata",
+    "size": 291,
+    "stargazers_count": 30,
+    "watchers_count": 30,
+    "language": "R",
+    "open_issues_count": 9,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "owner": {
+      "html_url": "https://github.com/ropensci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1200269?v=4",
+      "login": "ropensci",
+      "type": "Organization"
+    },
+    "topics": [
+      "r",
+      "rstats",
+      "r-package",
+      "peer-reviewed",
+      "data-access"
+    ]
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"suppdata\")\"",
+        "\"The aim of this package is to aid downloading data from published papers.\"",
+        "\"The version on CRAN is the most stable version. You can install and load it like this: install.packages(\"suppdata\")\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T02:39:03Z"
+    }
+  }
+}

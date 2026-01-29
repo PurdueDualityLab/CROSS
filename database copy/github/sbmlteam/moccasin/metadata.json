@@ -1,0 +1,69 @@
+{
+  "parser": "github",
+  "uid": "github/sbmlteam/moccasin",
+  "url": "https://github.com/sbmlteam/moccasin",
+  "data": {
+    "name": "moccasin",
+    "url": "https://github.com/sbmlteam/moccasin",
+    "full_name": "sbmlteam/moccasin",
+    "html_url": "https://github.com/sbmlteam/moccasin",
+    "private": false,
+    "description": "MOCCASIN translates basic ODE-based MATLAB models of biological processes into SBML format.",
+    "created_at": "2014-05-05T22:52:05Z",
+    "updated_at": "2025-02-11T20:56:18Z",
+    "clone_url": "https://github.com/sbmlteam/moccasin.git",
+    "homepage": "http://sbml.org/Software/MOCCASIN",
+    "size": 64420,
+    "stargazers_count": 12,
+    "watchers_count": 12,
+    "language": "Python",
+    "open_issues_count": 26,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 7,
+    "owner": {
+      "html_url": "https://github.com/sbmlteam",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1799692?v=4",
+      "login": "sbmlteam",
+      "type": "Organization"
+    },
+    "topics": [
+      "matlab",
+      "sbml",
+      "conversion",
+      "python",
+      "systems-biology",
+      "differential-equations",
+      "ode",
+      "ode-model"
+    ],
+    "timestamp": "2025-07-13 01:01:07.023702",
+    "avatar": "https://avatars.githubusercontent.com/u/1799692?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"sudo python3 -m pip install git+https://github.com/sbmlteam/moccasin.git\"",
+        "\"MOCCASIN is designed to convert certain basic forms of ODE simulation models written in MATLAB or Octave and translate them into SBML format. It thereby enables researchers to convert MATLAB models into an open and widely-used format in systems biology.\"",
+        "\"As of version 1.3, MOCCASIN is distributed as a standalone self-contained program.\" and the OS-specific table with .pkg, .tar.gz, and .exe installers."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T03:19:32Z"
+    }
+  }
+}

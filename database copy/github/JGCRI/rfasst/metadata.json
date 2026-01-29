@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/JGCRI/rfasst",
+  "url": "https://github.com/JGCRI/rfasst",
+  "data": {
+    "timestamp": "2022-01-30 00:37:02.661787",
+    "name": "rfasst",
+    "url": "https://api.github.com/repos/JGCRI/rfasst",
+    "full_name": "JGCRI/rfasst",
+    "html_url": "https://github.com/JGCRI/rfasst",
+    "private": false,
+    "description": "Estimation of a consistent range of adverse health and agricultural effects attributable to air pollution for a GCAM scenario",
+    "created_at": "2021-03-05T20:19:28Z",
+    "updated_at": "2021-12-22T15:33:17Z",
+    "clone_url": "https://github.com/JGCRI/rfasst.git",
+    "homepage": "https://jgcri.github.io/rfasst/",
+    "size": 50073,
+    "stargazers_count": 5,
+    "watchers_count": 5,
+    "language": "R",
+    "open_issues_count": 0,
+    "license": {
+      "key": "bsd-2-clause",
+      "name": "BSD 2-Clause \"Simplified\" License",
+      "spdx_id": "BSD-2-Clause",
+      "url": "https://api.github.com/licenses/bsd-2-clause",
+      "node_id": "MDc6TGljZW5zZTQ="
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/JGCRI",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8431983?v=4",
+      "login": "JGCRI",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "doi": "https://doi.org/10.5281/zenodo.5838361",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"devtools\")\"",
+        "\"`rfasst` reports a consistent range of adverse health and agricultural effects attributable to air pollution for any scenario run by the Global Change Analysis Model (GCAM)\"",
+        "\"Sampedro, J., Khan, Z., Vernon, C.R., Smith, S.J., Waldhoff, S. and Van Dingenen, R., 2022. rfasst: An R tool to estimate air pollution impacts on health and agriculture.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T18:02:57Z"
+    }
+  }
+}

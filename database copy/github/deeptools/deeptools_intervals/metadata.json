@@ -1,0 +1,64 @@
+{
+  "parser": "github",
+  "uid": "github/deeptools/deeptools_intervals",
+  "url": "https://github.com/deeptools/deeptools_intervals",
+  "data": {
+    "url": "https://github.com/deeptools/deeptools_intervals",
+    "title": "Python3-deeptoolsintervals",
+    "description": "A python library for constructing interval trees with associated exon/annotation information",
+    "name": "deeptools_intervals",
+    "full_name": "deeptools/deeptools_intervals",
+    "html_url": "https://github.com/deeptools/deeptools_intervals",
+    "created_at": "2016-03-09T17:01:03Z",
+    "updated_at": "2022-04-26T06:33:19Z",
+    "clone_url": "https://github.com/deeptools/deeptools_intervals.git",
+    "size": 266,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "C",
+    "open_issues_count": 2,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/deeptools",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6528975?v=4",
+      "login": "deeptools",
+      "type": "Organization"
+    },
+    "topics": [
+      "bioinformatics",
+      "interval-tree",
+      "gtf",
+      "bed"
+    ],
+    "timestamp": "2022-07-20 17:27:57.037683",
+    "avatar": "https://avatars.githubusercontent.com/u/6528975?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "\"Consequently, I'm just working on a (A) a python front-end for that and (B) some modifications specific to deepTools\" (indicates this is a component used by the deepTools application, i.e., a dependency).",
+        "\"The only class contained here is `GTF` and it only has only one function that should ever be used, `findOverlaps`.\" and multiple examples like `from deeptoolsintervals import GTF` / `from deeptoolsintervals import Enrichment` show it is imported as a Python package, not run as a standalone app.",
+        "The project name and import style (`from deeptoolsintervals import ...`) match a typical PyPI-distributed Python package; deepTools and its subpackages are commonly distributed via PyPI, implying a package registry distribution path."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T23:30:19Z"
+    }
+  }
+}

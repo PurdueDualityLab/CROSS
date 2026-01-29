@@ -1,0 +1,66 @@
+{
+  "parser": "github",
+  "uid": "github/CM2S/piglot",
+  "url": "https://github.com/CM2S/piglot",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.12796554",
+    "name": "piglot",
+    "url": "https://github.com/CM2S/piglot",
+    "full_name": "CM2S/piglot",
+    "html_url": "https://github.com/CM2S/piglot",
+    "description": "A package for the optimisation of numerical responses",
+    "created_at": "2022-03-15T16:13:22Z",
+    "updated_at": "2024-07-23T20:40:17Z",
+    "clone_url": "https://github.com/CM2S/piglot.git",
+    "homepage": "https://piglot.readthedocs.io",
+    "size": 4319,
+    "stargazers_count": 11,
+    "watchers_count": 11,
+    "language": "Python",
+    "open_issues_count": 1,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/CM2S",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25201360?v=4",
+      "login": "CM2S",
+      "type": "Organization"
+    },
+    "topics": [
+      "python",
+      "parameter-identification",
+      "optimisation",
+      "bayesian-optimization",
+      "physics-solvers"
+    ],
+    "timestamp": "2024-07-28 00:40:57.600713",
+    "avatar": "https://avatars.githubusercontent.com/u/25201360?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "\"Welcome to `piglot`, a Python tool taylored for the automated optimisation of responses from numerical solvers.\"",
+        "\"We aim to provide a simple and user-friendly interface that is also easily extendable, allowing integration with other solvers within the community.\" and usage via `piglot` and `piglot-plot` command-line tools indicates an end-user application for optimisation workflows.",
+        "\"You can install `piglot` ... 1. In your favourite terminal, run: `pip install piglot`;\" and the PyPI badge `[![PyPI - Version](https://img.shields.io/pypi/v/piglot)](https://pypi.org/project/piglot/)` indicating distribution via PyPI."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T16:49:29Z"
+    }
+  }
+}

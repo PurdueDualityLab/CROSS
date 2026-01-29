@@ -1,0 +1,55 @@
+{
+  "parser": "github",
+  "uid": "github/awmann/M_-M_K-",
+  "url": "https://github.com/awmann/M_-M_K-",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2021PSJ.....2....1A",
+      "https://ui.adsabs.harvard.edu/abs/2019ApJ...871...63M",
+      "https://ui.adsabs.harvard.edu/abs/2025ascl.soft06014M/abstract"
+    ],
+    "title": "M_-M_K-: Estimate masses and uncertainties from M_Ks (2MASS Ks + distance)",
+    "url": "https://github.com/awmann/M_-M_K-",
+    "name": "M_-M_K-",
+    "full_name": "awmann/M_-M_K-",
+    "html_url": "https://github.com/awmann/M_-M_K-",
+    "description": "Code for estimating realistic masses and uncertainties from M_Ks (2MASS Ks + distance)",
+    "created_at": "2018-04-14T01:11:39Z",
+    "updated_at": "2025-04-14T22:17:21Z",
+    "clone_url": "https://github.com/awmann/M_-M_K-.git",
+    "size": 441246,
+    "stargazers_count": 8,
+    "watchers_count": 8,
+    "language": "IDL",
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/awmann",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6567968?v=4",
+      "login": "awmann",
+      "type": "User"
+    },
+    "timestamp": "2025-07-13 01:00:11.158981",
+    "avatar": "https://avatars.githubusercontent.com/u/6567968?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"You can also download the input data used to derive this relation (orbits, distances, masses, etc.) from the [ancillary folder on arXiv](https://arxiv.org/src/1811.06938v2/anc) or in the [full version\"",
+        "\"This code is meant to provide realistic masses and uncertainties of (single) low-mass stars given a user-provided 2MASS Ks and distance (and uncertainties).\"",
+        "\"How to run: Maybe you want to know the mass of GJ1214 (python syntax): ... from mk_mass import posterior\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T21:53:40Z"
+    }
+  }
+}

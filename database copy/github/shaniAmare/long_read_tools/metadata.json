@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/shaniAmare/long_read_tools",
+  "url": "https://github.com/shaniAmare/long_read_tools",
+  "data": {
+    "timestamp": "2020-10-25 00:29:01.686659",
+    "name": "long_read_tools",
+    "url": "https://api.github.com/repos/shaniAmare/long_read_tools",
+    "full_name": "shaniAmare/long_read_tools",
+    "html_url": "https://github.com/shaniAmare/long_read_tools",
+    "private": false,
+    "description": "A catalogue of available long read sequencing data analysis tools",
+    "created_at": "2018-11-12T03:17:47Z",
+    "updated_at": "2020-10-22T06:11:41Z",
+    "clone_url": "https://github.com/shaniAmare/long_read_tools.git",
+    "homepage": "https://long-read-tools.org/",
+    "size": 19247,
+    "stargazers_count": 15,
+    "watchers_count": 15,
+    "language": "JavaScript",
+    "open_issues_count": 6,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/shaniAmare",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/43805905?v=4",
+      "login": "shaniAmare",
+      "type": "User"
+    },
+    "topics": []
+  },
+  "doi": "10.1186/s13059-020-1935-5",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"make it into the database software must be available for download and public use\"",
+        "\"A database of software tools for the analysis of long read sequencing data... To view the database head to https://www.long-read-tools.org.\"",
+        "\"This database is designed to be an overview of the currently available long read analysis software\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T03:24:10Z"
+    }
+  }
+}

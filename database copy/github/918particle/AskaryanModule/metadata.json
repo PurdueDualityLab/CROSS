@@ -1,0 +1,53 @@
+{
+  "parser": "github",
+  "uid": "github/918particle/AskaryanModule",
+  "url": "https://github.com/918particle/AskaryanModule",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2017APh....91...75H",
+      "https://ui.adsabs.harvard.edu/abs/2016ascl.soft09020H/abstract"
+    ],
+    "title": "Askaryan Module: Askaryan electric fields predictor",
+    "url": "https://github.com/918particle/AskaryanModule",
+    "name": "AskaryanModule",
+    "full_name": "918particle/AskaryanModule",
+    "html_url": "https://github.com/918particle/AskaryanModule",
+    "created_at": "2016-04-26T14:16:33Z",
+    "updated_at": "2020-05-19T23:29:24Z",
+    "clone_url": "https://github.com/918particle/AskaryanModule.git",
+    "size": 14763,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "C++",
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/918particle",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15349365?v=4",
+      "login": "918particle",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:21:16.926106",
+    "avatar": "https://avatars.githubusercontent.com/u/15349365?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Unknown",
+      "research_role": "Unknown",
+      "distribution_pathway": "Unknown",
+      "distribution_details": null,
+      "evidence": [
+        "README only contains the project title: 'AskaryanModule' with no further description of purpose or usage.",
+        "Owner metadata indicates a personal user account: owner_type: User, owner_login: 918particle.",
+        "No installation, usage, or distribution instructions are provided in the README, so role and pathway cannot be determined."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T16:19:07Z"
+    }
+  }
+}

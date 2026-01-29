@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/cwru-pat/cosmograph",
+  "url": "https://github.com/cwru-pat/cosmograph",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2019CQGra..36s5009G",
+      "https://ui.adsabs.harvard.edu/abs/2020ascl.soft07023M/abstract"
+    ],
+    "title": "CosmoGRaPH: Cosmological General Relativity and (Perfect fluid | Particle) Hydrodynamics",
+    "url": "https://github.com/cwru-pat/cosmograph",
+    "name": "cosmograph",
+    "full_name": "cwru-pat/cosmograph",
+    "html_url": "https://github.com/cwru-pat/cosmograph",
+    "description": "COSMOlogical General Relativity And (Perfect fluid | Particle) Hydrodynamics",
+    "created_at": "2014-06-04T14:31:45Z",
+    "updated_at": "2020-10-23T12:06:07Z",
+    "clone_url": "https://github.com/cwru-pat/cosmograph.git",
+    "size": 19350,
+    "stargazers_count": 8,
+    "watchers_count": 8,
+    "language": "C++",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 11,
+    "owner": {
+      "html_url": "https://github.com/cwru-pat",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10934368?v=4",
+      "login": "cwru-pat",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-17 17:14:07.043931",
+    "avatar": "https://avatars.githubusercontent.com/u/10934368?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "“Cosmological General Relativity And (Perfect fluid | Particle) Hydrodynamics Code” – domain-specific simulation code, indicating an application used to run cosmological simulations.",
+        "“The generated executable should accept a single configuration file as a parameter… in order to run a 'test' simulation of a pure-dust universe” – users run an executable to perform simulations, i.e., application software directly used for research.",
+        "“1) Clone the code: `git clone https://github.com/cwru-pat/cosmograph`” – distribution is via cloning the source repository and building from source."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T23:13:49Z"
+    }
+  }
+}

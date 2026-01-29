@@ -1,0 +1,57 @@
+{
+  "parser": "github",
+  "uid": "github/ropensci/rusda",
+  "url": "https://github.com/ropensci/rusda",
+  "data": {
+    "timestamp": "2022-01-27 10:11:35.130779",
+    "name": "rusda",
+    "url": "https://api.github.com/repos/ropensci/rusda",
+    "full_name": "ropensci/rusda",
+    "html_url": "https://github.com/ropensci/rusda",
+    "private": false,
+    "description": "Interface to USDA Databases",
+    "created_at": "2015-08-01T09:07:41Z",
+    "updated_at": "2021-07-16T15:30:50Z",
+    "clone_url": "https://github.com/ropensci/rusda.git",
+    "homepage": "https://docs.ropensci.org/rusda",
+    "size": 112,
+    "stargazers_count": 12,
+    "watchers_count": 12,
+    "language": "R",
+    "open_issues_count": 7,
+    "license": null,
+    "owner": {
+      "html_url": "https://github.com/ropensci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1200269?v=4",
+      "login": "ropensci",
+      "type": "Organization"
+    },
+    "topics": [
+      "r",
+      "rstats",
+      "r-package",
+      "data-access"
+    ]
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"rusda\")\"",
+        "\"An interface to the web service methods provided by the United States Department of Agriculture (USDA)... It provides functions for querying these databases. The main function is `associations()`\"",
+        "\"Get rusda\n\nFrom CRAN (not on CRAN yet)\n\n```r\ninstall.packages(\"rusda\")\n```\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T02:37:57Z"
+    }
+  }
+}

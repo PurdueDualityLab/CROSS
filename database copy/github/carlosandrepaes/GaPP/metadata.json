@@ -1,0 +1,55 @@
+{
+  "parser": "github",
+  "uid": "github/carlosandrepaes/GaPP",
+  "url": "https://github.com/carlosandrepaes/GaPP",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2012JCAP...06..036S",
+      "https://ui.adsabs.harvard.edu/abs/2013ascl.soft03027S/abstract"
+    ],
+    "title": "GaPP: Gaussian Processes in Python",
+    "url": "https://github.com/carlosandrepaes/GaPP",
+    "name": "GaPP",
+    "full_name": "carlosandrepaes/GaPP",
+    "html_url": "https://github.com/carlosandrepaes/GaPP",
+    "description": "Gaussian Processes GaPP code auxiliary repository  ",
+    "created_at": "2020-07-01T21:14:36Z",
+    "updated_at": "2021-08-09T09:32:37Z",
+    "clone_url": "https://github.com/carlosandrepaes/GaPP.git",
+    "size": 497,
+    "stargazers_count": 10,
+    "watchers_count": 10,
+    "language": "Python",
+    "open_issues_count": 2,
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/carlosandrepaes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9978975?v=4",
+      "login": "carlosandrepaes",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:24:23.069191",
+    "avatar": "https://avatars.githubusercontent.com/u/9978975?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This Gaussian Processes GaPP code auxiliary repository, replacing the original link...\"",
+        "\"The GaPP code can be used on any dataset to reconstruct a function. It handles individual error bars on the data and can be used to determine the derivatives of the reconstructed function.\"",
+        "\"After downloading and unziping the GaPP file, GaPP can be set up following the documentation in the same folder.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T22:49:53Z"
+    }
+  }
+}

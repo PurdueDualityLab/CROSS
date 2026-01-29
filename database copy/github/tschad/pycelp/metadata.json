@@ -1,0 +1,63 @@
+{
+  "parser": "github",
+  "uid": "github/tschad/pycelp",
+  "url": "https://github.com/tschad/pycelp",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2021SoPh..296..166S",
+      "https://ui.adsabs.harvard.edu/abs/2021ascl.soft12001S/abstract"
+    ],
+    "title": "pycelp: Python package for Coronal Emission Line Polarization",
+    "url": "https://github.com/tschad/pycelp",
+    "name": "pycelp",
+    "full_name": "tschad/pycelp",
+    "html_url": "https://github.com/tschad/pycelp",
+    "description": "a Python package for Coronal Emission Line Polarization ",
+    "created_at": "2021-06-02T19:43:39Z",
+    "updated_at": "2022-06-03T21:42:59Z",
+    "clone_url": "https://github.com/tschad/pycelp.git",
+    "homepage": "https://tschad.github.io/pycelp/",
+    "size": 7289,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "Python",
+    "open_issues_count": 3,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/tschad",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13107102?v=4",
+      "login": "tschad",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 16:49:51.050349",
+    "avatar": "https://avatars.githubusercontent.com/u/13107102?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "conda",
+      "evidence": [
+        "README install command: \"$ conda install python numpy scipy numba matplotlib\"",
+        "\"pyCELP (aka \\\"pi-KELP\\\"): a **py**thon package for **C**oronal **E**mission **L**ine **P**olarization calculations.\"",
+        "\"Below is a minimal example of using the pycelp code from a python terminal... >>> import pycelp >>> fe13 = pycelp.Ion('fe_13',nlevels = 50)\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:30:48Z"
+    }
+  }
+}

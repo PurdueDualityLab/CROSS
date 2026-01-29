@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/rvaser/bioparser",
+  "url": "https://github.com/rvaser/bioparser",
+  "data": {
+    "url": "https://github.com/rvaser/bioparser",
+    "title": "Libbioparser-dev",
+    "description": "C++ library for parsing several formats in bioinformatics",
+    "name": "bioparser",
+    "full_name": "rvaser/bioparser",
+    "html_url": "https://github.com/rvaser/bioparser",
+    "created_at": "2016-06-17T08:59:17Z",
+    "updated_at": "2022-04-02T22:55:08Z",
+    "clone_url": "https://github.com/rvaser/bioparser.git",
+    "size": 1078,
+    "stargazers_count": 8,
+    "watchers_count": 8,
+    "language": "C++",
+    "open_issues_count": 2,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/rvaser",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6094359?v=4",
+      "login": "rvaser",
+      "type": "User"
+    },
+    "timestamp": "2022-07-20 17:28:52.808331",
+    "avatar": "https://avatars.githubusercontent.com/u/6094359?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Bioparser is a c++ header only parsing library for several bioinformatics formats (FASTA/Q, MHAP/PAF/SAM)\" (a library intended to be included by other software).",
+        "Usage examples show inclusion via headers and templates, e.g. `#include \"bioparser/fasta_parser.hpp\"` and constructing parsers in user code, indicating it is a dependency library.",
+        "Installation/build instructions are via cloning and building the GitHub repository: `git clone https://github.com/rvaser/bioparser && cd bioparser` followed by CMake or Meson, with no mention of package managers or binaries."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T03:14:34Z"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "parser": "github",
+  "uid": "github/ptiede/Comrade.jl",
+  "url": "https://github.com/ptiede/Comrade.jl",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.6977819",
+    "name": "Comrade.jl",
+    "url": "https://github.com/ptiede/Comrade.jl",
+    "full_name": "ptiede/Comrade.jl",
+    "html_url": "https://github.com/ptiede/Comrade.jl",
+    "created_at": "2020-12-11T15:19:57Z",
+    "updated_at": "2022-07-28T05:24:07Z",
+    "clone_url": "https://github.com/ptiede/Comrade.jl.git",
+    "size": 6991,
+    "stargazers_count": 14,
+    "watchers_count": 14,
+    "language": "Julia",
+    "open_issues_count": 8,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/ptiede",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5565461?v=4",
+      "login": "ptiede",
+      "type": "User"
+    },
+    "timestamp": "2022-08-21 00:38:38.821153",
+    "avatar": "https://avatars.githubusercontent.com/u/5565461?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "Julia General registry (via Julia Pkg `add`)",
+      "evidence": [
+        "\"Composable Modeling of Radio Emission\" (domain-specific modeling tool, not generic infrastructure).",
+        "\"To install Comrade.jl you must use Julia's package manager... Once in pkg mode, type `add Comrade`\" (indicates it is a Julia package consumed as a dependency via the registry).",
+        "Owner metadata: owner_type=User, owner_login=ptiede (suggests an individual maintainer rather than an institution or foundation)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T01:57:40Z"
+    }
+  }
+}

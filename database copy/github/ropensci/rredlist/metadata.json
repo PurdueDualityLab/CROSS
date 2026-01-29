@@ -1,0 +1,75 @@
+{
+  "parser": "github",
+  "uid": "github/ropensci/rredlist",
+  "url": "https://github.com/ropensci/rredlist",
+  "data": {
+    "timestamp": "2022-01-27 10:11:35.135213",
+    "name": "rredlist",
+    "url": "https://api.github.com/repos/ropensci/rredlist",
+    "full_name": "ropensci/rredlist",
+    "html_url": "https://github.com/ropensci/rredlist",
+    "private": false,
+    "description": "IUCN Red List API Client",
+    "created_at": "2016-01-22T23:11:17Z",
+    "updated_at": "2022-01-01T04:48:04Z",
+    "clone_url": "https://github.com/ropensci/rredlist.git",
+    "homepage": "https://docs.ropensci.org/rredlist",
+    "size": 1694,
+    "stargazers_count": 31,
+    "watchers_count": 31,
+    "language": "R",
+    "open_issues_count": 4,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "owner": {
+      "html_url": "https://github.com/ropensci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1200269?v=4",
+      "login": "ropensci",
+      "type": "Organization"
+    },
+    "topics": [
+      "conservation",
+      "api-wrapper",
+      "biodiversity",
+      "rstats",
+      "iucn-red-list",
+      "iucn",
+      "r",
+      "r-package",
+      "taxize",
+      "API",
+      "habitat",
+      "IUCN",
+      "species",
+      "traits",
+      "web-services",
+      "data-access"
+    ]
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"rredlist\")\"",
+        "\"`rredlist` is an R client for the IUCN Red List API\" (an R package intended to be used via functions, i.e., as a library/dependency).",
+        "Example usage shows `library(\"rredlist\")` and calling functions like `rl_species()` and `rl_actions()`, indicating it is used within R analyses to obtain research-relevant data (directly supporting research outputs)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T02:37:20Z"
+    }
+  }
+}

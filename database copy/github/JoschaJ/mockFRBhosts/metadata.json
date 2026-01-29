@@ -1,0 +1,51 @@
+{
+  "parser": "github",
+  "uid": "github/JoschaJ/mockFRBhosts",
+  "url": "https://github.com/JoschaJ/mockFRBhosts",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2023arXiv230600084J",
+      "https://ui.adsabs.harvard.edu/abs/2023ascl.soft06020J/abstract"
+    ],
+    "title": "mockFRBhosts: Limiting the visibility and follow-up of FRB host galaxies",
+    "url": "https://github.com/JoschaJ/mockFRBhosts",
+    "name": "mockFRBhosts",
+    "full_name": "JoschaJ/mockFRBhosts",
+    "html_url": "https://github.com/JoschaJ/mockFRBhosts",
+    "created_at": "2021-01-11T09:19:34Z",
+    "updated_at": "2023-05-22T12:18:44Z",
+    "clone_url": "https://github.com/JoschaJ/mockFRBhosts.git",
+    "size": 35158,
+    "language": "Jupyter Notebook",
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/JoschaJ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49990506?v=4",
+      "login": "JoschaJ",
+      "type": "User"
+    },
+    "timestamp": "2023-07-02 00:56:13.058158",
+    "avatar": "https://avatars.githubusercontent.com/u/49990506?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install .\"",
+        "\"The goal of `mockFRBhosts` is to understand how limiting the visibility and follow-up of FRB host galaxies is for their cosmological and astrophysical applications.\"",
+        "\"The package provides a function that uses `frbpoppy` to generate a population of FRBs for a given radio telescope.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T18:06:49Z"
+    }
+  }
+}

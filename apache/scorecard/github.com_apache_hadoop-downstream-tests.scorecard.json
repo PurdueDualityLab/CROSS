@@ -1,0 +1,28 @@
+{
+  "repo": "https://github.com/apache/hadoop-downstream-tests",
+  "timestamp_utc": "2026-01-24T02:02:34Z",
+  "repo_metadata": {
+    "name": "hadoop-downstream-tests",
+    "full_name": "apache/hadoop-downstream-tests",
+    "html_url": "https://github.com/apache/hadoop-downstream-tests",
+    "description": "Mirror of Apache Hadoop Downstream Tests",
+    "default_branch": "master",
+    "archived": false,
+    "fork": false,
+    "stargazers_count": 1
+  },
+  "data": {
+    "date": "2026-01-23T21:02:34-05:00",
+    "repo": {
+      "name": "github.com/apache/hadoop-downstream-tests",
+      "commit": "HEAD"
+    },
+    "scorecard": {
+      "version": "v5.4.0",
+      "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+    },
+    "score": -1.0,
+    "checks": null,
+    "metadata": null
+  }
+}

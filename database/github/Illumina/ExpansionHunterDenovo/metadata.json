@@ -1,40 +1,259 @@
 {
-    "parser": "github",
-    "uid": "github/Illumina/ExpansionHunterDenovo",
-    "url": null,
-    "data": {
-        "title": "ExpansionHunter Denovo",
-        "url": "https://github.com/Illumina/ExpansionHunterDenovo",
-        "credit": [],
-        "tags": [
-            "high-throughput-sequencing"
-        ],
-        "description": "(EHdn) is a suite of tools for detecting novel expansions of short tandem repeats (STRs).",
-        "name": "ExpansionHunterDenovo",
-        "full_name": "Illumina/ExpansionHunterDenovo",
-        "html_url": "https://github.com/Illumina/ExpansionHunterDenovo",
-        "created_at": "2019-08-22T22:02:44Z",
-        "updated_at": "2022-04-02T19:37:18Z",
-        "clone_url": "https://github.com/Illumina/ExpansionHunterDenovo.git",
-        "size": 4053,
-        "stargazers_count": 50,
-        "watchers_count": 50,
-        "language": "C++",
-        "open_issues_count": 25,
-        "license": {
-            "key": "apache-2.0",
-            "name": "Apache License 2.0",
-            "spdx_id": "Apache-2.0",
-            "url": "https://api.github.com/licenses/apache-2.0",
-            "node_id": "MDc6TGljZW5zZTI="
-        },
-        "subscribers_count": 16,
-        "owner": {
-            "html_url": "https://github.com/Illumina",
-            "avatar_url": "https://avatars.githubusercontent.com/u/11462464?v=4",
-            "login": "Illumina",
-            "type": "Organization"
-        },
-        "timestamp": "2022-07-18 17:43:40.568418"
+  "parser": "github",
+  "uid": "github/Illumina/ExpansionHunterDenovo",
+  "url": null,
+  "data": {
+    "title": "ExpansionHunter Denovo",
+    "url": "https://github.com/Illumina/ExpansionHunterDenovo",
+    "credit": [],
+    "tags": [
+      "high-throughput-sequencing"
+    ],
+    "description": "(EHdn) is a suite of tools for detecting novel expansions of short tandem repeats (STRs).",
+    "name": "ExpansionHunterDenovo",
+    "full_name": "Illumina/ExpansionHunterDenovo",
+    "html_url": "https://github.com/Illumina/ExpansionHunterDenovo",
+    "created_at": "2019-08-22T22:02:44Z",
+    "updated_at": "2022-04-02T19:37:18Z",
+    "clone_url": "https://github.com/Illumina/ExpansionHunterDenovo.git",
+    "size": 4053,
+    "stargazers_count": 50,
+    "watchers_count": 50,
+    "language": "C++",
+    "open_issues_count": 25,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "subscribers_count": 16,
+    "owner": {
+      "html_url": "https://github.com/Illumina",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11462464?v=4",
+      "login": "Illumina",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-18 17:43:40.568418"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Vendor or commercial entity",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"ExpansionHunter Denovo (EHdn) is a suite of tools for detecting novel expansions of short tandem repeats (STRs). EHdn is intended for analysis of a collection of BAM/CRAM files\" (end-user analysis tool).",
+        "\"As shown in the figure above, the analysis workflow consists of two steps. During the first step, genome-wide STR profiles are extracted... The second step involves comparing STR profiles to each other.\" (directly performs genomic analysis used in research).",
+        "\"See documentation/00_Introduction.md for installation instructions, usage guide, and description of file formats.\" (only source and docs mentioned; no package manager, containers, or binaries referenced)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T17:49:55Z"
     }
+  },
+  "openssf_scorecard": {
+    "data": {
+      "date": "2026-01-23T08:11:32-05:00",
+      "repo": {
+        "name": "github.com/Illumina/ExpansionHunterDenovo",
+        "commit": "38d3b9754d6a4f99f0766dc021572fa1c812dc0a"
+      },
+      "scorecard": {
+        "version": "v5.4.0",
+        "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+      },
+      "score": 1.6,
+      "checks": [
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no binaries found in the repo",
+          "name": "Binary-Artifacts",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#binary-artifacts",
+            "short": "Determines if the project has generated executable (binary) artifacts in the source repository."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "branch protection not enabled on development/release branches",
+          "name": "Branch-Protection",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#branch-protection",
+            "short": "Determines if the default and release branches are protected with GitHub's branch protection settings."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "0 out of 17 merged PRs checked by a CI test -- score normalized to 0",
+          "name": "CI-Tests",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#ci-tests",
+            "short": "Determines if the project runs tests before pull requests are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no effort to earn an OpenSSF best practices badge detected",
+          "name": "CII-Best-Practices",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#cii-best-practices",
+            "short": "Determines if the project has an OpenSSF (formerly CII) Best Practices Badge."
+          }
+        },
+        {
+          "details": null,
+          "score": 1,
+          "reason": "Found 4/30 approved changesets -- score normalized to 1",
+          "name": "Code-Review",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#code-review",
+            "short": "Determines if the project requires human code review before pull requests (aka merge requests) are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 3,
+          "reason": "project has 1 contributing companies or organizations -- score normalized to 3",
+          "name": "Contributors",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#contributors",
+            "short": "Determines if the project has a set of contributors from multiple organizations (e.g., companies)."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no workflows found",
+          "name": "Dangerous-Workflow",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dangerous-workflow",
+            "short": "Determines if the project's GitHub Action workflows avoid dangerous patterns."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no update tool detected",
+          "name": "Dependency-Update-Tool",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dependency-update-tool",
+            "short": "Determines if the project uses a dependency update tool."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "project is not fuzzed",
+          "name": "Fuzzing",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#fuzzing",
+            "short": "Determines if the project uses fuzzing."
+          }
+        },
+        {
+          "details": null,
+          "score": 9,
+          "reason": "license file detected",
+          "name": "License",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#license",
+            "short": "Determines if the project has defined a license."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0",
+          "name": "Maintained",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#maintained",
+            "short": "Determines if the project is \"actively maintained\"."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "packaging workflow not detected",
+          "name": "Packaging",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#packaging",
+            "short": "Determines if the project is published as a package that others can easily download, install, easily update, and uninstall."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "dependency not pinned by hash detected -- score normalized to 0",
+          "name": "Pinned-Dependencies",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#pinned-dependencies",
+            "short": "Determines if the project has declared and pinned the dependencies of its build process."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "SAST tool is not run on all commits -- score normalized to 0",
+          "name": "SAST",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#sast",
+            "short": "Determines if the project uses static code analysis."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "security policy file not detected",
+          "name": "Security-Policy",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#security-policy",
+            "short": "Determines if the project has published a security policy."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "Project has not signed or included provenance with any releases.",
+          "name": "Signed-Releases",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#signed-releases",
+            "short": "Determines if the project cryptographically signs release artifacts."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "No tokens found",
+          "name": "Token-Permissions",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#token-permissions",
+            "short": "Determines if the project's workflows follow the principle of least privilege."
+          }
+        },
+        {
+          "details": null,
+          "score": 3,
+          "reason": "7 existing vulnerabilities detected",
+          "name": "Vulnerabilities",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#vulnerabilities",
+            "short": "Determines if the project has open, known unfixed vulnerabilities."
+          }
+        }
+      ],
+      "metadata": null
+    },
+    "timestamp_utc": "2026-01-23T13:11:45Z"
+  }
 }

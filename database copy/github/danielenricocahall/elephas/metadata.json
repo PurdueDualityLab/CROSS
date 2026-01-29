@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/danielenricocahall/elephas",
+  "url": "https://github.com/danielenricocahall/elephas",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.7435012",
+    "name": "elephas",
+    "url": "https://github.com/danielenricocahall/elephas",
+    "full_name": "danielenricocahall/elephas",
+    "html_url": "https://github.com/danielenricocahall/elephas",
+    "description": "Distributed Deep learning with Keras & Spark",
+    "created_at": "2020-12-27T21:55:38Z",
+    "updated_at": "2022-10-27T14:09:21Z",
+    "clone_url": "https://github.com/danielenricocahall/elephas.git",
+    "size": 5527,
+    "stargazers_count": 7,
+    "watchers_count": 7,
+    "language": "Python",
+    "open_issues_count": 6,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/danielenricocahall",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33044223?v=4",
+      "login": "danielenricocahall",
+      "type": "User"
+    },
+    "timestamp": "2022-12-18 00:33:48.344665",
+    "avatar": "https://avatars.githubusercontent.com/u/33044223?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install elephas\"",
+        "\"Elephas is an extension of Keras, which allows you to run distributed deep learning models at scale with Spark.\" (used as a library in user code)",
+        "Example usage imports: \"from elephas.utils.rdd_utils import to_simple_rdd\" and \"from elephas.spark_model import SparkModel\" indicating it is a Python package dependency, not a standalone app."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:25:37Z"
+    }
+  }
+}

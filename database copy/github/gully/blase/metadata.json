@@ -1,0 +1,69 @@
+{
+  "parser": "github",
+  "uid": "github/gully/blase",
+  "url": "https://github.com/gully/blase",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2022ApJ...941..200G",
+      "https://ui.adsabs.harvard.edu/abs/2025ascl.soft02017G/abstract"
+    ],
+    "title": "blasé: Interpretable machine learning for high-resolution astronomical spectroscopy",
+    "url": "https://github.com/gully/blase",
+    "name": "blase",
+    "full_name": "gully/blase",
+    "html_url": "https://github.com/gully/blase",
+    "description": "Interpretable Machine Learning for astronomical spectroscopy in PyTorch and JAX",
+    "created_at": "2020-11-18T19:45:00Z",
+    "updated_at": "2024-11-06T15:26:22Z",
+    "clone_url": "https://github.com/gully/blase.git",
+    "homepage": "https://blase.readthedocs.io",
+    "size": 30284,
+    "stargazers_count": 26,
+    "watchers_count": 26,
+    "language": "Jupyter Notebook",
+    "open_issues_count": 18,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/gully",
+      "avatar_url": "https://avatars.githubusercontent.com/u/860227?v=4",
+      "login": "gully",
+      "type": "User"
+    },
+    "topics": [
+      "astronomy",
+      "interpretable-machine-learning",
+      "machine-learning",
+      "spectroscopy"
+    ],
+    "timestamp": "2025-02-16 00:46:53.985659",
+    "avatar": "https://avatars.githubusercontent.com/u/860227?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Interpretable Machine Learning for high-resolution astronomical spectroscopy.\" (domain-specific analysis tool)",
+        "\"We can combine stellar, telluric, and instrumental models into a unified forward model of your entire high-bandwidth, high-resolution spectrum.\" (directly performs scientific modeling/analysis)",
+        "\"Have a question or a research project in mind? Open an Issue or email gully.\" (points to a single user account as main contact; distribution via GitHub repo)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:06:07Z"
+    }
+  }
+}

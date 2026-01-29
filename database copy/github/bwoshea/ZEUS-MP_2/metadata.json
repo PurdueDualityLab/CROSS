@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/bwoshea/ZEUS-MP_2",
+  "url": "https://github.com/bwoshea/ZEUS-MP_2",
+  "data": {
+    "doi": [
+      "http://adsabs.harvard.edu/abs/2006ApJS..165..188H",
+      "https://ui.adsabs.harvard.edu/abs/2011ascl.soft02028H/abstract"
+    ],
+    "title": "ZEUS-MP/2: Computational Fluid Dynamics Code",
+    "url": "https://github.com/bwoshea/ZEUS-MP_2",
+    "name": "ZEUS-MP_2",
+    "full_name": "bwoshea/ZEUS-MP_2",
+    "html_url": "https://github.com/bwoshea/ZEUS-MP_2",
+    "description": "This repository is the home of the ZEUS-MP 2.0 code, which was created by John Hayes and others at the Laboratory for Computational Astrophysics at UIUC and UCSD.",
+    "created_at": "2017-06-14T10:17:30Z",
+    "updated_at": "2021-03-05T07:51:28Z",
+    "clone_url": "https://github.com/bwoshea/ZEUS-MP_2.git",
+    "size": 5183,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "Fortran",
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/bwoshea",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7969676?v=4",
+      "login": "bwoshea",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:25:02.326308",
+    "avatar": "https://avatars.githubusercontent.com/u/7969676?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Builds and releases",
+      "distribution_details": null,
+      "evidence": [
+        "\"This repository contains the web page and source code for ZEUS-MP 2.\"",
+        "\"This repository is being maintained by Brian O'Shea ... as a service to the community, since the server hosting the original ZEUS-MP 2 website is defunct and the code is not being actively developed.\"",
+        "\"A second subdirectory, `released_vers`, contains gzipped tar files corresponding to numbered versions of the code, which contain bug fixes and some new features\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T22:32:27Z"
+    }
+  }
+}

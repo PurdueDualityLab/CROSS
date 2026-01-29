@@ -1,0 +1,64 @@
+{
+  "parser": "github",
+  "uid": "github/najoshi/sickle",
+  "url": "https://github.com/najoshi/sickle",
+  "data": {
+    "title": "Sickle",
+    "url": "https://github.com/najoshi/sickle",
+    "credit": [],
+    "tags": [
+      "high-throughput-sequencing",
+      "read-quality-control",
+      "utilities"
+    ],
+    "description": "Windowed Adaptive Trimming for fastq files using quality",
+    "name": "sickle",
+    "full_name": "najoshi/sickle",
+    "html_url": "https://github.com/najoshi/sickle",
+    "created_at": "2011-02-09T01:18:45Z",
+    "updated_at": "2022-07-04T13:08:48Z",
+    "clone_url": "https://github.com/najoshi/sickle.git",
+    "size": 926,
+    "stargazers_count": 196,
+    "watchers_count": 196,
+    "language": "C",
+    "open_issues_count": 24,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 22,
+    "owner": {
+      "html_url": "https://github.com/najoshi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/607905?v=4",
+      "login": "najoshi",
+      "type": "User"
+    },
+    "timestamp": "2022-07-18 17:46:52.445722",
+    "avatar": "https://avatars.githubusercontent.com/u/607905?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Sickle is a tool that uses sliding windows along with quality and length thresholds to determine when quality is sufficiently low to trim the 3'-end of reads...\" (command-line tool for users to run)",
+        "\"To build Sickle, enter: make Then, copy or move 'sickle' to a directory in your $PATH.\" (built and used directly from source repo)",
+        "\"Sickle has two modes to work with both paired-end and single-end reads: `sickle se` and `sickle pe`.\" (domain-specific sequencing read trimming used directly in bioinformatics analyses)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T01:31:24Z"
+    }
+  }
+}

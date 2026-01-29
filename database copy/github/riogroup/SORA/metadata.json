@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/riogroup/SORA",
+  "url": "https://github.com/riogroup/SORA",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2021A%26A...652A.141M",
+      "https://ui.adsabs.harvard.edu/abs/2021ascl.soft08025G/abstract"
+    ],
+    "title": "SORA: Stellar Occultation Reduction Analysis",
+    "url": "https://github.com/riogroup/SORA",
+    "name": "SORA",
+    "full_name": "riogroup/SORA",
+    "html_url": "https://github.com/riogroup/SORA",
+    "created_at": "2019-12-05T18:27:35Z",
+    "updated_at": "2022-07-04T21:21:50Z",
+    "clone_url": "https://github.com/riogroup/SORA.git",
+    "size": 22374,
+    "stargazers_count": 10,
+    "watchers_count": 10,
+    "language": "Python",
+    "open_issues_count": 13,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 8,
+    "owner": {
+      "html_url": "https://github.com/riogroup",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64388000?v=4",
+      "login": "riogroup",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-17 17:11:04.276611",
+    "avatar": "https://avatars.githubusercontent.com/u/64388000?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install sora-astro\"",
+        "\"SORA is the acronym for *Stellar Occultation Reduction and Analysis*. It is a library developed in Python3 with the tools to analyze stellar occultation data.\"",
+        "\"SORA is a Python-based, object-oriented library for optimal analysis of stellar occultation data. The user can use this package to build pipelines to analyse their stellar occultation’s data.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T02:10:33Z"
+    }
+  }
+}

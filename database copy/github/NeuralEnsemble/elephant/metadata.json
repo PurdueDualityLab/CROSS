@@ -1,0 +1,68 @@
+{
+  "parser": "github",
+  "uid": "github/NeuralEnsemble/elephant",
+  "url": "https://github.com/NeuralEnsemble/elephant",
+  "data": {
+    "timestamp": "2021-01-10 00:42:35.640784",
+    "name": "elephant",
+    "url": "https://api.github.com/repos/NeuralEnsemble/elephant",
+    "full_name": "NeuralEnsemble/elephant",
+    "html_url": "https://github.com/NeuralEnsemble/elephant",
+    "private": false,
+    "description": "Elephant is the Electrophysiology Analysis Toolkit",
+    "created_at": "2013-05-27T08:59:34Z",
+    "updated_at": "2021-01-08T17:49:21Z",
+    "clone_url": "https://github.com/NeuralEnsemble/elephant.git",
+    "homepage": "http://www.python-elephant.org",
+    "size": 3799,
+    "stargazers_count": 95,
+    "watchers_count": 95,
+    "language": "Python",
+    "open_issues_count": 23,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "subscribers_count": 20,
+    "owner": {
+      "html_url": "https://github.com/NeuralEnsemble",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1540309?v=4",
+      "login": "NeuralEnsemble",
+      "type": "Organization"
+    },
+    "topics": [
+      "python",
+      "data-analysis",
+      "electrophysiology",
+      "neurophysiology",
+      "neuroscience",
+      "statistics",
+      "hacktoberfest"
+    ]
+  },
+  "doi": "10.12751/incf.ni2018.0019",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"[![Download Statistics](https://img.shields.io/pypi/dm/elephant)](https://seladb.github.io/StarTrack-js/#/preload?r=neuralensemble,elephant)<br>\"",
+        "\"Elephant package analyses all sorts of neurophysiological data: spike trains, LFP, analog signals.\"",
+        "\"The input-output data format is either Neo, Quantity or Numpy array.\" (indicates it is a Python package/library used with other tools)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T19:39:31Z"
+    }
+  }
+}

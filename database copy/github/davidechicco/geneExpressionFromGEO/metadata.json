@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/davidechicco/geneExpressionFromGEO",
+  "url": "https://github.com/davidechicco/geneExpressionFromGEO",
+  "data": {
+    "timestamp": "2022-05-29 03:18:26.071870",
+    "name": "geneExpressionFromGEO",
+    "url": "https://api.github.com/repos/davidechicco/geneExpressionFromGEO",
+    "full_name": "davidechicco/geneExpressionFromGEO",
+    "html_url": "https://github.com/davidechicco/geneExpressionFromGEO",
+    "private": false,
+    "description": "geneExpressionFromGEO",
+    "created_at": "2020-11-13T18:12:05Z",
+    "updated_at": "2021-12-14T14:57:21Z",
+    "clone_url": "https://github.com/davidechicco/geneExpressionFromGEO.git",
+    "homepage": null,
+    "size": 47,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "R",
+    "open_issues_count": 0,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/davidechicco",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12862995?v=4",
+      "login": "davidechicco",
+      "type": "User"
+    },
+    "topics": []
+  },
+  "doi": "10.1007/978-1-0716-1839-4_12",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"geneExpressionFromGEO\", repos='http://cran.us.r-project.org')\"",
+        "\"The `getGeneExpressionFromGEO()` function is an easy method that reads in the Gene Expression Omnibus (GEO) code of a gene expression dataset, retrieves its data from GEO... and returns a simple dataframe table containing all the data.\"",
+        "\"You can install the `geneExpressionFromGEO` package and its dependencies from CRAN, and load it, with the following commands... install.packages(\"geneExpressionFromGEO\", repos='http://cran.us.r-project.org')\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:27:52Z"
+    }
+  }
+}

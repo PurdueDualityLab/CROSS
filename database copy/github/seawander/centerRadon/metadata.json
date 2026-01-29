@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/seawander/centerRadon",
+  "url": "https://github.com/seawander/centerRadon",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2018ApJ...852..104R",
+      "https://ui.adsabs.harvard.edu/abs/2017SPIE10400E..21R",
+      "https://ui.adsabs.harvard.edu/abs/2019ascl.soft06021R/abstract"
+    ],
+    "title": "centerRadon: Center determination code in stellar images",
+    "url": "https://github.com/seawander/centerRadon",
+    "name": "centerRadon",
+    "full_name": "seawander/centerRadon",
+    "html_url": "https://github.com/seawander/centerRadon",
+    "description": "Center determination code based on Radon Transform",
+    "created_at": "2015-12-07T23:48:57Z",
+    "updated_at": "2022-05-19T01:46:01Z",
+    "clone_url": "https://github.com/seawander/centerRadon.git",
+    "size": 21,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Python",
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/seawander",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10532909?v=4",
+      "login": "seawander",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:16:30.391358",
+    "avatar": "https://avatars.githubusercontent.com/u/10532909?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Checkout the code from this Github repository. Then open up a terminal window and navigate to the directory for this package. Run the following command...\" (installation from source repo)",
+        "\"import radonCenter\n(x_cen, y_cen) = radonCenter.searchCenter(image, x_ctr_assign, y_ctr_assign, ...)\" (used as an importable Python module, i.e., dependency)",
+        "\"This code is firstly used to determine the centers of the stars for the HST-STIS coronagraphic archive\" (directly performs a scientific data analysis task)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T03:21:49Z"
+    }
+  }
+}

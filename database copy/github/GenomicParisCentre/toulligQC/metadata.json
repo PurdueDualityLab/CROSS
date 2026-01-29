@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/GenomicParisCentre/toulligQC",
+  "url": "https://github.com/GenomiqueENS/toulligQC",
+  "data": {
+    "title": "ToulligQC",
+    "url": "https://github.com/GenomiqueENS/toulligQC",
+    "credit": [],
+    "description": "A post sequencing QC tool for Oxford Nanopore sequencers",
+    "name": "toulligQC",
+    "full_name": "GenomiqueENS/toulligQC",
+    "html_url": "https://github.com/GenomiqueENS/toulligQC",
+    "created_at": "2017-05-15T14:41:53Z",
+    "updated_at": "2022-07-15T13:00:25Z",
+    "clone_url": "https://github.com/GenomiqueENS/toulligQC.git",
+    "size": 64411,
+    "stargazers_count": 46,
+    "watchers_count": 46,
+    "language": "JavaScript",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 12,
+    "owner": {
+      "html_url": "https://github.com/GenomiqueENS",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7766622?v=4",
+      "login": "GenomiqueENS",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-18 17:47:15.568952",
+    "avatar": "https://avatars.githubusercontent.com/u/7766622?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"$ pip install .\"",
+        "\"ToulligQC is dedicated to the QC analyses of Oxford Nanopore runs. This software is written in Python and developped by the GenomiqueENS core facility of the Institute of Biology of the Ecole Normale Superieure (IBENS).\"",
+        "\"ToulligQC is adapted to RNA-Seq along with DNA-Seq... This tool will produce a set of graphs, statistic file in plain text format and a HTML report.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T17:41:50Z"
+    }
+  }
+}

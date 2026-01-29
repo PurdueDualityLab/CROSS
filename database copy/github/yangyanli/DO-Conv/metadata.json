@@ -1,0 +1,65 @@
+{
+  "parser": "github",
+  "uid": "github/yangyanli/DO-Conv",
+  "url": "https://github.com/yangyanli/DO-Conv",
+  "data": {
+    "doi": "10.1109/TIP.2022.3175432",
+    "name": "DO-Conv",
+    "url": "https://github.com/yangyanli/DO-Conv",
+    "full_name": "yangyanli/DO-Conv",
+    "html_url": "https://github.com/yangyanli/DO-Conv",
+    "description": "Depthwise Over-parameterized Convolutional Layer",
+    "created_at": "2020-06-22T05:01:23Z",
+    "updated_at": "2022-08-05T07:32:22Z",
+    "clone_url": "https://github.com/yangyanli/DO-Conv.git",
+    "size": 46,
+    "stargazers_count": 150,
+    "watchers_count": 150,
+    "language": "Python",
+    "open_issues_count": 1,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 6,
+    "owner": {
+      "html_url": "https://github.com/yangyanli",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2976460?v=4",
+      "login": "yangyanli",
+      "type": "User"
+    },
+    "topics": [
+      "deep-learning",
+      "convolutional-neural-networks",
+      "tensorflow",
+      "pytorch",
+      "gluoncv"
+    ],
+    "timestamp": "2022-08-21 00:39:27.667327",
+    "avatar": "https://avatars.githubusercontent.com/u/2976460?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"In thie repo, we provide reference implementation of DO-Conv in <a href=\"https://www.tensorflow.org/\" target=\"_blank\">Tensorflow</a> (tensorflow-gpu==2.2.0), <a href=\"https://pytorch.org/\" target=\"_bl\"",
+        "\"DO-Conv is a depthwise over-parameterized convolutional layer, which can be used as a replacement of conventional convolutional layer in CNNs in the training phase to achieve higher accuracies.\"",
+        "\"In thie repo, we provide reference implementation of DO-Conv in Tensorflow ... PyTorch ... and GluonCV ... as replacement to tf.keras.layers.Conv2D, torch.nn.Conv2d and mxnet.gluon.nn.Conv2D, respectively.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:57:35Z"
+    }
+  }
+}

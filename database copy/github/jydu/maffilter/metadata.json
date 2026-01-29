@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/jydu/maffilter",
+  "url": "https://github.com/jydu/maffilter",
+  "data": {
+    "url": "https://github.com/jydu/maffilter",
+    "title": "Maffilter",
+    "description": "The MafFilter genome alignment processor",
+    "doi": "http://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-15-53",
+    "name": "maffilter",
+    "full_name": "jydu/maffilter",
+    "html_url": "https://github.com/jydu/maffilter",
+    "created_at": "2017-05-18T13:57:34Z",
+    "updated_at": "2022-05-18T06:45:19Z",
+    "clone_url": "https://github.com/jydu/maffilter.git",
+    "size": 90077,
+    "stargazers_count": 11,
+    "watchers_count": 11,
+    "language": "C++",
+    "open_issues_count": 5,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/jydu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11715877?v=4",
+      "login": "jydu",
+      "type": "User"
+    },
+    "timestamp": "2022-07-20 17:26:16.526124",
+    "avatar": "https://avatars.githubusercontent.com/u/11715877?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"MafFilter genome alignment processor\" indicates it is an executable tool for processing genome alignments, i.e., an application users run.",
+        "The README provides only a project title and citation request, with no mention of libraries or package managers, suggesting use via the source repository.",
+        "The cited paper title \"MafFilter: a highly flexible and extensible multiple genome alignment files processor\" shows it directly processes research data (multiple genome alignments), contributing to research results."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:41:14Z"
+    }
+  }
+}

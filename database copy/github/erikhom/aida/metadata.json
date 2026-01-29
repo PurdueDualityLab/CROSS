@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/erikhom/aida",
+  "url": "https://github.com/erikhom/aida",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2007JOSAA..24.1580H",
+      "https://ui.adsabs.harvard.edu/abs/2013ascl.soft10003H/abstract"
+    ],
+    "title": "AIDA: Adaptive Image Deconvolution Algorithm",
+    "url": "https://github.com/erikhom/aida",
+    "name": "aida",
+    "full_name": "erikhom/aida",
+    "html_url": "https://github.com/erikhom/aida",
+    "description": "Code for the Adaptive Image Deconvolution Algorithm (AIDA) of Hom et al. (2007) J. Opt. Soc. Amer. A",
+    "created_at": "2013-07-12T14:23:15Z",
+    "updated_at": "2022-02-14T15:15:14Z",
+    "clone_url": "https://github.com/erikhom/aida.git",
+    "size": 13977,
+    "stargazers_count": 14,
+    "watchers_count": 14,
+    "language": "Python",
+    "open_issues_count": 1,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 7,
+    "owner": {
+      "html_url": "https://github.com/erikhom",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4625918?v=4",
+      "login": "erikhom",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 16:31:20.071299",
+    "avatar": "https://avatars.githubusercontent.com/u/4625918?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Code for the Adaptive Image Deconvolution Algorithm (AIDA) of Hom et al. (2007) J. Opt. Soc. Amer. A\"",
+        "\"In order to run AIDA, you must have some form of Python 3 installed.\" and instructions to launch `AIDA.py` / `AIDA_app.py` indicate it is run as an end-user program.",
+        "\"AIDA can deconvolve multiple frame data and three-dimensional image stacks encountered in adaptive optics and light microscopic imaging.\" and example images show it directly processes research imaging data."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T23:46:00Z"
+    }
+  }
+}

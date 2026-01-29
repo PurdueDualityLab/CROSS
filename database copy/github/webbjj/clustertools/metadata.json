@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/webbjj/clustertools",
+  "url": "https://github.com/webbjj/clustertools",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.7941851",
+    "name": "clustertools",
+    "url": "https://github.com/webbjj/clustertools",
+    "full_name": "webbjj/clustertools",
+    "html_url": "https://github.com/webbjj/clustertools",
+    "description": "A Python package with tools for analysing star clusters.",
+    "created_at": "2020-06-14T15:50:00Z",
+    "updated_at": "2023-04-26T10:05:09Z",
+    "clone_url": "https://github.com/webbjj/clustertools.git",
+    "homepage": "https://clustertools.readthedocs.io",
+    "size": 95089,
+    "stargazers_count": 8,
+    "watchers_count": 8,
+    "language": "Python",
+    "open_issues_count": 1,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/webbjj",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8258656?v=4",
+      "login": "webbjj",
+      "type": "User"
+    },
+    "timestamp": "2023-05-21 00:37:43.148051",
+    "avatar": "https://avatars.githubusercontent.com/u/8258656?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install clustertools\"",
+        "\"clustertools is a Python package for analysing star cluster simulations. The package is built around the StarCluster class\" (indicates a Python library intended to be imported).",
+        "\"clustertools can be used for unit and coordinate transformations, the calculation of key structural and kinematic parameters, analysis of the cluster’s orbit and tidal tails\" (directly performs scientific analysis)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:52:50Z"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/basp-group/Puri-Psi",
+  "url": "https://github.com/basp-group/Puri-Psi",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2019MNRAS.489.1230A",
+      "https://ui.adsabs.harvard.edu/abs/2023ascl.soft01027W/abstract"
+    ],
+    "title": "Puri-Psi: Radio interferometric imaging",
+    "url": "https://github.com/basp-group/Puri-Psi",
+    "name": "Puri-Psi",
+    "full_name": "basp-group/Puri-Psi",
+    "html_url": "https://github.com/basp-group/Puri-Psi",
+    "description": "Software platform for Scalable radio-interferometric imaging 2.0",
+    "created_at": "2018-02-08T17:05:56Z",
+    "updated_at": "2022-10-13T13:09:28Z",
+    "clone_url": "https://github.com/basp-group/Puri-Psi.git",
+    "homepage": "http://basp-group.github.io/Puri-Psi/",
+    "size": 797,
+    "language": "C++",
+    "license": {
+      "key": "gpl-2.0",
+      "name": "GNU General Public License v2.0",
+      "spdx_id": "GPL-2.0",
+      "url": "https://api.github.com/licenses/gpl-2.0",
+      "node_id": "MDc6TGljZW5zZTg="
+    },
+    "subscribers_count": 6,
+    "owner": {
+      "html_url": "https://github.com/basp-group",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3670102?v=4",
+      "login": "basp-group",
+      "type": "User"
+    },
+    "timestamp": "2023-02-05 00:40:39.733717",
+    "avatar": "https://avatars.githubusercontent.com/u/3670102?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Webpage for the BASP code Library (2018-2023) - transferred to BASPLib in 2024\" (indicates a specific research code library, likely maintained by the BASP group)",
+        "The term \"code Library\" suggests a research codebase used directly for scientific computations or analyses, implying direct research execution.",
+        "The project is presented as a webpage for a code library, with no mention of package managers, binaries, or services, implying access via the source repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T21:59:51Z"
+    }
+  }
+}

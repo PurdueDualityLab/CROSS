@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/jnktsj/DNApi",
+  "url": "https://github.com/jnktsj/DNApi",
+  "data": {
+    "url": "https://github.com/jnktsj/DNApi",
+    "title": "Dnapi",
+    "description": "De novo adapter prediction algorithm for small RNA sequencing data",
+    "doi": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0164228",
+    "name": "DNApi",
+    "full_name": "jnktsj/DNApi",
+    "html_url": "https://github.com/jnktsj/DNApi",
+    "created_at": "2015-12-08T18:13:54Z",
+    "updated_at": "2021-12-18T02:04:00Z",
+    "clone_url": "https://github.com/jnktsj/DNApi.git",
+    "size": 7875,
+    "stargazers_count": 17,
+    "watchers_count": 17,
+    "language": "Python",
+    "open_issues_count": 1,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/jnktsj",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5141643?v=4",
+      "login": "jnktsj",
+      "type": "User"
+    },
+    "timestamp": "2022-07-20 17:27:52.076624",
+    "avatar": "https://avatars.githubusercontent.com/u/5141643?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"(https://github.com/jnktsj/DNApi#prediction-modes-and-parameters) for\"",
+        "“DNApi accept (un)compressed FASTQ files or redirected standard input (`stdin`) as an input. You can simply run: `$ python dnapi.py <fastq>`” (command-line application processing sequencing data).",
+        "“*de novo* adapter prediction (iterative) algorithm for small RNA sequencing data.” (domain-specific analysis of sequencing data)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:35:38Z"
+    }
+  }
+}

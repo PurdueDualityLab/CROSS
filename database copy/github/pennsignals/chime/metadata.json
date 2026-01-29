@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/pennsignals/chime",
+  "url": "https://github.com/pennsignals/chime",
+  "data": {
+    "url": "https://github.com/pennsignals/chime",
+    "title": "Chime",
+    "description": "COVID-19 Hospital Impact Model for Epidemics",
+    "name": "chime",
+    "full_name": "pennsignals/chime",
+    "html_url": "https://github.com/pennsignals/chime",
+    "created_at": "2020-03-13T23:42:04Z",
+    "updated_at": "2022-07-06T18:01:39Z",
+    "clone_url": "https://github.com/pennsignals/chime.git",
+    "size": 3134,
+    "stargazers_count": 137,
+    "watchers_count": 137,
+    "language": "Python",
+    "open_issues_count": 24,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 21,
+    "owner": {
+      "html_url": "https://github.com/pennsignals",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24457487?v=4",
+      "login": "pennsignals",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-20 17:30:07.458655",
+    "avatar": "https://avatars.githubusercontent.com/u/24457487?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Unknown",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "Owner organization is `pennsignals`, which is associated with Penn Medicine/Penn Signals (an institutional healthcare analytics group).",
+        "README only states: \"Looking for CHIME? Our repo has moved! Please update you forks! https://github.com/CodeForPhilly/chime\" indicating the project is accessed as a GitHub repository (source).",
+        "No README content describes library-style usage, packaging, or research functionality; only a pointer to another GitHub repo, so we infer it is obtained via cloning the source repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T01:49:39Z"
+    }
+  }
+}

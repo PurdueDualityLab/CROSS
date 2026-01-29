@@ -1,0 +1,47 @@
+{
+  "parser": "github",
+  "uid": "github/zhongqiu1245/CCS-Net",
+  "url": "https://github.com/zhongqiu1245/CCS-Net",
+  "data": {
+    "doi": "10.1109/JBHI.2022.3217174",
+    "name": "CCS-Net",
+    "url": "https://github.com/zhongqiu1245/CCS-Net",
+    "full_name": "zhongqiu1245/CCS-Net",
+    "html_url": "https://github.com/zhongqiu1245/CCS-Net",
+    "created_at": "2022-08-04T02:10:09Z",
+    "updated_at": "2022-08-04T02:21:19Z",
+    "clone_url": "https://github.com/zhongqiu1245/CCS-Net.git",
+    "size": 6,
+    "language": "Python",
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/zhongqiu1245",
+      "avatar_url": "https://avatars.githubusercontent.com/u/48090608?v=4",
+      "login": "zhongqiu1245",
+      "type": "User"
+    },
+    "timestamp": "2022-12-25 00:38:00.372849",
+    "avatar": "https://avatars.githubusercontent.com/u/48090608?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"CCS-Net\" and description of a specific network architecture for cancer MRI implies a concrete model/application rather than a reusable library.",
+        "\"Cascade Detection Network with the Convolution Kernel Switch Block and Statistics Optimal Anchors Block in Hypopharyngeal Cancer MRI\" indicates it directly performs detection on medical images for research.",
+        "\"This config is used on MSD-Heart dataset(based on mmdet)\" suggests usage via configuration and code from the repository, implying distribution via the source repo."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T05:12:08Z"
+    }
+  }
+}

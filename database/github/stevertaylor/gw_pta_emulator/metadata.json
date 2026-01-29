@@ -1,34 +1,253 @@
 {
-    "parser": "github",
-    "uid": "github/stevertaylor/gw_pta_emulator",
+  "parser": "github",
+  "uid": "github/stevertaylor/gw_pta_emulator",
+  "url": "https://github.com/stevertaylor/gw_pta_emulator",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2017PhRvL.118r1102T",
+      "https://ui.adsabs.harvard.edu/abs/2023ascl.soft05016T/abstract"
+    ],
+    "title": "gw_pta_emulator: Gravitational Waves via Pulsar Timing Arrays",
     "url": "https://github.com/stevertaylor/gw_pta_emulator",
-    "data": {
-        "doi": [
-            "https://ui.adsabs.harvard.edu/abs/2017PhRvL.118r1102T",
-            "https://ui.adsabs.harvard.edu/abs/2023ascl.soft05016T/abstract"
-        ],
-        "title": "gw_pta_emulator: Gravitational Waves via Pulsar Timing Arrays",
-        "url": "https://github.com/stevertaylor/gw_pta_emulator",
-        "name": "gw_pta_emulator",
-        "full_name": "stevertaylor/gw_pta_emulator",
-        "html_url": "https://github.com/stevertaylor/gw_pta_emulator",
-        "description": "A notebook and data associated with the paper Taylor, Simon, Sampson (2017)",
-        "created_at": "2016-11-30T00:54:11Z",
-        "updated_at": "2018-06-29T05:33:16Z",
-        "clone_url": "https://github.com/stevertaylor/gw_pta_emulator.git",
-        "homepage": "http://adsabs.harvard.edu/abs/2017PhRvL.118r1102T",
-        "size": 130290,
-        "stargazers_count": 1,
-        "watchers_count": 1,
-        "language": "Jupyter Notebook",
-        "subscribers_count": 4,
-        "owner": {
-            "html_url": "https://github.com/stevertaylor",
-            "avatar_url": "https://avatars.githubusercontent.com/u/5446644?v=4",
-            "login": "stevertaylor",
-            "type": "User"
-        },
-        "timestamp": "2023-06-04 00:44:49.062479",
-        "avatar": "https://avatars.githubusercontent.com/u/5446644?v=4"
+    "name": "gw_pta_emulator",
+    "full_name": "stevertaylor/gw_pta_emulator",
+    "html_url": "https://github.com/stevertaylor/gw_pta_emulator",
+    "description": "A notebook and data associated with the paper Taylor, Simon, Sampson (2017)",
+    "created_at": "2016-11-30T00:54:11Z",
+    "updated_at": "2018-06-29T05:33:16Z",
+    "clone_url": "https://github.com/stevertaylor/gw_pta_emulator.git",
+    "homepage": "http://adsabs.harvard.edu/abs/2017PhRvL.118r1102T",
+    "size": 130290,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Jupyter Notebook",
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/stevertaylor",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5446644?v=4",
+      "login": "stevertaylor",
+      "type": "User"
+    },
+    "timestamp": "2023-06-04 00:44:49.062479",
+    "avatar": "https://avatars.githubusercontent.com/u/5446644?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"Users can read in GW characteristic strain spectra from black-hole population simulations, re-bin for their own observing baseline, and construct new spectra. The notebook then allows the user to trai\"",
+        "\"A notebook and data associated with the paper...\" indicates this repo provides an analysis notebook rather than a reusable library.",
+        "\"Users can read in GW characteristic strain spectra... and construct new spectra. The notebook then allows the user to train a Gaussian process to emulate the spectral behavior\" shows it directly performs scientific analysis for the paper."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T03:47:53Z"
     }
+  },
+  "openssf_scorecard": {
+    "data": {
+      "date": "2026-01-23T15:02:41-05:00",
+      "repo": {
+        "name": "github.com/stevertaylor/gw_pta_emulator",
+        "commit": "fcc86b9b8c073b2a03c10c1aa9c66f7aac329821"
+      },
+      "scorecard": {
+        "version": "v5.4.0",
+        "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+      },
+      "score": 2.3,
+      "checks": [
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no binaries found in the repo",
+          "name": "Binary-Artifacts",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#binary-artifacts",
+            "short": "Determines if the project has generated executable (binary) artifacts in the source repository."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "branch protection not enabled on development/release branches",
+          "name": "Branch-Protection",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#branch-protection",
+            "short": "Determines if the default and release branches are protected with GitHub's branch protection settings."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no pull request found",
+          "name": "CI-Tests",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#ci-tests",
+            "short": "Determines if the project runs tests before pull requests are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no effort to earn an OpenSSF best practices badge detected",
+          "name": "CII-Best-Practices",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#cii-best-practices",
+            "short": "Determines if the project has an OpenSSF (formerly CII) Best Practices Badge."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "Found 0/12 approved changesets -- score normalized to 0",
+          "name": "Code-Review",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#code-review",
+            "short": "Determines if the project requires human code review before pull requests (aka merge requests) are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 3,
+          "reason": "project has 1 contributing companies or organizations -- score normalized to 3",
+          "name": "Contributors",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#contributors",
+            "short": "Determines if the project has a set of contributors from multiple organizations (e.g., companies)."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no workflows found",
+          "name": "Dangerous-Workflow",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dangerous-workflow",
+            "short": "Determines if the project's GitHub Action workflows avoid dangerous patterns."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no update tool detected",
+          "name": "Dependency-Update-Tool",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dependency-update-tool",
+            "short": "Determines if the project uses a dependency update tool."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "project is not fuzzed",
+          "name": "Fuzzing",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#fuzzing",
+            "short": "Determines if the project uses fuzzing."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "license file not detected",
+          "name": "License",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#license",
+            "short": "Determines if the project has defined a license."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0",
+          "name": "Maintained",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#maintained",
+            "short": "Determines if the project is \"actively maintained\"."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "packaging workflow not detected",
+          "name": "Packaging",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#packaging",
+            "short": "Determines if the project is published as a package that others can easily download, install, easily update, and uninstall."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no dependencies found",
+          "name": "Pinned-Dependencies",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#pinned-dependencies",
+            "short": "Determines if the project has declared and pinned the dependencies of its build process."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no SAST tool detected",
+          "name": "SAST",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#sast",
+            "short": "Determines if the project uses static code analysis."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "security policy file not detected",
+          "name": "Security-Policy",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#security-policy",
+            "short": "Determines if the project has published a security policy."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no releases found",
+          "name": "Signed-Releases",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#signed-releases",
+            "short": "Determines if the project cryptographically signs release artifacts."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "No tokens found",
+          "name": "Token-Permissions",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#token-permissions",
+            "short": "Determines if the project's workflows follow the principle of least privilege."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "0 existing vulnerabilities detected",
+          "name": "Vulnerabilities",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#vulnerabilities",
+            "short": "Determines if the project has open, known unfixed vulnerabilities."
+          }
+        }
+      ],
+      "metadata": null
+    },
+    "timestamp_utc": "2026-01-23T20:02:47Z"
+  }
 }

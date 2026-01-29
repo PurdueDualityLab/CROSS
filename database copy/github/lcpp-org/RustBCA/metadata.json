@@ -1,0 +1,81 @@
+{
+  "parser": "github",
+  "uid": "github/lcpp-org/RustBCA",
+  "url": "https://github.com/lcpp-org/RustBCA",
+  "data": {
+    "timestamp": "2021-09-05 00:34:55.020973",
+    "name": "RustBCA",
+    "url": "https://api.github.com/repos/lcpp-org/RustBCA",
+    "full_name": "lcpp-org/RustBCA",
+    "html_url": "https://github.com/lcpp-org/RustBCA",
+    "private": false,
+    "description": "A Binary Collision Approximation (BCA) code for arbitrary ion-material interactions",
+    "created_at": "2020-04-16T17:44:08Z",
+    "updated_at": "2021-08-31T15:44:56Z",
+    "clone_url": "https://github.com/lcpp-org/RustBCA.git",
+    "homepage": "https://github.com/lcpp-org/RustBCA/wiki",
+    "size": 10740,
+    "stargazers_count": 6,
+    "watchers_count": 6,
+    "language": "Rust",
+    "open_issues_count": 11,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/lcpp-org",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37936084?v=4",
+      "login": "lcpp-org",
+      "type": "Organization"
+    },
+    "topics": [
+      "binary-collision-approximation",
+      "ion-solid-interactions",
+      "plasma-material-interactions",
+      "fusion",
+      "materials-science",
+      "sputtering",
+      "implantation",
+      "range",
+      "bca-codes",
+      "bca",
+      "incident-ion",
+      "ion-material-interactions",
+      "rust",
+      "binary-collisions",
+      "nuclear-fusion",
+      "simulation",
+      "yamamura",
+      "bohdansky",
+      "nuclear-stopping",
+      "electronic-stopping"
+    ]
+  },
+  "doi": "https://doi.org/10.5281/zenodo.5337083",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"python -m pip install .\"",
+        "\"RustBCA is a general-purpose, high-performance code for simulating ion-material interactions including sputtering, reflection, and implantation\"",
+        "\"RustBCA includes a standalone version and libraries for including ion-material interactions in simulations written in C/C++, Python, and Fortran.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:52:19Z"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/precice/aste",
+  "url": "https://github.com/precice/aste",
+  "data": {
+    "doi": "https://doi.org/10.18419/darus-4562",
+    "name": "aste",
+    "url": "https://github.com/precice/aste",
+    "full_name": "precice/aste",
+    "html_url": "https://github.com/precice/aste",
+    "description": "Artificial Solver Testing Environment",
+    "created_at": "2015-10-29T16:12:20Z",
+    "updated_at": "2024-11-14T14:55:36Z",
+    "clone_url": "https://github.com/precice/aste.git",
+    "homepage": "https://precice.org/tooling-aste.html",
+    "size": 32397,
+    "stargazers_count": 10,
+    "watchers_count": 10,
+    "language": "Python",
+    "open_issues_count": 30,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 6,
+    "owner": {
+      "html_url": "https://github.com/precice",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12561035?v=4",
+      "login": "precice",
+      "type": "Organization"
+    },
+    "timestamp": "2024-11-17 00:48:08.482214",
+    "avatar": "https://avatars.githubusercontent.com/u/12561035?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Builds and releases",
+      "distribution_details": "GitHub Releases",
+      "evidence": [
+        "README mentions releases: \"Detailed installation instructions for the preCICE library are available in the preCICE [installation documentation](https://precice.org/installation-overview.html). On Ubuntu, e.g., [system packages]\"",
+        "\"ASTE is a collection of tools that can be used to reproduce and evaluate particular setups without using actual solver codes.\"",
+        "\"After the installation procedure, the following executables are available - `precice-aste-run` ... `precice-aste-evaluate` ... `precice-aste-partition` ... `precice-aste-join`. All ASTE tools are executed from the command line\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:56:13Z"
+    }
+  }
+}

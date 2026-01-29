@@ -1,0 +1,63 @@
+{
+  "parser": "github",
+  "uid": "github/Astroua/SCIMES",
+  "url": "https://github.com/Astroua/SCIMES",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2015MNRAS.454.2067C",
+      "https://ui.adsabs.harvard.edu/abs/2016ascl.soft09006C/abstract"
+    ],
+    "title": "SCIMES: Spectral Clustering for Interstellar Molecular Emission Segmentation",
+    "url": "https://github.com/Astroua/SCIMES",
+    "name": "SCIMES",
+    "full_name": "Astroua/SCIMES",
+    "html_url": "https://github.com/Astroua/SCIMES",
+    "description": "Spectral Clustering for Interstellar Molecular Emission Segmentation",
+    "created_at": "2014-08-21T18:57:11Z",
+    "updated_at": "2022-06-29T09:21:42Z",
+    "clone_url": "https://github.com/Astroua/SCIMES.git",
+    "homepage": "http://scimes.readthedocs.org/",
+    "size": 7450,
+    "stargazers_count": 12,
+    "watchers_count": 12,
+    "language": "Python",
+    "open_issues_count": 5,
+    "license": {
+      "key": "gpl-2.0",
+      "name": "GNU General Public License v2.0",
+      "spdx_id": "GPL-2.0",
+      "url": "https://api.github.com/licenses/gpl-2.0",
+      "node_id": "MDc6TGljZW5zZTg="
+    },
+    "subscribers_count": 11,
+    "owner": {
+      "html_url": "https://github.com/Astroua",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5502523?v=4",
+      "login": "Astroua",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-17 17:21:20.390283",
+    "avatar": "https://avatars.githubusercontent.com/u/5502523?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"The 'Spectral Clustering for Interstellar Molecular Emission Segmentation' module for Python, `SCIMES`, uses the spectral clustering approach to identify relevant structures within dendrogram of emission from observational data or simulation.\"",
+        "\"This package and the related paper has been written by:\" followed by a list of researchers, indicating a research-team-produced scientific tool.",
+        "\"Please report issues via the GitHub issue tracker (https://github.com/Astroua/scimes/issues)\" (README centers use around the GitHub repository; no mention of package managers or binaries)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T16:38:17Z"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/vishwas1984/LaplaceInterpolation.jl",
+  "url": "https://github.com/vishwas1984/LaplaceInterpolation.jl",
+  "data": {
+    "timestamp": "2022-02-06 00:43:55.153714",
+    "name": "LaplaceInterpolation.jl",
+    "url": "https://api.github.com/repos/vishwas1984/LaplaceInterpolation.jl",
+    "full_name": "vishwas1984/LaplaceInterpolation.jl",
+    "html_url": "https://github.com/vishwas1984/LaplaceInterpolation.jl",
+    "private": false,
+    "description": null,
+    "created_at": "2021-07-01T17:34:26Z",
+    "updated_at": "2021-11-17T19:20:04Z",
+    "clone_url": "https://github.com/vishwas1984/LaplaceInterpolation.jl.git",
+    "homepage": "",
+    "size": 11875,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Jupyter Notebook",
+    "open_issues_count": 2,
+    "license": {
+      "key": "gpl-2.0",
+      "name": "GNU General Public License v2.0",
+      "spdx_id": "GPL-2.0",
+      "url": "https://api.github.com/licenses/gpl-2.0",
+      "node_id": "MDc6TGljZW5zZTg="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/vishwas1984",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29146465?v=4",
+      "login": "vishwas1984",
+      "type": "User"
+    },
+    "topics": []
+  },
+  "doi": "https://doi.org/10.5281/zenodo.5942603",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "Julia General registry",
+      "evidence": [
+        "README install command: \"julia> Pkg.add(url=\"https://github.com/vishwas1984/LaplaceInterpolation.jl\")\"",
+        "\"This package is unregistered, so please install using `pkg> add https://github.com/vishwas1984/LaplaceInterpolation.jl`\" (Julia package intended to be added as a dependency).",
+        "\"This code performs Laplace and Matern interpolation where missing data are on a one, two, or three dimensional grid.\" (core numerical interpolation functionality for scientific data)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:39:15Z"
+    }
+  }
+}

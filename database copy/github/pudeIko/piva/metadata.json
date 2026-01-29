@@ -1,0 +1,75 @@
+{
+  "parser": "github",
+  "uid": "github/pudeIko/piva",
+  "url": "https://github.com/pudeIko/piva",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.16755506",
+    "name": "piva",
+    "url": "https://github.com/pudeIko/piva",
+    "full_name": "pudeIko/piva",
+    "html_url": "https://github.com/pudeIko/piva",
+    "description": "Interactive tools for the visualization and analysis of multidimensional photoemission data",
+    "created_at": "2022-04-12T09:53:49Z",
+    "updated_at": "2025-10-03T02:10:45Z",
+    "clone_url": "https://github.com/pudeIko/piva.git",
+    "homepage": "https://piva.readthedocs.io/en/latest/intro.html",
+    "size": 315562,
+    "stargazers_count": 8,
+    "watchers_count": 8,
+    "language": "Python",
+    "open_issues_count": 7,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/pudeIko",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37271202?v=4",
+      "login": "pudeIko",
+      "type": "User"
+    },
+    "topics": [
+      "angle-resolved-photoemission-spectroscopy",
+      "arpes",
+      "condensed-matter-physics",
+      "data-analysis",
+      "data-visualization",
+      "experimental-physics",
+      "gui",
+      "interactive-visualizations",
+      "physics",
+      "pyqt5",
+      "python",
+      "quantum-materials",
+      "synchrotron-based-data",
+      "xps"
+    ],
+    "timestamp": "2025-10-05 00:52:56.504471",
+    "avatar": "https://avatars.githubusercontent.com/u/37271202?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install piva\"",
+        "\"PIVA is a graphical user interface (GUI) application built with `PyQt5` and `pyqtgraph` toolkits, designed for the interactive and intuitive examination of large image-like datasets.\"",
+        "\"most of its functionalities are specifically tailored for users conducting Angle-Resolved Photoemission Spectroscopy (ARPES) experiments.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:57:45Z"
+    }
+  }
+}

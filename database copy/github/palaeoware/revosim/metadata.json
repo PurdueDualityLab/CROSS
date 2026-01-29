@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/palaeoware/revosim",
+  "url": "https://github.com/palaeoware/revosim",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.8228938",
+    "name": "revosim",
+    "url": "https://github.com/palaeoware/revosim",
+    "full_name": "palaeoware/revosim",
+    "html_url": "https://github.com/palaeoware/revosim",
+    "description": "REvoSim - The [R]apid [Evo]lutionary [Sim]ulator - An individual-based evolutionary model",
+    "created_at": "2018-04-27T09:23:32Z",
+    "updated_at": "2023-07-21T23:25:51Z",
+    "clone_url": "https://github.com/palaeoware/revosim.git",
+    "size": 27565,
+    "stargazers_count": 17,
+    "watchers_count": 17,
+    "language": "C++",
+    "open_issues_count": 2,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/palaeoware",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38782482?v=4",
+      "login": "palaeoware",
+      "type": "Organization"
+    },
+    "timestamp": "2023-09-10 00:33:43.137823",
+    "avatar": "https://avatars.githubusercontent.com/u/38782482?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"If you wish to use REvoSim and utility packages for research or any other purpose without modifying the software, they can be installed from the binary releases on our [GitHub](https://github.com/pala\"",
+        "\"REvoSim is an evolutionary model that aims to bridge the epistemological gap between micro- and macroevolution by providing an organism-level simulation... We intend REvoSim as a multipurpose platform for the study of many evolutionary phenomena\" (end-user simulation application).",
+        "\"If you wish to use REvoSim and utility packages for research or any other purpose without modifying the software, they can be installed from the binary releases on our GitHub.\" (distributed via binary releases / builds)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:45:57Z"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/Qiskit/qiskit-experiments",
+  "url": "https://github.com/Qiskit/qiskit-experiments",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.7844174",
+    "name": "qiskit-experiments",
+    "url": "https://github.com/Qiskit/qiskit-experiments",
+    "full_name": "Qiskit/qiskit-experiments",
+    "html_url": "https://github.com/Qiskit/qiskit-experiments",
+    "description": "Qiskit Experiments",
+    "created_at": "2021-02-24T19:19:21Z",
+    "updated_at": "2023-04-19T17:47:21Z",
+    "clone_url": "https://github.com/Qiskit/qiskit-experiments.git",
+    "homepage": "https://qiskit.org/ecosystem/experiments",
+    "size": 20965,
+    "stargazers_count": 101,
+    "watchers_count": 101,
+    "language": "Python",
+    "open_issues_count": 140,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "subscribers_count": 15,
+    "owner": {
+      "html_url": "https://github.com/Qiskit",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30696987?v=4",
+      "login": "Qiskit",
+      "type": "Organization"
+    },
+    "topics": [
+      "qiskit"
+    ],
+    "timestamp": "2023-04-23 00:38:15.888067",
+    "avatar": "https://avatars.githubusercontent.com/u/30696987?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "“Qiskit Experiments is a repository that builds tools for building, running, and analyzing experiments on noisy quantum computers using Qiskit.”",
+        "Badges and links indicate it is part of the broader Qiskit community project: “Qiskit Experiments is the work of many people… This project adheres to Qiskit's code of conduct.”",
+        "PyPI badge in README: “![Python](https://img.shields.io/pypi/pyversions/qiskit-experiments.svg)” indicating distribution as a Python package via PyPI."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T19:52:45Z"
+    }
+  }
+}

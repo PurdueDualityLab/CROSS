@@ -1,0 +1,56 @@
+{
+  "parser": "github",
+  "uid": "github/chapmanb/bcbio.variation",
+  "url": "https://github.com/chapmanb/bcbio.variation",
+  "data": {
+    "title": "bcbio‑variation",
+    "url": "https://github.com/chapmanb/bcbio.variation",
+    "credit": [],
+    "tags": [
+      "genomics",
+      "genomics"
+    ],
+    "description": "Toolkit to analyze genomic variation data, built on the GATK with Clojure",
+    "name": "bcbio.variation",
+    "full_name": "chapmanb/bcbio.variation",
+    "html_url": "https://github.com/chapmanb/bcbio.variation",
+    "created_at": "2011-12-11T01:41:48Z",
+    "updated_at": "2021-12-08T11:53:52Z",
+    "clone_url": "https://github.com/chapmanb/bcbio.variation.git",
+    "size": 6738,
+    "stargazers_count": 67,
+    "watchers_count": 67,
+    "language": "Clojure",
+    "open_issues_count": 7,
+    "subscribers_count": 17,
+    "owner": {
+      "html_url": "https://github.com/chapmanb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/39391?v=4",
+      "login": "chapmanb",
+      "type": "User"
+    },
+    "timestamp": "2022-07-18 17:43:29.597210",
+    "avatar": "https://avatars.githubusercontent.com/u/39391?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"### Download\"",
+        "\"A toolkit to analyze genome variation data... It enables validation of variants and exploration of algorithm differences between calling methods by automating the process involved with comparing two sets of variants.\"",
+        "\"For users, this integrates with the bcbio-nextgen framework to automate variant calling and validation. For developers, bcbio.variation provides command line tools and an API to clean and normalize variant data in VCF format...\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T22:54:16Z"
+    }
+  }
+}

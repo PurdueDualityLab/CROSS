@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/rmaphoh/AutoMorph",
+  "url": "https://github.com/rmaphoh/AutoMorph",
+  "data": {
+    "doi": "10.1167/tvst.11.7.12",
+    "name": "AutoMorph",
+    "url": "https://github.com/rmaphoh/AutoMorph",
+    "full_name": "rmaphoh/AutoMorph",
+    "html_url": "https://github.com/rmaphoh/AutoMorph",
+    "description": "vessel segmentation, artery and vein, optic disc, vascular feature analysis",
+    "created_at": "2022-05-06T10:10:27Z",
+    "updated_at": "2023-01-11T14:30:25Z",
+    "clone_url": "https://github.com/rmaphoh/AutoMorph.git",
+    "size": 1627757,
+    "stargazers_count": 12,
+    "watchers_count": 12,
+    "language": "Python",
+    "open_issues_count": 2,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/rmaphoh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68285473?v=4",
+      "login": "rmaphoh",
+      "type": "User"
+    },
+    "timestamp": "2023-01-22 00:40:58.008094",
+    "avatar": "https://avatars.githubusercontent.com/u/68285473?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Code for AutoMorph: Automated Retinal Vascular Morphology Quantification via a Deep Learning Pipeline\" (end users run the pipeline).",
+        "\"Install and use on your own machines [LOCAL.md](LOCAL.md).\" (installation and running from cloned repo, no mention of package managers or binaries).",
+        "The README describes components like \"Vessel segmentation\", \"Optic disc segmentation\", and \"Feature measurement\" that quantify retinal vascular morphology, directly producing research-relevant measurements."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T02:11:08Z"
+    }
+  }
+}

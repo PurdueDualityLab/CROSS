@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/AstarVienna/AnisoCADO",
+  "url": "https://github.com/AstarVienna/AnisoCADO",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2020arXiv200614572L"
+    ],
+    "title": "AnisoCADO",
+    "url": "https://github.com/AstarVienna/AnisoCADO",
+    "name": "AnisoCADO",
+    "full_name": "AstarVienna/AnisoCADO",
+    "html_url": "https://github.com/AstarVienna/AnisoCADO",
+    "description": "A package to generate off-axis PSFs for the SCAO mode for MICADO at the ELT",
+    "created_at": "2019-03-14T12:46:34Z",
+    "updated_at": "2021-10-21T12:16:18Z",
+    "clone_url": "https://github.com/AstarVienna/AnisoCADO.git",
+    "size": 4667,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "Python",
+    "open_issues_count": 3,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/AstarVienna",
+      "avatar_url": "https://avatars.githubusercontent.com/u/81577446?v=4",
+      "login": "AstarVienna",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:11:02.121009",
+    "avatar": "https://avatars.githubusercontent.com/u/81577446?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"[![Poetry](https://img.shields.io/endpoint?url=https://python-poetry.org/badge/v0.json)](https://python-poetry.org/)\"",
+        "\"A python package to generate off-axis PSFs for the SCAO mode for the ELT\" (indicates a domain-specific scientific tool, likely imported as a package).",
+        "PyPI badges: \"[![PyPI - Version](https://img.shields.io/pypi/v/AnisoCADO)](https://pypi.org/project/AnisoCADO/)\" and \"![PyPI - Python Version](https://img.shields.io/pypi/pyversions/AnisoCADO)\" (indicate distribution via PyPI)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T16:37:26Z"
+    }
+  }
+}

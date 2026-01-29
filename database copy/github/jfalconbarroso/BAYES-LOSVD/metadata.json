@@ -1,0 +1,55 @@
+{
+  "parser": "github",
+  "uid": "github/jfalconbarroso/BAYES-LOSVD",
+  "url": "https://github.com/jfalconbarroso/BAYES-LOSVD",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2020arXiv201112023F",
+      "https://ui.adsabs.harvard.edu/abs/2021ascl.soft01002F/abstract"
+    ],
+    "title": "BAYES-LOSVD: Bayesian framework for non-parametric extraction of the LOSVD",
+    "url": "https://github.com/jfalconbarroso/BAYES-LOSVD",
+    "name": "BAYES-LOSVD",
+    "full_name": "jfalconbarroso/BAYES-LOSVD",
+    "html_url": "https://github.com/jfalconbarroso/BAYES-LOSVD",
+    "description": "Non-parametric recovery of the LOSVD of galaxies",
+    "created_at": "2020-02-14T08:30:36Z",
+    "updated_at": "2021-06-21T03:02:00Z",
+    "clone_url": "https://github.com/jfalconbarroso/BAYES-LOSVD.git",
+    "size": 187865,
+    "stargazers_count": 5,
+    "watchers_count": 5,
+    "language": "Jupyter Notebook",
+    "open_issues_count": 1,
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/jfalconbarroso",
+      "avatar_url": "https://avatars.githubusercontent.com/u/41444018?v=4",
+      "login": "jfalconbarroso",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:13:05.145283",
+    "avatar": "https://avatars.githubusercontent.com/u/41444018?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"BAYES-LOSVD is a python framework for the non-parametric extraction of the Line-Of-Sight Velocity Distributions in galaxies.\"",
+        "\"Clone this repository in your computer and open the following file in your browser\"",
+        "Authors listed as individual researchers with affiliations, and installation is via cloning this GitHub repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:33:12Z"
+    }
+  }
+}

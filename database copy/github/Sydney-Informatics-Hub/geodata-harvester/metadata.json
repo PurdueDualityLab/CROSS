@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/Sydney-Informatics-Hub/geodata-harvester",
+  "url": "https://github.com/Sydney-Informatics-Hub/geodata-harvester",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.8339817",
+    "name": "geodata-harvester",
+    "url": "https://github.com/Sydney-Informatics-Hub/geodata-harvester",
+    "full_name": "Sydney-Informatics-Hub/geodata-harvester",
+    "html_url": "https://github.com/Sydney-Informatics-Hub/geodata-harvester",
+    "description": "Jumpstart your geospatial analysis with a ready-made set of spatial-temporal aligned raster maps and data frames",
+    "created_at": "2022-10-13T03:34:09Z",
+    "updated_at": "2023-09-15T22:38:16Z",
+    "clone_url": "https://github.com/Sydney-Informatics-Hub/geodata-harvester.git",
+    "homepage": "https://sydney-informatics-hub.github.io/geodata-harvester/",
+    "size": 13205,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "Jupyter Notebook",
+    "open_issues_count": 4,
+    "license": {
+      "key": "lgpl-3.0",
+      "name": "GNU Lesser General Public License v3.0",
+      "spdx_id": "LGPL-3.0",
+      "url": "https://api.github.com/licenses/lgpl-3.0",
+      "node_id": "MDc6TGljZW5zZTEy"
+    },
+    "subscribers_count": 6,
+    "owner": {
+      "html_url": "https://github.com/Sydney-Informatics-Hub",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38518764?v=4",
+      "login": "Sydney-Informatics-Hub",
+      "type": "Organization"
+    },
+    "timestamp": "2023-09-17 00:33:46.226801",
+    "avatar": "https://avatars.githubusercontent.com/u/38518764?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install geodata-harvester\"",
+        "\"This software was developed by the Sydney Informatics Hub, a core research facility of the University of Sydney\"",
+        "\"The Geodata-Harvester Python package offers reusable and automated workflows for data extraction from a wide range of geospatial and environmental data sources... as a ready-made dataset for machine learning and environmental models.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T20:23:05Z"
+    }
+  }
+}

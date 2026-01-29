@@ -1,60 +1,279 @@
 {
-    "parser": "github",
-    "uid": "github/gear-genomics/tracy",
+  "parser": "github",
+  "uid": "github/gear-genomics/tracy",
+  "url": "https://github.com/gear-genomics/tracy",
+  "data": {
+    "title": "Tracy",
     "url": "https://github.com/gear-genomics/tracy",
-    "data": {
-        "title": "Tracy",
-        "url": "https://github.com/gear-genomics/tracy",
-        "credit": [],
-        "tags": [
-            "read-quality-control",
-            "other"
-        ],
-        "description": "Basecalling, alignment, assembly and deconvolution of Sanger Chromatogram trace files",
-        "name": "tracy",
-        "full_name": "gear-genomics/tracy",
-        "html_url": "https://github.com/gear-genomics/tracy",
-        "created_at": "2018-06-14T09:54:24Z",
-        "updated_at": "2022-06-13T02:10:08Z",
-        "clone_url": "https://github.com/gear-genomics/tracy.git",
-        "homepage": "https://www.gear-genomics.com/",
-        "size": 2582,
-        "stargazers_count": 66,
-        "watchers_count": 66,
-        "language": "C++",
-        "open_issues_count": 3,
-        "license": {
-            "key": "bsd-3-clause",
-            "name": "BSD 3-Clause \"New\" or \"Revised\" License",
-            "spdx_id": "BSD-3-Clause",
-            "url": "https://api.github.com/licenses/bsd-3-clause",
-            "node_id": "MDc6TGljZW5zZTU="
-        },
-        "subscribers_count": 6,
-        "owner": {
-            "html_url": "https://github.com/gear-genomics",
-            "avatar_url": "https://avatars.githubusercontent.com/u/31348883?v=4",
-            "login": "gear-genomics",
-            "type": "Organization"
-        },
-        "topics": [
-            "chromatogram",
-            "pcr",
-            "tracy",
-            "sanger-trace-alignment",
-            "sanger-sequencing",
-            "sequencing",
-            "variant-calling",
-            "alignment",
-            "genetic-engineering",
-            "pcr-products",
-            "crispr-cas9",
-            "crispr-analysis",
-            "indel",
-            "indel-discovery",
-            "sanger-chromatograms"
-        ],
-        "timestamp": "2022-07-18 17:47:17.491397",
-        "avatar": "https://avatars.githubusercontent.com/u/31348883?v=4"
+    "credit": [],
+    "tags": [
+      "read-quality-control",
+      "other"
+    ],
+    "description": "Basecalling, alignment, assembly and deconvolution of Sanger Chromatogram trace files",
+    "name": "tracy",
+    "full_name": "gear-genomics/tracy",
+    "html_url": "https://github.com/gear-genomics/tracy",
+    "created_at": "2018-06-14T09:54:24Z",
+    "updated_at": "2022-06-13T02:10:08Z",
+    "clone_url": "https://github.com/gear-genomics/tracy.git",
+    "homepage": "https://www.gear-genomics.com/",
+    "size": 2582,
+    "stargazers_count": 66,
+    "watchers_count": 66,
+    "language": "C++",
+    "open_issues_count": 3,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "subscribers_count": 6,
+    "owner": {
+      "html_url": "https://github.com/gear-genomics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31348883?v=4",
+      "login": "gear-genomics",
+      "type": "Organization"
+    },
+    "topics": [
+      "chromatogram",
+      "pcr",
+      "tracy",
+      "sanger-trace-alignment",
+      "sanger-sequencing",
+      "sequencing",
+      "variant-calling",
+      "alignment",
+      "genetic-engineering",
+      "pcr-products",
+      "crispr-cas9",
+      "crispr-analysis",
+      "indel",
+      "indel-discovery",
+      "sanger-chromatograms"
+    ],
+    "timestamp": "2022-07-18 17:47:17.491397",
+    "avatar": "https://avatars.githubusercontent.com/u/31348883?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Vendor or commercial entity",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Builds and releases",
+      "distribution_details": "GitHub Releases",
+      "evidence": [
+        "README mentions releases: \"[![GitHub Releases](https://img.shields.io/github/release/gear-genomics/tracy.svg)](https://github.com/gear-genomics/tracy/releases)\"",
+        "\"Tracy: basecalling, alignment, assembly and deconvolution of Sanger Chromatogram trace files\" (domain-specific analysis tool, used directly by researchers).",
+        "\"Tracy is available as a Bioconda package, as a pre-compiled statically linked binary ... or as a Docker container.\" (indicates application-level distribution, including via Bioconda)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:57:40Z"
     }
+  },
+  "openssf_scorecard": {
+    "data": {
+      "date": "2026-01-23T11:25:23-05:00",
+      "repo": {
+        "name": "github.com/gear-genomics/tracy",
+        "commit": "f7c95658b40dd8074b59dbb8e8ea7ab1f0478308"
+      },
+      "scorecard": {
+        "version": "v5.4.0",
+        "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+      },
+      "score": 4.6,
+      "checks": [
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no binaries found in the repo",
+          "name": "Binary-Artifacts",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#binary-artifacts",
+            "short": "Determines if the project has generated executable (binary) artifacts in the source repository."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "branch protection not enabled on development/release branches",
+          "name": "Branch-Protection",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#branch-protection",
+            "short": "Determines if the default and release branches are protected with GitHub's branch protection settings."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "5 out of 5 merged PRs checked by a CI test -- score normalized to 10",
+          "name": "CI-Tests",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#ci-tests",
+            "short": "Determines if the project runs tests before pull requests are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no effort to earn an OpenSSF best practices badge detected",
+          "name": "CII-Best-Practices",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#cii-best-practices",
+            "short": "Determines if the project has an OpenSSF (formerly CII) Best Practices Badge."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "Found 0/20 approved changesets -- score normalized to 0",
+          "name": "Code-Review",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#code-review",
+            "short": "Determines if the project requires human code review before pull requests (aka merge requests) are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "project has 6 contributing companies or organizations",
+          "name": "Contributors",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#contributors",
+            "short": "Determines if the project has a set of contributors from multiple organizations (e.g., companies)."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no dangerous workflow patterns detected",
+          "name": "Dangerous-Workflow",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dangerous-workflow",
+            "short": "Determines if the project's GitHub Action workflows avoid dangerous patterns."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "update tool detected",
+          "name": "Dependency-Update-Tool",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dependency-update-tool",
+            "short": "Determines if the project uses a dependency update tool."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "project is not fuzzed",
+          "name": "Fuzzing",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#fuzzing",
+            "short": "Determines if the project uses fuzzing."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "license file detected",
+          "name": "License",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#license",
+            "short": "Determines if the project has defined a license."
+          }
+        },
+        {
+          "details": null,
+          "score": 4,
+          "reason": "4 commit(s) and 1 issue activity found in the last 90 days -- score normalized to 4",
+          "name": "Maintained",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#maintained",
+            "short": "Determines if the project is \"actively maintained\"."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "packaging workflow detected",
+          "name": "Packaging",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#packaging",
+            "short": "Determines if the project is published as a package that others can easily download, install, easily update, and uninstall."
+          }
+        },
+        {
+          "details": null,
+          "score": 2,
+          "reason": "dependency not pinned by hash detected -- score normalized to 2",
+          "name": "Pinned-Dependencies",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#pinned-dependencies",
+            "short": "Determines if the project has declared and pinned the dependencies of its build process."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "SAST tool is not run on all commits -- score normalized to 0",
+          "name": "SAST",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#sast",
+            "short": "Determines if the project uses static code analysis."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "security policy file not detected",
+          "name": "Security-Policy",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#security-policy",
+            "short": "Determines if the project has published a security policy."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "Project has not signed or included provenance with any releases.",
+          "name": "Signed-Releases",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#signed-releases",
+            "short": "Determines if the project cryptographically signs release artifacts."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "detected GitHub workflow tokens with excessive permissions",
+          "name": "Token-Permissions",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#token-permissions",
+            "short": "Determines if the project's workflows follow the principle of least privilege."
+          }
+        },
+        {
+          "details": null,
+          "score": 9,
+          "reason": "1 existing vulnerabilities detected",
+          "name": "Vulnerabilities",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#vulnerabilities",
+            "short": "Determines if the project has open, known unfixed vulnerabilities."
+          }
+        }
+      ],
+      "metadata": null
+    },
+    "timestamp_utc": "2026-01-23T16:25:35Z"
+  }
 }

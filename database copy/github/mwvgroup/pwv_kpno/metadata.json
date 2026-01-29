@@ -1,0 +1,63 @@
+{
+  "parser": "github",
+  "uid": "github/mwvgroup/pwv_kpno",
+  "url": "https://github.com/mwvgroup/pwv_kpno",
+  "data": {
+    "doi": [
+      "http://adsabs.harvard.edu/abs/2018arXiv180609701P",
+      "https://ui.adsabs.harvard.edu/abs/2018ascl.soft06032P/abstract"
+    ],
+    "title": "pwv_kpno: Modeling atmospheric absorption",
+    "url": "https://github.com/mwvgroup/pwv_kpno",
+    "name": "pwv_kpno",
+    "full_name": "mwvgroup/pwv_kpno",
+    "html_url": "https://github.com/mwvgroup/pwv_kpno",
+    "description": "GPS modeling of the H20 atmospheric transmission at user customizable sites",
+    "created_at": "2017-02-24T19:59:30Z",
+    "updated_at": "2021-03-15T22:31:00Z",
+    "clone_url": "https://github.com/mwvgroup/pwv_kpno.git",
+    "homepage": "https://mwvgroup.github.io/pwv_kpno/",
+    "size": 102687,
+    "stargazers_count": 9,
+    "watchers_count": 9,
+    "language": "Python",
+    "open_issues_count": 1,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/mwvgroup",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17320017?v=4",
+      "login": "mwvgroup",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-17 17:18:21.907976",
+    "avatar": "https://avatars.githubusercontent.com/u/17320017?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"pwv_kpno is a Python package for modeling the atmospheric absorption due to H2O.\"",
+        "Badges and links indicate a research codebase tied to an arXiv paper (astro-ph.IM-arXiv:1806.09701), suggesting use in scientific analysis.",
+        "The README only references the GitHub repository and documentation site; no mention of PyPI or other package registries as an installation pathway."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T01:30:28Z"
+    }
+  }
+}

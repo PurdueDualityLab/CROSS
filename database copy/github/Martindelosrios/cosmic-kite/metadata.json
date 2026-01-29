@@ -1,0 +1,51 @@
+{
+  "parser": "github",
+  "uid": "github/Martindelosrios/cosmic-kite",
+  "url": "https://github.com/Martindelosrios/cosmic-kite",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2022MNRAS.511.5525D",
+      "https://ui.adsabs.harvard.edu/abs/2022ascl.soft07004D/abstract"
+    ],
+    "title": "cosmic-kite: Auto-encoding the Cosmic Microwave Background",
+    "url": "https://github.com/Martindelosrios/cosmic-kite",
+    "name": "cosmic-kite",
+    "full_name": "Martindelosrios/cosmic-kite",
+    "html_url": "https://github.com/Martindelosrios/cosmic-kite",
+    "created_at": "2020-11-27T20:54:02Z",
+    "updated_at": "2022-01-05T03:15:29Z",
+    "clone_url": "https://github.com/Martindelosrios/cosmic-kite.git",
+    "size": 1491637,
+    "language": "Python",
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/Martindelosrios",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18489439?v=4",
+      "login": "Martindelosrios",
+      "type": "User"
+    },
+    "timestamp": "2022-07-31 00:40:20.735347",
+    "avatar": "https://avatars.githubusercontent.com/u/18489439?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Cosmic-kite is a python software for the fast estimation of the TT Cosmic Microwave Background (CMB) power spectra corresponding to a set of cosmological parameters... or to estimate the maximum-likelihood cosmological parameters from a power spectra.\"",
+        "\"Cosmic-kite can be easylly installed in a python enviroment by doing: `pip install git+https://github.com/Martindelosrios/cosmic-kite`\" (installation directly from GitHub repo URL)",
+        "\"Authors\n\nMartín de los Rios. Posdoctoral Resarcher @IFT/UAM.\" (single named author/maintainer)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T19:06:10Z"
+    }
+  }
+}

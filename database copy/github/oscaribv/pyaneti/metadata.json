@@ -1,0 +1,71 @@
+{
+  "parser": "github",
+  "uid": "github/oscaribv/pyaneti",
+  "url": "https://github.com/oscaribv/pyaneti",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2016AJ....152..193B",
+      "https://ui.adsabs.harvard.edu/abs/2019MNRAS.482.1017B",
+      "https://ui.adsabs.harvard.edu/abs/2017ascl.soft07003B/abstract"
+    ],
+    "title": "pyaneti: Multi-planet radial velocity and transit fitting",
+    "url": "https://github.com/oscaribv/pyaneti",
+    "name": "pyaneti",
+    "full_name": "oscaribv/pyaneti",
+    "html_url": "https://github.com/oscaribv/pyaneti",
+    "description": "A multi-planet Radial Velocity and Transit modelling software",
+    "created_at": "2017-02-10T15:41:49Z",
+    "updated_at": "2021-11-26T11:24:59Z",
+    "clone_url": "https://github.com/oscaribv/pyaneti.git",
+    "size": 9674,
+    "stargazers_count": 26,
+    "watchers_count": 26,
+    "language": "Jupyter Notebook",
+    "open_issues_count": 4,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 6,
+    "owner": {
+      "html_url": "https://github.com/oscaribv",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8753089?v=4",
+      "login": "oscaribv",
+      "type": "User"
+    },
+    "topics": [
+      "exoplanets",
+      "planets",
+      "mcmc",
+      "radial-velocities",
+      "multi-planet-fitting",
+      "transiting-planets"
+    ],
+    "timestamp": "2022-07-17 17:20:09.732185",
+    "avatar": "https://avatars.githubusercontent.com/u/8753089?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "Owner is a GitHub user account: owner_login: oscaribv; contact email given as a single person: \"email:  oscar.barragan_at_physics.ox.ac.uk\"",
+        "\"PYANETI: a fast and powerful software suite for multiplanet radial velocity and transit fitting\" and description of features like \"Transit fits for single transits\", \"Multi-planet fitting\", \"Joint RV + transit fitting\" indicate it is an analysis application users run on data.",
+        "README asks users to cite papers when they \"use pyaneti in your research\" and describes numerical/analysis methods, showing it directly produces scientific analysis results."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T01:45:07Z"
+    }
+  }
+}

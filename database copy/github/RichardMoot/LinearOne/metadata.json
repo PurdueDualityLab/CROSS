@@ -1,0 +1,69 @@
+{
+  "parser": "github",
+  "uid": "github/RichardMoot/LinearOne",
+  "url": "https://github.com/RichardMoot/LinearOne",
+  "data": {
+    "name": "LinearOne",
+    "url": "https://github.com/RichardMoot/LinearOne",
+    "full_name": "RichardMoot/LinearOne",
+    "html_url": "https://github.com/RichardMoot/LinearOne",
+    "private": false,
+    "description": "LinearOne is a prototype theorem prover for first-order (multiplicative, intuitionistic) linear logic.",
+    "created_at": "2015-02-26T12:27:13Z",
+    "updated_at": "2023-04-28T02:42:51Z",
+    "clone_url": "https://github.com/RichardMoot/LinearOne.git",
+    "homepage": "",
+    "size": 576,
+    "stargazers_count": 17,
+    "watchers_count": 17,
+    "language": "Prolog",
+    "open_issues_count": 5,
+    "license": {
+      "key": "lgpl-2.1",
+      "name": "GNU Lesser General Public License v2.1",
+      "spdx_id": "LGPL-2.1",
+      "url": "https://api.github.com/licenses/lgpl-2.1",
+      "node_id": "MDc6TGljZW5zZTEx"
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/RichardMoot",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1473033?v=4",
+      "login": "RichardMoot",
+      "type": "User"
+    },
+    "topics": [
+      "linear-logic",
+      "first-order-logic",
+      "theorem-proving",
+      "proof-net",
+      "displacement-calculus-grammars",
+      "swi-prolog",
+      "logic-programming",
+      "latex"
+    ],
+    "timestamp": "2023-07-02 01:41:35.233640",
+    "avatar": "https://avatars.githubusercontent.com/u/1473033?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"LinearOne is a prototype theorem prover/parser for first-order (multiplicative, intuitionistic) linear logic.\"",
+        "\"LinearOne is a set of SWI Prolog files\" and usage is via SWI Prolog commands like `parse([...], s).` indicating an end-user tool rather than a library dependency.",
+        "\"After downloading, enter the LinearOne directory and type. `swipl`\" and then load `[mill1,d_grammar].` – instructions focus on cloning/downloading and running from the source directory, with no mention of package managers or binary releases."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T20:09:36Z"
+    }
+  }
+}

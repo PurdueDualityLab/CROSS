@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/jianghuaijie/scLRTC",
+  "url": "https://github.com/jianghuaijie/scLRTC",
+  "data": {
+    "timestamp": "2022-01-30 00:37:11.537439",
+    "name": "scLRTC",
+    "url": "https://api.github.com/repos/jianghuaijie/scLRTC",
+    "full_name": "jianghuaijie/scLRTC",
+    "html_url": "https://github.com/jianghuaijie/scLRTC",
+    "private": false,
+    "description": "scLRTC:imputation for single-cell RNA-seq data via low rank tensor completion",
+    "created_at": "2021-02-05T03:47:29Z",
+    "updated_at": "2022-01-05T12:45:06Z",
+    "clone_url": "https://github.com/jianghuaijie/scLRTC.git",
+    "homepage": null,
+    "size": 4575,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "R",
+    "open_issues_count": 0,
+    "license": null,
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/jianghuaijie",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30695578?v=4",
+      "login": "jianghuaijie",
+      "type": "User"
+    },
+    "topics": []
+  },
+  "doi": "10.1186/s12864-021-08101-3",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"scLRTC is a Matlab package for imputing for scRNA-seq. The imputed expression matrix from scLRTC can be used as inputs for other existing scRNA-seq pipelines or tools for downstream analyses\"",
+        "\"scLRTC() is the main function to recovery scRNA-seq data. We provided demo.m file to introduce how to change the parameters used in scLRTC. Here, you’ll get to know how to use scLRTC.\"",
+        "\"We provide the downstream analysis code and it can be found in the \"analysis\" folder.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:34:06Z"
+    }
+  }
+}

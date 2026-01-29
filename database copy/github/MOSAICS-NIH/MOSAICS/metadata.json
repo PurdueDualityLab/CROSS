@@ -1,0 +1,68 @@
+{
+  "parser": "github",
+  "uid": "github/MOSAICS-NIH/MOSAICS",
+  "url": "https://github.com/MOSAICS-NIH/MOSAICS",
+  "data": {
+    "doi": "10.1016/J.BPJ.2022.11.005",
+    "name": "MOSAICS",
+    "url": "https://github.com/MOSAICS-NIH/MOSAICS",
+    "full_name": "MOSAICS-NIH/MOSAICS",
+    "html_url": "https://github.com/MOSAICS-NIH/MOSAICS",
+    "description": "A collection of tools for characterizing membrane structure and dynamics within simulated trajectories of molecular systems.",
+    "created_at": "2022-09-23T19:50:55Z",
+    "updated_at": "2022-11-11T17:04:39Z",
+    "clone_url": "https://github.com/MOSAICS-NIH/MOSAICS.git",
+    "size": 275126,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "C++",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "owner": {
+      "html_url": "https://github.com/MOSAICS-NIH",
+      "avatar_url": "https://avatars.githubusercontent.com/u/113941588?v=4",
+      "login": "MOSAICS-NIH",
+      "type": "Organization"
+    },
+    "topics": [
+      "biophysics",
+      "dynamics",
+      "grid",
+      "lattice",
+      "lipids",
+      "membrane",
+      "mosaics",
+      "simulations",
+      "structure",
+      "nih"
+    ],
+    "timestamp": "2023-02-05 00:42:32.501848",
+    "avatar": "https://avatars.githubusercontent.com/u/113941588?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"MOSAICS is a collection of tools for characterizing membrane **structure** and **dynamics** within simulated trajectories of molecular systems.\"",
+        "\"To ensure peak performance, we have programmed MOSAICS in C++ and implemented a trajectory reading framework...\" and example workflow with `do_analysis.sh` indicate it is run as an end-user analysis suite, not just a library.",
+        "Installation and use are described via cloning/building from the repo: commands like `cd MOSAICS`, `mkdir build`, `cmake ...` with no mention of package managers or binaries, implying source-based distribution."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T19:04:33Z"
+    }
+  }
+}

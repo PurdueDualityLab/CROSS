@@ -1,0 +1,52 @@
+{
+  "parser": "github",
+  "uid": "github/shahmoradi/grb_world",
+  "url": "https://github.com/shahmoradi/grb_world",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2013ApJ...766..111S",
+      "https://ui.adsabs.harvard.edu/abs/2017ascl.soft12016S/abstract"
+    ],
+    "title": "LgrbWorldModel: Long-duration Gamma-Ray Burst World Model",
+    "url": "https://github.com/shahmoradi/grb_world",
+    "name": "grb_world",
+    "full_name": "shahmoradi/grb_world",
+    "html_url": "https://github.com/shahmoradi/grb_world",
+    "description": "Containing codes for the SGRB and LGRB world models",
+    "created_at": "2015-01-01T22:25:33Z",
+    "updated_at": "2022-01-11T02:26:17Z",
+    "clone_url": "https://github.com/shahmoradi/grb_world.git",
+    "size": 150813,
+    "language": "Fortran",
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/shahmoradi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4683401?v=4",
+      "login": "shahmoradi",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:19:24.983833",
+    "avatar": "https://avatars.githubusercontent.com/u/4683401?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This repository contains data, codes, and the results for the analysis and modelling of BATSE Long and Short GRB samples.\"",
+        "\"If you use any of the algorithms, codes or the results presented in this repository, we kindly ask you to cite the following two papers\" (indicating research analysis software).",
+        "\"Last updated: Thursday 1:14 PM, April 23 2015, by Amir Shahmoradi, Institute for Fusion Studies, The University of Texas at Austin\" (single named maintainer; no mention of package managers or binaries, implying source-based use)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T03:24:02Z"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/FCS-analysis/multipletau",
+  "url": "https://github.com/FCS-analysis/multipletau",
+  "data": {
+    "url": "https://github.com/FCS-analysis/multipletau",
+    "title": "Python3-multipletau",
+    "description": "python multiple-tau correlation algorithm",
+    "name": "multipletau",
+    "full_name": "FCS-analysis/multipletau",
+    "html_url": "https://github.com/FCS-analysis/multipletau",
+    "created_at": "2012-11-25T16:57:06Z",
+    "updated_at": "2022-01-07T10:08:48Z",
+    "clone_url": "https://github.com/FCS-analysis/multipletau.git",
+    "homepage": "https://multipletau.readthedocs.io",
+    "size": 2225,
+    "stargazers_count": 12,
+    "watchers_count": 12,
+    "language": "Python",
+    "open_issues_count": 2,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "subscribers_count": 9,
+    "owner": {
+      "html_url": "https://github.com/FCS-analysis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16266790?v=4",
+      "login": "FCS-analysis",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-20 17:30:43.385098",
+    "avatar": "https://avatars.githubusercontent.com/u/16266790?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install -r requirements.txt\"",
+        "README only documents how to build the documentation with Sphinx: `To compile the documentation, run sphinx-build . _build`",
+        "Installation is via `pip install -r requirements.txt`, implying use as a Python project but without mention of a package registry in the README."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T17:09:57Z"
+    }
+  }
+}

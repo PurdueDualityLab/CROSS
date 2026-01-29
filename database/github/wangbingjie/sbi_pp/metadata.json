@@ -1,45 +1,264 @@
 {
-    "parser": "github",
-    "uid": "github/wangbingjie/sbi_pp",
+  "parser": "github",
+  "uid": "github/wangbingjie/sbi_pp",
+  "url": "https://github.com/wangbingjie/sbi_pp",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2023ApJ...952L..10W",
+      "https://ui.adsabs.harvard.edu/abs/2025ascl.soft06016W/abstract"
+    ],
+    "title": "SBI++: Simulation-based (likelihood-free) inference for astronomical applications",
     "url": "https://github.com/wangbingjie/sbi_pp",
-    "data": {
-        "doi": [
-            "https://ui.adsabs.harvard.edu/abs/2023ApJ...952L..10W",
-            "https://ui.adsabs.harvard.edu/abs/2025ascl.soft06016W/abstract"
-        ],
-        "title": "SBI++: Simulation-based (likelihood-free) inference for astronomical applications",
-        "url": "https://github.com/wangbingjie/sbi_pp",
-        "name": "sbi_pp",
-        "full_name": "wangbingjie/sbi_pp",
-        "html_url": "https://github.com/wangbingjie/sbi_pp",
-        "description": "Simulation-based (likelihood-free) inference customized for astronomical applications",
-        "created_at": "2023-02-23T20:08:13Z",
-        "updated_at": "2025-07-04T17:58:38Z",
-        "clone_url": "https://github.com/wangbingjie/sbi_pp.git",
-        "size": 506,
-        "stargazers_count": 29,
-        "watchers_count": 29,
-        "language": "Jupyter Notebook",
-        "open_issues_count": 1,
-        "license": {
-            "key": "mit",
-            "name": "MIT License",
-            "spdx_id": "MIT",
-            "url": "https://api.github.com/licenses/mit",
-            "node_id": "MDc6TGljZW5zZTEz"
-        },
-        "subscribers_count": 4,
-        "owner": {
-            "html_url": "https://github.com/wangbingjie",
-            "avatar_url": "https://avatars.githubusercontent.com/u/12805735?v=4",
-            "login": "wangbingjie",
-            "type": "User"
-        },
-        "topics": [
-            "sed-fitting",
-            "simulation-based-inference"
-        ],
-        "timestamp": "2025-07-13 01:00:09.969418",
-        "avatar": "https://avatars.githubusercontent.com/u/12805735?v=4"
+    "name": "sbi_pp",
+    "full_name": "wangbingjie/sbi_pp",
+    "html_url": "https://github.com/wangbingjie/sbi_pp",
+    "description": "Simulation-based (likelihood-free) inference customized for astronomical applications",
+    "created_at": "2023-02-23T20:08:13Z",
+    "updated_at": "2025-07-04T17:58:38Z",
+    "clone_url": "https://github.com/wangbingjie/sbi_pp.git",
+    "size": 506,
+    "stargazers_count": 29,
+    "watchers_count": 29,
+    "language": "Jupyter Notebook",
+    "open_issues_count": 1,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/wangbingjie",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12805735?v=4",
+      "login": "wangbingjie",
+      "type": "User"
+    },
+    "topics": [
+      "sed-fitting",
+      "simulation-based-inference"
+    ],
+    "timestamp": "2025-07-13 01:00:09.969418",
+    "avatar": "https://avatars.githubusercontent.com/u/12805735?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"A complete methodology based on simulation-based (likelihood-free) inference that is customized for astronomical applications.\"",
+        "\"This repository contains the following scripts: * `sbi_train.py`, which illustrates how to train an SBI model * `sbi_pp.py`, which includes all the functions implementing SBI++ * `tutorial.ipynb`, which is a short tutorial showing the workings of SBI++\"",
+        "\"If you find this code useful in your research, please cite [Wang et al., 2023]\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T04:50:59Z"
     }
+  },
+  "openssf_scorecard": {
+    "data": {
+      "date": "2026-01-23T15:32:26-05:00",
+      "repo": {
+        "name": "github.com/wangbingjie/sbi_pp",
+        "commit": "9be369383b241f6e2b38821d376882cbb2a4af22"
+      },
+      "scorecard": {
+        "version": "v5.4.0",
+        "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+      },
+      "score": 2.7,
+      "checks": [
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no binaries found in the repo",
+          "name": "Binary-Artifacts",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#binary-artifacts",
+            "short": "Determines if the project has generated executable (binary) artifacts in the source repository."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "branch protection not enabled on development/release branches",
+          "name": "Branch-Protection",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#branch-protection",
+            "short": "Determines if the default and release branches are protected with GitHub's branch protection settings."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no pull request found",
+          "name": "CI-Tests",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#ci-tests",
+            "short": "Determines if the project runs tests before pull requests are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no effort to earn an OpenSSF best practices badge detected",
+          "name": "CII-Best-Practices",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#cii-best-practices",
+            "short": "Determines if the project has an OpenSSF (formerly CII) Best Practices Badge."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "Found 0/5 approved changesets -- score normalized to 0",
+          "name": "Code-Review",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#code-review",
+            "short": "Determines if the project requires human code review before pull requests (aka merge requests) are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 3,
+          "reason": "project has 1 contributing companies or organizations -- score normalized to 3",
+          "name": "Contributors",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#contributors",
+            "short": "Determines if the project has a set of contributors from multiple organizations (e.g., companies)."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no workflows found",
+          "name": "Dangerous-Workflow",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dangerous-workflow",
+            "short": "Determines if the project's GitHub Action workflows avoid dangerous patterns."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no update tool detected",
+          "name": "Dependency-Update-Tool",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dependency-update-tool",
+            "short": "Determines if the project uses a dependency update tool."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "project is not fuzzed",
+          "name": "Fuzzing",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#fuzzing",
+            "short": "Determines if the project uses fuzzing."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "license file detected",
+          "name": "License",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#license",
+            "short": "Determines if the project has defined a license."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0",
+          "name": "Maintained",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#maintained",
+            "short": "Determines if the project is \"actively maintained\"."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "packaging workflow not detected",
+          "name": "Packaging",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#packaging",
+            "short": "Determines if the project is published as a package that others can easily download, install, easily update, and uninstall."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no dependencies found",
+          "name": "Pinned-Dependencies",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#pinned-dependencies",
+            "short": "Determines if the project has declared and pinned the dependencies of its build process."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no SAST tool detected",
+          "name": "SAST",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#sast",
+            "short": "Determines if the project uses static code analysis."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "security policy file not detected",
+          "name": "Security-Policy",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#security-policy",
+            "short": "Determines if the project has published a security policy."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no releases found",
+          "name": "Signed-Releases",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#signed-releases",
+            "short": "Determines if the project cryptographically signs release artifacts."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "No tokens found",
+          "name": "Token-Permissions",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#token-permissions",
+            "short": "Determines if the project's workflows follow the principle of least privilege."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "0 existing vulnerabilities detected",
+          "name": "Vulnerabilities",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#vulnerabilities",
+            "short": "Determines if the project has open, known unfixed vulnerabilities."
+          }
+        }
+      ],
+      "metadata": null
+    },
+    "timestamp_utc": "2026-01-23T20:32:29Z"
+  }
 }

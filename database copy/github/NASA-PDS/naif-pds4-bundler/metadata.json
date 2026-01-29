@@ -1,0 +1,70 @@
+{
+  "parser": "github",
+  "uid": "github/NASA-PDS/naif-pds4-bundler",
+  "url": "https://github.com/NASA-PDS/naif-pds4-bundler",
+  "data": {
+    "timestamp": "2022-07-10 00:42:52.663340",
+    "name": "naif-pds4-bundler",
+    "url": "https://api.github.com/repos/NASA-PDS/naif-pds4-bundler",
+    "full_name": "NASA-PDS/naif-pds4-bundler",
+    "html_url": "https://github.com/NASA-PDS/naif-pds4-bundler",
+    "private": false,
+    "description": "Package to generate PDS4 SPICE Kernels Archives",
+    "created_at": "2021-09-22T14:10:34Z",
+    "updated_at": "2022-07-07T21:00:53Z",
+    "clone_url": "https://github.com/NASA-PDS/naif-pds4-bundler.git",
+    "homepage": "https://NASA-PDS.github.io/naif-pds4-bundler",
+    "size": 35987,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "HCL",
+    "open_issues_count": 13,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/NASA-PDS",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46757714?v=4",
+      "login": "NASA-PDS",
+      "type": "Organization"
+    },
+    "topics": [
+      "python",
+      "planetary-science",
+      "planetary-data",
+      "data",
+      "archive",
+      "spice",
+      "geometry",
+      "geometry-processing",
+      "navigation"
+    ]
+  },
+  "doi": "https://doi.org/10.5281/zenodo.6800348",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install naif-pds4-bundler\"",
+        "\"Software package by NASA's Navigation and Ancillary Information Facility\" (institutional NASA facility)",
+        "\"Install with: pip install naif-pds4-bundler\" (Python package registry distribution via PyPI)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T19:33:22Z"
+    }
+  }
+}

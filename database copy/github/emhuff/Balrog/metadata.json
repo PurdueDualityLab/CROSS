@@ -1,0 +1,55 @@
+{
+  "parser": "github",
+  "uid": "github/emhuff/Balrog",
+  "url": "https://github.com/emhuff/Balrog",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2015MNRAS.449.2219M",
+      "https://ui.adsabs.harvard.edu/abs/2021ascl.soft07009S/abstract"
+    ],
+    "title": "Balrog: Astronomical image simulation",
+    "url": "https://github.com/emhuff/Balrog",
+    "name": "Balrog",
+    "full_name": "emhuff/Balrog",
+    "html_url": "https://github.com/emhuff/Balrog",
+    "description": "DES image simulation software: We dug too deeply and too greedily",
+    "created_at": "2013-04-10T23:51:56Z",
+    "updated_at": "2021-04-12T20:04:36Z",
+    "clone_url": "https://github.com/emhuff/Balrog.git",
+    "size": 89023,
+    "stargazers_count": 9,
+    "watchers_count": 9,
+    "language": "Python",
+    "open_issues_count": 10,
+    "subscribers_count": 13,
+    "owner": {
+      "html_url": "https://github.com/emhuff",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2623781?v=4",
+      "login": "emhuff",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:11:31.483479",
+    "avatar": "https://avatars.githubusercontent.com/u/2623781?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Unknown",
+      "research_role": "Unknown",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This package needs a better README. Stay tuned.\" (indicates a code package, but no detail on role)",
+        "\"The doc/ directory has a PDF file. Lots of documenation is there.\" (suggests users access docs within the repo, consistent with source distribution)",
+        "Reference to a wiki page and internal DES context, but no mention of package managers, binaries, or services, implying use via the repository itself."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T23:44:21Z"
+    }
+  }
+}

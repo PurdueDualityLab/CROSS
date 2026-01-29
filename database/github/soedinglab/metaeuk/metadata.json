@@ -1,50 +1,269 @@
 {
-    "parser": "github",
-    "uid": "github/soedinglab/metaeuk",
+  "parser": "github",
+  "uid": "github/soedinglab/metaeuk",
+  "url": "https://github.com/soedinglab/metaeuk",
+  "data": {
+    "title": "MetaEuk",
     "url": "https://github.com/soedinglab/metaeuk",
-    "data": {
-        "title": "MetaEuk",
-        "url": "https://github.com/soedinglab/metaeuk",
-        "credit": [],
-        "tags": [
-            "metagenomic-sequencing-analysis",
-            "high-throughput-sequencing"
-        ],
-        "description": "MetaEuk - sensitive, high-throughput gene discovery and annotation for large-scale eukaryotic metagenomics",
-        "name": "metaeuk",
-        "full_name": "soedinglab/metaeuk",
-        "html_url": "https://github.com/soedinglab/metaeuk",
-        "created_at": "2018-03-07T09:37:56Z",
-        "updated_at": "2022-06-15T01:19:14Z",
-        "clone_url": "https://github.com/soedinglab/metaeuk.git",
-        "homepage": "https://metaeuk.soedinglab.org",
-        "size": 13965,
-        "stargazers_count": 103,
-        "watchers_count": 103,
-        "language": "C",
-        "open_issues_count": 12,
-        "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "spdx_id": "GPL-3.0",
-            "url": "https://api.github.com/licenses/gpl-3.0",
-            "node_id": "MDc6TGljZW5zZTk="
-        },
-        "subscribers_count": 7,
-        "owner": {
-            "html_url": "https://github.com/soedinglab",
-            "avatar_url": "https://avatars.githubusercontent.com/u/7237671?v=4",
-            "login": "soedinglab",
-            "type": "Organization"
-        },
-        "topics": [
-            "metagenomics",
-            "eukaryotes",
-            "gene-prediction",
-            "gene-discovery",
-            "bioinformatics"
-        ],
-        "timestamp": "2022-07-18 17:45:46.070902",
-        "avatar": "https://avatars.githubusercontent.com/u/7237671?v=4"
+    "credit": [],
+    "tags": [
+      "metagenomic-sequencing-analysis",
+      "high-throughput-sequencing"
+    ],
+    "description": "MetaEuk - sensitive, high-throughput gene discovery and annotation for large-scale eukaryotic metagenomics",
+    "name": "metaeuk",
+    "full_name": "soedinglab/metaeuk",
+    "html_url": "https://github.com/soedinglab/metaeuk",
+    "created_at": "2018-03-07T09:37:56Z",
+    "updated_at": "2022-06-15T01:19:14Z",
+    "clone_url": "https://github.com/soedinglab/metaeuk.git",
+    "homepage": "https://metaeuk.soedinglab.org",
+    "size": 13965,
+    "stargazers_count": 103,
+    "watchers_count": 103,
+    "language": "C",
+    "open_issues_count": 12,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 7,
+    "owner": {
+      "html_url": "https://github.com/soedinglab",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7237671?v=4",
+      "login": "soedinglab",
+      "type": "Organization"
+    },
+    "topics": [
+      "metagenomics",
+      "eukaryotes",
+      "gene-prediction",
+      "gene-discovery",
+      "bioinformatics"
+    ],
+    "timestamp": "2022-07-18 17:45:46.070902",
+    "avatar": "https://avatars.githubusercontent.com/u/7237671?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "conda-forge",
+      "evidence": [
+        "README install command: \"conda install -c conda-forge -c bioconda metaeuk\"",
+        "Owner is GitHub organization `soedinglab`, and README links to a lab publication: “Levy Karin E, Mirdita M and Soeding J. MetaEuk – sensitive, high-throughput gene discovery and annotation for large-scale eukaryotic metagenomics.”",
+        "“MetaEuk is a modular toolkit designed for large-scale gene discovery and annotation in eukaryotic metagenomic contigs.” (end users run `metaeuk` commands and workflows)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T03:32:28Z"
     }
+  },
+  "openssf_scorecard": {
+    "data": {
+      "date": "2026-01-23T14:58:37-05:00",
+      "repo": {
+        "name": "github.com/soedinglab/metaeuk",
+        "commit": "ccf0362597231d1007356672ebfcc715bf1b7554"
+      },
+      "scorecard": {
+        "version": "v5.4.0",
+        "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+      },
+      "score": 4.6,
+      "checks": [
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no binaries found in the repo",
+          "name": "Binary-Artifacts",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#binary-artifacts",
+            "short": "Determines if the project has generated executable (binary) artifacts in the source repository."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "branch protection not enabled on development/release branches",
+          "name": "Branch-Protection",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#branch-protection",
+            "short": "Determines if the default and release branches are protected with GitHub's branch protection settings."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no pull request found",
+          "name": "CI-Tests",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#ci-tests",
+            "short": "Determines if the project runs tests before pull requests are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no effort to earn an OpenSSF best practices badge detected",
+          "name": "CII-Best-Practices",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#cii-best-practices",
+            "short": "Determines if the project has an OpenSSF (formerly CII) Best Practices Badge."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "Found 0/30 approved changesets -- score normalized to 0",
+          "name": "Code-Review",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#code-review",
+            "short": "Determines if the project requires human code review before pull requests (aka merge requests) are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "project has 3 contributing companies or organizations -- score normalized to 10",
+          "name": "Contributors",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#contributors",
+            "short": "Determines if the project has a set of contributors from multiple organizations (e.g., companies)."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no dangerous workflow patterns detected",
+          "name": "Dangerous-Workflow",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dangerous-workflow",
+            "short": "Determines if the project's GitHub Action workflows avoid dangerous patterns."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no update tool detected",
+          "name": "Dependency-Update-Tool",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dependency-update-tool",
+            "short": "Determines if the project uses a dependency update tool."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "project is fuzzed",
+          "name": "Fuzzing",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#fuzzing",
+            "short": "Determines if the project uses fuzzing."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "license file detected",
+          "name": "License",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#license",
+            "short": "Determines if the project has defined a license."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0",
+          "name": "Maintained",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#maintained",
+            "short": "Determines if the project is \"actively maintained\"."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "packaging workflow detected",
+          "name": "Packaging",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#packaging",
+            "short": "Determines if the project is published as a package that others can easily download, install, easily update, and uninstall."
+          }
+        },
+        {
+          "details": null,
+          "score": 1,
+          "reason": "dependency not pinned by hash detected -- score normalized to 1",
+          "name": "Pinned-Dependencies",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#pinned-dependencies",
+            "short": "Determines if the project has declared and pinned the dependencies of its build process."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no SAST tool detected",
+          "name": "SAST",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#sast",
+            "short": "Determines if the project uses static code analysis."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "security policy file not detected",
+          "name": "Security-Policy",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#security-policy",
+            "short": "Determines if the project has published a security policy."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "Project has not signed or included provenance with any releases.",
+          "name": "Signed-Releases",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#signed-releases",
+            "short": "Determines if the project cryptographically signs release artifacts."
+          }
+        },
+        {
+          "details": null,
+          "score": 9,
+          "reason": "detected GitHub workflow tokens with excessive permissions",
+          "name": "Token-Permissions",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#token-permissions",
+            "short": "Determines if the project's workflows follow the principle of least privilege."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "0 existing vulnerabilities detected",
+          "name": "Vulnerabilities",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#vulnerabilities",
+            "short": "Determines if the project has open, known unfixed vulnerabilities."
+          }
+        }
+      ],
+      "metadata": null
+    },
+    "timestamp_utc": "2026-01-23T19:58:45Z"
+  }
 }

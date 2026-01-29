@@ -1,0 +1,70 @@
+{
+  "parser": "github",
+  "uid": "github/ksahlin/strobealign",
+  "url": "https://github.com/ksahlin/strobealign",
+  "data": {
+    "title": "strobealign",
+    "url": "https://github.com/ksahlin/strobealign",
+    "credit": [],
+    "tags": [
+      "read-alignment",
+      "high-throughput-sequencing"
+    ],
+    "description": "Aligns short reads using dynamic seed size with strobemers",
+    "name": "strobealign",
+    "full_name": "ksahlin/strobealign",
+    "html_url": "https://github.com/ksahlin/strobealign",
+    "created_at": "2021-05-23T15:18:06Z",
+    "updated_at": "2023-04-03T05:07:37Z",
+    "clone_url": "https://github.com/ksahlin/strobealign.git",
+    "size": 2113,
+    "stargazers_count": 90,
+    "watchers_count": 90,
+    "language": "C++",
+    "open_issues_count": 33,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 9,
+    "owner": {
+      "html_url": "https://github.com/ksahlin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1714667?v=4",
+      "login": "ksahlin",
+      "type": "User"
+    },
+    "topics": [
+      "alignment",
+      "illumina",
+      "bioinformatics",
+      "strobemers",
+      "short-read-mapping"
+    ],
+    "timestamp": "2023-04-09 00:40:03.519708",
+    "avatar": "https://avatars.githubusercontent.com/u/1714667?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"The resulting binary is `build/strobealign`.\"",
+        "\"strobealign: A fast short-read aligner\" and usage examples like `strobealign -t 8 ref.fa reads...` show it is an end-user command-line tool for read mapping, i.e., an application.",
+        "\"Strobealign is a read mapper that is typically significantly faster than other read mappers while achieving comparable or better accuracy\" and sections on abundance estimation and alignment outputs indicate it directly performs bioinformatics analyses used in research."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:47:59Z"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "parser": "github",
+  "uid": "github/Critical-Infrastructure-Systems-Lab/PowNet",
+  "url": "https://github.com/Critical-Infrastructure-Systems-Lab/PowNet",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.15580622",
+    "name": "PowNet",
+    "url": "https://github.com/Critical-Infrastructure-Systems-Lab/PowNet",
+    "full_name": "Critical-Infrastructure-Systems-Lab/PowNet",
+    "html_url": "https://github.com/Critical-Infrastructure-Systems-Lab/PowNet",
+    "description": "PowNet: Network-constrained Unit Commitment / Economic Dispatch model in Python",
+    "created_at": "2019-09-27T03:03:01Z",
+    "updated_at": "2025-07-18T06:54:21Z",
+    "clone_url": "https://github.com/Critical-Infrastructure-Systems-Lab/PowNet.git",
+    "size": 37642,
+    "stargazers_count": 88,
+    "watchers_count": 88,
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 12,
+    "owner": {
+      "html_url": "https://github.com/Critical-Infrastructure-Systems-Lab",
+      "avatar_url": "https://avatars.githubusercontent.com/u/133989297?v=4",
+      "login": "Critical-Infrastructure-Systems-Lab",
+      "type": "Organization"
+    },
+    "topics": [
+      "power-system-analysis",
+      "unit-commitment",
+      "economic-dispatch",
+      "transmission",
+      "dc-flow",
+      "n-1-criterion",
+      "water-energy-nexus",
+      "python",
+      "dispatchable-units",
+      "renewable-resources",
+      "electricity-supply",
+      "substations"
+    ],
+    "timestamp": "2025-07-20 01:00:58.927561",
+    "avatar": "https://avatars.githubusercontent.com/u/133989297?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install pownet\"",
+        "\"PowNet is an open-source production cost model (PCM) framework written in Python, designed to simulate the operational scheduling of large-scale (regional or national) power systems.\"",
+        "\"PowNet enables analysts to readily study grid operations, VRE integration, and water-energy interactions in a low-code environment.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T16:58:35Z"
+    }
+  }
+}

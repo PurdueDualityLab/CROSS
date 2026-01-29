@@ -1,0 +1,52 @@
+{
+  "parser": "github",
+  "uid": "github/xavierdidelot/clonalorigin",
+  "url": "https://github.com/xavierdidelot/ClonalOrigin",
+  "data": {
+    "url": "https://github.com/xavierdidelot/ClonalOrigin",
+    "title": "Clonalorigin",
+    "description": "Inference of homologous recombination in bacteria using whole genome sequences",
+    "doi": "http://www.genetics.org/content/186/4/1435.abstract",
+    "name": "ClonalOrigin",
+    "full_name": "xavierdidelot/ClonalOrigin",
+    "html_url": "https://github.com/xavierdidelot/ClonalOrigin",
+    "created_at": "2015-06-11T14:25:22Z",
+    "updated_at": "2022-04-12T15:56:51Z",
+    "clone_url": "https://github.com/xavierdidelot/ClonalOrigin.git",
+    "size": 880,
+    "stargazers_count": 6,
+    "watchers_count": 6,
+    "language": "C++",
+    "open_issues_count": 3,
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/xavierdidelot",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11612608?v=4",
+      "login": "xavierdidelot",
+      "type": "User"
+    },
+    "timestamp": "2022-07-20 17:25:50.828946",
+    "avatar": "https://avatars.githubusercontent.com/u/11612608?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"Instructions for how to download and install ClonalOrigin are available at:\"",
+        "\"ClonalOrigin performs a comparative analysis of the sequences of a sample of bacterial genomes in order to reconstruct the recombination events that have taken place in their ancestry.\"",
+        "\"Instructions for how to download and install ClonalOrigin are available at: https://github.com/xavierdidelot/ClonalOrigin/wiki/Install\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:55:17Z"
+    }
+  }
+}

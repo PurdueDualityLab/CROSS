@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/occupationMeasurement/occupationMeasurement",
+  "url": "https://github.com/occupationMeasurement/occupationMeasurement",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.8276813",
+    "name": "occupationMeasurement",
+    "url": "https://github.com/occupationMeasurement/occupationMeasurement",
+    "full_name": "occupationMeasurement/occupationMeasurement",
+    "html_url": "https://github.com/occupationMeasurement/occupationMeasurement",
+    "description": "A package to help with the (interactive) coding and measurement of occupations",
+    "created_at": "2022-09-13T12:29:45Z",
+    "updated_at": "2023-05-17T09:55:55Z",
+    "clone_url": "https://github.com/occupationMeasurement/occupationMeasurement.git",
+    "homepage": "https://occupationmeasurement.github.io/occupationMeasurement/",
+    "size": 8346,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "R",
+    "open_issues_count": 2,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/occupationMeasurement",
+      "avatar_url": "https://avatars.githubusercontent.com/u/113119771?v=4",
+      "login": "occupationMeasurement",
+      "type": "Organization"
+    },
+    "timestamp": "2023-08-27 00:31:55.277294",
+    "avatar": "https://avatars.githubusercontent.com/u/113119771?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"occupationMeasurement\")\"",
+        "\"A toolbox to help you with all tasks around the coding and measurement of occupations.\"",
+        "\"The interactive app is the easiest way to use the package: It provides a fully-featured, interactive survey application to collect and immediately code occupational data.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:41:23Z"
+    }
+  }
+}

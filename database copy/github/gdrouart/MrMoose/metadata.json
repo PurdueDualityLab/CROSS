@@ -1,0 +1,67 @@
+{
+  "parser": "github",
+  "uid": "github/gdrouart/MrMoose",
+  "url": "https://github.com/gdrouart/MrMoose",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2018MNRAS.477.4981D",
+      "https://ui.adsabs.harvard.edu/abs/2018ascl.soft09015D/abstract"
+    ],
+    "title": "MrMoose: Multi-Resolution Multi-Object/Origin Spectral Energy distribution fitting procedure",
+    "url": "https://github.com/gdrouart/MrMoose",
+    "name": "MrMoose",
+    "full_name": "gdrouart/MrMoose",
+    "html_url": "https://github.com/gdrouart/MrMoose",
+    "description": "MrMoose  is a Spectral Energy Distribution fitting procedure  using a Bayesian framework. In a nutshell, this code allows to fit user-defined models onto a set of multi-wavelength data, making use of spatial information and upper-limits with a consistent treatment. The code is highly flexible to allow its use for sources with complex structures.",
+    "created_at": "2017-07-24T08:44:18Z",
+    "updated_at": "2022-02-03T14:25:08Z",
+    "clone_url": "https://github.com/gdrouart/MrMoose.git",
+    "size": 10263,
+    "stargazers_count": 8,
+    "watchers_count": 8,
+    "language": "Python",
+    "open_issues_count": 1,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/gdrouart",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22902215?v=4",
+      "login": "gdrouart",
+      "type": "User"
+    },
+    "topics": [
+      "fitting",
+      "astronomy",
+      "statistics"
+    ],
+    "timestamp": "2022-07-17 17:17:56.304241",
+    "avatar": "https://avatars.githubusercontent.com/u/22902215?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"Download MrMoose from github, either by running in a terminal (require git to be installed)\"",
+        "\"MrMoose stands for Multi-Resolution Multi-Object/Origin Spectral Energy distribution fitting procedure. In a nutshell, this code allows to fit user-defined models onto a set of multi-wavelength data using a Bayesian framework.\"",
+        "\"To run your first fit, after launching ipython: >import mrmoose >tab = mrmoose.SED_fit('fake_source_ex1.fit') will perform your first run and generate your first results!\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:57:34Z"
+    }
+  }
+}

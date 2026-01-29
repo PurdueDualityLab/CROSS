@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/danielhuson/jloda",
+  "url": "https://github.com/husonlab/jloda",
+  "data": {
+    "url": "https://github.com/husonlab/jloda",
+    "title": "Libjloda-java",
+    "description": "JLODA - Java library of data structures and algorithms",
+    "doi": "http://biorxiv.org/content/early/2016/04/27/050559",
+    "name": "jloda",
+    "full_name": "husonlab/jloda",
+    "html_url": "https://github.com/husonlab/jloda",
+    "created_at": "2015-04-23T12:11:26Z",
+    "updated_at": "2022-03-22T08:36:33Z",
+    "clone_url": "https://github.com/husonlab/jloda.git",
+    "size": 22991,
+    "stargazers_count": 7,
+    "watchers_count": 7,
+    "language": "Java",
+    "open_issues_count": 1,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 9,
+    "owner": {
+      "html_url": "https://github.com/husonlab",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6740594?v=4",
+      "login": "husonlab",
+      "type": "User"
+    },
+    "timestamp": "2022-07-20 17:28:59.454795",
+    "avatar": "https://avatars.githubusercontent.com/u/6740594?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"The jloda library provides some basic data structures and algorithms used by SplitsTree, Dendroscope and MEGAN\" (described as a library used by other applications → dependency, and those applications are research tools).",
+        "Owner metadata: owner_login is \"husonlab\" with owner_type \"User\", indicating a lab-associated user account rather than a company or broad community project.",
+        "README presents jloda as a library (not an end-user app) with no mention of package managers or binaries, implying distribution via the source repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T23:25:45Z"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "parser": "github",
+  "uid": "github/timchurches/NetEpi-Analysis",
+  "url": "https://github.com/timchurches/NetEpi-Analysis",
+  "data": {
+    "url": "https://github.com/timchurches/NetEpi-Analysis",
+    "title": "Netepi-analysis",
+    "description": "Web-based object-oriented data exploration and analysis system",
+    "name": "NetEpi-Analysis",
+    "full_name": "timchurches/NetEpi-Analysis",
+    "html_url": "https://github.com/timchurches/NetEpi-Analysis",
+    "created_at": "2015-04-09T08:04:08Z",
+    "updated_at": "2015-10-15T03:52:15Z",
+    "clone_url": "https://github.com/timchurches/NetEpi-Analysis.git",
+    "size": 1144,
+    "language": "Python",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/timchurches",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2859105?v=4",
+      "login": "timchurches",
+      "type": "User"
+    },
+    "timestamp": "2022-07-20 17:30:13.898838",
+    "avatar": "https://avatars.githubusercontent.com/u/2859105?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"* the Albatross web application framework from Object Craft Pty Ltd\"",
+        "\"NetEpi Analysis uses several (somewhat) unusual techniques to ensure reasonable performance when dealing with moderately-sized datasets...\" (describes a domain-specific analysis system, not a generic library)",
+        "\"The web NetEpi Analysis interface can either be run as a simple stand-alone python web server, or it can be run as a CGI or FastCGI script under a web server\" (end-user application/web app usage)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:26:07Z"
+    }
+  }
+}

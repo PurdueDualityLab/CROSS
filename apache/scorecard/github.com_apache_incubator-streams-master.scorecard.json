@@ -1,0 +1,28 @@
+{
+  "repo": "https://github.com/apache/incubator-streams-master",
+  "timestamp_utc": "2026-01-24T02:45:31Z",
+  "repo_metadata": {
+    "name": "incubator-streams-master",
+    "full_name": "apache/incubator-streams-master",
+    "html_url": "https://github.com/apache/incubator-streams-master",
+    "description": "Mirror of Apache Streams Master (Incubating)",
+    "default_branch": "master",
+    "archived": true,
+    "fork": false,
+    "stargazers_count": 1
+  },
+  "data": {
+    "date": "2026-01-23T21:45:31-05:00",
+    "repo": {
+      "name": "github.com/apache/incubator-streams-master",
+      "commit": "HEAD"
+    },
+    "scorecard": {
+      "version": "v5.4.0",
+      "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+    },
+    "score": -1.0,
+    "checks": null,
+    "metadata": null
+  }
+}

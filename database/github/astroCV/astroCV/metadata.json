@@ -1,47 +1,266 @@
 {
-    "parser": "github",
-    "uid": "github/astroCV/astroCV",
+  "parser": "github",
+  "uid": "github/astroCV/astroCV",
+  "url": "https://github.com/astroCV/astroCV",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2018A%26C....25..103G",
+      "https://ui.adsabs.harvard.edu/abs/2018ascl.soft04004G/abstract"
+    ],
+    "title": "AstroCV: Astronomy computer vision library",
     "url": "https://github.com/astroCV/astroCV",
-    "data": {
-        "doi": [
-            "https://ui.adsabs.harvard.edu/abs/2018A%26C....25..103G",
-            "https://ui.adsabs.harvard.edu/abs/2018ascl.soft04004G/abstract"
-        ],
-        "title": "AstroCV: Astronomy computer vision library",
-        "url": "https://github.com/astroCV/astroCV",
-        "name": "astroCV",
-        "full_name": "astroCV/astroCV",
-        "html_url": "https://github.com/astroCV/astroCV",
-        "description": "Computer Vision library for Astronomy",
-        "created_at": "2017-07-08T05:02:06Z",
-        "updated_at": "2022-06-29T16:36:25Z",
-        "clone_url": "https://github.com/astroCV/astroCV.git",
-        "size": 81421,
-        "stargazers_count": 68,
-        "watchers_count": 68,
-        "language": "Jupyter Notebook",
-        "open_issues_count": 3,
-        "license": {
-            "key": "bsd-2-clause",
-            "name": "BSD 2-Clause \"Simplified\" License",
-            "spdx_id": "BSD-2-Clause",
-            "url": "https://api.github.com/licenses/bsd-2-clause",
-            "node_id": "MDc6TGljZW5zZTQ="
-        },
-        "subscribers_count": 7,
-        "owner": {
-            "html_url": "https://github.com/astroCV",
-            "avatar_url": "https://avatars.githubusercontent.com/u/29994772?v=4",
-            "login": "astroCV",
-            "type": "Organization"
-        },
-        "topics": [
-            "computer-vision",
-            "image-processing",
-            "astronomy",
-            "lsst"
-        ],
-        "timestamp": "2022-07-17 17:19:04.235568",
-        "avatar": "https://avatars.githubusercontent.com/u/29994772?v=4"
+    "name": "astroCV",
+    "full_name": "astroCV/astroCV",
+    "html_url": "https://github.com/astroCV/astroCV",
+    "description": "Computer Vision library for Astronomy",
+    "created_at": "2017-07-08T05:02:06Z",
+    "updated_at": "2022-06-29T16:36:25Z",
+    "clone_url": "https://github.com/astroCV/astroCV.git",
+    "size": 81421,
+    "stargazers_count": 68,
+    "watchers_count": 68,
+    "language": "Jupyter Notebook",
+    "open_issues_count": 3,
+    "license": {
+      "key": "bsd-2-clause",
+      "name": "BSD 2-Clause \"Simplified\" License",
+      "spdx_id": "BSD-2-Clause",
+      "url": "https://api.github.com/licenses/bsd-2-clause",
+      "node_id": "MDc6TGljZW5zZTQ="
+    },
+    "subscribers_count": 7,
+    "owner": {
+      "html_url": "https://github.com/astroCV",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29994772?v=4",
+      "login": "astroCV",
+      "type": "Organization"
+    },
+    "topics": [
+      "computer-vision",
+      "image-processing",
+      "astronomy",
+      "lsst"
+    ],
+    "timestamp": "2022-07-17 17:19:04.235568",
+    "avatar": "https://avatars.githubusercontent.com/u/29994772?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"In the traning folder, you can find .py codes to download the images from SDSS, convert them into .jpg and process and prepare files to be traning ready.\"",
+        "\"AstroCV is a package intended to contain computer vision algorithms and methods for processing and analyzing astronomical datasets. The main goal is developing and promoting the use of modern computer vision algorithms for solving scientific problems in astronomy.\"",
+        "\"In README.md you can find a detailed guide on how to train your own network.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T21:26:37Z"
     }
+  },
+  "openssf_scorecard": {
+    "data": {
+      "date": "2026-01-23T09:45:37-05:00",
+      "repo": {
+        "name": "github.com/astroCV/astroCV",
+        "commit": "3641d486d9ed23462f198e53761c6bd2cccd0669"
+      },
+      "scorecard": {
+        "version": "v5.4.0",
+        "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+      },
+      "score": 2.3,
+      "checks": [
+        {
+          "details": null,
+          "score": 0,
+          "reason": "binaries present in source code",
+          "name": "Binary-Artifacts",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#binary-artifacts",
+            "short": "Determines if the project has generated executable (binary) artifacts in the source repository."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "branch protection not enabled on development/release branches",
+          "name": "Branch-Protection",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#branch-protection",
+            "short": "Determines if the default and release branches are protected with GitHub's branch protection settings."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "0 out of 4 merged PRs checked by a CI test -- score normalized to 0",
+          "name": "CI-Tests",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#ci-tests",
+            "short": "Determines if the project runs tests before pull requests are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no effort to earn an OpenSSF best practices badge detected",
+          "name": "CII-Best-Practices",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#cii-best-practices",
+            "short": "Determines if the project has an OpenSSF (formerly CII) Best Practices Badge."
+          }
+        },
+        {
+          "details": null,
+          "score": 5,
+          "reason": "Found 4/8 approved changesets -- score normalized to 5",
+          "name": "Code-Review",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#code-review",
+            "short": "Determines if the project requires human code review before pull requests (aka merge requests) are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "project has 5 contributing companies or organizations",
+          "name": "Contributors",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#contributors",
+            "short": "Determines if the project has a set of contributors from multiple organizations (e.g., companies)."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no workflows found",
+          "name": "Dangerous-Workflow",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dangerous-workflow",
+            "short": "Determines if the project's GitHub Action workflows avoid dangerous patterns."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no update tool detected",
+          "name": "Dependency-Update-Tool",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dependency-update-tool",
+            "short": "Determines if the project uses a dependency update tool."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "project is not fuzzed",
+          "name": "Fuzzing",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#fuzzing",
+            "short": "Determines if the project uses fuzzing."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "license file detected",
+          "name": "License",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#license",
+            "short": "Determines if the project has defined a license."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0",
+          "name": "Maintained",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#maintained",
+            "short": "Determines if the project is \"actively maintained\"."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "packaging workflow not detected",
+          "name": "Packaging",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#packaging",
+            "short": "Determines if the project is published as a package that others can easily download, install, easily update, and uninstall."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no dependencies found",
+          "name": "Pinned-Dependencies",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#pinned-dependencies",
+            "short": "Determines if the project has declared and pinned the dependencies of its build process."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "SAST tool is not run on all commits -- score normalized to 0",
+          "name": "SAST",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#sast",
+            "short": "Determines if the project uses static code analysis."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "security policy file not detected",
+          "name": "Security-Policy",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#security-policy",
+            "short": "Determines if the project has published a security policy."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no releases found",
+          "name": "Signed-Releases",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#signed-releases",
+            "short": "Determines if the project cryptographically signs release artifacts."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "No tokens found",
+          "name": "Token-Permissions",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#token-permissions",
+            "short": "Determines if the project's workflows follow the principle of least privilege."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "0 existing vulnerabilities detected",
+          "name": "Vulnerabilities",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#vulnerabilities",
+            "short": "Determines if the project has open, known unfixed vulnerabilities."
+          }
+        }
+      ],
+      "metadata": null
+    },
+    "timestamp_utc": "2026-01-23T14:46:04Z"
+  }
 }

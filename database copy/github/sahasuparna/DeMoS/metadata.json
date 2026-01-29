@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/sahasuparna/DeMoS",
+  "url": "https://github.com/sahasuparna/DeMoS",
+  "data": {
+    "timestamp": "2021-02-28 00:24:14.723998",
+    "name": "DeMoS",
+    "url": "https://api.github.com/repos/sahasuparna/DeMoS",
+    "full_name": "sahasuparna/DeMoS",
+    "html_url": "https://github.com/sahasuparna/DeMoS",
+    "private": false,
+    "description": null,
+    "created_at": "2019-05-30T08:58:55Z",
+    "updated_at": "2020-02-20T08:30:31Z",
+    "clone_url": "https://github.com/sahasuparna/DeMoS.git",
+    "homepage": null,
+    "size": 659,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": "R",
+    "open_issues_count": 0,
+    "license": null,
+    "subscribers_count": 0,
+    "owner": {
+      "html_url": "https://github.com/sahasuparna",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32774833?v=4",
+      "login": "sahasuparna",
+      "type": "User"
+    },
+    "topics": []
+  },
+  "doi": "10.21203/RS.3.RS-17212/V1",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"DEGstat_NewmiRNA.R--> Function for finding the significantly expressed miRNA\" and similar R scripts indicate end-user analysis scripts rather than a reusable library.",
+        "The README lists only R scripts and data files with no mention of packaging for CRAN, PyPI, etc., implying use via cloning/downloading the repo source.",
+        "Scripts such as \"classification.R--->Function for classification of the class labels(ADENO,SCC) by our gene signature\" and \"new_surv.R--->Function for prediction of survival of CESC patients\" directly perform domain analyses central to research results."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T03:16:27Z"
+    }
+  }
+}

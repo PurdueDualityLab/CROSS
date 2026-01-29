@@ -1,0 +1,68 @@
+{
+  "parser": "github",
+  "uid": "github/ropensci/conditionz",
+  "url": "https://github.com/ropensci/conditionz",
+  "data": {
+    "timestamp": "2022-01-27 10:11:35.257417",
+    "name": "conditionz",
+    "url": "https://api.github.com/repos/ropensci/conditionz",
+    "full_name": "ropensci/conditionz",
+    "html_url": "https://github.com/ropensci/conditionz",
+    "private": false,
+    "description": "control how many times conditions are thrown",
+    "created_at": "2018-12-07T22:18:53Z",
+    "updated_at": "2020-11-02T19:44:08Z",
+    "clone_url": "https://github.com/ropensci/conditionz.git",
+    "homepage": "https://ropensci.github.io/conditionz",
+    "size": 108,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "R",
+    "open_issues_count": 2,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "owner": {
+      "html_url": "https://github.com/ropensci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1200269?v=4",
+      "login": "ropensci",
+      "type": "Organization"
+    },
+    "topics": [
+      "r",
+      "rstats",
+      "conditions",
+      "r-package",
+      "condition",
+      "condition-control",
+      "message",
+      "warning",
+      "scalereprod"
+    ]
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Unknown",
+      "research_role": "Unknown",
+      "distribution_pathway": "Unknown",
+      "distribution_details": null,
+      "evidence": [
+        "Owner is the GitHub organization `ropensci`, which is an open-source community for R packages, indicating community/foundation governance.",
+        "The current README only states: \"This package has been archived. The former README is now in README-not.md.\", providing no details on the software’s function or distribution.",
+        "No installation or usage instructions, package manager references, or description of scientific purpose are present in the visible README, so supply chain role, research role, and distribution pathway cannot be determined."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T02:26:37Z"
+    }
+  }
+}

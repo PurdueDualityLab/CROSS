@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/CisnerosResearch/LICHEM",
+  "url": "https://github.com/CisnerosResearch/LICHEM",
+  "data": {
+    "timestamp": "2022-03-11 12:46:42.228830",
+    "name": "LICHEM",
+    "url": "https://api.github.com/repos/CisnerosResearch/LICHEM",
+    "full_name": "CisnerosResearch/LICHEM",
+    "html_url": "https://github.com/CisnerosResearch/LICHEM",
+    "private": false,
+    "description": "This package is an open-source (GPLv3) interface between QM and MM software so that QM/MM calculations can be performed with polarizable and frozen electron density force fields. Functionality is also present for standard point-charge based force fields, pure MM, and pure QM calculations.",
+    "created_at": "2019-01-07T19:33:37Z",
+    "updated_at": "2021-12-03T18:06:05Z",
+    "clone_url": "https://github.com/CisnerosResearch/LICHEM.git",
+    "homepage": "",
+    "size": 2896,
+    "stargazers_count": 4,
+    "watchers_count": 4,
+    "language": "C++",
+    "open_issues_count": 1,
+    "license": null,
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/CisnerosResearch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43679387?v=4",
+      "login": "CisnerosResearch",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "doi": "https://doi.org/10.1002/jcc.24295",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"Currently, the binary and user's manual are not included in the repository.\"",
+        "\"LICHEM: Layered Interacting CHEmical Models\" and \"By: The Cisneros Research Group\" plus \"LICHEM is maintained by the Cisneros research group at the University of Texas at Dallas.\"",
+        "\"This package is an open-source (GPLv3) interface between QM and MM software so that QM/MM calculations can be performed... Available calculations: single-point energies, geometry optimizations, classical Monte Carlo, path-integral Monte Carlo, and reaction pathways.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T16:53:31Z"
+    }
+  }
+}

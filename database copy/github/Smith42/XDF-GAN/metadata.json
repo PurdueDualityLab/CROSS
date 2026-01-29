@@ -1,0 +1,68 @@
+{
+  "parser": "github",
+  "uid": "github/Smith42/XDF-GAN",
+  "url": "https://github.com/Smith42/XDF-GAN",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2019arXiv190410286S",
+      "https://ui.adsabs.harvard.edu/abs/2019ascl.soft07029S/abstract"
+    ],
+    "title": "XDF-GAN: Mock astronomical survey generator",
+    "url": "https://github.com/Smith42/XDF-GAN",
+    "name": "XDF-GAN",
+    "full_name": "Smith42/XDF-GAN",
+    "html_url": "https://github.com/Smith42/XDF-GAN",
+    "description": "A GAN for the generation of mock astronomical surveys",
+    "created_at": "2019-04-22T14:39:47Z",
+    "updated_at": "2022-05-27T21:28:52Z",
+    "clone_url": "https://github.com/Smith42/XDF-GAN.git",
+    "homepage": "https://doi.org/10.1093/mnras/stz2886",
+    "size": 15376,
+    "stargazers_count": 20,
+    "watchers_count": 20,
+    "language": "Python",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/Smith42",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8194280?v=4",
+      "login": "Smith42",
+      "type": "User"
+    },
+    "topics": [
+      "gan",
+      "astronomy",
+      "machine-learning",
+      "deep-learning"
+    ],
+    "timestamp": "2022-07-17 17:16:13.791819",
+    "avatar": "https://avatars.githubusercontent.com/u/8194280?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"Run `preprocess_fits.ipynb` to download and channel-wise clip the XDF FITS data at 99.99%.\"",
+        "\"Generate mock galaxy surveys with a Spatial GAN (SGAN)-like architecture.\"",
+        "\"If we want to train from scratch to 10,000 epochs we would run the following code: `python sgan.py ...`\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T20:20:40Z"
+    }
+  }
+}

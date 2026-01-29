@@ -1,0 +1,63 @@
+{
+  "parser": "github",
+  "uid": "github/askap-craco/CELEBI",
+  "url": "https://github.com/askap-craco/CELEBI",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2023arXiv230511477S",
+      "https://ui.adsabs.harvard.edu/abs/2023arXiv230113484S",
+      "https://ui.adsabs.harvard.edu/abs/2023ascl.soft05025S/abstract"
+    ],
+    "title": "CELEBI: Precision localizations and polarimetric data for fast radio bursts",
+    "url": "https://github.com/askap-craco/CELEBI",
+    "name": "CELEBI",
+    "full_name": "askap-craco/CELEBI",
+    "html_url": "https://github.com/askap-craco/CELEBI",
+    "description": "The CRAFT Effortless Localisation and Enhanced Burst Inspection Pipeline",
+    "created_at": "2021-11-02T03:22:28Z",
+    "updated_at": "2023-02-15T13:10:15Z",
+    "clone_url": "https://github.com/askap-craco/CELEBI.git",
+    "size": 4002,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "Python",
+    "open_issues_count": 14,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/askap-craco",
+      "avatar_url": "https://avatars.githubusercontent.com/u/93304506?v=4",
+      "login": "askap-craco",
+      "type": "Organization"
+    },
+    "timestamp": "2023-06-04 00:44:45.378695",
+    "avatar": "https://avatars.githubusercontent.com/u/93304506?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"CELEBI is an automated data processing pipeline for producing sub-arcsecond precision localisations and high-time resolution polarimetric measurements of fast radio bursts (FRBs)\"",
+        "\"Once the dependencies have been installed, you should set up a config file... and then run main.nf\" (end users run the pipeline as an application)",
+        "The README describes cloning/running the Nextflow pipeline with no mention of package managers, containers, or binary releases, implying source-based use."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T21:25:17Z"
+    }
+  }
+}

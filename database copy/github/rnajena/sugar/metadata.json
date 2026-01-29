@@ -1,0 +1,57 @@
+{
+  "parser": "github",
+  "uid": "github/rnajena/sugar",
+  "url": "https://github.com/rnajena/sugar",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.15588305",
+    "name": "sugar",
+    "url": "https://github.com/rnajena/sugar",
+    "full_name": "rnajena/sugar",
+    "html_url": "https://github.com/rnajena/sugar",
+    "description": "S*R -- A Python framework for bioinformatics",
+    "created_at": "2024-02-01T16:09:47Z",
+    "updated_at": "2025-07-17T18:46:56Z",
+    "clone_url": "https://github.com/rnajena/sugar.git",
+    "size": 1383,
+    "stargazers_count": 4,
+    "watchers_count": 4,
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/rnajena",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45449800?v=4",
+      "login": "rnajena",
+      "type": "Organization"
+    },
+    "timestamp": "2025-07-27 00:59:59.413181",
+    "avatar": "https://avatars.githubusercontent.com/u/45449800?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install rnajena-sugar\"",
+        "\"The sugar project aims to provide a lightweight framework to facilitate rapid application development for bioinformatics.\"",
+        "\"It thus provides classes and functions for working with DNA and RNA sequences, as well as related annotations, and it provides parsers and writers for various file formats using a plugin interface.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T02:11:17Z"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "parser": "github",
+  "uid": "github/zhangrengang/SubPhaser",
+  "url": "https://github.com/zhangrengang/SubPhaser",
+  "data": {
+    "doi": "10.1111/NPH.18173",
+    "name": "SubPhaser",
+    "url": "https://github.com/zhangrengang/SubPhaser",
+    "full_name": "zhangrengang/SubPhaser",
+    "html_url": "https://github.com/zhangrengang/SubPhaser",
+    "description": "Phase and visualize subgenomes of an allopolyploid or hybrid based on the repetitive kmers.",
+    "created_at": "2021-08-25T03:04:46Z",
+    "updated_at": "2022-07-11T07:24:10Z",
+    "clone_url": "https://github.com/zhangrengang/SubPhaser.git",
+    "size": 2573,
+    "stargazers_count": 21,
+    "watchers_count": 21,
+    "language": "Python",
+    "open_issues_count": 4,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/zhangrengang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22489982?v=4",
+      "login": "zhangrengang",
+      "type": "User"
+    },
+    "topics": [
+      "allopolyploid",
+      "subgenome",
+      "phase",
+      "kmer"
+    ],
+    "timestamp": "2022-07-17 00:41:25.626523",
+    "avatar": "https://avatars.githubusercontent.com/u/22489982?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Containers",
+      "distribution_details": null,
+      "evidence": [
+        "\"Here, we develop `SubPhaser` to phase subgenomes... The tool also identifies genome-wide subgenome-specific regions and long terminal repeat retrotransposons (LTR-RTs), which will provide insights into the evolutionary history of allopolyploidization.\"",
+        "Usage is via a command-line tool: \"Run with default parameters: `subphaser -i genome.fasta.gz -c sg.config`\" indicating an end-user analysis application.",
+        "Container-based distribution is explicitly documented: \"Alternatively, you can run `subphaser` through Singularity/Apptainer container: ... `apptainer pull subphaser.sif library://shang-hongyun/collection/subphaser.sif:1.2.6`\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T05:11:49Z"
+    }
+  }
+}

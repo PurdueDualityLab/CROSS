@@ -1,0 +1,56 @@
+{
+  "parser": "github",
+  "uid": "github/rahulshah1397/LADDER",
+  "url": "https://github.com/rahulshah1397/LADDER",
+  "data": {
+    "doi": [],
+    "title": "LADDER - Learning Algorithm for Deep Distance Estimation and Reconstruction",
+    "url": "https://github.com/rahulshah1397/LADDER",
+    "name": "LADDER",
+    "full_name": "rahulshah1397/LADDER",
+    "html_url": "https://github.com/rahulshah1397/LADDER",
+    "description": "Public release of LADDER (https://doi.org/10.3847/1538-4365/ad5558) [arXiv: 2401.17029]",
+    "created_at": "2024-01-28T11:03:15Z",
+    "updated_at": "2024-08-04T11:03:08Z",
+    "clone_url": "https://github.com/rahulshah1397/LADDER.git",
+    "size": 10342,
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/rahulshah1397",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28998141?v=4",
+      "login": "rahulshah1397",
+      "type": "User"
+    },
+    "timestamp": "2024-08-18 00:41:37.040437",
+    "avatar": "https://avatars.githubusercontent.com/u/28998141?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This repository contains code supplementing the paper LADDER - Revisiting the Cosmic Distance Ladder with Deep Learning Approaches and Exploring its Applications\"",
+        "Usage instructions show running as a script: \"python3 main.py --pairs [number] --output [directory name]\" and describe it as \"Main script, runs everything else.\"",
+        "Files list indicates a standalone research codebase (dataset loading, training, inference, model) used to perform the cosmological analysis: \"dataset.py -> Loads dataset and implements sampling routine.\", \"train.py -> Train/test loops.\", \"inference.py -> Inference algorithm implementation.\" and distribution is via the GitHub repo with no mention of package managers or binaries."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T02:03:51Z"
+    }
+  }
+}

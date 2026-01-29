@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/cbg-ethz/shorah",
+  "url": "https://github.com/cbg-ethz/shorah",
+  "data": {
+    "title": "shorah",
+    "url": "https://github.com/cbg-ethz/shorah",
+    "credit": [],
+    "description": "Repo for the software suite ShoRAH (Short Reads Assembly into Haplotypes)",
+    "name": "shorah",
+    "full_name": "cbg-ethz/shorah",
+    "html_url": "https://github.com/cbg-ethz/shorah",
+    "created_at": "2012-10-04T12:43:42Z",
+    "updated_at": "2022-05-09T05:23:23Z",
+    "clone_url": "https://github.com/cbg-ethz/shorah.git",
+    "size": 4177,
+    "stargazers_count": 33,
+    "watchers_count": 33,
+    "language": "C++",
+    "open_issues_count": 18,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 7,
+    "owner": {
+      "html_url": "https://github.com/cbg-ethz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12068026?v=4",
+      "login": "cbg-ethz",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-18 17:46:51.813712",
+    "avatar": "https://avatars.githubusercontent.com/u/12068026?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "conda",
+      "evidence": [
+        "README install command: \"conda install shorah\"",
+        "\"ShoRAH is an open source project for the analysis of next generation sequencing data. It is designed to analyse genetically heterogeneous samples.\"",
+        "\"ShoRAH and its dependencies are all available in bioconda. We strongly advise you to install this package for a hassle-free experience.\\n\\tconda install shorah\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T22:51:26Z"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "parser": "github",
+  "uid": "github/Wang-Ruihui/A-live-homogeneous-database-of-solar-active-regions",
+  "url": "https://github.com/Wang-Ruihui/A-live-homogeneous-database-of-solar-active-regions",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2023ApJS..268...55W",
+      "https://ui.adsabs.harvard.edu/abs/2024ascl.soft06023W/abstract"
+    ],
+    "title": "AARD: Automatic detection of solar active regions",
+    "url": "https://github.com/Wang-Ruihui/A-live-homogeneous-database-of-solar-active-regions",
+    "name": "A-live-homogeneous-database-of-solar-active-regions",
+    "full_name": "Wang-Ruihui/A-live-homogeneous-database-of-solar-active-regions",
+    "html_url": "https://github.com/Wang-Ruihui/A-live-homogeneous-database-of-solar-active-regions",
+    "description": "This is a live homogeneous database of solar active regions (ARs).  It's produced by an automatic detection method of AR.",
+    "created_at": "2023-01-11T03:55:19Z",
+    "updated_at": "2024-05-05T02:24:54Z",
+    "clone_url": "https://github.com/Wang-Ruihui/A-live-homogeneous-database-of-solar-active-regions.git",
+    "size": 1022,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/Wang-Ruihui",
+      "avatar_url": "https://avatars.githubusercontent.com/u/110174507?v=4",
+      "login": "Wang-Ruihui",
+      "type": "User"
+    },
+    "topics": [
+      "image-processing",
+      "detection-of-solar-active-regions",
+      "solar-active-region-database"
+    ],
+    "timestamp": "2024-06-30 00:39:05.151888",
+    "avatar": "https://avatars.githubusercontent.com/u/110174507?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"To use the codes, you first need to download MDI and HMI synoptic magnetograms (_mdi.synoptic_Mr_96m and hmi.Synoptic_Mr_720s_) from JSOC. The radial magnetograms are used in our code, but line-of-sig\"",
+        "\"developed by **Ruihui Wang, Jie Jiang, and Yukun Luo**, Beihang University, China\" (small named team, no broader governance mentioned)",
+        "\"These Python codes include the automatic detection method for solar active regions (ARs) and the programs for creating the database.\" (end users run the codes to perform the research task)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T20:38:21Z"
+    }
+  }
+}

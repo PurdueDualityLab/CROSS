@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/nach00gar/16SMicrobiomeMLFS",
+  "url": "https://github.com/nach00gar/16SMicrobiomeMLFS",
+  "data": {
+    "name": "16SMicrobiomeMLFS",
+    "url": "https://github.com/nach00gar/16SMicrobiomeMLFS",
+    "full_name": "nach00gar/16SMicrobiomeMLFS",
+    "html_url": "https://github.com/nach00gar/16SMicrobiomeMLFS",
+    "private": false,
+    "description": "Data & Code for the 16S Microbiome Disease Classification Article",
+    "created_at": "2025-01-31T08:44:47Z",
+    "updated_at": "2025-03-10T17:42:31Z",
+    "clone_url": "https://github.com/nach00gar/16SMicrobiomeMLFS.git",
+    "homepage": null,
+    "size": 15931,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": "Jupyter Notebook",
+    "open_issues_count": 0,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/nach00gar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44344214?v=4",
+      "login": "nach00gar",
+      "type": "User"
+    },
+    "topics": [],
+    "timestamp": "2025-07-13 01:01:08.601786",
+    "avatar": "https://avatars.githubusercontent.com/u/44344214?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Code and supporting data for the article: 'Exploring the role of normalization and feature selection in microbiome disease classification pipelines.'\"",
+        "\"2. src: code writen to perform the analyses from the article and the statistical tests\"",
+        "The repository is presented as code and data for a specific article, with no mention of packages, releases, or registries, implying use via cloning the repo."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T01:31:19Z"
+    }
+  }
+}

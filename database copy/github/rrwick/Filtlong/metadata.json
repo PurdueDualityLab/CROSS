@@ -1,0 +1,63 @@
+{
+  "parser": "github",
+  "uid": "github/rrwick/Filtlong",
+  "url": "https://github.com/rrwick/Filtlong",
+  "data": {
+    "title": "Filtlong",
+    "url": "https://github.com/rrwick/Filtlong",
+    "credit": [],
+    "tags": [
+      "read-quality-control",
+      "high-throughput-sequencing"
+    ],
+    "description": "quality filtering tool for long reads",
+    "name": "Filtlong",
+    "full_name": "rrwick/Filtlong",
+    "html_url": "https://github.com/rrwick/Filtlong",
+    "created_at": "2017-07-25T04:22:25Z",
+    "updated_at": "2022-07-01T12:12:30Z",
+    "clone_url": "https://github.com/rrwick/Filtlong.git",
+    "size": 5200,
+    "stargazers_count": 170,
+    "watchers_count": 170,
+    "language": "C++",
+    "open_issues_count": 13,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 13,
+    "owner": {
+      "html_url": "https://github.com/rrwick",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7053555?v=4",
+      "login": "rrwick",
+      "type": "User"
+    },
+    "timestamp": "2022-07-18 17:44:59.888515",
+    "avatar": "https://avatars.githubusercontent.com/u/7053555?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Filtlong is a tool for filtering long reads by quality. It can take a set of long reads and produce a smaller, better subset.\"",
+        "Installation instructions show building and running a CLI tool: \"git clone https://github.com/rrwick/Filtlong.git ... bin/filtlong -h\" and usage examples like \"filtlong --min_length 1000 ... input.fastq.gz | gzip > output.fastq.gz\"",
+        "Usage section describes it as an executable program: \"usage: bin/filtlong {OPTIONS} [input_reads]\" with installation via cloning the GitHub repo and running `make`, indicating distribution primarily from the source repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T03:13:40Z"
+    }
+  }
+}

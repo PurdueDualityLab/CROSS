@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/amoradinejad/limHaloPT",
+  "url": "https://github.com/amoradinejad/limHaloPT",
+  "data": {
+    "timestamp": "2022-07-10 00:42:51.836045",
+    "name": "limHaloPT",
+    "url": "https://api.github.com/repos/amoradinejad/limHaloPT",
+    "full_name": "amoradinejad/limHaloPT",
+    "html_url": "https://github.com/amoradinejad/limHaloPT",
+    "private": false,
+    "description": "The public repository of limHaloPT (master for the most recent version of the code)",
+    "created_at": "2021-10-24T12:58:07Z",
+    "updated_at": "2021-11-25T15:35:03Z",
+    "clone_url": "https://github.com/amoradinejad/limHaloPT.git",
+    "homepage": "",
+    "size": 64004,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": "C",
+    "open_issues_count": 0,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/amoradinejad",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25491836?v=4",
+      "login": "amoradinejad",
+      "type": "User"
+    },
+    "topics": []
+  },
+  "doi": "https://doi.org/10.5281/zenodo.6762607",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"The limHaloPT package calls various functions from [CLASS](https://github.com/lesgourg/class_public) Boltzman solver, including the matter power spectrum and transfer functions, growth factor etc. The\"",
+        "\"Welcom to limHaloPT, a peer-reviewed open source numerical package for computing the clustering and shot-noise contributions to the power spectrum of line intensity/temperature fluctuations within halo-model framework.\"",
+        "\"To compile, within the main directory of limHaloPT, type: \\\"make\\\" ... This would create an executable called \\\"limHaloPT\\\" in the same directory, which you will use to run the code.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T21:07:02Z"
+    }
+  }
+}

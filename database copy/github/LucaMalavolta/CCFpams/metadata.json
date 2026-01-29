@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/LucaMalavolta/CCFpams",
+  "url": "https://github.com/LucaMalavolta/CCFpams",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2017MNRAS.469.3965M",
+      "https://ui.adsabs.harvard.edu/abs/2017ascl.soft07004M/abstract"
+    ],
+    "title": "CCFpams: Atmospheric stellar parameters from cross-correlation functions",
+    "url": "https://github.com/LucaMalavolta/CCFpams",
+    "name": "CCFpams",
+    "full_name": "LucaMalavolta/CCFpams",
+    "html_url": "https://github.com/LucaMalavolta/CCFpams",
+    "description": "Atmospheric Stellar Parameters from Cross-Correlation Functions for HARPS & HARPS-N",
+    "created_at": "2017-03-24T14:45:04Z",
+    "updated_at": "2021-04-01T22:02:29Z",
+    "clone_url": "https://github.com/LucaMalavolta/CCFpams.git",
+    "size": 9052,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "Fortran",
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/LucaMalavolta",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15183346?v=4",
+      "login": "LucaMalavolta",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:20:08.951062",
+    "avatar": "https://avatars.githubusercontent.com/u/15183346?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"Download the .zip files or clone the repository. `harps_input2pams.f90` and `harpn_input2pams.f90` are the two FORTRAN90 codes to compute the stellar parameters from HARPS and HARPS-N data respectivel\"",
+        "“CCFpams is a novel approach that allows the measurement of stellar temperature, metallicity and gravity within a few seconds and in a completely automated fashion.”",
+        "“In this repository the code to extract the parameters from HARPS and HARPS-N is provided.”"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T19:02:19Z"
+    }
+  }
+}

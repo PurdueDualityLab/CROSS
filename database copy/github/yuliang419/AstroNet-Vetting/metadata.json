@@ -1,0 +1,63 @@
+{
+  "parser": "github",
+  "uid": "github/yuliang419/AstroNet-Vetting",
+  "url": "https://github.com/yuliang419/Astronet-Vetting",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2019AJ....158...25Y",
+      "https://ui.adsabs.harvard.edu/abs/2021ascl.soft03011Y/abstract"
+    ],
+    "title": "AstroNet-Vetting: Neural network for TESS light curve vetting",
+    "url": "https://github.com/yuliang419/Astronet-Vetting",
+    "name": "Astronet-Vetting",
+    "full_name": "yuliang419/Astronet-Vetting",
+    "html_url": "https://github.com/yuliang419/Astronet-Vetting",
+    "description": "A Neural Network for TESS Light Curve Vetting",
+    "created_at": "2019-03-15T18:52:28Z",
+    "updated_at": "2022-06-25T08:21:59Z",
+    "clone_url": "https://github.com/yuliang419/Astronet-Vetting.git",
+    "homepage": "https://arxiv.org/abs/1904.02726",
+    "size": 974265,
+    "stargazers_count": 10,
+    "watchers_count": 10,
+    "language": "Python",
+    "open_issues_count": 1,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/yuliang419",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10563003?v=4",
+      "login": "yuliang419",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:12:29.647016",
+    "avatar": "https://avatars.githubusercontent.com/u/10563003?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"### Download TESS Data\"",
+        "\"This directory contains TensorFlow models and data processing code for identifying exoplanets in astrophysical light curves.\"",
+        "Instructions show users running scripts directly (e.g., `python astronet/train.py`, `python astronet/evaluate.py`, `python astronet/batch_predict.py`) as an end-user workflow rather than importing as a library."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T05:10:09Z"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/ivastar/clear",
+  "url": "https://github.com/ivastar/clear",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2019ApJ...870..133E",
+      "https://ui.adsabs.harvard.edu/abs/2019ascl.soft04010S/abstract"
+    ],
+    "title": "CLEAR: CANDELS Ly-alpha Emission at Reionization processing pipeline and library",
+    "url": "https://github.com/ivastar/clear",
+    "name": "clear",
+    "full_name": "ivastar/clear",
+    "html_url": "https://github.com/ivastar/clear",
+    "description": "Library for the CLEAR collaboration codebase.",
+    "created_at": "2016-01-28T20:05:33Z",
+    "updated_at": "2022-02-24T12:47:19Z",
+    "clone_url": "https://github.com/ivastar/clear.git",
+    "size": 456512,
+    "language": "Jupyter Notebook",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 7,
+    "owner": {
+      "html_url": "https://github.com/ivastar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4562253?v=4",
+      "login": "ivastar",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:17:00.599427",
+    "avatar": "https://avatars.githubusercontent.com/u/4562253?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Library for the CLEAR collaboration codebase.\" (describes itself as a library, implying it is used as a dependency)",
+        "\"CLEAR collaboration codebase\" (suggests use in a research collaboration context, implying direct role in research software execution)",
+        "Minimal README with no mention of package managers, binaries, or services implies distribution via the source repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:28:25Z"
+    }
+  }
+}

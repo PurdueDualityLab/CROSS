@@ -1,0 +1,50 @@
+{
+  "parser": "github",
+  "uid": "github/COMBINE-lab/libgff",
+  "url": "https://github.com/COMBINE-lab/libgff",
+  "data": {
+    "url": "https://github.com/COMBINE-lab/libgff",
+    "title": "Libgff-dev",
+    "description": "GFF/GTF parsing from cufflinks as a library",
+    "name": "libgff",
+    "full_name": "COMBINE-lab/libgff",
+    "html_url": "https://github.com/COMBINE-lab/libgff",
+    "created_at": "2016-11-08T05:15:37Z",
+    "updated_at": "2020-07-02T16:49:51Z",
+    "clone_url": "https://github.com/COMBINE-lab/libgff.git",
+    "size": 144,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "C++",
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/COMBINE-lab",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8410750?v=4",
+      "login": "COMBINE-lab",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-20 17:28:56.977150",
+    "avatar": "https://avatars.githubusercontent.com/u/8410750?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This is an attempt to perform a simple 'libraryfication' of the GFF/GTF parsing code\"",
+        "\"the goal of this library is to provide this functionality without the necessity of drawing in a heavy-weight dependency like SeqAn\"",
+        "README is presented as a small C++ parsing library (no mention of package managers or binaries), implying use via cloning/source and linking as a dependency."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T16:50:16Z"
+    }
+  }
+}

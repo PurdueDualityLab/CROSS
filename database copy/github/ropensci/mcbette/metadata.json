@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/ropensci/mcbette",
+  "url": "https://github.com/ropensci/mcbette",
+  "data": {
+    "timestamp": "2022-01-27 10:11:35.255550",
+    "name": "mcbette",
+    "url": "https://api.github.com/repos/ropensci/mcbette",
+    "full_name": "ropensci/mcbette",
+    "html_url": "https://github.com/ropensci/mcbette",
+    "private": false,
+    "description": "Model Comparison using babette",
+    "created_at": "2018-11-24T16:52:52Z",
+    "updated_at": "2021-09-19T09:08:17Z",
+    "clone_url": "https://github.com/ropensci/mcbette.git",
+    "homepage": null,
+    "size": 28035,
+    "stargazers_count": 6,
+    "watchers_count": 6,
+    "language": "R",
+    "open_issues_count": 3,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "owner": {
+      "html_url": "https://github.com/ropensci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1200269?v=4",
+      "login": "ropensci",
+      "type": "Organization"
+    },
+    "topics": [
+      "scalereprod"
+    ]
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"mcbette\")\"",
+        "\"mcbette allows for doing a Model Comparison using `babette` ... it compares multiple phylogenetic inference models to find the model that is likeliest to generate that alignment.\"",
+        "R usage examples show it being loaded as a library: `library(mcbette)` and then functions like `est_marg_liks(...)` are called, indicating it is an R package dependency rather than a standalone end-user application."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T02:31:12Z"
+    }
+  }
+}

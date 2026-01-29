@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/ImperialCollegeLondon/sap-voicebox",
+  "url": "https://github.com/ImperialCollegeLondon/sap-voicebox",
+  "data": {
+    "timestamp": "2022-05-12 03:43:37.231106",
+    "name": "sap-voicebox",
+    "url": "https://api.github.com/repos/ImperialCollegeLondon/sap-voicebox",
+    "full_name": "ImperialCollegeLondon/sap-voicebox",
+    "html_url": "https://github.com/ImperialCollegeLondon/sap-voicebox",
+    "private": false,
+    "description": "Speech Processing Toolbox for MATLAB",
+    "created_at": "2018-09-17T09:12:05Z",
+    "updated_at": "2022-05-02T16:20:01Z",
+    "clone_url": "https://github.com/ImperialCollegeLondon/sap-voicebox.git",
+    "homepage": "",
+    "size": 3161,
+    "stargazers_count": 155,
+    "watchers_count": 155,
+    "language": "MATLAB",
+    "open_issues_count": 3,
+    "license": null,
+    "subscribers_count": 10,
+    "owner": {
+      "html_url": "https://github.com/ImperialCollegeLondon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1220306?v=4",
+      "login": "ImperialCollegeLondon",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "contact": "Mike Brookes <mike.brookes@imperial.ac.uk>",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"VOICEBOX is a speech processing toolbox consisting of MATLAB routines\" (toolbox of routines implies it is used as a library/dependency).",
+        "\"maintained by and mostly written by Mike Brookes, Speech and Audio Processing Lab, CSP Group, EEE Dept, Imperial College London\" (indicates a specific lab/group).",
+        "Description as a \"speech processing toolbox\" of MATLAB routines indicates it is used to perform speech processing analyses, directly contributing to research results. Distribution is only implied via the repository itself, with no mention of package managers or binaries."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T18:01:40Z"
+    }
+  }
+}

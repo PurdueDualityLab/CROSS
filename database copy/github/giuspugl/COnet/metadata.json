@@ -1,0 +1,55 @@
+{
+  "parser": "github",
+  "uid": "github/giuspugl/COnet",
+  "url": "https://github.com/giuspugl/COnet",
+  "data": {
+    "doi": [],
+    "title": "PICASSO neural network for mm Galactic emission",
+    "url": "https://github.com/giuspugl/COnet",
+    "name": "COnet",
+    "full_name": "giuspugl/COnet",
+    "html_url": "https://github.com/giuspugl/COnet",
+    "created_at": "2024-11-12T15:50:35Z",
+    "updated_at": "2024-11-12T16:01:21Z",
+    "clone_url": "https://github.com/giuspugl/COnet.git",
+    "size": 32,
+    "language": "Python",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/giuspugl",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8957029?v=4",
+      "login": "giuspugl",
+      "type": "User"
+    },
+    "timestamp": "2025-11-09 00:54:30.465611",
+    "avatar": "https://avatars.githubusercontent.com/u/8957029?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"Download the model directories  (rename ``checkpoint.txt``  to ``checkpoint`` because google drive automatically add `ext` after download)\"",
+        "\"This package provides a suite of simulating CO emission on 3x3 sq.deg images\"",
+        "\"Scripts are provided to the user in order to perform: - Perform Training `train_cyclegan.py` ... - Estimate power spectra ... - Minkowski functionals ... - Extend the predictions to full sky emission\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:00:44Z"
+    }
+  }
+}

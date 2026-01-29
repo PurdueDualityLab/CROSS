@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/jczarnowski/DeepFactors",
+  "url": "https://github.com/jczarnowski/DeepFactors",
+  "data": {
+    "timestamp": "2022-05-12 03:43:38.417301",
+    "name": "DeepFactors",
+    "url": "https://api.github.com/repos/jczarnowski/DeepFactors",
+    "full_name": "jczarnowski/DeepFactors",
+    "html_url": "https://github.com/jczarnowski/DeepFactors",
+    "private": false,
+    "description": "Real-Time Probabilistic Dense Monocular SLAM Using Compact Code Representation",
+    "created_at": "2020-01-16T15:35:05Z",
+    "updated_at": "2022-05-07T03:08:52Z",
+    "clone_url": "https://github.com/jczarnowski/DeepFactors.git",
+    "homepage": "https://www.imperial.ac.uk/dyson-robotics-lab/projects/deepfactors",
+    "size": 17252,
+    "stargazers_count": 530,
+    "watchers_count": 530,
+    "language": "C++",
+    "open_issues_count": 6,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 48,
+    "owner": {
+      "html_url": "https://github.com/jczarnowski",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1465574?v=4",
+      "login": "jczarnowski",
+      "type": "User"
+    },
+    "topics": []
+  },
+  "contact": "Jan Czarnowski <j.czarnowski15@imperial.ac.uk>",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"You will also need to install the TensorFlow C API. If you have CUDA 10.0 and cuDNN 7.5, you can simply download the pre-built binaries by following [these instructions](https://www.tensorflow.org/ins\"",
+        "\"DeepFactors is a Dense Monocular SLAM system that takes in a stream of RGB images from a single camera and produces a dense geometric reconstruction in the form of a keyframe map.\"",
+        "\"Please bear in mind that this repository contains research code, which is not perfect and elegant due to the experimental nature of the project and time constraints.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:31:21Z"
+    }
+  }
+}

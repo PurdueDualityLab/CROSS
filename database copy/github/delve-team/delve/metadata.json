@@ -1,0 +1,70 @@
+{
+  "parser": "github",
+  "uid": "github/delve-team/delve",
+  "url": "https://github.com/delve-team/delve",
+  "data": {
+    "timestamp": "2022-01-30 00:37:01.058026",
+    "name": "delve",
+    "url": "https://api.github.com/repos/delve-team/delve",
+    "full_name": "delve-team/delve",
+    "html_url": "https://github.com/delve-team/delve",
+    "private": false,
+    "description": "PyTorch model training and layer saturation monitor",
+    "created_at": "2018-06-11T16:20:51Z",
+    "updated_at": "2022-01-29T01:08:51Z",
+    "clone_url": "https://github.com/delve-team/delve.git",
+    "homepage": "https://delve-docs.readthedocs.io",
+    "size": 14976,
+    "stargazers_count": 69,
+    "watchers_count": 69,
+    "language": "Python",
+    "open_issues_count": 2,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/delve-team",
+      "avatar_url": "https://avatars.githubusercontent.com/u/48019028?v=4",
+      "login": "delve-team",
+      "type": "Organization"
+    },
+    "topics": [
+      "pytorch",
+      "model-training",
+      "training-monitor",
+      "layer-saturation",
+      "pruning",
+      "visualization",
+      "neural-dynamics",
+      "deep-learning",
+      "convolutional-neural-networks"
+    ]
+  },
+  "doi": "https://doi.org/10.5281/zenodo.5865465",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install delve\"",
+        "\"Delve is a Python package for analyzing the inference dynamics of your model.\"",
+        "\"Use Delve if you need a lightweight PyTorch extension that: ... Provides you basic tooling for experiment logging\" (indicates it is imported as an extension/library rather than a standalone app)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:30:38Z"
+    }
+  }
+}

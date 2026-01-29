@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/gbernstein/gbdes",
+  "url": "https://github.com/gbernstein/gbdes",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2018PASP..130e4501B",
+      "https://ui.adsabs.harvard.edu/abs/2022ascl.soft10011B/abstract"
+    ],
+    "title": "gbdes: DECam instrumental signature fitting and processing programs",
+    "url": "https://github.com/gbernstein/gbdes",
+    "name": "gbdes",
+    "full_name": "gbernstein/gbdes",
+    "html_url": "https://github.com/gbernstein/gbdes",
+    "description": "Gary's DES instrumental signature removal / fitting programs",
+    "created_at": "2016-05-19T21:21:32Z",
+    "updated_at": "2020-11-09T03:21:30Z",
+    "clone_url": "https://github.com/gbernstein/gbdes.git",
+    "size": 3927,
+    "stargazers_count": 4,
+    "watchers_count": 4,
+    "language": "C++",
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/gbernstein",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1461152?v=4",
+      "login": "gbernstein",
+      "type": "User"
+    },
+    "timestamp": "2022-10-30 00:50:51.882797",
+    "avatar": "https://avatars.githubusercontent.com/u/1461152?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"1. Create object catalogs from your exposures with your favorite software and store them into FITS files with one binary table extension for the objects in each detector.  These codes will also look f\"",
+        "\"Gary's DECam instrumental signature fitting and processing programs\" and repo owner is GitHub user `gbernstein`, suggesting a single-person project.",
+        "\"This repo contains code for deriving photometric and astrometric calibration solutions for complex multi-detector astronomical imagers.\" (end-user programs for calibration workflows)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:57:10Z"
+    }
+  }
+}

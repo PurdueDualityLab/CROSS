@@ -1,0 +1,48 @@
+{
+  "parser": "github",
+  "uid": "github/alekseyzimin/ufasta",
+  "url": "https://github.com/alekseyzimin/ufasta",
+  "data": {
+    "url": "https://github.com/alekseyzimin/ufasta",
+    "title": "Ufasta",
+    "description": "Utility to manipulate fasta files",
+    "name": "ufasta",
+    "full_name": "alekseyzimin/ufasta",
+    "html_url": "https://github.com/alekseyzimin/ufasta",
+    "created_at": "2018-01-22T18:55:50Z",
+    "updated_at": "2019-01-31T16:36:52Z",
+    "clone_url": "https://github.com/alekseyzimin/ufasta.git",
+    "size": 65,
+    "language": "C++",
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/alekseyzimin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27226909?v=4",
+      "login": "alekseyzimin",
+      "type": "User"
+    },
+    "timestamp": "2022-07-20 17:28:48.869459",
+    "avatar": "https://avatars.githubusercontent.com/u/27226909?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "Title: \"ufasta: utility to handle fasta files\" and usage examples show it is a command-line tool users run directly (subcommands like `one`, `sizes`, `head`, `tail`, `rc`, `n50`, `stats`, `extract`, etc.).",
+        "Compilation instructions: \"./configure; make; make install\" and note about compiling from the git tree indicate distribution via source repository and local build.",
+        "Functionality such as \"display stats about the sequences: N50, E size, total size, etc.\" and operations on FASTA sequences (reverse complement, extract, split) are core bioinformatics data-processing tasks used directly in research workflows."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T21:04:57Z"
+    }
+  }
+}

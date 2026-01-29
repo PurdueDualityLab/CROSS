@@ -1,0 +1,69 @@
+{
+  "parser": "github",
+  "uid": "github/equib/equib",
+  "url": "https://github.com/equib/EQUIB",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2016AJ....151...38D",
+      "https://ui.adsabs.harvard.edu/abs/1981ucl..rept.....H",
+      "https://ui.adsabs.harvard.edu/abs/2016ascl.soft03005H/abstract"
+    ],
+    "title": "EQUIB: Atomic level populations and line emissivities calculator",
+    "url": "https://github.com/equib/EQUIB",
+    "name": "EQUIB",
+    "full_name": "equib/EQUIB",
+    "html_url": "https://github.com/equib/EQUIB",
+    "description": "EQUIB - Fortran Program for Equilibrium Atomic Populations and Line Emissivities",
+    "created_at": "2017-06-13T00:12:04Z",
+    "updated_at": "2021-04-26T22:59:38Z",
+    "clone_url": "https://github.com/equib/EQUIB.git",
+    "size": 327,
+    "language": "Fortran",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/equib",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24842786?v=4",
+      "login": "equib",
+      "type": "Organization"
+    },
+    "topics": [
+      "atomic-level-populations",
+      "line-emissivities",
+      "statistical-equilibrium",
+      "equib",
+      "fortran",
+      "electron-density",
+      "electron-temperature"
+    ],
+    "timestamp": "2022-07-17 17:22:03.459739",
+    "avatar": "https://avatars.githubusercontent.com/u/24842786?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"The Fortran program EQUIB solves the statistical equilibrium equation for each ion and yields atomic level populations and line emissivities for given physical conditions\"",
+        "Usage examples show running compiled executables directly: \"./diagnostic_equib arg1 arg2 arg3 arg4 arg5 arg6\" and \"./abundance_equib arg1 arg2 arg3 arg4 arg5\"",
+        "Installation is via compiling the source: \"How to compile: make\" with no mention of package managers or binary releases, implying distribution via the source repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T23:45:10Z"
+    }
+  }
+}

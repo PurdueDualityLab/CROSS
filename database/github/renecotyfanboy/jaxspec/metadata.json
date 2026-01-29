@@ -1,42 +1,261 @@
 {
-    "parser": "github",
-    "uid": "github/renecotyfanboy/jaxspec",
+  "parser": "github",
+  "uid": "github/renecotyfanboy/jaxspec",
+  "url": "https://github.com/renecotyfanboy/jaxspec",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2024A&A...690A.317D",
+      "https://ui.adsabs.harvard.edu/abs/2024ascl.soft11024D/abstract"
+    ],
+    "title": "jaxspec: X-ray spectra Bayesian analysis",
     "url": "https://github.com/renecotyfanboy/jaxspec",
-    "data": {
-        "doi": [
-            "https://ui.adsabs.harvard.edu/abs/2024A&A...690A.317D",
-            "https://ui.adsabs.harvard.edu/abs/2024ascl.soft11024D/abstract"
-        ],
-        "title": "jaxspec: X-ray spectra Bayesian analysis",
-        "url": "https://github.com/renecotyfanboy/jaxspec",
-        "name": "jaxspec",
-        "full_name": "renecotyfanboy/jaxspec",
-        "html_url": "https://github.com/renecotyfanboy/jaxspec",
-        "description": "jaxspec is an X-ray spectra Bayesian analysis package, relying on JAX to enable just in time compilation",
-        "created_at": "2022-11-18T16:06:53Z",
-        "updated_at": "2024-11-19T16:36:40Z",
-        "clone_url": "https://github.com/renecotyfanboy/jaxspec.git",
-        "homepage": "https://jaxspec.readthedocs.io/en/latest/",
-        "size": 331224,
-        "stargazers_count": 29,
-        "watchers_count": 29,
-        "language": "Python",
-        "open_issues_count": 24,
-        "license": {
-            "key": "mit",
-            "name": "MIT License",
-            "spdx_id": "MIT",
-            "url": "https://api.github.com/licenses/mit",
-            "node_id": "MDc6TGljZW5zZTEz"
-        },
-        "subscribers_count": 2,
-        "owner": {
-            "html_url": "https://github.com/renecotyfanboy",
-            "avatar_url": "https://avatars.githubusercontent.com/u/49200287?v=4",
-            "login": "renecotyfanboy",
-            "type": "User"
-        },
-        "timestamp": "2024-12-01 00:56:03.650180",
-        "avatar": "https://avatars.githubusercontent.com/u/49200287?v=4"
+    "name": "jaxspec",
+    "full_name": "renecotyfanboy/jaxspec",
+    "html_url": "https://github.com/renecotyfanboy/jaxspec",
+    "description": "jaxspec is an X-ray spectra Bayesian analysis package, relying on JAX to enable just in time compilation",
+    "created_at": "2022-11-18T16:06:53Z",
+    "updated_at": "2024-11-19T16:36:40Z",
+    "clone_url": "https://github.com/renecotyfanboy/jaxspec.git",
+    "homepage": "https://jaxspec.readthedocs.io/en/latest/",
+    "size": 331224,
+    "stargazers_count": 29,
+    "watchers_count": 29,
+    "language": "Python",
+    "open_issues_count": 24,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/renecotyfanboy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49200287?v=4",
+      "login": "renecotyfanboy",
+      "type": "User"
+    },
+    "timestamp": "2024-12-01 00:56:03.650180",
+    "avatar": "https://avatars.githubusercontent.com/u/49200287?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install jaxspec --upgrade\"",
+        "\"`jaxspec` is an X-ray spectral fitting library built in pure Python. It can currently load an X-ray spectrum ... define a spectral model ... and calculate the best parameters using state-of-the-art Bayesian approaches.\"",
+        "\"If you use `jaxspec` in your research, please consider citing the following article\" (followed by an astronomy methods paper)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T02:08:07Z"
     }
+  },
+  "openssf_scorecard": {
+    "data": {
+      "date": "2026-01-23T13:58:39-05:00",
+      "repo": {
+        "name": "github.com/renecotyfanboy/jaxspec",
+        "commit": "57dabef99f98169e0a50ba2269a92c7eb73e926a"
+      },
+      "scorecard": {
+        "version": "v5.4.0",
+        "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+      },
+      "score": 5.3,
+      "checks": [
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no binaries found in the repo",
+          "name": "Binary-Artifacts",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#binary-artifacts",
+            "short": "Determines if the project has generated executable (binary) artifacts in the source repository."
+          }
+        },
+        {
+          "details": null,
+          "score": 6,
+          "reason": "branch protection is not maximal on development and all release branches",
+          "name": "Branch-Protection",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#branch-protection",
+            "short": "Determines if the default and release branches are protected with GitHub's branch protection settings."
+          }
+        },
+        {
+          "details": null,
+          "score": 8,
+          "reason": "18 out of 21 merged PRs checked by a CI test -- score normalized to 8",
+          "name": "CI-Tests",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#ci-tests",
+            "short": "Determines if the project runs tests before pull requests are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no effort to earn an OpenSSF best practices badge detected",
+          "name": "CII-Best-Practices",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#cii-best-practices",
+            "short": "Determines if the project has an OpenSSF (formerly CII) Best Practices Badge."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "Found 1/18 approved changesets -- score normalized to 0",
+          "name": "Code-Review",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#code-review",
+            "short": "Determines if the project requires human code review before pull requests (aka merge requests) are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "project has 0 contributing companies or organizations -- score normalized to 0",
+          "name": "Contributors",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#contributors",
+            "short": "Determines if the project has a set of contributors from multiple organizations (e.g., companies)."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no dangerous workflow patterns detected",
+          "name": "Dangerous-Workflow",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dangerous-workflow",
+            "short": "Determines if the project's GitHub Action workflows avoid dangerous patterns."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "update tool detected",
+          "name": "Dependency-Update-Tool",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dependency-update-tool",
+            "short": "Determines if the project uses a dependency update tool."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "project is not fuzzed",
+          "name": "Fuzzing",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#fuzzing",
+            "short": "Determines if the project uses fuzzing."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "license file detected",
+          "name": "License",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#license",
+            "short": "Determines if the project has defined a license."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "20 commit(s) and 4 issue activity found in the last 90 days -- score normalized to 10",
+          "name": "Maintained",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#maintained",
+            "short": "Determines if the project is \"actively maintained\"."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "packaging workflow not detected",
+          "name": "Packaging",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#packaging",
+            "short": "Determines if the project is published as a package that others can easily download, install, easily update, and uninstall."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "dependency not pinned by hash detected -- score normalized to 0",
+          "name": "Pinned-Dependencies",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#pinned-dependencies",
+            "short": "Determines if the project has declared and pinned the dependencies of its build process."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "SAST tool is not run on all commits -- score normalized to 0",
+          "name": "SAST",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#sast",
+            "short": "Determines if the project uses static code analysis."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "security policy file not detected",
+          "name": "Security-Policy",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#security-policy",
+            "short": "Determines if the project has published a security policy."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no releases found",
+          "name": "Signed-Releases",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#signed-releases",
+            "short": "Determines if the project cryptographically signs release artifacts."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "detected GitHub workflow tokens with excessive permissions",
+          "name": "Token-Permissions",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#token-permissions",
+            "short": "Determines if the project's workflows follow the principle of least privilege."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "0 existing vulnerabilities detected",
+          "name": "Vulnerabilities",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#vulnerabilities",
+            "short": "Determines if the project has open, known unfixed vulnerabilities."
+          }
+        }
+      ],
+      "metadata": null
+    },
+    "timestamp_utc": "2026-01-23T18:58:53Z"
+  }
 }

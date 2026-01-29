@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/mrc-ide/covid19-forecasts-orderly",
+  "url": "https://github.com/mrc-ide/covid19-forecasts-orderly",
+  "data": {
+    "timestamp": "2022-05-12 03:43:50.059728",
+    "name": "covid19-forecasts-orderly",
+    "url": "https://api.github.com/repos/mrc-ide/covid19-forecasts-orderly",
+    "full_name": "mrc-ide/covid19-forecasts-orderly",
+    "html_url": "https://github.com/mrc-ide/covid19-forecasts-orderly",
+    "private": false,
+    "description": null,
+    "created_at": "2020-04-08T13:25:08Z",
+    "updated_at": "2022-01-04T09:38:27Z",
+    "clone_url": "https://github.com/mrc-ide/covid19-forecasts-orderly.git",
+    "homepage": null,
+    "size": 29448,
+    "stargazers_count": 31,
+    "watchers_count": 31,
+    "language": "R",
+    "open_issues_count": 3,
+    "license": null,
+    "subscribers_count": 8,
+    "owner": {
+      "html_url": "https://github.com/mrc-ide",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25453642?v=4",
+      "login": "mrc-ide",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "contact": "Sangeeta Bhatia <s.bhatia@imperial.ac.uk>",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"required by the modeling teams. Download the latest data from ECDC\"",
+        "\"This is an [`orderly`](https://github.com/vimc/orderly) project.  The directories are: * `src`: create new reports here * `archive`: versioned results of running your report * `data`: copies of data used in the reports\"",
+        "Tasks are run as end-user analyses via `a <- orderly::orderly_run(\"prepare_ecdc_data\")` and similar commands, indicating this repo is an analysis/report project rather than a reusable library."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:27:11Z"
+    }
+  }
+}

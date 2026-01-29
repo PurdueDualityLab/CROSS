@@ -1,0 +1,53 @@
+{
+  "parser": "github",
+  "uid": "github/SDTC-CPMed/scDrugPrio",
+  "url": "https://github.com/SDTC-CPMed/scDrugPrio",
+  "data": {
+    "doi": "10.1186/s13073-024-01314-7",
+    "name": "scDrugPrio",
+    "url": "https://github.com/SDTC-CPMed/scDrugPrio",
+    "full_name": "SDTC-CPMed/scDrugPrio",
+    "html_url": "https://github.com/SDTC-CPMed/scDrugPrio",
+    "description": "Network analyses of single cell-based digital twins for personalized treatment of inflammatory disease",
+    "created_at": "2022-01-19T22:07:19Z",
+    "updated_at": "2024-03-27T16:09:31Z",
+    "clone_url": "https://github.com/SDTC-CPMed/scDrugPrio.git",
+    "size": 251139,
+    "stargazers_count": 8,
+    "watchers_count": 8,
+    "language": "R",
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/SDTC-CPMed",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61544709?v=4",
+      "login": "SDTC-CPMed",
+      "type": "Organization"
+    },
+    "topics": [
+      "single-cell"
+    ],
+    "timestamp": "2024-05-05 00:36:43.139892",
+    "avatar": "https://avatars.githubusercontent.com/u/61544709?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"devtools\")\"",
+        "\"scDrugPrio presents a framework for drug prioritisation and repositioning in immune-mediated inflammatory diseases (IMIDs) based on scRNA-seq based, multicellular disease models\"",
+        "\"To learn how to apply scDrugPrio to create multicellular digital twins for pharmacological predictions please refer to the vigenette\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T20:15:19Z"
+    }
+  }
+}

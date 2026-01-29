@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/galactic-ai/haloflow",
+  "url": "https://github.com/galactic-ai/haloflow",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2024ApJ...968...90H",
+      "https://ui.adsabs.harvard.edu/abs/2024ascl.soft08008H/abstract"
+    ],
+    "title": "HaloFlow: Simulation-Based Inference (SBI) using forward modeled galaxy photometry",
+    "url": "https://github.com/galactic-ai/haloflow",
+    "name": "haloflow",
+    "full_name": "galactic-ai/haloflow",
+    "html_url": "https://github.com/galactic-ai/haloflow",
+    "description": "Simulation-Based Inference (SBI) using forward modeled galaxy photometry",
+    "created_at": "2022-08-30T13:18:41Z",
+    "updated_at": "2024-12-20T15:38:15Z",
+    "clone_url": "https://github.com/galactic-ai/haloflow.git",
+    "size": 7458,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Jupyter Notebook",
+    "open_issues_count": 3,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/galactic-ai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/180338519?v=4",
+      "login": "galactic-ai",
+      "type": "Organization"
+    },
+    "timestamp": "2024-12-22 00:51:17.435853",
+    "avatar": "https://avatars.githubusercontent.com/u/180338519?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"A simulation-based inference framework for inferring halo masses from galaxy photometry and morphology.\"",
+        "The README describes a specific scientific framework (HaloFlow) tied to an astrophysics publication, indicating it is used directly for scientific inference rather than as a generic library.",
+        "No installation via package managers, containers, or binaries is mentioned; the project is presented as a GitHub-hosted codebase associated with a paper, implying source-based access."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T23:56:28Z"
+    }
+  }
+}

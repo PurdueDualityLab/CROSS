@@ -1,0 +1,55 @@
+{
+  "parser": "github",
+  "uid": "github/ndaniyar/aphot",
+  "url": "https://github.com/ndaniyar/aphot",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2013ApJ...779..112N",
+      "https://ui.adsabs.harvard.edu/abs/2013ascl.soft12011N/abstract"
+    ],
+    "title": "A_phot: Photon Asymmetry",
+    "url": "https://github.com/ndaniyar/aphot",
+    "name": "aphot",
+    "full_name": "ndaniyar/aphot",
+    "html_url": "https://github.com/ndaniyar/aphot",
+    "description": "Photon Asymmetry",
+    "created_at": "2013-09-06T01:05:39Z",
+    "updated_at": "2019-02-28T19:13:20Z",
+    "clone_url": "https://github.com/ndaniyar/aphot.git",
+    "size": 13801,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "Python",
+    "open_issues_count": 2,
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/ndaniyar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/723917?v=4",
+      "login": "ndaniyar",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 16:30:32.361613",
+    "avatar": "https://avatars.githubusercontent.com/u/723917?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Vendor or commercial entity",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This is a library for computing Photon Asymmetry (A_phot) parameter for morphological classification of clusters.\"",
+        "\"aphot.py is the main program that parses the command line and calls all necessary library functions.\" and usage examples like \"python ../../aphot.py --evt_files=13490.evt.fits ...\" show it is run as an end-user program for scientific analysis.",
+        "Installation: \"Simply copy all python files (aphot.py, chandra.py, common.py, get_args.py, libaphot.py) to one folder.\" with no mention of package managers or binaries, implying distribution via source files in the repo."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T01:34:41Z"
+    }
+  }
+}

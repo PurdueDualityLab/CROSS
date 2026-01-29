@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/neherlab/nextalign",
+  "url": "https://github.com/neherlab/nextalign",
+  "data": {
+    "title": "Nextalign",
+    "url": "https://github.com/neherlab/nextalign",
+    "credit": [],
+    "tags": [
+      "metagenomic-sequencing-analysis",
+      "high-throughput-sequencing"
+    ],
+    "description": "🧬 Viral genome reference alignment",
+    "name": "nextalign",
+    "full_name": "neherlab/nextalign",
+    "html_url": "https://github.com/neherlab/nextalign",
+    "created_at": "2020-11-17T11:53:15Z",
+    "updated_at": "2023-01-28T10:54:44Z",
+    "clone_url": "https://github.com/neherlab/nextalign.git",
+    "size": 603,
+    "stargazers_count": 12,
+    "watchers_count": 12,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/neherlab",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8996580?v=4",
+      "login": "neherlab",
+      "type": "Organization"
+    },
+    "timestamp": "2024-05-19 00:39:14.728150",
+    "avatar": "https://avatars.githubusercontent.com/u/8996580?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "“You can find Nextalign packages under `packages/` directory: - Command line tool: [packages/nextalign_cli]” (indicates an end-user CLI application)",
+        "“Moved to https://github.com/nextstrain/nextclade … packages/nextalign_cli … packages/nextalign” (distribution via GitHub source repository)",
+        "The association with Nextstrain/Nextclade (a well-known research analysis toolkit) implies it is used for sequence alignment/analysis, i.e. direct research execution."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T01:35:02Z"
+    }
+  }
+}

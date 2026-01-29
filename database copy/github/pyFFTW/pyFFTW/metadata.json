@@ -1,0 +1,63 @@
+{
+  "parser": "github",
+  "uid": "github/pyFFTW/pyFFTW",
+  "url": "https://github.com/pyFFTW/pyFFTW",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2019AJ....158....1K",
+      "https://ui.adsabs.harvard.edu/abs/2021ascl.soft09009G/abstract"
+    ],
+    "title": "pyFFTW: python wrapper around FFTW",
+    "url": "https://github.com/pyFFTW/pyFFTW",
+    "name": "pyFFTW",
+    "full_name": "pyFFTW/pyFFTW",
+    "html_url": "https://github.com/pyFFTW/pyFFTW",
+    "description": "A pythonic python wrapper around FFTW",
+    "created_at": "2012-01-26T20:27:19Z",
+    "updated_at": "2022-07-17T02:29:07Z",
+    "clone_url": "https://github.com/pyFFTW/pyFFTW.git",
+    "homepage": "http://pyfftw.readthedocs.io/en/latest/",
+    "size": 1685,
+    "stargazers_count": 307,
+    "watchers_count": 307,
+    "language": "Python",
+    "open_issues_count": 44,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 14,
+    "owner": {
+      "html_url": "https://github.com/pyFFTW",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16965121?v=4",
+      "login": "pyFFTW",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-17 16:50:26.373405",
+    "avatar": "https://avatars.githubusercontent.com/u/16965121?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install pyfftw\"",
+        "\"pyFFTW is a pythonic wrapper around FFTW 3, the speedy FFT library... pyFFTW implements the numpy and scipy fft interfaces\" (indicates a library used as a dependency).",
+        "\"We recommend *not* building from github, but using the release on the python package index with tools such as pip: `pip install pyfftw`\" (indicates distribution via PyPI)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:58:18Z"
+    }
+  }
+}

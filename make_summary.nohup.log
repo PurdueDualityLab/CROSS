@@ -1,0 +1,4 @@
+nohup: ignoring input
+ASF loaded: 2651, dropped: 76, kept: 2575
+RS loaded: 6966, dropped: 1026, kept: 5937
+Notes: Scorecard check scores of -1 indicate missing or not-applicable (insufficient evidence), while 0 indicates an evaluated check that failed. Missingness is the per-repository fraction of checks scored -1 and is summarized by median and IQR.

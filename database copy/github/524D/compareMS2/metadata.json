@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/524D/compareMS2",
+  "url": "https://github.com/524D/compareMS2",
+  "data": {
+    "doi": "10.1021/acs.jproteome.1c00528",
+    "name": "compareMS2",
+    "url": "https://github.com/524D/compareMS2",
+    "full_name": "524D/compareMS2",
+    "html_url": "https://github.com/524D/compareMS2",
+    "description": "Compare samples by MS2 spectra",
+    "created_at": "2021-02-19T12:19:57Z",
+    "updated_at": "2024-12-05T05:13:11Z",
+    "clone_url": "https://github.com/524D/compareMS2.git",
+    "size": 3498,
+    "stargazers_count": 4,
+    "watchers_count": 4,
+    "language": "JavaScript",
+    "open_issues_count": 18,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/524D",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50015273?v=4",
+      "login": "524D",
+      "type": "User"
+    },
+    "timestamp": "2025-03-02 00:48:29.433073",
+    "avatar": "https://avatars.githubusercontent.com/u/50015273?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"Ignore npm vulnerability warnings (**don't** run ```npm audit fix```). Since compareMS is not a web app, they are of limited relevance,\"",
+        "\"compareMS2 is a tool for direct comparison of tandem mass spectrometry datasets\"",
+        "\"The compareMS2 software can be run under Windows (64 bit AMD/Intel), Linux (64 bit AMD/Intel) and MacOS (ARM and Intel).\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T16:19:04Z"
+    }
+  }
+}

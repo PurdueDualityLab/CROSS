@@ -1,0 +1,56 @@
+{
+  "parser": "github",
+  "uid": "github/michalychforever/CLASS-PT",
+  "url": "https://github.com/Michalychforever/CLASS-PT",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2022PhRvD.106d3530P",
+      "https://ui.adsabs.harvard.edu/abs/2020PhRvD.102f3533C",
+      "https://ui.adsabs.harvard.edu/abs/2024ascl.soft03015I/abstract"
+    ],
+    "title": "CLASS-PT: Nonlinear perturbation theory extension of the Boltzmann code CLASS",
+    "url": "https://github.com/Michalychforever/CLASS-PT",
+    "name": "CLASS-PT",
+    "full_name": "Michalychforever/CLASS-PT",
+    "html_url": "https://github.com/Michalychforever/CLASS-PT",
+    "description": "Nonlinear perturbation theory extension of the Boltzmann code CLASS",
+    "created_at": "2018-08-07T21:08:39Z",
+    "updated_at": "2024-04-06T08:40:03Z",
+    "clone_url": "https://github.com/Michalychforever/CLASS-PT.git",
+    "size": 288023,
+    "stargazers_count": 20,
+    "watchers_count": 20,
+    "language": "C",
+    "open_issues_count": 2,
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/Michalychforever",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25805568?v=4",
+      "login": "Michalychforever",
+      "type": "User"
+    },
+    "timestamp": "2024-04-07 00:36:17.602795",
+    "avatar": "https://avatars.githubusercontent.com/u/25805568?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This is a modification of the CLASS code that computes the non-linear power spectra of dark matter and biased tracers in one-loop cosmological perturbation theory\" (domain-specific cosmology computation tool).",
+        "\"Once you are all set, check out this jupyter notebook ... for the examples of working sessions. Here's a simple example of computing the galaxy power spectrum multipoles with CLASS-PT:\" (used as an executable analysis tool, not just a library).",
+        "\"Read these instructions ... for the installation details\" and links to notebooks and colab, with no mention of package managers or binaries, implying use via cloning the GitHub repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T01:19:53Z"
+    }
+  }
+}

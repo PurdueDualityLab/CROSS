@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/fcs-analysis/PyCorrFit",
+  "url": "https://github.com/FCS-analysis/PyCorrFit",
+  "data": {
+    "url": "https://github.com/FCS-analysis/PyCorrFit",
+    "title": "Pycorrfit",
+    "description": "data analysis and fitting software for fluorescence correlation spectroscopy (FCS)",
+    "doi": "https://dx.doi.org/10.1093/bioinformatics/btu328",
+    "name": "PyCorrFit",
+    "full_name": "FCS-analysis/PyCorrFit",
+    "html_url": "https://github.com/FCS-analysis/PyCorrFit",
+    "created_at": "2012-11-21T18:14:18Z",
+    "updated_at": "2021-12-06T11:09:25Z",
+    "clone_url": "https://github.com/FCS-analysis/PyCorrFit.git",
+    "homepage": "pycorrfit.craban.de",
+    "size": 7300,
+    "stargazers_count": 32,
+    "watchers_count": 32,
+    "language": "Python",
+    "open_issues_count": 30,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 11,
+    "owner": {
+      "html_url": "https://github.com/FCS-analysis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16266790?v=4",
+      "login": "FCS-analysis",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-20 17:26:45.379249",
+    "avatar": "https://avatars.githubusercontent.com/u/16266790?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install -r requirements.txt\"",
+        "\"PyCorrFit documentation\" – indicates this repo is specifically for documentation of the PyCorrFit application, which is a scientific analysis tool.",
+        "\"This is the new sphinx-based documentation of PyCorrFit which will replace the LaTeX-based documentation eventually.\" – shows this repo is for docs, implying the main software (PyCorrFit) is an application used directly in research workflows."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:50:55Z"
+    }
+  }
+}

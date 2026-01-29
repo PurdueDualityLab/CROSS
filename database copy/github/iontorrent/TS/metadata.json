@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/iontorrent/TS",
+  "url": "https://github.com/iontorrent/TS",
+  "data": {
+    "timestamp": "2021-07-11 00:32:41.170540",
+    "name": "TS",
+    "url": "https://api.github.com/repos/iontorrent/TS",
+    "full_name": "iontorrent/TS",
+    "html_url": "https://github.com/iontorrent/TS",
+    "private": false,
+    "description": "Torrent Suite",
+    "created_at": "2012-01-13T15:25:43Z",
+    "updated_at": "2021-06-17T14:10:13Z",
+    "clone_url": "https://github.com/iontorrent/TS.git",
+    "homepage": "",
+    "size": 775342,
+    "stargazers_count": 15,
+    "watchers_count": 15,
+    "language": "Python",
+    "open_issues_count": 34,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 6,
+    "owner": {
+      "html_url": "https://github.com/iontorrent",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1327981?v=4",
+      "login": "iontorrent",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Vendor or commercial entity",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "Support contacts are Thermo Fisher Scientific regional support emails, indicating a commercial NGS analysis product: \"ngs-amsupport@thermofisher.com\" etc.",
+        "README describes building an \"Analysis module\" via a build script: \"To build Analysis module, the command is: MODULES=Analysis ./buildTools/build.sh\", implying an analysis application users run.",
+        "Build instructions reference using Docker only to build the software, not as the primary distribution to end users: \"If you are building this software for the first time, it's suggested to use a Docker container to build.\", and no package manager or release artifacts are mentioned, implying source-based distribution."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:27:25Z"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "parser": "github",
+  "uid": "github/CobayaSampler/cobaya",
+  "url": "https://github.com/CobayaSampler/cobaya",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2019JCAP...09..028A",
+      "https://ui.adsabs.harvard.edu/abs/2021JCAP...05..057T",
+      "https://ui.adsabs.harvard.edu/abs/2019ascl.soft10019T/abstract"
+    ],
+    "title": "Cobaya: Bayesian analysis in cosmology",
+    "url": "https://github.com/CobayaSampler/cobaya",
+    "name": "cobaya",
+    "full_name": "CobayaSampler/cobaya",
+    "html_url": "https://github.com/CobayaSampler/cobaya",
+    "description": "Code for Bayesian Analysis",
+    "created_at": "2018-09-16T10:52:52Z",
+    "updated_at": "2022-07-05T13:33:12Z",
+    "clone_url": "https://github.com/CobayaSampler/cobaya.git",
+    "homepage": "http://cobaya.readthedocs.io/en/latest/",
+    "size": 7190,
+    "stargazers_count": 74,
+    "watchers_count": 74,
+    "language": "Python",
+    "open_issues_count": 30,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 11,
+    "owner": {
+      "html_url": "https://github.com/CobayaSampler",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37546658?v=4",
+      "login": "CobayaSampler",
+      "type": "Organization"
+    },
+    "topics": [
+      "bayesian-inference",
+      "cosmological-inference",
+      "mcmc-sampler"
+    ],
+    "timestamp": "2022-07-17 17:15:42.160076",
+    "avatar": "https://avatars.githubusercontent.com/u/37546658?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "\"Cobaya, a code for Bayesian analysis in Cosmology\" and \"is a framework for sampling and statistical modelling: it allows you to explore an arbitrary prior or posterior using a range of Monte Carlo samplers\" (end-user analysis framework).",
+        "\"Though cobaya is a general purpose statistical framework, it includes interfaces to cosmological theory codes ... and likelihoods of cosmological experiments\" (domain-specific cosmology research tool).",
+        "\":Installation: `pip install cobaya --upgrade` ...\" and PyPI badge \"https://img.shields.io/pypi/v/cobaya.svg\" (distribution via PyPI package registry)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T16:54:34Z"
+    }
+  }
+}

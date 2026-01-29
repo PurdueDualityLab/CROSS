@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/codidact/qpixel",
+  "url": "https://github.com/codidact/qpixel",
+  "data": {
+    "timestamp": "2020-08-28 12:33:55.149594",
+    "name": "qpixel",
+    "url": "https://api.github.com/repos/codidact/qpixel",
+    "full_name": "codidact/qpixel",
+    "html_url": "https://github.com/codidact/qpixel",
+    "private": false,
+    "description": "Q&A-based community knowledge-sharing software",
+    "created_at": "2020-01-29T20:45:57Z",
+    "updated_at": "2020-08-28T17:18:44Z",
+    "clone_url": "https://github.com/codidact/qpixel.git",
+    "homepage": "https://codidact.com",
+    "size": 5561,
+    "stargazers_count": 41,
+    "watchers_count": 41,
+    "language": "Ruby",
+    "open_issues_count": 26,
+    "license": {
+      "key": "agpl-3.0",
+      "name": "GNU Affero General Public License v3.0",
+      "spdx_id": "AGPL-3.0",
+      "url": "https://api.github.com/licenses/agpl-3.0",
+      "node_id": "MDc6TGljZW5zZTE="
+    },
+    "subscribers_count": 10,
+    "owner": {
+      "html_url": "https://github.com/codidact",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/57011216?v=4",
+      "login": "codidact",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Rails-based version of our core software, powering codidact.com. Currently under active development towards MVP.\"",
+        "\"Q&A by the community, for the community\" and links to Codidact Meta/Collab indicate a community-governed open source project rather than an individual or single institution.",
+        "\"For a complete installation see the Installation guide (INSTALLATION.md).\" with no mention of package managers or binaries, implying distribution via the GitHub source repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T22:59:24Z"
+    }
+  }
+}

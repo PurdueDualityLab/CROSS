@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/facom/BHMcalc",
+  "url": "https://github.com/facom/BHMcalc",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2015IJAsB..14..391M",
+      "https://ui.adsabs.harvard.edu/abs/2018ascl.soft02013Z/abstract"
+    ],
+    "title": "BHMcalc: Binary Habitability Mechanism Calculator",
+    "url": "https://github.com/facom/BHMcalc",
+    "name": "BHMcalc",
+    "full_name": "facom/BHMcalc",
+    "html_url": "https://github.com/facom/BHMcalc",
+    "description": "Binary Habitability Mechanism - Calculator",
+    "created_at": "2014-04-30T14:57:18Z",
+    "updated_at": "2019-05-26T20:28:41Z",
+    "clone_url": "https://github.com/facom/BHMcalc.git",
+    "size": 1146956,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "Python",
+    "open_issues_count": 1,
+    "license": {
+      "key": "gpl-2.0",
+      "name": "GNU General Public License v2.0",
+      "spdx_id": "GPL-2.0",
+      "url": "https://api.github.com/licenses/gpl-2.0",
+      "node_id": "MDc6TGljZW5zZTg="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/facom",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1230304?v=4",
+      "login": "facom",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:19:15.464819",
+    "avatar": "https://avatars.githubusercontent.com/u/1230304?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"This is a tool that can be used as a web app or a python package.  The\"",
+        "\"**BHMcalc** is a project conceived and developed after the collaboration of the author (Prof. **Jorge I. Zuluaga, UdeA**) with Prof. **Paul Mason** ...\"",
+        "\"This is a tool that can be used as a web app or a python package.  The tool is entirely programmed in python and php (web interface) and it intends to be as friendly as possible to astronomers working in this field.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:49:28Z"
+    }
+  }
+}

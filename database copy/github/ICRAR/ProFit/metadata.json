@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/ICRAR/ProFit",
+  "url": "https://github.com/ICRAR/ProFit",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2017MNRAS.466.1513R",
+      "https://ui.adsabs.harvard.edu/abs/2016ascl.soft12004R/abstract"
+    ],
+    "title": "ProFit: Bayesian galaxy fitting tool",
+    "url": "https://github.com/ICRAR/ProFit",
+    "name": "ProFit",
+    "full_name": "ICRAR/ProFit",
+    "html_url": "https://github.com/ICRAR/ProFit",
+    "description": "ProFit is a galaxy image bulge-disk decomposition program",
+    "created_at": "2016-08-31T05:41:36Z",
+    "updated_at": "2022-07-04T23:56:55Z",
+    "clone_url": "https://github.com/ICRAR/ProFit.git",
+    "size": 11096,
+    "stargazers_count": 25,
+    "watchers_count": 25,
+    "language": "C++",
+    "subscribers_count": 12,
+    "owner": {
+      "html_url": "https://github.com/ICRAR",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1192804?v=4",
+      "login": "ICRAR",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-17 17:20:57.168734",
+    "avatar": "https://avatars.githubusercontent.com/u/1192804?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages('ProFit')\"",
+        "\"ProFit is a Bayesian galaxy fitting tool that uses a fast C++ image generation library and a flexible interface to a large number of likelihood samplers.\"",
+        "\"Within R you can get the v1.1.0 pre-built binary from CRAN by running ... install.packages('ProFit')\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T17:47:42Z"
+    }
+  }
+}

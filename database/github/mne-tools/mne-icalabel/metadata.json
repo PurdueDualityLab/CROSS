@@ -1,44 +1,263 @@
 {
-    "parser": "github",
-    "uid": "github/mne-tools/mne-icalabel",
+  "parser": "github",
+  "uid": "github/mne-tools/mne-icalabel",
+  "url": "https://github.com/mne-tools/mne-icalabel",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.7017165",
+    "name": "mne-icalabel",
     "url": "https://github.com/mne-tools/mne-icalabel",
-    "data": {
-        "doi": "https://doi.org/10.5281/zenodo.7017165",
-        "name": "mne-icalabel",
-        "url": "https://github.com/mne-tools/mne-icalabel",
-        "full_name": "mne-tools/mne-icalabel",
-        "html_url": "https://github.com/mne-tools/mne-icalabel",
-        "description": "Automatic labeling of ICA components in Python.",
-        "created_at": "2021-08-27T14:31:55Z",
-        "updated_at": "2022-08-19T09:36:58Z",
-        "clone_url": "https://github.com/mne-tools/mne-icalabel.git",
-        "homepage": "https://mne.tools/mne-icalabel/dev/index.html",
-        "size": 174187,
-        "stargazers_count": 37,
-        "watchers_count": 37,
-        "language": "Python",
-        "open_issues_count": 13,
-        "license": {
-            "key": "bsd-3-clause",
-            "name": "BSD 3-Clause \"New\" or \"Revised\" License",
-            "spdx_id": "BSD-3-Clause",
-            "url": "https://api.github.com/licenses/bsd-3-clause",
-            "node_id": "MDc6TGljZW5zZTU="
-        },
-        "subscribers_count": 3,
-        "owner": {
-            "html_url": "https://github.com/mne-tools",
-            "avatar_url": "https://avatars.githubusercontent.com/u/583875?v=4",
-            "login": "mne-tools",
-            "type": "Organization"
-        },
-        "topics": [
-            "eeg",
-            "ica",
-            "neuroscience",
-            "python"
-        ],
-        "timestamp": "2022-08-28 00:43:50.913282",
-        "avatar": "https://avatars.githubusercontent.com/u/583875?v=4"
+    "full_name": "mne-tools/mne-icalabel",
+    "html_url": "https://github.com/mne-tools/mne-icalabel",
+    "description": "Automatic labeling of ICA components in Python.",
+    "created_at": "2021-08-27T14:31:55Z",
+    "updated_at": "2022-08-19T09:36:58Z",
+    "clone_url": "https://github.com/mne-tools/mne-icalabel.git",
+    "homepage": "https://mne.tools/mne-icalabel/dev/index.html",
+    "size": 174187,
+    "stargazers_count": 37,
+    "watchers_count": 37,
+    "language": "Python",
+    "open_issues_count": 13,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/mne-tools",
+      "avatar_url": "https://avatars.githubusercontent.com/u/583875?v=4",
+      "login": "mne-tools",
+      "type": "Organization"
+    },
+    "topics": [
+      "eeg",
+      "ica",
+      "neuroscience",
+      "python"
+    ],
+    "timestamp": "2022-08-28 00:43:50.913282",
+    "avatar": "https://avatars.githubusercontent.com/u/583875?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install mne-icalabel\"",
+        "\"This repository is a conversion of the popular Matlab-based ICLabel classifier for Python. In addition, `mne-icalabel` provides extensions and improvements in the form of other models.\" (Python classifier/library)",
+        "\"MNE-ICALabel estimates the labels of ICA components given a MNE-Python Raw or Epochs object and an ICA instance\" (used within other analysis code, not as a standalone app)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:24:16Z"
     }
+  },
+  "openssf_scorecard": {
+    "data": {
+      "date": "2026-01-23T12:41:12-05:00",
+      "repo": {
+        "name": "github.com/mne-tools/mne-icalabel",
+        "commit": "8050c72d2305349bd7c3af5e04ba028552693361"
+      },
+      "scorecard": {
+        "version": "v5.4.0",
+        "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+      },
+      "score": 5.6,
+      "checks": [
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no binaries found in the repo",
+          "name": "Binary-Artifacts",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#binary-artifacts",
+            "short": "Determines if the project has generated executable (binary) artifacts in the source repository."
+          }
+        },
+        {
+          "details": null,
+          "score": 1,
+          "reason": "branch protection is not maximal on development and all release branches",
+          "name": "Branch-Protection",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#branch-protection",
+            "short": "Determines if the default and release branches are protected with GitHub's branch protection settings."
+          }
+        },
+        {
+          "details": null,
+          "score": 9,
+          "reason": "27 out of 29 merged PRs checked by a CI test -- score normalized to 9",
+          "name": "CI-Tests",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#ci-tests",
+            "short": "Determines if the project runs tests before pull requests are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no effort to earn an OpenSSF best practices badge detected",
+          "name": "CII-Best-Practices",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#cii-best-practices",
+            "short": "Determines if the project has an OpenSSF (formerly CII) Best Practices Badge."
+          }
+        },
+        {
+          "details": null,
+          "score": 5,
+          "reason": "Found 3/6 approved changesets -- score normalized to 5",
+          "name": "Code-Review",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#code-review",
+            "short": "Determines if the project requires human code review before pull requests (aka merge requests) are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "project has 10 contributing companies or organizations",
+          "name": "Contributors",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#contributors",
+            "short": "Determines if the project has a set of contributors from multiple organizations (e.g., companies)."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no dangerous workflow patterns detected",
+          "name": "Dangerous-Workflow",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dangerous-workflow",
+            "short": "Determines if the project's GitHub Action workflows avoid dangerous patterns."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "update tool detected",
+          "name": "Dependency-Update-Tool",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dependency-update-tool",
+            "short": "Determines if the project uses a dependency update tool."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "project is not fuzzed",
+          "name": "Fuzzing",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#fuzzing",
+            "short": "Determines if the project uses fuzzing."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "license file detected",
+          "name": "License",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#license",
+            "short": "Determines if the project has defined a license."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "13 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 10",
+          "name": "Maintained",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#maintained",
+            "short": "Determines if the project is \"actively maintained\"."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "packaging workflow not detected",
+          "name": "Packaging",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#packaging",
+            "short": "Determines if the project is published as a package that others can easily download, install, easily update, and uninstall."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "dependency not pinned by hash detected -- score normalized to 0",
+          "name": "Pinned-Dependencies",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#pinned-dependencies",
+            "short": "Determines if the project has declared and pinned the dependencies of its build process."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "SAST tool is not run on all commits -- score normalized to 0",
+          "name": "SAST",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#sast",
+            "short": "Determines if the project uses static code analysis."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "security policy file not detected",
+          "name": "Security-Policy",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#security-policy",
+            "short": "Determines if the project has published a security policy."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no releases found",
+          "name": "Signed-Releases",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#signed-releases",
+            "short": "Determines if the project cryptographically signs release artifacts."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "detected GitHub workflow tokens with excessive permissions",
+          "name": "Token-Permissions",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#token-permissions",
+            "short": "Determines if the project's workflows follow the principle of least privilege."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "0 existing vulnerabilities detected",
+          "name": "Vulnerabilities",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#vulnerabilities",
+            "short": "Determines if the project has open, known unfixed vulnerabilities."
+          }
+        }
+      ],
+      "metadata": null
+    },
+    "timestamp_utc": "2026-01-23T17:41:32Z"
+  }
 }

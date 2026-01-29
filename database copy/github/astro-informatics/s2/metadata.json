@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/astro-informatics/s2",
+  "url": "https://github.com/astro-informatics/s2",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2007ITSP...55..520M",
+      "https://ui.adsabs.harvard.edu/abs/2016ascl.soft06008M/abstract"
+    ],
+    "title": "s2: Object oriented wrapper for functions on the sphere",
+    "url": "https://github.com/astro-informatics/s2",
+    "name": "s2",
+    "full_name": "astro-informatics/s2",
+    "html_url": "https://github.com/astro-informatics/s2",
+    "description": "Functions on the sphere",
+    "created_at": "2015-07-30T14:09:44Z",
+    "updated_at": "2015-08-05T11:50:12Z",
+    "clone_url": "https://github.com/astro-informatics/s2.git",
+    "homepage": " http://astro-informatics.github.io/s2",
+    "size": 413,
+    "language": "FORTRAN",
+    "license": {
+      "key": "gpl-2.0",
+      "name": "GNU General Public License v2.0",
+      "spdx_id": "GPL-2.0",
+      "url": "https://api.github.com/licenses/gpl-2.0",
+      "node_id": "MDc6TGljZW5zZTg="
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/astro-informatics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10872187?v=4",
+      "login": "astro-informatics",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-17 17:21:38.540737",
+    "avatar": "https://avatars.githubusercontent.com/u/10872187?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"the download site http://www.mrao.cam.ac.uk/~jdm57/ and our\"",
+        "\"The s2 package contains functionality to support functions defined on the sky/sphere and was developed primarily for astrophysical applications.\"",
+        "\"If you use the code to produce published works please reference the download site http://www.mrao.cam.ac.uk/~jdm57/ and our related paper\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T21:26:12Z"
+    }
+  }
+}

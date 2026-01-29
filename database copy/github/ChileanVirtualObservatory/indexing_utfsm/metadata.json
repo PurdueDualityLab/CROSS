@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/ChileanVirtualObservatory/indexing_utfsm",
+  "url": "https://github.com/ChileanVirtualObservatory/indexing_utfsm",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2015NewA...39...46A",
+      "https://ui.adsabs.harvard.edu/abs/2015ascl.soft12010C/abstract"
+    ],
+    "title": "CubeIndexer: Indexer for regions of interest in data cubes",
+    "url": "https://github.com/ChileanVirtualObservatory/indexing_utfsm",
+    "name": "indexing_utfsm",
+    "full_name": "ChileanVirtualObservatory/indexing_utfsm",
+    "html_url": "https://github.com/ChileanVirtualObservatory/indexing_utfsm",
+    "description": "R implementation of RoiSE algorithm",
+    "created_at": "2014-07-15T15:18:44Z",
+    "updated_at": "2017-09-07T02:28:18Z",
+    "clone_url": "https://github.com/ChileanVirtualObservatory/indexing_utfsm.git",
+    "size": 180,
+    "language": "R",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/ChileanVirtualObservatory",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3382185?v=4",
+      "login": "ChileanVirtualObservatory",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-17 17:22:27.052744",
+    "avatar": "https://avatars.githubusercontent.com/u/3382185?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Indexación de objetos astronómicos\" and description of R codes for spectra processing, multiscale segmentation, and indexing indicate a domain-specific scientific application.",
+        "\"cube_indexing.R runs the full pipeline of the system\" and example calls (e.g., `gaussian_mix(h1)`, `getObjects(h1)`, `mainFunction(database,fits)`) show it directly processes astronomical data and interacts with a database for research purposes.",
+        "README only lists R source files and dependencies, with usage examples in R console, and no mention of packages, releases, or binaries, implying distribution as raw source code in the repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T16:52:57Z"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "parser": "github",
+  "uid": "github/CederGroupHub/smol",
+  "url": "https://github.com/CederGroupHub/smol",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.7115050",
+    "name": "smol",
+    "url": "https://github.com/CederGroupHub/smol",
+    "full_name": "CederGroupHub/smol",
+    "html_url": "https://github.com/CederGroupHub/smol",
+    "description": "Statistical Mechanics on Lattices",
+    "created_at": "2019-11-25T23:17:27Z",
+    "updated_at": "2022-09-30T03:29:05Z",
+    "clone_url": "https://github.com/CederGroupHub/smol.git",
+    "homepage": "https://cedergrouphub.github.io/smol/",
+    "size": 46618,
+    "stargazers_count": 6,
+    "watchers_count": 6,
+    "language": "Python",
+    "open_issues_count": 13,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/CederGroupHub",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34322218?v=4",
+      "login": "CederGroupHub",
+      "type": "Organization"
+    },
+    "topics": [
+      "cluster-expansion",
+      "materials-science",
+      "monte-carlo",
+      "statistical-mechanics"
+    ],
+    "timestamp": "2022-10-02 00:55:36.547097",
+    "avatar": "https://avatars.githubusercontent.com/u/34322218?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install smol\"",
+        "\"**smol** is a minimal implementation of computational methods to calculate statistical mechanical and thermodynamic properties of crystalline material systems...\" (domain scientific computation, used as a tool in research).",
+        "\"**smol** is built on top of [pymatgen](https://pymatgen.org) so any pre/post structure analysis can be done seamlessly\" and the functionality list describes programmatic features, indicating it is a library-style dependency rather than just a standalone app."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T16:52:23Z"
+    }
+  }
+}

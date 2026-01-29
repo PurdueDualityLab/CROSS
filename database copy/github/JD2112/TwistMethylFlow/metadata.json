@@ -1,0 +1,67 @@
+{
+  "parser": "github",
+  "uid": "github/JD2112/TwistMethylFlow",
+  "url": "https://github.com/JD2112/TwistMethylFlow",
+  "data": {
+    "name": "TwistMethylFlow",
+    "url": "https://github.com/JD2112/TwistMethylFlow",
+    "full_name": "JD2112/TwistMethylFlow",
+    "html_url": "https://github.com/JD2112/TwistMethylFlow",
+    "private": false,
+    "description": "A NextFlow pipeline for Twist NGS DNA Methylation data analysis",
+    "created_at": "2024-11-20T08:04:04Z",
+    "updated_at": "2025-08-26T07:08:54Z",
+    "clone_url": "https://github.com/JD2112/TwistMethylFlow.git",
+    "homepage": "https://jd2112.github.io/TwistMethylFlow",
+    "size": 32712,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Nextflow",
+    "open_issues_count": 0,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/JD2112",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15922543?v=4",
+      "login": "JD2112",
+      "type": "User"
+    },
+    "topics": [
+      "dna",
+      "dna-methylation",
+      "docker",
+      "nextflow",
+      "singularity",
+      "twist"
+    ],
+    "timestamp": "2025-09-28 00:57:52.508201",
+    "avatar": "https://avatars.githubusercontent.com/u/15922543?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This Nextflow pipeline is designed for the analysis of Twist NGS Methylation data, including quality control, alignment, methylation calling, differential methylation analysis, and post-processing.\"",
+        "Usage is shown via `nextflow run JD2112/TwistMethylFlow ...`, indicating users run the pipeline as an application workflow rather than import it as a library.",
+        "Credits list a main author and one collaborator with GitHub handles, and the repository owner is a personal user account (JD2112), consistent with an individually maintained research pipeline distributed via the GitHub source repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T18:02:14Z"
+    }
+  }
+}

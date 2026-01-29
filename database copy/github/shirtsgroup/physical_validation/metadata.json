@@ -1,0 +1,66 @@
+{
+  "parser": "github",
+  "uid": "github/shirtsgroup/physical_validation",
+  "url": "https://github.com/shirtsgroup/physical_validation",
+  "data": {
+    "timestamp": "2022-01-09 00:40:08.954390",
+    "name": "physical_validation",
+    "url": "https://api.github.com/repos/shirtsgroup/physical_validation",
+    "full_name": "shirtsgroup/physical_validation",
+    "html_url": "https://github.com/shirtsgroup/physical_validation",
+    "private": false,
+    "description": "Physical validation of molecular simulations",
+    "created_at": "2017-05-08T21:33:07Z",
+    "updated_at": "2022-01-06T18:08:46Z",
+    "clone_url": "https://github.com/shirtsgroup/physical_validation.git",
+    "homepage": "https://physical-validation.readthedocs.io",
+    "size": 69101,
+    "stargazers_count": 28,
+    "watchers_count": 28,
+    "language": "Python",
+    "open_issues_count": 9,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 12,
+    "owner": {
+      "html_url": "https://github.com/shirtsgroup",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6166660?v=4",
+      "login": "shirtsgroup",
+      "type": "Organization"
+    },
+    "topics": [
+      "physical-validation",
+      "molecular-simulation",
+      "molecular-dynamics",
+      "molecular-mechanics",
+      "python"
+    ]
+  },
+  "doi": "https://doi.org/10.5281/zenodo.5815657",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"physical_validation: A Python package to assess the physical validity of molecular simulation results\"",
+        "\"`physical_validation` is a package testing results obtained by molecular simulations for their physical validity.\"",
+        "\"This software is developed in the Shirts group at University of Colorado in Boulder.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T03:26:07Z"
+    }
+  }
+}

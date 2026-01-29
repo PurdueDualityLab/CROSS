@@ -1,46 +1,265 @@
 {
-    "parser": "github",
-    "uid": "github/ImperialCollegeLondon/sharpy",
-    "url": "https://github.com/ImperialCollegeLondon/sharpy",
-    "data": {
-        "timestamp": "2022-05-12 03:43:37.539238",
-        "name": "sharpy",
-        "url": "https://api.github.com/repos/ImperialCollegeLondon/sharpy",
-        "full_name": "ImperialCollegeLondon/sharpy",
-        "html_url": "https://github.com/ImperialCollegeLondon/sharpy",
-        "private": false,
-        "description": "Simulation of High Aspect Ratio aeroplanes and wind turbines in Python: a nonlinear aeroelastic code",
-        "created_at": "2016-10-07T10:11:51Z",
-        "updated_at": "2022-04-29T12:06:26Z",
-        "clone_url": "https://github.com/ImperialCollegeLondon/sharpy.git",
-        "homepage": "https://imperial.ac.uk/aeroelastics/sharpy",
-        "size": 60540,
-        "stargazers_count": 75,
-        "watchers_count": 75,
-        "language": "Python",
-        "open_issues_count": 13,
-        "license": {
-            "key": "bsd-3-clause",
-            "name": "BSD 3-Clause \"New\" or \"Revised\" License",
-            "spdx_id": "BSD-3-Clause",
-            "url": "https://api.github.com/licenses/bsd-3-clause",
-            "node_id": "MDc6TGljZW5zZTU="
-        },
-        "subscribers_count": 17,
-        "owner": {
-            "html_url": "https://github.com/ImperialCollegeLondon",
-            "avatar_url": "https://avatars.githubusercontent.com/u/1220306?v=4",
-            "login": "ImperialCollegeLondon",
-            "type": "Organization"
-        },
-        "topics": [
-            "aeroelasticity",
-            "simulation",
-            "aeronautics",
-            "structures",
-            "structural-dynamics",
-            "wind-turbines"
-        ]
+  "parser": "github",
+  "uid": "github/ImperialCollegeLondon/sharpy",
+  "url": "https://github.com/ImperialCollegeLondon/sharpy",
+  "data": {
+    "timestamp": "2022-05-12 03:43:37.539238",
+    "name": "sharpy",
+    "url": "https://api.github.com/repos/ImperialCollegeLondon/sharpy",
+    "full_name": "ImperialCollegeLondon/sharpy",
+    "html_url": "https://github.com/ImperialCollegeLondon/sharpy",
+    "private": false,
+    "description": "Simulation of High Aspect Ratio aeroplanes and wind turbines in Python: a nonlinear aeroelastic code",
+    "created_at": "2016-10-07T10:11:51Z",
+    "updated_at": "2022-04-29T12:06:26Z",
+    "clone_url": "https://github.com/ImperialCollegeLondon/sharpy.git",
+    "homepage": "https://imperial.ac.uk/aeroelastics/sharpy",
+    "size": 60540,
+    "stargazers_count": 75,
+    "watchers_count": 75,
+    "language": "Python",
+    "open_issues_count": 13,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
     },
-    "rsotm": "2021-05"
+    "subscribers_count": 17,
+    "owner": {
+      "html_url": "https://github.com/ImperialCollegeLondon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1220306?v=4",
+      "login": "ImperialCollegeLondon",
+      "type": "Organization"
+    },
+    "topics": [
+      "aeroelasticity",
+      "simulation",
+      "aeronautics",
+      "structures",
+      "structural-dynamics",
+      "wind-turbines"
+    ]
+  },
+  "rsotm": "2021-05",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"![Version badge](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fraw.githubusercontent.com%2FImperialCollegeLondon%2Fsharpy%2Fmain%2F.version.json)\"",
+        "\"SHARPy is a nonlinear aeroelastic analysis package ... It can be used for the structural, aerodynamic and aeroelastic analysis of flexible wings, aircraft and wind turbines.\"",
+        "\"For more information on the research team developing SHARPy or to get in touch, visit our homepage\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T18:01:43Z"
+    }
+  },
+  "openssf_scorecard": {
+    "data": {
+      "date": "2026-01-23T08:13:14-05:00",
+      "repo": {
+        "name": "github.com/ImperialCollegeLondon/sharpy",
+        "commit": "98813d7fb746cd90c7c69e2668c89d13f3c7be2d"
+      },
+      "scorecard": {
+        "version": "v5.4.0",
+        "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+      },
+      "score": 5.1,
+      "checks": [
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no binaries found in the repo",
+          "name": "Binary-Artifacts",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#binary-artifacts",
+            "short": "Determines if the project has generated executable (binary) artifacts in the source repository."
+          }
+        },
+        {
+          "details": null,
+          "score": 8,
+          "reason": "branch protection is not maximal on development and all release branches",
+          "name": "Branch-Protection",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#branch-protection",
+            "short": "Determines if the default and release branches are protected with GitHub's branch protection settings."
+          }
+        },
+        {
+          "details": null,
+          "score": 7,
+          "reason": "7 out of 10 merged PRs checked by a CI test -- score normalized to 7",
+          "name": "CI-Tests",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#ci-tests",
+            "short": "Determines if the project runs tests before pull requests are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no effort to earn an OpenSSF best practices badge detected",
+          "name": "CII-Best-Practices",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#cii-best-practices",
+            "short": "Determines if the project has an OpenSSF (formerly CII) Best Practices Badge."
+          }
+        },
+        {
+          "details": null,
+          "score": 9,
+          "reason": "Found 10/11 approved changesets -- score normalized to 9",
+          "name": "Code-Review",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#code-review",
+            "short": "Determines if the project requires human code review before pull requests (aka merge requests) are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 6,
+          "reason": "project has 2 contributing companies or organizations -- score normalized to 6",
+          "name": "Contributors",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#contributors",
+            "short": "Determines if the project has a set of contributors from multiple organizations (e.g., companies)."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no dangerous workflow patterns detected",
+          "name": "Dangerous-Workflow",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dangerous-workflow",
+            "short": "Determines if the project's GitHub Action workflows avoid dangerous patterns."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no update tool detected",
+          "name": "Dependency-Update-Tool",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dependency-update-tool",
+            "short": "Determines if the project uses a dependency update tool."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "project is not fuzzed",
+          "name": "Fuzzing",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#fuzzing",
+            "short": "Determines if the project uses fuzzing."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "license file detected",
+          "name": "License",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#license",
+            "short": "Determines if the project has defined a license."
+          }
+        },
+        {
+          "details": null,
+          "score": 2,
+          "reason": "3 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 2",
+          "name": "Maintained",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#maintained",
+            "short": "Determines if the project is \"actively maintained\"."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "packaging workflow detected",
+          "name": "Packaging",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#packaging",
+            "short": "Determines if the project is published as a package that others can easily download, install, easily update, and uninstall."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "dependency not pinned by hash detected -- score normalized to 0",
+          "name": "Pinned-Dependencies",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#pinned-dependencies",
+            "short": "Determines if the project has declared and pinned the dependencies of its build process."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "SAST tool is not run on all commits -- score normalized to 0",
+          "name": "SAST",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#sast",
+            "short": "Determines if the project uses static code analysis."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "security policy file not detected",
+          "name": "Security-Policy",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#security-policy",
+            "short": "Determines if the project has published a security policy."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no releases found",
+          "name": "Signed-Releases",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#signed-releases",
+            "short": "Determines if the project cryptographically signs release artifacts."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "detected GitHub workflow tokens with excessive permissions",
+          "name": "Token-Permissions",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#token-permissions",
+            "short": "Determines if the project's workflows follow the principle of least privilege."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "0 existing vulnerabilities detected",
+          "name": "Vulnerabilities",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#vulnerabilities",
+            "short": "Determines if the project has open, known unfixed vulnerabilities."
+          }
+        }
+      ],
+      "metadata": null
+    },
+    "timestamp_utc": "2026-01-23T13:13:35Z"
+  }
 }

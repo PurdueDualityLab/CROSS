@@ -1,0 +1,49 @@
+{
+  "parser": "github",
+  "uid": "github/TeraTrees/TIPP",
+  "url": "https://github.com/TeraTrees/TIPP",
+  "data": {
+    "url": "https://github.com/TeraTrees/TIPP",
+    "title": "Tipp",
+    "description": "tool for Taxonomic Identification and Phylogenetic Profiling",
+    "name": "TIPP",
+    "full_name": "TeraTrees/TIPP",
+    "html_url": "https://github.com/TeraTrees/TIPP",
+    "created_at": "2021-02-03T15:34:30Z",
+    "updated_at": "2021-08-30T00:59:47Z",
+    "clone_url": "https://github.com/TeraTrees/TIPP.git",
+    "size": 1706,
+    "language": "Java",
+    "open_issues_count": 2,
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/TeraTrees",
+      "avatar_url": "https://avatars.githubusercontent.com/u/78455348?v=4",
+      "login": "TeraTrees",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-20 17:27:37.944876",
+    "avatar": "https://avatars.githubusercontent.com/u/78455348?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"1. Download and decompress the reference dataset available at [https://obj.umiacs.umd.edu/tipp/tipp2-refpkg.tar.gz](https://obj.umiacs.umd.edu/tipp/tipp2-refpkg.tar.gz).\"",
+        "\"TIPP(2) is a method for the following problems: Taxonomic identification... Abundance profiling...\" (describes a domain-specific analysis application users run).",
+        "\"Installing TIPP... This section details steps for installing and running TIPP. We have run TIPP on Linux and MAC.\" (installation and execution from the repo, no mention of package registries)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T20:24:58Z"
+    }
+  }
+}

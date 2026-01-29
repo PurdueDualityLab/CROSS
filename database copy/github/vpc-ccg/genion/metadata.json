@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/vpc-ccg/genion",
+  "url": "https://github.com/vpc-ccg/genion",
+  "data": {
+    "title": "Genion",
+    "url": "https://github.com/vpc-ccg/genion",
+    "credit": [],
+    "tags": [
+      "high-throughput-sequencing"
+    ],
+    "description": "GENe fusION",
+    "name": "genion",
+    "full_name": "vpc-ccg/genion",
+    "html_url": "https://github.com/vpc-ccg/genion",
+    "created_at": "2021-12-09T18:10:32Z",
+    "updated_at": "2022-06-27T03:07:09Z",
+    "clone_url": "https://github.com/vpc-ccg/genion.git",
+    "size": 265,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "C++",
+    "open_issues_count": 2,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/vpc-ccg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26337493?v=4",
+      "login": "vpc-ccg",
+      "type": "Organization"
+    },
+    "timestamp": "2023-04-02 00:38:55.504979",
+    "avatar": "https://avatars.githubusercontent.com/u/26337493?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "conda",
+      "evidence": [
+        "README install command: \"conda install -c bioconda genion\"",
+        "\"Genion An accurate tool to detect gene fusion from long transcriptomics reads.\"",
+        "\"Genion comes with a stand-alone binary and helper Snakemake to assist mapping and preparing reference files.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:40:03Z"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/Goobley/Radynversion",
+  "url": "https://github.com/Goobley/Radynversion",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/#abs/2019arXiv190108626O",
+      "https://ui.adsabs.harvard.edu/abs/2019ascl.soft02008O/abstract"
+    ],
+    "title": "Radynversion: Solar atmospheric properties during a solar flare",
+    "url": "https://github.com/Goobley/Radynversion",
+    "name": "Radynversion",
+    "full_name": "Goobley/Radynversion",
+    "html_url": "https://github.com/Goobley/Radynversion",
+    "description": "Inverting Solar Flare Observations with Invertible Neural Nets (with RADYN physics) ",
+    "created_at": "2018-09-18T16:08:22Z",
+    "updated_at": "2022-05-09T10:13:34Z",
+    "clone_url": "https://github.com/Goobley/Radynversion.git",
+    "size": 14188,
+    "stargazers_count": 9,
+    "watchers_count": 9,
+    "language": "Jupyter Notebook",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/Goobley",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9143392?v=4",
+      "login": "Goobley",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:17:14.832431",
+    "avatar": "https://avatars.githubusercontent.com/u/9143392?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Builds and releases",
+      "distribution_details": "GitHub Releases",
+      "evidence": [
+        "README mentions releases: \"For an example of the model in action the `single_pixel_inversion_example.ipynb` notebook is the recommended place to start. It uses a library of functions defined in `utils.py` You will also need the\"",
+        "\"This repository contains the code for Radynversion, an Invertible Neural Network (INN) based tool that infers solar atmospheric properties during a solar flare\"",
+        "\"The code associated with this paper lives in this repository\" and \"For an example of the model in action the `single_pixel_inversion_example.ipynb` notebook is the recommended place to start.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T17:42:31Z"
+    }
+  }
+}

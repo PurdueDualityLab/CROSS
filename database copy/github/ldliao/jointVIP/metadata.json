@@ -1,0 +1,65 @@
+{
+  "parser": "github",
+  "uid": "github/ldliao/jointVIP",
+  "url": "https://github.com/ldliao/jointVIP",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.14020544",
+    "name": "jointVIP",
+    "url": "https://github.com/ldliao/jointVIP",
+    "full_name": "ldliao/jointVIP",
+    "html_url": "https://github.com/ldliao/jointVIP",
+    "description": "Prioritize variables in observational study design through the joint variable importance plot; shiny app: https://ldliao.shinyapps.io/jointVIP/",
+    "created_at": "2021-10-06T01:15:18Z",
+    "updated_at": "2024-11-13T00:50:31Z",
+    "clone_url": "https://github.com/ldliao/jointVIP.git",
+    "homepage": "https://ldliao.github.io/jointVIP/",
+    "size": 11216,
+    "stargazers_count": 6,
+    "watchers_count": 6,
+    "language": "HTML",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/ldliao",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22989630?v=4",
+      "login": "ldliao",
+      "type": "User"
+    },
+    "topics": [
+      "causal-inference",
+      "observational-study",
+      "study-design",
+      "rstats",
+      "r"
+    ],
+    "timestamp": "2024-11-17 00:48:11.381738",
+    "avatar": "https://avatars.githubusercontent.com/u/22989630?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"jointVIP\")\"",
+        "\"You can install the `jointVIP` package on CRAN using: ... install.packages(\"jointVIP\")\"",
+        "\"Joint variable importance plot (jointVIP) visualizes each variable’s outcome importance via Pearson’s correlation and treatment importance via cross-sample standardized mean differences.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:52:25Z"
+    }
+  }
+}

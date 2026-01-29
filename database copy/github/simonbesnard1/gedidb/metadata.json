@@ -1,0 +1,65 @@
+{
+  "parser": "github",
+  "uid": "github/simonbesnard1/gedidb",
+  "url": "https://github.com/simonbesnard1/gedidb",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.17191670",
+    "name": "gedidb",
+    "url": "https://github.com/simonbesnard1/gedidb",
+    "full_name": "simonbesnard1/gedidb",
+    "html_url": "https://github.com/simonbesnard1/gedidb",
+    "description": "A toolbox for processing and providing Global Ecosystem Dynamics Investigation (GEDI) L2A-B and L4A-C data",
+    "created_at": "2025-02-10T07:45:41Z",
+    "updated_at": "2025-09-27T12:05:30Z",
+    "clone_url": "https://github.com/simonbesnard1/gedidb.git",
+    "homepage": "https://gedidb.readthedocs.io/en/latest/",
+    "size": 44357,
+    "stargazers_count": 10,
+    "watchers_count": 10,
+    "language": "Python",
+    "open_issues_count": 6,
+    "license": {
+      "key": "eupl-1.2",
+      "name": "European Union Public License 1.2",
+      "spdx_id": "EUPL-1.2",
+      "url": "https://api.github.com/licenses/eupl-1.2",
+      "node_id": "MDc6TGljZW5zZTM0"
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/simonbesnard1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/162727763?v=4",
+      "login": "simonbesnard1",
+      "type": "User"
+    },
+    "topics": [
+      "gedi",
+      "python",
+      "remote-sensing",
+      "tiledb"
+    ],
+    "timestamp": "2025-09-28 00:57:17.486141",
+    "avatar": "https://avatars.githubusercontent.com/u/162727763?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"- **Support for direct HDF5 access from AWS S3**: will enable `gediDB` to operate directly on cloud-hosted GEDI granules (e.g., on NASA’s MAAP infrastructure), avoiding the need for local downloads an\"",
+        "\"gediDB is an open-source Python package designed to streamline the processing, analysis, and management of GEDI L2A-B and L4A-C data.\"",
+        "\"This toolbox enables efficient and flexible data querying and management of large GEDI datasets stored with TileDB\" and \"making it easier to retrieve, filter, and analyze complex datasets\" (indicating direct research data analysis use)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T03:27:41Z"
+    }
+  }
+}

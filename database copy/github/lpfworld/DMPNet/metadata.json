@@ -1,0 +1,48 @@
+{
+  "parser": "github",
+  "uid": "github/lpfworld/DMPNet",
+  "url": "https://github.com/lpfworld/DMPNet",
+  "data": {
+    "doi": "10.7717/PEERJ-CS.902",
+    "name": "DMPNet",
+    "url": "https://github.com/lpfworld/DMPNet",
+    "full_name": "lpfworld/DMPNet",
+    "html_url": "https://github.com/lpfworld/DMPNet",
+    "description": "DMPNet",
+    "created_at": "2021-10-27T02:07:56Z",
+    "updated_at": "2021-10-28T00:57:27Z",
+    "clone_url": "https://github.com/lpfworld/DMPNet.git",
+    "size": 3220,
+    "language": "Python",
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/lpfworld",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22807794?v=4",
+      "login": "lpfworld",
+      "type": "User"
+    },
+    "timestamp": "2022-08-21 00:39:28.009929",
+    "avatar": "https://avatars.githubusercontent.com/u/22807794?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"Download the shanghaitech dataset from [here](https://www.datafountain.cn/datasets/5670), UCF-QNRF and UCF-CC-50 datasets from [here](https://www.crcv.ucf.edu/data/ucf-qnrf/).\"",
+        "Instructions reference running scripts like `python test_one_image.py` and `python test_dataset.py`, indicating an end-user application workflow rather than a library.",
+        "The README describes training and testing a model on research datasets (ShanghaiTech, UCF-QNRF, UCF-CC-50), implying the software directly performs crowd counting experiments."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:57:13Z"
+    }
+  }
+}

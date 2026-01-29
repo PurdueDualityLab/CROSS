@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/ejsafron/SATCHEL",
+  "url": "https://github.com/ejsafron/SATCHEL",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2022MNRAS.tmp..777S",
+      "https://ui.adsabs.harvard.edu/abs/2022ascl.soft03011S/abstract"
+    ],
+    "title": "SATCHEL: Pipeline to search for long-period exoplanet signals",
+    "url": "https://github.com/ejsafron/SATCHEL",
+    "name": "SATCHEL",
+    "full_name": "ejsafron/SATCHEL",
+    "html_url": "https://github.com/ejsafron/SATCHEL",
+    "description": "Pipeline to search for long-period exoplanet signals in Kepler time-series data classified on the Planet Hunters website.",
+    "created_at": "2020-04-03T21:35:58Z",
+    "updated_at": "2022-03-18T13:27:04Z",
+    "clone_url": "https://github.com/ejsafron/SATCHEL.git",
+    "size": 3479,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Python",
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/ejsafron",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36644265?v=4",
+      "login": "ejsafron",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 16:49:07.775966",
+    "avatar": "https://avatars.githubusercontent.com/u/36644265?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"The <i>Kepler</i> stellar catalog contained main sequence stars of many spectral types, but the PH science team prioritized the full classification of the M-type stars after that of the entirety of Qu\"",
+        "\"This pipeline was built for the purpose of finding long-period exoplanet transit signals in Kepler photometric time-series data\"",
+        "\"It has been developed as part of a Ph.D. project... all are subject to editing by Emily Safron, Ph.D. candidate under Dr. Tabetha Boyajian at Louisiana State University.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:43:02Z"
+    }
+  }
+}

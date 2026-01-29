@@ -1,60 +1,279 @@
 {
-    "parser": "github",
-    "uid": "github/EMSL-Computing/Pore2Chip",
+  "parser": "github",
+  "uid": "github/EMSL-Computing/Pore2Chip",
+  "url": "https://github.com/EMSL-Computing/Pore2Chip",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.16903861",
+    "name": "Pore2Chip",
     "url": "https://github.com/EMSL-Computing/Pore2Chip",
-    "data": {
-        "doi": "https://doi.org/10.5281/zenodo.16903861",
-        "name": "Pore2Chip",
-        "url": "https://github.com/EMSL-Computing/Pore2Chip",
-        "full_name": "EMSL-Computing/Pore2Chip",
-        "html_url": "https://github.com/EMSL-Computing/Pore2Chip",
-        "description": "A python package that takes XCT images of porous materials and generates representative digital twin micromodels",
-        "created_at": "2024-07-03T17:01:36Z",
-        "updated_at": "2025-08-29T20:36:51Z",
-        "clone_url": "https://github.com/EMSL-Computing/Pore2Chip.git",
-        "homepage": "https://www.emsl.pnnl.gov/science/instruments-resources/terraforms-pore2chip",
-        "size": 33737,
-        "stargazers_count": 7,
-        "watchers_count": 7,
-        "language": "Python",
-        "open_issues_count": 1,
-        "license": {
-            "key": "mit",
-            "name": "MIT License",
-            "spdx_id": "MIT",
-            "url": "https://api.github.com/licenses/mit",
-            "node_id": "MDc6TGljZW5zZTEz"
-        },
-        "subscribers_count": 4,
-        "owner": {
-            "html_url": "https://github.com/EMSL-Computing",
-            "avatar_url": "https://avatars.githubusercontent.com/u/43354427?v=4",
-            "login": "EMSL-Computing",
-            "type": "Organization"
-        },
-        "topics": [
-            "lab",
-            "openpnm",
-            "pore-network",
-            "soil",
-            "xct",
-            "experimental-design",
-            "flow",
-            "model-data-fusion",
-            "neural-networks",
-            "reactive-transport",
-            "terraforms",
-            "lab-on-chip",
-            "microfluidics-chip-enrichment",
-            "porous-materials",
-            "porous-media",
-            "python",
-            "scientific-visualization",
-            "data-analysis",
-            "data-visualization",
-            "machine-learning"
-        ],
-        "timestamp": "2025-08-31 00:53:18.760705",
-        "avatar": "https://avatars.githubusercontent.com/u/43354427?v=4"
+    "full_name": "EMSL-Computing/Pore2Chip",
+    "html_url": "https://github.com/EMSL-Computing/Pore2Chip",
+    "description": "A python package that takes XCT images of porous materials and generates representative digital twin micromodels",
+    "created_at": "2024-07-03T17:01:36Z",
+    "updated_at": "2025-08-29T20:36:51Z",
+    "clone_url": "https://github.com/EMSL-Computing/Pore2Chip.git",
+    "homepage": "https://www.emsl.pnnl.gov/science/instruments-resources/terraforms-pore2chip",
+    "size": 33737,
+    "stargazers_count": 7,
+    "watchers_count": 7,
+    "language": "Python",
+    "open_issues_count": 1,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/EMSL-Computing",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43354427?v=4",
+      "login": "EMSL-Computing",
+      "type": "Organization"
+    },
+    "topics": [
+      "lab",
+      "openpnm",
+      "pore-network",
+      "soil",
+      "xct",
+      "experimental-design",
+      "flow",
+      "model-data-fusion",
+      "neural-networks",
+      "reactive-transport",
+      "terraforms",
+      "lab-on-chip",
+      "microfluidics-chip-enrichment",
+      "porous-materials",
+      "porous-media",
+      "python",
+      "scientific-visualization",
+      "data-analysis",
+      "data-visualization",
+      "machine-learning"
+    ],
+    "timestamp": "2025-08-31 00:53:18.760705",
+    "avatar": "https://avatars.githubusercontent.com/u/43354427?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install pore2chip\"",
+        "\"Pore2Chip is a Python module designed to streamline the process of analyzing X-ray computed tomography (XCT) images of soil and creating 2D micromodel designs based on that analysis.\"",
+        "\"In essence, Pore2Chip offers a comprehensive solution for researchers and engineers working with soil microstructures. It efficiently bridges the gap between XCT data and micromodel development, paving the way for a deeper understanding of soil behavior...\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T17:05:30Z"
     }
+  },
+  "openssf_scorecard": {
+    "data": {
+      "date": "2026-01-23T07:38:34-05:00",
+      "repo": {
+        "name": "github.com/EMSL-Computing/Pore2Chip",
+        "commit": "2ffaccea8da2d2e1114dd579a7bbddb0bb469f37"
+      },
+      "scorecard": {
+        "version": "v5.4.0",
+        "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+      },
+      "score": 3.9,
+      "checks": [
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no binaries found in the repo",
+          "name": "Binary-Artifacts",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#binary-artifacts",
+            "short": "Determines if the project has generated executable (binary) artifacts in the source repository."
+          }
+        },
+        {
+          "details": null,
+          "score": 6,
+          "reason": "branch protection is not maximal on development and all release branches",
+          "name": "Branch-Protection",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#branch-protection",
+            "short": "Determines if the default and release branches are protected with GitHub's branch protection settings."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "9 out of 9 merged PRs checked by a CI test -- score normalized to 10",
+          "name": "CI-Tests",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#ci-tests",
+            "short": "Determines if the project runs tests before pull requests are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no effort to earn an OpenSSF best practices badge detected",
+          "name": "CII-Best-Practices",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#cii-best-practices",
+            "short": "Determines if the project has an OpenSSF (formerly CII) Best Practices Badge."
+          }
+        },
+        {
+          "details": null,
+          "score": 2,
+          "reason": "Found 2/10 approved changesets -- score normalized to 2",
+          "name": "Code-Review",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#code-review",
+            "short": "Determines if the project requires human code review before pull requests (aka merge requests) are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "project has 4 contributing companies or organizations",
+          "name": "Contributors",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#contributors",
+            "short": "Determines if the project has a set of contributors from multiple organizations (e.g., companies)."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no dangerous workflow patterns detected",
+          "name": "Dangerous-Workflow",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dangerous-workflow",
+            "short": "Determines if the project's GitHub Action workflows avoid dangerous patterns."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no update tool detected",
+          "name": "Dependency-Update-Tool",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dependency-update-tool",
+            "short": "Determines if the project uses a dependency update tool."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "project is not fuzzed",
+          "name": "Fuzzing",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#fuzzing",
+            "short": "Determines if the project uses fuzzing."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "license file detected",
+          "name": "License",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#license",
+            "short": "Determines if the project has defined a license."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0",
+          "name": "Maintained",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#maintained",
+            "short": "Determines if the project is \"actively maintained\"."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "packaging workflow not detected",
+          "name": "Packaging",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#packaging",
+            "short": "Determines if the project is published as a package that others can easily download, install, easily update, and uninstall."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "dependency not pinned by hash detected -- score normalized to 0",
+          "name": "Pinned-Dependencies",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#pinned-dependencies",
+            "short": "Determines if the project has declared and pinned the dependencies of its build process."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "SAST tool is not run on all commits -- score normalized to 0",
+          "name": "SAST",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#sast",
+            "short": "Determines if the project uses static code analysis."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "security policy file not detected",
+          "name": "Security-Policy",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#security-policy",
+            "short": "Determines if the project has published a security policy."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "Project has not signed or included provenance with any releases.",
+          "name": "Signed-Releases",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#signed-releases",
+            "short": "Determines if the project cryptographically signs release artifacts."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "detected GitHub workflow tokens with excessive permissions",
+          "name": "Token-Permissions",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#token-permissions",
+            "short": "Determines if the project's workflows follow the principle of least privilege."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "0 existing vulnerabilities detected",
+          "name": "Vulnerabilities",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#vulnerabilities",
+            "short": "Determines if the project has open, known unfixed vulnerabilities."
+          }
+        }
+      ],
+      "metadata": null
+    },
+    "timestamp_utc": "2026-01-23T12:38:52Z"
+  }
 }

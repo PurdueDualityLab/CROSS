@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/VU-BEAM-Lab/GENRE",
+  "url": "https://github.com/VU-BEAM-Lab/GENRE",
+  "data": {
+    "timestamp": "2020-10-11 00:26:27.201740",
+    "name": "GENRE",
+    "url": "https://api.github.com/repos/VU-BEAM-Lab/GENRE",
+    "full_name": "VU-BEAM-Lab/GENRE",
+    "html_url": "https://github.com/VU-BEAM-Lab/GENRE",
+    "private": false,
+    "description": null,
+    "created_at": "2020-06-19T03:23:05Z",
+    "updated_at": "2020-10-10T22:01:39Z",
+    "clone_url": "https://github.com/VU-BEAM-Lab/GENRE.git",
+    "homepage": null,
+    "size": 772,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "Cuda",
+    "open_issues_count": 0,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/VU-BEAM-Lab",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/64437600?v=4",
+      "login": "VU-BEAM-Lab",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "doi": "https://doi.org/10.5281/zenodo.4076520",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"* For Windows, the free community edition of Microsoft Visual Studio 2017 was used as the C/C++ compiler. To download this older version, go to https://visualstudio.microsoft.com/vs/older-downloads/ a\"",
+        "“GENRE (GPU Elastic-Net REgression) is a CUDA-accelerated package that allows for many instances of linear regression with elastic-net regularization to be performed in parallel on a GPU.”",
+        "“Once the user-defined parameters are specified, the GENRE.m function can be called within MATLAB… This will perform the model fits on the GPU, and it will save out the parameters and the computed model coefficients…”"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T20:36:33Z"
+    }
+  }
+}

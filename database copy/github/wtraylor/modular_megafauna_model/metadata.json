@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/wtraylor/modular_megafauna_model",
+  "url": "https://github.com/wtraylor/modular_megafauna_model",
+  "data": {
+    "timestamp": "2021-12-19 00:39:30.508795",
+    "name": "modular_megafauna_model",
+    "url": "https://api.github.com/repos/wtraylor/modular_megafauna_model",
+    "full_name": "wtraylor/modular_megafauna_model",
+    "html_url": "https://github.com/wtraylor/modular_megafauna_model",
+    "private": false,
+    "description": "Extendable, dynamic, process-based herbivore simulator that can be integrated into a dynamic vegetation model. Written as a C++ library.",
+    "created_at": "2019-12-16T16:15:40Z",
+    "updated_at": "2021-12-16T13:29:06Z",
+    "clone_url": "https://github.com/wtraylor/modular_megafauna_model.git",
+    "homepage": "https://modular-megafauna-model.readthedocs.io/",
+    "size": 18000,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "C++",
+    "open_issues_count": 19,
+    "license": null,
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/wtraylor",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32058827?v=4",
+      "login": "wtraylor",
+      "type": "User"
+    },
+    "topics": [
+      "herbivores",
+      "dgvm",
+      "ecosystem-model",
+      "mammoth"
+    ]
+  },
+  "doi": "https://doi.org/10.5281/zenodo.5779267",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"rmarkdown\")\"",
+        "\"Since this C++ library is Free Software, the scientific community is encouraged to use, study, change, and redistribute the source code.\"",
+        "\"Other dynamic vegetation models can include the megafauna model as an external library, too. Learn more in the Doxygen documentation.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:54:49Z"
+    }
+  }
+}

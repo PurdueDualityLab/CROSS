@@ -1,0 +1,55 @@
+{
+  "parser": "github",
+  "uid": "github/david-mathews-1994/deltarice",
+  "url": "https://github.com/david-mathews-1994/deltarice",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.11490673",
+    "name": "deltarice",
+    "url": "https://github.com/david-mathews-1994/deltarice",
+    "full_name": "david-mathews-1994/deltarice",
+    "html_url": "https://github.com/david-mathews-1994/deltarice",
+    "description": "A high-performance compression library optimized for up-to 16-bit digitized analog signals",
+    "created_at": "2023-10-03T18:46:19Z",
+    "updated_at": "2024-06-21T23:44:20Z",
+    "clone_url": "https://github.com/david-mathews-1994/deltarice.git",
+    "size": 4455,
+    "language": "C",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/david-mathews-1994",
+      "avatar_url": "https://avatars.githubusercontent.com/u/120204754?v=4",
+      "login": "david-mathews-1994",
+      "type": "User"
+    },
+    "timestamp": "2024-06-23 00:38:33.605022",
+    "avatar": "https://avatars.githubusercontent.com/u/120204754?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "conda",
+      "evidence": [
+        "README install command: \"conda install -c anaconda hdf5\"",
+        "\"This is the git repo for the Delta-Rice compression algorithm. ... Delta-Rice contains a Python/C package that implements this algorithm through HDF5. It is loaded via the dynamically loaded filters framework and uses filter ID 32025.\"",
+        "Python example imports and uses it as a library: \"import deltaRice.h5\" and then passes \"compression=deltaRice.h5.H5FILTER\" into h5py.create_dataset, indicating it is a reusable compression component rather than a standalone app."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:27:38Z"
+    }
+  }
+}

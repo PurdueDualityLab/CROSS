@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/mihanke/athos",
+  "url": "https://github.com/mihanke/athos",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2018A%26A...619A.134H",
+      "https://ui.adsabs.harvard.edu/abs/2019ascl.soft11006H/abstract"
+    ],
+    "title": "ATHOS: A Tool for HOmogenizing Stellar parameters",
+    "url": "https://github.com/mihanke/athos",
+    "name": "athos",
+    "full_name": "mihanke/athos",
+    "html_url": "https://github.com/mihanke/athos",
+    "description": "ATHOS: On-the-fly stellar parameter determination of FGK stars based on flux ratios from optical spectra",
+    "created_at": "2018-09-03T07:19:26Z",
+    "updated_at": "2021-03-16T15:05:18Z",
+    "clone_url": "https://github.com/mihanke/athos.git",
+    "size": 233,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/mihanke",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42927573?v=4",
+      "login": "mihanke",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:15:37.228190",
+    "avatar": "https://avatars.githubusercontent.com/u/42927573?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"The routines are designed to deal with *__one-dimensional, optical__* stellar spectra that are *__shifted to the stellar rest frame__* (see [__PAPER__](https://www.aanda.org/articles/aa/full_html/2018\"",
+        "\"ATHOS ... computational implementation of the spectroscopic stellar parameterization method ... Once configured properly, it will measure flux ratios in the input spectra and deduce the stellar parameters effective temperature, iron abundance ... and surface gravity\"",
+        "\"In order to execute ATHOS, copy the files `athos.py` and `athos_utils.py`, as well as the folder `/coefficients` to the same local directory. After modifying the parameter file `parameters.py` ... the code can be run from terminal by executing `$ python athos.py`\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:20:29Z"
+    }
+  }
+}

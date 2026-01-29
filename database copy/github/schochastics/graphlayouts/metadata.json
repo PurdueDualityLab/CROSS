@@ -1,0 +1,66 @@
+{
+  "parser": "github",
+  "uid": "github/schochastics/graphlayouts",
+  "url": "https://github.com/schochastics/graphlayouts",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.7870213",
+    "name": "graphlayouts",
+    "url": "https://github.com/schochastics/graphlayouts",
+    "full_name": "schochastics/graphlayouts",
+    "html_url": "https://github.com/schochastics/graphlayouts",
+    "description": "new layout algorithms for network visualizations in R",
+    "created_at": "2018-09-12T20:03:02Z",
+    "updated_at": "2023-04-22T13:31:54Z",
+    "clone_url": "https://github.com/schochastics/graphlayouts.git",
+    "homepage": "http://graphlayouts.schochastics.net/",
+    "size": 8891,
+    "stargazers_count": 240,
+    "watchers_count": 240,
+    "language": "R",
+    "open_issues_count": 6,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 8,
+    "owner": {
+      "html_url": "https://github.com/schochastics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17147355?v=4",
+      "login": "schochastics",
+      "type": "User"
+    },
+    "topics": [
+      "ggraph",
+      "r",
+      "graph-algorithms",
+      "network-analysis",
+      "network-visualization"
+    ],
+    "timestamp": "2023-04-30 00:37:45.146004",
+    "avatar": "https://avatars.githubusercontent.com/u/17147355?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"remotes::install_github(\"schochastics/graphlayouts\")\"",
+        "\"This package implements some graph layout algorithms that are not available in `igraph`.\" (R package intended to be used as a library)",
+        "Install section shows usage via `library(graphlayouts)` and functions like `layout_as_backbone`, indicating it is imported by other R code rather than run as a standalone app."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T03:19:46Z"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "parser": "github",
+  "uid": "github/CAMI-challenge/AMBER",
+  "url": "https://github.com/CAMI-challenge/AMBER",
+  "data": {
+    "name": "AMBER",
+    "url": "https://github.com/CAMI-challenge/AMBER",
+    "full_name": "CAMI-challenge/AMBER",
+    "html_url": "https://github.com/CAMI-challenge/AMBER",
+    "private": false,
+    "description": "AMBER: Assessment of Metagenome BinnERs",
+    "created_at": "2017-08-15T08:54:34Z",
+    "updated_at": "2025-01-24T13:59:35Z",
+    "clone_url": "https://github.com/CAMI-challenge/AMBER.git",
+    "homepage": "https://cami-challenge.github.io/AMBER/",
+    "size": 14151,
+    "stargazers_count": 29,
+    "watchers_count": 29,
+    "language": "Python",
+    "open_issues_count": 3,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 8,
+    "owner": {
+      "html_url": "https://github.com/CAMI-challenge",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8009060?v=4",
+      "login": "CAMI-challenge",
+      "type": "Organization"
+    },
+    "topics": [
+      "binning",
+      "metagenomics",
+      "benchmarking",
+      "biobox"
+    ],
+    "timestamp": "2025-02-16 00:47:35.014312",
+    "avatar": "https://avatars.githubusercontent.com/u/8009060?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install cami-amber\"",
+        "\"AMBER is an evaluation package for the comparative assessment of genome reconstructions and taxonomic assignments from metagenome benchmark datasets. It provides performance metrics, results rankings, and comparative visualizations for assessing multiple programs or parameter effects.\"",
+        "\"There are several options to install AMBER: * Bioconda * Python pip * Docker\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T16:47:58Z"
+    }
+  }
+}

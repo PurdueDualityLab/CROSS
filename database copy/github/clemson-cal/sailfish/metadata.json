@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/clemson-cal/sailfish",
+  "url": "https://github.com/clemson-cal/sailfish",
+  "data": {
+    "doi": [],
+    "title": "Sailfish",
+    "url": "https://github.com/clemson-cal/sailfish",
+    "name": "sailfish",
+    "full_name": "clemson-cal/sailfish",
+    "html_url": "https://github.com/clemson-cal/sailfish",
+    "description": "GPU-accelerated astrophysics gas dynamics code",
+    "created_at": "2021-06-08T02:58:53Z",
+    "updated_at": "2024-06-18T07:36:42Z",
+    "clone_url": "https://github.com/clemson-cal/sailfish.git",
+    "size": 5344,
+    "stargazers_count": 10,
+    "watchers_count": 10,
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/clemson-cal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/70648863?v=4",
+      "login": "clemson-cal",
+      "type": "Organization"
+    },
+    "timestamp": "2024-08-04 00:40:18.582420",
+    "avatar": "https://avatars.githubusercontent.com/u/70648863?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Sailfish is a GPU-accelerated astrophysical gasdynamics code\" (domain-specific simulation code, used as an application).",
+        "README lists authors and contributors from research institutions (Clemson, NYU, etc.), indicating a research project team rather than a company or broad community.",
+        "Only documentation link is provided; no mention of package managers, containers, or binaries, implying use via the source repository and docs."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T22:57:55Z"
+    }
+  }
+}

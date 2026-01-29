@@ -1,0 +1,1676 @@
+{
+  "models_compared": {
+    "model1": "gpt-5.2",
+    "model2": "gpt-4o-mini"
+  },
+  "total_repos": 30,
+  "agreement_statistics": {
+    "actor_unit": {
+      "agree": 18,
+      "disagree": 12,
+      "total": 30,
+      "agreement_percentage": 60.0,
+      "disagreements": [
+        {
+          "repo": "21cmfast/21cmFAST",
+          "url": "https://github.com/21cmfast/21cmFAST",
+          "model1_value": "Research group or lab",
+          "model2_value": "Institution (university, lab, government research organization)",
+          "model1_overridden": false,
+          "model2_overridden": false
+        },
+        {
+          "repo": "21cmfast/21cmEMU",
+          "url": "https://github.com/21cmfast/21cmEMU",
+          "model1_value": "Research group or lab",
+          "model2_value": "Institution (university, lab, government research organization)",
+          "model1_overridden": false,
+          "model2_overridden": false
+        },
+        {
+          "repo": "2decomp-fft/2decomp-fft",
+          "url": "https://github.com/2decomp-fft/2decomp-fft",
+          "model1_value": "Community or foundation (open source governance)",
+          "model2_value": "Institution (university, lab, government research organization)",
+          "model1_overridden": false,
+          "model2_overridden": false
+        },
+        {
+          "repo": "3D-e-Chem/3D-e-Chem-VM",
+          "url": "https://github.com/3D-e-Chem/3D-e-Chem-VM",
+          "model1_value": "Research group or lab",
+          "model2_value": "Institution (university, lab, government research organization)",
+          "model1_overridden": false,
+          "model2_overridden": false
+        },
+        {
+          "repo": "3D-e-Chem/knime-klifs",
+          "url": "https://github.com/3D-e-Chem/knime-klifs",
+          "model1_value": "Research group or lab",
+          "model2_value": "Institution (university, lab, government research organization)",
+          "model1_overridden": false,
+          "model2_overridden": false
+        },
+        {
+          "repo": "3D-e-Chem/knime-kripodb",
+          "url": "https://github.com/3D-e-Chem/knime-kripodb",
+          "model1_value": "Research group or lab",
+          "model2_value": "Institution (university, lab, government research organization)",
+          "model1_overridden": false,
+          "model2_overridden": false
+        },
+        {
+          "repo": "3D-e-Chem/knime-molviewer",
+          "url": "https://github.com/3D-e-Chem/knime-molviewer",
+          "model1_value": "Research group or lab",
+          "model2_value": "Institution (university, lab, government research organization)",
+          "model1_overridden": false,
+          "model2_overridden": false
+        },
+        {
+          "repo": "3D-e-Chem/knime-sstea",
+          "url": "https://github.com/3D-e-Chem/knime-sstea",
+          "model1_value": "Research group or lab",
+          "model2_value": "Institution (university, lab, government research organization)",
+          "model1_overridden": false,
+          "model2_overridden": false
+        },
+        {
+          "repo": "3D-e-Chem/knime-sygma",
+          "url": "https://github.com/3D-e-Chem/knime-sygma",
+          "model1_value": "Research group or lab",
+          "model2_value": "Institution (university, lab, government research organization)",
+          "model1_overridden": false,
+          "model2_overridden": false
+        },
+        {
+          "repo": "3D-e-Chem/kripodb",
+          "url": "https://github.com/3D-e-Chem/kripodb",
+          "model1_value": "Research group or lab",
+          "model2_value": "Institution (university, lab, government research organization)",
+          "model1_overridden": false,
+          "model2_overridden": false
+        },
+        {
+          "repo": "3D-e-Chem/sygma",
+          "url": "https://github.com/3D-e-Chem/sygma",
+          "model1_value": "Research group or lab",
+          "model2_value": "Institution (university, lab, government research organization)",
+          "model1_overridden": false,
+          "model2_overridden": false
+        },
+        {
+          "repo": "3D-e-Chem/tycho-knime-node-archetype",
+          "url": "https://github.com/3D-e-Chem/tycho-knime-node-archetype",
+          "model1_value": "Research group or lab",
+          "model2_value": "Institution (university, lab, government research organization)",
+          "model1_overridden": false,
+          "model2_overridden": false
+        }
+      ]
+    },
+    "supply_chain_role": {
+      "agree": 20,
+      "disagree": 10,
+      "total": 30,
+      "agreement_percentage": 66.66666666666666,
+      "disagreements": [
+        {
+          "repo": "0x0f0f0f/Metatheory.jl",
+          "url": "https://github.com/0x0f0f0f/Metatheory.jl",
+          "model1_value": "Dependency software artifact",
+          "model2_value": "Application software",
+          "model1_overridden": false,
+          "model2_overridden": false
+        },
+        {
+          "repo": "1313e/PRISM",
+          "url": "https://github.com/1313e/PRISM",
+          "model1_value": "Dependency software artifact",
+          "model2_value": "Application software",
+          "model1_overridden": false,
+          "model2_overridden": false
+        },
+        {
+          "repo": "21cmfast/21cmEMU",
+          "url": "https://github.com/21cmfast/21cmEMU",
+          "model1_value": "Dependency software artifact",
+          "model2_value": "Application software",
+          "model1_overridden": false,
+          "model2_overridden": false
+        },
+        {
+          "repo": "2decomp-fft/2decomp-fft",
+          "url": "https://github.com/2decomp-fft/2decomp-fft",
+          "model1_value": "Dependency software artifact",
+          "model2_value": "Application software",
+          "model1_overridden": false,
+          "model2_overridden": false
+        },
+        {
+          "repo": "3D-e-Chem/3D-e-Chem-VM",
+          "url": "https://github.com/3D-e-Chem/3D-e-Chem-VM",
+          "model1_value": "Infrastructure",
+          "model2_value": "Application software",
+          "model1_overridden": false,
+          "model2_overridden": false
+        },
+        {
+          "repo": "3D-e-Chem/knime-python-node-archetype",
+          "url": "https://github.com/3D-e-Chem/knime-python-node-archetype",
+          "model1_value": "Dependency software artifact",
+          "model2_value": "Application software",
+          "model1_overridden": false,
+          "model2_overridden": false
+        },
+        {
+          "repo": "3D-e-Chem/knime-python-wrapper",
+          "url": "https://github.com/3D-e-Chem/knime-python-wrapper",
+          "model1_value": "Dependency software artifact",
+          "model2_value": "Application software",
+          "model1_overridden": false,
+          "model2_overridden": false
+        },
+        {
+          "repo": "3D-e-Chem/knime-testflow",
+          "url": "https://github.com/3D-e-Chem/knime-testflow",
+          "model1_value": "Dependency software artifact",
+          "model2_value": "Application software",
+          "model1_overridden": false,
+          "model2_overridden": false
+        },
+        {
+          "repo": "3D-e-Chem/sygma",
+          "url": "https://github.com/3D-e-Chem/sygma",
+          "model1_value": "Dependency software artifact",
+          "model2_value": "Application software",
+          "model1_overridden": false,
+          "model2_overridden": false
+        },
+        {
+          "repo": "3D-e-Chem/tycho-knime-node-archetype",
+          "url": "https://github.com/3D-e-Chem/tycho-knime-node-archetype",
+          "model1_value": "Dependency software artifact",
+          "model2_value": "Application software",
+          "model1_overridden": false,
+          "model2_overridden": false
+        }
+      ]
+    },
+    "research_role": {
+      "agree": 24,
+      "disagree": 6,
+      "total": 30,
+      "agreement_percentage": 80.0,
+      "disagreements": [
+        {
+          "repo": "0x0f0f0f/Metatheory.jl",
+          "url": "https://github.com/0x0f0f0f/Metatheory.jl",
+          "model1_value": "Research-support tooling",
+          "model2_value": "Direct research execution",
+          "model1_overridden": false,
+          "model2_overridden": false
+        },
+        {
+          "repo": "1313e/PRISM",
+          "url": "https://github.com/1313e/PRISM",
+          "model1_value": "Research-support tooling",
+          "model2_value": "Direct research execution",
+          "model1_overridden": true,
+          "model2_overridden": false
+        },
+        {
+          "repo": "21cmfast/21cmEMU",
+          "url": "https://github.com/21cmfast/21cmEMU",
+          "model1_value": "Research-support tooling",
+          "model2_value": "Direct research execution",
+          "model1_overridden": true,
+          "model2_overridden": false
+        },
+        {
+          "repo": "3D-e-Chem/knime-python-wrapper",
+          "url": "https://github.com/3D-e-Chem/knime-python-wrapper",
+          "model1_value": "Research-support tooling",
+          "model2_value": "Direct research execution",
+          "model1_overridden": false,
+          "model2_overridden": false
+        },
+        {
+          "repo": "3D-e-Chem/knime-testflow",
+          "url": "https://github.com/3D-e-Chem/knime-testflow",
+          "model1_value": "Research-support tooling",
+          "model2_value": "Direct research execution",
+          "model1_overridden": false,
+          "model2_overridden": false
+        },
+        {
+          "repo": "3D-e-Chem/tycho-knime-node-archetype",
+          "url": "https://github.com/3D-e-Chem/tycho-knime-node-archetype",
+          "model1_value": "Research-support tooling",
+          "model2_value": "Direct research execution",
+          "model1_overridden": false,
+          "model2_overridden": false
+        }
+      ]
+    },
+    "distribution_pathway": {
+      "agree": 29,
+      "disagree": 1,
+      "total": 30,
+      "agreement_percentage": 96.66666666666667,
+      "disagreements": [
+        {
+          "repo": "3D-e-Chem/3D-e-Chem-VM",
+          "url": "https://github.com/3D-e-Chem/3D-e-Chem-VM",
+          "model1_value": "Builds and releases",
+          "model2_value": "Network service",
+          "model1_overridden": false,
+          "model2_overridden": false
+        }
+      ]
+    }
+  },
+  "override_statistics": {
+    "actor_unit": {
+      "model1_override_count": 4,
+      "model2_override_count": 4,
+      "both_overridden_count": 4,
+      "override_led_to_agreement": 4,
+      "override_led_to_disagreement": 0
+    },
+    "supply_chain_role": {
+      "model1_override_count": 0,
+      "model2_override_count": 0,
+      "both_overridden_count": 0,
+      "override_led_to_agreement": 0,
+      "override_led_to_disagreement": 0
+    },
+    "research_role": {
+      "model1_override_count": 9,
+      "model2_override_count": 7,
+      "both_overridden_count": 5,
+      "override_led_to_agreement": 9,
+      "override_led_to_disagreement": 2
+    },
+    "distribution_pathway": {
+      "model1_override_count": 26,
+      "model2_override_count": 26,
+      "both_overridden_count": 26,
+      "override_led_to_agreement": 26,
+      "override_led_to_disagreement": 0
+    }
+  },
+  "label_distributions": {
+    "gpt-5.2": {
+      "actor_unit": {
+        "Institution (university, lab, government research organization)": 12,
+        "Individual maintainer": 5,
+        "Vendor or commercial entity": 1,
+        "Research group or lab": 11,
+        "Community or foundation (open source governance)": 1
+      },
+      "supply_chain_role": {
+        "Application software": 19,
+        "Dependency software artifact": 10,
+        "Infrastructure": 1
+      },
+      "research_role": {
+        "Research-support tooling": 14,
+        "Direct research execution": 16
+      },
+      "distribution_pathway": {
+        "Installer or binary": 2,
+        "Package registry": 22,
+        "Builds and releases": 2,
+        "Network service": 1,
+        "Source repo": 2,
+        "Containers": 1
+      }
+    },
+    "gpt-4o-mini": {
+      "actor_unit": {
+        "Institution (university, lab, government research organization)": 24,
+        "Individual maintainer": 5,
+        "Vendor or commercial entity": 1
+      },
+      "supply_chain_role": {
+        "Application software": 29,
+        "Dependency software artifact": 1
+      },
+      "research_role": {
+        "Research-support tooling": 8,
+        "Direct research execution": 22
+      },
+      "distribution_pathway": {
+        "Installer or binary": 2,
+        "Package registry": 22,
+        "Builds and releases": 1,
+        "Network service": 2,
+        "Source repo": 2,
+        "Containers": 1
+      }
+    }
+  },
+  "repositories": [
+    {
+      "full_name": "0satoken/Eclairs",
+      "url": "https://github.com/0satoken/Eclairs",
+      "classifications": {
+        "gpt-5.2": {
+          "actor_unit": "Institution (university, lab, government research organization)",
+          "supply_chain_role": "Application software",
+          "research_role": "Research-support tooling",
+          "distribution_pathway": "Installer or binary",
+          "distribution_details": null,
+          "evidence": [
+            "README mentions binaries/installers: \"We will put the download link later (hopefully, in April 2024) on this repository.\"",
+            "Metadata: owner_type is \"User\" (owner_login: 0satoken), and README lists a single \"Author: Ken Osato\".",
+            "README: \"running `make` creates an executable `eclairs`. The basic usage is `> ./eclairs [initial parameter file]`\" (end-user executable)."
+          ],
+          "model": "gpt-5.2",
+          "overrides_applied": {
+            "actor_unit": true,
+            "research_role": true,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:32:57Z"
+        },
+        "gpt-4o-mini": {
+          "actor_unit": "Institution (university, lab, government research organization)",
+          "supply_chain_role": "Application software",
+          "research_role": "Research-support tooling",
+          "distribution_pathway": "Installer or binary",
+          "distribution_details": null,
+          "evidence": [
+            "README mentions binaries/installers: \"We will put the download link later (hopefully, in April 2024) on this repository.\"",
+            "The basic usage is `> ./eclairs [initial parameter file]` which indicates it is an application software.",
+            "Software that directly generates, transforms, or analyzes scientific data or models in a way that contributes to research findings."
+          ],
+          "model": "gpt-4o-mini",
+          "overrides_applied": {
+            "actor_unit": true,
+            "research_role": true,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:47:18Z"
+        }
+      }
+    },
+    {
+      "full_name": "0x0f0f0f/Metatheory.jl",
+      "url": "https://github.com/0x0f0f0f/Metatheory.jl",
+      "classifications": {
+        "gpt-5.2": {
+          "actor_unit": "Institution (university, lab, government research organization)",
+          "supply_chain_role": "Dependency software artifact",
+          "research_role": "Research-support tooling",
+          "distribution_pathway": "Package registry",
+          "distribution_details": "Julia General registry",
+          "evidence": [
+            "README install command: \"julia> using Pkg; Pkg.add(\"Metatheory\")\"",
+            "Metadata: owner_type is \"User\" (owner_login: 0x0f0f0f), suggesting an individually maintained project.",
+            "README: \"Metatheory.jl is a ... library for the Julia programming language\" and \"can manipulate any kind of Julia symbolic expression type\" (i.e., a reusable package consumed by other code)."
+          ],
+          "model": "gpt-5.2",
+          "overrides_applied": {
+            "actor_unit": true,
+            "research_role": false,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:33:02Z"
+        },
+        "gpt-4o-mini": {
+          "actor_unit": "Institution (university, lab, government research organization)",
+          "supply_chain_role": "Application software",
+          "research_role": "Direct research execution",
+          "distribution_pathway": "Package registry",
+          "distribution_details": "Julia General registry",
+          "evidence": [
+            "README install command: \"julia> using Pkg; Pkg.add(\"Metatheory\")\"",
+            "Metatheory.jl is a general purpose term rewriting, metaprogramming and algebraic computation library for the Julia programming language.",
+            "Metatheory.jl transforms Julia expressions in other Julia expressions and can achieve such at both compile and run time."
+          ],
+          "model": "gpt-4o-mini",
+          "overrides_applied": {
+            "actor_unit": true,
+            "research_role": false,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:47:21Z"
+        }
+      }
+    },
+    {
+      "full_name": "0xCoto/Virgo",
+      "url": "https://github.com/0xCoto/Virgo",
+      "classifications": {
+        "gpt-5.2": {
+          "actor_unit": "Individual maintainer",
+          "supply_chain_role": "Application software",
+          "research_role": "Direct research execution",
+          "distribution_pathway": "Package registry",
+          "distribution_details": "PyPI",
+          "evidence": [
+            "README install command: \"pip install astro-virgo\"",
+            "Metadata: owner_type is \"User\" (owner_login: 0xCoto) and README credits a single creator: \"Virgo was created by Apostolos Spanakis-Misirlis\".",
+            "README: \"Virgo is an easy-to-use open-source spectrometer and radiometer... In addition to data acquisition, Virgo also carries out automated analysis... producing an averaged spectrum, a calibrated spectrum, a dynamic spectrum...\""
+          ],
+          "model": "gpt-5.2",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": false,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:33:05Z"
+        },
+        "gpt-4o-mini": {
+          "actor_unit": "Individual maintainer",
+          "supply_chain_role": "Application software",
+          "research_role": "Direct research execution",
+          "distribution_pathway": "Package registry",
+          "distribution_details": "PyPI",
+          "evidence": [
+            "README install command: \"pip install astro-virgo\"",
+            "Virgo is an easy-to-use open-source spectrometer and radiometer based on Python and GNU Radio that is conveniently applicable to any radio telescope working with a GR-supported software-defined radio (SDR).",
+            "Virgo tackles this problem by providing non-experts with a tool to collect and interpret data from radio telescopes, without requiring expertise in digital signal processing and software engineering."
+          ],
+          "model": "gpt-4o-mini",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": false,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:47:25Z"
+        }
+      }
+    },
+    {
+      "full_name": "1054/Crab.Toolkit.michi2",
+      "url": "https://github.com/1054/Crab.Toolkit.michi2",
+      "classifications": {
+        "gpt-5.2": {
+          "actor_unit": "Individual maintainer",
+          "supply_chain_role": "Application software",
+          "research_role": "Direct research execution",
+          "distribution_pathway": "Installer or binary",
+          "distribution_details": null,
+          "evidence": [
+            "README mentions binaries/installers: \"### 1. Download the code\"",
+            "Metadata: owner_type is \"User\" (owner_login: 1054), suggesting an individually maintained repository.",
+            "README describes running end-user commands to perform model fitting (e.g., \"michi2-run-SED-fitting-v5\" and \"michi2_v05 ... -obs ... -lib ...\"), indicating an application users execute."
+          ],
+          "model": "gpt-5.2",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": false,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-21T20:49:25Z"
+        },
+        "gpt-4o-mini": {
+          "actor_unit": "Individual maintainer",
+          "supply_chain_role": "Application software",
+          "research_role": "Direct research execution",
+          "distribution_pathway": "Installer or binary",
+          "distribution_details": null,
+          "evidence": [
+            "README mentions binaries/installers: \"### 1. Download the code\"",
+            "This is a _Crab_ toolkit for minimumizing chi2 for any 1D model fit, for example, galaxy SED fitting, molecular line ladder fitting.",
+            "The output of michi2 SED fitting will be: fit_5.out, fit_5.out.info, results_fit_5/*, which indicates it directly generates results from the fitting process."
+          ],
+          "model": "gpt-4o-mini",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": false,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-21T20:49:52Z"
+        }
+      }
+    },
+    {
+      "full_name": "10XGenomics/bamtofastq",
+      "url": "https://github.com/10XGenomics/bamtofastq",
+      "classifications": {
+        "gpt-5.2": {
+          "actor_unit": "Vendor or commercial entity",
+          "supply_chain_role": "Application software",
+          "research_role": "Direct research execution",
+          "distribution_pathway": "Builds and releases",
+          "distribution_details": "GitHub Releases",
+          "evidence": [
+            "README mentions releases: \"Download the latest release binaries for Linux or Mac from [the releases page](https://github.com/10XGenomics/bamtofastq/releases)\"",
+            "Metadata: owner_type is Organization and owner_login is 10XGenomics (a commercial vendor).",
+            "README describes an end-user tool: \"Tool for converting 10x BAMs ... back to FASTQ files that can be used as inputs to re-run analysis.\""
+          ],
+          "model": "gpt-5.2",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": false,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:33:08Z"
+        },
+        "gpt-4o-mini": {
+          "actor_unit": "Vendor or commercial entity",
+          "supply_chain_role": "Application software",
+          "research_role": "Direct research execution",
+          "distribution_pathway": "Builds and releases",
+          "distribution_details": "GitHub Releases",
+          "evidence": [
+            "README mentions releases: \"Download the latest release binaries for Linux or Mac from [the releases page](https://github.com/10XGenomics/bamtofastq/releases)\"",
+            "Tool for converting 10x BAMs produced by Cell Ranger, Space Ranger, Cell Ranger ATAC, Cell Ranger DNA, and Long Ranger back to FASTQ files that can be used as inputs to re-run analysis.",
+            "The FASTQ files emitted by the tool should contain the same set of sequences that were input to the original pipeline run, although the order will not be preserved."
+          ],
+          "model": "gpt-4o-mini",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": false,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:47:29Z"
+        }
+      }
+    },
+    {
+      "full_name": "1313e/CMasher",
+      "url": "https://github.com/1313e/CMasher",
+      "classifications": {
+        "gpt-5.2": {
+          "actor_unit": "Individual maintainer",
+          "supply_chain_role": "Dependency software artifact",
+          "research_role": "Research-support tooling",
+          "distribution_pathway": "Package registry",
+          "distribution_details": "PyPI",
+          "evidence": [
+            "README install command: \"$ pip install cmasher\"",
+            "Metadata: owner_type is \"User\" (owner_login: 1313e), suggesting an individually maintained project.",
+            "README: \"The CMasher package provides a collection of scientific colormaps and utility functions to be used by different Python packages and projects\" and \"CMasher can now be imported as a package with import cmasher as cmr\" (library/dependency use)."
+          ],
+          "model": "gpt-5.2",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": true,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:38:42Z"
+        },
+        "gpt-4o-mini": {
+          "actor_unit": "Individual maintainer",
+          "supply_chain_role": "Dependency software artifact",
+          "research_role": "Research-support tooling",
+          "distribution_pathway": "Package registry",
+          "distribution_details": "PyPI",
+          "evidence": [
+            "README install command: \"$ pip install cmasher\"",
+            "The *CMasher* package provides a collection of scientific colormaps and utility functions to be used by different *Python* packages and projects.",
+            "*CMasher* can be easily installed directly from `PyPI`_ with: $ pip install cmasher"
+          ],
+          "model": "gpt-4o-mini",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": false,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:47:34Z"
+        }
+      }
+    },
+    {
+      "full_name": "1313e/PRISM",
+      "url": "https://github.com/1313e/PRISM",
+      "classifications": {
+        "gpt-5.2": {
+          "actor_unit": "Institution (university, lab, government research organization)",
+          "supply_chain_role": "Dependency software artifact",
+          "research_role": "Research-support tooling",
+          "distribution_pathway": "Package registry",
+          "distribution_details": "PyPI",
+          "evidence": [
+            "README install command: \"$ pip install .\"",
+            "Metadata: owner_type is \"User\" (owner_login: 1313e), suggesting an individually maintained repository.",
+            "README: \"PRISM is a pure Python 3 package\" and \"can now be imported as a package with `import prism`\" (library/package usage)."
+          ],
+          "model": "gpt-5.2",
+          "overrides_applied": {
+            "actor_unit": true,
+            "research_role": true,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:38:46Z"
+        },
+        "gpt-4o-mini": {
+          "actor_unit": "Institution (university, lab, government research organization)",
+          "supply_chain_role": "Application software",
+          "research_role": "Direct research execution",
+          "distribution_pathway": "Package registry",
+          "distribution_details": "PyPI",
+          "evidence": [
+            "README install command: \"$ pip install .\"",
+            "*PRISM* is a pure Python 3 package that provides an alternative method to MCMC for analyzing scientific models.",
+            "*PRISM* can additionally be used as a standalone alternative to MCMC for model analysis, providing insight into the behavior of complex scientific models."
+          ],
+          "model": "gpt-4o-mini",
+          "overrides_applied": {
+            "actor_unit": true,
+            "research_role": false,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:47:37Z"
+        }
+      }
+    },
+    {
+      "full_name": "18parkky/NanoMnT",
+      "url": "https://github.com/18parkky/NanoMnT",
+      "classifications": {
+        "gpt-5.2": {
+          "actor_unit": "Individual maintainer",
+          "supply_chain_role": "Application software",
+          "research_role": "Direct research execution",
+          "distribution_pathway": "Package registry",
+          "distribution_details": "PyPI",
+          "evidence": [
+            "README install command: \"pip install .\"",
+            "Metadata: owner_type is \"User\" (owner_login: 18parkky), suggesting an individually maintained repo.",
+            "README: \"A collection of Python scripts for (1) correcting sequencing errors within STR regions... and (2) genotyping monoallelic STR regions.\""
+          ],
+          "model": "gpt-5.2",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": false,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:38:49Z"
+        },
+        "gpt-4o-mini": {
+          "actor_unit": "Individual maintainer",
+          "supply_chain_role": "Application software",
+          "research_role": "Direct research execution",
+          "distribution_pathway": "Package registry",
+          "distribution_details": "PyPI",
+          "evidence": [
+            "README install command: \"pip install .\"",
+            "A collection of Python scripts for (1) correcting sequencing errors within STR regions from Oxford Nanopore (ONT) sequencing data and (2) genotyping monoallelic STR regions.",
+            "NanoMnT has been tested in Python version 3.9.7. and should work in later versions."
+          ],
+          "model": "gpt-4o-mini",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": false,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:47:40Z"
+        }
+      }
+    },
+    {
+      "full_name": "21cmfast/21cmFAST",
+      "url": "https://github.com/21cmfast/21cmFAST",
+      "classifications": {
+        "gpt-5.2": {
+          "actor_unit": "Research group or lab",
+          "supply_chain_role": "Application software",
+          "research_role": "Direct research execution",
+          "distribution_pathway": "Package registry",
+          "distribution_details": "conda-forge",
+          "evidence": [
+            "README install command: \"conda install -c conda-forge 21cmFAST\"",
+            "Metadata: owner_type is \"Organization\" and owner_login is \"21cmfast\" (project org rather than an individual).",
+            "README: \"A semi-numerical cosmological simulation code for the radio 21-cm signal.\" and \"able to produce 3D cosmological realisations...\" (end-user simulation application producing scientific outputs)."
+          ],
+          "model": "gpt-5.2",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": false,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:38:53Z"
+        },
+        "gpt-4o-mini": {
+          "actor_unit": "Institution (university, lab, government research organization)",
+          "supply_chain_role": "Application software",
+          "research_role": "Direct research execution",
+          "distribution_pathway": "Package registry",
+          "distribution_details": "conda-forge",
+          "evidence": [
+            "README install command: \"conda install -c conda-forge 21cmFAST\"",
+            "This is the official repository for ``21cmFAST``: a semi-numerical code that is able to produce 3D cosmological realisations of many physical fields in the early Universe.",
+            "``21cmFAST`` has been widely used, for example, by the Murchison Widefield Array (MWA), LOw-Frequency ARray (LOFAR) and Hydrogen Epoch of Reionization Array (HERA), to model the large-scale cosmological 21-cm signal."
+          ],
+          "model": "gpt-4o-mini",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": false,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:47:45Z"
+        }
+      }
+    },
+    {
+      "full_name": "21cmfast/21cmEMU",
+      "url": "https://github.com/21cmfast/21cmEMU",
+      "classifications": {
+        "gpt-5.2": {
+          "actor_unit": "Research group or lab",
+          "supply_chain_role": "Dependency software artifact",
+          "research_role": "Research-support tooling",
+          "distribution_pathway": "Network service",
+          "distribution_details": null,
+          "evidence": [
+            "README indicates network usage: \"See `the documentation <https://21cmemu.readthedocs.io/en/latest/>`_ for tutorials and API.\"",
+            "Metadata: owner_type is Organization (21cmfast), indicating a project/group account rather than an individual.",
+            "README: PyPI badge and link target \"https://pypi.org/project/py21cmemu/\" indicate distribution via a package registry."
+          ],
+          "model": "gpt-5.2",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": true,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:38:57Z"
+        },
+        "gpt-4o-mini": {
+          "actor_unit": "Institution (university, lab, government research organization)",
+          "supply_chain_role": "Application software",
+          "research_role": "Direct research execution",
+          "distribution_pathway": "Network service",
+          "distribution_details": null,
+          "evidence": [
+            "README indicates network usage: \"See `the documentation <https://21cmemu.readthedocs.io/en/latest/>`_ for tutorials and API.\"",
+            "An emulator of 21cmFAST summaries.",
+            "If you use ``21cmEMU`` in your research, please cite `Breitman+23 <https://arxiv.org/abs/2309.05697>`_."
+          ],
+          "model": "gpt-4o-mini",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": false,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:47:48Z"
+        }
+      }
+    },
+    {
+      "full_name": "2decomp-fft/2decomp-fft",
+      "url": "https://github.com/2decomp-fft/2decomp-fft",
+      "classifications": {
+        "gpt-5.2": {
+          "actor_unit": "Community or foundation (open source governance)",
+          "supply_chain_role": "Dependency software artifact",
+          "research_role": "Research-support tooling",
+          "distribution_pathway": "Source repo",
+          "distribution_details": null,
+          "evidence": [
+            "(metadata) GitHub owner_type is Organization (2decomp-fft), suggesting stewardship beyond a single individual.",
+            "README: \"building and installing the 2DECOMP&FFT library\" and \"linking to the library within an external project\" (intended to be used as a library dependency).",
+            "README provides CMake build/install-from-source instructions (e.g., \"cmake -S . -B build\" and \"cmake --install\"), with no package-registry or container install path described."
+          ],
+          "model": "gpt-5.2",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": true,
+            "distribution_pathway": false
+          },
+          "timestamp_utc": "2026-01-22T02:45:39Z"
+        },
+        "gpt-4o-mini": {
+          "actor_unit": "Institution (university, lab, government research organization)",
+          "supply_chain_role": "Application software",
+          "research_role": "Research-support tooling",
+          "distribution_pathway": "Source repo",
+          "distribution_details": null,
+          "evidence": [
+            "This README contains basic instructions for building and installing the 2DECOMP&FFT library.",
+            "The library can perform multi GPU offloading using the NVHPC compiler suite for NVIDIA hardware.",
+            "Software that directly generates, transforms, or analyzes scientific data or models in a way that contributes to research findings."
+          ],
+          "model": "gpt-4o-mini",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": true,
+            "distribution_pathway": false
+          },
+          "timestamp_utc": "2026-01-22T02:47:54Z"
+        }
+      }
+    },
+    {
+      "full_name": "3D-e-Chem/3D-e-Chem-VM",
+      "url": "https://github.com/3D-e-Chem/3D-e-Chem-VM",
+      "classifications": {
+        "gpt-5.2": {
+          "actor_unit": "Research group or lab",
+          "supply_chain_role": "Infrastructure",
+          "research_role": "Research-support tooling",
+          "distribution_pathway": "Builds and releases",
+          "distribution_details": null,
+          "evidence": [
+            "Metadata: owner_type is Organization (3D-e-Chem), indicating a group/project rather than an individual maintainer.",
+            "README: \"Scripts to create a Vagrant box using packer and ansible.\" (builds a VM environment)",
+            "README: \"vagrant init nlesc/3d-e-chem\" and \"Publish box on https://app.vagrantup.com/nlesc/boxes/3d-e-chem\" (distributed as a built Vagrant box/release artifact rather than only source)"
+          ],
+          "model": "gpt-5.2",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": false,
+            "distribution_pathway": false
+          },
+          "timestamp_utc": "2026-01-22T02:45:42Z"
+        },
+        "gpt-4o-mini": {
+          "actor_unit": "Institution (university, lab, government research organization)",
+          "supply_chain_role": "Application software",
+          "research_role": "Research-support tooling",
+          "distribution_pathway": "Network service",
+          "distribution_details": null,
+          "evidence": [
+            "Scripts to create a Vagrant box using packer and ansible.",
+            "Create a new directory and cd to it then start virtual machine with vagrant init nlesc/3d-e-chem.",
+            "Publish box on https://app.vagrantup.com/nlesc/boxes/3d-e-chem using the following steps:"
+          ],
+          "model": "gpt-4o-mini",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": true,
+            "distribution_pathway": false
+          },
+          "timestamp_utc": "2026-01-22T02:47:56Z"
+        }
+      }
+    },
+    {
+      "full_name": "3D-e-Chem/knime-gpcrdb",
+      "url": "https://github.com/3D-e-Chem/knime-gpcrdb",
+      "classifications": {
+        "gpt-5.2": {
+          "actor_unit": "Institution (university, lab, government research organization)",
+          "supply_chain_role": "Application software",
+          "research_role": "Research-support tooling",
+          "distribution_pathway": "Package registry",
+          "distribution_details": "Maven/Gradle ecosystem",
+          "evidence": [
+            "README shows dependency/install info: \"mvn verify\"",
+            "Metadata: owner_type is Organization (3D-e-Chem), indicating an institutional/organizational maintainer rather than an individual.",
+            "README: \"KNIME plugin for retrieving data from https://gpcrdb.org\" and installation is via KNIME 'Install new software', indicating an end-user plugin (application component) used in KNIME workflows."
+          ],
+          "model": "gpt-5.2",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": true,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:45:45Z"
+        },
+        "gpt-4o-mini": {
+          "actor_unit": "Institution (university, lab, government research organization)",
+          "supply_chain_role": "Application software",
+          "research_role": "Research-support tooling",
+          "distribution_pathway": "Package registry",
+          "distribution_details": "Maven/Gradle ecosystem",
+          "evidence": [
+            "README shows dependency/install info: \"mvn verify\"",
+            "KNIME plugin for retrieving data from https://gpcrdb.org",
+            "Steps to get GPCRDB nodes inside KNIME: 1. Goto Help > Install new software ... menu"
+          ],
+          "model": "gpt-4o-mini",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": true,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:47:58Z"
+        }
+      }
+    },
+    {
+      "full_name": "3D-e-Chem/knime-klifs",
+      "url": "https://github.com/3D-e-Chem/knime-klifs",
+      "classifications": {
+        "gpt-5.2": {
+          "actor_unit": "Research group or lab",
+          "supply_chain_role": "Application software",
+          "research_role": "Research-support tooling",
+          "distribution_pathway": "Package registry",
+          "distribution_details": "Maven/Gradle ecosystem",
+          "evidence": [
+            "README shows dependency/install info: \"mvn verify\"",
+            "Metadata: GitHub owner_type is Organization (3D-e-Chem), indicating a group-maintained project rather than an individual.",
+            "README: \"KNIME nodes for retrieving data from KLIFS\" and installation into KNIME via an update site indicates an end-user tool/plugin (application) used in workflows."
+          ],
+          "model": "gpt-5.2",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": true,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:45:50Z"
+        },
+        "gpt-4o-mini": {
+          "actor_unit": "Institution (university, lab, government research organization)",
+          "supply_chain_role": "Application software",
+          "research_role": "Research-support tooling",
+          "distribution_pathway": "Package registry",
+          "distribution_details": "Maven/Gradle ecosystem",
+          "evidence": [
+            "README shows dependency/install info: \"mvn verify\"",
+            "KNIME nodes for retrieving data from KLIFS (https://klifs.net/).",
+            "Steps to get KLIFS nodes inside KNIME: Goto Help > Install new software ... menu."
+          ],
+          "model": "gpt-4o-mini",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": true,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:48:01Z"
+        }
+      }
+    },
+    {
+      "full_name": "3D-e-Chem/knime-kripodb",
+      "url": "https://github.com/3D-e-Chem/knime-kripodb",
+      "classifications": {
+        "gpt-5.2": {
+          "actor_unit": "Research group or lab",
+          "supply_chain_role": "Application software",
+          "research_role": "Direct research execution",
+          "distribution_pathway": "Package registry",
+          "distribution_details": "Maven/Gradle ecosystem",
+          "evidence": [
+            "README shows dependency/install info: \"mvn package\"",
+            "Metadata: owner_type is Organization (3D-e-Chem), indicating a group/project rather than an individual.",
+            "README: \"[KNIME] nodes for KripoDB\" and installation steps to \"get KripoDB nodes inside KNIME\" indicate an end-user tool run in KNIME (application-facing)."
+          ],
+          "model": "gpt-5.2",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": false,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:45:53Z"
+        },
+        "gpt-4o-mini": {
+          "actor_unit": "Institution (university, lab, government research organization)",
+          "supply_chain_role": "Application software",
+          "research_role": "Direct research execution",
+          "distribution_pathway": "Package registry",
+          "distribution_details": "Maven/Gradle ecosystem",
+          "evidence": [
+            "README shows dependency/install info: \"mvn package\"",
+            "KRIPO stands for Key Representation of Interaction in POckets.",
+            "Steps to get KripoDB nodes inside KNIME: Goto Help > Install new software ... menu."
+          ],
+          "model": "gpt-4o-mini",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": false,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:48:03Z"
+        }
+      }
+    },
+    {
+      "full_name": "3D-e-Chem/knime-molviewer",
+      "url": "https://github.com/3D-e-Chem/knime-molviewer",
+      "classifications": {
+        "gpt-5.2": {
+          "actor_unit": "Research group or lab",
+          "supply_chain_role": "Application software",
+          "research_role": "Direct research execution",
+          "distribution_pathway": "Package registry",
+          "distribution_details": "Maven/Gradle ecosystem",
+          "evidence": [
+            "README shows dependency/install info: \"mvn verify\"",
+            "(metadata) owner_type: Organization; owner_login: 3D-e-Chem (appears to be a research project/group identity rather than an individual)",
+            "README: \"KNIME node which launches a web browser with a molecule viewer\" and \"Adds nodes to KNIME to visualize proteins, small molecules and pharmacophores\" (end-user node used in KNIME workflows)"
+          ],
+          "model": "gpt-5.2",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": false,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:45:56Z"
+        },
+        "gpt-4o-mini": {
+          "actor_unit": "Institution (university, lab, government research organization)",
+          "supply_chain_role": "Application software",
+          "research_role": "Direct research execution",
+          "distribution_pathway": "Package registry",
+          "distribution_details": "Maven/Gradle ecosystem",
+          "evidence": [
+            "README shows dependency/install info: \"mvn verify\"",
+            "The molviewer nodes are able to handle viewing large molecules in 3D.",
+            "Adds nodes to KNIME to visualize proteins, small molecules and pharmacophores."
+          ],
+          "model": "gpt-4o-mini",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": false,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:48:06Z"
+        }
+      }
+    },
+    {
+      "full_name": "3D-e-Chem/knime-pharmacophore",
+      "url": "https://github.com/3D-e-Chem/knime-pharmacophore",
+      "classifications": {
+        "gpt-5.2": {
+          "actor_unit": "Institution (university, lab, government research organization)",
+          "supply_chain_role": "Application software",
+          "research_role": "Direct research execution",
+          "distribution_pathway": "Package registry",
+          "distribution_details": "Maven/Gradle ecosystem",
+          "evidence": [
+            "README shows dependency/install info: \"mvn verify\"",
+            "Metadata: owner_type is Organization (3D-e-Chem), indicating an organizational/institutional actor rather than an individual.",
+            "README: \"[KNIME] plugin with nodes to convert and align pharmacophores.\" (end-user KNIME nodes used to perform a scientific task)."
+          ],
+          "model": "gpt-5.2",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": false,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:45:59Z"
+        },
+        "gpt-4o-mini": {
+          "actor_unit": "Institution (university, lab, government research organization)",
+          "supply_chain_role": "Application software",
+          "research_role": "Direct research execution",
+          "distribution_pathway": "Package registry",
+          "distribution_details": "Maven/Gradle ecosystem",
+          "evidence": [
+            "README shows dependency/install info: \"mvn verify\"",
+            "This plugin adds the Pharmacophore (Phar) data type to KNIME, allowing nodes to read/write/manipulate pharmacophores inside KNIME.",
+            "Steps to get the Pharmacophore KNIME nodes inside KNIME: Goto Help > Install new software ... menu."
+          ],
+          "model": "gpt-4o-mini",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": false,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:48:08Z"
+        }
+      }
+    },
+    {
+      "full_name": "3D-e-Chem/knime-plants",
+      "url": "https://github.com/3D-e-Chem/knime-plants",
+      "classifications": {
+        "gpt-5.2": {
+          "actor_unit": "Institution (university, lab, government research organization)",
+          "supply_chain_role": "Application software",
+          "research_role": "Direct research execution",
+          "distribution_pathway": "Package registry",
+          "distribution_details": "Maven/Gradle ecosystem",
+          "evidence": [
+            "README shows dependency/install info: \"mvn verify\"",
+            "Metadata: owner_type is Organization (3D-e-Chem), indicating an institutional/organizational maintainer rather than an individual.",
+            "README: \"KNIME nodes to configure, run and analyze PLANTS protein-ligand docking\" (end-user nodes used to run docking workflows)."
+          ],
+          "model": "gpt-5.2",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": false,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:46:03Z"
+        },
+        "gpt-4o-mini": {
+          "actor_unit": "Institution (university, lab, government research organization)",
+          "supply_chain_role": "Application software",
+          "research_role": "Direct research execution",
+          "distribution_pathway": "Package registry",
+          "distribution_details": "Maven/Gradle ecosystem",
+          "evidence": [
+            "README shows dependency/install info: \"mvn verify\"",
+            "This project uses Eclipse Tycho to perform build steps.",
+            "KNIME nodes to configure, run and analyze PLANTS protein-ligand docking."
+          ],
+          "model": "gpt-4o-mini",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": false,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:48:11Z"
+        }
+      }
+    },
+    {
+      "full_name": "3D-e-Chem/knime-python-node-archetype",
+      "url": "https://github.com/3D-e-Chem/knime-python-node-archetype",
+      "classifications": {
+        "gpt-5.2": {
+          "actor_unit": "Institution (university, lab, government research organization)",
+          "supply_chain_role": "Dependency software artifact",
+          "research_role": "Research-support tooling",
+          "distribution_pathway": "Package registry",
+          "distribution_details": "Maven/Gradle ecosystem",
+          "evidence": [
+            "README shows dependency/install info: \"mvn archetype:generate -DarchetypeGroupId=nl.esciencecenter \\\"",
+            "Metadata: owner_type is Organization (3D-e-Chem), indicating an organizational/institutional maintainer rather than an individual.",
+            "README: \"The [Maven archetype] will generate a multi-module project\" and \"Generates KNIME workflow node skeleton repository\" (a reusable archetype consumed by other projects)."
+          ],
+          "model": "gpt-5.2",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": false,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:46:06Z"
+        },
+        "gpt-4o-mini": {
+          "actor_unit": "Institution (university, lab, government research organization)",
+          "supply_chain_role": "Application software",
+          "research_role": "Research-support tooling",
+          "distribution_pathway": "Package registry",
+          "distribution_details": "Maven/Gradle ecosystem",
+          "evidence": [
+            "README shows dependency/install info: \"mvn archetype:generate -DarchetypeGroupId=nl.esciencecenter \\\"",
+            "Generates KNIME workflow node skeleton repository with sample code.",
+            "The node executes a Python script which is included in the skeleton."
+          ],
+          "model": "gpt-4o-mini",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": true,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:48:13Z"
+        }
+      }
+    },
+    {
+      "full_name": "3D-e-Chem/knime-python-wrapper",
+      "url": "https://github.com/3D-e-Chem/knime-python-wrapper",
+      "classifications": {
+        "gpt-5.2": {
+          "actor_unit": "Institution (university, lab, government research organization)",
+          "supply_chain_role": "Dependency software artifact",
+          "research_role": "Research-support tooling",
+          "distribution_pathway": "Package registry",
+          "distribution_details": "Maven/Gradle ecosystem",
+          "evidence": [
+            "README shows dependency/install info: \"mvn verify\"",
+            "Metadata: owner_type is Organization (3D-e-Chem), indicating an organizational/institutional maintainer rather than an individual.",
+            "README: \"Abstract Python wrapper KNIME node and helpers. Used for development of KNIME nodes calling Python scripts.\" (library/helper for other nodes)"
+          ],
+          "model": "gpt-5.2",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": false,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:46:09Z"
+        },
+        "gpt-4o-mini": {
+          "actor_unit": "Institution (university, lab, government research organization)",
+          "supply_chain_role": "Application software",
+          "research_role": "Direct research execution",
+          "distribution_pathway": "Package registry",
+          "distribution_details": "Maven/Gradle ecosystem",
+          "evidence": [
+            "README shows dependency/install info: \"mvn verify\"",
+            "The nodes in Scripting>Python folder of the node repository (nodes part of the `KNIME Python integration` plugin) the end-user needs to paste Python code in a text area in the node dialog.",
+            "Instructions for KNIME node developers that want to call a Python script."
+          ],
+          "model": "gpt-4o-mini",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": false,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:48:17Z"
+        }
+      }
+    },
+    {
+      "full_name": "3D-e-Chem/knime-silicos-it",
+      "url": "https://github.com/3D-e-Chem/knime-silicos-it",
+      "classifications": {
+        "gpt-5.2": {
+          "actor_unit": "Institution (university, lab, government research organization)",
+          "supply_chain_role": "Application software",
+          "research_role": "Direct research execution",
+          "distribution_pathway": "Package registry",
+          "distribution_details": "Maven/Gradle ecosystem",
+          "evidence": [
+            "README shows dependency/install info: \"mvn verify\"",
+            "Metadata: owner_type is Organization (3D-e-Chem), indicating an institutional/organized group maintains the repo.",
+            "README: \"KNIME nodes and example workflows for software made by Silicos-it ... like shape-it to align molecules ... and align-it to align molecules\" (end-user nodes/workflows used in KNIME)."
+          ],
+          "model": "gpt-5.2",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": false,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:52:25Z"
+        },
+        "gpt-4o-mini": {
+          "actor_unit": "Institution (university, lab, government research organization)",
+          "supply_chain_role": "Application software",
+          "research_role": "Direct research execution",
+          "distribution_pathway": "Package registry",
+          "distribution_details": "Maven/Gradle ecosystem",
+          "evidence": [
+            "README shows dependency/install info: \"mvn verify\"",
+            "This project uses Eclipse Tycho to perform build steps.",
+            "Steps to get the Silicos-it KNIME node inside KNIME: Goto Help > Install new software ... menu."
+          ],
+          "model": "gpt-4o-mini",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": false,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:53:09Z"
+        }
+      }
+    },
+    {
+      "full_name": "3D-e-Chem/knime-sstea",
+      "url": "https://github.com/3D-e-Chem/knime-sstea",
+      "classifications": {
+        "gpt-5.2": {
+          "actor_unit": "Research group or lab",
+          "supply_chain_role": "Application software",
+          "research_role": "Direct research execution",
+          "distribution_pathway": "Package registry",
+          "distribution_details": "Maven/Gradle ecosystem",
+          "evidence": [
+            "README shows dependency/install info: \"mvn verify\"",
+            "Metadata: owner_type is Organization and owner_login is \"3D-e-Chem\", indicating a group/project rather than an individual maintainer.",
+            "README: \"KNIME node to calculate subfamily specific two entropy analysis (ss-TEA) score.\" (an end-user KNIME node/tool users run)"
+          ],
+          "model": "gpt-5.2",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": false,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:52:27Z"
+        },
+        "gpt-4o-mini": {
+          "actor_unit": "Institution (university, lab, government research organization)",
+          "supply_chain_role": "Application software",
+          "research_role": "Direct research execution",
+          "distribution_pathway": "Package registry",
+          "distribution_details": "Maven/Gradle ecosystem",
+          "evidence": [
+            "README shows dependency/install info: \"mvn verify\"",
+            "The ss-TEA can identify specific ligand binding residue positions for any receptor, predicated on high quality sequence information.",
+            "It can be run by importing it into KNIME as an archive."
+          ],
+          "model": "gpt-4o-mini",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": false,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:53:12Z"
+        }
+      }
+    },
+    {
+      "full_name": "3D-e-Chem/knime-sygma",
+      "url": "https://github.com/3D-e-Chem/knime-sygma",
+      "classifications": {
+        "gpt-5.2": {
+          "actor_unit": "Research group or lab",
+          "supply_chain_role": "Application software",
+          "research_role": "Direct research execution",
+          "distribution_pathway": "Package registry",
+          "distribution_details": "Maven/Gradle ecosystem",
+          "evidence": [
+            "README shows dependency/install info: \"mvn verify\"",
+            "Metadata: repo owner is an Organization (3D-e-Chem), suggesting a lab/project team rather than an individual.",
+            "README: \"The SyGMa KNIME nodes for the Systematic Generation of potential Metabolites.\" (domain-specific metabolite generation functionality)."
+          ],
+          "model": "gpt-5.2",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": false,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:52:30Z"
+        },
+        "gpt-4o-mini": {
+          "actor_unit": "Institution (university, lab, government research organization)",
+          "supply_chain_role": "Application software",
+          "research_role": "Direct research execution",
+          "distribution_pathway": "Package registry",
+          "distribution_details": "Maven/Gradle ecosystem",
+          "evidence": [
+            "README shows dependency/install info: \"mvn verify\"",
+            "The SyGMa KNIME nodes for the Systematic Generation of potential Metabolites.",
+            "Steps to get the SyGMa KNIME nodes inside KNIME: Goto Help > Install new software ... menu."
+          ],
+          "model": "gpt-4o-mini",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": false,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:53:16Z"
+        }
+      }
+    },
+    {
+      "full_name": "3D-e-Chem/knime-testflow",
+      "url": "https://github.com/3D-e-Chem/knime-testflow",
+      "classifications": {
+        "gpt-5.2": {
+          "actor_unit": "Institution (university, lab, government research organization)",
+          "supply_chain_role": "Dependency software artifact",
+          "research_role": "Research-support tooling",
+          "distribution_pathway": "Package registry",
+          "distribution_details": "Maven/Gradle ecosystem",
+          "evidence": [
+            "README shows dependency/install info: \"mvn verify\"",
+            "Metadata: GitHub owner is an Organization (3D-e-Chem), indicating institutional/project ownership rather than an individual.",
+            "README: “This repo gives you another option run a test workflow inside of a Junit @Test method declaration.” (a plugin/library used from tests, i.e., a dependency)."
+          ],
+          "model": "gpt-5.2",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": false,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:52:33Z"
+        },
+        "gpt-4o-mini": {
+          "actor_unit": "Institution (university, lab, government research organization)",
+          "supply_chain_role": "Application software",
+          "research_role": "Direct research execution",
+          "distribution_pathway": "Package registry",
+          "distribution_details": "Maven/Gradle ecosystem",
+          "evidence": [
+            "README shows dependency/install info: \"mvn verify\"",
+            "The Knime Testing Framework can run a test workflow either: Inside Knime, if you right-click on a workflow in your local workspace, you can select 'Run as workflow test'.",
+            "This project uses [Eclipse Tycho](https://www.eclipse.org/tycho/) to perform build steps."
+          ],
+          "model": "gpt-4o-mini",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": false,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:53:19Z"
+        }
+      }
+    },
+    {
+      "full_name": "3D-e-Chem/kripodb",
+      "url": "https://github.com/3D-e-Chem/kripodb",
+      "classifications": {
+        "gpt-5.2": {
+          "actor_unit": "Research group or lab",
+          "supply_chain_role": "Application software",
+          "research_role": "Direct research execution",
+          "distribution_pathway": "Package registry",
+          "distribution_details": "PyPI",
+          "evidence": [
+            "README install command: \"pip install -U setuptools\"",
+            "Repo metadata: owner_type is Organization and owner_login is \"3D-e-Chem\" (suggesting a research group/project team rather than an individual).",
+            "README: \"Library to interact with Kripo fragment, fingerprint, pharmacophore and similarity data files.\" and provides a CLI: \"kripodb --help\" with commands like \"kripodb similar ...\"."
+          ],
+          "model": "gpt-5.2",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": false,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:52:36Z"
+        },
+        "gpt-4o-mini": {
+          "actor_unit": "Institution (university, lab, government research organization)",
+          "supply_chain_role": "Application software",
+          "research_role": "Direct research execution",
+          "distribution_pathway": "Package registry",
+          "distribution_details": "PyPI",
+          "evidence": [
+            "README install command: \"pip install -U setuptools\"",
+            "Library to interact with Kripo fragment, fingerprint, pharmacophore and similarity data files.",
+            "Use [kripo](https://github.com/3D-e-Chem/kripo) to generate fragments, pharmacophores and fingerprints from PDB files."
+          ],
+          "model": "gpt-4o-mini",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": false,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:53:21Z"
+        }
+      }
+    },
+    {
+      "full_name": "3D-e-Chem/sygma",
+      "url": "https://github.com/3D-e-Chem/sygma",
+      "classifications": {
+        "gpt-5.2": {
+          "actor_unit": "Research group or lab",
+          "supply_chain_role": "Dependency software artifact",
+          "research_role": "Research-support tooling",
+          "distribution_pathway": "Containers",
+          "distribution_details": null,
+          "evidence": [
+            "README container command: \"docker run 3dechem/sygma c1ccccc1O\"",
+            "Metadata: owner_type is Organization (3D-e-Chem), suggesting a lab/project team rather than an individual.",
+            "README: \"SyGMa is a python library\" and example shows `import sygma`, indicating it is intended to be used as a reusable dependency."
+          ],
+          "model": "gpt-5.2",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": true,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:52:39Z"
+        },
+        "gpt-4o-mini": {
+          "actor_unit": "Institution (university, lab, government research organization)",
+          "supply_chain_role": "Application software",
+          "research_role": "Research-support tooling",
+          "distribution_pathway": "Containers",
+          "distribution_details": null,
+          "evidence": [
+            "README container command: \"docker run 3dechem/sygma c1ccccc1O\"",
+            "SyGMa is a python library for the Sy stematic Generation of potential Metabolites.",
+            "SyGMa can be executed in a Docker (https://www.docker.com/) container as follows:"
+          ],
+          "model": "gpt-4o-mini",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": true,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:53:24Z"
+        }
+      }
+    },
+    {
+      "full_name": "3D-e-Chem/tycho-knime-node-archetype",
+      "url": "https://github.com/3D-e-Chem/tycho-knime-node-archetype",
+      "classifications": {
+        "gpt-5.2": {
+          "actor_unit": "Research group or lab",
+          "supply_chain_role": "Dependency software artifact",
+          "research_role": "Research-support tooling",
+          "distribution_pathway": "Package registry",
+          "distribution_details": "Maven/Gradle ecosystem",
+          "evidence": [
+            "README shows dependency/install info: \"mvn archetype:generate -DarchetypeGroupId=nl.esciencecenter \\\"",
+            "(metadata) owner_type: Organization; owner_login: 3D-e-Chem (a named research project/group identity rather than an individual)",
+            "README: \"Generates KNIME workflow node skeleton repository with sample code.\" (an archetype/template consumed by other projects)"
+          ],
+          "model": "gpt-5.2",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": false,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:52:42Z"
+        },
+        "gpt-4o-mini": {
+          "actor_unit": "Institution (university, lab, government research organization)",
+          "supply_chain_role": "Application software",
+          "research_role": "Direct research execution",
+          "distribution_pathway": "Package registry",
+          "distribution_details": "Maven/Gradle ecosystem",
+          "evidence": [
+            "README shows dependency/install info: \"mvn archetype:generate -DarchetypeGroupId=nl.esciencecenter \\\"",
+            "Generates KNIME workflow node skeleton repository with sample code.",
+            "The archetype is hosted on a GitHub packages repository."
+          ],
+          "model": "gpt-4o-mini",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": false,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:53:26Z"
+        }
+      }
+    },
+    {
+      "full_name": "3d-pli/fastpli",
+      "url": "https://github.com/3d-pli/fastpli",
+      "classifications": {
+        "gpt-5.2": {
+          "actor_unit": "Institution (university, lab, government research organization)",
+          "supply_chain_role": "Application software",
+          "research_role": "Direct research execution",
+          "distribution_pathway": "Source repo",
+          "distribution_details": null,
+          "evidence": [
+            "Metadata: owner_type is Organization (3d-pli), and README ties the project to Forschungszentrum Jülich (INM1) / fiber architecture group.",
+            "README: fastpli is \"a toolbox for polarized light imaging (PLI)\" with modules for \"designing of nerve fiber models\" and \"simulation of 3D-Polarized Light Imaging (3D-PLI)\".",
+            "README installation instructs users to \"git clone --recursive https://github.com/3d-pli/fastpli.git\" then build/install via \"make fastpli\" and \"pip3 install .\" (no package registry mentioned)."
+          ],
+          "model": "gpt-5.2",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": false,
+            "distribution_pathway": false
+          },
+          "timestamp_utc": "2026-01-22T02:52:45Z"
+        },
+        "gpt-4o-mini": {
+          "actor_unit": "Institution (university, lab, government research organization)",
+          "supply_chain_role": "Application software",
+          "research_role": "Direct research execution",
+          "distribution_pathway": "Source repo",
+          "distribution_details": null,
+          "evidence": [
+            "The Fiber Architecture Simulation Toolbox for 3D-PLI (fastpli) is a toolbox for polarized light imaging (PLI) with three main purposes: designing nerve fiber models, generating collision free models, and simulating 3D-Polarized Light Imaging.",
+            "This project has received funding from the European Union’s Horizon 2020 Research and Innovation Programme under Grant Agreement No. 7202070 (Human Brain Project) SGA2.",
+            "The project is developed by the fiber architecture group at the Forschungszentrum Jülich."
+          ],
+          "model": "gpt-4o-mini",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": false,
+            "distribution_pathway": false
+          },
+          "timestamp_utc": "2026-01-22T02:53:30Z"
+        }
+      }
+    },
+    {
+      "full_name": "3fon3fonov/exostriker",
+      "url": "https://github.com/3fon3fonov/exostriker",
+      "classifications": {
+        "gpt-5.2": {
+          "actor_unit": "Institution (university, lab, government research organization)",
+          "supply_chain_role": "Application software",
+          "research_role": "Direct research execution",
+          "distribution_pathway": "Package registry",
+          "distribution_details": "PyPI",
+          "evidence": [
+            "Metadata: owner_type is \"User\" (owner_login: 3fon3fonov), and README lists a single \"Developer\" (Trifon Trifonov) with additional contributors.",
+            "README: \"The Exo-Striker analyzes exoplanet orbitals, performs N-body simulations, and models the RV stellar reflex motion...\" indicating an end-user research application producing scientific analyses/simulations.",
+            "README shows PyPI distribution via badge/link: \"PyPI - Version\" pointing to https://pypi.org/project/exostriker/ and usage via CLI/module (\"$ exostriker\" / \"$ python3.11 -m exostriker\")."
+          ],
+          "model": "gpt-5.2",
+          "overrides_applied": {
+            "actor_unit": true,
+            "research_role": false,
+            "distribution_pathway": false
+          },
+          "timestamp_utc": "2026-01-22T02:52:48Z"
+        },
+        "gpt-4o-mini": {
+          "actor_unit": "Institution (university, lab, government research organization)",
+          "supply_chain_role": "Application software",
+          "research_role": "Direct research execution",
+          "distribution_pathway": "Package registry",
+          "distribution_details": "pypi",
+          "evidence": [
+            "The Exo-Striker analyzes exoplanet orbitals, performs N-body simulations, and models the RV stellar reflex motion caused by dynamically interacting planets in multi-planetary systems.",
+            "It combines Fortran efficiency and Python flexibility and is cross-platform compatible (MAC OS, Linux, Windows).",
+            "If you want to use the library on the Python shell/script, In [1]: import exostriker."
+          ],
+          "model": "gpt-4o-mini",
+          "overrides_applied": {
+            "actor_unit": true,
+            "research_role": false,
+            "distribution_pathway": false
+          },
+          "timestamp_utc": "2026-01-22T02:53:33Z"
+        }
+      }
+    },
+    {
+      "full_name": "3top1a/biotools-linter",
+      "url": "https://github.com/3top1a/biotools-linter",
+      "classifications": {
+        "gpt-5.2": {
+          "actor_unit": "Individual maintainer",
+          "supply_chain_role": "Application software",
+          "research_role": "Direct research execution",
+          "distribution_pathway": "Package registry",
+          "distribution_details": "PyPI",
+          "evidence": [
+            "README install command: \"$ pip install -r required.txt\"",
+            "Metadata: owner_type is \"User\" (owner_login: 3top1a), suggesting an individually maintained repository.",
+            "README: \"This is a rule-based linter for the bio.tools database.\""
+          ],
+          "model": "gpt-5.2",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": true,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:52:51Z"
+        },
+        "gpt-4o-mini": {
+          "actor_unit": "Individual maintainer",
+          "supply_chain_role": "Application software",
+          "research_role": "Direct research execution",
+          "distribution_pathway": "Package registry",
+          "distribution_details": "PyPI",
+          "evidence": [
+            "README install command: \"$ pip install -r required.txt\"",
+            "This is a rule-based linter for the bio.tools database.",
+            "You can also lint the entire bio.tools database"
+          ],
+          "model": "gpt-4o-mini",
+          "overrides_applied": {
+            "actor_unit": false,
+            "research_role": false,
+            "distribution_pathway": true
+          },
+          "timestamp_utc": "2026-01-22T02:53:35Z"
+        }
+      }
+    }
+  ]
+}

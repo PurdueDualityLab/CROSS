@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/zclaytor/kiauhoku",
+  "url": "https://github.com/zclaytor/kiauhoku",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2020ApJ...888...43C",
+      "https://ui.adsabs.harvard.edu/abs/2020ascl.soft11027C/abstract"
+    ],
+    "title": "kiauhoku: Stellar model grid interpolation",
+    "url": "https://github.com/zclaytor/kiauhoku",
+    "name": "kiauhoku",
+    "full_name": "zclaytor/kiauhoku",
+    "html_url": "https://github.com/zclaytor/kiauhoku",
+    "description": "Python utilities for stellar model grid interpolation",
+    "created_at": "2019-07-12T23:22:38Z",
+    "updated_at": "2022-02-03T01:39:30Z",
+    "clone_url": "https://github.com/zclaytor/kiauhoku.git",
+    "size": 4717,
+    "stargazers_count": 10,
+    "watchers_count": 10,
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/zclaytor",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32207846?v=4",
+      "login": "zclaytor",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:13:21.219461",
+    "avatar": "https://avatars.githubusercontent.com/u/32207846?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install git+https://github.com/zclaytor/kiauhoku\"",
+        "\"Kīauhōkū is a suite of Python tools to interact with, manipulate, and interpolate between stellar evolutionary tracks in a model grid.\"",
+        "Installation via import and use in other code: \"import kiauhoku as kh\\ngrid = kh.load_interpolator('fastlaunch')\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T05:10:56Z"
+    }
+  }
+}

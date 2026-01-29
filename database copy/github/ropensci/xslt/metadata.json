@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/ropensci/xslt",
+  "url": "https://github.com/ropensci/xslt",
+  "data": {
+    "timestamp": "2022-01-27 10:11:35.174390",
+    "name": "xslt",
+    "url": "https://api.github.com/repos/ropensci/xslt",
+    "full_name": "ropensci/xslt",
+    "html_url": "https://github.com/ropensci/xslt",
+    "private": false,
+    "description": "Extension of xml2 package for xsl transformations",
+    "created_at": "2016-12-13T12:58:33Z",
+    "updated_at": "2021-09-30T15:58:25Z",
+    "clone_url": "https://github.com/ropensci/xslt.git",
+    "homepage": "https://docs.ropensci.org/xslt",
+    "size": 49,
+    "stargazers_count": 23,
+    "watchers_count": 23,
+    "language": "R",
+    "open_issues_count": 6,
+    "license": null,
+    "owner": {
+      "html_url": "https://github.com/ropensci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1200269?v=4",
+      "login": "ropensci",
+      "type": "Organization"
+    },
+    "topics": [
+      "xslt",
+      "xml",
+      "r",
+      "rstats",
+      "r-package",
+      "data-extraction"
+    ]
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN",
+      "evidence": [
+        "\"An extension for the 'xml2' package to transform XML documents by applying an XSL stylesheet.\" (indicates it is a library/dependency for other R code)",
+        "CRAN badges and links: \"CRAN_Status_Badge\" and \"http://cran.r-project.org/package=xslt\" (indicates distribution via CRAN package registry)",
+        "The package provides XML/XSLT transformation functionality, which supports data processing rather than being a domain-specific scientific model or analysis, fitting research-support tooling."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T03:11:43Z"
+    }
+  }
+}

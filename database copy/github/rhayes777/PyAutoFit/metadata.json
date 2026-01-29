@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/rhayes777/PyAutoFit",
+  "url": "https://github.com/rhayes777/PyAutoFit",
+  "data": {
+    "timestamp": "2021-02-07 00:22:42.988003",
+    "name": "PyAutoFit",
+    "url": "https://api.github.com/repos/rhayes777/PyAutoFit",
+    "full_name": "rhayes777/PyAutoFit",
+    "html_url": "https://github.com/rhayes777/PyAutoFit",
+    "private": false,
+    "description": null,
+    "created_at": "2018-11-18T15:51:34Z",
+    "updated_at": "2021-02-06T13:47:50Z",
+    "clone_url": "https://github.com/rhayes777/PyAutoFit.git",
+    "homepage": null,
+    "size": 14726,
+    "stargazers_count": 17,
+    "watchers_count": 17,
+    "language": "Python",
+    "open_issues_count": 8,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/rhayes777",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6361906?v=4",
+      "login": "rhayes777",
+      "type": "User"
+    },
+    "topics": []
+  },
+  "doi": "https://doi.org/10.5281/zenodo.4497861",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "“PyAutoFit is a Python based probabilistic programming language for model fitting and Bayesian inference of large datasets.”",
+        "“PyAutoFit recognises that this Gaussian may be treated as a model component whose parameters can be fitted for via a non-linear search…” (indicates it is a library used by other code)",
+        "Badges: “https://img.shields.io/pypi/v/autofit.svg :target: https://pypi.org/project/autofit/” (indicates distribution via PyPI)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T02:09:00Z"
+    }
+  }
+}

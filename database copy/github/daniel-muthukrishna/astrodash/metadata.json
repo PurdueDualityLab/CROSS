@@ -1,0 +1,77 @@
+{
+  "parser": "github",
+  "uid": "github/daniel-muthukrishna/astrodash",
+  "url": "https://github.com/daniel-muthukrishna/astrodash",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2019ApJ...885...85M",
+      "https://ui.adsabs.harvard.edu/abs/2020ascl.soft02009M/abstract"
+    ],
+    "title": "DASH: Deep Automated Supernova and Host classifier",
+    "url": "https://github.com/daniel-muthukrishna/astrodash",
+    "name": "astrodash",
+    "full_name": "daniel-muthukrishna/astrodash",
+    "html_url": "https://github.com/daniel-muthukrishna/astrodash",
+    "description": "Deep learning for the automated spectral classification of supernovae",
+    "created_at": "2016-12-01T03:19:18Z",
+    "updated_at": "2022-07-14T10:23:01Z",
+    "clone_url": "https://github.com/daniel-muthukrishna/astrodash.git",
+    "homepage": "http://astrodash.readthedocs.io",
+    "size": 1149909,
+    "stargazers_count": 27,
+    "watchers_count": 27,
+    "language": "Python",
+    "open_issues_count": 11,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 7,
+    "owner": {
+      "html_url": "https://github.com/daniel-muthukrishna",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17826840?v=4",
+      "login": "daniel-muthukrishna",
+      "type": "User"
+    },
+    "topics": [
+      "supernovae",
+      "deep-learning",
+      "deep-neural-networks",
+      "tensorflow",
+      "machine-learning",
+      "classification",
+      "transients",
+      "pypi",
+      "astronomy",
+      "cosmology",
+      "astrophysics",
+      "spectra"
+    ],
+    "timestamp": "2022-07-17 17:14:57.616245",
+    "avatar": "https://avatars.githubusercontent.com/u/17826840?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install astrodash --upgrade\"",
+        "\"Software to classify the type, age, redshift and host for any supernova spectra. Two platforms exists: a python library ... and also a graphical interface that enables a user to view and classify a spectrum.\"",
+        "\"In a terminal run: pip install astrodash --upgrade\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:15:16Z"
+    }
+  }
+}

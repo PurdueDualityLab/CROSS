@@ -1,0 +1,68 @@
+{
+  "parser": "github",
+  "uid": "github/sebhoof/SolarAxionFlux",
+  "url": "https://github.com/sebhoof/SolarAxionFlux",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2021JCAP...09..006H",
+      "https://ui.adsabs.harvard.edu/abs/2023ascl.soft12006H/abstract"
+    ],
+    "title": "SolarAxionFlux: Solar axion flux calculator for different solar models and opacity codes",
+    "url": "https://github.com/sebhoof/SolarAxionFlux",
+    "name": "SolarAxionFlux",
+    "full_name": "sebhoof/SolarAxionFlux",
+    "html_url": "https://github.com/sebhoof/SolarAxionFlux",
+    "description": "A C++/Python library for calculating the solar axion flux for different solar models and opacity codes.",
+    "created_at": "2019-11-20T15:58:18Z",
+    "updated_at": "2023-09-15T07:46:56Z",
+    "clone_url": "https://github.com/sebhoof/SolarAxionFlux.git",
+    "size": 143341,
+    "stargazers_count": 7,
+    "watchers_count": 7,
+    "language": "C++",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/sebhoof",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15237674?v=4",
+      "login": "sebhoof",
+      "type": "User"
+    },
+    "topics": [
+      "physics",
+      "sun",
+      "axions",
+      "helioscopes",
+      "alps"
+    ],
+    "timestamp": "2024-01-28 00:34:15.265580",
+    "avatar": "https://avatars.githubusercontent.com/u/15237674?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"A C++/Python library for calculating the solar axion flux using different solar models and opacity codes.\"",
+        "\"Clone this repo via `git clone https://github.com/sebhoof/SolarAxionFlux [foldername]`\"",
+        "\"To validate your installation, you may use the `test_library` executable in the `bin/` folder to run a simple test program. If you installed the Python frontend, you can also run this test from a Python terminal or notebook via `from lib import pyaxionflux as afl`\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T03:22:03Z"
+    }
+  }
+}

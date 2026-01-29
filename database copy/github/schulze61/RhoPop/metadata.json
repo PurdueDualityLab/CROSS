@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/schulze61/RhoPop",
+  "url": "https://github.com/schulze61/RhoPop",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2024PSJ.....5...71S",
+      "https://ui.adsabs.harvard.edu/abs/2024ascl.soft04030S/abstract"
+    ],
+    "title": "RhoPop: Small-planet populations identifier",
+    "url": "https://github.com/schulze61/RhoPop",
+    "name": "RhoPop",
+    "full_name": "schulze61/RhoPop",
+    "html_url": "https://github.com/schulze61/RhoPop",
+    "created_at": "2023-10-11T00:13:36Z",
+    "updated_at": "2023-10-16T22:25:57Z",
+    "clone_url": "https://github.com/schulze61/RhoPop.git",
+    "size": 5208,
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/schulze61",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43186618?v=4",
+      "login": "schulze61",
+      "type": "User"
+    },
+    "timestamp": "2024-05-05 00:36:17.458910",
+    "avatar": "https://avatars.githubusercontent.com/u/43186618?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"RhoPop is a software for the identification of compositionally distinct populations of small planets\"",
+        "\"RhoPop is python 3 based and requires the following packages\" (lists numpy, scipy, etc., indicating it is an end-user analysis code depending on libraries)",
+        "\"Once the required python packages are installed, RhoPop is intended to be 'plug-n-play', requiring only a mass-radius csv file to run.\" (no mention of package managers or binaries, implying use via cloning/source)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T03:19:54Z"
+    }
+  }
+}

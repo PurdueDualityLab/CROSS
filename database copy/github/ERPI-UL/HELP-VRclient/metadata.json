@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/ERPI-UL/HELP-VRclient",
+  "url": "https://github.com/ERPI-UL/HELP-VRclient",
+  "data": {
+    "name": "HELP-VRclient",
+    "url": "https://github.com/ERPI-UL/HELP-VRclient",
+    "full_name": "ERPI-UL/HELP-VRclient",
+    "html_url": "https://github.com/ERPI-UL/HELP-VRclient",
+    "private": false,
+    "description": "Hybrid Extended Learning Platform (HELP) - VR client for Meta Quest",
+    "created_at": "2023-07-18T10:06:02Z",
+    "updated_at": "2023-07-21T15:01:43Z",
+    "clone_url": "https://github.com/ERPI-UL/HELP-VRclient.git",
+    "homepage": null,
+    "size": 16687,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "C#",
+    "open_issues_count": 0,
+    "license": null,
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/ERPI-UL",
+      "avatar_url": "https://avatars.githubusercontent.com/u/113673811?v=4",
+      "login": "ERPI-UL",
+      "type": "Organization"
+    },
+    "topics": [],
+    "timestamp": "2024-10-06 00:50:32.680895",
+    "avatar": "https://avatars.githubusercontent.com/u/113673811?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"This repository contains the source code for the web interface of the authoring tool and its documentation. It is part of the HELP porject. To properly work, it requires also the [HELP API](https://gi\"",
+        "\"Hybrid Extended Learning Platform is a software package that aims to ease the creation of XR content for intructional usage. The principle is to use a unique web interface to design instructional activities with augmentations and access it throught AR ou VR client.\"",
+        "\"This repository contains the source code for the web interface of the authoring tool and its documentation. It is part of the HELP porject.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T17:05:45Z"
+    }
+  }
+}

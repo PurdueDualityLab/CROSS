@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/Pas-Kapli/mptp",
+  "url": "https://github.com/Pas-Kapli/mptp",
+  "data": {
+    "url": "https://github.com/Pas-Kapli/mptp",
+    "title": "Mptp",
+    "description": "mPTP - a tool for single-locus species delimitation",
+    "doi": "http://biorxiv.org/content/early/2016/07/14/063875",
+    "name": "mptp",
+    "full_name": "Pas-Kapli/mptp",
+    "html_url": "https://github.com/Pas-Kapli/mptp",
+    "created_at": "2015-03-15T15:28:38Z",
+    "updated_at": "2022-03-29T20:40:55Z",
+    "clone_url": "https://github.com/Pas-Kapli/mptp.git",
+    "size": 484,
+    "stargazers_count": 19,
+    "watchers_count": 19,
+    "language": "C",
+    "open_issues_count": 24,
+    "license": {
+      "key": "agpl-3.0",
+      "name": "GNU Affero General Public License v3.0",
+      "spdx_id": "AGPL-3.0",
+      "url": "https://api.github.com/licenses/agpl-3.0",
+      "node_id": "MDc6TGljZW5zZTE="
+    },
+    "subscribers_count": 10,
+    "owner": {
+      "html_url": "https://github.com/Pas-Kapli",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9498483?v=4",
+      "login": "Pas-Kapli",
+      "type": "User"
+    },
+    "timestamp": "2022-07-20 17:26:22.362865",
+    "avatar": "https://avatars.githubusercontent.com/u/9498483?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"**Source distribution** To download the source distribution from a\"",
+        "\"We have implemented a tool called mPTP which can handle very large biodiversity datasets. It implements a fast method to compute the ML delimitation from an inferred phylogenetic tree of the samples.\"",
+        "Usage is via a command-line executable: \"mptp --ml --multi --tree_file testTree --output_file out --outgroup A,C --tree_show\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T19:47:41Z"
+    }
+  }
+}

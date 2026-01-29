@@ -1,0 +1,55 @@
+{
+  "parser": "github",
+  "uid": "github/wathela/PyMerger",
+  "url": "https://github.com/wathela/PyMerger",
+  "data": {
+    "doi": [],
+    "title": "PyMerger: Detecting Binary Black Hole merger from Einstein Telescope Using Deep Learning",
+    "url": "https://github.com/wathela/PyMerger",
+    "name": "PyMerger",
+    "full_name": "wathela/PyMerger",
+    "html_url": "https://github.com/wathela/PyMerger",
+    "created_at": "2024-07-08T13:58:24Z",
+    "updated_at": "2024-10-24T13:27:33Z",
+    "clone_url": "https://github.com/wathela/PyMerger.git",
+    "size": 54095,
+    "language": "Python",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/wathela",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20660576?v=4",
+      "login": "wathela",
+      "type": "User"
+    },
+    "timestamp": "2024-11-24 00:49:01.223513",
+    "avatar": "https://avatars.githubusercontent.com/u/20660576?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install PyMergers\"",
+        "\"PyMerger is a Python tool for detecting binary black hole mergers from the Einstein Telescope, based on a Deep Residual Neural Network model.\"",
+        "\"usage: pymergers ...\" (command-line tool usage indicates it is run as an end-user application)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:51:23Z"
+    }
+  }
+}

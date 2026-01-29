@@ -1,56 +1,275 @@
 {
-    "parser": "github",
-    "uid": "github/daniel-muthukrishna/astrodash",
+  "parser": "github",
+  "uid": "github/daniel-muthukrishna/astrodash",
+  "url": "https://github.com/daniel-muthukrishna/astrodash",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2019ApJ...885...85M",
+      "https://ui.adsabs.harvard.edu/abs/2020ascl.soft02009M/abstract"
+    ],
+    "title": "DASH: Deep Automated Supernova and Host classifier",
     "url": "https://github.com/daniel-muthukrishna/astrodash",
-    "data": {
-        "doi": [
-            "https://ui.adsabs.harvard.edu/abs/2019ApJ...885...85M",
-            "https://ui.adsabs.harvard.edu/abs/2020ascl.soft02009M/abstract"
-        ],
-        "title": "DASH: Deep Automated Supernova and Host classifier",
-        "url": "https://github.com/daniel-muthukrishna/astrodash",
-        "name": "astrodash",
-        "full_name": "daniel-muthukrishna/astrodash",
-        "html_url": "https://github.com/daniel-muthukrishna/astrodash",
-        "description": "Deep learning for the automated spectral classification of supernovae",
-        "created_at": "2016-12-01T03:19:18Z",
-        "updated_at": "2022-07-14T10:23:01Z",
-        "clone_url": "https://github.com/daniel-muthukrishna/astrodash.git",
-        "homepage": "http://astrodash.readthedocs.io",
-        "size": 1149909,
-        "stargazers_count": 27,
-        "watchers_count": 27,
-        "language": "Python",
-        "open_issues_count": 11,
-        "license": {
-            "key": "mit",
-            "name": "MIT License",
-            "spdx_id": "MIT",
-            "url": "https://api.github.com/licenses/mit",
-            "node_id": "MDc6TGljZW5zZTEz"
-        },
-        "subscribers_count": 7,
-        "owner": {
-            "html_url": "https://github.com/daniel-muthukrishna",
-            "avatar_url": "https://avatars.githubusercontent.com/u/17826840?v=4",
-            "login": "daniel-muthukrishna",
-            "type": "User"
-        },
-        "topics": [
-            "supernovae",
-            "deep-learning",
-            "deep-neural-networks",
-            "tensorflow",
-            "machine-learning",
-            "classification",
-            "transients",
-            "pypi",
-            "astronomy",
-            "cosmology",
-            "astrophysics",
-            "spectra"
-        ],
-        "timestamp": "2022-07-17 17:14:57.616245",
-        "avatar": "https://avatars.githubusercontent.com/u/17826840?v=4"
+    "name": "astrodash",
+    "full_name": "daniel-muthukrishna/astrodash",
+    "html_url": "https://github.com/daniel-muthukrishna/astrodash",
+    "description": "Deep learning for the automated spectral classification of supernovae",
+    "created_at": "2016-12-01T03:19:18Z",
+    "updated_at": "2022-07-14T10:23:01Z",
+    "clone_url": "https://github.com/daniel-muthukrishna/astrodash.git",
+    "homepage": "http://astrodash.readthedocs.io",
+    "size": 1149909,
+    "stargazers_count": 27,
+    "watchers_count": 27,
+    "language": "Python",
+    "open_issues_count": 11,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 7,
+    "owner": {
+      "html_url": "https://github.com/daniel-muthukrishna",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17826840?v=4",
+      "login": "daniel-muthukrishna",
+      "type": "User"
+    },
+    "topics": [
+      "supernovae",
+      "deep-learning",
+      "deep-neural-networks",
+      "tensorflow",
+      "machine-learning",
+      "classification",
+      "transients",
+      "pypi",
+      "astronomy",
+      "cosmology",
+      "astrophysics",
+      "spectra"
+    ],
+    "timestamp": "2022-07-17 17:14:57.616245",
+    "avatar": "https://avatars.githubusercontent.com/u/17826840?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install astrodash --upgrade\"",
+        "\"Software to classify the type, age, redshift and host for any supernova spectra. Two platforms exists: a python library ... and also a graphical interface that enables a user to view and classify a spectrum.\"",
+        "\"In a terminal run: pip install astrodash --upgrade\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:15:16Z"
     }
+  },
+  "openssf_scorecard": {
+    "data": {
+      "date": "2026-01-23T10:35:08-05:00",
+      "repo": {
+        "name": "github.com/daniel-muthukrishna/astrodash",
+        "commit": "acc241ad73133894d93ef16733cf0f1fb4ca7b87"
+      },
+      "scorecard": {
+        "version": "v5.4.0",
+        "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+      },
+      "score": 2.6,
+      "checks": [
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no binaries found in the repo",
+          "name": "Binary-Artifacts",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#binary-artifacts",
+            "short": "Determines if the project has generated executable (binary) artifacts in the source repository."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "branch protection not enabled on development/release branches",
+          "name": "Branch-Protection",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#branch-protection",
+            "short": "Determines if the default and release branches are protected with GitHub's branch protection settings."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "0 out of 1 merged PRs checked by a CI test -- score normalized to 0",
+          "name": "CI-Tests",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#ci-tests",
+            "short": "Determines if the project runs tests before pull requests are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no effort to earn an OpenSSF best practices badge detected",
+          "name": "CII-Best-Practices",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#cii-best-practices",
+            "short": "Determines if the project has an OpenSSF (formerly CII) Best Practices Badge."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "Found 1/27 approved changesets -- score normalized to 0",
+          "name": "Code-Review",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#code-review",
+            "short": "Determines if the project requires human code review before pull requests (aka merge requests) are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 3,
+          "reason": "project has 1 contributing companies or organizations -- score normalized to 3",
+          "name": "Contributors",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#contributors",
+            "short": "Determines if the project has a set of contributors from multiple organizations (e.g., companies)."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no workflows found",
+          "name": "Dangerous-Workflow",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dangerous-workflow",
+            "short": "Determines if the project's GitHub Action workflows avoid dangerous patterns."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no update tool detected",
+          "name": "Dependency-Update-Tool",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dependency-update-tool",
+            "short": "Determines if the project uses a dependency update tool."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "project is not fuzzed",
+          "name": "Fuzzing",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#fuzzing",
+            "short": "Determines if the project uses fuzzing."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "license file detected",
+          "name": "License",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#license",
+            "short": "Determines if the project has defined a license."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0",
+          "name": "Maintained",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#maintained",
+            "short": "Determines if the project is \"actively maintained\"."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "packaging workflow not detected",
+          "name": "Packaging",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#packaging",
+            "short": "Determines if the project is published as a package that others can easily download, install, easily update, and uninstall."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no dependencies found",
+          "name": "Pinned-Dependencies",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#pinned-dependencies",
+            "short": "Determines if the project has declared and pinned the dependencies of its build process."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "SAST tool is not run on all commits -- score normalized to 0",
+          "name": "SAST",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#sast",
+            "short": "Determines if the project uses static code analysis."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "security policy file not detected",
+          "name": "Security-Policy",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#security-policy",
+            "short": "Determines if the project has published a security policy."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no releases found",
+          "name": "Signed-Releases",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#signed-releases",
+            "short": "Determines if the project cryptographically signs release artifacts."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "No tokens found",
+          "name": "Token-Permissions",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#token-permissions",
+            "short": "Determines if the project's workflows follow the principle of least privilege."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "0 existing vulnerabilities detected",
+          "name": "Vulnerabilities",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#vulnerabilities",
+            "short": "Determines if the project has open, known unfixed vulnerabilities."
+          }
+        }
+      ],
+      "metadata": null
+    },
+    "timestamp_utc": "2026-01-23T15:35:31Z"
+  }
 }

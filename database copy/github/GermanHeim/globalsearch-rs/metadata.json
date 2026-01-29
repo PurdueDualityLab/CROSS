@@ -1,0 +1,67 @@
+{
+  "parser": "github",
+  "uid": "github/GermanHeim/globalsearch-rs",
+  "url": "https://github.com/GermanHeim/globalsearch-rs",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.17533965",
+    "name": "globalsearch-rs",
+    "url": "https://github.com/GermanHeim/globalsearch-rs",
+    "full_name": "GermanHeim/globalsearch-rs",
+    "html_url": "https://github.com/GermanHeim/globalsearch-rs",
+    "description": "A multistart framework for global optimization with scatter search and local NLP solvers written in Rust",
+    "created_at": "2025-01-29T17:58:39Z",
+    "updated_at": "2025-11-07T21:12:00Z",
+    "clone_url": "https://github.com/GermanHeim/globalsearch-rs.git",
+    "homepage": "https://germanheim.github.io/globalsearch-rs-website/",
+    "size": 2478,
+    "stargazers_count": 23,
+    "watchers_count": 23,
+    "language": "Rust",
+    "open_issues_count": 4,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/GermanHeim",
+      "avatar_url": "https://avatars.githubusercontent.com/u/77305706?v=4",
+      "login": "GermanHeim",
+      "type": "User"
+    },
+    "topics": [
+      "math",
+      "optimization",
+      "optimization-algorithms",
+      "rust",
+      "scatter-search",
+      "numerical-optimization"
+    ],
+    "timestamp": "2025-11-09 00:54:55.599213",
+    "avatar": "https://avatars.githubusercontent.com/u/77305706?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "crates.io (Rust) and PyPI (Python)",
+      "evidence": [
+        "“Add this to your `Cargo.toml`: `[dependencies] globalsearch = \"0.5.0\"`” (used as a library dependency).",
+        "“A multistart framework for global optimization with scatter search and local NLP solvers written in Rust” (core optimization algorithm for research problems).",
+        "Badges and links: “https://crates.io/crates/globalsearch” and “https://pypi.org/project/pyglobalsearch/” (distribution via crates.io and PyPI)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T17:42:10Z"
+    }
+  }
+}

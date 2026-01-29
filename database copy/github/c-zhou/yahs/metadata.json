@@ -1,0 +1,63 @@
+{
+  "parser": "github",
+  "uid": "github/c-zhou/yahs",
+  "url": "https://github.com/c-zhou/yahs",
+  "data": {
+    "title": "YaHS",
+    "url": "https://github.com/c-zhou/yahs",
+    "credit": [],
+    "tags": [
+      "hi-c",
+      "high-throughput-sequencing"
+    ],
+    "description": "Yet another Hi-C scaffolding tool",
+    "name": "yahs",
+    "full_name": "c-zhou/yahs",
+    "html_url": "https://github.com/c-zhou/yahs",
+    "created_at": "2021-09-27T21:10:26Z",
+    "updated_at": "2023-05-09T14:55:10Z",
+    "clone_url": "https://github.com/c-zhou/yahs.git",
+    "size": 174,
+    "stargazers_count": 69,
+    "watchers_count": 69,
+    "language": "C",
+    "open_issues_count": 20,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/c-zhou",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11916266?v=4",
+      "login": "c-zhou",
+      "type": "User"
+    },
+    "timestamp": "2023-05-14 00:43:18.337972",
+    "avatar": "https://avatars.githubusercontent.com/u/11916266?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"You need to have a C compiler, GNU make and zlib development files installed. Download the source code from this repo or with `git clone https://github.com/c-zhou/yahs.git`. Then type `make` in the so\"",
+        "\"YaHS is a scaffolding tool using Hi-C data.\" (domain-specific genome assembly tool, run as a program)",
+        "\"Download the source code from this repo or with `git clone https://github.com/c-zhou/yahs.git`. Then type `make` in the source code directory to compile.\" (built directly from source repository)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T22:33:00Z"
+    }
+  }
+}

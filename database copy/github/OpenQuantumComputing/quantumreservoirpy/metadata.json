@@ -1,0 +1,57 @@
+{
+  "parser": "github",
+  "uid": "github/OpenQuantumComputing/quantumreservoirpy",
+  "url": "https://github.com/OpenQuantumComputing/quantumreservoirpy",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.15633043",
+    "name": "quantumreservoirpy",
+    "url": "https://github.com/OpenQuantumComputing/quantumreservoirpy",
+    "full_name": "OpenQuantumComputing/quantumreservoirpy",
+    "html_url": "https://github.com/OpenQuantumComputing/quantumreservoirpy",
+    "description": "Some initial code for simple QRC examples on discrete states",
+    "created_at": "2023-02-14T09:22:16Z",
+    "updated_at": "2025-06-10T13:18:13Z",
+    "clone_url": "https://github.com/OpenQuantumComputing/quantumreservoirpy.git",
+    "size": 76145,
+    "stargazers_count": 25,
+    "watchers_count": 25,
+    "language": "Jupyter Notebook",
+    "open_issues_count": 2,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "owner": {
+      "html_url": "https://github.com/OpenQuantumComputing",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60732936?v=4",
+      "login": "OpenQuantumComputing",
+      "type": "Organization"
+    },
+    "timestamp": "2025-06-15 00:58:28.607264",
+    "avatar": "https://avatars.githubusercontent.com/u/60732936?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install quantumreservoirpy\"",
+        "\"This package is meant to simplify the creation and simulation of such periodic circuits.\"",
+        "\"QuantumReservoirPy is available as a pip-installable package on PyPI.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T19:43:44Z"
+    }
+  }
+}

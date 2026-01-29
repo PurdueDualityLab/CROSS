@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/LoganAMorrison/blackthorn",
+  "url": "https://github.com/LoganAMorrison/blackthorn",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2023JHEP...09..163M",
+      "https://ui.adsabs.harvard.edu/abs/2024ascl.soft05022M/abstract"
+    ],
+    "title": "blackthorn: Spectra from right-handed neutrino decays",
+    "url": "https://github.com/LoganAMorrison/blackthorn",
+    "name": "blackthorn",
+    "full_name": "LoganAMorrison/blackthorn",
+    "html_url": "https://github.com/LoganAMorrison/blackthorn",
+    "description": "Project for computing spectra from right-handed neutrino decays",
+    "created_at": "2022-04-04T22:36:30Z",
+    "updated_at": "2023-05-01T12:52:27Z",
+    "clone_url": "https://github.com/LoganAMorrison/blackthorn.git",
+    "size": 185102,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "C++",
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/LoganAMorrison",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22247102?v=4",
+      "login": "LoganAMorrison",
+      "type": "User"
+    },
+    "timestamp": "2024-06-02 00:37:50.656806",
+    "avatar": "https://avatars.githubusercontent.com/u/22247102?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Vendor or commercial entity",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"blackthorn is a tool for generating photon, positron and neutrino spectra dark-matter annihilations into or decays of right-handed (RH) neutrinos.\"",
+        "\"blackthorn comes with a command-line-interface to generate spectra. The format for executing the CLI is: python -m blackthorn.generate_spectrum [OPTIONS] MASS GENERATION OUTPUT\"",
+        "\"To install, poetry is recommended. After cloning the repo and navigating to the source directory, run: poetry install\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T18:51:59Z"
+    }
+  }
+}

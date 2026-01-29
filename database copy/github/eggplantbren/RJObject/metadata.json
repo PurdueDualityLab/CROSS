@@ -1,0 +1,55 @@
+{
+  "parser": "github",
+  "uid": "github/eggplantbren/RJObject",
+  "url": "https://github.com/eggplantbren/RJObject",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2018ApJ...854..141D",
+      "http://adsabs.harvard.edu/abs/2014arXiv1411.3921B",
+      "https://ui.adsabs.harvard.edu/abs/2021ascl.soft04006B/abstract"
+    ],
+    "title": "RJObject: Reversible Jump Objects",
+    "url": "https://github.com/eggplantbren/RJObject",
+    "name": "RJObject",
+    "full_name": "eggplantbren/RJObject",
+    "html_url": "https://github.com/eggplantbren/RJObject",
+    "description": "General code for birth/death stuff within DNest3",
+    "created_at": "2013-04-14T02:22:04Z",
+    "updated_at": "2015-04-26T22:07:51Z",
+    "clone_url": "https://github.com/eggplantbren/RJObject.git",
+    "size": 7828,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "TeX",
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/eggplantbren",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1578298?v=4",
+      "login": "eggplantbren",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:12:18.383684",
+    "avatar": "https://avatars.githubusercontent.com/u/1578298?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Classes for generic birth/death MCMC in DNest3\" (indicates a library of classes used by other software, not a standalone app).",
+        "\"This will install the RJObject library and header files into `/usr/local`, while example programs are available in `RJObject/Examples`.\" (library/dependency role).",
+        "Installation instructions are via `git clone https://github.com/eggplantbren/RJObject.git` and building with CMake, with no mention of package managers or binary releases (source repo distribution)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T23:42:13Z"
+    }
+  }
+}

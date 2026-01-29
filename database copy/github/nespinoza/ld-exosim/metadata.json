@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/nespinoza/ld-exosim",
+  "url": "https://github.com/nespinoza/ld-exosim",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2016MNRAS.457.3573E",
+      "https://ui.adsabs.harvard.edu/abs/2022ascl.soft05013E/abstract"
+    ],
+    "title": "ld-exosim: Simulate biases using different limb darkening laws",
+    "url": "https://github.com/nespinoza/ld-exosim",
+    "name": "ld-exosim",
+    "full_name": "nespinoza/ld-exosim",
+    "html_url": "https://github.com/nespinoza/ld-exosim",
+    "description": "Code to simulate biases introduced by using different limb-darkening laws as explained in Espinoza & Jordán (2016)",
+    "created_at": "2015-11-13T23:36:00Z",
+    "updated_at": "2022-01-03T01:30:29Z",
+    "clone_url": "https://github.com/nespinoza/ld-exosim.git",
+    "size": 776,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/nespinoza",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2046682?v=4",
+      "login": "nespinoza",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 16:48:41.578732",
+    "avatar": "https://avatars.githubusercontent.com/u/2046682?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This repository stores codes to (1) select the optimal ... limb-darkening law for a given transiting exoplanet lightcurve and (2) calculate the limb-darkening induced biases on various exoplanet parameters.\"",
+        "\"You are looking for the `which_law_should_i_use.py` code. Simply modify the parameters inside the code and let the simulations run. At the end, the code will print out the Bias/Precision values for each law...\"",
+        "\"Then you want to use the `run_ld_exosim.py` code. In the code just define the parameters you woud like to explore and run it. The results will be saved in a folder named \"results\" for your simulation...\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T01:35:24Z"
+    }
+  }
+}

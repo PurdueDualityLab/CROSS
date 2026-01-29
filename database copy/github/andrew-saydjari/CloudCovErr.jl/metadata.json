@@ -1,0 +1,65 @@
+{
+  "parser": "github",
+  "uid": "github/andrew-saydjari/CloudCovErr.jl",
+  "url": "https://github.com/andrew-saydjari/CloudCovErr.jl",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2022ApJ...933..155S",
+      "https://ui.adsabs.harvard.edu/abs/2024ascl.soft10014S/abstract"
+    ],
+    "title": "CloudCovErr.jl: Debias and improve error bar estimates for photometry",
+    "url": "https://github.com/andrew-saydjari/CloudCovErr.jl",
+    "name": "CloudCovErr.jl",
+    "full_name": "andrew-saydjari/CloudCovErr.jl",
+    "html_url": "https://github.com/andrew-saydjari/CloudCovErr.jl",
+    "description": "Pipeline for debiasing and improving error bar estimates for photometry on top of structured/filamentary background.",
+    "created_at": "2021-10-13T17:03:52Z",
+    "updated_at": "2024-09-16T01:50:41Z",
+    "clone_url": "https://github.com/andrew-saydjari/CloudCovErr.jl.git",
+    "size": 190942,
+    "stargazers_count": 6,
+    "watchers_count": 6,
+    "language": "Julia",
+    "open_issues_count": 1,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/andrew-saydjari",
+      "avatar_url": "https://avatars.githubusercontent.com/u/40186037?v=4",
+      "login": "andrew-saydjari",
+      "type": "User"
+    },
+    "topics": [
+      "julia"
+    ],
+    "timestamp": "2024-11-03 00:46:21.715415",
+    "avatar": "https://avatars.githubusercontent.com/u/40186037?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "Julia General registry",
+      "evidence": [
+        "README install command: \"Pkg.add(\"CloudCovErr\")\"",
+        "\"Pipeline for debiasing and improving error bar estimates for photometry on top of structured/filamentary background. The procedure first estimates the covariance matrix... and then computes corrections to the estimated flux and flux uncertainties.\"",
+        "\"**CloudCovErr** is a registered package so a stable version can be installed using `Pkg.add`.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T21:17:31Z"
+    }
+  }
+}

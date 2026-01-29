@@ -1,0 +1,69 @@
+{
+  "parser": "github",
+  "uid": "github/nhejazi/haldensify",
+  "url": "https://github.com/nhejazi/haldensify",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.7089147",
+    "name": "haldensify",
+    "url": "https://github.com/nhejazi/haldensify",
+    "full_name": "nhejazi/haldensify",
+    "html_url": "https://github.com/nhejazi/haldensify",
+    "description": ":package: R/haldensify: Highly Adaptive Lasso Conditional Density Estimation",
+    "created_at": "2019-01-14T18:43:32Z",
+    "updated_at": "2022-08-24T08:25:32Z",
+    "clone_url": "https://github.com/nhejazi/haldensify.git",
+    "homepage": "https://code.nimahejazi.org/haldensify",
+    "size": 4794,
+    "stargazers_count": 11,
+    "watchers_count": 11,
+    "language": "R",
+    "open_issues_count": 4,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/nhejazi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8527276?v=4",
+      "login": "nhejazi",
+      "type": "User"
+    },
+    "topics": [
+      "machine-learning",
+      "density-estimation",
+      "nonparametric-regression",
+      "highly-adaptive-lasso",
+      "propensity-score",
+      "conditional-density-estimates",
+      "causal-inference",
+      "inverse-probability-weights"
+    ],
+    "timestamp": "2022-09-25 00:44:30.070159",
+    "avatar": "https://avatars.githubusercontent.com/u/8527276?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"haldensify\")\"",
+        "\"The `haldensify` R package is designed to provide facilities for nonparametric conditional density estimation...\" (an R package intended to be used from other R code).",
+        "Example shows usage via `library(haldensify)` and calling `haldensify(...)` to fit models and produce estimates, directly used for statistical/causal analysis."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:37:00Z"
+    }
+  }
+}

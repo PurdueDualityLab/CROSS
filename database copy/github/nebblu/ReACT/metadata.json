@@ -1,0 +1,63 @@
+{
+  "parser": "github",
+  "uid": "github/nebblu/ReACT",
+  "url": "https://github.com/nebblu/ReACT",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2022PhRvD.105b3531M",
+      "https://ui.adsabs.harvard.edu/abs/2020MNRAS.498.4650B",
+      "https://ui.adsabs.harvard.edu/abs/2023ascl.soft01017B/abstract"
+    ],
+    "title": "ReACT: Calculation of non-linear power spectra from non-standard physics",
+    "url": "https://github.com/nebblu/ReACT",
+    "name": "ReACT",
+    "full_name": "nebblu/ReACT",
+    "html_url": "https://github.com/nebblu/ReACT",
+    "description": "ReACT public repo",
+    "created_at": "2020-03-09T13:13:25Z",
+    "updated_at": "2022-12-20T10:03:42Z",
+    "clone_url": "https://github.com/nebblu/ReACT.git",
+    "size": 3669,
+    "stargazers_count": 5,
+    "watchers_count": 5,
+    "language": "C++",
+    "open_issues_count": 1,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 6,
+    "owner": {
+      "html_url": "https://github.com/nebblu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45853389?v=4",
+      "login": "nebblu",
+      "type": "User"
+    },
+    "timestamp": "2023-02-05 00:40:44.910541",
+    "avatar": "https://avatars.githubusercontent.com/u/45853389?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"$ pip install .\"",
+        "\"ReACT is an extension of the software package Copter ... which allows for the calculation of redshift and real space large scale structure observables for a wide class of gravity and dark energy models.\"",
+        "\"The Python interface can then be installed with\n```\n$ python setup.py install\n```\nor \n```\n$ pip install .\n```"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:34:48Z"
+    }
+  }
+}

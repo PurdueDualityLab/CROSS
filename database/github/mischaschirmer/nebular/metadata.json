@@ -1,41 +1,260 @@
 {
-    "parser": "github",
-    "uid": "github/mischaschirmer/nebular",
+  "parser": "github",
+  "uid": "github/mischaschirmer/nebular",
+  "url": "https://github.com/mischaschirmer/nebular",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2016PASP..128k4001S",
+      "https://ui.adsabs.harvard.edu/abs/2016ascl.soft08019S/abstract"
+    ],
+    "title": "NEBULAR: Spectrum synthesis for mixed hydrogen-helium gas in ionization equilibrium",
     "url": "https://github.com/mischaschirmer/nebular",
-    "data": {
-        "doi": [
-            "https://ui.adsabs.harvard.edu/abs/2016PASP..128k4001S",
-            "https://ui.adsabs.harvard.edu/abs/2016ascl.soft08019S/abstract"
-        ],
-        "title": "NEBULAR: Spectrum synthesis for mixed hydrogen-helium gas in ionization equilibrium",
-        "url": "https://github.com/mischaschirmer/nebular",
-        "name": "nebular",
-        "full_name": "mischaschirmer/nebular",
-        "html_url": "https://github.com/mischaschirmer/nebular",
-        "description": "NEBULAR is a lightweight software to synthesize the astrophysical spectrum of a hydrogen helium gas mix in collisional ionization equilibrium. It is written in C++ and depends on the GNU Scientific Library (GSL).",
-        "created_at": "2016-06-17T18:19:15Z",
-        "updated_at": "2021-04-12T12:06:12Z",
-        "clone_url": "https://github.com/mischaschirmer/nebular.git",
-        "size": 3283,
-        "stargazers_count": 3,
-        "watchers_count": 3,
-        "language": "C++",
-        "open_issues_count": 1,
-        "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "spdx_id": "GPL-3.0",
-            "url": "https://api.github.com/licenses/gpl-3.0",
-            "node_id": "MDc6TGljZW5zZTk="
-        },
-        "subscribers_count": 1,
-        "owner": {
-            "html_url": "https://github.com/mischaschirmer",
-            "avatar_url": "https://avatars.githubusercontent.com/u/12635693?v=4",
-            "login": "mischaschirmer",
-            "type": "User"
-        },
-        "timestamp": "2022-07-17 17:21:22.592110",
-        "avatar": "https://avatars.githubusercontent.com/u/12635693?v=4"
+    "name": "nebular",
+    "full_name": "mischaschirmer/nebular",
+    "html_url": "https://github.com/mischaschirmer/nebular",
+    "description": "NEBULAR is a lightweight software to synthesize the astrophysical spectrum of a hydrogen helium gas mix in collisional ionization equilibrium. It is written in C++ and depends on the GNU Scientific Library (GSL).",
+    "created_at": "2016-06-17T18:19:15Z",
+    "updated_at": "2021-04-12T12:06:12Z",
+    "clone_url": "https://github.com/mischaschirmer/nebular.git",
+    "size": 3283,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "C++",
+    "open_issues_count": 1,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/mischaschirmer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12635693?v=4",
+      "login": "mischaschirmer",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:21:22.592110",
+    "avatar": "https://avatars.githubusercontent.com/u/12635693?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"NEBULAR is a lightweight code to synthesize the spectrum of a mixed hydrogen helium gas in collisional ionization equilibrium.\"",
+        "\"It is not a spectral fitting code, but it can be used to resample a model spectrum onto the wavelength grid of a real observation.\"",
+        "\"To get a list of command-line options, run the nebular executable without arguments.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T01:22:14Z"
     }
+  },
+  "openssf_scorecard": {
+    "data": {
+      "date": "2026-01-23T12:39:57-05:00",
+      "repo": {
+        "name": "github.com/mischaschirmer/nebular",
+        "commit": "8151d611256c0bc375c37a6ad9fc1cc0f1721df6"
+      },
+      "scorecard": {
+        "version": "v5.4.0",
+        "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+      },
+      "score": 2.6,
+      "checks": [
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no binaries found in the repo",
+          "name": "Binary-Artifacts",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#binary-artifacts",
+            "short": "Determines if the project has generated executable (binary) artifacts in the source repository."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "branch protection not enabled on development/release branches",
+          "name": "Branch-Protection",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#branch-protection",
+            "short": "Determines if the default and release branches are protected with GitHub's branch protection settings."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no pull request found",
+          "name": "CI-Tests",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#ci-tests",
+            "short": "Determines if the project runs tests before pull requests are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no effort to earn an OpenSSF best practices badge detected",
+          "name": "CII-Best-Practices",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#cii-best-practices",
+            "short": "Determines if the project has an OpenSSF (formerly CII) Best Practices Badge."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "Found 0/14 approved changesets -- score normalized to 0",
+          "name": "Code-Review",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#code-review",
+            "short": "Determines if the project requires human code review before pull requests (aka merge requests) are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "project has 0 contributing companies or organizations -- score normalized to 0",
+          "name": "Contributors",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#contributors",
+            "short": "Determines if the project has a set of contributors from multiple organizations (e.g., companies)."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no workflows found",
+          "name": "Dangerous-Workflow",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dangerous-workflow",
+            "short": "Determines if the project's GitHub Action workflows avoid dangerous patterns."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no update tool detected",
+          "name": "Dependency-Update-Tool",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dependency-update-tool",
+            "short": "Determines if the project uses a dependency update tool."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "project is not fuzzed",
+          "name": "Fuzzing",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#fuzzing",
+            "short": "Determines if the project uses fuzzing."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "license file detected",
+          "name": "License",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#license",
+            "short": "Determines if the project has defined a license."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0",
+          "name": "Maintained",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#maintained",
+            "short": "Determines if the project is \"actively maintained\"."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "packaging workflow not detected",
+          "name": "Packaging",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#packaging",
+            "short": "Determines if the project is published as a package that others can easily download, install, easily update, and uninstall."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no dependencies found",
+          "name": "Pinned-Dependencies",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#pinned-dependencies",
+            "short": "Determines if the project has declared and pinned the dependencies of its build process."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no SAST tool detected",
+          "name": "SAST",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#sast",
+            "short": "Determines if the project uses static code analysis."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "security policy file not detected",
+          "name": "Security-Policy",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#security-policy",
+            "short": "Determines if the project has published a security policy."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no releases found",
+          "name": "Signed-Releases",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#signed-releases",
+            "short": "Determines if the project cryptographically signs release artifacts."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "No tokens found",
+          "name": "Token-Permissions",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#token-permissions",
+            "short": "Determines if the project's workflows follow the principle of least privilege."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "0 existing vulnerabilities detected",
+          "name": "Vulnerabilities",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#vulnerabilities",
+            "short": "Determines if the project has open, known unfixed vulnerabilities."
+          }
+        }
+      ],
+      "metadata": null
+    },
+    "timestamp_utc": "2026-01-23T17:40:00Z"
+  }
 }

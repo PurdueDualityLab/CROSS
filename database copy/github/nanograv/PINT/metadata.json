@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/nanograv/PINT",
+  "url": "https://github.com/nanograv/PINT",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2019ApJ...879..130R",
+      "https://ui.adsabs.harvard.edu/abs/2019ascl.soft02007L/abstract"
+    ],
+    "title": "PINT: High-precision pulsar timing analysis package",
+    "url": "https://github.com/nanograv/PINT",
+    "name": "PINT",
+    "full_name": "nanograv/PINT",
+    "html_url": "https://github.com/nanograv/PINT",
+    "description": "PINT is not TEMPO3 -- Software for high-precision pulsar timing",
+    "created_at": "2013-12-04T22:21:19Z",
+    "updated_at": "2022-07-13T18:25:37Z",
+    "clone_url": "https://github.com/nanograv/PINT.git",
+    "size": 35386,
+    "stargazers_count": 94,
+    "watchers_count": 94,
+    "language": "Python",
+    "open_issues_count": 203,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 18,
+    "owner": {
+      "html_url": "https://github.com/nanograv",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1416848?v=4",
+      "login": "nanograv",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-17 17:17:16.038928",
+    "avatar": "https://avatars.githubusercontent.com/u/1416848?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"$ pip install pint-pulsar\"",
+        "\"PINT is a project to develop a pulsar timing solution based on python and modern libraries... it is in production use by the NANOGrav collaboration\"",
+        "\"It can be used within python scripts or notebooks, and there are several command line tools that come with it.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:31:35Z"
+    }
+  }
+}

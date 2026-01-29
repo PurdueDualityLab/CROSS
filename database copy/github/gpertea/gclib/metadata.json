@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/gpertea/gclib",
+  "url": "https://github.com/gpertea/gclib",
+  "data": {
+    "url": "https://github.com/gpertea/gclib",
+    "title": "Libgclib-dev",
+    "description": "GCLib - Genomic C++ library of reusable code for bioinformatics projects",
+    "name": "gclib",
+    "full_name": "gpertea/gclib",
+    "html_url": "https://github.com/gpertea/gclib",
+    "created_at": "2015-09-04T18:50:15Z",
+    "updated_at": "2022-06-17T01:36:10Z",
+    "clone_url": "https://github.com/gpertea/gclib.git",
+    "size": 910,
+    "stargazers_count": 20,
+    "watchers_count": 20,
+    "language": "C++",
+    "open_issues_count": 4,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/gpertea",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3372619?v=4",
+      "login": "gpertea",
+      "type": "User"
+    },
+    "timestamp": "2022-07-20 17:28:56.418069",
+    "avatar": "https://avatars.githubusercontent.com/u/3372619?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This is an eclectic collection of basic C++ code (functions, classes, templates) which is shared between a few of my bioinformatics projects.\"",
+        "\"This is not meant to be built into an object library, it's a simple _source code library_ for other projects to include and link statically into the final executable(s).\"",
+        "\"The makefile included here is just for simple, extemporaneous tests I occasionally perform as new functionality is added to this code collection.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:04:05Z"
+    }
+  }
+}

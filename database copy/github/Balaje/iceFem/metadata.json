@@ -1,0 +1,63 @@
+{
+  "parser": "github",
+  "uid": "github/Balaje/iceFem",
+  "url": "https://github.com/Balaje/iceFem",
+  "data": {
+    "timestamp": "2021-04-04 00:42:28.664085",
+    "name": "iceFem",
+    "url": "https://api.github.com/repos/Balaje/iceFem",
+    "full_name": "Balaje/iceFem",
+    "html_url": "https://github.com/Balaje/iceFem",
+    "private": false,
+    "description": "Contains FreeFem source codes for modelling wave induced ice-shelf vibrations",
+    "created_at": "2020-04-17T02:56:35Z",
+    "updated_at": "2021-03-23T23:31:42Z",
+    "clone_url": "https://github.com/Balaje/iceFem.git",
+    "homepage": "",
+    "size": 100336,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": "MATLAB",
+    "open_issues_count": 0,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/Balaje",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4852064?v=4",
+      "login": "Balaje",
+      "type": "User"
+    },
+    "topics": [
+      "freefem",
+      "ice-shelf"
+    ]
+  },
+  "doi": "https://doi.org/10.5281/zenodo.4632440",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Builds and releases",
+      "distribution_details": "GitHub Releases",
+      "evidence": [
+        "README mentions releases: \"This iteration of iceFEM implements the algorithms in parallel with an aim to solve bigger problems. For this implementation, the program requires the ``MPI`` version of FreeFem installed. If the full\"",
+        "\"This iteration of iceFEM implements the algorithms in parallel with an aim to solve bigger problems.\" (domain simulation/analysis code, not a generic library)",
+        "Usage is via commands like `mpirun -np 2 FreeFem++-mpi ... iceshelf2d.edp ...` to solve specific physical problems (ice-shelf, iceberg motion, BEDMAP2 cases), indicating direct execution for scientific simulations."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T16:40:59Z"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "parser": "github",
+  "uid": "github/Magritte-code/Magritte",
+  "url": "https://github.com/Magritte-code/Magritte",
+  "data": {
+    "timestamp": "2022-03-06 00:44:33.134609",
+    "name": "Magritte",
+    "url": "https://api.github.com/repos/Magritte-code/Magritte",
+    "full_name": "Magritte-code/Magritte",
+    "html_url": "https://github.com/Magritte-code/Magritte",
+    "private": false,
+    "description": "A modern software library for simulating radiation transport.",
+    "created_at": "2020-08-11T04:45:48Z",
+    "updated_at": "2022-01-04T10:18:16Z",
+    "clone_url": "https://github.com/Magritte-code/Magritte.git",
+    "homepage": "https://magritte.readthedocs.io",
+    "size": 214777,
+    "stargazers_count": 8,
+    "watchers_count": 8,
+    "language": "Jupyter Notebook",
+    "open_issues_count": 10,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/Magritte-code",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34956055?v=4",
+      "login": "Magritte-code",
+      "type": "Organization"
+    },
+    "topics": [
+      "radiative-transfer",
+      "astrophysics",
+      "physics-simulation"
+    ]
+  },
+  "doi": "https://doi.org/10.5281/zenodo.6320469",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Magritte is a open-source software library for simulating radiation transport\"",
+        "\"It can either be used as a Python package or as a C++ library.\"",
+        "\"Please report any issues with Magritte or its documentation here (GitHub issues link).\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T19:05:09Z"
+    }
+  }
+}

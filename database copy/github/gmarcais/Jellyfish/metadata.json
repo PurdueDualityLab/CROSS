@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/gmarcais/Jellyfish",
+  "url": "https://github.com/gmarcais/Jellyfish",
+  "data": {
+    "url": "https://github.com/gmarcais/Jellyfish",
+    "title": "Jellyfish",
+    "description": "A fast multi-threaded k-mer counter",
+    "doi": "https://dx.doi.org/10.1093/bioinformatics/btr011",
+    "name": "Jellyfish",
+    "full_name": "gmarcais/Jellyfish",
+    "html_url": "https://github.com/gmarcais/Jellyfish",
+    "created_at": "2013-12-02T16:37:55Z",
+    "updated_at": "2022-07-18T11:02:36Z",
+    "clone_url": "https://github.com/gmarcais/Jellyfish.git",
+    "size": 3717,
+    "stargazers_count": 352,
+    "watchers_count": 352,
+    "language": "C++",
+    "open_issues_count": 91,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 30,
+    "owner": {
+      "html_url": "https://github.com/gmarcais",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1108481?v=4",
+      "login": "gmarcais",
+      "type": "User"
+    },
+    "timestamp": "2022-07-20 17:26:11.830490",
+    "avatar": "https://avatars.githubusercontent.com/u/1108481?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"JELLYFISH is a command-line program that reads FASTA and multi-FASTA files containing DNA sequences. It outputs its k-mer counts in a binary format, which can be translated into a human-readable text \"",
+        "\"Jellyfish is a tool for fast, memory-efficient counting of k-mers in DNA... JELLYFISH is a command-line program that reads FASTA and multi-FASTA files containing DNA sequences.\"",
+        "\"If you use Jellyfish in your research, please cite: Guillaume Marcais and Carl Kingsford, A fast, lock-free approach for efficient parallel counting of occurrences of k-mers.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:02:11Z"
+    }
+  }
+}

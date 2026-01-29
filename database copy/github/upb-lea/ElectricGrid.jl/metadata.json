@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/upb-lea/ElectricGrid.jl",
+  "url": "https://github.com/upb-lea/ElectricGrid.jl",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.8297533",
+    "name": "ElectricGrid.jl",
+    "url": "https://github.com/upb-lea/ElectricGrid.jl",
+    "full_name": "upb-lea/ElectricGrid.jl",
+    "html_url": "https://github.com/upb-lea/ElectricGrid.jl",
+    "description": "A time domain electrical energy grid modeling and simulation tool with a focus on the control of power electronics converters",
+    "created_at": "2021-12-10T11:45:03Z",
+    "updated_at": "2023-05-22T18:13:23Z",
+    "clone_url": "https://github.com/upb-lea/ElectricGrid.jl.git",
+    "homepage": "https://upb-lea.github.io/ElectricGrid.jl/dev/",
+    "size": 135578,
+    "stargazers_count": 13,
+    "watchers_count": 13,
+    "language": "Julia",
+    "open_issues_count": 15,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/upb-lea",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55782224?v=4",
+      "login": "upb-lea",
+      "type": "Organization"
+    },
+    "timestamp": "2023-09-03 00:32:53.736303",
+    "avatar": "https://avatars.githubusercontent.com/u/55782224?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "Julia General registry",
+      "evidence": [
+        "README install command: \"Pkg.add(\"ElectricGrid\")\"",
+        "\"ElectricGrid.jl is a library for setting up realistic electric grid simulations with extensive support for control options.\"",
+        "\"Installation using the Julia package manager (recommended if you want to use ElectricGrid in your project): In a Julia terminal run the following: import Pkg; Pkg.add(\"ElectricGrid\")\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:34:55Z"
+    }
+  }
+}

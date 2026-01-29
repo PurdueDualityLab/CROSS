@@ -1,0 +1,64 @@
+{
+  "parser": "github",
+  "uid": "github/lh3/bioawk",
+  "url": "https://github.com/lh3/bioawk",
+  "data": {
+    "title": "bioawk",
+    "url": "https://github.com/lh3/bioawk",
+    "credit": [
+      "Aaron R Quinlan",
+      "Heng Li"
+    ],
+    "tags": [
+      "utilities",
+      "high-throughput-sequencing",
+      "genomics"
+    ],
+    "description": "BWK awk modified for biological data",
+    "name": "bioawk",
+    "full_name": "lh3/bioawk",
+    "html_url": "https://github.com/lh3/bioawk",
+    "created_at": "2012-01-06T03:05:25Z",
+    "updated_at": "2022-07-15T18:57:45Z",
+    "clone_url": "https://github.com/lh3/bioawk.git",
+    "size": 130,
+    "stargazers_count": 515,
+    "watchers_count": 515,
+    "language": "C",
+    "open_issues_count": 21,
+    "subscribers_count": 35,
+    "owner": {
+      "html_url": "https://github.com/lh3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/480346?v=4",
+      "login": "lh3",
+      "type": "User"
+    },
+    "topics": [
+      "bioinformatics",
+      "sequence-analysis"
+    ],
+    "timestamp": "2022-07-18 17:43:32.288783",
+    "avatar": "https://avatars.githubusercontent.com/u/480346?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Bioawk is an extension to Brian Kernighan's awk, adding the support of several common biological data formats\" (a command-line tool users run).",
+        "Examples show direct command-line usage: \"bioawk -c sam 'and($flag,4)' aln.sam.gz\" and other invocations, indicating an end-user application.",
+        "Functionality is domain-specific for bioinformatics data processing (SAM, VCF, BED, GFF, FASTA/Q), directly transforming research data formats."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:53:59Z"
+    }
+  }
+}

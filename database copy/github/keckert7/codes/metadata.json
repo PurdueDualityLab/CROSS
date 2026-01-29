@@ -1,0 +1,52 @@
+{
+  "parser": "github",
+  "uid": "github/keckert7/codes",
+  "url": "https://github.com/keckert7/codes",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2015ApJ...810..166E",
+      "https://ui.adsabs.harvard.edu/abs/2015ApJ...810..166E",
+      "https://ui.adsabs.harvard.edu/abs/2017ascl.soft10024E/abstract"
+    ],
+    "title": "pred_loggs: Predicting individual galaxy G/S probability distributions",
+    "url": "https://github.com/keckert7/codes",
+    "name": "codes",
+    "full_name": "keckert7/codes",
+    "html_url": "https://github.com/keckert7/codes",
+    "created_at": "2015-07-28T20:31:49Z",
+    "updated_at": "2015-07-28T20:37:22Z",
+    "clone_url": "https://github.com/keckert7/codes.git",
+    "size": 164,
+    "language": "IDL",
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/keckert7",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10523969?v=4",
+      "login": "keckert7",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:19:46.078186",
+    "avatar": "https://avatars.githubusercontent.com/u/10523969?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"IDL code to produce probability density field model calibrations presented in http://adsabs.harvard.edu/abs/2015ApJ...810..166E\" (standalone scripts performing a scientific task)",
+        "\"Python code to produce probability density field model calibrations presented in http://adsabs.harvard.edu/abs/2015ApJ...810..166E\" (used directly to generate research-relevant calibrations)",
+        "Repository consists of a few .pro and .py code files with no mention of packaging or registries, implying use via cloning/downloading source."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:43:23Z"
+    }
+  }
+}

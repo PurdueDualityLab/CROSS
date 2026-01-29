@@ -1,0 +1,57 @@
+{
+  "parser": "github",
+  "uid": "github/hippylib/soupy",
+  "url": "https://github.com/hippylib/soupy",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.12997883",
+    "name": "soupy",
+    "url": "https://github.com/hippylib/soupy",
+    "full_name": "hippylib/soupy",
+    "html_url": "https://github.com/hippylib/soupy",
+    "description": "Stochastic Optimization under Uncertainty in Python.",
+    "created_at": "2023-02-08T00:16:53Z",
+    "updated_at": "2024-08-01T08:25:25Z",
+    "clone_url": "https://github.com/hippylib/soupy.git",
+    "size": 1772,
+    "stargazers_count": 33,
+    "watchers_count": 33,
+    "language": "Jupyter Notebook",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/hippylib",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16692537?v=4",
+      "login": "hippylib",
+      "type": "Organization"
+    },
+    "timestamp": "2024-08-04 00:40:32.933860",
+    "avatar": "https://avatars.githubusercontent.com/u/16692537?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "“SOUPy, implements scalable algorithms for the optimization of large-scale complex systems governed by partial differential equations (PDEs) under high-dimensional uncertainty.”",
+        "“The library also provides built-in parallel implementations of optimization algorithms (e.g. BFGS, Inexact Newton CG), as well as an interface to the `scipy.optimize` module in SciPy.”",
+        "Badges and links indicate GitHub-based development and documentation, but no mention of package managers or binaries; usage is via the Python library sourced from the repo."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:20:32Z"
+    }
+  }
+}

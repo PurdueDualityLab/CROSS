@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/ncbi/sra-tools",
+  "url": "https://github.com/ncbi/sra-tools",
+  "data": {
+    "url": "https://github.com/ncbi/sra-tools",
+    "title": "Sra-toolkit",
+    "description": "SRA Tools",
+    "doi": "http://nar.oxfordjournals.org/content/38/suppl_1/D39",
+    "name": "sra-tools",
+    "full_name": "ncbi/sra-tools",
+    "html_url": "https://github.com/ncbi/sra-tools",
+    "created_at": "2014-08-21T21:25:38Z",
+    "updated_at": "2022-07-19T19:37:02Z",
+    "clone_url": "https://github.com/ncbi/sra-tools.git",
+    "size": 105313,
+    "stargazers_count": 715,
+    "watchers_count": 715,
+    "language": "C",
+    "open_issues_count": 62,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 55,
+    "owner": {
+      "html_url": "https://github.com/ncbi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3812119?v=4",
+      "login": "ncbi",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-20 17:27:29.358685",
+    "avatar": "https://avatars.githubusercontent.com/u/3812119?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"### Download\"",
+        "\"National Center for Biotechnology Information\" and \"National Library of Medicine and the U.S. Government\" indicate a U.S. government research institution is responsible.",
+        "\"The SRA Toolkit and SDK from NCBI is a collection of tools and libraries for using data in the INSDC Sequence Read Archives.\" (end-user tools for working with sequence read data)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:34:28Z"
+    }
+  }
+}

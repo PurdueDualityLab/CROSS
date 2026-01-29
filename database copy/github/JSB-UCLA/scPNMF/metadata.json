@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/JSB-UCLA/scPNMF",
+  "url": "https://github.com/JSB-UCLA/scPNMF",
+  "data": {
+    "timestamp": "2021-11-21 00:36:19.285752",
+    "name": "scPNMF",
+    "url": "https://api.github.com/repos/JSB-UCLA/scPNMF",
+    "full_name": "JSB-UCLA/scPNMF",
+    "html_url": "https://github.com/JSB-UCLA/scPNMF",
+    "private": false,
+    "description": null,
+    "created_at": "2021-02-01T05:27:53Z",
+    "updated_at": "2021-10-29T06:37:57Z",
+    "clone_url": "https://github.com/JSB-UCLA/scPNMF.git",
+    "homepage": null,
+    "size": 22286,
+    "stargazers_count": 6,
+    "watchers_count": 6,
+    "language": "HTML",
+    "open_issues_count": 1,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/JSB-UCLA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/70451103?v=4",
+      "login": "JSB-UCLA",
+      "type": "User"
+    },
+    "topics": []
+  },
+  "doi": "10.1093/BIOINFORMATICS/BTAB273",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"devtools\")\"",
+        "“scPNMF is a method to facilitate gene selection for targeted gene profiling by learning a sparse gene encoding of single cells.”",
+        "“scPNMF can be installed from Github with the following code in R: install_github(\"JSB-UCLA/scPNMF\")”"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T18:03:39Z"
+    }
+  }
+}

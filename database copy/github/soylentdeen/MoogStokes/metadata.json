@@ -1,0 +1,56 @@
+{
+  "parser": "github",
+  "uid": "github/soylentdeen/MoogStokes",
+  "url": "https://github.com/soylentdeen/MoogStokes",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2013AJ....146...51D",
+      "https://ui.adsabs.harvard.edu/abs/2013ascl.soft08018D/abstract"
+    ],
+    "title": "MoogStokes: Zeeman polarized radiative transfer",
+    "url": "https://github.com/soylentdeen/MoogStokes",
+    "name": "MoogStokes",
+    "full_name": "soylentdeen/MoogStokes",
+    "html_url": "https://github.com/soylentdeen/MoogStokes",
+    "description": "Artisanal Zeeman Radiative Transfer",
+    "created_at": "2011-12-17T15:51:11Z",
+    "updated_at": "2021-09-03T15:54:52Z",
+    "clone_url": "https://github.com/soylentdeen/MoogStokes.git",
+    "homepage": "www.mpia.de/~deen/Software/MoogStokes/MoogStokes.html",
+    "size": 17384,
+    "stargazers_count": 7,
+    "watchers_count": 7,
+    "language": "FORTRAN",
+    "open_issues_count": 1,
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/soylentdeen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/210195?v=4",
+      "login": "soylentdeen",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:24:10.194946",
+    "avatar": "https://avatars.githubusercontent.com/u/210195?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"installer adapted from Andy Casey's MOOG installer.  The python installer can\"",
+        "\"Thank you for downloading the MOOGStokes extention to the MOOG spectral synthesis program.  This tarball is a fully-functional version of MOOG\" (end-user spectral synthesis program).",
+        "\"Installation Instructions: 1) untar the MOOGStokes.tar.gz in a suitable directory ... 4) compile MoogStokes\" (built and run directly from source tarball/repo)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T03:44:00Z"
+    }
+  }
+}

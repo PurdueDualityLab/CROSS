@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/KeplerGO/kadenza",
+  "url": "https://github.com/KeplerGO/kadenza",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2018AJ....155...57C",
+      "https://ui.adsabs.harvard.edu/abs/2018ascl.soft03005B/abstract"
+    ],
+    "title": "Kadenza: Kepler/K2 Raw Cadence Data Reader",
+    "url": "https://github.com/KeplerGO/kadenza",
+    "name": "kadenza",
+    "full_name": "KeplerGO/kadenza",
+    "html_url": "https://github.com/KeplerGO/kadenza",
+    "description": "Converts raw cadence target data from the Kepler space telescope into astronomer-friendly FITS files.",
+    "created_at": "2015-09-27T02:01:50Z",
+    "updated_at": "2021-09-07T21:13:21Z",
+    "clone_url": "https://github.com/KeplerGO/kadenza.git",
+    "size": 567,
+    "stargazers_count": 12,
+    "watchers_count": 12,
+    "language": "Python",
+    "open_issues_count": 2,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 8,
+    "owner": {
+      "html_url": "https://github.com/KeplerGO",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13040606?v=4",
+      "login": "KeplerGO",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-17 17:19:10.843602",
+    "avatar": "https://avatars.githubusercontent.com/u/13040606?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"you can download and install the latest version as follows:\"",
+        "\"Kadenza enables time-critical data analyses to be carried out using NASA's Kepler Space Telescope by enabling users to convert the 'level 0' raw data files into user-friendly Target Pixel Files.\"",
+        "\"Kadenza can be used both as a command-line tool or using its Python API.\" and the commands `kadenza-ffi` and `kadenza-tpf` show it is an end-user analysis tool, not just a library dependency."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T18:11:55Z"
+    }
+  }
+}

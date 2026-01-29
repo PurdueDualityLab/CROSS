@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/jmackereth/orbit-estimation",
+  "url": "https://github.com/jmackereth/orbit-estimation",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2018PASP..130k4501M",
+      "https://ui.adsabs.harvard.edu/abs/2018ascl.soft04009M/abstract"
+    ],
+    "title": "orbit-estimation: Fast orbital parameters estimator",
+    "url": "https://github.com/jmackereth/orbit-estimation",
+    "name": "orbit-estimation",
+    "full_name": "jmackereth/orbit-estimation",
+    "html_url": "https://github.com/jmackereth/orbit-estimation",
+    "description": "calculating fast orbital parameters using the Stäckel approximation",
+    "created_at": "2017-11-28T10:34:53Z",
+    "updated_at": "2021-04-13T14:52:13Z",
+    "clone_url": "https://github.com/jmackereth/orbit-estimation.git",
+    "size": 24216,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "Jupyter Notebook",
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/jmackereth",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10188688?v=4",
+      "login": "jmackereth",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:19:01.638700",
+    "avatar": "https://avatars.githubusercontent.com/u/10188688?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"[**dierickx_eccentricities.py**](https://github.com/jmackereth/orbit-estimation/blob/master/py/dierickx_eccentricities.py) - code that estimates and plots the eccentricity distribution as measured by \"",
+        "\"Code for testing and evaluating the Stäckel approximation method for estimating orbit parameters in galactic potentials\"",
+        "\"This repo includes all the code to generate the plots and tests in the paper, as well as some extra explorations into the method and its application to observational data.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:35:08Z"
+    }
+  }
+}

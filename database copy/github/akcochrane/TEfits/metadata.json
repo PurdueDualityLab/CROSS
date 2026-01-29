@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/akcochrane/TEfits",
+  "url": "https://github.com/akcochrane/TEfits",
+  "data": {
+    "timestamp": "2020-08-23 00:20:06.675544",
+    "name": "TEfits",
+    "url": "https://api.github.com/repos/akcochrane/TEfits",
+    "full_name": "akcochrane/TEfits",
+    "html_url": "https://github.com/akcochrane/TEfits",
+    "private": false,
+    "description": "R package for streamlined nonlinear regression",
+    "created_at": "2019-12-04T22:22:41Z",
+    "updated_at": "2020-08-19T19:31:52Z",
+    "clone_url": "https://github.com/akcochrane/TEfits.git",
+    "homepage": null,
+    "size": 863,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": "R",
+    "open_issues_count": 0,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/akcochrane",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/56330575?v=4",
+      "login": "akcochrane",
+      "type": "User"
+    }
+  },
+  "doi": "https://doi.org/10.5281/zenodo.3992314",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Vendor or commercial entity",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"wish to run these tests locally, it’s recommended to download/clone the\"",
+        "\"The **TEfits** package serves to allow the same questions to be asked about time-evolving aspects of these indices\" (R package intended to be used from R code, i.e., as a library).",
+        "\"library(TEfits)\" and subsequent examples show it being loaded and its functions (TEfit, TEbrm, etc.) called from user scripts, indicating a dependency-style package used for analyses."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T21:03:43Z"
+    }
+  }
+}

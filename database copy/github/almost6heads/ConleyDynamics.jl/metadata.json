@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/almost6heads/ConleyDynamics.jl",
+  "url": "https://github.com/almost6heads/ConleyDynamics.jl",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.15830735",
+    "name": "ConleyDynamics.jl",
+    "url": "https://github.com/almost6heads/ConleyDynamics.jl",
+    "full_name": "almost6heads/ConleyDynamics.jl",
+    "html_url": "https://github.com/almost6heads/ConleyDynamics.jl",
+    "description": "Conley index and multivector fields for Julia",
+    "created_at": "2023-12-09T17:15:53Z",
+    "updated_at": "2025-07-28T15:49:57Z",
+    "clone_url": "https://github.com/almost6heads/ConleyDynamics.jl.git",
+    "homepage": "https://almost6heads.github.io/ConleyDynamics.jl/",
+    "size": 112113,
+    "stargazers_count": 7,
+    "watchers_count": 7,
+    "language": "Julia",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/almost6heads",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19210090?v=4",
+      "login": "almost6heads",
+      "type": "User"
+    },
+    "timestamp": "2025-08-10 00:59:53.767775",
+    "avatar": "https://avatars.githubusercontent.com/u/19210090?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"You can also download the BibTeX template\"",
+        "\"ConleyDynamics.jl is a Julia package for studying combinatorial multivector fields using Conley theory.\"",
+        "\"ConleyDynamics.jl: A Julia package for multivector dynamics on Lefschetz complexes\" (indicates a domain-specific analysis tool used in research)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T21:06:07Z"
+    }
+  }
+}

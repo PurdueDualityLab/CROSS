@@ -1,0 +1,68 @@
+{
+  "parser": "github",
+  "uid": "github/markmbaum/GEOCLIM.jl",
+  "url": "https://github.com/markmbaum/GEOCLIM.jl",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2022GeoRL..4998843B",
+      "https://ui.adsabs.harvard.edu/abs/2025ascl.soft03014B/abstract"
+    ],
+    "title": "GEOCLIM.jl: Global silicate weathering estimation",
+    "url": "https://github.com/markmbaum/GEOCLIM.jl",
+    "name": "GEOCLIM.jl",
+    "full_name": "markmbaum/GEOCLIM.jl",
+    "html_url": "https://github.com/markmbaum/GEOCLIM.jl",
+    "description": "Estimation of global silicate weathering for paleoclimate and exoplanet climate applications",
+    "created_at": "2021-10-20T20:45:44Z",
+    "updated_at": "2024-11-05T11:22:24Z",
+    "clone_url": "https://github.com/markmbaum/GEOCLIM.jl.git",
+    "size": 2970,
+    "stargazers_count": 5,
+    "watchers_count": 5,
+    "language": "Julia",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/markmbaum",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18745581?v=4",
+      "login": "markmbaum",
+      "type": "User"
+    },
+    "topics": [
+      "climate",
+      "weathering",
+      "paleoclimate",
+      "julia",
+      "exoplanets"
+    ],
+    "timestamp": "2025-03-23 00:50:10.583942",
+    "avatar": "https://avatars.githubusercontent.com/u/18745581?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "Julia package manager (unregistered, added via Git URL)",
+      "evidence": [
+        "\"This module replicates some features of the GEOCLIM model, originally written in Fortran, but now in Julia to make them easier to use.\"",
+        "\"The module implements these formulations to estimate global silicate weathering rates from gridded climatology, typically taken from the results of a global climate model\"",
+        "\"If you want to easily install, add it with the package manager using the url. `julia> ] add https://github.com/markmbaum/GEOCLIM.jl`\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T01:12:22Z"
+    }
+  }
+}

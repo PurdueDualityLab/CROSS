@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/Climdyn/auto-AUTO",
+  "url": "https://github.com/Climdyn/auto-AUTO",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.17182449",
+    "name": "auto-AUTO",
+    "url": "https://github.com/Climdyn/auto-AUTO",
+    "full_name": "Climdyn/auto-AUTO",
+    "html_url": "https://github.com/Climdyn/auto-AUTO",
+    "description": "An AUTO-07p automatic search algorithm codebase",
+    "created_at": "2024-06-17T08:45:15Z",
+    "updated_at": "2025-08-25T08:46:22Z",
+    "clone_url": "https://github.com/Climdyn/auto-AUTO.git",
+    "size": 6676,
+    "stargazers_count": 4,
+    "watchers_count": 4,
+    "language": "Python",
+    "open_issues_count": 5,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/Climdyn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17494336?v=4",
+      "login": "Climdyn",
+      "type": "Organization"
+    },
+    "timestamp": "2025-09-28 00:57:16.913478",
+    "avatar": "https://avatars.githubusercontent.com/u/17494336?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install auto-AUTO\"",
+        "\"AUTO² or auto-AUTO is an AUTO automatic search algorithm codebase to enhance the original AUTO-07p Python interface with a top layer which allows users to: * automate the continuation of as many branches as possible... * plot results... * perform these computations in Jupyter notebooks\"",
+        "\"If you use this software, please cite our article in the Journal of Open Source Software: * Demaeyer, J., and Hamilton, O. (2025). auto-AUTO: A Python Layer for Automatically Running the AUTO-07p Continuation Software.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T16:54:04Z"
+    }
+  }
+}

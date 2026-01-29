@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/darrenjw/jax-smfsb",
+  "url": "https://github.com/darrenjw/jax-smfsb",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.14803573",
+    "name": "jax-smfsb",
+    "url": "https://github.com/darrenjw/jax-smfsb",
+    "full_name": "darrenjw/jax-smfsb",
+    "html_url": "https://github.com/darrenjw/jax-smfsb",
+    "description": "SMfSB code in JAX",
+    "created_at": "2024-03-28T18:31:16Z",
+    "updated_at": "2025-02-15T23:06:45Z",
+    "clone_url": "https://github.com/darrenjw/jax-smfsb.git",
+    "size": 708,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Python",
+    "open_issues_count": 1,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/darrenjw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1235734?v=4",
+      "login": "darrenjw",
+      "type": "User"
+    },
+    "timestamp": "2025-02-16 00:47:17.712369",
+    "avatar": "https://avatars.githubusercontent.com/u/1235734?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install jsmfsb\"",
+        "\"Python code relating to the book Stochastic Modelling for Systems Biology, third edition.\" and copyright line \"Copyright (C) 2024-2025 Darren J Wilkinson\" indicate an individual author/maintainer.",
+        "\"*This* package covers all of the *core simulation and inference algorithms* from the book, including the parsing of SBML and SBML-shorthand models.\" and usage via `import jsmfsb` indicate it is a library dependency rather than a standalone end-user app."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:26:43Z"
+    }
+  }
+}

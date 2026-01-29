@@ -1,0 +1,71 @@
+{
+  "parser": "github",
+  "uid": "github/philippbaumeister/ExoMDN",
+  "url": "https://github.com/philippbaumeister/ExoMDN",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2025arXiv250302451D",
+      "https://ui.adsabs.harvard.edu/abs/2023A%26A...676A.106B",
+      "https://ui.adsabs.harvard.edu/abs/2025ascl.soft03013B/abstract"
+    ],
+    "title": "ExoMDN: Rapid characterization of exoplanet interiors with Mixture Density Networks",
+    "url": "https://github.com/philippbaumeister/ExoMDN",
+    "name": "ExoMDN",
+    "full_name": "philippbaumeister/ExoMDN",
+    "html_url": "https://github.com/philippbaumeister/ExoMDN",
+    "description": "Rapid characterization of exoplanet interiors with Mixture Density Networks",
+    "created_at": "2022-10-21T14:55:19Z",
+    "updated_at": "2025-03-12T09:13:24Z",
+    "clone_url": "https://github.com/philippbaumeister/ExoMDN.git",
+    "size": 18078,
+    "stargazers_count": 8,
+    "watchers_count": 8,
+    "language": "Jupyter Notebook",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/philippbaumeister",
+      "avatar_url": "https://avatars.githubusercontent.com/u/48733466?v=4",
+      "login": "philippbaumeister",
+      "type": "User"
+    },
+    "topics": [
+      "deep-learning",
+      "exoplanet-classification",
+      "exoplanets",
+      "machine-learning",
+      "mixture-density-networks",
+      "planetary-science",
+      "python"
+    ],
+    "timestamp": "2025-03-23 00:50:10.808721",
+    "avatar": "https://avatars.githubusercontent.com/u/48733466?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install -e .\"",
+        "\"ExoMDN is a machine-learning-based exoplanet interior inference model... Given mass, radius, and equilibrium temperature, ExoMDN is capable of providing a full inference of the interior structure of low-mass exoplanets\"",
+        "\"This repository contains the trained models shown [Baumeister & Tosi 2023] ... as well as Python notebooks to load the models and run interior predictions of exoplanets. Interactive widgets are included to simplify loading an MDN model and running a prediction.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:51:09Z"
+    }
+  }
+}

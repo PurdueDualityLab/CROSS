@@ -1,0 +1,67 @@
+{
+  "parser": "github",
+  "uid": "github/pmelchior/pyGMMis",
+  "url": "https://github.com/pmelchior/pygmmis",
+  "data": {
+    "doi": [
+      "http://adsabs.harvard.edu/abs/2018MNRAS.477.2874A",
+      "http://adsabs.harvard.edu/abs/2016arXiv161105806M",
+      "https://ui.adsabs.harvard.edu/abs/2016ascl.soft11013M/abstract"
+    ],
+    "title": "pyGMMis: Mixtures-of-Gaussians density estimation method",
+    "url": "https://github.com/pmelchior/pygmmis",
+    "name": "pygmmis",
+    "full_name": "pmelchior/pygmmis",
+    "html_url": "https://github.com/pmelchior/pygmmis",
+    "description": "Gaussian mixture model for incomplete (missing or truncated) and noisy data",
+    "created_at": "2015-12-05T23:37:24Z",
+    "updated_at": "2022-05-09T16:54:15Z",
+    "clone_url": "https://github.com/pmelchior/pygmmis.git",
+    "size": 997,
+    "stargazers_count": 83,
+    "watchers_count": 83,
+    "language": "Python",
+    "open_issues_count": 5,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 6,
+    "owner": {
+      "html_url": "https://github.com/pmelchior",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1463403?v=4",
+      "login": "pmelchior",
+      "type": "User"
+    },
+    "topics": [
+      "data-analysis",
+      "gmm"
+    ],
+    "timestamp": "2022-07-17 17:21:00.520912",
+    "avatar": "https://avatars.githubusercontent.com/u/1463403?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install pygmmis\"",
+        "Example usage shows it being imported as a library: `import pygmmis` and `gmm = pygmmis.GMM(K=K, D=D)`",
+        "Described as a Gaussian-mixture code that performs density estimation and modeling: \"Need a simple and powerful Gaussian-mixture code in pure python?\" and \"capable of performing density estimation with millions of samples\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:53:53Z"
+    }
+  }
+}

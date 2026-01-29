@@ -1,0 +1,65 @@
+{
+  "parser": "github",
+  "uid": "github/dazhwu/pydynpd",
+  "url": "https://github.com/dazhwu/pydynpd",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.6350362",
+    "name": "pydynpd",
+    "url": "https://github.com/dazhwu/pydynpd",
+    "full_name": "dazhwu/pydynpd",
+    "html_url": "https://github.com/dazhwu/pydynpd",
+    "description": "This python package estimates dynamic panel data model using difference GMM and system GMM.",
+    "created_at": "2022-03-04T14:05:42Z",
+    "updated_at": "2023-02-27T08:46:05Z",
+    "clone_url": "https://github.com/dazhwu/pydynpd.git",
+    "size": 15929,
+    "stargazers_count": 7,
+    "watchers_count": 7,
+    "language": "Jupyter Notebook",
+    "open_issues_count": 1,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "owner": {
+      "html_url": "https://github.com/dazhwu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63244649?v=4",
+      "login": "dazhwu",
+      "type": "User"
+    },
+    "topics": [
+      "arellano-bond",
+      "dynamic-panel-data",
+      "system-gmm",
+      "dynamic",
+      "panel",
+      "data"
+    ],
+    "timestamp": "2023-03-12 00:38:50.378444",
+    "avatar": "https://avatars.githubusercontent.com/u/63244649?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Vendor or commercial entity",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install pydynpd\"",
+        "\"pydynpd is the first python package to implement Difference and System GMM ... to estimate dynamic panel data models.\"",
+        "Usage example shows it imported as a library: \"from  pydynpd import regression\" and then used in code, indicating it is a dependency package."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:28:52Z"
+    }
+  }
+}

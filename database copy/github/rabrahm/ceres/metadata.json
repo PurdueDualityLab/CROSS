@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/rabrahm/ceres",
+  "url": "https://github.com/rabrahm/ceres",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2017PASP..129c4002B",
+      "https://ui.adsabs.harvard.edu/abs/2016ascl.soft10002B/abstract"
+    ],
+    "title": "CERES: Collection of Extraction Routines for Echelle Spectra",
+    "url": "https://github.com/rabrahm/ceres",
+    "name": "ceres",
+    "full_name": "rabrahm/ceres",
+    "html_url": "https://github.com/rabrahm/ceres",
+    "description": "A set of pipelines and routines for echelle spectrographs",
+    "created_at": "2016-09-04T23:30:04Z",
+    "updated_at": "2022-02-16T20:25:49Z",
+    "clone_url": "https://github.com/rabrahm/ceres.git",
+    "size": 25186,
+    "stargazers_count": 31,
+    "watchers_count": 31,
+    "language": "C",
+    "open_issues_count": 19,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 11,
+    "owner": {
+      "html_url": "https://github.com/rabrahm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16330156?v=4",
+      "login": "rabrahm",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:21:13.259141",
+    "avatar": "https://avatars.githubusercontent.com/u/16330156?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"8-  velocity width in km/s that is used to broaden the lines of the binary mask.\"",
+        "\"A set of pipelines and routines for echelle spectrographs.\"",
+        "\"The principal goal of CERES is the developement of fully automated pipelines for the reduction, extraction and analysis of echelle spectrograph data.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T02:02:38Z"
+    }
+  }
+}

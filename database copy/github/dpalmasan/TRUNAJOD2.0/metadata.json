@@ -1,0 +1,75 @@
+{
+  "parser": "github",
+  "uid": "github/dpalmasan/TRUNAJOD2.0",
+  "url": "https://github.com/dpalmasan/TRUNAJOD2.0",
+  "data": {
+    "timestamp": "2021-04-25 00:43:38.103466",
+    "name": "TRUNAJOD2.0",
+    "url": "https://api.github.com/repos/dpalmasan/TRUNAJOD2.0",
+    "full_name": "dpalmasan/TRUNAJOD2.0",
+    "html_url": "https://github.com/dpalmasan/TRUNAJOD2.0",
+    "private": false,
+    "description": "An easy-to-use library to extract indices from texts.",
+    "created_at": "2018-08-16T00:12:17Z",
+    "updated_at": "2021-04-24T01:22:14Z",
+    "clone_url": "https://github.com/dpalmasan/TRUNAJOD2.0.git",
+    "homepage": "https://trunajod20.readthedocs.io/en/latest/",
+    "size": 23477,
+    "stargazers_count": 10,
+    "watchers_count": 10,
+    "language": "Python",
+    "open_issues_count": 17,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/dpalmasan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8723534?v=4",
+      "login": "dpalmasan",
+      "type": "User"
+    },
+    "topics": [
+      "semantic-measurements",
+      "coherence",
+      "text-analysis",
+      "natural-language-processing",
+      "readability-metrics",
+      "text-processing",
+      "ttr",
+      "spacy",
+      "text-mining",
+      "spacy-extensions",
+      "cohesion",
+      "entity-graph",
+      "lexical-diversity",
+      "type-token-ratio"
+    ]
+  },
+  "doi": "https://doi.org/10.5281/zenodo.4707403",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"`TRUNAJOD` lib was used to make `TRUNAJOD` web app, which is an application to assess text complexity and to check the adquacy of a text to a particular school level. To achieve this, several `TRUNAJO\"",
+        "“TRUNAJOD is a Python library for text complexity analysis built on the high-performance spaCy library.”",
+        "Example usage imports it as a module: `from TRUNAJOD import surface_proxies` and other submodules, indicating it is used as a library dependency."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:36:23Z"
+    }
+  }
+}

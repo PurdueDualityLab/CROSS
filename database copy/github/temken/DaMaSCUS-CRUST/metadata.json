@@ -1,0 +1,70 @@
+{
+  "parser": "github",
+  "uid": "github/temken/DaMaSCUS-CRUST",
+  "url": "https://github.com/temken/DaMaSCUS-CRUST",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2018PhRvD..97k5047E",
+      "https://ui.adsabs.harvard.edu/abs/2018ascl.soft03001E/abstract"
+    ],
+    "title": "DaMaSCUS-CRUST: Dark Matter Simulation Code for Underground Scatterings - Crust Edition",
+    "url": "https://github.com/temken/DaMaSCUS-CRUST",
+    "name": "DaMaSCUS-CRUST",
+    "full_name": "temken/DaMaSCUS-CRUST",
+    "html_url": "https://github.com/temken/DaMaSCUS-CRUST",
+    "description": "Dark Matter Simulation Code for Underground Scatterings - Crust Edition",
+    "created_at": "2018-02-13T17:34:39Z",
+    "updated_at": "2020-10-19T11:13:30Z",
+    "clone_url": "https://github.com/temken/DaMaSCUS-CRUST.git",
+    "size": 3897,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "C++",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/temken",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29034913?v=4",
+      "login": "temken",
+      "type": "User"
+    },
+    "topics": [
+      "dark-matter",
+      "montecarlo-simulation",
+      "simulation",
+      "physics-simulation",
+      "particle-physics",
+      "trajectory-simulator",
+      "astroparticle-physics"
+    ],
+    "timestamp": "2022-07-17 17:19:13.477516",
+    "avatar": "https://avatars.githubusercontent.com/u/29034913?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Vendor or commercial entity",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"DaMaSCUS-CRUST is a MC simulator of dark matter (DM) particle trajectories through the Earth crust, atmosphere and/or additional shielding layers undergoing elastic scatterings on nuclei.\"",
+        "\"mpirun -n N DaMaSCUS-CRUST config.cfg\" (shows it is run as an end-user executable application rather than imported as a library).",
+        "\"The included folders are: - *bin/*: This folder contains the configuration files and the executables after compilation.\" (indicates users compile and run from the source repository)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T04:02:12Z"
+    }
+  }
+}

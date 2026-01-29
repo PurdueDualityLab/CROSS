@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/NRDD-constraints/NRDD",
+  "url": "https://github.com/NRDD-constraints/NRDD",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2020APh...114...80K",
+      "https://ui.adsabs.harvard.edu/abs/2021ascl.soft08012K/abstract"
+    ],
+    "title": "NRDD_constraints: Dark Matter interaction with the Standard Model exclusion plot calculator",
+    "url": "https://github.com/NRDD-constraints/NRDD",
+    "name": "NRDD",
+    "full_name": "NRDD-constraints/NRDD",
+    "html_url": "https://github.com/NRDD-constraints/NRDD",
+    "description": "A python tool for calculating the exclusion plot for Dark Matter interaction with the Standard Model in non-relativistic Effective Theory Models. ",
+    "created_at": "2018-09-21T04:34:18Z",
+    "updated_at": "2019-07-11T02:51:59Z",
+    "clone_url": "https://github.com/NRDD-constraints/NRDD.git",
+    "size": 26828,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/NRDD-constraints",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43461532?v=4",
+      "login": "NRDD-constraints",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:11:12.658253",
+    "avatar": "https://avatars.githubusercontent.com/u/43461532?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"The NRDD_constraints tool provides simple interpolating functions written in python that return the most constraining limit on the dark matter-nucleon scattering cross section\"",
+        "\"Import the package: `import NRDD_constraints as NR`\" (indicates it is used as an importable library/dependency)",
+        "\"The tool can be downloaded from https://github.com/NRDD-constraints/NRDD/archive/master.zip or cloned by, `git clone https://github.com/NRDD-constraints/NRDD`\" (distribution via source repository)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T19:38:09Z"
+    }
+  }
+}

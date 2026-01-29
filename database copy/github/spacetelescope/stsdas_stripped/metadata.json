@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/spacetelescope/stsdas_stripped",
+  "url": "https://github.com/spacetelescope/stsdas_stripped",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/1994ASPC...61..339B",
+      "https://ui.adsabs.harvard.edu/abs/2012ascl.soft06003S/abstract"
+    ],
+    "title": "STSDAS: IRAF Tools for Hubble Space Telescope data reduction",
+    "url": "https://github.com/spacetelescope/stsdas_stripped",
+    "name": "stsdas_stripped",
+    "full_name": "spacetelescope/stsdas_stripped",
+    "html_url": "https://github.com/spacetelescope/stsdas_stripped",
+    "description": "STSDAS/TABLES (nonfunctional / for reference only)",
+    "created_at": "2019-09-05T13:18:44Z",
+    "updated_at": "2020-12-20T10:06:48Z",
+    "clone_url": "https://github.com/spacetelescope/stsdas_stripped.git",
+    "size": 34611,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Logos",
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/spacetelescope",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2751928?v=4",
+      "login": "spacetelescope",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-17 17:24:37.311695",
+    "avatar": "https://avatars.githubusercontent.com/u/2751928?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"STSDAS/TABLES Version 3.18.3, STECF Version\" (STSDAS is the Space Telescope Science Data Analysis System, historically used for scientific data analysis).",
+        "\"This source code is nonfunctional and for reference only.\" (indicates it is an application codebase, albeit redacted).",
+        "\"This software cannot be compiled or installed due to the heavy redaction of copyrighted material.\" (implies distribution is as source code only, from the repository)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T03:44:52Z"
+    }
+  }
+}

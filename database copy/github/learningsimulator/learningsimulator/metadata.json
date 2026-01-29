@@ -1,0 +1,68 @@
+{
+  "parser": "github",
+  "uid": "github/learningsimulator/learningsimulator",
+  "url": "https://github.com/learningsimulator/learningsimulator",
+  "data": {
+    "timestamp": "2021-02-28 00:24:06.140045",
+    "name": "learningsimulator",
+    "url": "https://api.github.com/repos/learningsimulator/learningsimulator",
+    "full_name": "learningsimulator/learningsimulator",
+    "html_url": "https://github.com/learningsimulator/learningsimulator",
+    "private": false,
+    "description": "Learning Simulator: A simulation software for animal and human learning",
+    "created_at": "2020-11-25T10:15:25Z",
+    "updated_at": "2021-02-27T14:56:42Z",
+    "clone_url": "https://github.com/learningsimulator/learningsimulator.git",
+    "homepage": "https://www.learningsimulator.org",
+    "size": 61231,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "Python",
+    "open_issues_count": 5,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/learningsimulator",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61417129?v=4",
+      "login": "learningsimulator",
+      "type": "User"
+    },
+    "topics": [
+      "associative-learning",
+      "reinforcement-learning",
+      "behavior",
+      "simulation",
+      "mathematical-modelling",
+      "gui",
+      "python"
+    ]
+  },
+  "doi": "https://doi.org/10.5281/zenodo.4544535",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Learning Simulator is a software for simulating learning in animals and humans\"",
+        "\"The simulation script ... is the only input to Learning Simulator, facilitating reproducible workflows. The script also specifies how to visualize the simulation data\"",
+        "Badges and links (GitHub workflows, Read the Docs) and description indicate use via the GitHub repository and documentation, with no mention of package managers or binaries."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:52:31Z"
+    }
+  }
+}

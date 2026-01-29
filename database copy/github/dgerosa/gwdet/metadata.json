@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/dgerosa/gwdet",
+  "url": "https://github.com/dgerosa/gwdet",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2018PhRvD..98h4036G",
+      "https://ui.adsabs.harvard.edu/abs/2022ascl.soft07032G/abstract"
+    ],
+    "title": "gwdet: Detectability of gravitational-wave signals from compact binary coalescences",
+    "url": "https://github.com/dgerosa/gwdet",
+    "name": "gwdet",
+    "full_name": "dgerosa/gwdet",
+    "html_url": "https://github.com/dgerosa/gwdet",
+    "description": "Detectability of gravitational-wave signals from compact binary coalescences",
+    "created_at": "2017-09-12T16:28:19Z",
+    "updated_at": "2022-01-07T01:55:46Z",
+    "clone_url": "https://github.com/dgerosa/gwdet.git",
+    "homepage": "https://davidegerosa.com/gwdet/",
+    "size": 49736,
+    "stargazers_count": 9,
+    "watchers_count": 9,
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/dgerosa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7237041?v=4",
+      "login": "dgerosa",
+      "type": "User"
+    },
+    "timestamp": "2022-08-07 00:44:14.886800",
+    "avatar": "https://avatars.githubusercontent.com/u/7237041?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install gwdet\"",
+        "\"This is a short python module to compute the probability of detecting a gravitational-wave signal from compact binaries averaging over sky-location and source inclination.\"",
+        "\"You can install this module using pip\\n\\n    pip install gwdet\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:32:45Z"
+    }
+  }
+}

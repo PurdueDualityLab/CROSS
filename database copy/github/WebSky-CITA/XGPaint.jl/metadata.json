@@ -1,0 +1,67 @@
+{
+  "parser": "github",
+  "uid": "github/WebSky-CITA/XGPaint.jl",
+  "url": "https://github.com/WebSky-CITA/XGPaint.jl",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2024arXiv240904535L",
+      "https://ui.adsabs.harvard.edu/abs/2025ascl.soft03033L/abstract"
+    ],
+    "title": "XGPaint: Fast extragalactic foreground mocks",
+    "url": "https://github.com/WebSky-CITA/XGPaint.jl",
+    "name": "XGPaint.jl",
+    "full_name": "WebSky-CITA/XGPaint.jl",
+    "html_url": "https://github.com/WebSky-CITA/XGPaint.jl",
+    "description": "fast forward simulations of extragalactic foregrounds",
+    "created_at": "2019-10-14T23:08:35Z",
+    "updated_at": "2025-03-29T21:46:47Z",
+    "clone_url": "https://github.com/WebSky-CITA/XGPaint.jl.git",
+    "homepage": "https://websky-cita.github.io/XGPaint.jl/dev/",
+    "size": 167872,
+    "stargazers_count": 5,
+    "watchers_count": 5,
+    "language": "Julia",
+    "open_issues_count": 12,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/WebSky-CITA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/128504594?v=4",
+      "login": "WebSky-CITA",
+      "type": "Organization"
+    },
+    "topics": [
+      "cosmology",
+      "julia"
+    ],
+    "timestamp": "2025-04-06 00:51:08.001459",
+    "avatar": "https://avatars.githubusercontent.com/u/128504594?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "Repository owner is the organization `WebSky-CITA`, suggesting a specific research project/group identity rather than a broad foundation or vendor.",
+        "\"`XGPaint.jl` paints maps of extragalactic foregrounds using halo catalogs\" – domain-specific scientific functionality, indicating a research application rather than a generic library.",
+        "The README only links to documentation and CI badges, with no mention of package managers or binaries, implying users obtain and use it directly from the GitHub source repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T20:38:41Z"
+    }
+  }
+}

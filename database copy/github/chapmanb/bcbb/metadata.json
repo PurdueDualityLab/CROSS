@@ -1,0 +1,52 @@
+{
+  "parser": "github",
+  "uid": "github/chapmanb/bcbb",
+  "url": "https://github.com/chapmanb/bcbb",
+  "data": {
+    "url": "https://github.com/chapmanb/bcbb",
+    "title": "Python3-bcbio-gff",
+    "description": "Incubator for useful bioinformatics code, primarily in Python and R",
+    "name": "bcbb",
+    "full_name": "chapmanb/bcbb",
+    "html_url": "https://github.com/chapmanb/bcbb",
+    "created_at": "2008-12-09T21:05:22Z",
+    "updated_at": "2022-07-08T04:04:20Z",
+    "clone_url": "https://github.com/chapmanb/bcbb.git",
+    "homepage": "http://bcbio.wordpress.com",
+    "size": 83200,
+    "stargazers_count": 545,
+    "watchers_count": 545,
+    "language": "Python",
+    "open_issues_count": 15,
+    "subscribers_count": 55,
+    "owner": {
+      "html_url": "https://github.com/chapmanb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/39391?v=4",
+      "login": "chapmanb",
+      "type": "User"
+    },
+    "timestamp": "2022-07-20 17:29:14.194946",
+    "avatar": "https://avatars.githubusercontent.com/u/39391?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Collection of useful code related to biological analysis.\"",
+        "\"nextgen -- A python toolkit providing best-practice pipelines for fully automated high throughput sequencing analysis.\"",
+        "\"distblast -- A distributed BLAST analysis running for identifying best hits in a wide variety of organisms for downstream phylogenetic analyses.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T22:54:10Z"
+    }
+  }
+}

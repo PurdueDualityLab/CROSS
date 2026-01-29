@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/fuyw-aisw/GALA",
+  "url": "https://github.com/fuyw-aisw/GALA",
+  "data": {
+    "name": "GALA",
+    "url": "https://github.com/fuyw-aisw/GALA",
+    "full_name": "fuyw-aisw/GALA",
+    "html_url": "https://github.com/fuyw-aisw/GALA",
+    "private": false,
+    "description": null,
+    "created_at": "2023-12-31T13:11:37Z",
+    "updated_at": "2023-12-31T13:12:19Z",
+    "clone_url": "https://github.com/fuyw-aisw/GALA.git",
+    "homepage": null,
+    "size": 198076,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": "Python",
+    "open_issues_count": 0,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/fuyw-aisw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/118046924?v=4",
+      "login": "fuyw-aisw",
+      "type": "User"
+    },
+    "topics": [],
+    "timestamp": "2024-10-27 00:46:34.706581",
+    "avatar": "https://avatars.githubusercontent.com/u/118046924?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html\"",
+        "\"In this work, we propose a new generalized approach named Graph Adversarial Learning with Alignment (GALA) for protein function prediction.\"",
+        "\"To predict protein functions use `predict.py` script with the following options:\" (end users run scripts directly for prediction and training)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:55:54Z"
+    }
+  }
+}

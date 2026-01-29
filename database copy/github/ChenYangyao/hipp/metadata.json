@@ -1,0 +1,68 @@
+{
+  "parser": "github",
+  "uid": "github/ChenYangyao/hipp",
+  "url": "https://github.com/ChenYangyao/hipp",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2023arXiv230108972C",
+      "https://ui.adsabs.harvard.edu/abs/2023ascl.soft01030C/abstract"
+    ],
+    "title": "HIPP: HIgh-Performance Package for scientific computation",
+    "url": "https://github.com/ChenYangyao/hipp",
+    "name": "hipp",
+    "full_name": "ChenYangyao/hipp",
+    "html_url": "https://github.com/ChenYangyao/hipp",
+    "description": "HIPP: Modern C++ Toolkit for HPC",
+    "created_at": "2019-12-29T03:04:17Z",
+    "updated_at": "2023-02-02T02:50:20Z",
+    "clone_url": "https://github.com/ChenYangyao/hipp.git",
+    "homepage": "https://hipp.readthedocs.io/",
+    "size": 4117,
+    "stargazers_count": 8,
+    "watchers_count": 8,
+    "language": "C++",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/ChenYangyao",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17449213?v=4",
+      "login": "ChenYangyao",
+      "type": "User"
+    },
+    "topics": [
+      "hpc",
+      "mpi",
+      "hdf5",
+      "simd"
+    ],
+    "timestamp": "2023-02-05 00:40:38.490118",
+    "avatar": "https://avatars.githubusercontent.com/u/17449213?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Builds and releases",
+      "distribution_details": null,
+      "evidence": [
+        "\"HIPP is a HPC toolkit written in C++.\" (toolkit/library rather than a standalone end-user app)",
+        "Examples show usage via C++ APIs like `comm.send(...)`, `H5::DatasetManager dsets = H5::File(...)`, `KDTreeif<DIM, PAD> tree(points);` indicating it is intended to be included as a library in other codes.",
+        "README links to GitHub releases badge: `GitHub release (latest by date including pre-releases)` suggesting distribution via versioned releases from the repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T16:52:41Z"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "parser": "github",
+  "uid": "github/musoke/UltraDark.jl",
+  "url": "https://github.com/musoke/UltraDark.jl",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.10978864",
+    "name": "UltraDark.jl",
+    "url": "https://github.com/musoke/UltraDark.jl",
+    "full_name": "musoke/UltraDark.jl",
+    "html_url": "https://github.com/musoke/UltraDark.jl",
+    "description": "Simulations of cosmological scalar fields",
+    "created_at": "2020-05-19T03:15:13Z",
+    "updated_at": "2024-04-10T14:10:06Z",
+    "clone_url": "https://github.com/musoke/UltraDark.jl.git",
+    "homepage": "https://musoke.github.io/UltraDark.jl/stable/",
+    "size": 13661,
+    "stargazers_count": 12,
+    "watchers_count": 12,
+    "language": "Julia",
+    "open_issues_count": 18,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/musoke",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16665084?v=4",
+      "login": "musoke",
+      "type": "User"
+    },
+    "topics": [
+      "cosmology",
+      "julia"
+    ],
+    "timestamp": "2024-04-21 00:35:45.564448",
+    "avatar": "https://avatars.githubusercontent.com/u/16665084?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Simulations of cosmological scalar fields inspired by PyUltraLight\" (domain-specific simulation code used directly for research).",
+        "Installation via Julia package manager from GitHub: \"pkg> dev https://github.com/musoke/UltraDark.jl\" (indicates cloning/developing from source repo).",
+        "\"To install and run tests, open the Julia REPL and enter `pkg` mode... pkg> dev https://github.com/musoke/UltraDark.jl\" (no mention of registry or binaries, implying source-repo-based distribution)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T01:29:58Z"
+    }
+  }
+}

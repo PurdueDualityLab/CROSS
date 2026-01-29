@@ -1,40 +1,259 @@
 {
-    "parser": "github",
-    "uid": "github/fpavogt/E0102-VR",
+  "parser": "github",
+  "uid": "github/fpavogt/E0102-VR",
+  "url": "https://github.com/fpavogt/E0102-VR",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2020A%26C....3000352B",
+      "https://ui.adsabs.harvard.edu/abs/2019ascl.soft10013B/abstract"
+    ],
+    "title": "E0102-VR: Virtual Reality application to visualize the optical ejecta in SNR 1E 0102.2-7219",
     "url": "https://github.com/fpavogt/E0102-VR",
-    "data": {
-        "doi": [
-            "https://ui.adsabs.harvard.edu/abs/2020A%26C....3000352B",
-            "https://ui.adsabs.harvard.edu/abs/2019ascl.soft10013B/abstract"
-        ],
-        "title": "E0102-VR: Virtual Reality application to visualize the optical ejecta in SNR 1E 0102.2-7219",
-        "url": "https://github.com/fpavogt/E0102-VR",
-        "name": "E0102-VR",
-        "full_name": "fpavogt/E0102-VR",
-        "html_url": "https://github.com/fpavogt/E0102-VR",
-        "description": "An experimental VR application to visualize the 3D map of the oxygen-bright ejecta in SNR 1E 0102.2-7219",
-        "created_at": "2018-12-31T19:22:04Z",
-        "updated_at": "2020-03-03T13:42:32Z",
-        "clone_url": "https://github.com/fpavogt/E0102-VR.git",
-        "size": 168562,
-        "stargazers_count": 3,
-        "watchers_count": 3,
-        "language": "C#",
-        "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "spdx_id": "GPL-3.0",
-            "url": "https://api.github.com/licenses/gpl-3.0",
-            "node_id": "MDc6TGljZW5zZTk="
-        },
-        "subscribers_count": 3,
-        "owner": {
-            "html_url": "https://github.com/fpavogt",
-            "avatar_url": "https://avatars.githubusercontent.com/u/13974615?v=4",
-            "login": "fpavogt",
-            "type": "User"
-        },
-        "timestamp": "2022-07-17 17:15:45.228067",
-        "avatar": "https://avatars.githubusercontent.com/u/13974615?v=4"
+    "name": "E0102-VR",
+    "full_name": "fpavogt/E0102-VR",
+    "html_url": "https://github.com/fpavogt/E0102-VR",
+    "description": "An experimental VR application to visualize the 3D map of the oxygen-bright ejecta in SNR 1E 0102.2-7219",
+    "created_at": "2018-12-31T19:22:04Z",
+    "updated_at": "2020-03-03T13:42:32Z",
+    "clone_url": "https://github.com/fpavogt/E0102-VR.git",
+    "size": 168562,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "C#",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/fpavogt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13974615?v=4",
+      "login": "fpavogt",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:15:45.228067",
+    "avatar": "https://avatars.githubusercontent.com/u/13974615?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Unknown",
+      "research_role": "Unknown",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This file is part of E0102-VR.\" (project appears to be a single-user repo owned by GitHub user fpavogt)",
+        "\"For the associated documentation, go to http://fpavogt.github.io/E0102-VR/\" (indicates project documentation for users, but no mention of packaging or registries)",
+        "GPL notice and lack of install/package instructions suggest distribution directly from the repository source."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T23:54:13Z"
     }
+  },
+  "openssf_scorecard": {
+    "data": {
+      "date": "2026-01-23T11:16:14-05:00",
+      "repo": {
+        "name": "github.com/fpavogt/E0102-VR",
+        "commit": "d2d96935c614bc7854e83c93d9ebdac2740139bf"
+      },
+      "scorecard": {
+        "version": "v5.4.0",
+        "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+      },
+      "score": 2.6,
+      "checks": [
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no binaries found in the repo",
+          "name": "Binary-Artifacts",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#binary-artifacts",
+            "short": "Determines if the project has generated executable (binary) artifacts in the source repository."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "branch protection not enabled on development/release branches",
+          "name": "Branch-Protection",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#branch-protection",
+            "short": "Determines if the default and release branches are protected with GitHub's branch protection settings."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no pull request found",
+          "name": "CI-Tests",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#ci-tests",
+            "short": "Determines if the project runs tests before pull requests are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no effort to earn an OpenSSF best practices badge detected",
+          "name": "CII-Best-Practices",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#cii-best-practices",
+            "short": "Determines if the project has an OpenSSF (formerly CII) Best Practices Badge."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "Found 0/4 approved changesets -- score normalized to 0",
+          "name": "Code-Review",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#code-review",
+            "short": "Determines if the project requires human code review before pull requests (aka merge requests) are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "project has 0 contributing companies or organizations -- score normalized to 0",
+          "name": "Contributors",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#contributors",
+            "short": "Determines if the project has a set of contributors from multiple organizations (e.g., companies)."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no workflows found",
+          "name": "Dangerous-Workflow",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dangerous-workflow",
+            "short": "Determines if the project's GitHub Action workflows avoid dangerous patterns."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no update tool detected",
+          "name": "Dependency-Update-Tool",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dependency-update-tool",
+            "short": "Determines if the project uses a dependency update tool."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "project is not fuzzed",
+          "name": "Fuzzing",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#fuzzing",
+            "short": "Determines if the project uses fuzzing."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "license file detected",
+          "name": "License",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#license",
+            "short": "Determines if the project has defined a license."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0",
+          "name": "Maintained",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#maintained",
+            "short": "Determines if the project is \"actively maintained\"."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "packaging workflow not detected",
+          "name": "Packaging",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#packaging",
+            "short": "Determines if the project is published as a package that others can easily download, install, easily update, and uninstall."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no dependencies found",
+          "name": "Pinned-Dependencies",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#pinned-dependencies",
+            "short": "Determines if the project has declared and pinned the dependencies of its build process."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no SAST tool detected",
+          "name": "SAST",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#sast",
+            "short": "Determines if the project uses static code analysis."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "security policy file not detected",
+          "name": "Security-Policy",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#security-policy",
+            "short": "Determines if the project has published a security policy."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no releases found",
+          "name": "Signed-Releases",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#signed-releases",
+            "short": "Determines if the project cryptographically signs release artifacts."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "No tokens found",
+          "name": "Token-Permissions",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#token-permissions",
+            "short": "Determines if the project's workflows follow the principle of least privilege."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "0 existing vulnerabilities detected",
+          "name": "Vulnerabilities",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#vulnerabilities",
+            "short": "Determines if the project has open, known unfixed vulnerabilities."
+          }
+        }
+      ],
+      "metadata": null
+    },
+    "timestamp_utc": "2026-01-23T16:16:21Z"
+  }
 }

@@ -1,0 +1,69 @@
+{
+  "parser": "github",
+  "uid": "github/WMD-group/StarryNight",
+  "url": "https://github.com/WMD-group/StarryNight",
+  "data": {
+    "timestamp": "2022-05-12 03:44:02.599201",
+    "name": "StarryNight",
+    "url": "https://api.github.com/repos/WMD-group/StarryNight",
+    "full_name": "WMD-group/StarryNight",
+    "html_url": "https://github.com/WMD-group/StarryNight",
+    "private": false,
+    "description": "Monte Carlo codes to simulate polar domains in hybrid perovskite solar cells",
+    "created_at": "2014-02-19T17:03:17Z",
+    "updated_at": "2022-01-07T15:15:40Z",
+    "clone_url": "https://github.com/WMD-group/StarryNight.git",
+    "homepage": "",
+    "size": 5336,
+    "stargazers_count": 11,
+    "watchers_count": 11,
+    "language": "C",
+    "open_issues_count": 1,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 12,
+    "owner": {
+      "html_url": "https://github.com/WMD-group",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1716969?v=4",
+      "login": "WMD-group",
+      "type": "Organization"
+    },
+    "topics": [
+      "monte-carlo-codes",
+      "ferroelectric-domains",
+      "perovskite",
+      "photovoltaic",
+      "monte-carlo",
+      "dipole-domains",
+      "recombination",
+      "semiconductor"
+    ]
+  },
+  "doi": "10.5281/zenodo.10543",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"`make` compiles the binary file `starrynight`\"",
+        "\"Monte Carlo codes to simulate dipole-dipole interactions and ferroelectric domains in a hybrid organic-inorganic perovskite solar cell.\"",
+        "\"make compiles the binary file `starrynight`\" and \"make test will run a series of test calculations\" indicate an end-user simulation application built from this repo."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T20:38:09Z"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/nextstrain/augur",
+  "url": "https://github.com/nextstrain/augur",
+  "data": {
+    "url": "https://github.com/nextstrain/augur",
+    "title": "Augur",
+    "description": "Pipeline components for real-time phylodynamic analysis",
+    "name": "augur",
+    "full_name": "nextstrain/augur",
+    "html_url": "https://github.com/nextstrain/augur",
+    "created_at": "2016-04-22T20:28:36Z",
+    "updated_at": "2022-07-20T03:19:39Z",
+    "clone_url": "https://github.com/nextstrain/augur.git",
+    "homepage": "https://docs.nextstrain.org/projects/augur/",
+    "size": 15639,
+    "stargazers_count": 206,
+    "watchers_count": 206,
+    "language": "Python",
+    "open_issues_count": 163,
+    "license": {
+      "key": "agpl-3.0",
+      "name": "GNU Affero General Public License v3.0",
+      "spdx_id": "AGPL-3.0",
+      "url": "https://api.github.com/licenses/agpl-3.0",
+      "node_id": "MDc6TGljZW5zZTE="
+    },
+    "subscribers_count": 31,
+    "owner": {
+      "html_url": "https://github.com/nextstrain",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22159334?v=4",
+      "login": "nextstrain",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-20 17:25:41.393421",
+    "avatar": "https://avatars.githubusercontent.com/u/22159334?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI and Bioconda",
+      "evidence": [
+        "\"Nextstrain is an open-source project to harness the scientific and public health potential of pathogen genome data.\" and copyright attributed to specific researchers suggests a research project/lab context.",
+        "\"Augur is the bioinformatics toolkit we use to track evolution from sequence and serological data. It provides a collection of commands which are designed to be composable into larger processing pipelines.\" (end-user toolkit / commands)",
+        "\"Augur is the bioinformatics toolkit we use to track evolution from sequence and serological data.\" and cited JOSS paper describing phylogenetic analyses of human pathogens (direct analysis of research data)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T01:36:24Z"
+    }
+  }
+}

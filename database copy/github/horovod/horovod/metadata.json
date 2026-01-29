@@ -1,0 +1,74 @@
+{
+  "parser": "github",
+  "uid": "github/horovod/horovod",
+  "url": "https://github.com/horovod/horovod",
+  "data": {
+    "title": "Horovod",
+    "url": "https://api.github.com/repos/horovod/horovod",
+    "credit": [],
+    "description": "Distributed training framework for TensorFlow, Keras, PyTorch, and Apache MXNet.",
+    "name": "horovod",
+    "full_name": "horovod/horovod",
+    "html_url": "https://github.com/horovod/horovod",
+    "created_at": "2017-08-09T19:39:59Z",
+    "updated_at": "2021-06-26T22:07:16Z",
+    "clone_url": "https://github.com/horovod/horovod.git",
+    "homepage": "http://horovod.ai",
+    "size": 5568,
+    "stargazers_count": 11354,
+    "watchers_count": 11354,
+    "language": "Python",
+    "open_issues_count": 250,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 341,
+    "owner": {
+      "html_url": "https://github.com/horovod",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46361271?v=4",
+      "login": "horovod",
+      "type": "Organization"
+    },
+    "topics": [
+      "tensorflow",
+      "uber",
+      "machine-learning",
+      "machinelearning",
+      "mpi",
+      "baidu",
+      "deep-learning",
+      "deeplearning",
+      "keras",
+      "pytorch",
+      "mxnet",
+      "spark",
+      "ray"
+    ],
+    "timestamp": "2021-06-27 00:22:32.156309"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Infrastructure",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"$ pip install horovod\"",
+        "\"Horovod is hosted by the `LF AI & Data Foundation` (LF AI & Data).\"",
+        "\"Horovod is a distributed deep learning training framework for TensorFlow, Keras, PyTorch, and Apache MXNet. The goal of Horovod is to make distributed deep learning fast and easy to use.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:21:17Z"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/miracum/ahd2fhir",
+  "url": "https://github.com/miracum/ahd2fhir",
+  "data": {
+    "doi": "10.3233/SHTI220026",
+    "name": "ahd2fhir",
+    "url": "https://github.com/miracum/ahd2fhir",
+    "full_name": "miracum/ahd2fhir",
+    "html_url": "https://github.com/miracum/ahd2fhir",
+    "description": "A REST service for mapping text analysis results from Averbis Health Discovery to FHIR resources.",
+    "created_at": "2021-05-08T00:53:56Z",
+    "updated_at": "2022-07-23T10:39:18Z",
+    "clone_url": "https://github.com/miracum/ahd2fhir.git",
+    "size": 154,
+    "stargazers_count": 4,
+    "watchers_count": 4,
+    "language": "Python",
+    "open_issues_count": 21,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/miracum",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25475545?v=4",
+      "login": "miracum",
+      "type": "Organization"
+    },
+    "timestamp": "2022-09-25 00:45:43.767397",
+    "avatar": "https://avatars.githubusercontent.com/u/25475545?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install -r requirements-dev.txt\"",
+        "\"Creates FHIR resources from Averbis Health Discovery NLP Annotations.\"",
+        "\"Launch the `ahd2fhir` service which is exposed on port `8080` by default\" and example curl request show it as an application/service transforming research-relevant clinical text annotations into FHIR resources."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:21:54Z"
+    }
+  }
+}

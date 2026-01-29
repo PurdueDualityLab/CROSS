@@ -1,0 +1,56 @@
+{
+  "parser": "github",
+  "uid": "github/astropy/SPISEA",
+  "url": "https://github.com/astropy/SPISEA",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2020arXiv200606691H",
+      "https://ui.adsabs.harvard.edu/abs/2020ascl.soft06016H/abstract"
+    ],
+    "title": "SPISEA: Stellar Population Interface for Stellar Evolution and Atmospheres",
+    "url": "https://github.com/astropy/SPISEA",
+    "name": "SPISEA",
+    "full_name": "astropy/SPISEA",
+    "html_url": "https://github.com/astropy/SPISEA",
+    "description": "Stellar Population Synthesis Modeling",
+    "created_at": "2013-06-28T07:45:34Z",
+    "updated_at": "2022-05-30T19:04:25Z",
+    "clone_url": "https://github.com/astropy/SPISEA.git",
+    "homepage": "https://spisea.readthedocs.io/en/stable/index.html",
+    "size": 13383,
+    "stargazers_count": 46,
+    "watchers_count": 46,
+    "language": "Python",
+    "open_issues_count": 12,
+    "subscribers_count": 9,
+    "owner": {
+      "html_url": "https://github.com/astropy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/847984?v=4",
+      "login": "astropy",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-17 17:14:20.722717",
+    "avatar": "https://avatars.githubusercontent.com/u/847984?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Builds and releases",
+      "distribution_details": null,
+      "evidence": [
+        "\"SPISEA is an python package that generates single-age, single-metallicity populations (i.e. star clusters).\"",
+        "\"See documentation for details on installing and running SPISEA. We also provide jupyter notebooks with a quick-start tutorial and additional examples demonstrating how to use SPISEA.\"",
+        "\"SPISEA is actively supported and is growing in functionality, and subsequently has had several updates since its initial release. See the main documentation page for the change log describing the updates in each release.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T21:37:47Z"
+    }
+  }
+}

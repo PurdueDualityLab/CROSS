@@ -1,0 +1,28 @@
+{
+  "repo": "https://github.com/apache/airflow-upgrade-check",
+  "timestamp_utc": "2026-01-24T00:41:56Z",
+  "repo_metadata": {
+    "name": "airflow-upgrade-check",
+    "full_name": "apache/airflow-upgrade-check",
+    "html_url": "https://github.com/apache/airflow-upgrade-check",
+    "description": "Apache airflow",
+    "default_branch": "main",
+    "archived": true,
+    "fork": false,
+    "stargazers_count": 0
+  },
+  "data": {
+    "date": "2026-01-23T19:41:55-05:00",
+    "repo": {
+      "name": "github.com/apache/airflow-upgrade-check",
+      "commit": "HEAD"
+    },
+    "scorecard": {
+      "version": "v5.4.0",
+      "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+    },
+    "score": -1.0,
+    "checks": null,
+    "metadata": null
+  }
+}

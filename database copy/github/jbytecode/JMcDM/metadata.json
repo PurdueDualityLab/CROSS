@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/jbytecode/JMcDM",
+  "url": "https://github.com/jbytecode/JMcDM",
+  "data": {
+    "timestamp": "2021-10-03 00:37:07.612697",
+    "name": "JMcDM",
+    "url": "https://api.github.com/repos/jbytecode/JMcDM",
+    "full_name": "jbytecode/JMcDM",
+    "html_url": "https://github.com/jbytecode/JMcDM",
+    "private": false,
+    "description": "A package for Multiple criteria decision-making techniques in Julia",
+    "created_at": "2021-02-03T08:04:21Z",
+    "updated_at": "2021-09-30T15:20:22Z",
+    "clone_url": "https://github.com/jbytecode/JMcDM.git",
+    "homepage": null,
+    "size": 2331,
+    "stargazers_count": 11,
+    "watchers_count": 11,
+    "language": "Julia",
+    "open_issues_count": 1,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/jbytecode",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8011702?v=4",
+      "login": "jbytecode",
+      "type": "User"
+    },
+    "topics": []
+  },
+  "doi": "https://doi.org/10.5281/zenodo.5534663",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Vendor or commercial entity",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "Julia General registry",
+      "evidence": [
+        "README install command: \"julia> Pkg.add(\"JMcDM\")\"",
+        "\"JMcDM is a developer and researcher-friendly Julia package that combines the developed methods, utility functions for implementing new ones, and serves an environment for comparing results of multiple analyses.\"",
+        "Installation via Julia’s package manager: \"(@v1.10) pkg> add JMcDM\" and \"Pkg.add(\\\"JMcDM\\\")\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:31:00Z"
+    }
+  }
+}

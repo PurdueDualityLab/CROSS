@@ -1,0 +1,71 @@
+{
+  "parser": "github",
+  "uid": "github/soedinglab/metaeuk",
+  "url": "https://github.com/soedinglab/metaeuk",
+  "data": {
+    "title": "MetaEuk",
+    "url": "https://github.com/soedinglab/metaeuk",
+    "credit": [],
+    "tags": [
+      "metagenomic-sequencing-analysis",
+      "high-throughput-sequencing"
+    ],
+    "description": "MetaEuk - sensitive, high-throughput gene discovery and annotation for large-scale eukaryotic metagenomics",
+    "name": "metaeuk",
+    "full_name": "soedinglab/metaeuk",
+    "html_url": "https://github.com/soedinglab/metaeuk",
+    "created_at": "2018-03-07T09:37:56Z",
+    "updated_at": "2022-06-15T01:19:14Z",
+    "clone_url": "https://github.com/soedinglab/metaeuk.git",
+    "homepage": "https://metaeuk.soedinglab.org",
+    "size": 13965,
+    "stargazers_count": 103,
+    "watchers_count": 103,
+    "language": "C",
+    "open_issues_count": 12,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 7,
+    "owner": {
+      "html_url": "https://github.com/soedinglab",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7237671?v=4",
+      "login": "soedinglab",
+      "type": "Organization"
+    },
+    "topics": [
+      "metagenomics",
+      "eukaryotes",
+      "gene-prediction",
+      "gene-discovery",
+      "bioinformatics"
+    ],
+    "timestamp": "2022-07-18 17:45:46.070902",
+    "avatar": "https://avatars.githubusercontent.com/u/7237671?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "conda-forge",
+      "evidence": [
+        "README install command: \"conda install -c conda-forge -c bioconda metaeuk\"",
+        "Owner is GitHub organization `soedinglab`, and README links to a lab publication: “Levy Karin E, Mirdita M and Soeding J. MetaEuk – sensitive, high-throughput gene discovery and annotation for large-scale eukaryotic metagenomics.”",
+        "“MetaEuk is a modular toolkit designed for large-scale gene discovery and annotation in eukaryotic metagenomic contigs.” (end users run `metaeuk` commands and workflows)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T03:32:28Z"
+    }
+  }
+}

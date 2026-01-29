@@ -1,0 +1,64 @@
+{
+  "parser": "github",
+  "uid": "github/cistib/origami",
+  "url": "https://github.com/cistib/origami",
+  "data": {
+    "timestamp": "2022-04-10 00:53:50.747654",
+    "name": "origami",
+    "url": "https://api.github.com/repos/cistib/origami",
+    "full_name": "cistib/origami",
+    "html_url": "https://github.com/cistib/origami",
+    "private": false,
+    "description": "MATLAB-based image analysis pipeline for extracting single-cell direction-variant shape features from fluorescence images of folding epithelial sheets.",
+    "created_at": "2021-08-05T17:36:07Z",
+    "updated_at": "2021-11-20T15:01:48Z",
+    "clone_url": "https://github.com/cistib/origami.git",
+    "homepage": "https://github.com/cistib/origami",
+    "size": 44342,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "MATLAB",
+    "open_issues_count": 1,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/cistib",
+      "avatar_url": "https://avatars.githubusercontent.com/u/73349299?v=4",
+      "login": "cistib",
+      "type": "Organization"
+    },
+    "topics": [
+      "matlab-code",
+      "microscopy",
+      "image-processing"
+    ]
+  },
+  "doi": "10.1371/JOURNAL.PCBI.1009063",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"Download ACME binaries from (https://github.com/krm15/ACME/wiki).\"",
+        "\"An image analysis pipeline for extracting direction- variant shape features from fluorescence images of folding epithelial sheets.\"",
+        "\"Origami runs on MATLAB – compatible with MATLAB R2018b onwards.\" and \"Open the main script ‘OrigamiPipeline_Main.m’ in MATLAB and click on the RUN button.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T22:56:58Z"
+    }
+  }
+}

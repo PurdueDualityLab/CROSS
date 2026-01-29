@@ -1,0 +1,65 @@
+{
+  "parser": "github",
+  "uid": "github/GregoryFaust/samblaster",
+  "url": "https://github.com/GregoryFaust/samblaster",
+  "data": {
+    "title": "samblaster",
+    "url": "https://github.com/GregoryFaust/samblaster",
+    "credit": [
+      "Greg Faust"
+    ],
+    "tags": [
+      "high-throughput-sequencing",
+      "utilities"
+    ],
+    "description": "samblaster: a tool to mark duplicates and extract discordant and split reads from sam files.",
+    "name": "samblaster",
+    "full_name": "GregoryFaust/samblaster",
+    "html_url": "https://github.com/GregoryFaust/samblaster",
+    "created_at": "2014-02-11T18:27:47Z",
+    "updated_at": "2022-07-07T16:23:03Z",
+    "clone_url": "https://github.com/GregoryFaust/samblaster.git",
+    "size": 375,
+    "stargazers_count": 168,
+    "watchers_count": 168,
+    "language": "C++",
+    "open_issues_count": 11,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 18,
+    "owner": {
+      "html_url": "https://github.com/GregoryFaust",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6653381?v=4",
+      "login": "GregoryFaust",
+      "type": "User"
+    },
+    "timestamp": "2022-07-18 17:46:40.439012",
+    "avatar": "https://avatars.githubusercontent.com/u/6653381?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"Click the preceeding link or download the file from this repository.\"",
+        "\"Written by: Greg Faust (gf4ea@virginia.edu)\"",
+        "\"samblaster is a fast and flexible program for marking duplicates in read-id grouped paired-end SAM files. It can also optionally output discordant read pairs and/or split read mappings...\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T17:42:54Z"
+    }
+  }
+}

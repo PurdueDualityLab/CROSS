@@ -1,0 +1,55 @@
+{
+  "parser": "github",
+  "uid": "github/weber1158/eds-classification",
+  "url": "https://github.com/weber1158/eds-classification",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.14989511",
+    "name": "eds-classification",
+    "url": "https://github.com/weber1158/eds-classification",
+    "full_name": "weber1158/eds-classification",
+    "html_url": "https://github.com/weber1158/eds-classification",
+    "description": "Functions for working with SEM-EDS data in MATLAB, including different algorithms for performing mineral classification.",
+    "created_at": "2024-05-20T14:32:19Z",
+    "updated_at": "2025-03-10T19:31:57Z",
+    "clone_url": "https://github.com/weber1158/eds-classification.git",
+    "size": 10178,
+    "language": "MATLAB",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/weber1158",
+      "avatar_url": "https://avatars.githubusercontent.com/u/133900499?v=4",
+      "login": "weber1158",
+      "type": "User"
+    },
+    "timestamp": "2025-03-23 00:50:33.061044",
+    "avatar": "https://avatars.githubusercontent.com/u/133900499?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"You can download the repository from the MATLAB Central File Exchange [![View my project on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathwor\"",
+        "\"A repository of functions for identifying mineral species in SEM-EDS data\"",
+        "\"This repository includes several functions designed to quickly identify common mineral species from energy dispersive spectrometry (EDS) data. The `eds_classification()` function is encoded with four EDS mineral classification algorithms, including a machine learning classifier...\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:52:55Z"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "parser": "github",
+  "uid": "github/lysovosyl/NanoDeep",
+  "url": "https://github.com/lysovosyl/NanoDeep",
+  "data": {
+    "doi": "10.1093/bib/bbad499",
+    "name": "NanoDeep",
+    "url": "https://github.com/lysovosyl/NanoDeep",
+    "full_name": "lysovosyl/NanoDeep",
+    "html_url": "https://github.com/lysovosyl/NanoDeep",
+    "created_at": "2023-07-12T01:01:53Z",
+    "updated_at": "2024-02-22T05:55:29Z",
+    "clone_url": "https://github.com/lysovosyl/NanoDeep.git",
+    "size": 57764,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/lysovosyl",
+      "avatar_url": "https://avatars.githubusercontent.com/u/133856851?v=4",
+      "login": "lysovosyl",
+      "type": "User"
+    },
+    "timestamp": "2024-05-26 00:38:03.921650",
+    "avatar": "https://avatars.githubusercontent.com/u/133856851?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install nanodeep\"",
+        "\"This is an open-source Python3 package for nanopore adaptive sample base on deep learning and the Read Until API.\"",
+        "\"pip install nanodeep\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:59:19Z"
+    }
+  }
+}

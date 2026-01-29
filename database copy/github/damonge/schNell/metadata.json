@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/damonge/schNell",
+  "url": "https://github.com/damonge/schNell",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2020PhRvD.101l4048A",
+      "https://ui.adsabs.harvard.edu/abs/2021ascl.soft03013A/abstract"
+    ],
+    "title": "schNell: Fast calculation of N_ell for GW anisotropies",
+    "url": "https://github.com/damonge/schNell",
+    "name": "schNell",
+    "full_name": "damonge/schNell",
+    "html_url": "https://github.com/damonge/schNell",
+    "description": "Fast calculation of N_ell for GW anisotropies",
+    "created_at": "2019-12-06T15:36:49Z",
+    "updated_at": "2022-04-06T12:37:56Z",
+    "clone_url": "https://github.com/damonge/schNell.git",
+    "size": 67967,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "Python",
+    "open_issues_count": 2,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/damonge",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8809493?v=4",
+      "login": "damonge",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:12:28.406660",
+    "avatar": "https://avatars.githubusercontent.com/u/8809493?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install schnell [--user]\"",
+        "\"schNell is a very lightweight python module that can be used to compute basic map-level noise properties for generic networks of gravitational wave interferometers.\"",
+        "\"You can install schnell simply by typing `pip install schnell [--user]`\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:15:04Z"
+    }
+  }
+}

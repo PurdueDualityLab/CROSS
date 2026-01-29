@@ -1,0 +1,57 @@
+{
+  "parser": "github",
+  "uid": "github/Brauckhoff/biopixR",
+  "url": "https://github.com/Brauckhoff/biopixR",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.13899162",
+    "name": "biopixR",
+    "url": "https://github.com/Brauckhoff/biopixR",
+    "full_name": "Brauckhoff/biopixR",
+    "html_url": "https://github.com/Brauckhoff/biopixR",
+    "description": "R Package for bioimage analysis",
+    "created_at": "2023-11-13T15:10:49Z",
+    "updated_at": "2024-10-22T17:17:54Z",
+    "clone_url": "https://github.com/Brauckhoff/biopixR.git",
+    "size": 78001,
+    "stargazers_count": 5,
+    "watchers_count": 5,
+    "language": "HTML",
+    "license": {
+      "key": "lgpl-3.0",
+      "name": "GNU Lesser General Public License v3.0",
+      "spdx_id": "LGPL-3.0",
+      "url": "https://api.github.com/licenses/lgpl-3.0",
+      "node_id": "MDc6TGljZW5zZTEy"
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/Brauckhoff",
+      "avatar_url": "https://avatars.githubusercontent.com/u/121032772?v=4",
+      "login": "Brauckhoff",
+      "type": "User"
+    },
+    "timestamp": "2024-10-27 00:46:26.279685",
+    "avatar": "https://avatars.githubusercontent.com/u/121032772?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"biopixR\")\"",
+        "\"biopixR - Package for analysis of bioimage image data\" and examples show it is an R package with functions like `objectDetection`, `sizeFilter`, `resultAnalytics` that are called from user scripts, indicating a reusable library/dependency.",
+        "\"This project aims to utilize image processing techniques... to analyze and characterize bead microparticles\" and later examples show extraction of bead counts, sizes, intensities, and partitions, indicating it directly performs scientific image analysis used in research outputs."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T16:47:29Z"
+    }
+  }
+}

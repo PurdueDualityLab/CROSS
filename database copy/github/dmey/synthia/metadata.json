@@ -1,0 +1,81 @@
+{
+  "parser": "github",
+  "uid": "github/dmey/synthia",
+  "url": "https://github.com/dmey/synthia",
+  "data": {
+    "timestamp": "2021-09-26 00:35:52.932200",
+    "name": "synthia",
+    "url": "https://api.github.com/repos/dmey/synthia",
+    "full_name": "dmey/synthia",
+    "html_url": "https://github.com/dmey/synthia",
+    "private": false,
+    "description": "📈 🐍 Multidimensional synthetic data generation in Python",
+    "created_at": "2020-03-01T18:04:55Z",
+    "updated_at": "2021-09-25T16:34:49Z",
+    "clone_url": "https://github.com/dmey/synthia.git",
+    "homepage": "https://dmey.github.io/synthia",
+    "size": 20690,
+    "stargazers_count": 13,
+    "watchers_count": 13,
+    "language": "Python",
+    "open_issues_count": 0,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/dmey",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26348635?v=4",
+      "login": "dmey",
+      "type": "User"
+    },
+    "topics": [
+      "synthetic-data",
+      "copula",
+      "fpca",
+      "machine-learning",
+      "data-science",
+      "data-generation",
+      "xarray",
+      "weather",
+      "climate",
+      "finance",
+      "data-modelling",
+      "principal-component-analysis",
+      "dependency-analysis",
+      "dependency-modeling",
+      "statistics",
+      "augmentation",
+      "oversampling",
+      "data-augmentation",
+      "functional-data",
+      "data-generator"
+    ]
+  },
+  "doi": "https://doi.org/10.5281/zenodo.5358432",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "\"Synthia is an open source Python package to model univariate and multivariate data, parameterize data using empirical and parametric methods, and manipulate marginal distributions.\"",
+        "\"It has a simple and succinct API to natively handle xarray's labelled arrays and datasets.\" (indicates it is a library-style package used by other code)",
+        "PyPI badge and link: \"[![PyPI](https://img.shields.io/pypi/v/synthia)](https://pypi.org/project/synthia)\" (shows distribution via PyPI)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T23:35:08Z"
+    }
+  }
+}

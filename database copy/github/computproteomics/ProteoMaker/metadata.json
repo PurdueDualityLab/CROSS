@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/computproteomics/ProteoMaker",
+  "url": "https://github.com/computproteomics/ProteoMaker",
+  "data": {
+    "name": "ProteoMaker",
+    "url": "https://github.com/computproteomics/ProteoMaker",
+    "full_name": "computproteomics/ProteoMaker",
+    "html_url": "https://github.com/computproteomics/ProteoMaker",
+    "private": false,
+    "description": null,
+    "created_at": "2020-01-14T15:59:30Z",
+    "updated_at": "2025-01-31T17:09:52Z",
+    "clone_url": "https://github.com/computproteomics/ProteoMaker.git",
+    "homepage": null,
+    "size": 289066,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": "R",
+    "open_issues_count": 3,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/computproteomics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/158178001?v=4",
+      "login": "computproteomics",
+      "type": "Organization"
+    },
+    "topics": [],
+    "timestamp": "2025-02-02 00:46:40.891148",
+    "avatar": "https://avatars.githubusercontent.com/u/158178001?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "GitHub (install_github via devtools)",
+      "evidence": [
+        "\"ProteoMaker is a platform for the  generation of an in-silico bottom-up proteomics data set with a ground truth on the level of proteoforms.\"",
+        "\"Install the package from GitHub with `devtools`: devtools::install_github(\"computproteomics/ProteoMaker\")\"",
+        "\"Load the package in R: library(ProteoMaker)\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T23:10:23Z"
+    }
+  }
+}

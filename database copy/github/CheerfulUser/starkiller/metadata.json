@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/CheerfulUser/starkiller",
+  "url": "https://github.com/CheerfulUser/starkiller",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2025AJ....169..148R",
+      "https://ui.adsabs.harvard.edu/abs/2025ascl.soft11029R/abstract"
+    ],
+    "title": "Starkiller: Removing stars and satellites from IFU data",
+    "url": "https://github.com/CheerfulUser/starkiller",
+    "name": "starkiller",
+    "full_name": "CheerfulUser/starkiller",
+    "html_url": "https://github.com/CheerfulUser/starkiller",
+    "description": "Pipeline to simulate and subtract stars and satellites in an IFU data cube.",
+    "created_at": "2023-03-21T03:58:04Z",
+    "updated_at": "2025-10-09T23:34:01Z",
+    "clone_url": "https://github.com/CheerfulUser/starkiller.git",
+    "size": 472639,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "Jupyter Notebook",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/CheerfulUser",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25831737?v=4",
+      "login": "CheerfulUser",
+      "type": "User"
+    },
+    "timestamp": "2026-01-11 01:01:14.014463",
+    "avatar": "https://avatars.githubusercontent.com/u/25831737?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI (via pip from VCS URL)",
+      "evidence": [
+        "\"Starkiller: Removing stars and satellites from IFU data\" and description of creating simulated IFU cubes and subtracting them from input IFU indicates it is an analysis application for IFU data.",
+        "\"Example reduction for highly trailed 2I Borisov MUSE data: `from starkiller import starkiller ifu = starkiller(file='file',cal_maglim=20,run=True)`\" shows it is run as a tool to process scientific data directly used in research.",
+        "\"To install: `pip install git+https://github.com/CheerfulUser/starkiller.git`\" indicates distribution via pip (Python package ecosystem) from a Git repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T16:52:34Z"
+    }
+  }
+}

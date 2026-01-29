@@ -1,0 +1,67 @@
+{
+  "parser": "github",
+  "uid": "github/jean-pierreBoth/gsearch",
+  "url": "https://github.com/jean-pierreBoth/gsearch",
+  "data": {
+    "title": "GSearch",
+    "url": "https://github.com/jean-pierreBoth/gsearch",
+    "credit": [],
+    "tags": [
+      "genomics",
+      "genomics"
+    ],
+    "description": "Approximate nearest neighbour search for microbial genomes based on hash metric",
+    "name": "gsearch",
+    "full_name": "jean-pierreBoth/gsearch",
+    "html_url": "https://github.com/jean-pierreBoth/gsearch",
+    "created_at": "2021-09-27T06:40:58Z",
+    "updated_at": "2023-04-23T10:15:24Z",
+    "clone_url": "https://github.com/jean-pierreBoth/gsearch.git",
+    "size": 27973,
+    "stargazers_count": 13,
+    "watchers_count": 13,
+    "language": "Rust",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/jean-pierreBoth",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19845045?v=4",
+      "login": "jean-pierreBoth",
+      "type": "User"
+    },
+    "topics": [
+      "average-nucleotide-identity",
+      "nearest-neighbor-search",
+      "probminhash-similarity"
+    ],
+    "timestamp": "2023-05-28 00:40:28.577516",
+    "avatar": "https://avatars.githubusercontent.com/u/19845045?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "conda-forge",
+      "evidence": [
+        "README install command: \"conda install -c conda-forge -c bioconda gsearch\"",
+        "\"GSearch stands for genomic search... compute MinHash-like signatures of bacteria and archaea (or virus and fungi) genomes... for searching of new request genomes.\" (end-user CLI performing genome search/analysis)",
+        "\"This package is developped by Jean-Pierre Both [jpboth] for the software part and [Jianshu Zhao] for the genomics part.\" (small, named individuals rather than an institution or foundation)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:31:58Z"
+    }
+  }
+}

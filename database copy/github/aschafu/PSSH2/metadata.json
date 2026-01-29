@@ -1,0 +1,49 @@
+{
+  "parser": "github",
+  "uid": "github/aschafu/PSSH2",
+  "url": "https://github.com/aschafu/PSSH2",
+  "data": {
+    "url": "https://github.com/aschafu/PSSH2",
+    "title": "Pssh2",
+    "description": "Scripts for generating pssh2",
+    "name": "PSSH2",
+    "full_name": "aschafu/PSSH2",
+    "html_url": "https://github.com/aschafu/PSSH2",
+    "created_at": "2014-04-08T14:40:00Z",
+    "updated_at": "2021-11-10T12:20:17Z",
+    "clone_url": "https://github.com/aschafu/PSSH2.git",
+    "size": 87063,
+    "language": "C",
+    "open_issues_count": 1,
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/aschafu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2921478?v=4",
+      "login": "aschafu",
+      "type": "User"
+    },
+    "timestamp": "2022-07-20 17:28:35.590808",
+    "avatar": "https://avatars.githubusercontent.com/u/2921478?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"PSSH2 is a collection of tools for creating the sequence-to-structure alignment database PSSH2.\"",
+        "\"In the src/cloud directory, there are start-up scripts to copy into the user-data on AWS. These will automatically start processes that run hhblits to generate data for building a custom database or to scan structures against that custom database.\"",
+        "\"In this repository, the data directory contains all the PSSH2 data that is small enough to be distributed in a git repository.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T21:24:45Z"
+    }
+  }
+}

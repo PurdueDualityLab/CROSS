@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/frescigno/magpy_rv",
+  "url": "https://github.com/frescigno/magpy_rv",
+  "data": {
+    "doi": [],
+    "title": "MAGPy-RV: a Gaussian Process regression pipeline with MCMC parameter searching algorithm",
+    "url": "https://github.com/frescigno/magpy_rv",
+    "name": "magpy_rv",
+    "full_name": "frescigno/magpy_rv",
+    "html_url": "https://github.com/frescigno/magpy_rv",
+    "description": "Modelling Activity with Gaussian process regression in Python",
+    "created_at": "2022-04-05T10:43:47Z",
+    "updated_at": "2023-08-25T14:45:23Z",
+    "clone_url": "https://github.com/frescigno/magpy_rv.git",
+    "homepage": "https://magpy-rv.readthedocs.io/en/latest/",
+    "size": 145918,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Jupyter Notebook",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/frescigno",
+      "avatar_url": "https://avatars.githubusercontent.com/u/80278728?v=4",
+      "login": "frescigno",
+      "type": "User"
+    },
+    "timestamp": "2023-10-28 21:36:23.202322",
+    "avatar": "https://avatars.githubusercontent.com/u/80278728?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "\"MAGPy-RV\\n\\nModeling Activity with Gaussian process regression in Python\\n\\nPipeline to model data with Gaussian Process regression and affine invariant Monte Carlo Markov Chain parameter searching algorith.\"",
+        "\"To use please cite the original publication [Rescigno et al. 2023]\" and examples like \"walks through the full rv analysis with a GP to model activity and Keplerians to model a planet.\"",
+        "\"Package installation using pip\" and \"pip install magpy-rv\" plus the PyPI badge \"[![PyPI version](https://badge.fury.io/py/magpy-rv.svg)]\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T23:55:18Z"
+    }
+  }
+}

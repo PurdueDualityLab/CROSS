@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/mzytnicki/srnaMapper",
+  "url": "https://github.com/mzytnicki/srnaMapper",
+  "data": {
+    "title": "srnaMapper",
+    "url": "https://github.com/mzytnicki/srnaMapper",
+    "credit": [],
+    "tags": [
+      "rna-seq-analysis",
+      "high-throughput-sequencing"
+    ],
+    "description": "Mapping small RNA data to a genome.",
+    "name": "srnaMapper",
+    "full_name": "mzytnicki/srnaMapper",
+    "html_url": "https://github.com/mzytnicki/srnaMapper",
+    "created_at": "2019-03-28T14:59:16Z",
+    "updated_at": "2022-07-09T08:39:28Z",
+    "clone_url": "https://github.com/mzytnicki/srnaMapper.git",
+    "size": 420,
+    "language": "C",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/mzytnicki",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34034101?v=4",
+      "login": "mzytnicki",
+      "type": "User"
+    },
+    "timestamp": "2022-11-20 00:46:44.970417",
+    "avatar": "https://avatars.githubusercontent.com/u/34034101?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "conda",
+      "evidence": [
+        "README install command: \"conda install -c bioconda srnamapper\"",
+        "Manual install instructions show cloning and compiling an executable tool: `git clone ... srnaMapper`, `make`, then run `./srnaMapper` with parameters, indicating an end-user application.",
+        "Usage section describes running `./srnaMapper` on FASTQ reads and genome indexes to produce SAM output, i.e., performing sequence mapping analysis directly used in research."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:31:04Z"
+    }
+  }
+}

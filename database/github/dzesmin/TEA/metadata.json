@@ -1,34 +1,253 @@
 {
-    "parser": "github",
-    "uid": "github/dzesmin/TEA",
+  "parser": "github",
+  "uid": "github/dzesmin/TEA",
+  "url": "https://github.com/dzesmin/TEA",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2016ApJS..225....4B",
+      "https://ui.adsabs.harvard.edu/abs/2015ascl.soft05031B/abstract"
+    ],
+    "title": "TEA: Thermal Equilibrium Abundances",
     "url": "https://github.com/dzesmin/TEA",
-    "data": {
-        "doi": [
-            "https://ui.adsabs.harvard.edu/abs/2016ApJS..225....4B",
-            "https://ui.adsabs.harvard.edu/abs/2015ascl.soft05031B/abstract"
-        ],
-        "title": "TEA: Thermal Equilibrium Abundances",
-        "url": "https://github.com/dzesmin/TEA",
-        "name": "TEA",
-        "full_name": "dzesmin/TEA",
-        "html_url": "https://github.com/dzesmin/TEA",
-        "description": "Thermochemical Equilibrium Abundances (TEA), a code to calculate gaseous molecular abundances under thermochemical equilibrium conditions",
-        "created_at": "2014-06-26T02:04:56Z",
-        "updated_at": "2022-02-06T18:57:32Z",
-        "clone_url": "https://github.com/dzesmin/TEA.git",
-        "size": 19542,
-        "stargazers_count": 26,
-        "watchers_count": 26,
-        "language": "Python",
-        "open_issues_count": 2,
-        "subscribers_count": 4,
-        "owner": {
-            "html_url": "https://github.com/dzesmin",
-            "avatar_url": "https://avatars.githubusercontent.com/u/3043106?v=4",
-            "login": "dzesmin",
-            "type": "User"
-        },
-        "timestamp": "2022-07-17 17:22:55.728291",
-        "avatar": "https://avatars.githubusercontent.com/u/3043106?v=4"
+    "name": "TEA",
+    "full_name": "dzesmin/TEA",
+    "html_url": "https://github.com/dzesmin/TEA",
+    "description": "Thermochemical Equilibrium Abundances (TEA), a code to calculate gaseous molecular abundances under thermochemical equilibrium conditions",
+    "created_at": "2014-06-26T02:04:56Z",
+    "updated_at": "2022-02-06T18:57:32Z",
+    "clone_url": "https://github.com/dzesmin/TEA.git",
+    "size": 19542,
+    "stargazers_count": 26,
+    "watchers_count": 26,
+    "language": "Python",
+    "open_issues_count": 2,
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/dzesmin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3043106?v=4",
+      "login": "dzesmin",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:22:55.728291",
+    "avatar": "https://avatars.githubusercontent.com/u/3043106?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"TEA - calculates Thermochemical Equilibrium Abundances of chemical species\" (describes a domain-specific scientific calculation tool, i.e., an application users run).",
+        "\"The Start Guide with basic instructions on how to install and run TEA is: doc/start_guide.txt\" (indicates users run the program directly, consistent with application software and direct research execution).",
+        "\"Visit our Github site: https://github.com/dzesmin/TEA/\" (points to GitHub as the primary distribution channel, i.e., source repository)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T23:39:24Z"
     }
+  },
+  "openssf_scorecard": {
+    "data": {
+      "date": "2026-01-23T10:50:18-05:00",
+      "repo": {
+        "name": "github.com/dzesmin/TEA",
+        "commit": "0ec66410f274d9deea7764d53d6363f9aaad3355"
+      },
+      "scorecard": {
+        "version": "v5.4.0",
+        "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+      },
+      "score": 2.8,
+      "checks": [
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no binaries found in the repo",
+          "name": "Binary-Artifacts",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#binary-artifacts",
+            "short": "Determines if the project has generated executable (binary) artifacts in the source repository."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "branch protection not enabled on development/release branches",
+          "name": "Branch-Protection",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#branch-protection",
+            "short": "Determines if the default and release branches are protected with GitHub's branch protection settings."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no pull request found",
+          "name": "CI-Tests",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#ci-tests",
+            "short": "Determines if the project runs tests before pull requests are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no effort to earn an OpenSSF best practices badge detected",
+          "name": "CII-Best-Practices",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#cii-best-practices",
+            "short": "Determines if the project has an OpenSSF (formerly CII) Best Practices Badge."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "Found 0/30 approved changesets -- score normalized to 0",
+          "name": "Code-Review",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#code-review",
+            "short": "Determines if the project requires human code review before pull requests (aka merge requests) are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 6,
+          "reason": "project has 2 contributing companies or organizations -- score normalized to 6",
+          "name": "Contributors",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#contributors",
+            "short": "Determines if the project has a set of contributors from multiple organizations (e.g., companies)."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no workflows found",
+          "name": "Dangerous-Workflow",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dangerous-workflow",
+            "short": "Determines if the project's GitHub Action workflows avoid dangerous patterns."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no update tool detected",
+          "name": "Dependency-Update-Tool",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dependency-update-tool",
+            "short": "Determines if the project uses a dependency update tool."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "project is not fuzzed",
+          "name": "Fuzzing",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#fuzzing",
+            "short": "Determines if the project uses fuzzing."
+          }
+        },
+        {
+          "details": null,
+          "score": 9,
+          "reason": "license file detected",
+          "name": "License",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#license",
+            "short": "Determines if the project has defined a license."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0",
+          "name": "Maintained",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#maintained",
+            "short": "Determines if the project is \"actively maintained\"."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "packaging workflow not detected",
+          "name": "Packaging",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#packaging",
+            "short": "Determines if the project is published as a package that others can easily download, install, easily update, and uninstall."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no dependencies found",
+          "name": "Pinned-Dependencies",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#pinned-dependencies",
+            "short": "Determines if the project has declared and pinned the dependencies of its build process."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no SAST tool detected",
+          "name": "SAST",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#sast",
+            "short": "Determines if the project uses static code analysis."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "security policy file not detected",
+          "name": "Security-Policy",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#security-policy",
+            "short": "Determines if the project has published a security policy."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no releases found",
+          "name": "Signed-Releases",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#signed-releases",
+            "short": "Determines if the project cryptographically signs release artifacts."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "No tokens found",
+          "name": "Token-Permissions",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#token-permissions",
+            "short": "Determines if the project's workflows follow the principle of least privilege."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "0 existing vulnerabilities detected",
+          "name": "Vulnerabilities",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#vulnerabilities",
+            "short": "Determines if the project has open, known unfixed vulnerabilities."
+          }
+        }
+      ],
+      "metadata": null
+    },
+    "timestamp_utc": "2026-01-23T15:50:25Z"
+  }
 }

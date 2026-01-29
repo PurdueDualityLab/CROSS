@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/kim8517/RVSNUpy",
+  "url": "https://github.com/kim8517/RVSNUpy",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2025AJ....170....9K",
+      "https://ui.adsabs.harvard.edu/abs/2025ascl.soft12012K/abstract"
+    ],
+    "title": "RVSNUpy: Spectroscopic redshift measurement by cross-correlation",
+    "url": "https://github.com/kim8517/RVSNUpy",
+    "name": "RVSNUpy",
+    "full_name": "kim8517/RVSNUpy",
+    "html_url": "https://github.com/kim8517/RVSNUpy",
+    "created_at": "2025-01-20T12:48:52Z",
+    "updated_at": "2025-12-18T21:38:21Z",
+    "clone_url": "https://github.com/kim8517/RVSNUpy.git",
+    "size": 19435,
+    "stargazers_count": 6,
+    "watchers_count": 6,
+    "language": "Python",
+    "open_issues_count": 1,
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/kim8517",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96759588?v=4",
+      "login": "kim8517",
+      "type": "User"
+    },
+    "timestamp": "2026-01-11 01:01:08.610840",
+    "avatar": "https://avatars.githubusercontent.com/u/96759588?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install .\"",
+        "\"RVSNUpy is a Python package for spectroscopic redshift measurement based on inverse-variance-weighted cross-correlation.\"",
+        "Usage is via imports: \"from RVSNUpy.spectrum_import import sdss_fits\" and \"from RVSNUpy.rvm import rvm\", indicating it is a reusable Python package/module."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:45:05Z"
+    }
+  }
+}

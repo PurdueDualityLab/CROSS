@@ -1,0 +1,63 @@
+{
+  "parser": "github",
+  "uid": "github/etal/cnvkit",
+  "url": null,
+  "data": {
+    "title": "CNVkit",
+    "url": "https://github.com/etal/cnvkit",
+    "credit": [],
+    "tags": [
+      "genomics",
+      "genomics"
+    ],
+    "description": "a command-line toolkit and Python library for detecting copy number variants and alterations genome-wide from high-throughput sequencing.",
+    "name": "cnvkit",
+    "full_name": "etal/cnvkit",
+    "html_url": "https://github.com/etal/cnvkit",
+    "created_at": "2014-07-07T20:12:27Z",
+    "updated_at": "2022-07-16T02:14:30Z",
+    "clone_url": "https://github.com/etal/cnvkit.git",
+    "homepage": "http://cnvkit.readthedocs.org",
+    "size": 105771,
+    "stargazers_count": 353,
+    "watchers_count": 353,
+    "language": "Python",
+    "open_issues_count": 216,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 32,
+    "owner": {
+      "html_url": "https://github.com/etal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52723?v=4",
+      "login": "etal",
+      "type": "User"
+    },
+    "timestamp": "2022-07-18 17:43:36.139347"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install cnvkit\"",
+        "\"A command-line toolkit and Python library for detecting copy number variants and alterations genome-wide from high-throughput sequencing.\"",
+        "\"The script `cnvkit.py` requires no installation and can be used in-place. Just install the dependencies (see below).\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:47:08Z"
+    }
+  }
+}

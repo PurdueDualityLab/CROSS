@@ -1,0 +1,64 @@
+{
+  "parser": "github",
+  "uid": "github/Ensembl/ensembl-vep",
+  "url": "https://github.com/Ensembl/ensembl-vep",
+  "data": {
+    "title": "ensembl_vep",
+    "url": "https://github.com/Ensembl/ensembl-vep",
+    "credit": [],
+    "tags": [
+      "genomics",
+      "genomics"
+    ],
+    "description": "The Ensembl Variant Effect Predictor predicts the functional effects of genomic variants",
+    "name": "ensembl-vep",
+    "full_name": "Ensembl/ensembl-vep",
+    "html_url": "https://github.com/Ensembl/ensembl-vep",
+    "created_at": "2016-04-05T12:08:24Z",
+    "updated_at": "2022-07-17T12:10:24Z",
+    "clone_url": "https://github.com/Ensembl/ensembl-vep.git",
+    "homepage": "https://www.ensembl.org/vep",
+    "size": 84978,
+    "stargazers_count": 322,
+    "watchers_count": 322,
+    "language": "Perl",
+    "open_issues_count": 84,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "subscribers_count": 27,
+    "owner": {
+      "html_url": "https://github.com/Ensembl",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5832463?v=4",
+      "login": "Ensembl",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-18 17:44:54.250896",
+    "avatar": "https://avatars.githubusercontent.com/u/5832463?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "conda",
+      "evidence": [
+        "README install command: \"Conda Ensembl VEP - the Ensembl VEP team did not produce the Conda install and we do not maintain it. You are welcome to use this package, but please be aware that we are not able to offer support for\"",
+        "Owner is the Ensembl organization and README links to Ensembl documentation and contact: “Please report any bugs or issues by contacting Ensembl…”, indicating an institutional project.",
+        "“VEP (Variant Effect Predictor) predicts the functional effects of genomic variants.” and usage examples like “./vep -i input.vcf -o out.txt -offline” show it is an end-user analysis tool, not just a library."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T17:08:29Z"
+    }
+  }
+}

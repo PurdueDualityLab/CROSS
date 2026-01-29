@@ -1,0 +1,52 @@
+{
+  "parser": "github",
+  "uid": "github/EmmanuelSchaan/LaSSI",
+  "url": "https://github.com/EmmanuelSchaan/LaSSI",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2020arXiv200712795S",
+      "https://ui.adsabs.harvard.edu/abs/2020ascl.soft10006S/abstract"
+    ],
+    "title": "LaSSI: Large-Scale Structure Information",
+    "url": "https://github.com/EmmanuelSchaan/LaSSI",
+    "name": "LaSSI",
+    "full_name": "EmmanuelSchaan/LaSSI",
+    "html_url": "https://github.com/EmmanuelSchaan/LaSSI",
+    "description": "Lightweight Fisher forecast for LSS.",
+    "created_at": "2018-07-05T00:50:39Z",
+    "updated_at": "2020-09-29T22:17:21Z",
+    "clone_url": "https://github.com/EmmanuelSchaan/LaSSI.git",
+    "size": 13138,
+    "language": "Python",
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/EmmanuelSchaan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2760268?v=4",
+      "login": "EmmanuelSchaan",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:13:42.171856",
+    "avatar": "https://avatars.githubusercontent.com/u/2760268?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install pathos\"",
+        "\"This Fisher code produces forecasts for the LSST 3x2 point functions analysis, or the LSSTxCMB S4 and LSSTxSO 6x2 point functions analyses. It computes the auto and cross correlations of galaxy number density, galaxy shear and CMB lensing convergence.\"",
+        "\"Just clone and run: `python driver_fisher_lsst.py`\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T17:07:57Z"
+    }
+  }
+}

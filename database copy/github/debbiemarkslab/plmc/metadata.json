@@ -1,0 +1,69 @@
+{
+  "parser": "github",
+  "uid": "github/debbiemarkslab/plmc",
+  "url": "https://github.com/debbiemarkslab/plmc",
+  "data": {
+    "title": "plmc",
+    "url": "https://github.com/debbiemarkslab/plmc",
+    "credit": [
+      "Debora S Marks",
+      "John Ingraham"
+    ],
+    "description": "Inference of couplings in proteins and RNAs from sequence variation",
+    "name": "plmc",
+    "full_name": "debbiemarkslab/plmc",
+    "html_url": "https://github.com/debbiemarkslab/plmc",
+    "created_at": "2016-01-09T22:22:36Z",
+    "updated_at": "2022-07-02T00:01:44Z",
+    "clone_url": "https://github.com/debbiemarkslab/plmc.git",
+    "size": 895,
+    "stargazers_count": 74,
+    "watchers_count": 74,
+    "language": "C",
+    "open_issues_count": 6,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 7,
+    "owner": {
+      "html_url": "https://github.com/debbiemarkslab",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8976419?v=4",
+      "login": "debbiemarkslab",
+      "type": "Organization"
+    },
+    "topics": [
+      "protein-sequences",
+      "sequence-alignments",
+      "undirected-graphs",
+      "protein-structure",
+      "protein-interaction"
+    ],
+    "timestamp": "2022-07-18 17:46:23.333094",
+    "avatar": "https://avatars.githubusercontent.com/u/8976419?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"-o  --output     paramfile       Save estimated parameters to file (binary)\"",
+        "\"plmc infers undirected graphical models to describe coevolution and covariation in families of biological sequences. With a multiple sequence alignment as an input, plmc can quantify inferred coupling strengths... or infer a generative model...\"",
+        "Usage section shows it as a command-line tool: \"plmc [options] alignmentfile\" and examples like \"bin/plmc -o example/protein/DHFR.params ...\" indicating end users run it directly for analyses."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:29:35Z"
+    }
+  }
+}

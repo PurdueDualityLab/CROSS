@@ -1,0 +1,64 @@
+{
+  "parser": "github",
+  "uid": "github/UCL/rmcmc",
+  "url": "https://github.com/UCL/rmcmc",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.17383113",
+    "name": "rmcmc",
+    "url": "https://github.com/UCL/rmcmc",
+    "full_name": "UCL/rmcmc",
+    "html_url": "https://github.com/UCL/rmcmc",
+    "description": "Robust Markov chain Monte Carlo methods in R",
+    "created_at": "2024-07-05T17:46:56Z",
+    "updated_at": "2025-11-03T13:55:54Z",
+    "clone_url": "https://github.com/UCL/rmcmc.git",
+    "homepage": "http://github-pages.ucl.ac.uk/rmcmc/",
+    "size": 5822,
+    "stargazers_count": 6,
+    "watchers_count": 6,
+    "language": "R",
+    "open_issues_count": 4,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/UCL",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2951150?v=4",
+      "login": "UCL",
+      "type": "Organization"
+    },
+    "topics": [
+      "approximate-inference",
+      "mcmc",
+      "r"
+    ],
+    "timestamp": "2025-11-09 00:55:00.566023",
+    "avatar": "https://avatars.githubusercontent.com/u/2951150?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"rmcmc\")\"",
+        "\"rmcmc is an R package for simulating Markov chains using the Barker proposal to compute Markov chain Monte Carlo (MCMC) estimates of expectations with respect to a target distribution\" (R package intended to be used from R code, i.e., as a dependency).",
+        "\"The latest published release version of `rmcmc` on CRAN can be installed using `install.packages(\"rmcmc\")`\" (distribution via CRAN package registry)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T20:34:43Z"
+    }
+  }
+}

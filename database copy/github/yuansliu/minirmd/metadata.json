@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/yuansliu/minirmd",
+  "url": "https://github.com/yuansliu/minirmd",
+  "data": {
+    "timestamp": "2020-09-27 00:24:17.950592",
+    "name": "minirmd",
+    "url": "https://api.github.com/repos/yuansliu/minirmd",
+    "full_name": "yuansliu/minirmd",
+    "html_url": "https://github.com/yuansliu/minirmd",
+    "private": false,
+    "description": null,
+    "created_at": "2020-08-24T12:11:01Z",
+    "updated_at": "2020-09-26T09:55:53Z",
+    "clone_url": "https://github.com/yuansliu/minirmd.git",
+    "homepage": null,
+    "size": 79,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Shell",
+    "open_issues_count": 0,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/yuansliu",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7776655?v=4",
+      "login": "yuansliu",
+      "type": "User"
+    },
+    "topics": []
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "conda",
+      "evidence": [
+        "README install command: \"conda install -c bioconda minirmd\"",
+        "\"minirmd is a tool to remove duplicate reads. The program is written in C++11 ... and works on Linux.\" (command-line tool users run)",
+        "Usage examples show direct execution: \"./minirmd -i test.fastq -o test_rm_1.fastq -d 1\" (end-user application for FASTQ read processing)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T05:09:42Z"
+    }
+  }
+}

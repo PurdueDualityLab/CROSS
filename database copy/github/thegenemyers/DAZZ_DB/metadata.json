@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/thegenemyers/DAZZ_DB",
+  "url": "https://github.com/thegenemyers/DAZZ_DB",
+  "data": {
+    "url": "https://github.com/thegenemyers/DAZZ_DB",
+    "title": "Dazzdb",
+    "description": "The Dazzler Data Base",
+    "name": "DAZZ_DB",
+    "full_name": "thegenemyers/DAZZ_DB",
+    "html_url": "https://github.com/thegenemyers/DAZZ_DB",
+    "created_at": "2014-06-01T08:32:44Z",
+    "updated_at": "2022-06-12T08:21:03Z",
+    "clone_url": "https://github.com/thegenemyers/DAZZ_DB.git",
+    "size": 600,
+    "stargazers_count": 36,
+    "watchers_count": 36,
+    "language": "C",
+    "open_issues_count": 6,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 7,
+    "owner": {
+      "html_url": "https://github.com/thegenemyers",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6890550?v=4",
+      "login": "thegenemyers",
+      "type": "User"
+    },
+    "timestamp": "2022-07-20 17:25:54.515925",
+    "avatar": "https://avatars.githubusercontent.com/u/6890550?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"* \".FOO.idx\": a binary \"index\" of all the meta-data about each read allowing, for\"",
+        "\"The Dazzler Database Library\" with commands like `fasta2DB`, `DBsplit`, `DBstats`, indicating a command-line tool suite rather than a reusable library imported by other code.",
+        "\"To facilitate the multiple phases of the dazzler assembler, we organize all the read data into what is effectively a 'database' of the reads\" – core to an assembly/analysis workflow, directly handling sequencing reads and statistics."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:23:31Z"
+    }
+  }
+}

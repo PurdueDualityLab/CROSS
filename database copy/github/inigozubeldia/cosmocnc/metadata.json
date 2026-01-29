@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/inigozubeldia/cosmocnc",
+  "url": "https://github.com/inigozubeldia/cosmocnc",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2024JCAP...11..018Z",
+      "https://ui.adsabs.harvard.edu/abs/2025ascl.soft02028Z/abstract"
+    ],
+    "title": "cosmocnc: Galaxy cluster number count likelihood computation",
+    "url": "https://github.com/inigozubeldia/cosmocnc",
+    "name": "cosmocnc",
+    "full_name": "inigozubeldia/cosmocnc",
+    "html_url": "https://github.com/inigozubeldia/cosmocnc",
+    "created_at": "2023-03-14T15:50:03Z",
+    "updated_at": "2025-02-11T22:20:57Z",
+    "clone_url": "https://github.com/inigozubeldia/cosmocnc.git",
+    "size": 14032,
+    "stargazers_count": 8,
+    "watchers_count": 8,
+    "language": "Jupyter Notebook",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/inigozubeldia",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49374875?v=4",
+      "login": "inigozubeldia",
+      "type": "User"
+    },
+    "timestamp": "2025-03-02 00:47:50.654327",
+    "avatar": "https://avatars.githubusercontent.com/u/49374875?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"$ pip install -e .\"",
+        "\"cosmocnc is a Python package for evaluating the number count likelihood of galaxy cluster catalogues in a fast, flexible and accurate way.\"",
+        "\"You'll then be able to import cosmocnc in Python with\n```\nimport cosmocnc\n```"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:26:18Z"
+    }
+  }
+}

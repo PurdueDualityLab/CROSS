@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/BradGreig/21CMMC",
+  "url": "https://github.com/BradGreig/21CMMC",
+  "data": {
+    "doi": [
+      "http://adsabs.harvard.edu/abs/2016MNRAS.463L..56P",
+      "http://adsabs.harvard.edu/abs/2015MNRAS.449.4246G",
+      "https://ui.adsabs.harvard.edu/abs/2016ascl.soft08017G/abstract"
+    ],
+    "title": "21CMMC: Parallelized Monte Carlo Markov Chain analysis tool for the epoch of reionization (EoR)",
+    "url": "https://github.com/BradGreig/21CMMC",
+    "name": "21CMMC",
+    "full_name": "BradGreig/21CMMC",
+    "html_url": "https://github.com/BradGreig/21CMMC",
+    "description": "A parallelised, Monte Carlo Markov Chain analysis tool for the epoch of reionisation (EoR)",
+    "created_at": "2015-12-01T19:24:27Z",
+    "updated_at": "2020-11-26T00:46:13Z",
+    "clone_url": "https://github.com/BradGreig/21CMMC.git",
+    "size": 136868,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "C",
+    "license": {
+      "key": "gpl-2.0",
+      "name": "GNU General Public License v2.0",
+      "spdx_id": "GPL-2.0",
+      "url": "https://api.github.com/licenses/gpl-2.0",
+      "node_id": "MDc6TGljZW5zZTg="
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/BradGreig",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16087482?v=4",
+      "login": "BradGreig",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 16:11:00.126246",
+    "avatar": "https://avatars.githubusercontent.com/u/16087482?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"21CMMC is a fast and efficient Python sampler of the semi-numerical reionisation simulation code 21cmFAST. It can recover constraints on astrophysical parameters from current or future 21 cm EoR experiments\"",
+        "\"A parallelised, Monte Carlo Markov Chain analysis tool for simultaneously exploring the epoch of reionisation (EoR) and the epoch of heating\"",
+        "\"If you use this code in any of your work, please cite the above papers and link to this repository.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T16:47:13Z"
+    }
+  }
+}

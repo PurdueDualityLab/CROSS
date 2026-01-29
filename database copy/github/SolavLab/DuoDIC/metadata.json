@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/SolavLab/DuoDIC",
+  "url": "https://github.com/SolavLab/DuoDIC",
+  "data": {
+    "timestamp": "2022-07-03 00:38:23.466371",
+    "name": "DuoDIC",
+    "url": "https://api.github.com/repos/SolavLab/DuoDIC",
+    "full_name": "SolavLab/DuoDIC",
+    "html_url": "https://github.com/SolavLab/DuoDIC",
+    "private": false,
+    "description": "Stereo 3D Digital Image Correlation (3D-DIC) MATLAB toolbox",
+    "created_at": "2021-12-12T13:41:16Z",
+    "updated_at": "2022-06-27T00:44:57Z",
+    "clone_url": "https://github.com/SolavLab/DuoDIC.git",
+    "homepage": "https://github.com/SolavLab/DuoDIC",
+    "size": 1598291,
+    "stargazers_count": 9,
+    "watchers_count": 9,
+    "language": "MATLAB",
+    "open_issues_count": 0,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/SolavLab",
+      "avatar_url": "https://avatars.githubusercontent.com/u/95631074?v=4",
+      "login": "SolavLab",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "doi": "https://doi.org/10.5281/zenodo.6673060",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"**b.** Download and unzip the latest [zip file](https://github.com/SolavLab/DuoDIC/archive/refs/heads/main.zip).\"",
+        "\"DuoDIC is an open-source MATLAB toolbox by Dana Solav's research group at Technion\"",
+        "\"High-level scripts allow users to perform 3D-DIC analyses with minimal interaction with MATLAB syntax\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T20:21:07Z"
+    }
+  }
+}

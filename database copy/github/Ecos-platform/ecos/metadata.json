@@ -1,0 +1,69 @@
+{
+  "parser": "github",
+  "uid": "github/Ecos-platform/ecos",
+  "url": "https://github.com/Ecos-platform/ecos",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.15600821",
+    "name": "ecos",
+    "url": "https://github.com/Ecos-platform/ecos",
+    "full_name": "Ecos-platform/ecos",
+    "html_url": "https://github.com/Ecos-platform/ecos",
+    "description": "A simple, fast and easy to use co-simulation engine.",
+    "created_at": "2021-08-17T20:11:37Z",
+    "updated_at": "2025-06-05T11:35:21Z",
+    "clone_url": "https://github.com/Ecos-platform/ecos.git",
+    "size": 21130,
+    "stargazers_count": 12,
+    "watchers_count": 12,
+    "language": "C++",
+    "open_issues_count": 6,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/Ecos-platform",
+      "avatar_url": "https://avatars.githubusercontent.com/u/89104260?v=4",
+      "login": "Ecos-platform",
+      "type": "Organization"
+    },
+    "topics": [
+      "co-simulation",
+      "fmi-standard",
+      "ssp-standard",
+      "command-line-tool",
+      "cpp20",
+      "fmi2",
+      "fmi3",
+      "python3",
+      "fmi1"
+    ],
+    "timestamp": "2025-06-08 00:57:11.689436",
+    "avatar": "https://avatars.githubusercontent.com/u/89104260?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Vendor or commercial entity",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "\"Ecos (Easy co-simulation) is a fast, efficient and very easy to use co-simulation engine written in modern C++.\"",
+        "\"`Ecos` is a framework for performing FMI-based co-simulation... The framework can be used either in C++, C, Python or through a CLI.\"",
+        "\"supports all versions of FMI for Co-simulation and provides a [pypi hosted](https://pypi.org/project/ecospy/) Python interface.\", \"`pip install ecospy`\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T17:06:22Z"
+    }
+  }
+}

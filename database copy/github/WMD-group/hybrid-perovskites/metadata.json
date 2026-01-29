@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/WMD-group/hybrid-perovskites",
+  "url": "https://github.com/WMD-group/hybrid-perovskites",
+  "data": {
+    "timestamp": "2022-05-12 03:44:01.674248",
+    "name": "hybrid-perovskites",
+    "url": "https://api.github.com/repos/WMD-group/hybrid-perovskites",
+    "full_name": "WMD-group/hybrid-perovskites",
+    "html_url": "https://github.com/WMD-group/hybrid-perovskites",
+    "private": false,
+    "description": "DFT optimised crystal structures of inorganic and hybrid halide perovskites",
+    "created_at": "2014-04-26T23:48:13Z",
+    "updated_at": "2022-04-17T16:00:31Z",
+    "clone_url": "https://github.com/WMD-group/hybrid-perovskites.git",
+    "homepage": "",
+    "size": 84,
+    "stargazers_count": 58,
+    "watchers_count": 58,
+    "language": null,
+    "open_issues_count": 1,
+    "license": {
+      "key": "gpl-2.0",
+      "name": "GNU General Public License v2.0",
+      "spdx_id": "GPL-2.0",
+      "url": "https://api.github.com/licenses/gpl-2.0",
+      "node_id": "MDc6TGljZW5zZTg="
+    },
+    "subscribers_count": 29,
+    "owner": {
+      "html_url": "https://github.com/WMD-group",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1716969?v=4",
+      "login": "WMD-group",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "doi": "10.5281/zenodo.2641358",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"A collection of optimised crystal structures of inorganic and hybrid halide perovskites, from density functional theory\" – research-focused artifact produced by a specific group (WMD-group org).",
+        "\"Calculated phonon data is collected in another Github repository\" – indicates this repo is a research asset shared via GitHub source.",
+        "\"Requirements – To open the .cif file, a viewer such as ... To run the POSCAR file: a VASP license\" – users obtain and use the data/files directly from the repository, implying source-repo distribution."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T20:38:12Z"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/ec363/fpcountr",
+  "url": "https://github.com/ec363/fpcountr",
+  "data": {
+    "timestamp": "2022-05-12 03:44:03.162455",
+    "name": "fpcountr",
+    "url": "https://api.github.com/repos/ec363/fpcountr",
+    "full_name": "ec363/fpcountr",
+    "html_url": "https://github.com/ec363/fpcountr",
+    "private": false,
+    "description": "Fluorescent protein calibration for plate readers",
+    "created_at": "2021-12-05T12:51:50Z",
+    "updated_at": "2021-12-07T00:41:38Z",
+    "clone_url": "https://github.com/ec363/fpcountr.git",
+    "homepage": "https://ec363.github.io/fpcountr/",
+    "size": 2916,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": "R",
+    "open_issues_count": 0,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/ec363",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51139488?v=4",
+      "login": "ec363",
+      "type": "User"
+    },
+    "topics": []
+  },
+  "contact": "Eszter Csibra <e.csibra@imperial.ac.uk>",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"fpcountr\")\"",
+        "\"The corresponding analytical software package is available on GitHub (https://github.com/ec363/fpcountr).\"",
+        "\"This package can handle multiple types of protein assay data ... Further, processed data produced with `process_plate()` ... should be further processed by either `calc_fppercell` ... or `calc_fpconc`.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:41:17Z"
+    }
+  }
+}

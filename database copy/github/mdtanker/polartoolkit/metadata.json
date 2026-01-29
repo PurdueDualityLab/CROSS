@@ -1,0 +1,74 @@
+{
+  "parser": "github",
+  "uid": "github/mdtanker/polartoolkit",
+  "url": "https://github.com/mdtanker/polartoolkit",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.13218540",
+    "name": "polartoolkit",
+    "url": "https://github.com/mdtanker/polartoolkit",
+    "full_name": "mdtanker/polartoolkit",
+    "html_url": "https://github.com/mdtanker/polartoolkit",
+    "description": "Helpful tools for polar researchers",
+    "created_at": "2022-03-30T01:31:24Z",
+    "updated_at": "2024-08-19T22:10:03Z",
+    "clone_url": "https://github.com/mdtanker/polartoolkit.git",
+    "homepage": "http://polartoolkit.readthedocs.io/",
+    "size": 1214836,
+    "stargazers_count": 34,
+    "watchers_count": 34,
+    "language": "Python",
+    "open_issues_count": 17,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/mdtanker",
+      "avatar_url": "https://avatars.githubusercontent.com/u/81199856?v=4",
+      "login": "mdtanker",
+      "type": "User"
+    },
+    "topics": [
+      "antarctica",
+      "bedmachine",
+      "pygmt",
+      "jupyter-notebook",
+      "bedmap",
+      "plotting",
+      "gmt",
+      "python",
+      "profiles",
+      "arctic",
+      "cryosphere",
+      "greenland",
+      "polar"
+    ],
+    "timestamp": "2024-08-25 00:42:29.472424",
+    "avatar": "https://avatars.githubusercontent.com/u/81199856?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"You can use it to download common datasets (i.e. BedMachine, Bedmap, MODIS Mosaics), create maps and plots specific to Antarctica, Greenland and the Arctic and visualize data with multiple methods.\"",
+        "\"PolarToolkit (formerly known as Antarctic-Plots) is a Python package to make polar (i.e. Antarctic, Arctic, Greenland) research more efficient, reproducible, and accessible.\"",
+        "\"The PolarToolkit python package provides some basic tools to help in conducting polar research. You can use it to download common datasets ... create maps and plots specific to Antarctica, Greenland and the Arctic and visualize data with multiple methods.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:17:10Z"
+    }
+  }
+}

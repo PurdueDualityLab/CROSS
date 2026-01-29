@@ -1,0 +1,50 @@
+{
+  "parser": "github",
+  "uid": "github/FergusDonnan/PAHDecomp",
+  "url": "https://github.com/FergusDonnan/PAHDecomp",
+  "data": {
+    "doi": [],
+    "title": "PAHDecomp: Decomposing the mid-IR spectra of extremely obscured galaxies.",
+    "url": "https://github.com/FergusDonnan/PAHDecomp",
+    "name": "PAHDecomp",
+    "full_name": "FergusDonnan/PAHDecomp",
+    "html_url": "https://github.com/FergusDonnan/PAHDecomp",
+    "created_at": "2022-09-07T09:59:03Z",
+    "updated_at": "2022-11-22T12:41:51Z",
+    "clone_url": "https://github.com/FergusDonnan/PAHDecomp.git",
+    "size": 3890,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "Python",
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/FergusDonnan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/80899217?v=4",
+      "login": "FergusDonnan",
+      "type": "User"
+    },
+    "timestamp": "2022-11-27 00:40:08.435396",
+    "avatar": "https://avatars.githubusercontent.com/u/80899217?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"To install simply download the files in the repository and place in some folder. To install any packages required for the code to work, from the terminal enter the directory and run: pip install -r re\"",
+        "\"PAHDecomp ... is a tool for modelling mid-infrared spectra of galaxies based on the popular PAHFIT code\" (describes a domain-specific analysis tool, not a reusable library).",
+        "\"To run the code type python 'PAHDecomp.py' in the terminal.\" (indicates it is executed as an end-user program from the command line)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T17:17:38Z"
+    }
+  }
+}

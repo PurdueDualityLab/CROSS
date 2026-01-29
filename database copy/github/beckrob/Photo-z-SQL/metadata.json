@@ -1,0 +1,55 @@
+{
+  "parser": "github",
+  "uid": "github/beckrob/Photo-z-SQL",
+  "url": "https://github.com/beckrob/Photo-z-SQL",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2017MNRAS.468.4323B",
+      "https://ui.adsabs.harvard.edu/abs/2017A%26C....19...34Bs",
+      "https://ui.adsabs.harvard.edu/abs/2017ascl.soft04009B/abstract"
+    ],
+    "title": "Photo-z-SQL: Photometric redshift estimation framework",
+    "url": "https://github.com/beckrob/Photo-z-SQL",
+    "name": "Photo-z-SQL",
+    "full_name": "beckrob/Photo-z-SQL",
+    "html_url": "https://github.com/beckrob/Photo-z-SQL",
+    "description": "C# template-based photometric redshift estimation framework",
+    "created_at": "2016-05-02T08:18:49Z",
+    "updated_at": "2020-11-26T12:41:23Z",
+    "clone_url": "https://github.com/beckrob/Photo-z-SQL.git",
+    "size": 42777,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "C#",
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/beckrob",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10948917?v=4",
+      "login": "beckrob",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:20:31.094943",
+    "avatar": "https://avatars.githubusercontent.com/u/10948917?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Photo-z-SQL is a database-integrated, template-based photometric redshift estimation software package\"",
+        "\"Comments, questions and requests about features/bugs/etc. should be sent to the lead author, Robert Beck.\"",
+        "Installation and usage are described via cloning/building and running SQL scripts in the repo directories (e.g. \"Navigate to Jhu.PhotoZSQL\\bin\\Release ... and execute the Create (install) script\"), with no mention of package managers or external registries."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T22:02:09Z"
+    }
+  }
+}

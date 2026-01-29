@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/telegraphic/fits2hdf",
+  "url": "https://github.com/telegraphic/fits2hdf",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2015A%26C....12..212P",
+      "https://ui.adsabs.harvard.edu/abs/2015ascl.soft05029P/abstract"
+    ],
+    "title": "fits2hdf: FITS to HDFITS conversion",
+    "url": "https://github.com/telegraphic/fits2hdf",
+    "name": "fits2hdf",
+    "full_name": "telegraphic/fits2hdf",
+    "html_url": "https://github.com/telegraphic/fits2hdf",
+    "description": "FITS to HDFITS conversion utility",
+    "created_at": "2014-10-06T00:03:32Z",
+    "updated_at": "2022-07-15T06:24:47Z",
+    "clone_url": "https://github.com/telegraphic/fits2hdf.git",
+    "size": 175,
+    "stargazers_count": 20,
+    "watchers_count": 20,
+    "language": "Python",
+    "open_issues_count": 3,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 8,
+    "owner": {
+      "html_url": "https://github.com/telegraphic",
+      "avatar_url": "https://avatars.githubusercontent.com/u/713251?v=4",
+      "login": "telegraphic",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:22:57.108556",
+    "avatar": "https://avatars.githubusercontent.com/u/713251?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"* [h5py](http://www.h5py.org/), a Pythonic interface to the HDF5 binary data format.\"",
+        "\"`fits2hdf` is a conversion to utility to port FITS files to Hierarchical Data Format (HDF5) files in the HDFITS format. In addition, there is a utility to port MeasurementSets (MS) to HDF5 files.\"",
+        "\"If you use this in published research, it sure would be swell if you could cite the [fits2hdf Astronomy & Computing paper]\" (indicates direct use in research workflows)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:02:06Z"
+    }
+  }
+}

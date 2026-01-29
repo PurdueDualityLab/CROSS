@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/optimusmoose/jsms",
+  "url": "https://github.com/optimusmoose/jsms",
+  "data": {
+    "timestamp": "2021-01-17 00:54:48.565077",
+    "name": "jsms",
+    "url": "https://api.github.com/repos/optimusmoose/jsms",
+    "full_name": "optimusmoose/jsms",
+    "html_url": "https://github.com/optimusmoose/jsms",
+    "private": false,
+    "description": "A modular JavaScript viewer for mass spectrometry data",
+    "created_at": "2017-01-17T22:54:08Z",
+    "updated_at": "2020-10-01T15:26:00Z",
+    "clone_url": "https://github.com/optimusmoose/jsms.git",
+    "homepage": null,
+    "size": 99650,
+    "stargazers_count": 9,
+    "watchers_count": 9,
+    "language": "Java",
+    "open_issues_count": 2,
+    "license": null,
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/optimusmoose",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1541778?v=4",
+      "login": "optimusmoose",
+      "type": "User"
+    },
+    "topics": []
+  },
+  "doi": "10.1101/2019.12.27.889253",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "Maven/Gradle ecosystem",
+      "evidence": [
+        "README shows dependency/install info: \"- Run `mvn package` from within the project root directory\"",
+        "\"JS-MS, JavaScript Mass Spectrometry, a visualization GUI for Mass Spectrometry signal data. Presents a robust, 3-dimensional graph view...\" (end-user GUI application)",
+        "\"If you are publishing any work related to the execution of this software, please cite the following papers\" (used directly in research workflows/results)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:44:35Z"
+    }
+  }
+}

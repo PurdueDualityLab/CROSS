@@ -1,0 +1,85 @@
+{
+  "parser": "github",
+  "uid": "github/combine-lab/salmon",
+  "url": "https://github.com/COMBINE-lab/salmon",
+  "data": {
+    "title": "Salmon",
+    "url": "https://github.com/COMBINE-lab/salmon",
+    "credit": [
+      "Carl Kingsford",
+      "Robert Patro"
+    ],
+    "tags": [
+      "rna-sequencing",
+      "high-throughput-sequencing"
+    ],
+    "description": "🐟 🍣 🍱 Highly-accurate & wicked fast transcript-level quantification from RNA-seq reads using selective alignment",
+    "name": "salmon",
+    "full_name": "COMBINE-lab/salmon",
+    "html_url": "https://github.com/COMBINE-lab/salmon",
+    "created_at": "2015-03-19T22:37:41Z",
+    "updated_at": "2022-07-18T10:23:45Z",
+    "clone_url": "https://github.com/COMBINE-lab/salmon.git",
+    "homepage": "https://combine-lab.github.io/salmon",
+    "size": 187755,
+    "stargazers_count": 561,
+    "watchers_count": 561,
+    "language": "C++",
+    "open_issues_count": 255,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 41,
+    "owner": {
+      "html_url": "https://github.com/COMBINE-lab",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8410750?v=4",
+      "login": "COMBINE-lab",
+      "type": "Organization"
+    },
+    "topics": [
+      "quasi-mapping",
+      "bioinformatics",
+      "rna-seq",
+      "rnaseq",
+      "salmon",
+      "quantification",
+      "sailfish",
+      "c-plus-plus",
+      "gene-expression",
+      "scrna-seq",
+      "single-cell",
+      "10x",
+      "selective-alignment",
+      "rna-seq-quantification",
+      "single-cell-rna-seq",
+      "transcriptome"
+    ],
+    "timestamp": "2022-07-18 17:46:39.218032",
+    "avatar": "https://avatars.githubusercontent.com/u/8410750?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"Give salmon a try!  You can find the latest binary releases [here](https://github.com/COMBINE-lab/salmon/releases).\"",
+        "\"Salmon is a **wicked**-fast program to produce a highly-accurate, transcript-level quantification estimates from RNA-seq data.\"",
+        "\"The result is a versatile tool that fits nicely into many different pipelines.  For example, you can choose to make use of our *selective-alignment* algorithm by providing Salmon with raw sequencing reads...\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:09:44Z"
+    }
+  }
+}

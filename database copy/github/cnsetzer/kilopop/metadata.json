@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/cnsetzer/kilopop",
+  "url": "https://github.com/cnsetzer/kilopop",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2023MNRAS.520.2829S",
+      "https://ui.adsabs.harvard.edu/abs/2023ascl.soft06052S/abstract"
+    ],
+    "title": "kilopop: Binary neutron star population of optical kilonovae",
+    "url": "https://github.com/cnsetzer/kilopop",
+    "name": "kilopop",
+    "full_name": "cnsetzer/kilopop",
+    "html_url": "https://github.com/cnsetzer/kilopop",
+    "description": "Binary neutron star (BNS) population of optical kilonovae (kNe).",
+    "created_at": "2022-01-21T16:31:32Z",
+    "updated_at": "2023-02-24T15:55:47Z",
+    "clone_url": "https://github.com/cnsetzer/kilopop.git",
+    "size": 45077,
+    "language": "Python",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/cnsetzer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32570203?v=4",
+      "login": "cnsetzer",
+      "type": "User"
+    },
+    "timestamp": "2023-07-02 00:53:46.672124",
+    "avatar": "https://avatars.githubusercontent.com/u/32570203?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"![Coverage](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/cnsetzer/f1a27976965673422ac94bc1afb240d3/raw/covbadge.json)\"",
+        "\"This package produces kilonovae following the population model presented in Setzer et al. 2023.\"",
+        "\"For basic usage, see example given in the Tutorial folder.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T22:58:57Z"
+    }
+  }
+}

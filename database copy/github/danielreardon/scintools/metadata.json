@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/danielreardon/scintools",
+  "url": "https://github.com/danielreardon/scintools",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2020ApJ...904..104R",
+      "https://ui.adsabs.harvard.edu/abs/2020ascl.soft11019R/abstract"
+    ],
+    "title": "Scintools: Pulsar scintillation data tools",
+    "url": "https://github.com/danielreardon/scintools",
+    "name": "scintools",
+    "full_name": "danielreardon/scintools",
+    "html_url": "https://github.com/danielreardon/scintools",
+    "description": "Tools for analysing of pulsar scintillations ",
+    "created_at": "2018-11-08T01:06:49Z",
+    "updated_at": "2022-06-17T01:40:34Z",
+    "clone_url": "https://github.com/danielreardon/scintools.git",
+    "size": 58779,
+    "stargazers_count": 7,
+    "watchers_count": 7,
+    "language": "Jupyter Notebook",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/danielreardon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/40694862?v=4",
+      "login": "danielreardon",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:13:25.251253",
+    "avatar": "https://avatars.githubusercontent.com/u/40694862?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"SCINTOOLS (SCINtillation TOOLS) is a package for the analysis and simulation of pulsar scintillation data. This code can be used for: processing observed dynamic spectra, computing secondary spectra and ACFs, measuring scintillation arcs, simulating dynamic spectra, and modelling pulsar transverse velocities...\"",
+        "\"Please email Daniel Reardon for further questions relating to usage: dreardon@swin.edu.au\"",
+        "\"If your work makes use of Scintools, please cite Reardon et al. (2020)... and provide a url link to this github page.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T23:26:03Z"
+    }
+  }
+}

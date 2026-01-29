@@ -1,0 +1,55 @@
+{
+  "parser": "github",
+  "uid": "github/mperezcarrasco/AnomalyALeRCE",
+  "url": "https://github.com/mperezcarrasco/AnomalyALeRCE",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2023AJ....166..151P",
+      "https://ui.adsabs.harvard.edu/abs/2024ascl.soft06013P/abstract"
+    ],
+    "title": "AAD: ALeRCE Anomaly Detector",
+    "url": "https://github.com/mperezcarrasco/AnomalyALeRCE",
+    "name": "AnomalyALeRCE",
+    "full_name": "mperezcarrasco/AnomalyALeRCE",
+    "html_url": "https://github.com/mperezcarrasco/AnomalyALeRCE",
+    "description": "Anomaly Detector for ALeRCE broker 🤖",
+    "created_at": "2021-04-22T07:50:23Z",
+    "updated_at": "2024-03-03T03:53:58Z",
+    "clone_url": "https://github.com/mperezcarrasco/AnomalyALeRCE.git",
+    "size": 20722,
+    "stargazers_count": 5,
+    "watchers_count": 5,
+    "language": "Jupyter Notebook",
+    "open_issues_count": 1,
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/mperezcarrasco",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26337065?v=4",
+      "login": "mperezcarrasco",
+      "type": "User"
+    },
+    "timestamp": "2024-06-30 00:39:08.860648",
+    "avatar": "https://avatars.githubusercontent.com/u/26337065?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install -r requirements.txt\"",
+        "\"Welcome to the **ALeRCE anomaly detector** framework. This is the main repository where you can find all the resources associated to our article\"",
+        "\"main.py: code for running the models\" and usage examples like `python3 main.py --model ae --hierClass Transient --outlier YSO` indicate it is run as an end-user program for anomaly detection on light curves."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:26:14Z"
+    }
+  }
+}

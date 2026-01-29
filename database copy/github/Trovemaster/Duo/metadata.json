@@ -1,0 +1,55 @@
+{
+  "parser": "github",
+  "uid": "github/Trovemaster/Duo",
+  "url": "https://github.com/Trovemaster/Duo",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2016CoPhC.202..262Y",
+      "https://ui.adsabs.harvard.edu/abs/2016ascl.soft05014Y/abstract"
+    ],
+    "title": "DUO: Spectra of diatomic molecules",
+    "url": "https://github.com/Trovemaster/Duo",
+    "name": "Duo",
+    "full_name": "Trovemaster/Duo",
+    "html_url": "https://github.com/Trovemaster/Duo",
+    "description": "Duo is a diatomic code for solving a fully coupled rovibronic Schroedinger equation",
+    "created_at": "2015-11-17T10:48:04Z",
+    "updated_at": "2022-01-25T12:32:20Z",
+    "clone_url": "https://github.com/Trovemaster/Duo.git",
+    "size": 76084,
+    "stargazers_count": 8,
+    "watchers_count": 8,
+    "language": "Fortran",
+    "open_issues_count": 1,
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/Trovemaster",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12001159?v=4",
+      "login": "Trovemaster",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:21:44.044698",
+    "avatar": "https://avatars.githubusercontent.com/u/12001159?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Duo is a diatomic Fortran 2003 code code for solving a fully coupled rovibronic Schroedinger equation\" (domain-specific scientific computation, used directly for calculations).",
+        "README describes scientific features and bug fixes (\"dipole intensity calculations have been optimised\", \"compute intensities for bound and continuum spectra\") but does not mention being a library imported by other software, suggesting a standalone research code.",
+        "No installation via package managers, containers, or binaries is mentioned; only the code and documentation are referenced, implying distribution primarily via the source repository and docs link."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T20:34:19Z"
+    }
+  }
+}

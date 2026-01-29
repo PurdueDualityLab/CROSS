@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/oliverphilcox/RascalC",
+  "url": "https://github.com/oliverphilcox/RascalC",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2020MNRAS.491.3290P",
+      "https://ui.adsabs.harvard.edu/abs/2019ascl.soft09008P/abstract"
+    ],
+    "title": "RascalC: Fast code for galaxy covariance matrix estimation",
+    "url": "https://github.com/oliverphilcox/RascalC",
+    "name": "RascalC",
+    "full_name": "oliverphilcox/RascalC",
+    "html_url": "https://github.com/oliverphilcox/RascalC",
+    "description": "RascalC: A Fast Code for Galaxy Covariance Matrix Estimation",
+    "created_at": "2018-09-14T15:17:47Z",
+    "updated_at": "2022-02-04T11:26:21Z",
+    "clone_url": "https://github.com/oliverphilcox/RascalC.git",
+    "size": 225804,
+    "stargazers_count": 8,
+    "watchers_count": 8,
+    "language": "C++",
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/oliverphilcox",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30410089?v=4",
+      "login": "oliverphilcox",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:15:55.160824",
+    "avatar": "https://avatars.githubusercontent.com/u/30410089?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"C++ code to simulate correlation function covariance matrices from large surveys, using a grid and jackknife based approach.\"",
+        "\"***New for version 3***: Python interface and library/package (fundamentals, installation, practical examples)\"",
+        "README describes scientific functionality and documentation but gives no indication of distribution via package registries or containers, implying use via the source repository and its documented installation."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T01:42:39Z"
+    }
+  }
+}

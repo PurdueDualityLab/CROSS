@@ -1,0 +1,63 @@
+{
+  "parser": "github",
+  "uid": "github/sibirrer/psfr",
+  "url": "https://github.com/sibirrer/psfr",
+  "data": {
+    "doi": [],
+    "title": "PSFr - Point Spread Function reconstruction",
+    "url": "https://github.com/sibirrer/psfr",
+    "name": "psfr",
+    "full_name": "sibirrer/psfr",
+    "html_url": "https://github.com/sibirrer/psfr",
+    "description": "Point Spread Function reconstruction",
+    "created_at": "2022-07-17T22:06:48Z",
+    "updated_at": "2022-10-04T18:39:27Z",
+    "clone_url": "https://github.com/sibirrer/psfr.git",
+    "size": 6608,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "Python",
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/sibirrer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6814174?v=4",
+      "login": "sibirrer",
+      "type": "User"
+    },
+    "topics": [
+      "astronomy",
+      "psf-estimation",
+      "lenstronomy"
+    ],
+    "timestamp": "2022-10-23 00:54:25.673474",
+    "avatar": "https://avatars.githubusercontent.com/u/6814174?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "Owner metadata: owner_type is User and owner_login is a single person (sibirrer), indicating an individual maintainer.",
+        "\"Point Spread Function reconstruction for astronomical ground- and space-based imaging data.\" and example shows direct use via `from psfr.psfr import stack_psf` to run PSF reconstruction, indicating an end-user analysis tool.",
+        "\"PSFr is in use with James Webb Space Telescope imaging data\" and multiple cited papers, showing it directly contributes to scientific analyses and results."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T03:26:46Z"
+    }
+  }
+}

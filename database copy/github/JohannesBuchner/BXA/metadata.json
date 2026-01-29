@@ -1,0 +1,68 @@
+{
+  "parser": "github",
+  "uid": "github/JohannesBuchner/BXA",
+  "url": "https://github.com/JohannesBuchner/BXA",
+  "data": {
+    "timestamp": "2021-05-09 00:28:23.407841",
+    "name": "BXA",
+    "url": "https://api.github.com/repos/JohannesBuchner/BXA",
+    "full_name": "JohannesBuchner/BXA",
+    "html_url": "https://github.com/JohannesBuchner/BXA",
+    "private": false,
+    "description": "Bayesian X-ray analysis (nested sampling for Xspec and Sherpa)",
+    "created_at": "2014-01-31T17:32:17Z",
+    "updated_at": "2021-04-27T11:37:51Z",
+    "clone_url": "https://github.com/JohannesBuchner/BXA.git",
+    "homepage": "https://johannesbuchner.github.io/BXA/",
+    "size": 39587,
+    "stargazers_count": 21,
+    "watchers_count": 21,
+    "language": "Python",
+    "open_issues_count": 5,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/JohannesBuchner",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51015?v=4",
+      "login": "JohannesBuchner",
+      "type": "User"
+    },
+    "topics": [
+      "nested-sampling",
+      "python",
+      "x-ray-astronomy",
+      "spectroscopy",
+      "xspec",
+      "sherpa",
+      "model-selection"
+    ]
+  },
+  "doi": "https://doi.org/10.5281/zenodo.4721575",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"$ pip install bxa\"",
+        "\"BXA connects the X-ray spectral analysis environments Xspec/Sherpa to the nested sampling algorithm UltraNest for **Bayesian Parameter Estimation** and **Model comparison**.\"",
+        "\"In *Sherpa*, load the package:: ... sherpa-1> import bxa.sherpa as bxa\" and \"For *Xspec* ... In [2]: import bxa.xspec as bxa\" (used as an imported library)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T18:06:17Z"
+    }
+  }
+}

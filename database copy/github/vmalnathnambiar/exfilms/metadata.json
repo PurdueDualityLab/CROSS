@@ -1,0 +1,64 @@
+{
+  "parser": "github",
+  "uid": "github/vmalnathnambiar/exfilms",
+  "url": "https://github.com/vmalnathnambiar/exfilms",
+  "data": {
+    "doi": "10.5281/zenodo.10976761",
+    "name": "exfilms",
+    "url": "https://github.com/vmalnathnambiar/exfilms",
+    "full_name": "vmalnathnambiar/exfilms",
+    "html_url": "https://github.com/vmalnathnambiar/exfilms",
+    "description": "A cross-platform, command line interface tool to extract mass spectrometry data from mzML formatted files, with filtering capabilities.",
+    "created_at": "2023-12-15T01:16:59Z",
+    "updated_at": "2024-06-12T04:06:15Z",
+    "clone_url": "https://github.com/vmalnathnambiar/exfilms.git",
+    "homepage": "https://github.com/vmalnathnambiar/exfilms",
+    "size": 20444,
+    "language": "JavaScript",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/vmalnathnambiar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/104112048?v=4",
+      "login": "vmalnathnambiar",
+      "type": "User"
+    },
+    "topics": [
+      "data-extraction",
+      "mass-spectrometry",
+      "spectrum-filtering",
+      "command-line-tool",
+      "data-standardisation",
+      "open-source"
+    ],
+    "timestamp": "2024-06-16 00:39:13.345443",
+    "avatar": "https://avatars.githubusercontent.com/u/104112048?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "npm",
+      "evidence": [
+        "README install command: \"sudo npm install -g exfilms\"",
+        "\"A command-line interface tool to extract, filter, and standardise mass spectrometry data.\"",
+        "\"sudo npm install -g exfilms\" (indicates distribution via npm package registry)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:39:24Z"
+    }
+  }
+}

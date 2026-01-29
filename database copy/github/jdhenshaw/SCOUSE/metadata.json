@@ -1,0 +1,55 @@
+{
+  "parser": "github",
+  "uid": "github/jdhenshaw/SCOUSE",
+  "url": "https://github.com/jdhenshaw/SCOUSE",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2016MNRAS.457.2675H",
+      "https://ui.adsabs.harvard.edu/abs/2016ascl.soft01003H/abstract"
+    ],
+    "title": "SCOUSE: Semi-automated multi-COmponent Universal Spectral-line fitting Engine",
+    "url": "https://github.com/jdhenshaw/SCOUSE",
+    "name": "SCOUSE",
+    "full_name": "jdhenshaw/SCOUSE",
+    "html_url": "https://github.com/jdhenshaw/SCOUSE",
+    "description": "Semi-automated multi-COmponent Universal Spectral-line fitting Engine",
+    "created_at": "2015-11-10T20:37:44Z",
+    "updated_at": "2019-05-22T10:21:51Z",
+    "clone_url": "https://github.com/jdhenshaw/SCOUSE.git",
+    "size": 1116,
+    "stargazers_count": 7,
+    "watchers_count": 7,
+    "language": "IDL",
+    "open_issues_count": 4,
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/jdhenshaw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11787340?v=4",
+      "login": "jdhenshaw",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:22:19.985820",
+    "avatar": "https://avatars.githubusercontent.com/u/11787340?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"SCOUSE is a spectral line fitting algorithm. The current version fits Gaussian files to spectral line emission.\"",
+        "\"The method is broken down into seven stages. The codes used to implement each stage of the process can be found in the directory SCOUSE/SCOUSE_main.\"",
+        "\"The function files need to be located in the working directory, or in some other location specified in your IDL_PATH.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:31:31Z"
+    }
+  }
+}

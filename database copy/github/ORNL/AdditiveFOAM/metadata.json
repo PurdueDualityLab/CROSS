@@ -1,0 +1,66 @@
+{
+  "parser": "github",
+  "uid": "github/ORNL/AdditiveFOAM",
+  "url": "https://github.com/ORNL/AdditiveFOAM",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.15413241",
+    "name": "AdditiveFOAM",
+    "url": "https://github.com/ORNL/AdditiveFOAM",
+    "full_name": "ORNL/AdditiveFOAM",
+    "html_url": "https://github.com/ORNL/AdditiveFOAM",
+    "description": "A continuum physics code for additive manufacturing built on OpenFOAM",
+    "created_at": "2023-03-28T14:59:54Z",
+    "updated_at": "2025-05-15T03:26:17Z",
+    "clone_url": "https://github.com/ORNL/AdditiveFOAM.git",
+    "homepage": "https://ornl.github.io/AdditiveFOAM/",
+    "size": 261,
+    "stargazers_count": 30,
+    "watchers_count": 30,
+    "language": "C++",
+    "open_issues_count": 9,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 8,
+    "owner": {
+      "html_url": "https://github.com/ORNL",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5138006?v=4",
+      "login": "ORNL",
+      "type": "Organization"
+    },
+    "topics": [
+      "openfoam",
+      "additive-manufactering",
+      "fluid-flow",
+      "heat-transport",
+      "simulation-modeling"
+    ],
+    "timestamp": "2025-05-25 00:56:06.837149",
+    "avatar": "https://avatars.githubusercontent.com/u/5138006?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "Spack",
+      "evidence": [
+        "“`AdditiveFOAM` is a free, open source heat and mass transfer software for simulations of Additive Manufacturing (AM) released by Oak Ridge National Laboratory.”",
+        "“The easiest way to install AdditiveFOAM is using [spack](https://spack.readthedocs.io/en/latest/):  `spack install additivefoam`”",
+        "Repository features include a “solver… Development version of the solver” and “Utilities for post-processing and code wrappers,” indicating it is a simulation application used to perform research computations."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T19:41:35Z"
+    }
+  }
+}

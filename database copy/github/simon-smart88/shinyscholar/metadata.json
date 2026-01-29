@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/simon-smart88/shinyscholar",
+  "url": "https://github.com/simon-smart88/shinyscholar",
+  "data": {
+    "name": "shinyscholar",
+    "url": "https://github.com/simon-smart88/shinyscholar",
+    "full_name": "simon-smart88/shinyscholar",
+    "html_url": "https://github.com/simon-smart88/shinyscholar",
+    "private": false,
+    "description": "A template for creating modular shiny applications that meet academic standards and are reproducible",
+    "created_at": "2023-09-28T13:10:22Z",
+    "updated_at": "2024-11-21T17:28:04Z",
+    "clone_url": "https://github.com/simon-smart88/shinyscholar.git",
+    "homepage": "https://simon-smart88.github.io/shinyscholar/",
+    "size": 102620,
+    "stargazers_count": 17,
+    "watchers_count": 17,
+    "language": "R",
+    "open_issues_count": 3,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/simon-smart88",
+      "avatar_url": "https://avatars.githubusercontent.com/u/137152810?v=4",
+      "login": "simon-smart88",
+      "type": "User"
+    },
+    "topics": [],
+    "timestamp": "2024-11-24 00:49:30.619120",
+    "avatar": "https://avatars.githubusercontent.com/u/137152810?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"shinyscholar\")\"",
+        "\"Shinyscholar creates a skeleton R Shiny application that can be used to create complex applications...\" (template/library for others to build apps, not a standalone end-user analysis app itself).",
+        "\"To use *shinyscholar* to create new applications you can install with the following R code: install.packages(\"shinyscholar\")\" (distributed via an R package registry)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T03:27:38Z"
+    }
+  }
+}

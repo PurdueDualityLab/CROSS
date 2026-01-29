@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/JuliaSmoothOptimizers/PDENLPModels.jl",
+  "url": "https://github.com/JuliaSmoothOptimizers/PDENLPModels.jl",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.7447623",
+    "name": "PDENLPModels.jl",
+    "url": "https://github.com/JuliaSmoothOptimizers/PDENLPModels.jl",
+    "full_name": "JuliaSmoothOptimizers/PDENLPModels.jl",
+    "html_url": "https://github.com/JuliaSmoothOptimizers/PDENLPModels.jl",
+    "description": "A NLPModel API for optimization problems with PDE-constraints",
+    "created_at": "2020-10-27T16:28:19Z",
+    "updated_at": "2022-09-27T01:43:23Z",
+    "clone_url": "https://github.com/JuliaSmoothOptimizers/PDENLPModels.jl.git",
+    "size": 5385,
+    "stargazers_count": 16,
+    "watchers_count": 16,
+    "language": "Julia",
+    "open_issues_count": 14,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/JuliaSmoothOptimizers",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15710294?v=4",
+      "login": "JuliaSmoothOptimizers",
+      "type": "Organization"
+    },
+    "timestamp": "2022-12-18 00:33:45.775483",
+    "avatar": "https://avatars.githubusercontent.com/u/15710294?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "Julia General Registry (add PDENLPModels)",
+      "evidence": [
+        "\"PDENLPModels specializes the NLPModel API to optimization problems with partial differential equations in the constraints. The package relies on Gridap.jl for the modeling and the computation of the derivatives.\" (library-style package description)",
+        "Installation section: \"`] add PDENLPModels`\" (Julia package manager / registry-based installation)",
+        "Example usage: \"using Gridap, PDENLPModels\" followed by construction of `nlp = GridapPDENLPModel(...)` to solve PDE-constrained optimization problems (directly used to formulate and solve research optimization models)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T18:09:03Z"
+    }
+  }
+}

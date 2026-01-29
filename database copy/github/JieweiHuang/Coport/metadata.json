@@ -1,0 +1,53 @@
+{
+  "parser": "github",
+  "uid": "github/JieweiHuang/Coport",
+  "url": "https://github.com/JieweiHuang/Coport",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2024JCAP...11..054H",
+      "https://ui.adsabs.harvard.edu/abs/2024ascl.soft12006H/abstract"
+    ],
+    "title": "Coport: Covariant polarized radiative transfer",
+    "url": "https://github.com/JieweiHuang/Coport",
+    "name": "Coport",
+    "full_name": "JieweiHuang/Coport",
+    "html_url": "https://github.com/JieweiHuang/Coport",
+    "description": "A Covariant Polarized Radiative Transfer  Code",
+    "created_at": "2024-07-15T01:29:41Z",
+    "updated_at": "2024-12-02T08:09:15Z",
+    "clone_url": "https://github.com/JieweiHuang/Coport.git",
+    "size": 19,
+    "stargazers_count": 7,
+    "watchers_count": 7,
+    "language": "Julia",
+    "owner": {
+      "html_url": "https://github.com/JieweiHuang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/175380276?v=4",
+      "login": "JieweiHuang",
+      "type": "User"
+    },
+    "timestamp": "2025-01-12 00:48:03.827316",
+    "avatar": "https://avatars.githubusercontent.com/u/175380276?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "“Coport is a Julia-based program designed for computing covariant polarized radiation transfer in any spacetime. This code is particularly useful for imaging black hole accretion systems.”",
+        "“After configuring all parameters, you can simply run the `main.jl` file to generate the output.”",
+        "“If you use our code, please cite '[Coport: A New Public Code for Polarized Radiative Transfer in a Covariant Framework]' by Jiewei Huang, Liheng Zheng, Minyong Guo and Bin Chen.”"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T18:05:34Z"
+    }
+  }
+}

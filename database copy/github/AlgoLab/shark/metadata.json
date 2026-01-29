@@ -1,0 +1,65 @@
+{
+  "parser": "github",
+  "uid": "github/AlgoLab/shark",
+  "url": "https://github.com/AlgoLab/shark",
+  "data": {
+    "timestamp": "2020-09-20 00:23:18.179941",
+    "name": "shark",
+    "url": "https://api.github.com/repos/AlgoLab/shark",
+    "full_name": "AlgoLab/shark",
+    "html_url": "https://github.com/AlgoLab/shark",
+    "private": false,
+    "description": "Mapping-free filtering of irrelevant RNA-Seq reads",
+    "created_at": "2018-09-12T13:42:55Z",
+    "updated_at": "2020-09-17T11:25:47Z",
+    "clone_url": "https://github.com/AlgoLab/shark.git",
+    "homepage": "",
+    "size": 31818,
+    "stargazers_count": 7,
+    "watchers_count": 7,
+    "language": "C++",
+    "open_issues_count": 0,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/AlgoLab",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/449800?v=4",
+      "login": "AlgoLab",
+      "type": "Organization"
+    },
+    "topics": [
+      "bioinformatics",
+      "rna-seq",
+      "alignment-free",
+      "filtering"
+    ]
+  },
+  "doi": "10.1101/836130",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"[![Anaconda-Server Badge](https://anaconda.org/bioconda/shark/badges/installer/conda.svg)](https://conda.anaconda.org/bioconda)\"",
+        "Owner is GitHub organization 'AlgoLab', and README cites a bioinformatics paper with multiple academic authors, indicating a research group/lab project.",
+        "README: '# Shark Fast tool for mapping-free gene separation of reads, using Bloom filter.' and usage shows running a compiled executable `shark`, indicating an end-user analysis tool rather than a library."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T16:34:27Z"
+    }
+  }
+}

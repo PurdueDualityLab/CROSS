@@ -1,0 +1,55 @@
+{
+  "parser": "github",
+  "uid": "github/eblur/dust",
+  "url": "https://github.com/eblur/dust",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2015ApJ...805...23C",
+      "https://ui.adsabs.harvard.edu/abs/2015ascl.soft03005C/abstract"
+    ],
+    "title": "dust: Dust scattering and extinction in the X-ray",
+    "url": "https://github.com/eblur/dust",
+    "name": "dust",
+    "full_name": "eblur/dust",
+    "html_url": "https://github.com/eblur/dust",
+    "description": "For calculating dust scattering and extinction",
+    "created_at": "2012-10-09T02:25:52Z",
+    "updated_at": "2021-05-12T10:29:13Z",
+    "clone_url": "https://github.com/eblur/dust.git",
+    "size": 3194,
+    "stargazers_count": 8,
+    "watchers_count": 8,
+    "language": "Python",
+    "open_issues_count": 16,
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/eblur",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2516513?v=4",
+      "login": "eblur",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:23:11.049600",
+    "avatar": "https://avatars.githubusercontent.com/u/2516513?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"dust: For calculating dust scattering and extinction from the X-ray to infrared\" (domain-specific scientific calculation tool).",
+        "\"Previous versions of eblur/dust used in publications\" indicating it is directly used to produce research results.",
+        "\"Clone the repo and then run setup\" with git clone instructions, showing distribution via source repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T23:41:00Z"
+    }
+  }
+}

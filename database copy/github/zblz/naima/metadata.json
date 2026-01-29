@@ -1,0 +1,70 @@
+{
+  "parser": "github",
+  "uid": "github/zblz/naima",
+  "url": "https://github.com/zblz/naima",
+  "data": {
+    "doi": [
+      "http://adsabs.harvard.edu/abs/2015ICRC...34..922Z",
+      "https://ui.adsabs.harvard.edu/abs/2017ascl.soft08022Z/abstract"
+    ],
+    "title": "Naima: Derivation of non-thermal particle distributions through MCMC spectral fitting",
+    "url": "https://github.com/zblz/naima",
+    "name": "naima",
+    "full_name": "zblz/naima",
+    "html_url": "https://github.com/zblz/naima",
+    "description": "Derivation of non-thermal particle distributions through MCMC spectral fitting",
+    "created_at": "2013-07-12T11:22:10Z",
+    "updated_at": "2022-04-29T06:22:16Z",
+    "clone_url": "https://github.com/zblz/naima.git",
+    "homepage": "http://naima.readthedocs.io",
+    "size": 15136,
+    "stargazers_count": 32,
+    "watchers_count": 32,
+    "language": "Python",
+    "open_issues_count": 22,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "subscribers_count": 13,
+    "owner": {
+      "html_url": "https://github.com/zblz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/576258?v=4",
+      "login": "zblz",
+      "type": "User"
+    },
+    "topics": [
+      "astronomy",
+      "astrophysics",
+      "python",
+      "data-analysis",
+      "gamma-ray-astronomy"
+    ],
+    "timestamp": "2022-07-17 17:20:03.202454",
+    "avatar": "https://avatars.githubusercontent.com/u/576258?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "“`naima` is a Python package for computation of non-thermal radiation from relativistic particle populations.”",
+        "“Naima: a Python package for inference of particle distribution properties from nonthermal spectra” (title of cited paper, indicating it is a domain analysis tool used in research).",
+        "PyPI badge and link: “http://img.shields.io/pypi/v/naima.svg :target: https://pypi.python.org/pypi/naima/” indicating distribution via the PyPI package registry."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T05:10:50Z"
+    }
+  }
+}

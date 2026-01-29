@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/CLIMADA-project/climada_python",
+  "url": "https://github.com/CLIMADA-project/climada_python",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.12794729",
+    "name": "climada_python",
+    "url": "https://github.com/CLIMADA-project/climada_python",
+    "full_name": "CLIMADA-project/climada_python",
+    "html_url": "https://github.com/CLIMADA-project/climada_python",
+    "description": "Python (3.8+) version of CLIMADA",
+    "created_at": "2017-12-01T10:47:53Z",
+    "updated_at": "2024-07-19T07:57:53Z",
+    "clone_url": "https://github.com/CLIMADA-project/climada_python.git",
+    "size": 171439,
+    "stargazers_count": 293,
+    "watchers_count": 293,
+    "language": "Jupyter Notebook",
+    "open_issues_count": 70,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 22,
+    "owner": {
+      "html_url": "https://github.com/CLIMADA-project",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44439051?v=4",
+      "login": "CLIMADA-project",
+      "type": "Organization"
+    },
+    "timestamp": "2024-07-28 00:40:55.106023",
+    "avatar": "https://avatars.githubusercontent.com/u/44439051?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"As of today, CLIMADA provides global coverage of major climate-related extreme-weather hazards at high resolution (4x4km) via a [data API](https://climada.ethz.ch/data-api/v1/docs) For select hazards,\"",
+        "\"CLIMADA (CLIMate ADAptation) is a free and open-source software framework for climate risk assessment and adaptation option appraisal. Designed by a large scientific community, it helps reasearchers, policymakers, and businesses analyse the impacts of natural hazards and explore adaptation strategies.\"",
+        "\"the core climada_python contains all the modules necessary for the probabilistic impact, the averted damage, uncertainty and forecast calculations.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T16:49:24Z"
+    }
+  }
+}

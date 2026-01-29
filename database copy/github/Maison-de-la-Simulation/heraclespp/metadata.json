@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/Maison-de-la-Simulation/heraclespp",
+  "url": "https://github.com/Maison-de-la-Simulation/heraclespp",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2025A%2526A...696A.201R",
+      "https://ui.adsabs.harvard.edu/abs/2025ascl.soft11024R/abstract"
+    ],
+    "title": "HERACLES++: Multidimensional compressible hydrodynamics solver",
+    "url": "https://github.com/Maison-de-la-Simulation/heraclespp",
+    "name": "heraclespp",
+    "full_name": "Maison-de-la-Simulation/heraclespp",
+    "html_url": "https://github.com/Maison-de-la-Simulation/heraclespp",
+    "description": "HERACLES++ is a hydrodynamic code with a moving grid, designed to run on different architectures using Kokkos.",
+    "created_at": "2025-03-20T08:37:11Z",
+    "updated_at": "2026-01-06T13:21:45Z",
+    "clone_url": "https://github.com/Maison-de-la-Simulation/heraclespp.git",
+    "size": 10079,
+    "stargazers_count": 10,
+    "watchers_count": 10,
+    "language": "C++",
+    "open_issues_count": 6,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/Maison-de-la-Simulation",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60662067?v=4",
+      "login": "Maison-de-la-Simulation",
+      "type": "Organization"
+    },
+    "timestamp": "2026-01-11 01:01:16.389502",
+    "avatar": "https://avatars.githubusercontent.com/u/60662067?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "Owner is GitHub organization `Maison-de-la-Simulation`, indicating an institutional project rather than an individual maintainer.",
+        "README describes building and running an executable: \"The executable can be found in the directory `build/src/heracles++`. The execution needs an input file and is done with the following command: `./build/src/heracles++ ./inputs/shock_tube.ini`\", indicating end-user application software.",
+        "Citation describes it as \"HERACLES++: A multidimensional Eulerian code for exascale computing\", implying a scientific simulation code directly used to produce research results."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T19:05:17Z"
+    }
+  }
+}

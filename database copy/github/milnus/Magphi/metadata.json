@@ -1,0 +1,64 @@
+{
+  "parser": "github",
+  "uid": "github/milnus/Magphi",
+  "url": "https://github.com/milnus/Magphi",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.6814768",
+    "name": "Magphi",
+    "url": "https://github.com/milnus/Magphi",
+    "full_name": "milnus/Magphi",
+    "html_url": "https://github.com/milnus/Magphi",
+    "description": "Tool intended to pull out sequences and annotations between insertion sites specified by the user.",
+    "created_at": "2021-03-17T00:15:12Z",
+    "updated_at": "2022-07-11T00:24:30Z",
+    "clone_url": "https://github.com/milnus/Magphi.git",
+    "size": 16514,
+    "stargazers_count": 6,
+    "watchers_count": 6,
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/milnus",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44769523?v=4",
+      "login": "milnus",
+      "type": "User"
+    },
+    "topics": [
+      "insertion-sites",
+      "annotations",
+      "mobile-genetic-elements",
+      "bacterial-genomes",
+      "prokaryotic-genomes"
+    ],
+    "timestamp": "2022-07-17 00:40:24.685713",
+    "avatar": "https://avatars.githubusercontent.com/u/44769523?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"``` pip install Magphi```\"",
+        "\"Tool intended to pull out sequences and annotations from genomes between user provided fasta sequence paris (seed sequences) using BLAST\" (command-line tool for genomic analysis).",
+        "Installation section shows end-user execution via `Magphi` CLI: \"usage: Magphi [-h] -g .fa/.gff ...\" indicating it is run as an application on research data."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:21:23Z"
+    }
+  }
+}

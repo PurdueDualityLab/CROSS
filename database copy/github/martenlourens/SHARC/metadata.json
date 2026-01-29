@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/martenlourens/SHARC",
+  "url": "https://github.com/martenlourens/SHARC",
+  "data": {
+    "doi": [],
+    "title": "Supervised star, galaxy and QSO classification with sharpened dimensionality reduction",
+    "url": "https://github.com/martenlourens/SHARC",
+    "name": "SHARC",
+    "full_name": "martenlourens/SHARC",
+    "html_url": "https://github.com/martenlourens/SHARC",
+    "description": "A Python library for performing local gradient clustering (LGC) based SHArpened dimensionality Reduction (SDR) and Classification.",
+    "created_at": "2023-03-13T17:00:15Z",
+    "updated_at": "2023-03-21T23:00:45Z",
+    "clone_url": "https://github.com/martenlourens/SHARC.git",
+    "size": 6264,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/martenlourens",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14141310?v=4",
+      "login": "martenlourens",
+      "type": "User"
+    },
+    "timestamp": "2024-07-21 00:39:55.260659",
+    "avatar": "https://avatars.githubusercontent.com/u/14141310?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"$ pip install -r requirements.txt\"",
+        "\"For an overview of the different functions included in the SHARC library and installation instructions please consult the full documentation\" (indicates a library and code in the repo as primary distribution).",
+        "\"I wrote a program called `SHARC_pipeline.py`. This program strings together the different functions in the SHARC library. To use this program please first install some additional requirements by running: `pip install -r requirements.txt`\" (end-user program run from the repo)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:12:39Z"
+    }
+  }
+}

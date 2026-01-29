@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/jstuecker/adiabatic-tides",
+  "url": "https://github.com/jstuecker/adiabatic-tides",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2023MNRAS.521.4432S",
+      "https://ui.adsabs.harvard.edu/abs/2023ascl.soft07039S/abstract"
+    ],
+    "title": "adiabatic-tides: Tidal stripping of dark matter (sub)haloes",
+    "url": "https://github.com/jstuecker/adiabatic-tides",
+    "name": "adiabatic-tides",
+    "full_name": "jstuecker/adiabatic-tides",
+    "html_url": "https://github.com/jstuecker/adiabatic-tides",
+    "description": "Code for evaluating the tidal stripping of dark matter (sub)haloes in the adiabatic limit",
+    "created_at": "2022-07-01T15:47:58Z",
+    "updated_at": "2023-03-20T03:52:48Z",
+    "clone_url": "https://github.com/jstuecker/adiabatic-tides.git",
+    "size": 2863,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "Jupyter Notebook",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/jstuecker",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17026809?v=4",
+      "login": "jstuecker",
+      "type": "User"
+    },
+    "timestamp": "2023-08-12 18:55:06.616474",
+    "avatar": "https://avatars.githubusercontent.com/u/17026809?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Code for evaluating the tidal stripping of dark matter (sub)haloes in the adiabatic limit.\"",
+        "\"[adiabatic_tides]: Contains all the important python module files. This is the main part of this repository\"",
+        "Usage example shows adding the repo path to sys.path and importing directly from the cloned repository: \"sys.path.append('path/to/adiabatic-tides')\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:39:51Z"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "parser": "github",
+  "uid": "github/ChemaPalencia/M_SMiLe",
+  "url": "https://github.com/ChemaPalencia/M_SMiLe",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2024A%26A...687A..81P",
+      "https://ui.adsabs.harvard.edu/abs/2024ascl.soft08011P/abstract"
+    ],
+    "title": "M_SMiLe: Magnification Statistics of Micro-Lensing",
+    "url": "https://github.com/ChemaPalencia/M_SMiLe",
+    "name": "M_SMiLe",
+    "full_name": "ChemaPalencia/M_SMiLe",
+    "html_url": "https://github.com/ChemaPalencia/M_SMiLe",
+    "description": "Code to provide approximate magnification probability distributions under microlensing by compact objects such as stars or PBHs of strongly lensed stars.",
+    "created_at": "2023-07-12T11:10:45Z",
+    "updated_at": "2024-06-21T09:18:03Z",
+    "clone_url": "https://github.com/ChemaPalencia/M_SMiLe.git",
+    "size": 251,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/ChemaPalencia",
+      "avatar_url": "https://avatars.githubusercontent.com/u/100603350?v=4",
+      "login": "ChemaPalencia",
+      "type": "User"
+    },
+    "topics": [
+      "dark-matter",
+      "gravitational-lensing",
+      "microlensing",
+      "primordial-black-holes",
+      "strong-lensing",
+      "high-redshift-stars"
+    ],
+    "timestamp": "2024-09-08 00:43:46.718260",
+    "avatar": "https://avatars.githubusercontent.com/u/100603350?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"$ pip install -r requirements.txt\"",
+        "\"This repository contains code that computes an approximation of the probability of magnification for a lens system consisting of microlensing by compact objects within a galaxy cluster.\"",
+        "\"This code can work as a black box that takes the necessary inputs and generated different files with the desire input.\" and \"Any python program can import the class microlenses from `M_SMiLe.py`.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T16:52:36Z"
+    }
+  }
+}

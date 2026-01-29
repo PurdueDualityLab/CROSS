@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/omuse-geoscience/omuse",
+  "url": "https://github.com/omuse-geoscience/omuse",
+  "data": {
+    "timestamp": "2021-03-14 00:22:44.713278",
+    "name": "omuse",
+    "url": "https://api.github.com/repos/omuse-geoscience/omuse",
+    "full_name": "omuse-geoscience/omuse",
+    "html_url": "https://github.com/omuse-geoscience/omuse",
+    "private": false,
+    "description": " The Oceanographic Multi-purpose Software Environment: a package for multi-physics and multi-scale earth science simulations.",
+    "created_at": "2020-03-03T12:43:52Z",
+    "updated_at": "2021-03-01T13:45:02Z",
+    "clone_url": "https://github.com/omuse-geoscience/omuse.git",
+    "homepage": "",
+    "size": 40696,
+    "stargazers_count": 11,
+    "watchers_count": 11,
+    "language": "Fortran",
+    "open_issues_count": 14,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/omuse-geoscience",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61740914?v=4",
+      "login": "omuse-geoscience",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "doi": "10.5281/zenodo.809335",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"and typing: first `make download` (for some) and then `make`\"",
+        "\"OMUSE stands for Oceanographic MUltipurpose Software Environment. It is a package to conduct numerical experiments in oceanography and other Earth sciences.\"",
+        "\"OMUSE aims to be useable by any researcher or student with a basic knowledge of the Python programming language.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:42:58Z"
+    }
+  }
+}

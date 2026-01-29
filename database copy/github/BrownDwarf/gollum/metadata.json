@@ -1,0 +1,68 @@
+{
+  "parser": "github",
+  "uid": "github/BrownDwarf/gollum",
+  "url": "https://github.com/BrownDwarf/gollum",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.13132601",
+    "name": "gollum",
+    "url": "https://github.com/BrownDwarf/gollum",
+    "full_name": "BrownDwarf/gollum",
+    "html_url": "https://github.com/BrownDwarf/gollum",
+    "description": "A microservice for programmatic access to precomputed synthetic spectral model grids in astronomy",
+    "created_at": "2021-06-02T21:31:31Z",
+    "updated_at": "2024-08-04T21:17:47Z",
+    "clone_url": "https://github.com/BrownDwarf/gollum.git",
+    "homepage": "https://gollum-astro.readthedocs.io/",
+    "size": 14838,
+    "stargazers_count": 20,
+    "watchers_count": 20,
+    "language": "Python",
+    "open_issues_count": 32,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/BrownDwarf",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8246702?v=4",
+      "login": "BrownDwarf",
+      "type": "Organization"
+    },
+    "topics": [
+      "astronomy",
+      "spectroscopy",
+      "science",
+      "astrophysics",
+      "stars",
+      "physics",
+      "python"
+    ],
+    "timestamp": "2024-08-18 00:42:09.248464",
+    "avatar": "https://avatars.githubusercontent.com/u/8246702?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"The goal of this repo is to provide a Python Application Programming Interface (API) to several different synthetic spectral models. `gollum` will be built on the astropy affiliated package [specutils\"",
+        "\"A microservice for programmatic access to precomputed synthetic spectral model grids in astronomy.\"",
+        "\"The goal of this repo is to provide a Python Application Programming Interface (API) to several different synthetic spectral models.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T16:47:40Z"
+    }
+  }
+}

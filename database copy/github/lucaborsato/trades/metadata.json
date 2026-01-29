@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/lucaborsato/trades",
+  "url": "https://github.com/lucaborsato/trades",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2014A%26A...571A..38B",
+      "https://ui.adsabs.harvard.edu/abs/2016ascl.soft01001B/abstract"
+    ],
+    "title": "TRADES: TRAnsits and Dynamics of Exoplanetary Systems",
+    "url": "https://github.com/lucaborsato/trades",
+    "name": "trades",
+    "full_name": "lucaborsato/trades",
+    "html_url": "https://github.com/lucaborsato/trades",
+    "description": "Fortran90 code for the orbital simulation of exoplanetary system with simultaneous fit of Transit Times and Radial Velocities. ",
+    "created_at": "2014-07-10T12:23:27Z",
+    "updated_at": "2022-04-30T03:06:05Z",
+    "clone_url": "https://github.com/lucaborsato/trades.git",
+    "size": 3418,
+    "stargazers_count": 6,
+    "watchers_count": 6,
+    "language": "Python",
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/lucaborsato",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8124268?v=4",
+      "login": "lucaborsato",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:22:21.287242",
+    "avatar": "https://avatars.githubusercontent.com/u/8124268?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install .\"",
+        "\"I have developed a computer program for determining the possible physical and dynamical configurations of extra-solar planetary systems from observational data.\"",
+        "\"TRADES models the dynamics of multiple planet systems and reproduces the observed transit times ... and radial velocities (RVs).\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:58:08Z"
+    }
+  }
+}

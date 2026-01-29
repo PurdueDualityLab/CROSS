@@ -1,0 +1,64 @@
+{
+  "parser": "github",
+  "uid": "github/freesurfer/freesurfer",
+  "url": "https://github.com/freesurfer/freesurfer",
+  "data": {
+    "doi": "10.3390/JCM11071907",
+    "name": "freesurfer",
+    "url": "https://github.com/freesurfer/freesurfer",
+    "full_name": "freesurfer/freesurfer",
+    "html_url": "https://github.com/freesurfer/freesurfer",
+    "description": "Neuroimaging analysis and visualization suite",
+    "created_at": "2017-02-24T19:15:01Z",
+    "updated_at": "2022-07-29T12:17:34Z",
+    "clone_url": "https://github.com/freesurfer/freesurfer.git",
+    "size": 712382,
+    "stargazers_count": 341,
+    "watchers_count": 341,
+    "language": "C++",
+    "open_issues_count": 10,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 28,
+    "owner": {
+      "html_url": "https://github.com/freesurfer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6330653?v=4",
+      "login": "freesurfer",
+      "type": "Organization"
+    },
+    "topics": [
+      "freesurfer",
+      "neuroimaging",
+      "mri",
+      "lcn"
+    ],
+    "timestamp": "2022-07-31 00:41:54.163891",
+    "avatar": "https://avatars.githubusercontent.com/u/6330653?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"FreeSurfer is a software package for the analysis and visualization of neuroimaging data from cross-sectional and longitudinal studies. It is developed by the Laboratory for Computational Neuroimaging at the Martinos Center for Biomedical Imaging.\"",
+        "\"FreeSurfer provides full processing streams for structural and functional MRI and includes tools for linear and nonlinear registration, cortical and subcortical segmentation, cortical surface reconstruction, statistical analysis of group morphometry, diffusion MRI, PET analysis, and much more.\"",
+        "\"visit our build guide for step-by-step instructions on configuring and building the source code.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T23:55:13Z"
+    }
+  }
+}

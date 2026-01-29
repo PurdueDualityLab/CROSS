@@ -1,0 +1,67 @@
+{
+  "parser": "github",
+  "uid": "github/radicamc/exoTEDRF",
+  "url": "https://github.com/radicamc/exoTEDRF",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.13370466",
+    "name": "exoTEDRF",
+    "url": "https://github.com/radicamc/exoTEDRF",
+    "full_name": "radicamc/exoTEDRF",
+    "html_url": "https://github.com/radicamc/exoTEDRF",
+    "description": "Tools for end-to-end reduction of JWST exoplanet observations",
+    "created_at": "2024-03-08T13:42:57Z",
+    "updated_at": "2024-08-30T13:33:12Z",
+    "clone_url": "https://github.com/radicamc/exoTEDRF.git",
+    "size": 50053,
+    "language": "Python",
+    "open_issues_count": 1,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/radicamc",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44100686?v=4",
+      "login": "radicamc",
+      "type": "User"
+    },
+    "topics": [
+      "atmosphere",
+      "exoplanet",
+      "jwst",
+      "miri",
+      "niriss",
+      "nirspec",
+      "soss",
+      "spectroscopy",
+      "tedorf"
+    ],
+    "timestamp": "2024-09-01 00:45:46.978090",
+    "avatar": "https://avatars.githubusercontent.com/u/44100686?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"exoTEDRF ... is an end-to-end pipeline for JWST exoplanet time series observations.\"",
+        "\"If you make use of this code in your work, please cite Radica (2024)...\"",
+        "\"If you find a bug in the code, or have a request for a feature which is not yet implemented, please feel free to raise an issue on the GitHub page.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T02:02:52Z"
+    }
+  }
+}

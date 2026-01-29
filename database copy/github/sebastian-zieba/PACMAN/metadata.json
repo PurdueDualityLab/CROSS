@@ -1,0 +1,66 @@
+{
+  "parser": "github",
+  "uid": "github/sebastian-zieba/PACMAN",
+  "url": "https://github.com/sebastian-zieba/PACMAN",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.7465579",
+    "name": "PACMAN",
+    "url": "https://github.com/sebastian-zieba/PACMAN",
+    "full_name": "sebastian-zieba/PACMAN",
+    "html_url": "https://github.com/sebastian-zieba/PACMAN",
+    "description": "PACMAN is a pipeline to reduce and analyze data collected by Hubble Wide Field Camera 3 (HST/WFC3) using either the G102 or G141 grism.",
+    "created_at": "2020-07-10T14:34:33Z",
+    "updated_at": "2022-12-22T12:14:33Z",
+    "clone_url": "https://github.com/sebastian-zieba/PACMAN.git",
+    "homepage": "https://pacmandocs.readthedocs.io",
+    "size": 299652,
+    "stargazers_count": 4,
+    "watchers_count": 4,
+    "language": "Python",
+    "open_issues_count": 1,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/sebastian-zieba",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44154733?v=4",
+      "login": "sebastian-zieba",
+      "type": "User"
+    },
+    "topics": [
+      "python",
+      "exoplanets",
+      "hst",
+      "astronomy",
+      "wfc3"
+    ],
+    "timestamp": "2022-12-25 00:36:59.332942",
+    "avatar": "https://avatars.githubusercontent.com/u/44154733?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "“`PACMAN` is a pipeline to reduce and analyze Hubble/Wide Field Camera 3 (WFC3) observations of transiting exoplanets. The pipeline runs end-to-end, beginning with a time series of 2D images and ending with a spectrum for the planet.”",
+        "“Check out the docs for the latest instructions for how to install and use `PACMAN`.” (implies users obtain and run the pipeline themselves, consistent with source repo distribution)",
+        "“Please cite `Zieba & Kreidberg (2022)` if you use `PACMAN` in your research.” (indicates it is used directly to produce research results)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T03:21:52Z"
+    }
+  }
+}

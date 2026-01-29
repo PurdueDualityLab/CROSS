@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/Mik3M4n/BaCoN",
+  "url": "https://github.com/Mik3M4n/BaCoN",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2022PhRvD.105b3531M",
+      "https://ui.adsabs.harvard.edu/abs/2024ascl.soft07005M/abstract"
+    ],
+    "title": "BaCoN: BAyesian COsmological Network",
+    "url": "https://github.com/Mik3M4n/BaCoN",
+    "name": "BaCoN",
+    "full_name": "Mik3M4n/BaCoN",
+    "html_url": "https://github.com/Mik3M4n/BaCoN",
+    "description": "BAyesian COsmological Network - a bayesian neural network for classification of dark energy/modified gravity power spectra",
+    "created_at": "2020-08-29T12:36:09Z",
+    "updated_at": "2024-02-05T04:20:11Z",
+    "clone_url": "https://github.com/Mik3M4n/BaCoN.git",
+    "size": 2216,
+    "stargazers_count": 12,
+    "watchers_count": 12,
+    "language": "Python",
+    "open_issues_count": 1,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/Mik3M4n",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38292755?v=4",
+      "login": "Mik3M4n",
+      "type": "User"
+    },
+    "timestamp": "2024-07-14 00:41:07.058404",
+    "avatar": "https://avatars.githubusercontent.com/u/38292755?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"Details on training, data preparation, variations ot the base model, and extensions are available in the dedicated sections. The Bayesian implementation uses [Tensorflow probability](https://www.tenso\"",
+        "\"This package allows to train and test Bayesian Convolutional Neural Networks in order to classify dark matter power spectra as being representative of different cosmologies\"",
+        "\"To train a five-label model as in the paper, and save the result in `models/my_model/`: `python train.py --fname='my_model'`\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T19:15:32Z"
+    }
+  }
+}

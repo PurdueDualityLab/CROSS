@@ -1,0 +1,66 @@
+{
+  "parser": "github",
+  "uid": "github/artis-mcrt/artis",
+  "url": "https://github.com/artis-mcrt/artis",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2021ApJ...906...99L",
+      "https://ui.adsabs.harvard.edu/abs/2007MNRAS.375..154S",
+      "https://ui.adsabs.harvard.edu/abs/2021ascl.soft03020K/abstract"
+    ],
+    "title": "ARTIS: 3D Monte Carlo radiative transfer code for supernovae",
+    "url": "https://github.com/artis-mcrt/artis",
+    "name": "artis",
+    "full_name": "artis-mcrt/artis",
+    "html_url": "https://github.com/artis-mcrt/artis",
+    "description": "3D Monte Carlo radiative transfer code for supernovae",
+    "created_at": "2013-07-09T10:25:23Z",
+    "updated_at": "2022-07-01T16:53:29Z",
+    "clone_url": "https://github.com/artis-mcrt/artis.git",
+    "size": 36891,
+    "stargazers_count": 6,
+    "watchers_count": 6,
+    "language": "C++",
+    "open_issues_count": 2,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "subscribers_count": 7,
+    "owner": {
+      "html_url": "https://github.com/artis-mcrt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/80631204?v=4",
+      "login": "artis-mcrt",
+      "type": "Organization"
+    },
+    "topics": [
+      "monte-carlo"
+    ],
+    "timestamp": "2022-07-17 17:12:24.566758",
+    "avatar": "https://avatars.githubusercontent.com/u/80631204?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install prek\"",
+        "\"ARTIS ... is a 3D radiative transfer code for Type Ia supernovae using the Monte Carlo method\"",
+        "\"The ARTIS source code is available because it forms part of the method used to obtain published scientific results.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T21:24:14Z"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "parser": "github",
+  "uid": "github/dtcc-platform/dtcc-builder",
+  "url": "https://github.com/dtcc-platform/dtcc-builder",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.7988751",
+    "name": "dtcc-builder",
+    "url": "https://github.com/dtcc-platform/dtcc-builder",
+    "full_name": "dtcc-platform/dtcc-builder",
+    "html_url": "https://github.com/dtcc-platform/dtcc-builder",
+    "created_at": "2023-02-16T09:58:09Z",
+    "updated_at": "2023-02-27T09:22:27Z",
+    "clone_url": "https://github.com/dtcc-platform/dtcc-builder.git",
+    "size": 21605,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "C++",
+    "open_issues_count": 8,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/dtcc-platform",
+      "avatar_url": "https://avatars.githubusercontent.com/u/125552939?v=4",
+      "login": "dtcc-platform",
+      "type": "Organization"
+    },
+    "timestamp": "2023-06-04 00:45:08.755253",
+    "avatar": "https://avatars.githubusercontent.com/u/125552939?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"DTCC Builder provides functionality for building city models for DTCC Platform.\" (indicates an application used to build models)",
+        "\"This project is part of the Digital Twin Platform (DTCC Platform) developed at the Digital Twin Cities Centre\" (ties it to a research platform producing digital twin/city models, i.e., core research output)",
+        "README only references the GitHub project and documentation, with no mention of package managers, containers, or binaries, implying use via the source repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T23:38:08Z"
+    }
+  }
+}

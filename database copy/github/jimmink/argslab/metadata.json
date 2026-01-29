@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/jimmink/argslab",
+  "url": "https://github.com/jimmink/argslab",
+  "data": {
+    "timestamp": "2022-01-23 00:36:25.093381",
+    "name": "argslab",
+    "url": "https://api.github.com/repos/jimmink/argslab",
+    "full_name": "jimmink/argslab",
+    "html_url": "https://github.com/jimmink/argslab",
+    "private": false,
+    "description": "Repository for ArGSLab, Arrested and Gelated Structures Laboratory.",
+    "created_at": "2021-03-15T10:33:10Z",
+    "updated_at": "2021-12-15T13:14:14Z",
+    "clone_url": "https://github.com/jimmink/argslab.git",
+    "homepage": null,
+    "size": 31344,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": "MATLAB",
+    "open_issues_count": 0,
+    "license": null,
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/jimmink",
+      "avatar_url": "https://avatars.githubusercontent.com/u/80682535?v=4",
+      "login": "jimmink",
+      "type": "User"
+    },
+    "topics": []
+  },
+  "doi": "10.1039/D1SM00692D",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Repository for ArGSLab, Arrested and Gelated Structures Laboratory, Version 1.01.\"",
+        "\"The two folders 'ArGSLab_Standalone' and 'ArGSLab_GUI' each contain a version of ArGSLab. The Standalone version can be used without installation: users should only change 'parameters.m', and run 'main.m'.\"",
+        "\"If one uses ArGSLab or part of ArGSLab for any publication, please cite our original work: 'ArGSLab: a tool for analyzing experimental or simulated particle networks'\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:34:27Z"
+    }
+  }
+}

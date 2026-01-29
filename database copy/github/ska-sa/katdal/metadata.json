@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/ska-sa/katdal",
+  "url": "https://github.com/ska-sa/katdal",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2023MNRAS.520.4410T",
+      "https://ui.adsabs.harvard.edu/abs/2023ascl.soft05004S/abstract"
+    ],
+    "title": "katdal: MeerKAT Data Access Library",
+    "url": "https://github.com/ska-sa/katdal",
+    "name": "katdal",
+    "full_name": "ska-sa/katdal",
+    "html_url": "https://github.com/ska-sa/katdal",
+    "description": "Data access library for the MeerKAT radio telescope",
+    "created_at": "2013-09-16T14:12:17Z",
+    "updated_at": "2023-01-23T18:20:43Z",
+    "clone_url": "https://github.com/ska-sa/katdal.git",
+    "size": 2891,
+    "stargazers_count": 9,
+    "watchers_count": 9,
+    "language": "Python",
+    "open_issues_count": 19,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "subscribers_count": 42,
+    "owner": {
+      "html_url": "https://github.com/ska-sa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1210238?v=4",
+      "login": "ska-sa",
+      "type": "Organization"
+    },
+    "timestamp": "2023-06-04 00:44:55.827955",
+    "avatar": "https://avatars.githubusercontent.com/u/1210238?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This package serves as a data access library to interact with the chunk stores and HDF5 files produced by the MeerKAT radio telescope\" (library used via import).",
+        "Usage is shown as `import katdal` and `d = katdal.open('1234567890.h5')`, indicating it is a Python library consumed by other code rather than a standalone app.",
+        "The library directly accesses and manipulates MeerKAT telescope visibility data (e.g. `vis = d.vis[:]`, plotting RA/DEC), which is core scientific observation data, implying direct role in radio astronomy data analysis."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T03:29:40Z"
+    }
+  }
+}

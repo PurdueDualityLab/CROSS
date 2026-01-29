@@ -1,0 +1,63 @@
+{
+  "parser": "github",
+  "uid": "github/ropensci/tracerer",
+  "url": "https://github.com/ropensci/tracerer",
+  "data": {
+    "timestamp": "2022-01-27 10:11:35.219018",
+    "name": "tracerer",
+    "url": "https://api.github.com/repos/ropensci/tracerer",
+    "full_name": "ropensci/tracerer",
+    "html_url": "https://github.com/ropensci/tracerer",
+    "private": false,
+    "description": "tracerer, 'Tracer for R', is an R package to work with the output of BEAST2",
+    "created_at": "2017-12-21T09:26:02Z",
+    "updated_at": "2021-11-09T15:41:12Z",
+    "clone_url": "https://github.com/ropensci/tracerer.git",
+    "homepage": "https://docs.ropensci.org/tracerer",
+    "size": 4602,
+    "stargazers_count": 8,
+    "watchers_count": 8,
+    "language": "R",
+    "open_issues_count": 0,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "owner": {
+      "html_url": "https://github.com/ropensci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1200269?v=4",
+      "login": "ropensci",
+      "type": "Organization"
+    },
+    "topics": [
+      "r",
+      "r-package",
+      "rstats",
+      "scalereprod"
+    ]
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"tracerer\")\"",
+        "“`tracerer`, 'Tracer for R' is an R package to work with BEAST2 output files.”",
+        "“`tracerer` is part of the `babette` package suite” (indicating it is used as a component/library in a larger workflow)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T02:40:21Z"
+    }
+  }
+}

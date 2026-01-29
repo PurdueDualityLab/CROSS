@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/NextGenCMB/lensitbiases",
+  "url": "https://github.com/NextGenCMB/lensitbiases",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2022JCAP...09..039C",
+      "https://ui.adsabs.harvard.edu/abs/2024ascl.soft10010C/abstract"
+    ],
+    "title": "lensitbiases: rFFT-based flat-sky CMB lensing tools",
+    "url": "https://github.com/NextGenCMB/lensitbiases",
+    "name": "lensitbiases",
+    "full_name": "NextGenCMB/lensitbiases",
+    "html_url": "https://github.com/NextGenCMB/lensitbiases",
+    "description": "rfft-based flat-sky CMB lensing tools",
+    "created_at": "2021-02-24T15:20:02Z",
+    "updated_at": "2024-10-08T18:11:47Z",
+    "clone_url": "https://github.com/NextGenCMB/lensitbiases.git",
+    "size": 1036,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "Python",
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/NextGenCMB",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72163365?v=4",
+      "login": "NextGenCMB",
+      "type": "Organization"
+    },
+    "timestamp": "2024-11-03 00:46:22.866191",
+    "avatar": "https://avatars.githubusercontent.com/u/72163365?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"* pip install -e ./ [--user]\"",
+        "\"rFFT-based N1 lensing bias calculation and tests by Julien Carron. This code is tuned for TT, P-only or MV (GMV) like quadratic estimators.\"",
+        "\"installation:\n\n    * pip install -e ./ [--user]\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T19:39:36Z"
+    }
+  }
+}

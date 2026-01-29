@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/songlabcodes/MSC",
+  "url": "https://github.com/songlabcodes/MSC",
+  "data": {
+    "name": "MSC",
+    "url": "https://github.com/songlabcodes/MSC",
+    "full_name": "songlabcodes/MSC",
+    "html_url": "https://github.com/songlabcodes/MSC",
+    "private": false,
+    "description": "single-cell multiscale clustering repository",
+    "created_at": "2023-11-03T17:24:15Z",
+    "updated_at": "2025-08-18T15:41:21Z",
+    "clone_url": "https://github.com/songlabcodes/MSC.git",
+    "homepage": null,
+    "size": 27576,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "HTML",
+    "open_issues_count": 0,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/songlabcodes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/141258673?v=4",
+      "login": "songlabcodes",
+      "type": "User"
+    },
+    "topics": [],
+    "timestamp": "2025-08-31 00:53:40.675400",
+    "avatar": "https://avatars.githubusercontent.com/u/141258673?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Developmental version of R package for Multi-scale clustering (MSC) to perform single-cell transcriptome clustering.\"",
+        "\"MEGENA needs to be installed, prior to MSC installation: library(devtools); install_github(\\\"songw01/MEGENA\\\"); ... install_github(\\\"songlabcodes/MSC\\\");\"",
+        "\"This contains the overall MSC workflow from data pre-processing, clustering, marker identification to visualization of the results.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T03:43:12Z"
+    }
+  }
+}

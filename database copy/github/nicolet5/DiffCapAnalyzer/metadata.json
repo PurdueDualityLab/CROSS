@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/nicolet5/DiffCapAnalyzer",
+  "url": "https://github.com/nicolet5/DiffCapAnalyzer",
+  "data": {
+    "timestamp": "2020-10-25 00:28:57.033439",
+    "name": "DiffCapAnalyzer",
+    "url": "https://api.github.com/repos/nicolet5/DiffCapAnalyzer",
+    "full_name": "nicolet5/DiffCapAnalyzer",
+    "html_url": "https://github.com/nicolet5/DiffCapAnalyzer",
+    "private": false,
+    "description": "A tool for quantitative analysis of differential capacity data! ",
+    "created_at": "2018-04-16T21:27:18Z",
+    "updated_at": "2020-10-18T20:22:35Z",
+    "clone_url": "https://github.com/nicolet5/DiffCapAnalyzer.git",
+    "homepage": "",
+    "size": 398074,
+    "stargazers_count": 5,
+    "watchers_count": 5,
+    "language": "Python",
+    "open_issues_count": 0,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/nicolet5",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/34557361?v=4",
+      "login": "nicolet5",
+      "type": "User"
+    },
+    "topics": []
+  },
+  "doi": "https://doi.org/10.5281/zenodo.4089118",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install -Ur requirements.txt\"",
+        "\"This package is intended to quantitatively analyze raw cycling data by identifying and parameterizing peaks found in the differential capacity plots.\"",
+        "\"Additionally, there is a DASH based visualization app that can be used as the user interface. Users can upload raw cycling data... The app will then process the data and add a few files to the database\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:37:55Z"
+    }
+  }
+}

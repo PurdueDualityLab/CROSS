@@ -1,0 +1,48 @@
+{
+  "parser": "github",
+  "uid": "github/vle-prtc/rbef-prtc",
+  "url": "https://github.com/vle-prtc/rbef-prtc",
+  "data": {
+    "doi": [],
+    "title": "Toolkit for Visualizing the Circular Restricted Three-Body Problem",
+    "url": "https://github.com/vle-prtc/rbef-prtc",
+    "name": "rbef-prtc",
+    "full_name": "vle-prtc/rbef-prtc",
+    "html_url": "https://github.com/vle-prtc/rbef-prtc",
+    "description": "Material computacional utilizado na realização de superfícies e trajetórias no problema restrito de três corpos. Foram utilizados o Wolfram Mathematica 13.3 e o Mathworks MATLAB R2023b.",
+    "created_at": "2025-11-20T22:49:43Z",
+    "updated_at": "2025-11-20T23:23:31Z",
+    "clone_url": "https://github.com/vle-prtc/rbef-prtc.git",
+    "size": 748,
+    "language": "Mathematica",
+    "owner": {
+      "html_url": "https://github.com/vle-prtc",
+      "avatar_url": "https://avatars.githubusercontent.com/u/245275286?v=4",
+      "login": "vle-prtc",
+      "type": "User"
+    },
+    "timestamp": "2026-01-11 01:01:26.125336",
+    "avatar": "https://avatars.githubusercontent.com/u/245275286?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Somente o código da região de Hill foi feita no MATLAB, as demais são arquivos do mathematica.\" (indicates provided analysis/simulation codes in MATLAB and Mathematica)",
+        "\"Versões diferentes são capazes de rodar os códigos sem problemas.\" (suggests users run the codes directly, like an application)",
+        "Discussion of parameters (e.g., \"Terra-Lua: μ ≈ 0.01215; ... é um ponto de partida interessante para ver as características do PRTC.\") shows the code is used to explore scientific models/results directly."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T04:39:22Z"
+    }
+  }
+}

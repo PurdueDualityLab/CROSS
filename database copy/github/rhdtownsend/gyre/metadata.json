@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/rhdtownsend/gyre",
+  "url": "https://github.com/rhdtownsend/gyre",
+  "data": {
+    "doi": [
+      "http://adsabs.harvard.edu/abs/2013MNRAS.435.3406T",
+      "https://ui.adsabs.harvard.edu/abs/2013ascl.soft08010T/abstract"
+    ],
+    "title": "GYRE: Stellar oscillation code",
+    "url": "https://github.com/rhdtownsend/gyre",
+    "name": "gyre",
+    "full_name": "rhdtownsend/gyre",
+    "html_url": "https://github.com/rhdtownsend/gyre",
+    "description": "The GYRE Stellar Oscillation Code",
+    "created_at": "2019-07-25T18:44:07Z",
+    "updated_at": "2022-03-31T16:38:36Z",
+    "clone_url": "https://github.com/rhdtownsend/gyre.git",
+    "size": 108351,
+    "stargazers_count": 19,
+    "watchers_count": 19,
+    "language": "Fortran",
+    "open_issues_count": 1,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/rhdtownsend",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13732464?v=4",
+      "login": "rhdtownsend",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:24:07.952258",
+    "avatar": "https://avatars.githubusercontent.com/u/13732464?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Builds and releases",
+      "distribution_details": null,
+      "evidence": [
+        "\"GYRE is a *stellar oscillation code*. Given an input stellar model, GYRE calculates the eigenfrequencies and eigenfunctions for the normal oscillation modes of the model.\"",
+        "\"If you use GYRE in your research, please cite one or more of the relevant 'instrument' papers\" (indicating it is directly used to produce research results).",
+        "Badge: \"GitHub release (latest by date)\" with target \"https://github.com/rhdtownsend/gyre/releases/latest\" (indicating distribution via GitHub releases)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T02:09:04Z"
+    }
+  }
+}

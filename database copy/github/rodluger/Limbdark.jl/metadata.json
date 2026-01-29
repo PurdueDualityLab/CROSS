@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/rodluger/Limbdark.jl",
+  "url": "https://github.com/rodluger/Limbdark.jl",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2020AJ....159..123A",
+      "https://ui.adsabs.harvard.edu/abs/2025ascl.soft11014L/abstract"
+    ],
+    "title": "Limbdark.jl: Analytical transit light curves for limb darkened stars",
+    "url": "https://github.com/rodluger/Limbdark.jl",
+    "name": "Limbdark.jl",
+    "full_name": "rodluger/Limbdark.jl",
+    "html_url": "https://github.com/rodluger/Limbdark.jl",
+    "description": "Analytical transit light curves for limb darkened stars",
+    "created_at": "2018-04-23T16:28:45Z",
+    "updated_at": "2025-10-06T09:02:44Z",
+    "clone_url": "https://github.com/rodluger/Limbdark.jl.git",
+    "size": 21387,
+    "stargazers_count": 16,
+    "watchers_count": 16,
+    "language": "Mathematica",
+    "open_issues_count": 26,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 6,
+    "owner": {
+      "html_url": "https://github.com/rodluger",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9323819?v=4",
+      "login": "rodluger",
+      "type": "User"
+    },
+    "timestamp": "2026-01-11 01:01:20.924677",
+    "avatar": "https://avatars.githubusercontent.com/u/9323819?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Limbdark.jl\" (Julia package name, provided as a GitHub repository, implying users clone/use from source).",
+        "\"Analytic transit light curves for limb-darkened stars.\" (domain-specific scientific computation, directly producing research-relevant light curves).",
+        "Badges and links point to GitHub repo and docs (\"https://github.com/rodluger/Limbdark.jl\" and \"read-the_docs\"), with no mention of a package registry or binaries, implying source-based distribution."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T02:11:55Z"
+    }
+  }
+}

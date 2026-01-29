@@ -1,0 +1,65 @@
+{
+  "parser": "github",
+  "uid": "github/icb-dcm/pyabc",
+  "url": "https://github.com/ICB-DCM/pyABC",
+  "data": {
+    "timestamp": "2022-06-26 00:41:27.139435",
+    "name": "pyABC",
+    "url": "https://api.github.com/repos/ICB-DCM/pyABC",
+    "full_name": "ICB-DCM/pyABC",
+    "html_url": "https://github.com/ICB-DCM/pyABC",
+    "private": false,
+    "description": "distributed, likelihood-free inference",
+    "created_at": "2017-07-12T10:30:10Z",
+    "updated_at": "2022-06-05T20:55:44Z",
+    "clone_url": "https://github.com/ICB-DCM/pyABC.git",
+    "homepage": "https://pyabc.rtfd.io",
+    "size": 48685,
+    "stargazers_count": 148,
+    "watchers_count": 148,
+    "language": "Python",
+    "open_issues_count": 46,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "subscribers_count": 6,
+    "owner": {
+      "html_url": "https://github.com/ICB-DCM",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17879961?v=4",
+      "login": "ICB-DCM",
+      "type": "Organization"
+    },
+    "topics": [
+      "abc",
+      "approximate-bayesian-inference",
+      "likelihood-free-inference",
+      "parameter-inference"
+    ]
+  },
+  "doi": "https://doi.org/10.5281/zenodo.6677826",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "\"pyABC is a massively parallel, distributed, and scalable ABC-SMC ... framework for parameter estimation of complex stochastic models\" (indicates a research modeling/inference tool used directly in analyses).",
+        "PyPI badge and link: \"[![PyPI](https://badge.fury.io/py/pyabc.svg)](https://badge.fury.io/py/pyabc)\" (shows distribution via Python package registry).",
+        "Described as a Python framework with integration to R and Julia, implying it is imported and used as a library component rather than only as a standalone app."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:24:13Z"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/babelomics/impuSARS",
+  "url": "https://github.com/babelomics/impuSARS",
+  "data": {
+    "timestamp": "2021-09-12 00:35:00.872487",
+    "name": "impuSARS",
+    "url": "https://api.github.com/repos/babelomics/impuSARS",
+    "full_name": "babelomics/impuSARS",
+    "html_url": "https://github.com/babelomics/impuSARS",
+    "private": false,
+    "description": "Software tool for the imputation of whole-genome SARS-CoV-2 sequences.",
+    "created_at": "2021-03-09T14:38:10Z",
+    "updated_at": "2021-06-25T10:15:55Z",
+    "clone_url": "https://github.com/babelomics/impuSARS.git",
+    "homepage": "",
+    "size": 5829,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Shell",
+    "open_issues_count": 0,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/babelomics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6276325?v=4",
+      "login": "babelomics",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Containers",
+      "distribution_details": null,
+      "evidence": [
+        "README container command: \"docker run -it --rm -v <input_path>:/data impusars impuSARS \\\"",
+        "\"This repository contains a novel tool called impuSARS to impute whole genome sequences from partially sequenced SARS-CoV-2 samples. Additionally, impuSARS provides the lineage associated to the imputed sequence.\"",
+        "Installation and usage are via command-line execution by users (e.g., \"impuSARS --infile /path/to/<file_fasta_or_vcf> --outprefix <output_prefix>\") indicating an end-user analysis application."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T21:54:04Z"
+    }
+  }
+}

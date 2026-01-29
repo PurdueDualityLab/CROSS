@@ -1,39 +1,258 @@
 {
-    "parser": "github",
-    "uid": "github/neuralhydrology/neuralhydrology",
-    "url": "https://github.com/neuralhydrology/neuralhydrology",
-    "data": {
-        "timestamp": "2022-03-06 00:44:31.167775",
-        "name": "neuralhydrology",
-        "url": "https://api.github.com/repos/neuralhydrology/neuralhydrology",
-        "full_name": "neuralhydrology/neuralhydrology",
-        "html_url": "https://github.com/neuralhydrology/neuralhydrology",
-        "private": false,
-        "description": "Python library to train neural networks with a strong focus on hydrological applications.",
-        "created_at": "2020-09-30T07:16:56Z",
-        "updated_at": "2022-02-22T00:07:35Z",
-        "clone_url": "https://github.com/neuralhydrology/neuralhydrology.git",
-        "homepage": "https://neuralhydrology.readthedocs.io/",
-        "size": 10243,
-        "stargazers_count": 134,
-        "watchers_count": 134,
-        "language": "Python",
-        "open_issues_count": 0,
-        "license": {
-            "key": "bsd-3-clause",
-            "name": "BSD 3-Clause \"New\" or \"Revised\" License",
-            "spdx_id": "BSD-3-Clause",
-            "url": "https://api.github.com/licenses/bsd-3-clause",
-            "node_id": "MDc6TGljZW5zZTU="
-        },
-        "subscribers_count": 19,
-        "owner": {
-            "html_url": "https://github.com/neuralhydrology",
-            "avatar_url": "https://avatars.githubusercontent.com/u/59032226?v=4",
-            "login": "neuralhydrology",
-            "type": "Organization"
-        },
-        "topics": []
+  "parser": "github",
+  "uid": "github/neuralhydrology/neuralhydrology",
+  "url": "https://github.com/neuralhydrology/neuralhydrology",
+  "data": {
+    "timestamp": "2022-03-06 00:44:31.167775",
+    "name": "neuralhydrology",
+    "url": "https://api.github.com/repos/neuralhydrology/neuralhydrology",
+    "full_name": "neuralhydrology/neuralhydrology",
+    "html_url": "https://github.com/neuralhydrology/neuralhydrology",
+    "private": false,
+    "description": "Python library to train neural networks with a strong focus on hydrological applications.",
+    "created_at": "2020-09-30T07:16:56Z",
+    "updated_at": "2022-02-22T00:07:35Z",
+    "clone_url": "https://github.com/neuralhydrology/neuralhydrology.git",
+    "homepage": "https://neuralhydrology.readthedocs.io/",
+    "size": 10243,
+    "stargazers_count": 134,
+    "watchers_count": 134,
+    "language": "Python",
+    "open_issues_count": 0,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
     },
-    "doi": "https://doi.org/10.5281/zenodo.6326394"
+    "subscribers_count": 19,
+    "owner": {
+      "html_url": "https://github.com/neuralhydrology",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59032226?v=4",
+      "login": "neuralhydrology",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "doi": "https://doi.org/10.5281/zenodo.6326394",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Python library to train neural networks with a strong focus on hydrological applications.\"",
+        "\"We (the AI for Earth Science group at the Institute for Machine Learning, Johannes Kepler University, Linz, Austria) are using this code in our day-to-day research and will continue to integrate our new research findings into this public repository.\"",
+        "Bug reports/Feature requests https://github.com/neuralhydrology/neuralhydrology/issues (implying cloning/using from the GitHub repository as primary distribution)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T01:35:46Z"
+    }
+  },
+  "openssf_scorecard": {
+    "data": {
+      "date": "2026-01-23T13:03:17-05:00",
+      "repo": {
+        "name": "github.com/neuralhydrology/neuralhydrology",
+        "commit": "74b6fb8edf5b50f0ff5275ebcb3d90655b7dc5fe"
+      },
+      "scorecard": {
+        "version": "v5.4.0",
+        "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+      },
+      "score": 5.5,
+      "checks": [
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no binaries found in the repo",
+          "name": "Binary-Artifacts",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#binary-artifacts",
+            "short": "Determines if the project has generated executable (binary) artifacts in the source repository."
+          }
+        },
+        {
+          "details": null,
+          "score": 6,
+          "reason": "branch protection is not maximal on development and all release branches",
+          "name": "Branch-Protection",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#branch-protection",
+            "short": "Determines if the default and release branches are protected with GitHub's branch protection settings."
+          }
+        },
+        {
+          "details": null,
+          "score": 9,
+          "reason": "23 out of 24 merged PRs checked by a CI test -- score normalized to 9",
+          "name": "CI-Tests",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#ci-tests",
+            "short": "Determines if the project runs tests before pull requests are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no effort to earn an OpenSSF best practices badge detected",
+          "name": "CII-Best-Practices",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#cii-best-practices",
+            "short": "Determines if the project has an OpenSSF (formerly CII) Best Practices Badge."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "all changesets reviewed",
+          "name": "Code-Review",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#code-review",
+            "short": "Determines if the project requires human code review before pull requests (aka merge requests) are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "project has 4 contributing companies or organizations",
+          "name": "Contributors",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#contributors",
+            "short": "Determines if the project has a set of contributors from multiple organizations (e.g., companies)."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no dangerous workflow patterns detected",
+          "name": "Dangerous-Workflow",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dangerous-workflow",
+            "short": "Determines if the project's GitHub Action workflows avoid dangerous patterns."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no update tool detected",
+          "name": "Dependency-Update-Tool",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dependency-update-tool",
+            "short": "Determines if the project uses a dependency update tool."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "project is not fuzzed",
+          "name": "Fuzzing",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#fuzzing",
+            "short": "Determines if the project uses fuzzing."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "license file detected",
+          "name": "License",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#license",
+            "short": "Determines if the project has defined a license."
+          }
+        },
+        {
+          "details": null,
+          "score": 6,
+          "reason": "7 commit(s) and 1 issue activity found in the last 90 days -- score normalized to 6",
+          "name": "Maintained",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#maintained",
+            "short": "Determines if the project is \"actively maintained\"."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "packaging workflow detected",
+          "name": "Packaging",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#packaging",
+            "short": "Determines if the project is published as a package that others can easily download, install, easily update, and uninstall."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "dependency not pinned by hash detected -- score normalized to 0",
+          "name": "Pinned-Dependencies",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#pinned-dependencies",
+            "short": "Determines if the project has declared and pinned the dependencies of its build process."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "SAST tool is not run on all commits -- score normalized to 0",
+          "name": "SAST",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#sast",
+            "short": "Determines if the project uses static code analysis."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "security policy file not detected",
+          "name": "Security-Policy",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#security-policy",
+            "short": "Determines if the project has published a security policy."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no releases found",
+          "name": "Signed-Releases",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#signed-releases",
+            "short": "Determines if the project cryptographically signs release artifacts."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "detected GitHub workflow tokens with excessive permissions",
+          "name": "Token-Permissions",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#token-permissions",
+            "short": "Determines if the project's workflows follow the principle of least privilege."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "0 existing vulnerabilities detected",
+          "name": "Vulnerabilities",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#vulnerabilities",
+            "short": "Determines if the project has open, known unfixed vulnerabilities."
+          }
+        }
+      ],
+      "metadata": null
+    },
+    "timestamp_utc": "2026-01-23T18:03:38Z"
+  }
 }

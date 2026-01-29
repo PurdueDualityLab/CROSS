@@ -1,0 +1,57 @@
+{
+  "parser": "github",
+  "uid": "github/Ambuj-UF/APOP",
+  "url": "https://github.com/Ambuj-UF/APOP",
+  "data": {
+    "doi": "10.1093/BIOINFORMATICS/BTAD275",
+    "name": "APOP",
+    "url": "https://github.com/Ambuj-UF/APOP",
+    "full_name": "Ambuj-UF/APOP",
+    "html_url": "https://github.com/Ambuj-UF/APOP",
+    "description": "Allostery pocket prediction",
+    "created_at": "2022-02-06T06:00:34Z",
+    "updated_at": "2023-08-25T00:09:19Z",
+    "clone_url": "https://github.com/Ambuj-UF/APOP.git",
+    "size": 231,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/Ambuj-UF",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7588003?v=4",
+      "login": "Ambuj-UF",
+      "type": "User"
+    },
+    "timestamp": "2023-09-24 00:36:04.887399",
+    "avatar": "https://avatars.githubusercontent.com/u/7588003?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"APOP\\nAllostery pocket prediction\" (describes a domain-specific scientific tool for predicting allosteric pockets)",
+        "\"#Command line -\\n\\npython apop.py file.pdb\" (indicates it is run as an end-user command-line application)",
+        "\"APOP webserver - https://apop.bb.iastate.edu/\" (indicates a research webserver/tool for allostery pocket prediction, implying direct use in research analyses)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T16:34:55Z"
+    }
+  }
+}

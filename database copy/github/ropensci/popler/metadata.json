@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/ropensci/popler",
+  "url": "https://github.com/ropensci/popler",
+  "data": {
+    "timestamp": "2022-01-27 10:11:35.160759",
+    "name": "popler",
+    "url": "https://api.github.com/repos/ropensci/popler",
+    "full_name": "ropensci/popler",
+    "html_url": "https://github.com/ropensci/popler",
+    "private": false,
+    "description": "The R package to browse and query the popler database",
+    "created_at": "2016-09-13T03:43:20Z",
+    "updated_at": "2022-01-18T03:45:07Z",
+    "clone_url": "https://github.com/ropensci/popler.git",
+    "homepage": "https://docs.ropensci.org/popler",
+    "size": 10337,
+    "stargazers_count": 9,
+    "watchers_count": 9,
+    "language": "R",
+    "open_issues_count": 21,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "owner": {
+      "html_url": "https://github.com/ropensci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1200269?v=4",
+      "login": "ropensci",
+      "type": "Organization"
+    },
+    "topics": [
+      "data-access"
+    ]
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages('popler')\"",
+        "\"`popler` is the R package to browse and query the `popler` data base.\"",
+        "\"The package `popler` aims to facilitate finding, retrieving, and using time-series data of population abundance associated with the US LTER network.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T02:34:02Z"
+    }
+  }
+}

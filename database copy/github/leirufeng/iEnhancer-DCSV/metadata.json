@@ -1,0 +1,50 @@
+{
+  "parser": "github",
+  "uid": "github/leirufeng/iEnhancer-DCSV",
+  "url": "https://github.com/leirufeng/iEnhancer-DCSV",
+  "data": {
+    "doi": "10.3389/FGENE.2023.1132018",
+    "name": "iEnhancer-DCSV",
+    "url": "https://github.com/leirufeng/iEnhancer-DCSV",
+    "full_name": "leirufeng/iEnhancer-DCSV",
+    "html_url": "https://github.com/leirufeng/iEnhancer-DCSV",
+    "created_at": "2022-11-25T15:25:11Z",
+    "updated_at": "2023-07-12T06:31:30Z",
+    "clone_url": "https://github.com/leirufeng/iEnhancer-DCSV.git",
+    "size": 1464,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Python",
+    "open_issues_count": 1,
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/leirufeng",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65327942?v=4",
+      "login": "leirufeng",
+      "type": "User"
+    },
+    "timestamp": "2023-08-27 00:33:11.359720",
+    "avatar": "https://avatars.githubusercontent.com/u/65327942?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Unknown",
+      "research_role": "Unknown",
+      "distribution_pathway": "Unknown",
+      "distribution_details": null,
+      "evidence": [
+        "README only contains the project title: `# iEnhancer-DCSV` with no further description of purpose or usage.",
+        "Owner metadata: `owner_type: User` and `owner_login: leirufeng` suggest a personal repository, consistent with an individual maintainer.",
+        "No installation, usage, or distribution instructions are present in the README, so supply chain role, research role, and distribution pathway cannot be determined."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:52:55Z"
+    }
+  }
+}

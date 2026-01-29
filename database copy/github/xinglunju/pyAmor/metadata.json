@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/xinglunju/pyAmor",
+  "url": "https://github.com/xinglunju/pyAmor",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2018ApJ...855....9L",
+      "https://ui.adsabs.harvard.edu/abs/2018ascl.soft06007L/abstract"
+    ],
+    "title": "PyAMOR: AMmOnia data Reduction",
+    "url": "https://github.com/xinglunju/pyAmor",
+    "name": "pyAmor",
+    "full_name": "xinglunju/pyAmor",
+    "html_url": "https://github.com/xinglunju/pyAmor",
+    "description": "python code to derive temperatures using Ammonia spectral lines",
+    "created_at": "2014-04-28T19:43:27Z",
+    "updated_at": "2022-05-13T14:48:28Z",
+    "clone_url": "https://github.com/xinglunju/pyAmor.git",
+    "size": 176,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "Python",
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/xinglunju",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3944252?v=4",
+      "login": "xinglunju",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:18:35.526270",
+    "avatar": "https://avatars.githubusercontent.com/u/3944252?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Python scripts to derive physical properties (linewidth, temperature, column density, etc.) using Ammonia hyperfine lines.\"",
+        "\"nh3_trot_v0.2_singlev.py - To go through a datacube and derive maps, assuming there is only one velocity.\"",
+        "The README lists individual Python scripts in the repo with no mention of packaging or installation via a registry, implying direct use from the source repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T04:56:04Z"
+    }
+  }
+}

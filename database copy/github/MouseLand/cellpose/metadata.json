@@ -1,0 +1,69 @@
+{
+  "parser": "github",
+  "uid": "github/MouseLand/cellpose",
+  "url": "https://github.com/MouseLand/cellpose",
+  "data": {
+    "title": "Cellpose",
+    "url": "https://github.com/MouseLand/cellpose",
+    "credit": [],
+    "tags": [
+      "visualization",
+      "visualization"
+    ],
+    "description": "a generalist algorithm for cellular segmentation with human-in-the-loop capabilities",
+    "name": "cellpose",
+    "full_name": "MouseLand/cellpose",
+    "html_url": "https://github.com/MouseLand/cellpose",
+    "created_at": "2020-02-01T22:29:22Z",
+    "updated_at": "2025-06-27T21:23:16Z",
+    "clone_url": "https://github.com/MouseLand/cellpose.git",
+    "homepage": "https://huggingface.co/spaces/mouseland/cellpose",
+    "size": 119504,
+    "stargazers_count": 1736,
+    "watchers_count": 1736,
+    "language": "Python",
+    "open_issues_count": 70,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "subscribers_count": 28,
+    "owner": {
+      "html_url": "https://github.com/MouseLand",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28845184?v=4",
+      "login": "MouseLand",
+      "type": "Organization"
+    },
+    "topics": [
+      "segmentation",
+      "cell-segmentation",
+      "cell-biology"
+    ],
+    "timestamp": "2025-06-29 00:59:38.730377",
+    "avatar": "https://avatars.githubusercontent.com/u/28845184?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"5. (option 1) To install cellpose with the GUI, run `python -m pip install cellpose[gui]`.  If you're on a zsh server, you may need to use ' ': `python -m pip install 'cellpose[gui]'`.\"",
+        "\"Cellpose-SAM: cell and nucleus segmentation with superhuman generalization. It can be optimized for your own data, applied in 3D...\" (end-user segmentation application)",
+        "\"You can now run cellpose from this environment with `python -m cellpose` or `cellpose` if you are in the cellpose directory.\" (run as an application/CLI/GUI)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T19:26:52Z"
+    }
+  }
+}

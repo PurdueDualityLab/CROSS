@@ -1,0 +1,67 @@
+{
+  "parser": "github",
+  "uid": "github/Cristianetaniguti/Reads2Map",
+  "url": "https://github.com/Cristianetaniguti/Reads2Map",
+  "data": {
+    "name": "Reads2Map",
+    "url": "https://github.com/Cristianetaniguti/Reads2Map",
+    "full_name": "Cristianetaniguti/Reads2Map",
+    "html_url": "https://github.com/Cristianetaniguti/Reads2Map",
+    "private": false,
+    "description": "WDL workflows to build genetic maps from sequencing reads",
+    "created_at": "2019-05-22T16:29:29Z",
+    "updated_at": "2023-04-25T13:02:15Z",
+    "clone_url": "https://github.com/Cristianetaniguti/Reads2Map.git",
+    "homepage": "",
+    "size": 175045,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "wdl",
+    "open_issues_count": 1,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/Cristianetaniguti",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7572527?v=4",
+      "login": "Cristianetaniguti",
+      "type": "User"
+    },
+    "topics": [
+      "genotyping-by-sequencing",
+      "haplotypes",
+      "linkage-mapping",
+      "pipelines",
+      "variant-calling",
+      "wdl"
+    ],
+    "timestamp": "2023-05-28 00:38:58.206387",
+    "avatar": "https://avatars.githubusercontent.com/u/7572527?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Builds and releases",
+      "distribution_details": "GitHub Releases",
+      "evidence": [
+        "README mentions releases: \"Reads2Map is a collection of [WDL workflows](https://openwdl.org/) designed to facilitate the contruction of linkage maps from sequencing reads. You can find details of each workflow release on the Re\"",
+        "\"Reads2Map is a collection of WDL workflows designed to facilitate the contruction of linkage maps from sequencing reads.\"",
+        "\"The main workflows are the `EmpiricalReads2Map.wdl` and the `SimulatedReads2Map.wdl`.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T16:58:32Z"
+    }
+  }
+}

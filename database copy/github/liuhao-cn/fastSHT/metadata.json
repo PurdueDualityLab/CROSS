@@ -1,0 +1,66 @@
+{
+  "parser": "github",
+  "uid": "github/liuhao-cn/fastSHT",
+  "url": "https://github.com/liuhao-cn/fastSHT",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2022ApJS..263...21T",
+      "https://ui.adsabs.harvard.edu/abs/2022ascl.soft11011T/abstract"
+    ],
+    "title": "fastSHT: Fast Spherical Harmonic Transforms",
+    "url": "https://github.com/liuhao-cn/fastSHT",
+    "name": "fastSHT",
+    "full_name": "liuhao-cn/fastSHT",
+    "html_url": "https://github.com/liuhao-cn/fastSHT",
+    "description": "Fast Spherical Harmonic Transforms for a large number of sky maps",
+    "created_at": "2022-07-15T06:50:52Z",
+    "updated_at": "2022-11-16T08:10:58Z",
+    "clone_url": "https://github.com/liuhao-cn/fastSHT.git",
+    "size": 132848,
+    "stargazers_count": 10,
+    "watchers_count": 10,
+    "language": "Fortran",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/liuhao-cn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31798291?v=4",
+      "login": "liuhao-cn",
+      "type": "User"
+    },
+    "topics": [
+      "gpu-computing",
+      "spherical-harmonics",
+      "cosmic-microwave-background"
+    ],
+    "timestamp": "2022-12-04 00:35:26.039397",
+    "avatar": "https://avatars.githubusercontent.com/u/31798291?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Vendor or commercial entity",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Containers",
+      "distribution_details": null,
+      "evidence": [
+        "README container command: \"sudo docker pull rectaflex/intel_nvidia_sdk\"",
+        "\"fastSHT is a fast toolkit for doing spherical harmonic transforms on a large number of spherical maps.\"",
+        "\"The core code is written in Fortran, but a Python wrapper is provided and recommended.\" and example usage via `python demo.py`, indicating it is run as an end-user tool rather than imported as a library."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:55:34Z"
+    }
+  }
+}

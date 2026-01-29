@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/marco-oliva/pfp",
+  "url": "https://github.com/marco-oliva/pfp",
+  "data": {
+    "title": "PFP",
+    "url": "https://github.com/marco-oliva/pfp",
+    "credit": [],
+    "tags": [
+      "high-throughput-sequencing"
+    ],
+    "description": "Prefix Free Parsing",
+    "name": "pfp",
+    "full_name": "marco-oliva/pfp",
+    "html_url": "https://github.com/marco-oliva/pfp",
+    "created_at": "2020-11-18T20:06:20Z",
+    "updated_at": "2023-08-11T21:31:34Z",
+    "clone_url": "https://github.com/marco-oliva/pfp.git",
+    "size": 201889,
+    "stargazers_count": 5,
+    "watchers_count": 5,
+    "language": "C++",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/marco-oliva",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55564108?v=4",
+      "login": "marco-oliva",
+      "type": "User"
+    },
+    "timestamp": "2023-08-20 00:34:41.389148",
+    "avatar": "https://avatars.githubusercontent.com/u/55564108?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "conda-forge",
+      "evidence": [
+        "README install command: \"conda install -c bioconda -c conda-forge pfp\"",
+        "\"This is an implementation of prefix-free parsing...\" and the repo owner is the individual user 'marco-oliva', indicating a single-maintainer research tool.",
+        "\"This tool produces the same result as running `bigbwt` on the fasta file...\" and the detailed CLI usage show it is an end-user command-line program (pfp++), i.e., application software."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:01:44Z"
+    }
+  }
+}

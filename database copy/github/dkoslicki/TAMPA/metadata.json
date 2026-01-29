@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/dkoslicki/TAMPA",
+  "url": "https://github.com/dkoslicki/TAMPA",
+  "data": {
+    "name": "TAMPA",
+    "url": "https://github.com/dkoslicki/TAMPA",
+    "full_name": "dkoslicki/TAMPA",
+    "html_url": "https://github.com/dkoslicki/TAMPA",
+    "private": false,
+    "description": "A collection of tools to visualize CAMI profiling outputs",
+    "created_at": "2020-03-09T19:15:50Z",
+    "updated_at": "2022-07-06T16:39:19Z",
+    "clone_url": "https://github.com/dkoslicki/TAMPA.git",
+    "homepage": null,
+    "size": 123687,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Python",
+    "open_issues_count": 3,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/dkoslicki",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6362936?v=4",
+      "login": "dkoslicki",
+      "type": "User"
+    },
+    "topics": [],
+    "timestamp": "2023-01-08 00:38:57.681531",
+    "avatar": "https://avatars.githubusercontent.com/u/6362936?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This repository contains the official python implementation of the following paper: Sarwal, Varuni, ... and David J. Koslicki.\" (single-user GitHub owner dkoslicki)",
+        "Example usage shows running it as a script: `python src/tampa.py -i data/...` indicating an end-user analysis application.",
+        "Described purpose: \"Plot abundance of profile against ground truth on taxonomic tree.\" and options for metagenomic taxon abundance visualization, directly used for metagenomics-based taxon abundance profile analysis and figures."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T23:34:53Z"
+    }
+  }
+}

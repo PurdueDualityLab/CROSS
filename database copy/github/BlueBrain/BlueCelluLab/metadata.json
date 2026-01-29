@@ -1,0 +1,74 @@
+{
+  "parser": "github",
+  "uid": "github/BlueBrain/BlueCelluLab",
+  "url": "https://github.com/BlueBrain/BlueCelluLab",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.13325726",
+    "name": "BlueCelluLab",
+    "url": "https://github.com/BlueBrain/BlueCelluLab",
+    "full_name": "BlueBrain/BlueCelluLab",
+    "html_url": "https://github.com/BlueBrain/BlueCelluLab",
+    "description": "Biologically detailed neural network simulations and analysis API",
+    "created_at": "2023-05-15T07:01:35Z",
+    "updated_at": "2024-08-15T10:35:09Z",
+    "clone_url": "https://github.com/BlueBrain/BlueCelluLab.git",
+    "homepage": "https://bluecellulab.readthedocs.io/en/latest/",
+    "size": 19627,
+    "stargazers_count": 10,
+    "watchers_count": 10,
+    "language": "Python",
+    "open_issues_count": 19,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 7,
+    "owner": {
+      "html_url": "https://github.com/BlueBrain",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1479142?v=4",
+      "login": "BlueBrain",
+      "type": "Organization"
+    },
+    "topics": [
+      "biology",
+      "brain",
+      "cell",
+      "neural-network",
+      "neuron",
+      "neuroscience",
+      "python",
+      "simulation",
+      "circuit",
+      "emodel",
+      "api",
+      "connection",
+      "network"
+    ],
+    "timestamp": "2024-08-18 00:42:00.349081",
+    "avatar": "https://avatars.githubusercontent.com/u/1479142?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install bluecellulab\"",
+        "\"The Blue Brain Cellular Laboratory is designed for simulations and experiments on individual cells or groups of cells.\"",
+        "\"Suitable use cases for BlueCelluLab include: * Scripting and statistical analysis for single cells or cell pairs. ... * Automating in-silico whole-cell patching experiments.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T16:46:44Z"
+    }
+  }
+}

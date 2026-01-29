@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/mcataneo/mochi_class_public",
+  "url": "https://github.com/mcataneo/mochi_class_public",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2024OJAp....7E..76C",
+      "https://ui.adsabs.harvard.edu/abs/2024ascl.soft11023C/abstract"
+    ],
+    "title": "mochi_class: Modelling Optimization to Compute Horndeski in CLASS",
+    "url": "https://github.com/mcataneo/mochi_class_public",
+    "name": "mochi_class_public",
+    "full_name": "mcataneo/mochi_class_public",
+    "html_url": "https://github.com/mcataneo/mochi_class_public",
+    "created_at": "2024-07-15T23:48:04Z",
+    "updated_at": "2024-07-31T20:41:04Z",
+    "clone_url": "https://github.com/mcataneo/mochi_class_public.git",
+    "size": 85095,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "C",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/mcataneo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10965274?v=4",
+      "login": "mcataneo",
+      "type": "User"
+    },
+    "timestamp": "2024-12-01 00:56:04.208124",
+    "avatar": "https://avatars.githubusercontent.com/u/10965274?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Authors: Matteo Cataneo, Emilio Bellini\" (personal names, no institutional or community governance mentioned)",
+        "\"This code is an extension of the hi_class code ... itself a patch to the Einstein-Boltzmann solver CLASS\" and is run via `./class /inifiles/galileon.ini` to generate CMB and matter power spectra, indicating an end-user scientific application",
+        "\"Clone the code from https://github.com/mcataneo/mochi_class_public.git. Go to the mochi_class directory ... and compile (`make clean; make class`).\" (distribution via cloning and building from the GitHub source repository)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T01:16:26Z"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/MNGuenther/allesfitter",
+  "url": "https://github.com/MNGuenther/allesfitter",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/#abs/2019arXiv190306107G",
+      "https://ui.adsabs.harvard.edu/abs/2019ascl.soft03003G/abstract"
+    ],
+    "title": "allesfitter: Flexible star and exoplanet inference from photometry and radial velocity",
+    "url": "https://github.com/MNGuenther/allesfitter",
+    "name": "allesfitter",
+    "full_name": "MNGuenther/allesfitter",
+    "html_url": "https://github.com/MNGuenther/allesfitter",
+    "description": "allesfitter is a convenient wrapper around the packages ellc (light curve and RV models), dynesty (static and dynamic nested sampling) emcee (Markov Chain Monte Carlo sampling) and celerite (Gaussian Process models).",
+    "created_at": "2018-09-25T13:56:51Z",
+    "updated_at": "2022-04-12T13:46:46Z",
+    "clone_url": "https://github.com/MNGuenther/allesfitter.git",
+    "size": 975624,
+    "stargazers_count": 45,
+    "watchers_count": 45,
+    "language": "Jupyter Notebook",
+    "open_issues_count": 14,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/MNGuenther",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11521683?v=4",
+      "login": "MNGuenther",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:17:11.212996",
+    "avatar": "https://avatars.githubusercontent.com/u/11521683?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"keywords = {Exoplanets, Binary stars, Stellar flares, Bayesian statistics, Astronomy software, Starspots, Astronomy data modeling, 498, 154, 1603, 1900, 1855, 1572, 1859, Astrophysics - Earth and Plan\"",
+        "“allesfitter … is a public and user-friendly astronomy software package for modeling photometric and RV data.”",
+        "“A graphical user interface allows to define all input. Then, allesfitter automatically runs a nested sampling or MCMC fit, and produces ascii tables, latex tables, and plots.”"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T19:04:26Z"
+    }
+  }
+}

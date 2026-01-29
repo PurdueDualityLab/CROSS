@@ -1,0 +1,55 @@
+{
+  "parser": "github",
+  "uid": "github/mikhailklassen/protostellar_evolution",
+  "url": "https://github.com/mikhailklassen/protostellar_evolution",
+  "data": {
+    "doi": [
+      "http://adsabs.harvard.edu/abs/2012ApJ...758..137K",
+      "http://hdl.handle.net/11375/19758",
+      "https://ui.adsabs.harvard.edu/abs/2020ascl.soft01006K/abstract"
+    ],
+    "title": "Protostellar Evolution: Stellar evolution simulator",
+    "url": "https://github.com/mikhailklassen/protostellar_evolution",
+    "name": "protostellar_evolution",
+    "full_name": "mikhailklassen/protostellar_evolution",
+    "html_url": "https://github.com/mikhailklassen/protostellar_evolution",
+    "description": "Evolves the radius and luminosity of a protostar from formation to a main sequence star",
+    "created_at": "2014-03-05T17:30:19Z",
+    "updated_at": "2020-07-22T09:59:03Z",
+    "clone_url": "https://github.com/mikhailklassen/protostellar_evolution.git",
+    "size": 304,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "FORTRAN",
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/mikhailklassen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1656108?v=4",
+      "login": "mikhailklassen",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:15:09.972015",
+    "avatar": "https://avatars.githubusercontent.com/u/1656108?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"A code for simulating the evolution of stellar properties (stellar radius, luminosity) from the bound core stage through to the core hydrogen ignition...\"",
+        "\"This code is written in Fortran 90 for my M.Sc. thesis work in astrophysics at McMaster University.\"",
+        "\"To compile the code, adjustments may need to be made to the `Makefile` to set the Fortran compiler and compiler flags. The main program code is in `Driver.F90`...\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T01:21:01Z"
+    }
+  }
+}

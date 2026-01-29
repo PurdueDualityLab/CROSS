@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/umbralcalc/foxi",
+  "url": "https://github.com/umbralcalc/foxi",
+  "data": {
+    "doi": [
+      "http://adsabs.harvard.edu/abs/2018JCAP...05..070H",
+      "https://ui.adsabs.harvard.edu/abs/2018ascl.soft06030H/abstract"
+    ],
+    "title": "foxi: Forecast Observations and their eXpected Information",
+    "url": "https://github.com/umbralcalc/foxi",
+    "name": "foxi",
+    "full_name": "umbralcalc/foxi",
+    "html_url": "https://github.com/umbralcalc/foxi",
+    "description": "Futuristic Observations and their eXpected Information: package for automated computation of a suite of information-theoretic and Bayesian expected utilities for deciding between scientific experimental designs ",
+    "created_at": "2016-12-07T15:08:16Z",
+    "updated_at": "2021-04-20T05:49:17Z",
+    "clone_url": "https://github.com/umbralcalc/foxi.git",
+    "size": 1413,
+    "language": "Jupyter Notebook",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/umbralcalc",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12143658?v=4",
+      "login": "umbralcalc",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:18:22.505861",
+    "avatar": "https://avatars.githubusercontent.com/u/12143658?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This python package computes a suite of expected utilities which are based on information theory and Bayesian inference, given futuristic observations, in a flexible and user-friendly way.\"",
+        "\"Flexible inputs – usable essentially for any forecasting problem in science with suitable samples.\"",
+        "\"To fork, simply type into the terminal: > git clone https://github.com/umbralcalc/foxi.git\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T04:34:25Z"
+    }
+  }
+}

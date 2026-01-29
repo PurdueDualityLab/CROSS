@@ -1,0 +1,56 @@
+{
+  "parser": "github",
+  "uid": "github/samconnolly/DELightcurveSimulation",
+  "url": "https://github.com/samconnolly/DELightcurveSimulation",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2019MNRAS.485.1694D",
+      "https://ui.adsabs.harvard.edu/abs/2015arXiv150306676C",
+      "https://ui.adsabs.harvard.edu/abs/2016ascl.soft02012C/abstract"
+    ],
+    "title": "DELightcurveSimulation: Light curve simulation code",
+    "url": "https://github.com/samconnolly/DELightcurveSimulation",
+    "name": "DELightcurveSimulation",
+    "full_name": "samconnolly/DELightcurveSimulation",
+    "html_url": "https://github.com/samconnolly/DELightcurveSimulation",
+    "description": "Emmanoulopoulos style lightcurve simulation",
+    "created_at": "2014-11-20T11:12:57Z",
+    "updated_at": "2022-06-07T20:57:15Z",
+    "clone_url": "https://github.com/samconnolly/DELightcurveSimulation.git",
+    "size": 595,
+    "stargazers_count": 19,
+    "watchers_count": 19,
+    "language": "Python",
+    "open_issues_count": 6,
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/samconnolly",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5765263?v=4",
+      "login": "samconnolly",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:22:09.017827",
+    "avatar": "https://avatars.githubusercontent.com/u/5765263?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"To install this module, download this repository by clicking 'download zip' on the right --->'\"",
+        "\"To install this module, download this repository by clicking 'download zip' on the right\"",
+        "\"This will install the code as a module so that it can be imported in any working directory, e.g. with the command: from DELCgen import *\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T03:16:56Z"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/andresmegias/radex-python",
+  "url": "https://github.com/andresmegias/radex-python",
+  "data": {
+    "doi": [],
+    "title": "RADEX Line Fitter",
+    "url": "https://github.com/andresmegias/radex-python",
+    "name": "radex-python",
+    "full_name": "andresmegias/radex-python",
+    "html_url": "https://github.com/andresmegias/radex-python",
+    "description": "Python interface for using the software RADEX",
+    "created_at": "2022-10-23T18:39:28Z",
+    "updated_at": "2022-11-30T01:58:39Z",
+    "clone_url": "https://github.com/andresmegias/radex-python.git",
+    "size": 6484,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Python",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/andresmegias",
+      "avatar_url": "https://avatars.githubusercontent.com/u/109989219?v=4",
+      "login": "andresmegias",
+      "type": "User"
+    },
+    "timestamp": "2023-02-26 00:41:56.974332",
+    "avatar": "https://avatars.githubusercontent.com/u/109989219?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Python interface for using the software RADEX to fit observed transition lines. It consists of a Python 3 script, `radexfit.py`, which is used with RADEX locally.\" (single script-style tool, suggesting an end-user application)",
+        "\"You can check the user guide (`userguide.pdf`) and the example files (inside the `examples` folder) to learn how to use it.\" (indicates it is run directly by users for a scientific fitting task)",
+        "The README only describes cloning/accessing the GitHub repository and using the script with RADEX locally; no mention of package managers, containers, or binaries, implying distribution via the source repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T21:17:25Z"
+    }
+  }
+}

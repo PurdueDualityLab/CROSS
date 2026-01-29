@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/jeremysanders/ggm",
+  "url": "https://github.com/jeremysanders/ggm",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2016MNRAS.457...82S",
+      "https://ui.adsabs.harvard.edu/abs/2021ascl.soft03006S/abstract"
+    ],
+    "title": "ggm: Gaussian gradient magnitude filtering of astronomical images",
+    "url": "https://github.com/jeremysanders/ggm",
+    "name": "ggm",
+    "full_name": "jeremysanders/ggm",
+    "html_url": "https://github.com/jeremysanders/ggm",
+    "description": "Gaussian gradient magnitude filtering of astronomical images",
+    "created_at": "2016-03-30T14:35:00Z",
+    "updated_at": "2022-07-06T10:43:32Z",
+    "clone_url": "https://github.com/jeremysanders/ggm.git",
+    "size": 33,
+    "stargazers_count": 12,
+    "watchers_count": 12,
+    "language": "C++",
+    "license": {
+      "key": "gpl-2.0",
+      "name": "GNU General Public License v2.0",
+      "spdx_id": "GPL-2.0",
+      "url": "https://api.github.com/licenses/gpl-2.0",
+      "node_id": "MDc6TGljZW5zZTg="
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/jeremysanders",
+      "avatar_url": "https://avatars.githubusercontent.com/u/274711?v=4",
+      "login": "jeremysanders",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:12:33.538587",
+    "avatar": "https://avatars.githubusercontent.com/u/274711?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This repository contains useful utilities for Gaussian gradient filtering of astronomical FITS images.\"",
+        "\"The main program is gaussian_gradient_magnitude.py. This utility applies the gaussian gradient magnitude filter to an input fits image\" (command-line usage shown, indicating end-user programs).",
+        "\"All software is Copyright Jeremy Sanders and released under the GNU GPLv2+.\" (no mention of package managers or binaries; usage examples are via `./script.py`, implying source-repo distribution)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:32:48Z"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "parser": "github",
+  "uid": "github/teoxxx/nemiss_pbl",
+  "url": "https://github.com/teoxxx/nemiss_pbl",
+  "data": {
+    "doi": [],
+    "title": "nemiss",
+    "url": "https://github.com/teoxxx/nemiss_pbl",
+    "name": "nemiss_pbl",
+    "full_name": "teoxxx/nemiss_pbl",
+    "html_url": "https://github.com/teoxxx/nemiss_pbl",
+    "description": "nemiss neutrino emission from hydrocode data describing a simulated stellar binary system",
+    "created_at": "2019-12-02T18:59:24Z",
+    "updated_at": "2023-02-01T09:43:52Z",
+    "clone_url": "https://github.com/teoxxx/nemiss_pbl.git",
+    "size": 21123,
+    "language": "Mathematica",
+    "license": {
+      "key": "lgpl-3.0",
+      "name": "GNU Lesser General Public License v3.0",
+      "spdx_id": "LGPL-3.0",
+      "url": "https://api.github.com/licenses/lgpl-3.0",
+      "node_id": "MDc6TGljZW5zZTEy"
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/teoxxx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/40962945?v=4",
+      "login": "teoxxx",
+      "type": "User"
+    },
+    "timestamp": "2023-11-12 00:34:13.610716",
+    "avatar": "https://avatars.githubusercontent.com/u/40962945?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"nemiss neutrino emission from hydrocode data describing a simulated stellar binary system.\"",
+        "\"nemiss neutrino emission from hydrocode data describing a simulated stellar binary system.\"",
+        "\"A whole folder of the pipeline run PLUTO-nemiss-rlos has now been uploaded, minus the sim data of course. It resides in the current repo.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:02:41Z"
+    }
+  }
+}

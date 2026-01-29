@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/sapearson/HSS",
+  "url": "https://github.com/sapearson/HSS",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2021arXiv210700017P",
+      "https://ui.adsabs.harvard.edu/abs/2021ascl.soft09014P/abstract"
+    ],
+    "title": "HSS: The Hough Stream Spotter",
+    "url": "https://github.com/sapearson/HSS",
+    "name": "HSS",
+    "full_name": "sapearson/HSS",
+    "html_url": "https://github.com/sapearson/HSS",
+    "description": "The Hough Stream Spotter (HSS)",
+    "created_at": "2021-05-30T16:35:18Z",
+    "updated_at": "2022-03-15T14:17:34Z",
+    "clone_url": "https://github.com/sapearson/HSS.git",
+    "size": 5483,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Jupyter Notebook",
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/sapearson",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6550771?v=4",
+      "login": "sapearson",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 16:50:23.986389",
+    "avatar": "https://avatars.githubusercontent.com/u/6550771?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install git+https://github.com/astropy/regions\"",
+        "\"This is the Hough Stream Spotter (HSS), described in Pearson et al. 2022a\" and \"This code is written and maintained by Sarah Pearson\"",
+        "\"The HSS is a stream finding code which transforms individual positions of stars to search for linear structure in discrete data sets.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T03:18:47Z"
+    }
+  }
+}

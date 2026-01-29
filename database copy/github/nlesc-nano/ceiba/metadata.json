@@ -1,0 +1,66 @@
+{
+  "parser": "github",
+  "uid": "github/nlesc-nano/ceiba",
+  "url": "https://github.com/nlesc-nano/ceiba",
+  "data": {
+    "timestamp": "2021-05-09 00:28:26.620684",
+    "name": "ceiba",
+    "url": "https://api.github.com/repos/nlesc-nano/ceiba",
+    "full_name": "nlesc-nano/ceiba",
+    "html_url": "https://github.com/nlesc-nano/ceiba",
+    "private": false,
+    "description": "Web service to manage scientific simulation data",
+    "created_at": "2020-09-22T07:17:13Z",
+    "updated_at": "2021-04-28T07:48:16Z",
+    "clone_url": "https://github.com/nlesc-nano/ceiba.git",
+    "homepage": "",
+    "size": 517,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "Python",
+    "open_issues_count": 2,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/nlesc-nano",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49066803?v=4",
+      "login": "nlesc-nano",
+      "type": "Organization"
+    },
+    "topics": [
+      "scientific-computing",
+      "web-service",
+      "python",
+      "graphql",
+      "workflow-automation"
+    ]
+  },
+  "doi": "10.5281/zenodo.4627444",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"See `documentation <https://ceiba.readthedocs.io/en/latest/>`_ and `blog post <https://blog.esciencecenter.nl/building-a-web-service-to-manage-scientific-simulation-data-using-graphql-a0bbf1c3f6e9>`_.\"",
+        "\"Ceiba and its command line interface ... solve the problem of computing, storing and securely sharing computationally expensive simulation results. Researchers can save significant time and resources by easily computing new data and reusing existing simulation data to answer their questions.\"",
+        "\"The provisioning folder contains the instructions to deploy the web service using docker. Alternatively, you can deploy the web service locally...\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:39:17Z"
+    }
+  }
+}

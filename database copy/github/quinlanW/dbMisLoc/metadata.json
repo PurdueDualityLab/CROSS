@@ -1,0 +1,47 @@
+{
+  "parser": "github",
+  "uid": "github/quinlanW/dbMisLoc",
+  "url": "https://github.com/quinlanW/dbMisLoc",
+  "data": {
+    "doi": "10.1007/S12539-023-00564-0",
+    "name": "dbMisLoc",
+    "url": "https://github.com/quinlanW/dbMisLoc",
+    "full_name": "quinlanW/dbMisLoc",
+    "html_url": "https://github.com/quinlanW/dbMisLoc",
+    "created_at": "2021-06-25T07:39:58Z",
+    "updated_at": "2022-03-10T09:18:23Z",
+    "clone_url": "https://github.com/quinlanW/dbMisLoc.git",
+    "size": 55235,
+    "language": "Vue",
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/quinlanW",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57059991?v=4",
+      "login": "quinlanW",
+      "type": "User"
+    },
+    "timestamp": "2023-09-17 00:35:07.093327",
+    "avatar": "https://avatars.githubusercontent.com/u/57059991?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"If you want to run this code in your development environment, you should first install **Node.js** (https://nodejs.org/en/download) and **MySQL** (https://www.mysql.com/downloads/) on your machine.\"",
+        "“We store all the protein exception location information in a MySQL database. We used the node.js scripting engine and JavaScript from the Express framework to implement the backend system. The frontend was implemented using JavaScript with the Vue framework.” (describes a full web application/database system)",
+        "“If you want to run this code in your development environment, you should first install Node.js and MySQL on your machine.” (users run the application rather than import it as a library)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T02:01:49Z"
+    }
+  }
+}

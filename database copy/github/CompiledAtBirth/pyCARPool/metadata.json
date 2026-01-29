@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/CompiledAtBirth/pyCARPool",
+  "url": "https://github.com/CompiledAtBirth/pyCARPool",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2021MNRAS.503.1897C",
+      "https://ui.adsabs.harvard.edu/abs/2025ascl.soft09015C/abstract"
+    ],
+    "title": "pyCARPool: Convergence Acceleration by Regression and Pooling",
+    "url": "https://github.com/CompiledAtBirth/pyCARPool",
+    "name": "pyCARPool",
+    "full_name": "CompiledAtBirth/pyCARPool",
+    "html_url": "https://github.com/CompiledAtBirth/pyCARPool",
+    "created_at": "2020-12-08T12:51:44Z",
+    "updated_at": "2021-10-03T19:41:26Z",
+    "clone_url": "https://github.com/CompiledAtBirth/pyCARPool.git",
+    "size": 52001,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/CompiledAtBirth",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47000650?v=4",
+      "login": "CompiledAtBirth",
+      "type": "User"
+    },
+    "timestamp": "2025-10-05 00:52:28.101811",
+    "avatar": "https://avatars.githubusercontent.com/u/47000650?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Repository that provides a custom class and functions to use the CARPool method\" (indicates a Python module/library to be imported).",
+        "\"from pyCARPool import CARPool, confidenceInt, CARPoolSamples, CARPoolEstimator\" (shows it is used as an importable dependency).",
+        "\"The goal is to compute an unbiased estimate of a parameter vector with much lower variance than the samples mean of costly simulations...\" and \"examples/ repository contains scripts allowing to reproduce results from the paper\" (indicates direct use in producing research results)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T16:55:06Z"
+    }
+  }
+}

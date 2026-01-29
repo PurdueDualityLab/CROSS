@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/cullanhowlett/l-picola",
+  "url": "https://github.com/CullanHowlett/l-picola",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2015A%26C....12..109H",
+      "https://ui.adsabs.harvard.edu/abs/2015ascl.soft07004H/abstract"
+    ],
+    "title": "L-PICOLA: Fast dark matter simulation code",
+    "url": "https://github.com/CullanHowlett/l-picola",
+    "name": "l-picola",
+    "full_name": "CullanHowlett/l-picola",
+    "html_url": "https://github.com/CullanHowlett/l-picola",
+    "description": "A public repository for the code L-PICOLA",
+    "created_at": "2015-03-04T11:55:16Z",
+    "updated_at": "2021-11-27T10:18:15Z",
+    "clone_url": "https://github.com/CullanHowlett/l-picola.git",
+    "size": 4108,
+    "stargazers_count": 13,
+    "watchers_count": 13,
+    "language": "C",
+    "license": {
+      "key": "gpl-2.0",
+      "name": "GNU General Public License v2.0",
+      "spdx_id": "GPL-2.0",
+      "url": "https://api.github.com/licenses/gpl-2.0",
+      "node_id": "MDc6TGljZW5zZTg="
+    },
+    "subscribers_count": 10,
+    "owner": {
+      "html_url": "https://github.com/CullanHowlett",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5528370?v=4",
+      "login": "CullanHowlett",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:22:50.710630",
+    "avatar": "https://avatars.githubusercontent.com/u/5528370?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This code is L-PICOLA: A Lightcone-enabled Parallel Implementation of the COLA ... method\"",
+        "\"We have included a comprehensive user guide with this distribution, explaining the multitude of options available when using the code.\"",
+        "\"The source code is in the 'src' directory. Any files you may need to run L-PICOLA ... are in the 'files' directory.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T23:13:11Z"
+    }
+  }
+}

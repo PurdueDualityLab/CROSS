@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/xdqso/xdqso",
+  "url": "https://github.com/xdqso/xdqso",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2011ApJ...729..141B",
+      "https://ui.adsabs.harvard.edu/abs/2013ascl.soft02016B/abstract"
+    ],
+    "title": "XDQSO: Photometic quasar probabilities and redshifts",
+    "url": "https://github.com/xdqso/xdqso",
+    "name": "xdqso",
+    "full_name": "xdqso/xdqso",
+    "html_url": "https://github.com/xdqso/xdqso",
+    "description": "Quasar classification with XD",
+    "created_at": "2014-10-13T18:57:25Z",
+    "updated_at": "2015-11-30T17:17:05Z",
+    "clone_url": "https://github.com/xdqso/xdqso.git",
+    "homepage": "http://xdqso.readthedocs.org/en/latest/",
+    "size": 31159,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "IDL",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/xdqso",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9202071?v=4",
+      "login": "xdqso",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-17 17:24:24.432112",
+    "avatar": "https://avatars.githubusercontent.com/u/9202071?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "Title: \"xdqso - Quasar classification with XD\" indicates a scientific application for quasar classification (an end-user research analysis tool).",
+        "Readme links to documentation and acknowledgements but does not mention packaging or registries, implying use via the source repository and docs: \"For installation instructions, documentation, and acknowledgement info see here\".",
+        "Owner is an organization \"xdqso\", suggesting a project or research group identity rather than an individual or company."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T04:55:24Z"
+    }
+  }
+}

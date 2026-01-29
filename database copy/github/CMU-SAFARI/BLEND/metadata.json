@@ -1,0 +1,71 @@
+{
+  "parser": "github",
+  "uid": "github/CMU-SAFARI/BLEND",
+  "url": "https://github.com/CMU-SAFARI/BLEND",
+  "data": {
+    "doi": "10.1093/nargab/lqad004",
+    "name": "BLEND",
+    "url": "https://github.com/CMU-SAFARI/BLEND",
+    "full_name": "CMU-SAFARI/BLEND",
+    "html_url": "https://github.com/CMU-SAFARI/BLEND",
+    "description": "BLEND is a mechanism that can efficiently find fuzzy seed matches between sequences to significantly improve the performance and accuracy while reducing the memory space usage of two important applications: 1) finding overlapping reads and 2) read mapping. Described by Firtina et al. (published in NARGAB https://doi.org/10.1093/nargab/lqad004)",
+    "created_at": "2021-12-12T15:43:24Z",
+    "updated_at": "2023-03-23T16:00:24Z",
+    "clone_url": "https://github.com/CMU-SAFARI/BLEND.git",
+    "size": 14299,
+    "stargazers_count": 22,
+    "watchers_count": 22,
+    "language": "C",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 12,
+    "owner": {
+      "html_url": "https://github.com/CMU-SAFARI",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8065918?v=4",
+      "login": "CMU-SAFARI",
+      "type": "Organization"
+    },
+    "topics": [
+      "bioinformatics",
+      "blend",
+      "de-novo-assembly",
+      "genome-analysis",
+      "genome-assembly",
+      "minimizers",
+      "read-mapping",
+      "strobemers",
+      "fuzzy-seeds",
+      "read-overlapping",
+      "seed-matching",
+      "spaced-seeds"
+    ],
+    "timestamp": "2023-04-02 00:38:05.277473",
+    "avatar": "https://avatars.githubusercontent.com/u/8065918?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "conda",
+      "evidence": [
+        "README install command: \"conda install -c bioconda blend-bio\"",
+        "\"BLEND is a mechanism that can generate the same hash value for highly similar seeds to find fuzzy (approximate) seed matches between sequences...\" and is integrated into minimap2 for read overlapping and read mapping, indicating a domain-specific genome analysis tool (application).",
+        "\"BLEND can significantly improve the performance and accuracy while reducing the memory footprint of two important applications: 1) read overlapping and 2) read mapping.\" This shows it directly performs core genomic analysis tasks used in research results."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T16:49:36Z"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "parser": "github",
+  "uid": "github/FabianPlum/OmniTrax",
+  "url": "https://github.com/FabianPlum/OmniTrax",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.10817891",
+    "name": "OmniTrax",
+    "url": "https://github.com/FabianPlum/OmniTrax",
+    "full_name": "FabianPlum/OmniTrax",
+    "html_url": "https://github.com/FabianPlum/OmniTrax",
+    "description": "Deep learning-driven multi animal tracking and pose estimation add-on for Blender",
+    "created_at": "2021-11-08T15:07:16Z",
+    "updated_at": "2024-03-16T12:31:53Z",
+    "clone_url": "https://github.com/FabianPlum/OmniTrax.git",
+    "size": 89262,
+    "stargazers_count": 19,
+    "watchers_count": 19,
+    "language": "Python",
+    "open_issues_count": 1,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/FabianPlum",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26245490?v=4",
+      "login": "FabianPlum",
+      "type": "User"
+    },
+    "topics": [
+      "blender",
+      "deeplabcut",
+      "deeplearning",
+      "object-detection",
+      "tracking",
+      "yolo"
+    ],
+    "timestamp": "2024-03-17 00:34:18.988906",
+    "avatar": "https://avatars.githubusercontent.com/u/26245490?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Builds and releases",
+      "distribution_details": "GitHub Releases",
+      "evidence": [
+        "README mentions releases: \"3. Download the latest release [![latest-release](https://img.shields.io/github/tag/FabianPlum/OmniTrax.svg?label=version&style=flat)](https://github.com/FabianPlum/OmniTrax/releases) of [OmniTrax](ht\"",
+        "\"OmniTrax is an open-source Blender Add-on designed for deep learning-driven multi-animal tracking and pose-estimation.\"",
+        "\"OmniTrax is designed to be a plug-and-play toolkit for biologists to facilitate the extraction of kinematic and behavioural data of freely moving animals.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T17:10:41Z"
+    }
+  }
+}

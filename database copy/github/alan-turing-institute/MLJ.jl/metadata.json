@@ -1,0 +1,75 @@
+{
+  "parser": "github",
+  "uid": "github/alan-turing-institute/MLJ.jl",
+  "url": "https://github.com/alan-turing-institute/MLJ.jl",
+  "data": {
+    "timestamp": "2020-11-08 00:20:28.184635",
+    "name": "MLJ.jl",
+    "url": "https://api.github.com/repos/alan-turing-institute/MLJ.jl",
+    "full_name": "alan-turing-institute/MLJ.jl",
+    "html_url": "https://github.com/alan-turing-institute/MLJ.jl",
+    "private": false,
+    "description": "A Julia machine learning framework",
+    "created_at": "2018-08-01T06:29:39Z",
+    "updated_at": "2020-11-05T22:04:09Z",
+    "clone_url": "https://github.com/alan-turing-institute/MLJ.jl.git",
+    "homepage": "",
+    "size": 23836,
+    "stargazers_count": 880,
+    "watchers_count": 880,
+    "language": "Jupyter Notebook",
+    "open_issues_count": 74,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 43,
+    "owner": {
+      "html_url": "https://github.com/alan-turing-institute",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/18304793?v=4",
+      "login": "alan-turing-institute",
+      "type": "Organization"
+    },
+    "topics": [
+      "machine-learning",
+      "julia",
+      "pipelines",
+      "tuning",
+      "data-science",
+      "tuning-parameters",
+      "predictive-modeling",
+      "classification",
+      "regression",
+      "statistics",
+      "clustering",
+      "stacking",
+      "ensemble-learning",
+      "pipeline"
+    ]
+  },
+  "doi": "https://doi.org/10.5281/zenodo.4178917",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"MLJ (Machine Learning in Julia) is a toolbox written in Julia providing a common interface and meta-algorithms for selecting, tuning, evaluating, composing and comparing over 200 machine learning models\" (end users run it as a toolbox/application).",
+        "\"The MLJ.jl package is an umbrella package for components distributed in a number of other packages\" (indicates it is a primary application coordinating other packages).",
+        "README only links to GitHub repo and documentation, with no mention of package managers or binaries, implying distribution via the source repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T21:04:13Z"
+    }
+  }
+}

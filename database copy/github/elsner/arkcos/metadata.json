@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/elsner/arkcos",
+  "url": "https://github.com/elsner/arkcos",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2011A%26A...532A..35E",
+      "https://ui.adsabs.harvard.edu/abs/2018ascl.soft07004E/abstract"
+    ],
+    "title": "ARKCoS: Radial kernel convolution on the sphere",
+    "url": "https://github.com/elsner/arkcos",
+    "name": "arkcos",
+    "full_name": "elsner/arkcos",
+    "html_url": "https://github.com/elsner/arkcos",
+    "description": "Accelerated radial kernel convolution on the sphere",
+    "created_at": "2018-03-22T16:19:13Z",
+    "updated_at": "2019-03-18T19:27:00Z",
+    "clone_url": "https://github.com/elsner/arkcos.git",
+    "size": 33,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "C++",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/elsner",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1218415?v=4",
+      "login": "elsner",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:18:20.580039",
+    "avatar": "https://avatars.githubusercontent.com/u/1218415?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This algorithm is designed to efficiently convolve pixelated maps on the sphere with radially symmetric kernels with compact support.\"",
+        "\"It is written in C++/CUDA and provides two independent code paths to do the necessary computation either on conventional hardware (CPUs), or on graphics processing units (GPUs).\"",
+        "\"Adapt the 'Makefile' to your compilers.\" and detailed build instructions indicate distribution via source code repository rather than a package registry or binaries."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T23:44:04Z"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "parser": "github",
+  "uid": "github/lilyminium/psiresp",
+  "url": "https://github.com/lilyminium/psiresp",
+  "data": {
+    "timestamp": "2022-05-08 00:55:24.785404",
+    "name": "psiresp",
+    "url": "https://api.github.com/repos/lilyminium/psiresp",
+    "full_name": "lilyminium/psiresp",
+    "html_url": "https://github.com/lilyminium/psiresp",
+    "private": false,
+    "description": "RESP with inter- and intra-molecular constraints in Psi4.",
+    "created_at": "2020-05-13T05:26:57Z",
+    "updated_at": "2022-05-04T15:37:03Z",
+    "clone_url": "https://github.com/lilyminium/psiresp.git",
+    "homepage": "https://psiresp.readthedocs.io/",
+    "size": 60388,
+    "stargazers_count": 10,
+    "watchers_count": 10,
+    "language": "Python",
+    "open_issues_count": 6,
+    "license": {
+      "key": "lgpl-3.0",
+      "name": "GNU Lesser General Public License v3.0",
+      "spdx_id": "LGPL-3.0",
+      "url": "https://api.github.com/licenses/lgpl-3.0",
+      "node_id": "MDc6TGljZW5zZTEy"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/lilyminium",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31115101?v=4",
+      "login": "lilyminium",
+      "type": "User"
+    },
+    "topics": [
+      "psi4",
+      "atomic-charges",
+      "python",
+      "molecular-dynamics"
+    ]
+  },
+  "doi": "https://doi.org/10.5281/zenodo.6501898",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install psiresp\"",
+        "\"PsiRESP is a package for calculating atomic partial charges from restrained and unrestrained electrostatic potential fits using Psi4.\"",
+        "Example usage shows it imported as a library: `import psiresp` and then used via `psiresp.Molecule` and `psiresp.Job`."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:54:56Z"
+    }
+  }
+}

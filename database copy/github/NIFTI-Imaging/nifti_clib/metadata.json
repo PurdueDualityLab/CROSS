@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/NIFTI-Imaging/nifti_clib",
+  "url": "https://github.com/NIFTI-Imaging/nifti_clib",
+  "data": {
+    "url": "https://github.com/NIFTI-Imaging/nifti_clib",
+    "title": "Nifti-bin",
+    "description": "C libraries for NIFTI support",
+    "name": "nifti_clib",
+    "full_name": "NIFTI-Imaging/nifti_clib",
+    "html_url": "https://github.com/NIFTI-Imaging/nifti_clib",
+    "created_at": "2018-12-06T21:52:50Z",
+    "updated_at": "2022-07-08T21:57:26Z",
+    "clone_url": "https://github.com/NIFTI-Imaging/nifti_clib.git",
+    "size": 2296,
+    "stargazers_count": 20,
+    "watchers_count": 20,
+    "language": "C",
+    "open_issues_count": 14,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 7,
+    "owner": {
+      "html_url": "https://github.com/NIFTI-Imaging",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45666806?v=4",
+      "login": "NIFTI-Imaging",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-20 17:30:22.393161",
+    "avatar": "https://avatars.githubusercontent.com/u/45666806?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"for binary file format for storing medical image data, e.g. magnetic resonance\"",
+        "“`Nifti_clib` is a set of i/o libraries for reading and writing files in the nifti-1, nifti-2, and (to some degree) cifti file formats.”",
+        "“`Nifti_clib` has been developed by members of the NIFTI DFWG and volunteers in the neuroimaging community and serves as a reference implementation of the nifti-1 and nifti-2 file formats.”"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T19:34:15Z"
+    }
+  }
+}

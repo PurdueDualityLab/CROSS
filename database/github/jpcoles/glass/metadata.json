@@ -1,35 +1,254 @@
 {
-    "parser": "github",
-    "uid": "github/jpcoles/glass",
+  "parser": "github",
+  "uid": "github/jpcoles/glass",
+  "url": "https://github.com/jpcoles/glass",
+  "data": {
+    "doi": [
+      "http://adsabs.harvard.edu/abs/2018A%26C....23..115K",
+      "http://adsabs.harvard.edu/abs/2014MNRAS.445.2181C",
+      "https://ui.adsabs.harvard.edu/abs/2018ascl.soft06009C/abstract"
+    ],
+    "title": "GLASS: Parallel, free-form gravitational lens modeling tool and framework",
     "url": "https://github.com/jpcoles/glass",
-    "data": {
-        "doi": [
-            "http://adsabs.harvard.edu/abs/2018A%26C....23..115K",
-            "http://adsabs.harvard.edu/abs/2014MNRAS.445.2181C",
-            "https://ui.adsabs.harvard.edu/abs/2018ascl.soft06009C/abstract"
-        ],
-        "title": "GLASS: Parallel, free-form gravitational lens modeling tool and framework",
-        "url": "https://github.com/jpcoles/glass",
-        "name": "glass",
-        "full_name": "jpcoles/glass",
-        "html_url": "https://github.com/jpcoles/glass",
-        "description": "A parallel, free-form gravitational lens modeling tool and framework",
-        "created_at": "2013-09-12T12:29:47Z",
-        "updated_at": "2021-04-16T01:36:49Z",
-        "clone_url": "https://github.com/jpcoles/glass.git",
-        "size": 5442,
-        "stargazers_count": 1,
-        "watchers_count": 1,
-        "language": "Python",
-        "open_issues_count": 2,
-        "subscribers_count": 7,
-        "owner": {
-            "html_url": "https://github.com/jpcoles",
-            "avatar_url": "https://avatars.githubusercontent.com/u/2162148?v=4",
-            "login": "jpcoles",
-            "type": "User"
-        },
-        "timestamp": "2022-07-17 17:18:33.985079",
-        "avatar": "https://avatars.githubusercontent.com/u/2162148?v=4"
+    "name": "glass",
+    "full_name": "jpcoles/glass",
+    "html_url": "https://github.com/jpcoles/glass",
+    "description": "A parallel, free-form gravitational lens modeling tool and framework",
+    "created_at": "2013-09-12T12:29:47Z",
+    "updated_at": "2021-04-16T01:36:49Z",
+    "clone_url": "https://github.com/jpcoles/glass.git",
+    "size": 5442,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Python",
+    "open_issues_count": 2,
+    "subscribers_count": 7,
+    "owner": {
+      "html_url": "https://github.com/jpcoles",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2162148?v=4",
+      "login": "jpcoles",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:18:33.985079",
+    "avatar": "https://avatars.githubusercontent.com/u/2162148?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"GLASS is a software package for modeling strong gravitianal lenses. It produces an ensemble of possible models that fit the observed input data\" (end-user modeling application).",
+        "\"GLASS can be downloaded as a .zip file or using git from GitHub: https://github.com/jpcoles/glass\" (distribution via source repository/zip).",
+        "\"GLASS and the GLPK can be built simply by running the command 'make' in the glass source code directory. ... It will also build and install GLASS. ... there is a script called 'run_glass' which will execute GLASS\" (built and run as an application for scientific modeling)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:38:54Z"
     }
+  },
+  "openssf_scorecard": {
+    "data": {
+      "date": "2026-01-23T12:02:21-05:00",
+      "repo": {
+        "name": "github.com/jpcoles/glass",
+        "commit": "15ea624e949a04b9fcb6dae26ff7f16475c8dd24"
+      },
+      "scorecard": {
+        "version": "v5.4.0",
+        "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+      },
+      "score": 2.1,
+      "checks": [
+        {
+          "details": null,
+          "score": 9,
+          "reason": "binaries present in source code",
+          "name": "Binary-Artifacts",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#binary-artifacts",
+            "short": "Determines if the project has generated executable (binary) artifacts in the source repository."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "branch protection not enabled on development/release branches",
+          "name": "Branch-Protection",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#branch-protection",
+            "short": "Determines if the default and release branches are protected with GitHub's branch protection settings."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no pull request found",
+          "name": "CI-Tests",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#ci-tests",
+            "short": "Determines if the project runs tests before pull requests are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no effort to earn an OpenSSF best practices badge detected",
+          "name": "CII-Best-Practices",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#cii-best-practices",
+            "short": "Determines if the project has an OpenSSF (formerly CII) Best Practices Badge."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "Found 0/30 approved changesets -- score normalized to 0",
+          "name": "Code-Review",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#code-review",
+            "short": "Determines if the project requires human code review before pull requests (aka merge requests) are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "project has 0 contributing companies or organizations -- score normalized to 0",
+          "name": "Contributors",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#contributors",
+            "short": "Determines if the project has a set of contributors from multiple organizations (e.g., companies)."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no workflows found",
+          "name": "Dangerous-Workflow",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dangerous-workflow",
+            "short": "Determines if the project's GitHub Action workflows avoid dangerous patterns."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no update tool detected",
+          "name": "Dependency-Update-Tool",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dependency-update-tool",
+            "short": "Determines if the project uses a dependency update tool."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "project is not fuzzed",
+          "name": "Fuzzing",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#fuzzing",
+            "short": "Determines if the project uses fuzzing."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "license file not detected",
+          "name": "License",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#license",
+            "short": "Determines if the project has defined a license."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0",
+          "name": "Maintained",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#maintained",
+            "short": "Determines if the project is \"actively maintained\"."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "packaging workflow not detected",
+          "name": "Packaging",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#packaging",
+            "short": "Determines if the project is published as a package that others can easily download, install, easily update, and uninstall."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no dependencies found",
+          "name": "Pinned-Dependencies",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#pinned-dependencies",
+            "short": "Determines if the project has declared and pinned the dependencies of its build process."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no SAST tool detected",
+          "name": "SAST",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#sast",
+            "short": "Determines if the project uses static code analysis."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "security policy file not detected",
+          "name": "Security-Policy",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#security-policy",
+            "short": "Determines if the project has published a security policy."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no releases found",
+          "name": "Signed-Releases",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#signed-releases",
+            "short": "Determines if the project cryptographically signs release artifacts."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "No tokens found",
+          "name": "Token-Permissions",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#token-permissions",
+            "short": "Determines if the project's workflows follow the principle of least privilege."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "0 existing vulnerabilities detected",
+          "name": "Vulnerabilities",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#vulnerabilities",
+            "short": "Determines if the project has open, known unfixed vulnerabilities."
+          }
+        }
+      ],
+      "metadata": null
+    },
+    "timestamp_utc": "2026-01-23T17:02:27Z"
+  }
 }

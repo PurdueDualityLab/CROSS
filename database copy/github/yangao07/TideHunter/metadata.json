@@ -1,0 +1,66 @@
+{
+  "parser": "github",
+  "uid": "github/yangao07/TideHunter",
+  "url": "https://github.com/yangao07/TideHunter",
+  "data": {
+    "title": "TideHunter",
+    "url": "https://github.com/yangao07/TideHunter",
+    "credit": [],
+    "description": "TideHunter: efficient and sensitive tandem repeat detection from noisy long reads using seed-and-chain",
+    "name": "TideHunter",
+    "full_name": "yangao07/TideHunter",
+    "html_url": "https://github.com/yangao07/TideHunter",
+    "created_at": "2017-12-15T16:28:41Z",
+    "updated_at": "2022-07-13T00:52:32Z",
+    "clone_url": "https://github.com/yangao07/TideHunter.git",
+    "size": 50877,
+    "stargazers_count": 21,
+    "watchers_count": 21,
+    "language": "C",
+    "open_issues_count": 3,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/yangao07",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5309122?v=4",
+      "login": "yangao07",
+      "type": "User"
+    },
+    "topics": [
+      "long-reads",
+      "seed-and-chain",
+      "multiple-sequence-alignment",
+      "partial-order-alignment",
+      "tandem-repeats"
+    ],
+    "timestamp": "2022-07-18 17:47:12.088300",
+    "avatar": "https://avatars.githubusercontent.com/u/5309122?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "conda",
+      "evidence": [
+        "README install command: \"conda install -c bioconda tidehunter\"",
+        "\"TideHunter is an efficient and sensitive tandem repeat detection and consensus calling tool which is designed for tandemly repeated long-read sequence\"",
+        "Usage examples show running it as a command-line tool: `TideHunter ./test_data/test_1000x10.fa > cons.fa`"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:57:17Z"
+    }
+  }
+}

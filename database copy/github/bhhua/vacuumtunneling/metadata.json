@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/bhhua/vacuumtunneling",
+  "url": "https://github.com/bhhua/VacuumTunneling",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2025CoPhC.31609764H",
+      "https://ui.adsabs.harvard.edu/abs/2025ascl.soft09011H/abstract"
+    ],
+    "title": "VacuumTunneling: Evaluating bubble profile with a renomalization factor",
+    "url": "https://github.com/bhhua/VacuumTunneling",
+    "name": "VacuumTunneling",
+    "full_name": "bhhua/VacuumTunneling",
+    "html_url": "https://github.com/bhhua/VacuumTunneling",
+    "description": "A package for evaluating bubble profile with a renomalization factor",
+    "created_at": "2024-11-17T03:03:09Z",
+    "updated_at": "2025-07-09T12:44:31Z",
+    "clone_url": "https://github.com/bhhua/VacuumTunneling.git",
+    "size": 494,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "Mathematica",
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/bhhua",
+      "avatar_url": "https://avatars.githubusercontent.com/u/188728846?v=4",
+      "login": "bhhua",
+      "type": "User"
+    },
+    "timestamp": "2025-10-05 00:52:30.372215",
+    "avatar": "https://avatars.githubusercontent.com/u/188728846?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"VacuumTunneling: A package for evaluating bubble profile with a renomalization factor in Mathematica\" – a domain-specific package users run inside Mathematica to perform tunneling calculations.",
+        "Usage is shown by loading and calling functions directly: `<<\"VacuumTunneling`\"` and `a = Tunneling[V[x], Z[x], x, tv, fv]`, indicating an end-user analysis tool rather than a lower-level library for other software.",
+        "Installation and use are described only via cloning/using the GitHub repo and loading the package in Mathematica; there is no mention of package registries, binaries, or containers."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T22:04:16Z"
+    }
+  }
+}

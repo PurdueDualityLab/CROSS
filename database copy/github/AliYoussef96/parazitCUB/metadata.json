@@ -1,0 +1,55 @@
+{
+  "parser": "github",
+  "uid": "github/AliYoussef96/parazitCUB",
+  "url": "https://github.com/AliYoussef96/parazitCUB",
+  "data": {
+    "doi": "10.12688/f1000research.143223.1",
+    "name": "parazitCUB",
+    "url": "https://github.com/AliYoussef96/parazitCUB",
+    "full_name": "AliYoussef96/parazitCUB",
+    "html_url": "https://github.com/AliYoussef96/parazitCUB",
+    "description": "parazitCUB streamlines the process of investigating the adaptations of parasites' Codon Usage Bias (CUB) within the R environment",
+    "created_at": "2023-05-16T07:35:36Z",
+    "updated_at": "2023-07-15T15:22:50Z",
+    "clone_url": "https://github.com/AliYoussef96/parazitCUB.git",
+    "size": 25472,
+    "language": "R",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/AliYoussef96",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42375503?v=4",
+      "login": "AliYoussef96",
+      "type": "User"
+    },
+    "timestamp": "2024-04-28 00:37:07.604632",
+    "avatar": "https://avatars.githubusercontent.com/u/42375503?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"BiocManager\")\"",
+        "\"we developed the vhcub ... R package\" and \"we have recently introduced an updated version of the vhcub package, now named parazitCUB\" – indicates an R package/library intended to be used from R code, i.e., a dependency.",
+        "The README is entirely about functions like `GC.content`, `ENc.values.old`, `MILC.values`, etc., that perform codon usage bias analysis and generate plots, directly used for biological CUB research."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T16:34:32Z"
+    }
+  }
+}

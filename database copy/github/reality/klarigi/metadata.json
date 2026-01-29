@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/reality/klarigi",
+  "url": "https://github.com/reality/klarigi",
+  "data": {
+    "timestamp": "2021-11-14 00:35:40.262741",
+    "name": "klarigi",
+    "url": "https://api.github.com/repos/reality/klarigi",
+    "full_name": "reality/klarigi",
+    "html_url": "https://github.com/reality/klarigi",
+    "private": false,
+    "description": null,
+    "created_at": "2021-05-26T14:36:00Z",
+    "updated_at": "2021-10-05T11:43:54Z",
+    "clone_url": "https://github.com/reality/klarigi.git",
+    "homepage": null,
+    "size": 5405,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "Groovy",
+    "open_issues_count": 0,
+    "license": null,
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/reality",
+      "avatar_url": "https://avatars.githubusercontent.com/u/223469?v=4",
+      "login": "reality",
+      "type": "User"
+    },
+    "topics": []
+  },
+  "doi": "10.1101/2021.06.14.448423",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"Here is the most recent [stable release](https://github.com/reality/klarigi/releases/tag/0.1.2). To install, you just have to extract either the ZIP or Tar file, then either run the ```klarigi``` bina\"",
+        "\"This application will derive characteristic and discriminatory explanations for groups of entities described by ontology classes.\"",
+        "\"To install, you just have to extract either the ZIP or Tar file, then either run the `klarigi` binary from the extracted folder directly, or add it to your PATH\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T02:07:17Z"
+    }
+  }
+}

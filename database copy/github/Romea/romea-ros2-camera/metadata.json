@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/Romea/romea-ros2-camera",
+  "url": "https://github.com/Romea/romea-ros2-camera",
+  "data": {
+    "name": "romea-ros2-camera",
+    "url": "https://github.com/Romea/romea-ros2-camera",
+    "full_name": "Romea/romea-ros2-camera",
+    "html_url": "https://github.com/Romea/romea-ros2-camera",
+    "private": false,
+    "description": null,
+    "created_at": "2023-10-30T15:30:58Z",
+    "updated_at": "2024-10-29T12:53:28Z",
+    "clone_url": "https://github.com/Romea/romea-ros2-camera.git",
+    "homepage": null,
+    "size": 54,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": "Python",
+    "open_issues_count": 0,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "subscribers_count": 0,
+    "owner": {
+      "html_url": "https://github.com/Romea",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20208303?v=4",
+      "login": "Romea",
+      "type": "Organization"
+    },
+    "topics": [],
+    "timestamp": "2024-11-03 00:49:52.943127",
+    "avatar": "https://avatars.githubusercontent.com/u/20208303?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This project contains several ROS2 packages for working with camera sensors, both in real-world applications and simulations.\"",
+        "\"1. create a ROS workspace ... 5. vcs import src < romea_camera_public.repos 6. colcon build 7. see bringup package to launch camera\"",
+        "\"The romea_ros2_camera project was developed by **Jean Laneurit** in the context of various research projects carried out at INRAE.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T20:11:04Z"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/ClusterMonteCarlo/CMC-COSMIC",
+  "url": "https://github.com/ClusterMonteCarlo/CMC-COSMIC",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2021arXiv210602643R",
+      "https://ui.adsabs.harvard.edu/abs/2021ascl.soft08023R/abstract"
+    ],
+    "title": "CMC-COSMIC: Cluster Monte Carlo code",
+    "url": "https://github.com/ClusterMonteCarlo/CMC-COSMIC",
+    "name": "CMC-COSMIC",
+    "full_name": "ClusterMonteCarlo/CMC-COSMIC",
+    "html_url": "https://github.com/ClusterMonteCarlo/CMC-COSMIC",
+    "created_at": "2020-05-20T20:05:27Z",
+    "updated_at": "2022-02-17T15:35:30Z",
+    "clone_url": "https://github.com/ClusterMonteCarlo/CMC-COSMIC.git",
+    "size": 198025,
+    "stargazers_count": 7,
+    "watchers_count": 7,
+    "language": "C",
+    "open_issues_count": 3,
+    "subscribers_count": 6,
+    "owner": {
+      "html_url": "https://github.com/ClusterMonteCarlo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23002054?v=4",
+      "login": "ClusterMonteCarlo",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-17 17:11:05.576764",
+    "avatar": "https://avatars.githubusercontent.com/u/23002054?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Containers",
+      "distribution_details": null,
+      "evidence": [
+        "README container command: \"docker pull clustermontecarlo/cmc\"",
+        "\"A Henon style orbit-averaging code for collisional stellar dynamics, with all the necessary physics for modeling the long-term evolution of dense star clusters.\"",
+        "\"This will create a build and bin folder in the top level of the CMC-COSMIC package with the relevant executables.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T16:54:18Z"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/arangrhie/merfin",
+  "url": "https://github.com/arangrhie/merfin",
+  "data": {
+    "timestamp": "2021-12-05 00:38:19.225907",
+    "name": "merfin",
+    "url": "https://api.github.com/repos/arangrhie/merfin",
+    "full_name": "arangrhie/merfin",
+    "html_url": "https://github.com/arangrhie/merfin",
+    "private": false,
+    "description": "Evaluate variant calls and its combination with k-mer multiplicity",
+    "created_at": "2020-07-16T01:22:53Z",
+    "updated_at": "2021-11-09T11:23:38Z",
+    "clone_url": "https://github.com/arangrhie/merfin.git",
+    "homepage": "",
+    "size": 10173,
+    "stargazers_count": 30,
+    "watchers_count": 30,
+    "language": "R",
+    "open_issues_count": 2,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/arangrhie",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12814549?v=4",
+      "login": "arangrhie",
+      "type": "User"
+    },
+    "topics": []
+  },
+  "doi": "10.1101/2021.07.16.452324",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Merfin can be used to: * filter any variant calls for accurate genotyping ... * assess collapsed or duplicated region of the assembly ... * QV* for all scaffolds and the assembly ... * K* completeness ... * filter variant calls for polishing\"",
+        "Installation instructions use git clone and make from this repository: \"git clone https://github.com/arangrhie/merfin.git ... make -j 12\"",
+        "\"This code was developed as part of the T2T consortium chm13-polishing working group by the following individuals:\" indicating a research working group developing a genomics analysis tool."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T21:19:55Z"
+    }
+  }
+}

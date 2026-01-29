@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/folsomcp/specpolFlow",
+  "url": "https://github.com/folsomcp/specpolFlow",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.15875240",
+    "name": "specpolFlow",
+    "url": "https://github.com/folsomcp/specpolFlow",
+    "full_name": "folsomcp/specpolFlow",
+    "html_url": "https://github.com/folsomcp/specpolFlow",
+    "description": "Tools and tutorials for the analysis of stellar spectropolarimetric observations.",
+    "created_at": "2022-03-16T21:44:23Z",
+    "updated_at": "2025-07-19T03:29:18Z",
+    "clone_url": "https://github.com/folsomcp/specpolFlow.git",
+    "homepage": "https://folsomcp.github.io/specpolFlow/",
+    "size": 142762,
+    "stargazers_count": 7,
+    "watchers_count": 7,
+    "language": "Assembly",
+    "open_issues_count": 2,
+    "license": {
+      "key": "gpl-2.0",
+      "name": "GNU General Public License v2.0",
+      "spdx_id": "GPL-2.0",
+      "url": "https://api.github.com/licenses/gpl-2.0",
+      "node_id": "MDc6TGljZW5zZTg="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/folsomcp",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26417587?v=4",
+      "login": "folsomcp",
+      "type": "User"
+    },
+    "timestamp": "2025-07-20 01:00:57.385916",
+    "avatar": "https://avatars.githubusercontent.com/u/26417587?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install specpolFlow\"",
+        "\"SpecpolFlow is a software package that provides a completely pythonic workflow for the analysis of spectropolarimetric observations of stellar sources... It is designed to provide a single, user-friendly pipeline from telescope to science product.\"",
+        "\"If you use SpecpolFlow in your research, please cite our paper in the Journal of Open Source Software\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:54:04Z"
+    }
+  }
+}

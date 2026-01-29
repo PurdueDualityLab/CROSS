@@ -1,0 +1,63 @@
+{
+  "parser": "github",
+  "uid": "github/statgen/demuxlet",
+  "url": "https://github.com/statgen/demuxlet",
+  "data": {
+    "title": "demuxlet",
+    "url": "https://github.com/statgen/demuxlet",
+    "credit": [],
+    "tags": [
+      "rna-sequencing",
+      "high-throughput-sequencing"
+    ],
+    "description": "Genetic multiplexing of barcoded single cell RNA-seq",
+    "name": "demuxlet",
+    "full_name": "statgen/demuxlet",
+    "html_url": "https://github.com/statgen/demuxlet",
+    "created_at": "2017-06-12T04:47:41Z",
+    "updated_at": "2022-07-13T22:11:01Z",
+    "clone_url": "https://github.com/statgen/demuxlet.git",
+    "size": 7607,
+    "stargazers_count": 88,
+    "watchers_count": 88,
+    "language": "C++",
+    "open_issues_count": 60,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "subscribers_count": 10,
+    "owner": {
+      "html_url": "https://github.com/statgen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/651584?v=4",
+      "login": "statgen",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-31 00:42:54.333281",
+    "avatar": "https://avatars.githubusercontent.com/u/651584?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"* To reproduce the results presented in Figure 2 of the demuxlet paper, please go to: https://github.com/yelabucsf/demuxlet_paper_code/tree/master/fig2 to download the vcf and the outputs of demuxlet.\"",
+        "\"demuxlet is a software tool to deconvolute sample identity and identify multiplets when multiple samples are pooled by barcoded single cell sequencing.\"",
+        "Installation is via cloning and building from GitHub: \"$ git clone https://github.com/statgen/demuxlet.git\" followed by configure/make/install."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T03:46:56Z"
+    }
+  }
+}

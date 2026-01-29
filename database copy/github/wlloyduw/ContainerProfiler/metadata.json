@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/wlloyduw/ContainerProfiler",
+  "url": "https://github.com/wlloyduw/ContainerProfiler",
+  "data": {
+    "name": "ContainerProfiler",
+    "url": "https://github.com/wlloyduw/ContainerProfiler",
+    "full_name": "wlloyduw/ContainerProfiler",
+    "html_url": "https://github.com/wlloyduw/ContainerProfiler",
+    "private": false,
+    "description": null,
+    "created_at": "2021-08-26T21:47:43Z",
+    "updated_at": "2023-03-03T01:45:41Z",
+    "clone_url": "https://github.com/wlloyduw/ContainerProfiler.git",
+    "homepage": null,
+    "size": 1643,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": "Shell",
+    "open_issues_count": 0,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/wlloyduw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25626906?v=4",
+      "login": "wlloyduw",
+      "type": "User"
+    },
+    "topics": [],
+    "timestamp": "2023-07-09 00:48:39.274924",
+    "avatar": "https://avatars.githubusercontent.com/u/25626906?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Runtime instrumentation software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Containers",
+      "distribution_details": null,
+      "evidence": [
+        "README container command: \"sudo docker run --rm -v ${PWD}:/OUTPUT_DIR  profiler:custom profile -o /OUTPUT_DIR SET_OF_TASKS\"",
+        "\"The Container Profiler can be used as a tool to profile an application or workflow by taking interval snapshots of a collection of linux resource utilization metrics throughout the course of the job.\"",
+        "\"ContainerProfiler includes bash scripts **rudataall.sh** to profile the resource utilization on VM level, container level and process level and **deltav2.sh** to compute the delta statistics of resource utilization between two time instances.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:54:11Z"
+    }
+  }
+}

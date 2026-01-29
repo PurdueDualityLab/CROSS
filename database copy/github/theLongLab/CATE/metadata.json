@@ -1,0 +1,78 @@
+{
+  "parser": "github",
+  "uid": "github/theLongLab/CATE",
+  "url": "https://github.com/theLongLab/CATE",
+  "data": {
+    "doi": "10.1111/2041-210X.14168",
+    "name": "CATE",
+    "url": "https://github.com/theLongLab/CATE",
+    "full_name": "theLongLab/CATE",
+    "html_url": "https://github.com/theLongLab/CATE",
+    "description": "A fast and scalable CUDA implementation to conduct highly parallelized evolutionary tests on large scale genomic data.",
+    "created_at": "2022-04-29T21:42:14Z",
+    "updated_at": "2023-07-05T00:06:21Z",
+    "clone_url": "https://github.com/theLongLab/CATE.git",
+    "homepage": "https://doi.org/10.1111/2041-210X.14168",
+    "size": 39498,
+    "stargazers_count": 6,
+    "watchers_count": 6,
+    "language": "Cuda",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/theLongLab",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37426791?v=4",
+      "login": "theLongLab",
+      "type": "Organization"
+    },
+    "topics": [
+      "1000genomes",
+      "cuda",
+      "cuda-programming",
+      "evolutionary-algorithms",
+      "evolutionary-biology",
+      "evolutionary-computation",
+      "genetic-algorithm",
+      "genetics",
+      "neutrality-test",
+      "vcf",
+      "vcf-data",
+      "vcf-files",
+      "cuda-toolkit",
+      "ehh",
+      "extended-haplotype-homozygosity",
+      "mk-test",
+      "neutrality",
+      "tajima"
+    ],
+    "timestamp": "2023-08-20 00:32:36.312138",
+    "avatar": "https://avatars.githubusercontent.com/u/37426791?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "conda",
+      "evidence": [
+        "README install command: \"conda install deshan_cate::cate\"",
+        "\"CATE (CUDA Accelerated Testing of Evolution) – A fast and scalable CUDA implementation to conduct highly parallelized evolutionary tests on large-scale genomic data.\"",
+        "\"CATE is a command-line-based software. Its available functions include six different tests on evolution and a series of tools for editing and processing FASTA and VCF files.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:23:17Z"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "parser": "github",
+  "uid": "github/BRAIN-TO/GIRFReco.jl",
+  "url": "https://github.com/BRAIN-TO/GIRFReco.jl",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.11075548",
+    "name": "GIRFReco.jl",
+    "url": "https://github.com/BRAIN-TO/GIRFReco.jl",
+    "full_name": "BRAIN-TO/GIRFReco.jl",
+    "html_url": "https://github.com/BRAIN-TO/GIRFReco.jl",
+    "description": "An Open-Source End-to-End Pipeline for Spiral Magnetic Resonance Image (MRI) Reconstruction in Julia",
+    "created_at": "2022-11-17T16:38:33Z",
+    "updated_at": "2024-05-02T16:29:43Z",
+    "clone_url": "https://github.com/BRAIN-TO/GIRFReco.jl.git",
+    "homepage": "https://brain-to.github.io/GIRFReco.jl/",
+    "size": 120638,
+    "stargazers_count": 9,
+    "watchers_count": 9,
+    "language": "Julia",
+    "open_issues_count": 9,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/BRAIN-TO",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62714197?v=4",
+      "login": "BRAIN-TO",
+      "type": "Organization"
+    },
+    "topics": [
+      "mri",
+      "mri-brain",
+      "mri-reconstruction"
+    ],
+    "timestamp": "2024-05-05 00:36:35.680088",
+    "avatar": "https://avatars.githubusercontent.com/u/62714197?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "Julia General registry",
+      "evidence": [
+        "README install command: \"Pkg.add(\"GIRFReco\")\"",
+        "\"This package provides an image reconstruction pipeline for real-world non-Cartesian MRI, designed particularly for spiral diffusion imaging.\"",
+        "\"To install the package, start Julia and type the following command in the REPL: julia>]add GIRFReco\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T16:40:19Z"
+    }
+  }
+}

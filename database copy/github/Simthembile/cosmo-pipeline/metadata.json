@@ -1,0 +1,56 @@
+{
+  "parser": "github",
+  "uid": "github/Simthembile/cosmo-pipeline",
+  "url": "https://github.com/Simthembile/cosmo-pipeline",
+  "data": {
+    "doi": [],
+    "title": "Fourier Power Spectrum Pipeline for Multitracer Fisher Forecasting.",
+    "url": "https://github.com/Simthembile/cosmo-pipeline",
+    "name": "cosmo-pipeline",
+    "full_name": "Simthembile/cosmo-pipeline",
+    "html_url": "https://github.com/Simthembile/cosmo-pipeline",
+    "created_at": "2025-05-23T11:26:14Z",
+    "updated_at": "2025-05-24T08:55:36Z",
+    "clone_url": "https://github.com/Simthembile/cosmo-pipeline.git",
+    "size": 81,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Python",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "owner": {
+      "html_url": "https://github.com/Simthembile",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20681273?v=4",
+      "login": "Simthembile",
+      "type": "User"
+    },
+    "timestamp": "2025-05-25 00:55:49.619709",
+    "avatar": "https://avatars.githubusercontent.com/u/20681273?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install -r requirements.txt\"",
+        "\"This repository contains a modular Python pipeline for computing various background and perturbation-level quantities in cosmology\"",
+        "\"Each module can be imported independently. Example: from pipeline.functions.backgroundCosmology.hubbleParameter import H\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T20:20:20Z"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/LindleyLentati/Cobra",
+  "url": "https://github.com/LindleyLentati/Cobra",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2018MNRAS.473.5026L",
+      "https://ui.adsabs.harvard.edu/abs/2020ascl.soft02016L/abstract"
+    ],
+    "title": "Cobra: Bayesian pulsar searching",
+    "url": "https://github.com/LindleyLentati/Cobra",
+    "name": "Cobra",
+    "full_name": "LindleyLentati/Cobra",
+    "html_url": "https://github.com/LindleyLentati/Cobra",
+    "description": "Bayesian Pulsar Searching",
+    "created_at": "2017-10-16T16:43:48Z",
+    "updated_at": "2017-10-16T16:57:21Z",
+    "clone_url": "https://github.com/LindleyLentati/Cobra.git",
+    "size": 2465,
+    "language": "Python",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/LindleyLentati",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3535163?v=4",
+      "login": "LindleyLentati",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:14:54.443138",
+    "avatar": "https://avatars.githubusercontent.com/u/3535163?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Unknown",
+      "research_role": "Unknown",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "README only states: \"Repo for Cobra\" with no further description of purpose or usage.",
+        "The repository is on GitHub and the only information given is that it is a repo, implying distribution via the source repository itself.",
+        "No installation commands, package manager references, or domain/research descriptions are provided in the README, so role and research coupling cannot be determined."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T18:51:31Z"
+    }
+  }
+}

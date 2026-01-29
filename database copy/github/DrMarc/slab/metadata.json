@@ -1,0 +1,64 @@
+{
+  "parser": "github",
+  "uid": "github/DrMarc/slab",
+  "url": "https://github.com/DrMarc/slab",
+  "data": {
+    "timestamp": "2021-06-27 00:22:26.326955",
+    "name": "slab",
+    "url": "https://api.github.com/repos/DrMarc/slab",
+    "full_name": "DrMarc/slab",
+    "html_url": "https://github.com/DrMarc/slab",
+    "private": false,
+    "description": "python classes for working with sounds and conducting psychoacoustic  experiments",
+    "created_at": "2018-10-04T08:53:56Z",
+    "updated_at": "2021-06-25T14:02:30Z",
+    "clone_url": "https://github.com/DrMarc/slab.git",
+    "homepage": "",
+    "size": 3856,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "Python",
+    "open_issues_count": 0,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/DrMarc",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7555727?v=4",
+      "login": "DrMarc",
+      "type": "User"
+    },
+    "topics": [
+      "psychoacoustics",
+      "audio",
+      "sound"
+    ]
+  },
+  "doi": "https://doi.org/10.5281/zenodo.5029602",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "\"Slab is an open source project and Python package that makes working with sounds and running psychoacoustic experiments simple, efficient, and fun!\"",
+        "\"The package aims to lower the entrance barrier for working with sounds in Python and provide easy access to typical operations in psychoacoustics, specifically for students and researchers in the life sciences.\"",
+        "\"Install the current stable release from the python package index with pip: `pip install slab`\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T17:03:21Z"
+    }
+  }
+}

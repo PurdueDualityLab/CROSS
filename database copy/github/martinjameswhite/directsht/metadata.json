@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/martinjameswhite/directsht",
+  "url": "https://github.com/martinjameswhite/directsht",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2024JCAP...05..010B",
+      "https://ui.adsabs.harvard.edu/abs/2024ascl.soft05011B/abstract"
+    ],
+    "title": "DirectSHT: Direct spherical harmonic transform",
+    "url": "https://github.com/martinjameswhite/directsht",
+    "name": "directsht",
+    "full_name": "martinjameswhite/directsht",
+    "html_url": "https://github.com/martinjameswhite/directsht",
+    "description": "Direct spherical harmonic transform code for point sets on the sphere.",
+    "created_at": "2023-11-13T16:14:27Z",
+    "updated_at": "2024-05-22T22:00:40Z",
+    "clone_url": "https://github.com/martinjameswhite/directsht.git",
+    "size": 44551,
+    "stargazers_count": 6,
+    "watchers_count": 6,
+    "language": "Jupyter Notebook",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/martinjameswhite",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5226247?v=4",
+      "login": "martinjameswhite",
+      "type": "User"
+    },
+    "timestamp": "2024-06-02 00:37:53.961213",
+    "avatar": "https://avatars.githubusercontent.com/u/5226247?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"python3 -m pip install -v git+https://github.com/martinjameswhite/directsht\"",
+        "\"Direct spherical harmonic transform code for point sets on the sphere.\"",
+        "\"First import the main class and create an instance: `from sht.sht import DirectSHT`\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:13:00Z"
+    }
+  }
+}

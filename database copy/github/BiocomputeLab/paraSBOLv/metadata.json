@@ -1,0 +1,67 @@
+{
+  "parser": "github",
+  "uid": "github/BiocomputeLab/paraSBOLv",
+  "url": "https://github.com/BiocomputeLab/paraSBOLv",
+  "data": {
+    "timestamp": "2022-04-10 00:53:51.583358",
+    "name": "paraSBOLv",
+    "url": "https://api.github.com/repos/BiocomputeLab/paraSBOLv",
+    "full_name": "BiocomputeLab/paraSBOLv",
+    "html_url": "https://github.com/BiocomputeLab/paraSBOLv",
+    "private": false,
+    "description": "A lightweight Python library designed to simplify the development of tools that render SBOL Visual diagrams.",
+    "created_at": "2020-03-10T16:56:48Z",
+    "updated_at": "2022-02-24T21:53:42Z",
+    "clone_url": "https://github.com/BiocomputeLab/paraSBOLv.git",
+    "homepage": "",
+    "size": 13608,
+    "stargazers_count": 13,
+    "watchers_count": 13,
+    "language": "Python",
+    "open_issues_count": 1,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/BiocomputeLab",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13359083?v=4",
+      "login": "BiocomputeLab",
+      "type": "Organization"
+    },
+    "topics": [
+      "sbol",
+      "synbio",
+      "biodesign",
+      "sbolv",
+      "svg",
+      "sbol-visual"
+    ]
+  },
+  "doi": "10.1093/SYNBIO/YSAB022",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"A lightweight Python library designed to simplify the rendering of highly-customisable SBOL Visual glyphs and diagrams.\"",
+        "\"paraSBOLv is designed to be lightweight, include minimal additional functionality, and be tailored to tool developers to provide them with low level access to the rendering of SBOL Visual glyphs and interactions.\"",
+        "\"The easiest way to start playing with `parasbolv` is to clone this repository and place the `parasbolv` directory into you `PYTHONPATH` environment variable.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T16:45:30Z"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "parser": "github",
+  "uid": "github/alexander-shen/rtest",
+  "url": "https://github.com/alexander-shen/rtest",
+  "data": {
+    "timestamp": "2021-10-17 00:46:40.654393",
+    "name": "rtest",
+    "url": "https://api.github.com/repos/alexander-shen/rtest",
+    "full_name": "alexander-shen/rtest",
+    "html_url": "https://github.com/alexander-shen/rtest",
+    "private": false,
+    "description": "Robust tests of randomness adapted from different sources",
+    "created_at": "2021-03-26T12:05:45Z",
+    "updated_at": "2021-10-11T10:45:26Z",
+    "clone_url": "https://github.com/alexander-shen/rtest.git",
+    "homepage": null,
+    "size": 465,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": "E",
+    "open_issues_count": 0,
+    "license": null,
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/alexander-shen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17458053?v=4",
+      "login": "alexander-shen",
+      "type": "User"
+    },
+    "topics": []
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Here we implement the other scheme of testing that provides correct p-values described in HAL archive reference.\"",
+        "\"Several test from diehard, dieharder and NIST suite are adapted and reimplemented. Also some auxiliary utilities are provided.\"",
+        "README describes implementation of randomness tests as a tool, with no mention of package managers, binaries, or services, implying use via cloning the repository source."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T21:05:23Z"
+    }
+  }
+}

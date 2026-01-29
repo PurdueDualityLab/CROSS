@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/Shamir-Lab/domino_web",
+  "url": "https://github.com/Shamir-Lab/domino_web",
+  "data": {
+    "timestamp": "2022-05-15 00:45:19.177668",
+    "name": "domino_web",
+    "url": "https://api.github.com/repos/Shamir-Lab/domino_web",
+    "full_name": "Shamir-Lab/domino_web",
+    "html_url": "https://github.com/Shamir-Lab/domino_web",
+    "private": false,
+    "description": null,
+    "created_at": "2021-02-18T13:06:51Z",
+    "updated_at": "2022-02-27T09:04:18Z",
+    "clone_url": "https://github.com/Shamir-Lab/domino_web.git",
+    "homepage": null,
+    "size": 17676,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "HTML",
+    "open_issues_count": 1,
+    "license": null,
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/Shamir-Lab",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16764377?v=4",
+      "login": "Shamir-Lab",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "doi": "10.1093/bioinformatics/btac067",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "npm",
+      "evidence": [
+        "README install command: \"npm install     # Install dependencies\"",
+        "\"DOMINO webinized - Finding active modules has never been easier!\" and references to DOMINO analysis indicate this is a domain-specific analysis tool, not a generic library.",
+        "\"To run a domino server perform the following steps: ... Clone domino_web: git clone https://github.com/hag007/domino_web.git\" shows distribution via cloning the source repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T20:19:25Z"
+    }
+  }
+}

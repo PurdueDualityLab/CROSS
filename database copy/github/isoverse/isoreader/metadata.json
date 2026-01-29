@@ -1,0 +1,66 @@
+{
+  "parser": "github",
+  "uid": "github/isoverse/isoreader",
+  "url": "https://github.com/isoverse/isoreader",
+  "data": {
+    "timestamp": "2021-05-09 00:28:23.786860",
+    "name": "isoreader",
+    "url": "https://api.github.com/repos/isoverse/isoreader",
+    "full_name": "isoverse/isoreader",
+    "html_url": "https://github.com/isoverse/isoreader",
+    "private": false,
+    "description": "Read IRMS (Isotope Ratio Mass Spectrometry) data files into R",
+    "created_at": "2017-05-08T03:31:33Z",
+    "updated_at": "2021-05-04T19:57:42Z",
+    "clone_url": "https://github.com/isoverse/isoreader.git",
+    "homepage": "http://isoreader.isoverse.org",
+    "size": 16232,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "R",
+    "open_issues_count": 22,
+    "license": {
+      "key": "gpl-2.0",
+      "name": "GNU General Public License v2.0",
+      "spdx_id": "GPL-2.0",
+      "url": "https://api.github.com/licenses/gpl-2.0",
+      "node_id": "MDc6TGljZW5zZTg="
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/isoverse",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47226588?v=4",
+      "login": "isoverse",
+      "type": "Organization"
+    },
+    "topics": [
+      "r",
+      "data",
+      "isotopes",
+      "geochemistry",
+      "ecology"
+    ]
+  },
+  "doi": "https://doi.org/10.5281/zenodo.4724083",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"# install.packages(\"isoreader\")\"",
+        "\"This package is intended as a unified one-stop command line interface to all common IRMS ... file formats\" (R package intended to be used from code, i.e., as a library/dependency).",
+        "\"isoreader enables the reading and processing of stable isotope data directly from the data files and thus provides a tool for ... efficient and reproducible data reduction\" (directly processes scientific data for research)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:28:07Z"
+    }
+  }
+}

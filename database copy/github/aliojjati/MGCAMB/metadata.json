@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/aliojjati/MGCAMB",
+  "url": "https://github.com/aliojjati/MGCAMB",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2009PhRvD..79h3513Z",
+      "https://ui.adsabs.harvard.edu/abs/2011ascl.soft06013H/abstract"
+    ],
+    "title": "MGCAMB: Modification of Growth with CAMB",
+    "url": "https://github.com/aliojjati/MGCAMB",
+    "name": "MGCAMB",
+    "full_name": "aliojjati/MGCAMB",
+    "html_url": "https://github.com/aliojjati/MGCAMB",
+    "description": "Repo for MGCAMB",
+    "created_at": "2015-10-05T18:51:22Z",
+    "updated_at": "2019-08-04T13:24:52Z",
+    "clone_url": "https://github.com/aliojjati/MGCAMB.git",
+    "homepage": "https://aliojjati.github.io/MGCAMB",
+    "size": 9752,
+    "stargazers_count": 4,
+    "watchers_count": 4,
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/aliojjati",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11789226?v=4",
+      "login": "aliojjati",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:24:55.472307",
+    "avatar": "https://avatars.githubusercontent.com/u/11789226?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This is a development page with the source files included.\" (indicates source distribution via repo)",
+        "Project name and context: \"Modification of Growth with CAMB (MGCAMB)\" – CAMB-based cosmology code typically run as an application for cosmological calculations, not described as a library here.",
+        "README points to another GitHub repository as the main project page, implying users clone source: \"Visit MGCAMB page in the SFU Cosmology repo here\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T21:06:01Z"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "parser": "github",
+  "uid": "github/callendeprieto/ferre",
+  "url": "https://github.com/callendeprieto/ferre",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2022A%2526A...661A.138B",
+      "https://ui.adsabs.harvard.edu/abs/2015AAS...22542207A",
+      "https://ui.adsabs.harvard.edu/abs/2023ascl.soft01016A/abstract"
+    ],
+    "title": "FERRE: Match physical models to measurements",
+    "url": "https://github.com/callendeprieto/ferre",
+    "name": "ferre",
+    "full_name": "callendeprieto/ferre",
+    "html_url": "https://github.com/callendeprieto/ferre",
+    "description": "FERRE matches physical models to measurements",
+    "created_at": "2017-01-11T19:06:49Z",
+    "updated_at": "2022-11-08T02:17:01Z",
+    "clone_url": "https://github.com/callendeprieto/ferre.git",
+    "size": 17710,
+    "stargazers_count": 11,
+    "watchers_count": 11,
+    "language": "Fortran",
+    "open_issues_count": 1,
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/callendeprieto",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24915449?v=4",
+      "login": "callendeprieto",
+      "type": "User"
+    },
+    "timestamp": "2023-02-05 00:40:45.477281",
+    "avatar": "https://avatars.githubusercontent.com/u/24915449?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"binary file, and interpolates in it. The code returns, in addition to the optimal set of parameters,\"",
+        "\"FERRE is a data analysis code written in FORTRAN90. It matches models to data, taking a set of observations and identifying the model parameters that best reproduce the data\" (end-user analysis program)",
+        "\"The code returns, in addition to the optimal set of parameters, their error covariance, and the corresponding model prediction\" (directly produces research-relevant results and parameters)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T22:48:34Z"
+    }
+  }
+}

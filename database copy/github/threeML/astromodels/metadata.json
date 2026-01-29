@@ -1,0 +1,70 @@
+{
+  "parser": "github",
+  "uid": "github/threeML/astromodels",
+  "url": "https://github.com/threeML/astromodels",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2023A%26A...675A.175B",
+      "https://ui.adsabs.harvard.edu/abs/2025ascl.soft06019V/abstract"
+    ],
+    "title": "astromodels: Spatial and spectral models for astrophysics",
+    "url": "https://github.com/threeML/astromodels",
+    "name": "astromodels",
+    "full_name": "threeML/astromodels",
+    "html_url": "https://github.com/threeML/astromodels",
+    "description": "Spatial and spectral models for astrophysics",
+    "created_at": "2015-11-24T00:07:39Z",
+    "updated_at": "2025-07-01T02:01:51Z",
+    "clone_url": "https://github.com/threeML/astromodels.git",
+    "size": 135732,
+    "stargazers_count": 48,
+    "watchers_count": 48,
+    "language": "Python",
+    "open_issues_count": 14,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "subscribers_count": 6,
+    "owner": {
+      "html_url": "https://github.com/threeML",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44911645?v=4",
+      "login": "threeML",
+      "type": "Organization"
+    },
+    "topics": [
+      "astrophysics",
+      "spectral-models",
+      "modeling-tool",
+      "astronomy",
+      "multi-wavelength",
+      "multi-messenger"
+    ],
+    "timestamp": "2025-07-13 01:00:08.486253",
+    "avatar": "https://avatars.githubusercontent.com/u/44911645?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "Owner is GitHub organization `threeML`, with multiple contributors badge: `![GitHub contributors](https://img.shields.io/github/contributors/threeML/astromodels)` suggesting community-style maintenance rather than a single lab or company.",
+        "\"Astromodels is a very flexible framework to define models for likelihood or Bayesian analysis of astrophysical data.\" – a modeling framework intended to be used by other software, not just as a standalone app.",
+        "\"Astromodels is not a modeling package, it only gives you the tools to build a model as complex as you need. You then need a separate package (such as 3ML) to fit that model to the data.\" – indicates it is a library/dependency used in research analysis workflows."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T04:25:18Z"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/dipol-uf/DIPOL-UF",
+  "url": "https://github.com/dipol-uf/DIPOL-UF",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2021AJ....161...20P"
+    ],
+    "title": "DIPol-UF: Remote control software for DIPol-UF polarimeter",
+    "url": "https://github.com/dipol-uf/DIPOL-UF",
+    "name": "DIPOL-UF",
+    "full_name": "dipol-uf/DIPOL-UF",
+    "html_url": "https://github.com/dipol-uf/DIPOL-UF",
+    "description": "DIPOL-3",
+    "created_at": "2017-05-04T09:00:09Z",
+    "updated_at": "2021-12-07T11:57:58Z",
+    "clone_url": "https://github.com/dipol-uf/DIPOL-UF.git",
+    "size": 8860,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "C#",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/dipol-uf",
+      "avatar_url": "https://avatars.githubusercontent.com/u/78904164?v=4",
+      "login": "dipol-uf",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-17 16:49:51.721784",
+    "avatar": "https://avatars.githubusercontent.com/u/78904164?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"- [**Host**](./src/Host) is a standalone application (.exe) that is launched on each of the secondary PC and allows over-the-network communication with the cameras.\"",
+        "\"This repository contains software needed for operation of high-precision three-color BVR polarimeter DIPol-UF.\"",
+        "\"DIPOL-UF is the GUI project oriented to end users.\" and \"Host is a standalone application (.exe) that is launched on each of the secondary PC and allows over-the-network communication with the cameras.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:34:01Z"
+    }
+  }
+}

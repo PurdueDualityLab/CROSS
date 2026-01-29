@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/storyofthewolf/ExoCAM",
+  "url": "https://github.com/storyofthewolf/ExoCAM",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2020GMD....13..707F",
+      "https://ui.adsabs.harvard.edu/abs/2020ascl.soft02020W/abstract"
+    ],
+    "title": "ExoCAM: Exoplanet Community Atmospheric Model",
+    "url": "https://github.com/storyofthewolf/ExoCAM",
+    "name": "ExoCAM",
+    "full_name": "storyofthewolf/ExoCAM",
+    "html_url": "https://github.com/storyofthewolf/ExoCAM",
+    "created_at": "2018-07-13T21:08:46Z",
+    "updated_at": "2022-06-20T18:08:42Z",
+    "clone_url": "https://github.com/storyofthewolf/ExoCAM.git",
+    "size": 200782,
+    "stargazers_count": 9,
+    "watchers_count": 9,
+    "language": "Fortran",
+    "open_issues_count": 1,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/storyofthewolf",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19943455?v=4",
+      "login": "storyofthewolf",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:14:51.472183",
+    "avatar": "https://avatars.githubusercontent.com/u/19943455?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This software (ExoCAM) contains system files, source code files, initial conditions files, namelists, and documentations needed to adapt the NCAR Community Earth System Model 1.2.1 for planetary/exoplanetary applications.\"",
+        "\"This is research grade code(!), and the model support and development team is limited to pretty much just me (<eric.wolf@colorado.edu>).\"",
+        "\"If you use ExoCAM in your work, please also footnote to where the model is available. I.e. my Github pages. * https://github.com/storyofthewolf/ExoCAM\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T03:48:05Z"
+    }
+  }
+}

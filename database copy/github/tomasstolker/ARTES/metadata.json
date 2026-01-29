@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/tomasstolker/ARTES",
+  "url": "https://github.com/tomasstolker/ARTES",
+  "data": {
+    "doi": [
+      "http://adsabs.harvard.edu/abs/2017A%26A...607A..42S",
+      "https://ui.adsabs.harvard.edu/abs/2018ascl.soft10007S/abstract"
+    ],
+    "title": "ARTES: 3D Monte Carlo scattering radiative transfer in planetary atmospheres",
+    "url": "https://github.com/tomasstolker/ARTES",
+    "name": "ARTES",
+    "full_name": "tomasstolker/ARTES",
+    "html_url": "https://github.com/tomasstolker/ARTES",
+    "description": "Radiative transfer of polarized light in 3D exoplanet atmospheres",
+    "created_at": "2018-10-23T19:21:07Z",
+    "updated_at": "2021-11-09T12:37:29Z",
+    "clone_url": "https://github.com/tomasstolker/ARTES.git",
+    "homepage": "https://artes.readthedocs.io",
+    "size": 1659,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Fortran",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/tomasstolker",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3204762?v=4",
+      "login": "tomasstolker",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:17:51.987851",
+    "avatar": "https://avatars.githubusercontent.com/u/3204762?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"ARTES is a 3D Monte Carlo radiative transfer code for polarized scattered light simulations of exoplanet atmospheres.\"",
+        "\"The code can be used for post-processing of a pre-calculated or parametrized atmosphere structure.\"",
+        "\"ARTES is distributed under the MIT License. See the LICENSE file for the terms and conditions.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T04:28:15Z"
+    }
+  }
+}

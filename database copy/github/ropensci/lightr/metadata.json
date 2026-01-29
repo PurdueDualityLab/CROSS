@@ -1,0 +1,68 @@
+{
+  "parser": "github",
+  "uid": "github/ropensci/lightr",
+  "url": "https://github.com/ropensci/lightr",
+  "data": {
+    "timestamp": "2022-01-27 10:11:35.254628",
+    "name": "lightr",
+    "url": "https://api.github.com/repos/ropensci/lightr",
+    "full_name": "ropensci/lightr",
+    "html_url": "https://github.com/ropensci/lightr",
+    "private": false,
+    "description": "Import spectral data and related metadata in R",
+    "created_at": "2018-11-08T11:59:31Z",
+    "updated_at": "2021-11-10T03:46:14Z",
+    "clone_url": "https://github.com/ropensci/lightr.git",
+    "homepage": "https://docs.ropensci.org/lightr",
+    "size": 6987,
+    "stargazers_count": 7,
+    "watchers_count": 7,
+    "language": "R",
+    "open_issues_count": 15,
+    "license": {
+      "key": "gpl-2.0",
+      "name": "GNU General Public License v2.0",
+      "spdx_id": "GPL-2.0",
+      "url": "https://api.github.com/licenses/gpl-2.0",
+      "node_id": "MDc6TGljZW5zZTg="
+    },
+    "owner": {
+      "html_url": "https://github.com/ropensci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1200269?v=4",
+      "login": "ropensci",
+      "type": "Organization"
+    },
+    "topics": [
+      "r",
+      "spectroscopy",
+      "spectral-data",
+      "reproducible-research",
+      "reproducible-science",
+      "reproducibility",
+      "r-package",
+      "file-import",
+      "data-extraction"
+    ]
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"lightr\")\"",
+        "\"This package aims at offering a unified user-friendly interface for users to read UV-VIS reflectance/transmittance/absorbance spectra files from various formats in a single line of code.\"",
+        "\"`lr_get_spec()` returns a dataframe that is compatible with [`pavo`] custom S3 class (`rspec`) and can be used for further analyses using colour vision models.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T02:30:47Z"
+    }
+  }
+}

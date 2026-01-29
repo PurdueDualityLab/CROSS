@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/Gaius-Augustus/Tiberius",
+  "url": "https://github.com/Gaius-Augustus/Tiberius",
+  "data": {
+    "name": "Tiberius",
+    "url": "https://github.com/Gaius-Augustus/Tiberius",
+    "full_name": "Gaius-Augustus/Tiberius",
+    "html_url": "https://github.com/Gaius-Augustus/Tiberius",
+    "private": false,
+    "description": "deep learning gene finder",
+    "created_at": "2024-07-18T05:37:34Z",
+    "updated_at": "2024-09-18T16:55:02Z",
+    "clone_url": "https://github.com/Gaius-Augustus/Tiberius.git",
+    "homepage": null,
+    "size": 83374,
+    "stargazers_count": 23,
+    "watchers_count": 23,
+    "language": "Python",
+    "open_issues_count": 2,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 7,
+    "owner": {
+      "html_url": "https://github.com/Gaius-Augustus",
+      "avatar_url": "https://avatars.githubusercontent.com/u/39598608?v=4",
+      "login": "Gaius-Augustus",
+      "type": "Organization"
+    },
+    "topics": [],
+    "timestamp": "2024-09-22 00:46:20.111303",
+    "avatar": "https://avatars.githubusercontent.com/u/39598608?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install .\"",
+        "\"Tiberius is a deep learning-based *ab initio* gene structure prediction tool... It can be used to predict gene structures from **genomic sequences only**\"",
+        "\"To run Tiberius with `tiberius.py`, you need to provide a FASTA file containing the genomic sequences and a model config file.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T17:41:04Z"
+    }
+  }
+}

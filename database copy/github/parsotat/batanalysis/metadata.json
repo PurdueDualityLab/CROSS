@@ -1,0 +1,55 @@
+{
+  "parser": "github",
+  "uid": "github/parsotat/batanalysis",
+  "url": "https://github.com/parsotat/BatAnalysis",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2023arXiv230306255P",
+      "https://ui.adsabs.harvard.edu/abs/2023ascl.soft04003P/abstract"
+    ],
+    "title": "BatAnalysis: HEASOFT wrapper for processing Swift-BAT data",
+    "url": "https://github.com/parsotat/BatAnalysis",
+    "name": "BatAnalysis",
+    "full_name": "parsotat/BatAnalysis",
+    "html_url": "https://github.com/parsotat/BatAnalysis",
+    "description": "A python HEASOFT wrapper for processing Swift-BAT data.",
+    "created_at": "2022-11-28T18:51:35Z",
+    "updated_at": "2023-04-14T12:33:02Z",
+    "clone_url": "https://github.com/parsotat/BatAnalysis.git",
+    "size": 657090,
+    "stargazers_count": 10,
+    "watchers_count": 10,
+    "language": "Python",
+    "open_issues_count": 1,
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/parsotat",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25468716?v=4",
+      "login": "parsotat",
+      "type": "User"
+    },
+    "timestamp": "2023-04-23 00:37:53.868647",
+    "avatar": "https://avatars.githubusercontent.com/u/25468716?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install BatAnalysis\"",
+        "\"BatAnalysis is a python package that allows for the convenient analysis of BAT Survey and Time-tagged Event (TTE) data. This code allows users to: * easily download BAT data, * batch process the observations, * extract light curves and spectra...\"",
+        "\"The typical BatAnalysis workflow for analyzing survey data is as follows:\" followed by detailed analysis steps, indicating it directly performs scientific data analysis."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:47:07Z"
+    }
+  }
+}

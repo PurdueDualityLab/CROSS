@@ -1,52 +1,271 @@
 {
-    "parser": "github",
-    "uid": "github/connectomicslab/connectomemapper3",
-    "url": "https://github.com/connectomicslab/connectomemapper3",
-    "data": {
-        "timestamp": "2022-07-03 00:38:21.874124",
-        "name": "connectomemapper3",
-        "url": "https://api.github.com/repos/connectomicslab/connectomemapper3",
-        "full_name": "connectomicslab/connectomemapper3",
-        "html_url": "https://github.com/connectomicslab/connectomemapper3",
-        "private": false,
-        "description": "Connectome Mapper 3 is a BIDS App that implements full anatomical, diffusion, resting/state functional MRI, and recently EEG processing pipelines, from raw T1 / DWI / BOLD data, and preprocessed EEG to multi-resolution brain parcellation with corresponding connection matrices.",
-        "created_at": "2019-04-24T06:27:45Z",
-        "updated_at": "2022-06-27T11:45:02Z",
-        "clone_url": "https://github.com/connectomicslab/connectomemapper3.git",
-        "homepage": "https://connectome-mapper-3.readthedocs.io",
-        "size": 353913,
-        "stargazers_count": 35,
-        "watchers_count": 35,
-        "language": "HTML",
-        "open_issues_count": 17,
-        "license": {
-            "key": "other",
-            "name": "Other",
-            "spdx_id": "NOASSERTION",
-            "url": null,
-            "node_id": "MDc6TGljZW5zZTA="
-        },
-        "subscribers_count": 4,
-        "owner": {
-            "html_url": "https://github.com/connectomicslab",
-            "avatar_url": "https://avatars.githubusercontent.com/u/49934994?v=4",
-            "login": "connectomicslab",
-            "type": "Organization"
-        },
-        "topics": [
-            "bids",
-            "bidsapp",
-            "dmri",
-            "fmri",
-            "connectome",
-            "bids-apps",
-            "pipelines",
-            "chuv",
-            "brain",
-            "parcellation",
-            "python",
-            "eeg"
-        ]
+  "parser": "github",
+  "uid": "github/connectomicslab/connectomemapper3",
+  "url": "https://github.com/connectomicslab/connectomemapper3",
+  "data": {
+    "timestamp": "2022-07-03 00:38:21.874124",
+    "name": "connectomemapper3",
+    "url": "https://api.github.com/repos/connectomicslab/connectomemapper3",
+    "full_name": "connectomicslab/connectomemapper3",
+    "html_url": "https://github.com/connectomicslab/connectomemapper3",
+    "private": false,
+    "description": "Connectome Mapper 3 is a BIDS App that implements full anatomical, diffusion, resting/state functional MRI, and recently EEG processing pipelines, from raw T1 / DWI / BOLD data, and preprocessed EEG to multi-resolution brain parcellation with corresponding connection matrices.",
+    "created_at": "2019-04-24T06:27:45Z",
+    "updated_at": "2022-06-27T11:45:02Z",
+    "clone_url": "https://github.com/connectomicslab/connectomemapper3.git",
+    "homepage": "https://connectome-mapper-3.readthedocs.io",
+    "size": 353913,
+    "stargazers_count": 35,
+    "watchers_count": 35,
+    "language": "HTML",
+    "open_issues_count": 17,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
     },
-    "doi": "https://doi.org/10.5281/zenodo.6645256"
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/connectomicslab",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49934994?v=4",
+      "login": "connectomicslab",
+      "type": "Organization"
+    },
+    "topics": [
+      "bids",
+      "bidsapp",
+      "dmri",
+      "fmri",
+      "connectome",
+      "bids-apps",
+      "pipelines",
+      "chuv",
+      "brain",
+      "parcellation",
+      "python",
+      "eeg"
+    ]
+  },
+  "doi": "https://doi.org/10.5281/zenodo.6645256",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"(py39cmp-gui)$ pip install connectomemapper\"",
+        "\"This neuroimaging processing pipeline software is developed by the Connectomics Lab at the University Hospital of Lausanne (CHUV)\"",
+        "\"Connectome Mapper 3 is an open-source Python3 image processing pipeline software, with a Graphical User Interface, that implements full anatomical, diffusion, resting-state MRI, and EEG processing pipelines, from raw Diffusion / T1 / BOLD / preprocessed EEG to multi-resolution connection matrices\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:10:40Z"
+    }
+  },
+  "openssf_scorecard": {
+    "data": {
+      "date": "2026-01-23T10:30:44-05:00",
+      "repo": {
+        "name": "github.com/connectomicslab/connectomemapper3",
+        "commit": "2fde4227c63396e6c5889503dabe30b4c8a3bea1"
+      },
+      "scorecard": {
+        "version": "v5.4.0",
+        "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+      },
+      "score": 3.3,
+      "checks": [
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no binaries found in the repo",
+          "name": "Binary-Artifacts",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#binary-artifacts",
+            "short": "Determines if the project has generated executable (binary) artifacts in the source repository."
+          }
+        },
+        {
+          "details": null,
+          "score": 1,
+          "reason": "branch protection is not maximal on development and all release branches",
+          "name": "Branch-Protection",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#branch-protection",
+            "short": "Determines if the default and release branches are protected with GitHub's branch protection settings."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no pull request found",
+          "name": "CI-Tests",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#ci-tests",
+            "short": "Determines if the project runs tests before pull requests are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no effort to earn an OpenSSF best practices badge detected",
+          "name": "CII-Best-Practices",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#cii-best-practices",
+            "short": "Determines if the project has an OpenSSF (formerly CII) Best Practices Badge."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "Found 0/30 approved changesets -- score normalized to 0",
+          "name": "Code-Review",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#code-review",
+            "short": "Determines if the project requires human code review before pull requests (aka merge requests) are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "project has 11 contributing companies or organizations",
+          "name": "Contributors",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#contributors",
+            "short": "Determines if the project has a set of contributors from multiple organizations (e.g., companies)."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no dangerous workflow patterns detected",
+          "name": "Dangerous-Workflow",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dangerous-workflow",
+            "short": "Determines if the project's GitHub Action workflows avoid dangerous patterns."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no update tool detected",
+          "name": "Dependency-Update-Tool",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dependency-update-tool",
+            "short": "Determines if the project uses a dependency update tool."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "project is not fuzzed",
+          "name": "Fuzzing",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#fuzzing",
+            "short": "Determines if the project uses fuzzing."
+          }
+        },
+        {
+          "details": null,
+          "score": 9,
+          "reason": "license file detected",
+          "name": "License",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#license",
+            "short": "Determines if the project has defined a license."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0",
+          "name": "Maintained",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#maintained",
+            "short": "Determines if the project is \"actively maintained\"."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "packaging workflow not detected",
+          "name": "Packaging",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#packaging",
+            "short": "Determines if the project is published as a package that others can easily download, install, easily update, and uninstall."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "dependency not pinned by hash detected -- score normalized to 0",
+          "name": "Pinned-Dependencies",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#pinned-dependencies",
+            "short": "Determines if the project has declared and pinned the dependencies of its build process."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no SAST tool detected",
+          "name": "SAST",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#sast",
+            "short": "Determines if the project uses static code analysis."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "security policy file not detected",
+          "name": "Security-Policy",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#security-policy",
+            "short": "Determines if the project has published a security policy."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no releases found",
+          "name": "Signed-Releases",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#signed-releases",
+            "short": "Determines if the project cryptographically signs release artifacts."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "detected GitHub workflow tokens with excessive permissions",
+          "name": "Token-Permissions",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#token-permissions",
+            "short": "Determines if the project's workflows follow the principle of least privilege."
+          }
+        },
+        {
+          "details": null,
+          "score": 9,
+          "reason": "1 existing vulnerabilities detected",
+          "name": "Vulnerabilities",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#vulnerabilities",
+            "short": "Determines if the project has open, known unfixed vulnerabilities."
+          }
+        }
+      ],
+      "metadata": null
+    },
+    "timestamp_utc": "2026-01-23T15:31:11Z"
+  }
 }

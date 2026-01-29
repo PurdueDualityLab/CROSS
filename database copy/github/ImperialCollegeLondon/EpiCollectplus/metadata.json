@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/ImperialCollegeLondon/EpiCollectplus",
+  "url": "https://github.com/ImperialCollegeLondon/EpiCollectplus",
+  "data": {
+    "timestamp": "2022-05-12 03:43:33.519935",
+    "name": "EpiCollectplus",
+    "url": "https://api.github.com/repos/ImperialCollegeLondon/EpiCollectplus",
+    "full_name": "ImperialCollegeLondon/EpiCollectplus",
+    "html_url": "https://github.com/ImperialCollegeLondon/EpiCollectplus",
+    "private": false,
+    "description": "The next generation of EpiCollect, multiple forms, more fields and more control. We recommend using Apache 2.2 or later, PHP 5.3 or later and MySQL 5.5 or later.",
+    "created_at": "2011-12-01T14:27:55Z",
+    "updated_at": "2022-02-02T02:06:12Z",
+    "clone_url": "https://github.com/ImperialCollegeLondon/EpiCollectplus.git",
+    "homepage": "http://www.epicollect.net",
+    "size": 9961,
+    "stargazers_count": 22,
+    "watchers_count": 22,
+    "language": "PHP",
+    "open_issues_count": 20,
+    "license": null,
+    "subscribers_count": 9,
+    "owner": {
+      "html_url": "https://github.com/ImperialCollegeLondon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1220306?v=4",
+      "login": "ImperialCollegeLondon",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "doi": "10.1371/journal.pone.0006968",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"replacing the placeholders with your Google API details https://developers.google.com/+/web/api/rest/oauth\"",
+        "\"To get the server running on your own server you need the following pre-requisites.\" (describes it as a deployable server application)",
+        "\"##Step 1 : Download or clone the repo... A zip of the current code is available to download, but we recommend using git to clone the repository\" (distribution via cloning source)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T18:00:43Z"
+    }
+  }
+}

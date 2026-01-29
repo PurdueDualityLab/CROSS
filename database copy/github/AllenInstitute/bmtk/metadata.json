@@ -1,0 +1,68 @@
+{
+  "parser": "github",
+  "uid": "github/AllenInstitute/bmtk",
+  "url": "https://github.com/AllenInstitute/bmtk",
+  "data": {
+    "url": "https://github.com/AllenInstitute/bmtk",
+    "title": "Python3-bmtk",
+    "description": "Brain Modeling Toolkit",
+    "name": "bmtk",
+    "full_name": "AllenInstitute/bmtk",
+    "html_url": "https://github.com/AllenInstitute/bmtk",
+    "created_at": "2017-09-22T18:42:44Z",
+    "updated_at": "2022-07-16T22:53:51Z",
+    "clone_url": "https://github.com/AllenInstitute/bmtk.git",
+    "homepage": "https://alleninstitute.github.io/bmtk/",
+    "size": 154556,
+    "stargazers_count": 212,
+    "watchers_count": 212,
+    "language": "Python",
+    "open_issues_count": 36,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "subscribers_count": 21,
+    "owner": {
+      "html_url": "https://github.com/AllenInstitute",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1848392?v=4",
+      "login": "AllenInstitute",
+      "type": "Organization"
+    },
+    "topics": [
+      "neuroscience",
+      "modeling",
+      "simulation",
+      "python",
+      "neural-networks",
+      "neuroinformatics",
+      "neuron"
+    ],
+    "timestamp": "2022-07-20 17:30:45.330360",
+    "avatar": "https://avatars.githubusercontent.com/u/1848392?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"The Brain Modeling Toolkit – A software development package for building, simulating, and analyzing large-scale networks of different levels of resolution.\"",
+        "\"bmtk requires Python 2.7 or 3.5+... To install with base requirements from a command-line: $ git clone https://github.com/AllenInstitute/bmtk.git ... $ python setup.py install\"",
+        "\"There are examples of building models and running simulations located in docs/examples/.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T16:34:42Z"
+    }
+  }
+}

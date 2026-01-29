@@ -1,0 +1,48 @@
+{
+  "parser": "github",
+  "uid": "github/debian-tex/biber",
+  "url": "https://github.com/debian-tex/biber",
+  "data": {
+    "url": "https://github.com/debian-tex/biber",
+    "title": "Biber",
+    "description": "Much-augmented BibTeX replacement for BibLaTeX users",
+    "name": "biber",
+    "full_name": "debian-tex/biber",
+    "html_url": "https://github.com/debian-tex/biber",
+    "created_at": "2019-02-28T14:35:36Z",
+    "updated_at": "2022-01-01T22:56:25Z",
+    "clone_url": "https://github.com/debian-tex/biber.git",
+    "size": 23058,
+    "language": "TeX",
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/debian-tex",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46477164?v=4",
+      "login": "debian-tex",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-20 17:30:48.401705",
+    "avatar": "https://avatars.githubusercontent.com/u/46477164?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"**Please note**--the default download for all platforms is 64-bit. Please\"",
+        "\"Biber is a sophisticated bibliography processing backend for the LaTeX biblatex package.\"",
+        "\"You do not need to install Perl to use biber--binaries are provided for many operating systems via the main TeX distributions (TeXLive, MacTeX, MiKTeX) and also via download from SourceForge.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:29:38Z"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/AgentM-GEG/residual_feature_extraction",
+  "url": "https://github.com/AgentM-GEG/residual_feature_extraction",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2021ApJ...919...51M",
+      "https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2643M",
+      "https://ui.adsabs.harvard.edu/abs/2022ascl.soft02011M/abstract"
+    ],
+    "title": "RFEP: Residual Feature Extraction Pipeline",
+    "url": "https://github.com/AgentM-GEG/residual_feature_extraction",
+    "name": "residual_feature_extraction",
+    "full_name": "AgentM-GEG/residual_feature_extraction",
+    "html_url": "https://github.com/AgentM-GEG/residual_feature_extraction",
+    "description": "A pipeline that carries out feature extraction of residual substructure within the residual images produced by popular galaxy structural-fitting routines such as GALFIT, GIM2D, etc. This pipeline works on model-subtracted residual images by popular structural fitting routines (e.g., GALFIT, GIM2D, etc) to extract faint low surface brightness features by isolating flux-wise and area-wise significant contiguous pixels regions by rigourous masking routine. This routine accepts the image cubes (original image, model image, residual image) and generates several data products",
+    "created_at": "2019-02-17T02:53:55Z",
+    "updated_at": "2021-12-19T02:07:09Z",
+    "clone_url": "https://github.com/AgentM-GEG/residual_feature_extraction.git",
+    "size": 88018,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/AgentM-GEG",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20112557?v=4",
+      "login": "AgentM-GEG",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 16:49:19.736687",
+    "avatar": "https://avatars.githubusercontent.com/u/20112557?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"A pipeline that carries out feature extraction of residual substructure within the residual images produced by popular galaxy structural-fitting routines\" (domain-specific analysis tool, run as a program).",
+        "\"You will use the python script: `Tidal_feature_finder.py`. This python file uses two other python scripts which have all the necessary functions that carry out the task. **Usage:** ... `python Tidal_feature_finder.py -p PARAMFILE.param`\" (end-user executable script, run from terminal).",
+        "\"INSTALLATION\n\nSimply clone the github repository. The pipeline is present in the `Tidal_Feature_CAN_*` folder.\" (distribution via cloning source repo)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T16:22:25Z"
+    }
+  }
+}

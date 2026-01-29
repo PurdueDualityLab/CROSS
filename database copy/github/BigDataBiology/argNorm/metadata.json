@@ -1,0 +1,63 @@
+{
+  "parser": "github",
+  "uid": "github/BigDataBiology/argNorm",
+  "url": "https://github.com/BigDataBiology/argNorm",
+  "data": {
+    "name": "argNorm",
+    "url": "https://github.com/BigDataBiology/argNorm",
+    "full_name": "BigDataBiology/argNorm",
+    "html_url": "https://github.com/BigDataBiology/argNorm",
+    "private": false,
+    "description": "ARG normalization by mapping to the ARO ontology.",
+    "created_at": "2022-05-25T13:29:37Z",
+    "updated_at": "2024-08-27T12:00:08Z",
+    "clone_url": "https://github.com/BigDataBiology/argNorm.git",
+    "homepage": "",
+    "size": 12733,
+    "stargazers_count": 20,
+    "watchers_count": 20,
+    "language": "Python",
+    "open_issues_count": 2,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/BigDataBiology",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38910137?v=4",
+      "login": "BigDataBiology",
+      "type": "Organization"
+    },
+    "topics": [
+      "antibiotic-resistance",
+      "bioinformatics"
+    ],
+    "timestamp": "2024-09-01 00:45:56.468391",
+    "avatar": "https://avatars.githubusercontent.com/u/38910137?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install argnorm\"",
+        "\"argNorm is a tool to normalize antibiotic resistance genes (ARGs) by mapping them to the antibiotic resistance ontology (ARO)\" (domain-specific analysis tool).",
+        "CLI usage and examples show it being run directly by users: \"argnorm [tool] -i [original_annotation.tsv] -o [argnorm_result.tsv]\"."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T16:44:57Z"
+    }
+  }
+}

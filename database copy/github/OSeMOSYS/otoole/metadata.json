@@ -1,0 +1,65 @@
+{
+  "parser": "github",
+  "uid": "github/OSeMOSYS/otoole",
+  "url": "https://github.com/OSeMOSYS/otoole",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.10360538",
+    "name": "otoole",
+    "url": "https://github.com/OSeMOSYS/otoole",
+    "full_name": "OSeMOSYS/otoole",
+    "html_url": "https://github.com/OSeMOSYS/otoole",
+    "description": "OSeMOSYS Tools for Energy",
+    "created_at": "2019-09-19T15:56:17Z",
+    "updated_at": "2023-12-21T18:30:38Z",
+    "clone_url": "https://github.com/OSeMOSYS/otoole.git",
+    "homepage": "https://otoole.readthedocs.io",
+    "size": 2312,
+    "stargazers_count": 19,
+    "watchers_count": 19,
+    "language": "Python",
+    "open_issues_count": 43,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 8,
+    "owner": {
+      "html_url": "https://github.com/OSeMOSYS",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14215860?v=4",
+      "login": "OSeMOSYS",
+      "type": "Organization"
+    },
+    "topics": [
+      "energy",
+      "osemosys",
+      "energy-system-modelling",
+      "energy-system"
+    ],
+    "timestamp": "2023-12-24 00:35:29.909359",
+    "avatar": "https://avatars.githubusercontent.com/u/14215860?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install otoole\"",
+        "\"OSeMOSYS tools for energy work, or otoole, is a Python package to support the users of OSeMOSYS. The aim of the package is to provide commonly used pre- and post-processing steps for OSeMOSYS.\"",
+        "\"otoole can be installed through pip::    pip install otoole\" and the PyPI badge linking to \"https://pypi.org/project/otoole/\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T19:42:12Z"
+    }
+  }
+}

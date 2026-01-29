@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/BioGearsEngine/core",
+  "url": "https://github.com/BioGearsEngine/core",
+  "data": {
+    "timestamp": "2020-12-06 00:23:51.844154",
+    "name": "core",
+    "url": "https://api.github.com/repos/BioGearsEngine/core",
+    "full_name": "BioGearsEngine/core",
+    "html_url": "https://github.com/BioGearsEngine/core",
+    "private": false,
+    "description": "Repository for libbiogears and all core utilities",
+    "created_at": "2018-05-08T17:47:30Z",
+    "updated_at": "2020-12-03T16:58:11Z",
+    "clone_url": "https://github.com/BioGearsEngine/core.git",
+    "homepage": null,
+    "size": 245571,
+    "stargazers_count": 28,
+    "watchers_count": 28,
+    "language": "C++",
+    "open_issues_count": 22,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "subscribers_count": 10,
+    "owner": {
+      "html_url": "https://github.com/BioGearsEngine",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/8700591?v=4",
+      "login": "BioGearsEngine",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "doi": "10.3389/FPHYS.2019.01321",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Vendor or commercial entity",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Builds and releases",
+      "distribution_details": null,
+      "evidence": [
+        "\"BioGears® is a C++ based, open source, multi-platform ... comprehensive human physiology engine that will drive medical education, research, and training technologies. The engine can be used as a standalone application or integrated with simulators, sensor interfaces, and models of all fidelities.\"",
+        "\"BioGears® source code is hosted here and will be developed through this public repository to encourage community facing development. In addition, we also support official stable releases. Our latest deployment (found under releases) is still in a beta phase, and is intended to be an intermediate release to showcase the capabilities of the BioGears® Physiology Engine.\"",
+        "\"If you'd like to use BioGears in your research, we ask that you cite the following publication:\" and \"BioGears is partially funded through DARPA ... Originally developed under the TATRC funded project\" (indicating use as a research physiology engine)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T16:45:10Z"
+    }
+  }
+}

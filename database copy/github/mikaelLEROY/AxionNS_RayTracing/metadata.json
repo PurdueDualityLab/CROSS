@@ -1,0 +1,51 @@
+{
+  "parser": "github",
+  "uid": "github/mikaelLEROY/AxionNS_RayTracing",
+  "url": "https://github.com/mikaelLEROY/AxionNS_RayTracing",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2020PhRvD.101l3003L",
+      "https://ui.adsabs.harvard.edu/abs/2020ascl.soft06009L/abstract"
+    ],
+    "title": "AxionNS: Ray-tracing in neutron stars",
+    "url": "https://github.com/mikaelLEROY/AxionNS_RayTracing",
+    "name": "AxionNS_RayTracing",
+    "full_name": "mikaelLEROY/AxionNS_RayTracing",
+    "html_url": "https://github.com/mikaelLEROY/AxionNS_RayTracing",
+    "created_at": "2019-12-17T15:08:46Z",
+    "updated_at": "2019-12-18T07:29:57Z",
+    "clone_url": "https://github.com/mikaelLEROY/AxionNS_RayTracing.git",
+    "size": 12,
+    "language": "Python",
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/mikaelLEROY",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31671771?v=4",
+      "login": "mikaelLEROY",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:14:24.540690",
+    "avatar": "https://avatars.githubusercontent.com/u/31671771?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This repository contains Python 3 ray-tracing code to compute radio light curves resulting from the resonant conversion of Axion dark matter into photons within the magnetosphere of a neutron star.\"",
+        "\"Photon trajectories are traced from the observer to the magnetosphere where a root finding algorithm identifies the regions of resonant conversion.\"",
+        "The README describes domain-specific simulation/analysis code but gives no indication of packaging or distribution beyond the repository itself."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T01:20:32Z"
+    }
+  }
+}

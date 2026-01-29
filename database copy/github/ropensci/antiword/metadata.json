@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/ropensci/antiword",
+  "url": "https://github.com/ropensci/antiword",
+  "data": {
+    "timestamp": "2022-01-27 10:11:35.188661",
+    "name": "antiword",
+    "url": "https://api.github.com/repos/ropensci/antiword",
+    "full_name": "ropensci/antiword",
+    "html_url": "https://github.com/ropensci/antiword",
+    "private": false,
+    "description": "R wrapper for antiword utility",
+    "created_at": "2017-04-22T12:12:17Z",
+    "updated_at": "2021-12-30T09:09:46Z",
+    "clone_url": "https://github.com/ropensci/antiword.git",
+    "homepage": "https://docs.ropensci.org/antiword",
+    "size": 293,
+    "stargazers_count": 45,
+    "watchers_count": 45,
+    "language": "C",
+    "open_issues_count": 3,
+    "license": null,
+    "owner": {
+      "html_url": "https://github.com/ropensci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1200269?v=4",
+      "login": "ropensci",
+      "type": "Organization"
+    },
+    "topics": [
+      "antiword",
+      "extract-text",
+      "r",
+      "rstats",
+      "r-package",
+      "literature"
+    ]
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"antiword\")\"",
+        "\"Install the package directly from CRAN: install.packages(\"antiword\")\"",
+        "\"Wraps the AntiWord utility to extract text from Microsoft Word documents.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T02:24:03Z"
+    }
+  }
+}

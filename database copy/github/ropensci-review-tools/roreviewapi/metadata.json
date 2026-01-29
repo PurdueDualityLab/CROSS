@@ -1,0 +1,55 @@
+{
+  "parser": "github",
+  "uid": "github/ropensci-review-tools/roreviewapi",
+  "url": "https://github.com/ropensci-review-tools/roreviewapi",
+  "data": {
+    "timestamp": "2022-01-27 10:11:35.312138",
+    "name": "roreviewapi",
+    "url": "https://api.github.com/repos/ropensci-review-tools/roreviewapi",
+    "full_name": "ropensci-review-tools/roreviewapi",
+    "html_url": "https://github.com/ropensci-review-tools/roreviewapi",
+    "private": false,
+    "description": "API endpoint for package reviews via ropensci-review-bot",
+    "created_at": "2021-05-05T08:20:22Z",
+    "updated_at": "2022-01-27T09:51:59Z",
+    "clone_url": "https://github.com/ropensci-review-tools/roreviewapi.git",
+    "homepage": "https://docs.ropensci.org/roreviewapi",
+    "size": 15970,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "R",
+    "open_issues_count": 3,
+    "license": null,
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/ropensci-review-tools",
+      "avatar_url": "https://avatars.githubusercontent.com/u/85607140?v=4",
+      "login": "ropensci-review-tools",
+      "type": "Organization"
+    },
+    "topics": [
+      "scalereprod"
+    ]
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Governance software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"status](https://github.com/ropensci-review-tools/roreviewapi/workflows/R-CMD-check/badge.svg)](https://github.com/ropensci-review-tools/roreviewapi/actions?query=workflow%3AR-CMD-check)\"",
+        "\"Plumber API to generate reports on package structure and function for the `@ropensci-review-bot`.\"",
+        "\"The package is not intended for general use, and these documents are primarily intended for maintainers of this package\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T03:12:20Z"
+    }
+  }
+}

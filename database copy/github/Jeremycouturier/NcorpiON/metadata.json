@@ -1,0 +1,63 @@
+{
+  "parser": "github",
+  "uid": "github/Jeremycouturier/NcorpiON",
+  "url": "https://github.com/Jeremycouturier/NcorpiON",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2025NewA..11402313C",
+      "https://ui.adsabs.harvard.edu/abs/2025ascl.soft03022C/abstract"
+    ],
+    "title": "NcorpiON: N-body integration for collisional and fragmenting systems",
+    "url": "https://github.com/Jeremycouturier/NcorpiON",
+    "name": "NcorpiON",
+    "full_name": "Jeremycouturier/NcorpiON",
+    "html_url": "https://github.com/Jeremycouturier/NcorpiON",
+    "description": "The official github repository of NcorpiON",
+    "created_at": "2023-10-04T22:02:55Z",
+    "updated_at": "2025-02-14T15:21:05Z",
+    "clone_url": "https://github.com/Jeremycouturier/NcorpiON.git",
+    "homepage": "https://ncorpion.com",
+    "size": 4539,
+    "stargazers_count": 4,
+    "watchers_count": 4,
+    "language": "C",
+    "open_issues_count": 2,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/Jeremycouturier",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49401230?v=4",
+      "login": "Jeremycouturier",
+      "type": "User"
+    },
+    "timestamp": "2025-03-30 00:52:17.641059",
+    "avatar": "https://avatars.githubusercontent.com/u/49401230?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"or if you prefer, you can simply download this repository to your computer. Using ```git``` is recommended so you can later on get updates by running ```git pull```\"",
+        "\"NcorpiON is an N-body software dedicated to the simulation of any gravitational system, and in particular collisional and fragmenting systems.\"",
+        "\"You can install NcorpiON with the `git` command `git clone https://github.com/Jeremycouturier/NcorpiON.git`\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T18:05:13Z"
+    }
+  }
+}

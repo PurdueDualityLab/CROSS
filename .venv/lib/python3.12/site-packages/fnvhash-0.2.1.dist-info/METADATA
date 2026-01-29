@@ -1,0 +1,56 @@
+Metadata-Version: 2.4
+Name: fnvhash
+Version: 0.2.1
+Summary: Pure Python FNV hash implementation.
+Author-email: Lorenz Schori <lo@znerol.ch>
+License: MIT
+Project-URL: Homepage, https://github.com/znerol/py-fnvhash
+Keywords: fnv,fnv1,fnv1a,hash
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Requires-Python: >=3.9
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Dynamic: license-file
+
+Pure Python FNV hash implementation
+===================================
+
+|Build Status| |Package Version|
+
+
+Pure Python implementation of the FNV_ hash family with 100% test coverage.
+Take a look at pyhash_ for use cases where performance is more important than
+portability.
+
+.. _FNV: http://isthe.com/chongo/tech/comp/fnv/
+.. _pyhash: https://pypi.python.org/pypi/pyhash
+
+
+Usage
+-----
+
+::
+
+    >>> from fnvhash import fnv1a_32
+    >>> hex(fnv1a_32(b'foo'))
+    '0xa9f37ed7'
+
+
+License
+-------
+
+The software is subject to the MIT license.
+
+.. |Build Status| image:: https://github.com/znerol/py-fnvhash/actions/workflows/on-push.yml/badge.svg
+   :target: https://github.com/znerol/py-fnvhash/actions/workflows/on-push.yml
+.. |Package Version| image:: https://img.shields.io/pypi/v/fnvhash.svg
+   :target: https://pypi.python.org/pypi/fnvhash

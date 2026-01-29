@@ -1,0 +1,69 @@
+{
+  "parser": "github",
+  "uid": "github/kcleal/gw",
+  "url": "https://github.com/kcleal/gw",
+  "data": {
+    "title": "gw",
+    "url": "https://github.com/kcleal/gw",
+    "credit": [],
+    "tags": [
+      "high-throughput-sequencing"
+    ],
+    "description": "Genome browser and variant annotation",
+    "name": "gw",
+    "full_name": "kcleal/gw",
+    "html_url": "https://github.com/kcleal/gw",
+    "created_at": "2022-07-07T18:30:42Z",
+    "updated_at": "2024-09-28T05:17:36Z",
+    "clone_url": "https://github.com/kcleal/gw.git",
+    "size": 19099,
+    "stargazers_count": 266,
+    "watchers_count": 266,
+    "language": "C++",
+    "open_issues_count": 3,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 6,
+    "owner": {
+      "html_url": "https://github.com/kcleal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42997789?v=4",
+      "login": "kcleal",
+      "type": "User"
+    },
+    "topics": [
+      "annotation-tool",
+      "vcf",
+      "bam-files",
+      "cram-files",
+      "genome-browser"
+    ],
+    "timestamp": "2024-09-29 00:49:18.861150",
+    "avatar": "https://avatars.githubusercontent.com/u/42997789?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Incidental or general-purpose",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"You might want to maintain your docs in an existing project repo. Instead of creating a new repo using the [just-the-docs template](https://github.com/just-the-docs/just-the-docs-template), you can co\"",
+        "\"Jekyll site that: uses the Just the Docs theme; can be built and published on GitHub Pages; can be built and previewed locally, and published on other platforms.\"",
+        "\"To get started with creating a site, just click \\\"use this template\\\"!\" (indicates this repo is a template site/application distributed via the repository itself)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:42:53Z"
+    }
+  }
+}

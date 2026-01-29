@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/maickrau/MBG",
+  "url": "https://github.com/maickrau/MBG",
+  "data": {
+    "title": "mbg",
+    "url": "https://github.com/maickrau/MBG",
+    "credit": [],
+    "tags": [
+      "genome-assembly",
+      "high-throughput-sequencing"
+    ],
+    "description": "Minimizer based sparse de Bruijn graph constructor.",
+    "name": "MBG",
+    "full_name": "maickrau/MBG",
+    "html_url": "https://github.com/maickrau/MBG",
+    "created_at": "2020-06-22T14:51:18Z",
+    "updated_at": "2022-11-18T13:37:16Z",
+    "clone_url": "https://github.com/maickrau/MBG.git",
+    "size": 907,
+    "stargazers_count": 38,
+    "watchers_count": 38,
+    "language": "C++",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/maickrau",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1543674?v=4",
+      "login": "maickrau",
+      "type": "User"
+    },
+    "timestamp": "2022-11-20 00:45:40.789908",
+    "avatar": "https://avatars.githubusercontent.com/u/1543674?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "Bioconda",
+      "evidence": [
+        "\"Minimizer based sparse de Bruijn Graph constructor\" (a command-line program invoked as `MBG ...`).",
+        "Usage section shows direct execution: `MBG -i input_reads.fa -o output_graph.gfa ...` producing an output graph file used in genome assembly/analysis.",
+        "Installation: \"Bioconda: `conda install -c bioconda mbg`\" indicating distribution via the Bioconda package registry."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T01:00:33Z"
+    }
+  }
+}

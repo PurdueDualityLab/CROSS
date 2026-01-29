@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/Huang-CL/Magrathea",
+  "url": "https://github.com/Huang-CL/Magrathea",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2022arXiv220103094H",
+      "https://ui.adsabs.harvard.edu/abs/2022ascl.soft01012H/abstract"
+    ],
+    "title": "MAGRATHEA: Planet interior structure code",
+    "url": "https://github.com/Huang-CL/Magrathea",
+    "name": "Magrathea",
+    "full_name": "Huang-CL/Magrathea",
+    "html_url": "https://github.com/Huang-CL/Magrathea",
+    "created_at": "2020-07-14T21:16:07Z",
+    "updated_at": "2022-06-06T03:50:55Z",
+    "clone_url": "https://github.com/Huang-CL/Magrathea.git",
+    "size": 4019,
+    "stargazers_count": 10,
+    "watchers_count": 10,
+    "language": "C++",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/Huang-CL",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13855548?v=4",
+      "login": "Huang-CL",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 16:49:28.510015",
+    "avatar": "https://avatars.githubusercontent.com/u/13855548?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"[Install the GSL library](https://www.gnu.org/software/gsl/)(>= v2.0).  Download the compressed package from the [GNU ftp site](ftp://ftp.gnu.org/gnu/gsl/).  Extract the file and install the package f\"",
+        "\"Planet interior structure code for astronomers, planetary scientists, mice, and more.\"",
+        "\"A 1D planet structure code written in C++ which considers the case of fully differentiated interiors. The code integrates the hydrostatic equation... The code returns the pressure, temperature, density, phase, and radius...\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T17:46:38Z"
+    }
+  }
+}

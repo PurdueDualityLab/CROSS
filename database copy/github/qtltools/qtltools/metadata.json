@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/qtltools/qtltools",
+  "url": "https://github.com/qtltools/qtltools",
+  "data": {
+    "title": "QTLtools",
+    "url": "https://github.com/qtltools/qtltools",
+    "credit": [],
+    "description": "A complete tool set for molecular QTL discovery and analysis",
+    "name": "qtltools",
+    "full_name": "qtltools/qtltools",
+    "html_url": "https://github.com/qtltools/qtltools",
+    "created_at": "2016-07-11T08:52:13Z",
+    "updated_at": "2022-06-01T16:52:18Z",
+    "clone_url": "https://github.com/qtltools/qtltools.git",
+    "size": 124300,
+    "stargazers_count": 38,
+    "watchers_count": 38,
+    "language": "C++",
+    "open_issues_count": 16,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 6,
+    "owner": {
+      "html_url": "https://github.com/qtltools",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20395337?v=4",
+      "login": "qtltools",
+      "type": "User"
+    },
+    "timestamp": "2022-07-18 17:46:31.884830",
+    "avatar": "https://avatars.githubusercontent.com/u/20395337?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"QTLtools: a tool set for molecular QTL discovery and analysis\" (describes a domain-specific analysis tool, i.e. an application)",
+        "\"developers:\tOlivier Delaneau ... Halit Ongen ...\" (named academic-style developers, suggesting a research project/team rather than a company)",
+        "\"git: https://github.com/qtltools/qtltools\" (points users to clone/use from the GitHub repository; no mention of package managers or binaries)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T02:01:20Z"
+    }
+  }
+}

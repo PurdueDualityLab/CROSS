@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/maormizrachi/MadVoro",
+  "url": "https://github.com/maormizrachi/MadVoro",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2025RASTI...4...39M",
+      "https://ui.adsabs.harvard.edu/abs/2025ascl.soft10017M/abstract"
+    ],
+    "title": "MadVoro: Massively distributed construction of Voronoi diagrams",
+    "url": "https://github.com/maormizrachi/MadVoro",
+    "name": "MadVoro",
+    "full_name": "maormizrachi/MadVoro",
+    "html_url": "https://github.com/maormizrachi/MadVoro",
+    "created_at": "2025-02-05T12:41:22Z",
+    "updated_at": "2025-11-04T09:38:58Z",
+    "clone_url": "https://github.com/maormizrachi/MadVoro.git",
+    "size": 13970,
+    "stargazers_count": 19,
+    "watchers_count": 19,
+    "language": "Shell",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/maormizrachi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/85169126?v=4",
+      "login": "maormizrachi",
+      "type": "User"
+    },
+    "timestamp": "2025-11-09 00:54:23.693202",
+    "avatar": "https://avatars.githubusercontent.com/u/85169126?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"MadVoro is a C++ framework for construction of Voronoi diagrams of 3D points, in distributed memory (using MPI).\" (framework/library intended to be linked into user code)",
+        "\"You should write your own C++ project, and include the three headers files ... allowing you to use the code. You can see examples in the examples directory.\" (used as a library dependency)",
+        "\"MadVoro is a free and open-source project... provided that you cite the following paper\" and the citation describes it as \"our open-source C++ 3D Voronoi construction framework\" used for scientific applications (direct scientific computation)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T01:01:07Z"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "parser": "github",
+  "uid": "github/mattpitkin/lintegrate",
+  "url": "https://github.com/mattpitkin/lintegrate",
+  "data": {
+    "timestamp": "2022-05-29 03:17:28.126509",
+    "name": "lintegrate",
+    "url": "https://api.github.com/repos/mattpitkin/lintegrate",
+    "full_name": "mattpitkin/lintegrate",
+    "html_url": "https://github.com/mattpitkin/lintegrate",
+    "private": false,
+    "description": "A numerical integration routine that works for the natural logarithm of functions ",
+    "created_at": "2017-06-02T13:02:03Z",
+    "updated_at": "2022-02-11T17:25:43Z",
+    "clone_url": "https://github.com/mattpitkin/lintegrate.git",
+    "homepage": null,
+    "size": 480,
+    "stargazers_count": 7,
+    "watchers_count": 7,
+    "language": "C",
+    "open_issues_count": 0,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/mattpitkin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1421092?v=4",
+      "login": "mattpitkin",
+      "type": "User"
+    },
+    "topics": [
+      "integral",
+      "gsl",
+      "gsl-functions",
+      "python",
+      "wrapper"
+    ]
+  },
+  "doi": "https://doi.org/10.5281/zenodo.6419039",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install .\"",
+        "\"A numerical integration library for when you want/need to work with the natural logarithm of the function requiring integration.\"",
+        "\"A Python module containing wrappers to the functions can be built and installed from source for the user by running, e.g.: pip install .\" and \"The Python module can also be installed from PyPI... or in a Conda environment with: conda install -c conda-forge lintegrate\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:14:42Z"
+    }
+  }
+}

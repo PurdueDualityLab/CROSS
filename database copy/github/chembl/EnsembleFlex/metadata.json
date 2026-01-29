@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/chembl/EnsembleFlex",
+  "url": "https://github.com/chembl/EnsembleFlex",
+  "data": {
+    "name": "EnsembleFlex",
+    "url": "https://github.com/chembl/EnsembleFlex",
+    "full_name": "chembl/EnsembleFlex",
+    "html_url": "https://github.com/chembl/EnsembleFlex",
+    "private": false,
+    "description": "EnsembleFlex - Flexibility Analysis of Structure Ensembles",
+    "created_at": "2025-01-14T13:09:10Z",
+    "updated_at": "2025-02-14T19:28:27Z",
+    "clone_url": "https://github.com/chembl/EnsembleFlex.git",
+    "homepage": null,
+    "size": 35265,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Python",
+    "open_issues_count": 0,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/chembl",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3062531?v=4",
+      "login": "chembl",
+      "type": "Organization"
+    },
+    "topics": [],
+    "timestamp": "2025-02-16 00:47:34.524897",
+    "avatar": "https://avatars.githubusercontent.com/u/3062531?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Containers",
+      "distribution_details": null,
+      "evidence": [
+        "README container command: \"docker run -d -it --name ensembleflex -p 8501:8501 -p 80:80 --volume ./docker-data:/app/docker-data ensembleflex-image\"",
+        "\"This program provides flexibility analysis tools for protein structure ensembles via a graphical user interface (GUI).\"",
+        "\"The execution of provided tools will produce the following types of output files: - analysis plots and graphs in png format, - pdb structure files with modified coordinates...\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T22:54:28Z"
+    }
+  }
+}

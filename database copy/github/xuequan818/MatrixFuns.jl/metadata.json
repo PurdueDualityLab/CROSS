@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/xuequan818/MatrixFuns.jl",
+  "url": "https://github.com/xuequan818/MatrixFuns.jl",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.16899270",
+    "name": "MatrixFuns.jl",
+    "url": "https://github.com/xuequan818/MatrixFuns.jl",
+    "full_name": "xuequan818/MatrixFuns.jl",
+    "html_url": "https://github.com/xuequan818/MatrixFuns.jl",
+    "description": "Matrix functions in Julia",
+    "created_at": "2024-05-06T07:46:32Z",
+    "updated_at": "2025-08-19T13:45:19Z",
+    "clone_url": "https://github.com/xuequan818/MatrixFuns.jl.git",
+    "size": 1061,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "Julia",
+    "open_issues_count": 19,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/xuequan818",
+      "avatar_url": "https://avatars.githubusercontent.com/u/56442655?v=4",
+      "login": "xuequan818",
+      "type": "User"
+    },
+    "timestamp": "2025-08-24 00:55:50.548122",
+    "avatar": "https://avatars.githubusercontent.com/u/56442655?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "Julia General registry",
+      "evidence": [
+        "README install command: \"julia> Pkg.add(\"MatrixFuns\")\"",
+        "\"A Julia package for computing scalar functions of matrix variables and their Fréchet derivatives.\"",
+        "Usage examples show `using MatrixFuns` and calling `mat_fun`, indicating it is imported as a library rather than a standalone program."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:56:45Z"
+    }
+  }
+}

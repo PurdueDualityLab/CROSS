@@ -1,0 +1,65 @@
+{
+  "parser": "github",
+  "uid": "github/vsquicciarini/madys",
+  "url": "https://github.com/vsquicciarini/madys",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2021MNRAS.507.1381S",
+      "https://ui.adsabs.harvard.edu/abs/2022arXiv220602446S",
+      "https://ui.adsabs.harvard.edu/abs/2022ascl.soft06018S/abstract"
+    ],
+    "title": "MADYS: Isochronal parameter determination for young stellar and substellar objects",
+    "url": "https://github.com/vsquicciarini/madys",
+    "name": "madys",
+    "full_name": "vsquicciarini/madys",
+    "html_url": "https://github.com/vsquicciarini/madys",
+    "description": "MADYS: isochronal parameter determination for young stellar and substellar objects",
+    "created_at": "2021-01-27T22:02:02Z",
+    "updated_at": "2022-07-15T09:04:28Z",
+    "clone_url": "https://github.com/vsquicciarini/madys.git",
+    "size": 25446,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Python",
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/vsquicciarini",
+      "avatar_url": "https://avatars.githubusercontent.com/u/78115109?v=4",
+      "login": "vsquicciarini",
+      "type": "User"
+    },
+    "topics": [
+      "astronomy",
+      "direct-imaging",
+      "gaia",
+      "model-comparison",
+      "parameter-estimation",
+      "python",
+      "sql",
+      "stellar-astrophysics"
+    ],
+    "timestamp": "2022-07-17 16:48:22.735141",
+    "avatar": "https://avatars.githubusercontent.com/u/78115109?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install git+https://github.com/mfouesneau/tap\"",
+        "\"This repository hosts the code of `MADYS`: the Manifold Age Determination for Young Stars, a flexible Python tool for parameter determination of young stellar and substellar objects.\"",
+        "\"Once TAP Gaia Query is installed, the current `MADYS` repository can be installed using pip: ```sh\npip install madys\n```\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:40:30Z"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "parser": "github",
+  "uid": "github/gpertea/cdbfasta",
+  "url": "https://github.com/gpertea/cdbfasta",
+  "data": {
+    "url": "https://github.com/gpertea/cdbfasta",
+    "title": "Cdbfasta",
+    "description": "Constant DataBase tools for indexing and retrieving records from multi-FASTA or similarly structured files",
+    "name": "cdbfasta",
+    "full_name": "gpertea/cdbfasta",
+    "html_url": "https://github.com/gpertea/cdbfasta",
+    "created_at": "2017-03-16T21:30:26Z",
+    "updated_at": "2018-10-05T18:26:40Z",
+    "clone_url": "https://github.com/gpertea/cdbfasta.git",
+    "size": 75,
+    "stargazers_count": 5,
+    "watchers_count": 5,
+    "language": "C++",
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/gpertea",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3372619?v=4",
+      "login": "gpertea",
+      "type": "User"
+    },
+    "timestamp": "2022-07-20 17:25:48.576691",
+    "avatar": "https://avatars.githubusercontent.com/u/3372619?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"CDB (Constant DataBase) indexing and retrieval tools for FASTA files\"",
+        "\"Clone this repository and run 'make' in the cdbfasta directory... Running 'make' should produce the binaries 'cdbfasta' (the indexer program) and 'cdbyank' (the query program)\"",
+        "\"These tools were developed in C++, based on the publicly available cdb...\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:04:01Z"
+    }
+  }
+}

@@ -1,51 +1,270 @@
 {
-    "parser": "github",
-    "uid": "github/easystats/effectsize",
-    "url": "https://github.com/easystats/effectsize",
-    "data": {
-        "timestamp": "2020-12-27 00:31:25.388566",
-        "name": "effectsize",
-        "url": "https://api.github.com/repos/easystats/effectsize",
-        "full_name": "easystats/effectsize",
-        "html_url": "https://github.com/easystats/effectsize",
-        "private": false,
-        "description": ":dragon: Compute and work with indices of effect size and standardized parameters",
-        "created_at": "2019-10-08T05:20:04Z",
-        "updated_at": "2020-12-24T12:36:54Z",
-        "clone_url": "https://github.com/easystats/effectsize.git",
-        "homepage": "https://easystats.github.io/effectsize/",
-        "size": 10909,
-        "stargazers_count": 123,
-        "watchers_count": 123,
-        "language": "R",
-        "open_issues_count": 14,
-        "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "spdx_id": "GPL-3.0",
-            "url": "https://api.github.com/licenses/gpl-3.0",
-            "node_id": "MDc6TGljZW5zZTk="
-        },
-        "subscribers_count": 8,
-        "owner": {
-            "html_url": "https://github.com/easystats",
-            "avatar_url": "https://avatars1.githubusercontent.com/u/47102598?v=4",
-            "login": "easystats",
-            "type": "Organization"
-        },
-        "topics": [
-            "effectsize",
-            "correlation",
-            "conversion",
-            "interpretation",
-            "cohens-d",
-            "anova",
-            "standardization",
-            "hedges-g",
-            "effect-size",
-            "compute",
-            "standardized"
-        ]
+  "parser": "github",
+  "uid": "github/easystats/effectsize",
+  "url": "https://github.com/easystats/effectsize",
+  "data": {
+    "timestamp": "2020-12-27 00:31:25.388566",
+    "name": "effectsize",
+    "url": "https://api.github.com/repos/easystats/effectsize",
+    "full_name": "easystats/effectsize",
+    "html_url": "https://github.com/easystats/effectsize",
+    "private": false,
+    "description": ":dragon: Compute and work with indices of effect size and standardized parameters",
+    "created_at": "2019-10-08T05:20:04Z",
+    "updated_at": "2020-12-24T12:36:54Z",
+    "clone_url": "https://github.com/easystats/effectsize.git",
+    "homepage": "https://easystats.github.io/effectsize/",
+    "size": 10909,
+    "stargazers_count": 123,
+    "watchers_count": 123,
+    "language": "R",
+    "open_issues_count": 14,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
     },
-    "doi": "https://doi.org/10.5281/zenodo.4384509"
+    "subscribers_count": 8,
+    "owner": {
+      "html_url": "https://github.com/easystats",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/47102598?v=4",
+      "login": "easystats",
+      "type": "Organization"
+    },
+    "topics": [
+      "effectsize",
+      "correlation",
+      "conversion",
+      "interpretation",
+      "cohens-d",
+      "anova",
+      "standardization",
+      "hedges-g",
+      "effect-size",
+      "compute",
+      "standardized"
+    ]
+  },
+  "doi": "https://doi.org/10.5281/zenodo.4384509",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"effectsize\")\"",
+        "\"The goal of this package is to provide utilities to work with indices of effect size and standardized parameters, allowing computation and conversion of indices such as Cohen’s d, r, odds-ratios, etc.\"",
+        "\"Tip: Instead of `library(effectsize)`, use `library(easystats)`. This will make all features of the easystats-ecosystem available.\" (indicates it is an R package/library used by other code)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:40:38Z"
+    }
+  },
+  "openssf_scorecard": {
+    "data": {
+      "date": "2026-01-23T10:55:04-05:00",
+      "repo": {
+        "name": "github.com/easystats/effectsize",
+        "commit": "79315dd8c298e4d6551da7912bbe81bbf9c44773"
+      },
+      "scorecard": {
+        "version": "v5.4.0",
+        "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+      },
+      "score": 5.4,
+      "checks": [
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no binaries found in the repo",
+          "name": "Binary-Artifacts",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#binary-artifacts",
+            "short": "Determines if the project has generated executable (binary) artifacts in the source repository."
+          }
+        },
+        {
+          "details": null,
+          "score": 6,
+          "reason": "branch protection is not maximal on development and all release branches",
+          "name": "Branch-Protection",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#branch-protection",
+            "short": "Determines if the default and release branches are protected with GitHub's branch protection settings."
+          }
+        },
+        {
+          "details": null,
+          "score": 7,
+          "reason": "13 out of 18 merged PRs checked by a CI test -- score normalized to 7",
+          "name": "CI-Tests",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#ci-tests",
+            "short": "Determines if the project runs tests before pull requests are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no effort to earn an OpenSSF best practices badge detected",
+          "name": "CII-Best-Practices",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#cii-best-practices",
+            "short": "Determines if the project has an OpenSSF (formerly CII) Best Practices Badge."
+          }
+        },
+        {
+          "details": null,
+          "score": 2,
+          "reason": "Found 3/11 approved changesets -- score normalized to 2",
+          "name": "Code-Review",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#code-review",
+            "short": "Determines if the project requires human code review before pull requests (aka merge requests) are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "project has 12 contributing companies or organizations",
+          "name": "Contributors",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#contributors",
+            "short": "Determines if the project has a set of contributors from multiple organizations (e.g., companies)."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no dangerous workflow patterns detected",
+          "name": "Dangerous-Workflow",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dangerous-workflow",
+            "short": "Determines if the project's GitHub Action workflows avoid dangerous patterns."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "update tool detected",
+          "name": "Dependency-Update-Tool",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dependency-update-tool",
+            "short": "Determines if the project uses a dependency update tool."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "project is not fuzzed",
+          "name": "Fuzzing",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#fuzzing",
+            "short": "Determines if the project uses fuzzing."
+          }
+        },
+        {
+          "details": null,
+          "score": 9,
+          "reason": "license file detected",
+          "name": "License",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#license",
+            "short": "Determines if the project has defined a license."
+          }
+        },
+        {
+          "details": null,
+          "score": 6,
+          "reason": "6 commit(s) and 2 issue activity found in the last 90 days -- score normalized to 6",
+          "name": "Maintained",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#maintained",
+            "short": "Determines if the project is \"actively maintained\"."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "packaging workflow not detected",
+          "name": "Packaging",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#packaging",
+            "short": "Determines if the project is published as a package that others can easily download, install, easily update, and uninstall."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "dependency not pinned by hash detected -- score normalized to 0",
+          "name": "Pinned-Dependencies",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#pinned-dependencies",
+            "short": "Determines if the project has declared and pinned the dependencies of its build process."
+          }
+        },
+        {
+          "details": null,
+          "score": 1,
+          "reason": "SAST tool is not run on all commits -- score normalized to 1",
+          "name": "SAST",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#sast",
+            "short": "Determines if the project uses static code analysis."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "security policy file not detected",
+          "name": "Security-Policy",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#security-policy",
+            "short": "Determines if the project has published a security policy."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no releases found",
+          "name": "Signed-Releases",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#signed-releases",
+            "short": "Determines if the project cryptographically signs release artifacts."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "detected GitHub workflow tokens with excessive permissions",
+          "name": "Token-Permissions",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#token-permissions",
+            "short": "Determines if the project's workflows follow the principle of least privilege."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "0 existing vulnerabilities detected",
+          "name": "Vulnerabilities",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#vulnerabilities",
+            "short": "Determines if the project has open, known unfixed vulnerabilities."
+          }
+        }
+      ],
+      "metadata": null
+    },
+    "timestamp_utc": "2026-01-23T15:55:24Z"
+  }
 }

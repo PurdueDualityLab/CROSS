@@ -1,0 +1,57 @@
+{
+  "parser": "github",
+  "uid": "github/achaikova/frbmclust",
+  "url": "https://github.com/achaikova/frbmclust",
+  "data": {
+    "doi": [],
+    "title": "frbmclust: Model-independent classification of events from the first CHIME/FRB Fast Radio Burst catalog",
+    "url": "https://github.com/achaikova/frbmclust",
+    "name": "frbmclust",
+    "full_name": "achaikova/frbmclust",
+    "html_url": "https://github.com/achaikova/frbmclust",
+    "created_at": "2022-02-16T16:20:32Z",
+    "updated_at": "2022-05-06T19:55:03Z",
+    "clone_url": "https://github.com/achaikova/frbmclust.git",
+    "size": 1985,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "Python",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/achaikova",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57727520?v=4",
+      "login": "achaikova",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 16:49:25.938182",
+    "avatar": "https://avatars.githubusercontent.com/u/57727520?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install --upgrade pip\"",
+        "\"Clusterize FRB profiles using hierarchical clustering, plot corresponding parameters distributions.\"",
+        "\"For the fast reproduction of the main results one can run `python frb_profiles_clustering.py --use-preprocessed --use-precalculated-z`.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T20:44:11Z"
+    }
+  }
+}

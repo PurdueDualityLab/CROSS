@@ -1,0 +1,51 @@
+{
+  "parser": "github",
+  "uid": "github/el2718/FastQSL",
+  "url": "https://github.com/el2718/FastQSL",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2022ApJ...937...26Z",
+      "https://ui.adsabs.harvard.edu/abs/2022ascl.soft09020Z/abstract"
+    ],
+    "title": "FastQSL: Quasi-separatrix Layers computation method",
+    "url": "https://github.com/el2718/FastQSL",
+    "name": "FastQSL",
+    "full_name": "el2718/FastQSL",
+    "html_url": "https://github.com/el2718/FastQSL",
+    "created_at": "2022-07-22T14:45:03Z",
+    "updated_at": "2022-07-22T14:48:02Z",
+    "clone_url": "https://github.com/el2718/FastQSL.git",
+    "size": 90,
+    "language": "Fortran",
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/el2718",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45861675?v=4",
+      "login": "el2718",
+      "type": "User"
+    },
+    "timestamp": "2022-10-02 00:55:16.130187",
+    "avatar": "https://avatars.githubusercontent.com/u/45861675?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"* ifort https://www.intel.com/content/www/us/en/developer/articles/tool/oneapi-standalone-components.html#fortran\"",
+        "\"Since the server of http://staff.ustc.edu.cn/~rliu/qfactor.html will stop, those codes will be updated on this site from July 2022.\" (code hosted directly in this repo, no mention of package managers)",
+        "\"## Usage\nPlease see the beginning of qfactor.pro  * Demos ... IDL> .r demo_charge4.pro\" (run as an end-user program/script in IDL rather than as a library)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:43:29Z"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "parser": "github",
+  "uid": "github/ropensci/tidyhydat",
+  "url": "https://github.com/ropensci/tidyhydat",
+  "data": {
+    "timestamp": "2022-01-27 10:11:35.202798",
+    "name": "tidyhydat",
+    "url": "https://api.github.com/repos/ropensci/tidyhydat",
+    "full_name": "ropensci/tidyhydat",
+    "html_url": "https://github.com/ropensci/tidyhydat",
+    "private": false,
+    "description": "An R package to import Water Survey of Canada hydrometric data and make it tidy",
+    "created_at": "2017-08-21T18:01:23Z",
+    "updated_at": "2021-12-31T16:31:48Z",
+    "clone_url": "https://github.com/ropensci/tidyhydat.git",
+    "homepage": "https://docs.ropensci.org/tidyhydat",
+    "size": 19245,
+    "stargazers_count": 63,
+    "watchers_count": 63,
+    "language": "R",
+    "open_issues_count": 4,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "owner": {
+      "html_url": "https://github.com/ropensci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1200269?v=4",
+      "login": "ropensci",
+      "type": "Organization"
+    },
+    "topics": [
+      "r",
+      "tidy-data",
+      "government-data",
+      "water-resources",
+      "rstats",
+      "r-package",
+      "hydrology",
+      "hydrometrics",
+      "citz",
+      "data-access"
+    ]
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"tidyhydat\")\"",
+        "\"You can install `tidyhydat` from CRAN: install.packages(\"tidyhydat\")\"",
+        "\"Provides functions (`hy_*`) that access hydrometric data from the HYDAT database, a national archive of Canadian hydrometric data and return tidy data.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T02:39:53Z"
+    }
+  }
+}

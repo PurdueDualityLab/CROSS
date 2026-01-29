@@ -1,42 +1,261 @@
 {
-    "parser": "github",
-    "uid": "github/tardis-sn/tardis",
+  "parser": "github",
+  "uid": "github/tardis-sn/tardis",
+  "url": "https://github.com/tardis-sn/tardis",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2014MNRAS.440..387K",
+      "https://ui.adsabs.harvard.edu/abs/2014ascl.soft02018K/abstract"
+    ],
+    "title": "TARDIS: Temperature And Radiative Diffusion In Supernovae",
     "url": "https://github.com/tardis-sn/tardis",
-    "data": {
-        "doi": [
-            "https://ui.adsabs.harvard.edu/abs/2014MNRAS.440..387K",
-            "https://ui.adsabs.harvard.edu/abs/2014ascl.soft02018K/abstract"
-        ],
-        "title": "TARDIS: Temperature And Radiative Diffusion In Supernovae",
-        "url": "https://github.com/tardis-sn/tardis",
-        "name": "tardis",
-        "full_name": "tardis-sn/tardis",
-        "html_url": "https://github.com/tardis-sn/tardis",
-        "description": "TARDIS - Temperature And Radiative Diffusion In Supernovae",
-        "created_at": "2011-12-08T06:20:19Z",
-        "updated_at": "2022-06-22T15:51:20Z",
-        "clone_url": "https://github.com/tardis-sn/tardis.git",
-        "homepage": "https://tardis-sn.github.io/tardis",
-        "size": 234634,
-        "stargazers_count": 148,
-        "watchers_count": 148,
-        "language": "Python",
-        "open_issues_count": 148,
-        "subscribers_count": 31,
-        "owner": {
-            "html_url": "https://github.com/tardis-sn",
-            "avatar_url": "https://avatars.githubusercontent.com/u/6108234?v=4",
-            "login": "tardis-sn",
-            "type": "Organization"
-        },
-        "topics": [
-            "science",
-            "astrophysics",
-            "python",
-            "supernova",
-            "radiative-transfer"
-        ],
-        "timestamp": "2022-07-17 17:23:59.949612",
-        "avatar": "https://avatars.githubusercontent.com/u/6108234?v=4"
+    "name": "tardis",
+    "full_name": "tardis-sn/tardis",
+    "html_url": "https://github.com/tardis-sn/tardis",
+    "description": "TARDIS - Temperature And Radiative Diffusion In Supernovae",
+    "created_at": "2011-12-08T06:20:19Z",
+    "updated_at": "2022-06-22T15:51:20Z",
+    "clone_url": "https://github.com/tardis-sn/tardis.git",
+    "homepage": "https://tardis-sn.github.io/tardis",
+    "size": 234634,
+    "stargazers_count": 148,
+    "watchers_count": 148,
+    "language": "Python",
+    "open_issues_count": 148,
+    "subscribers_count": 31,
+    "owner": {
+      "html_url": "https://github.com/tardis-sn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6108234?v=4",
+      "login": "tardis-sn",
+      "type": "Organization"
+    },
+    "topics": [
+      "science",
+      "astrophysics",
+      "python",
+      "supernova",
+      "radiative-transfer"
+    ],
+    "timestamp": "2022-07-17 17:23:59.949612",
+    "avatar": "https://avatars.githubusercontent.com/u/6108234?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \".. image:: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/tardis-sn/tardis/master/docs/_static/ruff_badge.json\"",
+        "\"TARDIS is a tool that creates synthetic observations (*spectra*) for exploding stars (*supernovae*).\"",
+        "\"This research made use of \\\\textsc{tardis}, a community-developed software package for spectral synthesis in supernovae\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:01:11Z"
     }
+  },
+  "openssf_scorecard": {
+    "data": {
+      "date": "2026-01-23T15:05:37-05:00",
+      "repo": {
+        "name": "github.com/tardis-sn/tardis",
+        "commit": "210f18a6ca54053c18dfbd94329254851f5ec8c4"
+      },
+      "scorecard": {
+        "version": "v5.4.0",
+        "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+      },
+      "score": 4.8,
+      "checks": [
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no binaries found in the repo",
+          "name": "Binary-Artifacts",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#binary-artifacts",
+            "short": "Determines if the project has generated executable (binary) artifacts in the source repository."
+          }
+        },
+        {
+          "details": null,
+          "score": 5,
+          "reason": "branch protection is not maximal on development and all release branches",
+          "name": "Branch-Protection",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#branch-protection",
+            "short": "Determines if the default and release branches are protected with GitHub's branch protection settings."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "30 out of 30 merged PRs checked by a CI test -- score normalized to 10",
+          "name": "CI-Tests",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#ci-tests",
+            "short": "Determines if the project runs tests before pull requests are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no effort to earn an OpenSSF best practices badge detected",
+          "name": "CII-Best-Practices",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#cii-best-practices",
+            "short": "Determines if the project has an OpenSSF (formerly CII) Best Practices Badge."
+          }
+        },
+        {
+          "details": null,
+          "score": 9,
+          "reason": "Found 27/28 approved changesets -- score normalized to 9",
+          "name": "Code-Review",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#code-review",
+            "short": "Determines if the project requires human code review before pull requests (aka merge requests) are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "project has 31 contributing companies or organizations",
+          "name": "Contributors",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#contributors",
+            "short": "Determines if the project has a set of contributors from multiple organizations (e.g., companies)."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "dangerous workflow patterns detected",
+          "name": "Dangerous-Workflow",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dangerous-workflow",
+            "short": "Determines if the project's GitHub Action workflows avoid dangerous patterns."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "update tool detected",
+          "name": "Dependency-Update-Tool",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dependency-update-tool",
+            "short": "Determines if the project uses a dependency update tool."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "project is not fuzzed",
+          "name": "Fuzzing",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#fuzzing",
+            "short": "Determines if the project uses fuzzing."
+          }
+        },
+        {
+          "details": null,
+          "score": 9,
+          "reason": "license file detected",
+          "name": "License",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#license",
+            "short": "Determines if the project has defined a license."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "27 commit(s) and 2 issue activity found in the last 90 days -- score normalized to 10",
+          "name": "Maintained",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#maintained",
+            "short": "Determines if the project is \"actively maintained\"."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "packaging workflow not detected",
+          "name": "Packaging",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#packaging",
+            "short": "Determines if the project is published as a package that others can easily download, install, easily update, and uninstall."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "dependency not pinned by hash detected -- score normalized to 0",
+          "name": "Pinned-Dependencies",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#pinned-dependencies",
+            "short": "Determines if the project has declared and pinned the dependencies of its build process."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "SAST tool is not run on all commits -- score normalized to 0",
+          "name": "SAST",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#sast",
+            "short": "Determines if the project uses static code analysis."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "security policy file not detected",
+          "name": "Security-Policy",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#security-policy",
+            "short": "Determines if the project has published a security policy."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "Project has not signed or included provenance with any releases.",
+          "name": "Signed-Releases",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#signed-releases",
+            "short": "Determines if the project cryptographically signs release artifacts."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "detected GitHub workflow tokens with excessive permissions",
+          "name": "Token-Permissions",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#token-permissions",
+            "short": "Determines if the project's workflows follow the principle of least privilege."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "0 existing vulnerabilities detected",
+          "name": "Vulnerabilities",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#vulnerabilities",
+            "short": "Determines if the project has open, known unfixed vulnerabilities."
+          }
+        }
+      ],
+      "metadata": null
+    },
+    "timestamp_utc": "2026-01-23T20:06:00Z"
+  }
 }

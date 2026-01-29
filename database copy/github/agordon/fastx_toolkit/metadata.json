@@ -1,0 +1,64 @@
+{
+  "parser": "github",
+  "uid": "github/agordon/fastx_toolkit",
+  "url": "https://github.com/agordon/fastx_toolkit",
+  "data": {
+    "title": "FASTX‑Toolkit",
+    "url": "https://github.com/agordon/fastx_toolkit",
+    "credit": [
+      "Assaf Gordon"
+    ],
+    "tags": [
+      "high-throughput-sequencing"
+    ],
+    "description": "FASTA/FASTQ pre-processing programs",
+    "name": "fastx_toolkit",
+    "full_name": "agordon/fastx_toolkit",
+    "html_url": "https://github.com/agordon/fastx_toolkit",
+    "created_at": "2013-11-08T13:03:39Z",
+    "updated_at": "2024-08-13T03:09:06Z",
+    "clone_url": "https://github.com/agordon/fastx_toolkit.git",
+    "size": 2535,
+    "stargazers_count": 161,
+    "watchers_count": 161,
+    "language": "C",
+    "open_issues_count": 12,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 17,
+    "owner": {
+      "html_url": "https://github.com/agordon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/523057?v=4",
+      "login": "agordon",
+      "type": "User"
+    },
+    "timestamp": "2024-08-18 00:43:41.918765",
+    "avatar": "https://avatars.githubusercontent.com/u/523057?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"$ wget https://github.com/agordon/fastx_toolkit/releases/download/0.0.14/fastx_toolkit-0.0.14.tar.bz2\"",
+        "\"The FASTX-Toolkit is a collection of command line tools for Short-Reads FASTA/FASTQ files preprocessing.\"",
+        "\"When downloading the git repository from github, use the following: $ git clone ... $ ./configure $ make\" and \"When downloading a released version archive: $ wget https://github.com/agordon/fastx_toolkit/releases/download/0.0.14/... The available releases are here: https://github.com/agordon/fastx_toolkit/releases\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T21:01:59Z"
+    }
+  }
+}

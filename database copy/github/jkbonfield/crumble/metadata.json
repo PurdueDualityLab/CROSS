@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/jkbonfield/crumble",
+  "url": null,
+  "data": {
+    "title": "Crumble",
+    "url": "https://github.com/jkbonfield/crumble",
+    "credit": [],
+    "tags": [
+      "high-throughput-sequencing"
+    ],
+    "description": "controllable lossy compression of BAM/CRAM files.",
+    "name": "crumble",
+    "full_name": "jkbonfield/crumble",
+    "html_url": "https://github.com/jkbonfield/crumble",
+    "created_at": "2016-01-07T16:19:09Z",
+    "updated_at": "2022-04-14T10:24:46Z",
+    "clone_url": "https://github.com/jkbonfield/crumble.git",
+    "size": 186,
+    "stargazers_count": 30,
+    "watchers_count": 30,
+    "language": "C",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/jkbonfield",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2210525?v=4",
+      "login": "jkbonfield",
+      "type": "User"
+    },
+    "timestamp": "2022-07-18 17:43:36.923298"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This directory contains some experimental tools that read a SAM/BAM/CRAM file, compute which confidence values to keep and which to omit, and emit a new file with most qualities removed.\"",
+        "\"See INSTALL for compilation and installation instructions.\"",
+        "\"Exploration of controlled loss of quality values for compressing CRAM files\" and reference to a bioinformatics paper indicate it is used directly in research data processing."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:34:39Z"
+    }
+  }
+}

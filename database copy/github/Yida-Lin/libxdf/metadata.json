@@ -1,0 +1,63 @@
+{
+  "parser": "github",
+  "uid": "github/Yida-Lin/libxdf",
+  "url": "https://github.com/xdf-modules/libxdf",
+  "data": {
+    "url": "https://github.com/xdf-modules/libxdf",
+    "title": "Libxdf-dev",
+    "description": "C++ library for loading XDF files",
+    "name": "libxdf",
+    "full_name": "xdf-modules/libxdf",
+    "html_url": "https://github.com/xdf-modules/libxdf",
+    "created_at": "2016-12-04T04:11:11Z",
+    "updated_at": "2021-09-29T08:55:53Z",
+    "clone_url": "https://github.com/xdf-modules/libxdf.git",
+    "homepage": "https://xdf-modules.github.io/libxdf/",
+    "size": 14223,
+    "stargazers_count": 7,
+    "watchers_count": 7,
+    "language": "C++",
+    "open_issues_count": 5,
+    "license": {
+      "key": "bsd-2-clause",
+      "name": "BSD 2-Clause \"Simplified\" License",
+      "spdx_id": "BSD-2-Clause",
+      "url": "https://api.github.com/licenses/bsd-2-clause",
+      "node_id": "MDc6TGljZW5zZTQ="
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/xdf-modules",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49031462?v=4",
+      "login": "xdf-modules",
+      "type": "Organization"
+    },
+    "topics": [
+      "xdf",
+      "sigviewer"
+    ],
+    "timestamp": "2022-07-20 17:30:37.480384",
+    "avatar": "https://avatars.githubusercontent.com/u/49031462?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Builds and releases",
+      "distribution_details": "GitHub Releases",
+      "evidence": [
+        "README mentions releases: \"* Find Source and Prebuilt Binaries on the [releases page](https://github.com/Yida-Lin/libxdf/releases).\"",
+        "\"Libxdf is a cross-platform C++ library for loading multimodal, multi-rate signals stored in XDF files. Libxdf is used in the biosignal viewing application SigViewer and the LSL application XDFStreamer. It can also be integrated into other C++ applications.\"",
+        "\"Libxdf is a built-in component of SigViewer... If you wish to build SigViewer from source, follow these steps: 1. Download `xdf.h` and `libxdf.a` from the release page.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T20:40:10Z"
+    }
+  }
+}

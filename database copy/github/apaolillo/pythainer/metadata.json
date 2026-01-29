@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/apaolillo/pythainer",
+  "url": "https://github.com/apaolillo/pythainer",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.18189906",
+    "name": "pythainer",
+    "url": "https://github.com/apaolillo/pythainer",
+    "full_name": "apaolillo/pythainer",
+    "html_url": "https://github.com/apaolillo/pythainer",
+    "description": "A pythonic toolkit for composing, managing, and deploying Docker images and containers.",
+    "created_at": "2024-04-21T18:09:02Z",
+    "updated_at": "2026-01-09T18:35:11Z",
+    "clone_url": "https://github.com/apaolillo/pythainer.git",
+    "size": 201,
+    "stargazers_count": 6,
+    "watchers_count": 6,
+    "language": "Python",
+    "open_issues_count": 4,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/apaolillo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4931290?v=4",
+      "login": "apaolillo",
+      "type": "User"
+    },
+    "timestamp": "2026-01-11 01:01:46.325514",
+    "avatar": "https://avatars.githubusercontent.com/u/4931290?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Infrastructure",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install -e \".[test]\"\"",
+        "\"Pythainer is an open-source Python package designed to facilitate the creation, management, composition, and deployment of Docker containers\"",
+        "\"Writing and maintaining Dockerfiles for research projects gets messy fast... Pythainer gives you... Deterministic output: stable Dockerfile rendering for reproducibility.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T21:19:30Z"
+    }
+  }
+}

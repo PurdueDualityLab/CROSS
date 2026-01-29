@@ -1,0 +1,71 @@
+{
+  "parser": "github",
+  "uid": "github/bcalden/ClusterPyXT",
+  "url": "https://github.com/bcalden/ClusterPyXT",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2019A%26C....27..147A",
+      "https://ui.adsabs.harvard.edu/abs/2019ascl.soft05022A/abstract"
+    ],
+    "title": "ClusterPyXT: Galaxy cluster pipeline for X-ray temperature maps",
+    "url": "https://github.com/bcalden/ClusterPyXT",
+    "name": "ClusterPyXT",
+    "full_name": "bcalden/ClusterPyXT",
+    "html_url": "https://github.com/bcalden/ClusterPyXT",
+    "description": "The Galaxy Cluster ‘Pypeline’ for X-ray Temperature Maps",
+    "created_at": "2018-10-31T18:23:33Z",
+    "updated_at": "2022-03-17T21:30:02Z",
+    "clone_url": "https://github.com/bcalden/ClusterPyXT.git",
+    "size": 1467,
+    "stargazers_count": 20,
+    "watchers_count": 20,
+    "language": "Python",
+    "open_issues_count": 15,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "subscribers_count": 11,
+    "owner": {
+      "html_url": "https://github.com/bcalden",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10778805?v=4",
+      "login": "bcalden",
+      "type": "User"
+    },
+    "topics": [
+      "galaxy-clusters",
+      "pipeline",
+      "astronomy",
+      "x-ray-astronomy",
+      "astrophysics",
+      "spectral-analysis",
+      "cosmology"
+    ],
+    "timestamp": "2022-07-17 17:16:42.782053",
+    "avatar": "https://avatars.githubusercontent.com/u/10778805?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"To use this version of ClusterPyXT please install CIAO-4.14 using conda as outlined by [here](http://cxc.harvard.edu/ciao/download/conda.html). This version of `ClusterPyXT` requires python 3.8 or gre\"",
+        "\"ClusterPyXT is a software pipeline to automate the creation of x-ray temeprature maps, pressure maps, surface brightness maps, and density maps.\"",
+        "\"To download ClusterPyXT, simply run `git clone https://github.com/bcalden/ClusterPyXT.git`.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T22:00:53Z"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "repo": "https://github.com/apache/opennlp-corpus",
+  "timestamp_utc": "2026-01-24T03:43:31Z",
+  "repo_metadata": {
+    "name": "opennlp-corpus",
+    "full_name": "apache/opennlp-corpus",
+    "html_url": "https://github.com/apache/opennlp-corpus",
+    "description": "Apache opennlp",
+    "default_branch": "master",
+    "archived": false,
+    "fork": false,
+    "stargazers_count": 1
+  },
+  "data": {
+    "date": "2026-01-23T22:43:31-05:00",
+    "repo": {
+      "name": "github.com/apache/opennlp-corpus",
+      "commit": "HEAD"
+    },
+    "scorecard": {
+      "version": "v5.4.0",
+      "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+    },
+    "score": -1.0,
+    "checks": null,
+    "metadata": null
+  }
+}

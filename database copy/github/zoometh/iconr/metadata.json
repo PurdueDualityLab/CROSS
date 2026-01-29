@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/zoometh/iconr",
+  "url": "https://github.com/zoometh/iconr",
+  "data": {
+    "timestamp": "2021-05-23 00:41:19.274122",
+    "name": "iconr",
+    "url": "https://api.github.com/repos/zoometh/iconr",
+    "full_name": "zoometh/iconr",
+    "html_url": "https://github.com/zoometh/iconr",
+    "private": false,
+    "description": "Formal methods to study Prehistory iconography",
+    "created_at": "2020-08-07T12:54:43Z",
+    "updated_at": "2021-05-18T08:23:39Z",
+    "clone_url": "https://github.com/zoometh/iconr.git",
+    "homepage": "",
+    "size": 160757,
+    "stargazers_count": 6,
+    "watchers_count": 6,
+    "language": "R",
+    "open_issues_count": 0,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/zoometh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67924910?v=4",
+      "login": "zoometh",
+      "type": "User"
+    },
+    "topics": []
+  },
+  "doi": "https://doi.org/10.5281/zenodo.4767529",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"iconr\")\"",
+        "\"# ***iconr*** R package <br> modeling Prehistoric iconography\"",
+        "\"The R package ***iconr*** is grounded in graph theory, spatial analysis (composition analysis), and shape analysis (geometric morphometric) to offer concepts, measurments and functions for modeling Prehistoric iconography and preparing for further analysis\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T05:13:00Z"
+    }
+  }
+}

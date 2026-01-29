@@ -1,0 +1,3 @@
+[console_scripts]
+comicbox = comicbox.cli:main
+

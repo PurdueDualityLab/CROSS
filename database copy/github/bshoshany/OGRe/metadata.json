@@ -1,0 +1,66 @@
+{
+  "parser": "github",
+  "uid": "github/bshoshany/OGRe",
+  "url": "https://github.com/bshoshany/OGRe",
+  "data": {
+    "timestamp": "2021-09-05 00:34:53.677073",
+    "name": "OGRe",
+    "url": "https://api.github.com/repos/bshoshany/OGRe",
+    "full_name": "bshoshany/OGRe",
+    "html_url": "https://github.com/bshoshany/OGRe",
+    "private": false,
+    "description": "An object-oriented general relativity package for Mathematica.",
+    "created_at": "2021-02-10T15:33:39Z",
+    "updated_at": "2021-09-01T16:40:48Z",
+    "clone_url": "https://github.com/bshoshany/OGRe.git",
+    "homepage": "",
+    "size": 5051,
+    "stargazers_count": 32,
+    "watchers_count": 32,
+    "language": "Mathematica",
+    "open_issues_count": 0,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/bshoshany",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61846320?v=4",
+      "login": "bshoshany",
+      "type": "User"
+    },
+    "topics": [
+      "tensor",
+      "tensors",
+      "general-relativity",
+      "differential-geometry",
+      "scientific-computing"
+    ]
+  },
+  "doi": "https://doi.org/10.5281/zenodo.5168868",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"* **Run from local file with installation:** This is the recommended option, as it allows you to permanently use the package offline from any Mathematica notebook. Download the file `OGRe.m` from [the\"",
+        "\"OGRe is a modern Mathematica package for differential geometry and tensor calculus, designed to be both powerful and user-friendly. It can be used in a variety of contexts where tensor calculations are needed, in both mathematics and physics, but it is especially suitable for general relativity.\"",
+        "\"This package is compatible with Mathematica 12.0 or newer. It consists of only one file, `OGRe.m`.\" and usage via ``Needs[\"OGRe`\"]`` / `Get[\"OGRe.m\", ...]` indicate it is imported as a library into notebooks, not run as a standalone app."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T22:31:53Z"
+    }
+  }
+}

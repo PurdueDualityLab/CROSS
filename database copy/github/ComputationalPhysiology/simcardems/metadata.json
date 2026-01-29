@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/ComputationalPhysiology/simcardems",
+  "url": "https://github.com/ComputationalPhysiology/simcardems",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.7503468",
+    "name": "simcardems",
+    "url": "https://github.com/ComputationalPhysiology/simcardems",
+    "full_name": "ComputationalPhysiology/simcardems",
+    "html_url": "https://github.com/ComputationalPhysiology/simcardems",
+    "description": "Simula Cardiac ElectroMechanics Solver",
+    "created_at": "2021-09-22T13:41:20Z",
+    "updated_at": "2023-01-12T09:55:12Z",
+    "clone_url": "https://github.com/ComputationalPhysiology/simcardems.git",
+    "homepage": "http://computationalphysiology.github.io/simcardems",
+    "size": 15006,
+    "stargazers_count": 5,
+    "watchers_count": 5,
+    "language": "Python",
+    "open_issues_count": 17,
+    "license": {
+      "key": "lgpl-2.1",
+      "name": "GNU Lesser General Public License v2.1",
+      "spdx_id": "LGPL-2.1",
+      "url": "https://api.github.com/licenses/lgpl-2.1",
+      "node_id": "MDc6TGljZW5zZTEx"
+    },
+    "subscribers_count": 6,
+    "owner": {
+      "html_url": "https://github.com/ComputationalPhysiology",
+      "avatar_url": "https://avatars.githubusercontent.com/u/48671306?v=4",
+      "login": "ComputationalPhysiology",
+      "type": "Organization"
+    },
+    "timestamp": "2023-01-15 00:39:40.814720",
+    "avatar": "https://avatars.githubusercontent.com/u/48671306?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"[![Coverage](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/finsberg/a7290de789564f03eb6b1ee122fce423/raw/simcardems-coverage.json)](https://img.shields.io/endpoint?url=https:/\"",
+        "\"simcardems is a FEniCS-based cardiac electro-mechanics solver\" (domain-specific solver application).",
+        "\"If you use `simcardems` in your research, please cite it as follows\" (used directly to produce research results)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T16:55:19Z"
+    }
+  }
+}

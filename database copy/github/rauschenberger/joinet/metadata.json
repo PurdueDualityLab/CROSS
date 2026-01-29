@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/rauschenberger/joinet",
+  "url": "https://github.com/rauschenberger/joinet",
+  "data": {
+    "timestamp": "2022-01-16 00:40:54.940889",
+    "name": "joinet",
+    "url": "https://api.github.com/repos/rauschenberger/joinet",
+    "full_name": "rauschenberger/joinet",
+    "html_url": "https://github.com/rauschenberger/joinet",
+    "private": false,
+    "description": "Multivariate Elastic Net Regression",
+    "created_at": "2019-06-07T13:13:04Z",
+    "updated_at": "2021-08-09T06:04:53Z",
+    "clone_url": "https://github.com/rauschenberger/joinet.git",
+    "homepage": "https://rauschenberger.github.io/joinet",
+    "size": 1198,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "R",
+    "open_issues_count": 0,
+    "license": null,
+    "subscribers_count": 0,
+    "owner": {
+      "html_url": "https://github.com/rauschenberger",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14272654?v=4",
+      "login": "rauschenberger",
+      "type": "User"
+    },
+    "topics": []
+  },
+  "doi": "10.1093/BIOINFORMATICS/BTAB576",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"joinet\")\"",
+        "\"The R package `joinet` implements multivariate elastic net regression through stacked generalisation\" (indicates an R package/library used as a dependency).",
+        "\"Install the current release from CRAN (https://CRAN.R-project.org/package=joinet): install.packages(\"joinet\")\" (shows distribution via CRAN package registry)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T02:06:27Z"
+    }
+  }
+}

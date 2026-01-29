@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/ropensci/virtuoso",
+  "url": "https://github.com/ropensci/virtuoso",
+  "data": {
+    "timestamp": "2022-01-27 10:11:35.253810",
+    "name": "virtuoso",
+    "url": "https://api.github.com/repos/ropensci/virtuoso",
+    "full_name": "ropensci/virtuoso",
+    "html_url": "https://github.com/ropensci/virtuoso",
+    "private": false,
+    "description": ":package: Interact with Virtuoso Open Source database instances from R",
+    "created_at": "2018-11-02T21:21:45Z",
+    "updated_at": "2021-12-21T19:48:06Z",
+    "clone_url": "https://github.com/ropensci/virtuoso.git",
+    "homepage": "https://docs.ropensci.org/virtuoso",
+    "size": 643,
+    "stargazers_count": 8,
+    "watchers_count": 8,
+    "language": "R",
+    "open_issues_count": 1,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "owner": {
+      "html_url": "https://github.com/ropensci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1200269?v=4",
+      "login": "ropensci",
+      "type": "Organization"
+    },
+    "topics": [
+      "databases"
+    ]
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"remotes::install_github(\"ropensci/virtuoso\")\"",
+        "\"The goal of virtuoso is to provide an easy interface to Virtuoso RDF database from R.\"",
+        "\"For Mac users, `virtuoso` package includes a utility function to install and configure a local Virtuoso Open Source instance using Homebrew. Otherwise, simply install the Virtuoso Open Source edition for your operating system.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T03:10:57Z"
+    }
+  }
+}

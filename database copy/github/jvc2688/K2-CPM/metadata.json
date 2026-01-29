@@ -1,0 +1,53 @@
+{
+  "parser": "github",
+  "uid": "github/jvc2688/K2-CPM",
+  "url": "https://github.com/jvc2688/K2-CPM",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2016PASP..128i4503W",
+      "https://ui.adsabs.harvard.edu/abs/2021ascl.soft07024W/abstract"
+    ],
+    "title": "K2-CPM: Causal Pixel Model for K2 data",
+    "url": "https://github.com/jvc2688/K2-CPM",
+    "name": "K2-CPM",
+    "full_name": "jvc2688/K2-CPM",
+    "html_url": "https://github.com/jvc2688/K2-CPM",
+    "created_at": "2015-12-17T04:27:38Z",
+    "updated_at": "2020-07-14T23:37:47Z",
+    "clone_url": "https://github.com/jvc2688/K2-CPM.git",
+    "size": 238834,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "Python",
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/jvc2688",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4012293?v=4",
+      "login": "jvc2688",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:11:23.496873",
+    "avatar": "https://avatars.githubusercontent.com/u/4012293?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "README describes running it as a command-line program: `$ python run_cpm.py 200069974 92 800 1e3 0 16 5 ./tpf ./output/200069974 -p ./test_pixel.dat`",
+        "README explains that the C++ code is compiled and then executed directly: `$ ./libcpm path-inputoutput/ reference l2`",
+        "README positions it as a \"Causal Pixel Model for K2 data\" that runs calculations and writes scientific output files like `reference_cpmflux.dat` with target flux predictions."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:41:00Z"
+    }
+  }
+}

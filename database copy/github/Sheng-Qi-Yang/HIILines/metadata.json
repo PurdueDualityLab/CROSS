@@ -1,0 +1,55 @@
+{
+  "parser": "github",
+  "uid": "github/Sheng-Qi-Yang/HIILines",
+  "url": "https://github.com/Sheng-Qi-Yang/HIILines",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2024arXiv240903997Y",
+      "https://ui.adsabs.harvard.edu/abs/2023MNRAS.525.5989Y",
+      "https://ui.adsabs.harvard.edu/abs/2024ascl.soft11022Y/abstract"
+    ],
+    "title": "HIILines: Analytical ionized ISM emission line model",
+    "url": "https://github.com/Sheng-Qi-Yang/HIILines",
+    "name": "HIILines",
+    "full_name": "Sheng-Qi-Yang/HIILines",
+    "html_url": "https://github.com/Sheng-Qi-Yang/HIILines",
+    "description": "An analytical ionized ISM emission line model. ",
+    "created_at": "2023-03-13T13:52:41Z",
+    "updated_at": "2024-09-24T19:05:13Z",
+    "clone_url": "https://github.com/Sheng-Qi-Yang/HIILines.git",
+    "size": 62,
+    "stargazers_count": 5,
+    "watchers_count": 5,
+    "language": "Python",
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/Sheng-Qi-Yang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31641147?v=4",
+      "login": "Sheng-Qi-Yang",
+      "type": "User"
+    },
+    "timestamp": "2024-12-01 00:56:04.754628",
+    "avatar": "https://avatars.githubusercontent.com/u/31641147?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "“HIILines is an analytical model for lines emitted by the ionized interstellar medium (ISM).”",
+        "“The first jupyter notebook cell shows an example where the user inputs stellar radiation spectrum shape, amplitude, gas density, metallicity, temperature, and HIILines outputs luminosities of various [OIII], [OII], and Balmer line luminosities.”",
+        "“Please contact Shengqi Yang (shengqiy@lanl.gov) for questions.”"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T20:19:37Z"
+    }
+  }
+}

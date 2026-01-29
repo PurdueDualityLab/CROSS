@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/ekerrison/RadioSED",
+  "url": "https://github.com/ekerrison/RadioSED",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2024MNRAS.tmp.1764K",
+      "https://ui.adsabs.harvard.edu/abs/2024ascl.soft08012K/abstract"
+    ],
+    "title": "RadioSED: Radio SED fitting for AGN",
+    "url": "https://github.com/ekerrison/RadioSED",
+    "name": "RadioSED",
+    "full_name": "ekerrison/RadioSED",
+    "html_url": "https://github.com/ekerrison/RadioSED",
+    "description": "Radio SED fitting for AGN",
+    "created_at": "2023-08-24T04:05:51Z",
+    "updated_at": "2024-08-23T14:01:36Z",
+    "clone_url": "https://github.com/ekerrison/RadioSED.git",
+    "size": 105755,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "Python",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/ekerrison",
+      "avatar_url": "https://avatars.githubusercontent.com/u/58801416?v=4",
+      "login": "ekerrison",
+      "type": "User"
+    },
+    "timestamp": "2024-09-08 00:43:46.336186",
+    "avatar": "https://avatars.githubusercontent.com/u/58801416?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This package uses nested sampling ... to perform a Bayesian analysis of radio SEDs...\" (describes a domain-specific analysis tool users run).",
+        "\"To see how RadioSED is run, please take a look at the `run_radiosed.py` script. This can be used as the main script from which you run fitting on your own sources, or it can be modified to suit your needs.\" (end-user execution as an application).",
+        "\"First clone RadioSED into a working directory of your choosing: `git clone https://github.com/ekerrison/RadioSED.git`\" (distribution via cloning the source repository; no mention of package registries or binaries)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T23:43:08Z"
+    }
+  }
+}

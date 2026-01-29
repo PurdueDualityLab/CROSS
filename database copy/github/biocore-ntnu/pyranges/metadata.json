@@ -1,0 +1,67 @@
+{
+  "parser": "github",
+  "uid": "github/biocore-ntnu/pyranges",
+  "url": "https://github.com/biocore-ntnu/pyranges",
+  "data": {
+    "url": "https://github.com/biocore-ntnu/pyranges",
+    "title": "Python3-pyranges",
+    "description": "Performant Pythonic GenomicRanges",
+    "doi": "https://doi.org/10.1093/bioinformatics/btz615",
+    "name": "pyranges",
+    "full_name": "biocore-ntnu/pyranges",
+    "html_url": "https://github.com/biocore-ntnu/pyranges",
+    "created_at": "2018-04-09T20:45:21Z",
+    "updated_at": "2022-07-14T14:00:27Z",
+    "clone_url": "https://github.com/biocore-ntnu/pyranges.git",
+    "homepage": "https://biocore-ntnu.github.io/pyranges/",
+    "size": 8147,
+    "stargazers_count": 311,
+    "watchers_count": 311,
+    "language": "Python",
+    "open_issues_count": 69,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 9,
+    "owner": {
+      "html_url": "https://github.com/biocore-ntnu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25345003?v=4",
+      "login": "biocore-ntnu",
+      "type": "Organization"
+    },
+    "topics": [
+      "genomicranges",
+      "python",
+      "genomics",
+      "pandas",
+      "data-structures"
+    ],
+    "timestamp": "2022-07-20 17:28:03.508551",
+    "avatar": "https://avatars.githubusercontent.com/u/25345003?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "\"PyRanges is a Python library specifically designed for efficient and intuitive manipulation of genomics data\" (library implies use as a dependency).",
+        "\"PyRanges: efficient comparison of genomic intervals in Python\" and description of manipulating genomic intervals for genomics data (directly used in genomic research analyses).",
+        "PyPI badges and links: \"[![PyPI version](https://badge.fury.io/py/pyranges.svg)](https://badge.fury.io/py/pyranges)\" and \"![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pyranges.svg)\" (indicates distribution via PyPI package registry)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T22:05:56Z"
+    }
+  }
+}

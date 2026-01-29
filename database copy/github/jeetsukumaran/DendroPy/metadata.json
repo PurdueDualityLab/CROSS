@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/jeetsukumaran/DendroPy",
+  "url": "https://github.com/jeetsukumaran/DendroPy",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.13340136",
+    "name": "DendroPy",
+    "url": "https://github.com/jeetsukumaran/DendroPy",
+    "full_name": "jeetsukumaran/DendroPy",
+    "html_url": "https://github.com/jeetsukumaran/DendroPy",
+    "description": "A Python library for phylogenetic scripting, simulation, data processing and manipulation.",
+    "created_at": "2009-10-06T21:50:18Z",
+    "updated_at": "2024-09-23T17:59:22Z",
+    "clone_url": "https://github.com/jeetsukumaran/DendroPy.git",
+    "homepage": "https://pypi.org/project/DendroPy/.",
+    "size": 58198,
+    "stargazers_count": 207,
+    "watchers_count": 207,
+    "language": "Python",
+    "open_issues_count": 20,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "subscribers_count": 13,
+    "owner": {
+      "html_url": "https://github.com/jeetsukumaran",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26183?v=4",
+      "login": "jeetsukumaran",
+      "type": "User"
+    },
+    "timestamp": "2024-09-29 00:47:16.843381",
+    "avatar": "https://avatars.githubusercontent.com/u/26183?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"$ python -m pip install dendropy\"",
+        "\"DendroPy is a Python library for phylogenetic computing. It provides classes and functions for the simulation, processing, and manipulation of phylogenetic trees and character matrices\"",
+        "\"DendroPy can thus function as a stand-alone library for phylogenetics, a component of more complex multi-library phyloinformatic pipelines, or as a scripting 'glue' that assembles and drives such pipelines.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:32:09Z"
+    }
+  }
+}

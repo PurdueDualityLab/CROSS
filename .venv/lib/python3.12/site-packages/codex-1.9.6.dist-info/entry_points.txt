@@ -1,0 +1,3 @@
+[console_scripts]
+codex = codex.run:main
+

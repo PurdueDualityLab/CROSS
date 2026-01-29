@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/mrempel/geohexviz",
+  "url": "https://github.com/mrempel/geohexviz",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.7613525",
+    "name": "geohexviz",
+    "url": "https://github.com/mrempel/geohexviz",
+    "full_name": "mrempel/geohexviz",
+    "html_url": "https://github.com/mrempel/geohexviz",
+    "description": "GeoHexViz - generating publication-quality geospatical visualization of hexagonally binned data",
+    "created_at": "2021-10-26T13:00:38Z",
+    "updated_at": "2023-02-16T14:40:32Z",
+    "clone_url": "https://github.com/mrempel/geohexviz.git",
+    "size": 21300,
+    "stargazers_count": 4,
+    "watchers_count": 4,
+    "language": "Python",
+    "open_issues_count": 1,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/mrempel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7723447?v=4",
+      "login": "mrempel",
+      "type": "User"
+    },
+    "timestamp": "2023-02-19 00:38:29.098576",
+    "avatar": "https://avatars.githubusercontent.com/u/7723447?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install geohexviz\"",
+        "\"GeoHexViz - which produces publication-quality geospatial visualizations with hexagonal binning - is a Python package that provides a simple interface\"",
+        "\"GeoHexViz allows a user to generate hexagonally binned geospatial visualizations with two different methods. Method 1 concerns using the GeoHexSimple package's script to run a file containing plot structure. Method 2 concerns using Python code to interact with the functions within the package.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:27:47Z"
+    }
+  }
+}

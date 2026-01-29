@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/pyxnat/pyxnat",
+  "url": "https://github.com/pyxnat/pyxnat",
+  "data": {
+    "url": "https://github.com/pyxnat/pyxnat",
+    "title": "Python3-pyxnat",
+    "description": "XNAT in Python",
+    "name": "pyxnat",
+    "full_name": "pyxnat/pyxnat",
+    "html_url": "https://github.com/pyxnat/pyxnat",
+    "created_at": "2010-08-17T14:22:07Z",
+    "updated_at": "2022-07-13T22:20:04Z",
+    "clone_url": "https://github.com/pyxnat/pyxnat.git",
+    "homepage": "https://pyxnat.github.io/pyxnat",
+    "size": 5010,
+    "stargazers_count": 58,
+    "watchers_count": 58,
+    "language": "Python",
+    "open_issues_count": 11,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 11,
+    "owner": {
+      "html_url": "https://github.com/pyxnat",
+      "avatar_url": "https://avatars.githubusercontent.com/u/809417?v=4",
+      "login": "pyxnat",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-20 17:30:39.091868",
+    "avatar": "https://avatars.githubusercontent.com/u/809417?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install pyxnat\"",
+        "\"Binary installers for the latest released version are available at the `Python package index <https://pypi.org/project/pyxnat>`_. **pyxnat** can be installed using `pip`\"",
+        "PyPI badges and installation via `pip install pyxnat` indicate it is a Python package intended to be imported as a library rather than only run as a standalone app."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T02:00:33Z"
+    }
+  }
+}

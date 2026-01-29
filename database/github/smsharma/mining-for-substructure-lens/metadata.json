@@ -1,44 +1,263 @@
 {
-    "parser": "github",
-    "uid": "github/smsharma/mining-for-substructure-lens",
+  "parser": "github",
+  "uid": "github/smsharma/mining-for-substructure-lens",
+  "url": "https://github.com/smsharma/mining-for-substructure-lens",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2019ApJ...886...49B",
+      "https://ui.adsabs.harvard.edu/abs/2020ascl.soft09024M/abstract"
+    ],
+    "title": "MSL: Mining for Substructure Lenses",
     "url": "https://github.com/smsharma/mining-for-substructure-lens",
-    "data": {
-        "doi": [
-            "https://ui.adsabs.harvard.edu/abs/2019ApJ...886...49B",
-            "https://ui.adsabs.harvard.edu/abs/2020ascl.soft09024M/abstract"
-        ],
-        "title": "MSL: Mining for Substructure Lenses",
-        "url": "https://github.com/smsharma/mining-for-substructure-lens",
-        "name": "mining-for-substructure-lens",
-        "full_name": "smsharma/mining-for-substructure-lens",
-        "html_url": "https://github.com/smsharma/mining-for-substructure-lens",
-        "description": "Inference of substructure properties in strong lensing systems with machine learning. Code repository associated with https://arxiv.org/abs/1909.02005.",
-        "created_at": "2019-01-21T22:23:07Z",
-        "updated_at": "2021-11-30T05:51:50Z",
-        "clone_url": "https://github.com/smsharma/mining-for-substructure-lens.git",
-        "size": 212384,
-        "stargazers_count": 26,
-        "watchers_count": 26,
-        "language": "Jupyter Notebook",
-        "license": {
-            "key": "mit",
-            "name": "MIT License",
-            "spdx_id": "MIT",
-            "url": "https://api.github.com/licenses/mit",
-            "node_id": "MDc6TGljZW5zZTEz"
-        },
-        "subscribers_count": 8,
-        "owner": {
-            "html_url": "https://github.com/smsharma",
-            "avatar_url": "https://avatars.githubusercontent.com/u/6607936?v=4",
-            "login": "smsharma",
-            "type": "User"
-        },
-        "topics": [
-            "gravitational-lensing",
-            "machine-learning"
-        ],
-        "timestamp": "2022-07-17 17:13:45.414425",
-        "avatar": "https://avatars.githubusercontent.com/u/6607936?v=4"
+    "name": "mining-for-substructure-lens",
+    "full_name": "smsharma/mining-for-substructure-lens",
+    "html_url": "https://github.com/smsharma/mining-for-substructure-lens",
+    "description": "Inference of substructure properties in strong lensing systems with machine learning. Code repository associated with https://arxiv.org/abs/1909.02005.",
+    "created_at": "2019-01-21T22:23:07Z",
+    "updated_at": "2021-11-30T05:51:50Z",
+    "clone_url": "https://github.com/smsharma/mining-for-substructure-lens.git",
+    "size": 212384,
+    "stargazers_count": 26,
+    "watchers_count": 26,
+    "language": "Jupyter Notebook",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 8,
+    "owner": {
+      "html_url": "https://github.com/smsharma",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6607936?v=4",
+      "login": "smsharma",
+      "type": "User"
+    },
+    "topics": [
+      "gravitational-lensing",
+      "machine-learning"
+    ],
+    "timestamp": "2022-07-17 17:13:45.414425",
+    "avatar": "https://avatars.githubusercontent.com/u/6607936?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Code repository for the paper **Mining for Dark Matter Substructure: Inferring subhalo population properties from strong lenses with machine learning**\"",
+        "\"The starting point of our code based are five high-level scripts: - simulate.py ... - train.py ... - test.py ... - calibrate.py ...\" (indicating end-user scripts to run simulations, training, testing, and calibration)",
+        "\"If you use this code, please cite our paper\" (indicating this code directly underpins the research results and is distributed via this repository)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T03:31:21Z"
     }
+  },
+  "openssf_scorecard": {
+    "data": {
+      "date": "2026-01-23T14:50:30-05:00",
+      "repo": {
+        "name": "github.com/smsharma/mining-for-substructure-lens",
+        "commit": "8f432b58cecdafd70054fa63f285f3f284fa0720"
+      },
+      "scorecard": {
+        "version": "v5.4.0",
+        "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+      },
+      "score": 2.8,
+      "checks": [
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no binaries found in the repo",
+          "name": "Binary-Artifacts",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#binary-artifacts",
+            "short": "Determines if the project has generated executable (binary) artifacts in the source repository."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "branch protection not enabled on development/release branches",
+          "name": "Branch-Protection",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#branch-protection",
+            "short": "Determines if the default and release branches are protected with GitHub's branch protection settings."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "0 out of 5 merged PRs checked by a CI test -- score normalized to 0",
+          "name": "CI-Tests",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#ci-tests",
+            "short": "Determines if the project runs tests before pull requests are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no effort to earn an OpenSSF best practices badge detected",
+          "name": "CII-Best-Practices",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#cii-best-practices",
+            "short": "Determines if the project has an OpenSSF (formerly CII) Best Practices Badge."
+          }
+        },
+        {
+          "details": null,
+          "score": 1,
+          "reason": "Found 4/21 approved changesets -- score normalized to 1",
+          "name": "Code-Review",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#code-review",
+            "short": "Determines if the project requires human code review before pull requests (aka merge requests) are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 6,
+          "reason": "project has 2 contributing companies or organizations -- score normalized to 6",
+          "name": "Contributors",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#contributors",
+            "short": "Determines if the project has a set of contributors from multiple organizations (e.g., companies)."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no workflows found",
+          "name": "Dangerous-Workflow",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dangerous-workflow",
+            "short": "Determines if the project's GitHub Action workflows avoid dangerous patterns."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no update tool detected",
+          "name": "Dependency-Update-Tool",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dependency-update-tool",
+            "short": "Determines if the project uses a dependency update tool."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "project is not fuzzed",
+          "name": "Fuzzing",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#fuzzing",
+            "short": "Determines if the project uses fuzzing."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "license file detected",
+          "name": "License",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#license",
+            "short": "Determines if the project has defined a license."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0",
+          "name": "Maintained",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#maintained",
+            "short": "Determines if the project is \"actively maintained\"."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "packaging workflow not detected",
+          "name": "Packaging",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#packaging",
+            "short": "Determines if the project is published as a package that others can easily download, install, easily update, and uninstall."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no dependencies found",
+          "name": "Pinned-Dependencies",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#pinned-dependencies",
+            "short": "Determines if the project has declared and pinned the dependencies of its build process."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "SAST tool is not run on all commits -- score normalized to 0",
+          "name": "SAST",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#sast",
+            "short": "Determines if the project uses static code analysis."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "security policy file not detected",
+          "name": "Security-Policy",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#security-policy",
+            "short": "Determines if the project has published a security policy."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no releases found",
+          "name": "Signed-Releases",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#signed-releases",
+            "short": "Determines if the project cryptographically signs release artifacts."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "No tokens found",
+          "name": "Token-Permissions",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#token-permissions",
+            "short": "Determines if the project's workflows follow the principle of least privilege."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "0 existing vulnerabilities detected",
+          "name": "Vulnerabilities",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#vulnerabilities",
+            "short": "Determines if the project has open, known unfixed vulnerabilities."
+          }
+        }
+      ],
+      "metadata": null
+    },
+    "timestamp_utc": "2026-01-23T19:50:44Z"
+  }
 }

@@ -1,0 +1,67 @@
+{
+  "parser": "github",
+  "uid": "github/meinardmueller/synctoolbox",
+  "url": "https://github.com/meinardmueller/synctoolbox",
+  "data": {
+    "timestamp": "2021-08-29 00:33:29.825286",
+    "name": "synctoolbox",
+    "url": "https://api.github.com/repos/meinardmueller/synctoolbox",
+    "full_name": "meinardmueller/synctoolbox",
+    "html_url": "https://github.com/meinardmueller/synctoolbox",
+    "private": false,
+    "description": "Sync Toolbox - Python package with reference implementations for efficient, robust, and accurate music synchronization based on dynamic time warping (DTW)",
+    "created_at": "2021-06-01T10:26:35Z",
+    "updated_at": "2021-08-28T12:31:16Z",
+    "clone_url": "https://github.com/meinardmueller/synctoolbox.git",
+    "homepage": "https://meinardmueller.github.io/synctoolbox",
+    "size": 96683,
+    "stargazers_count": 9,
+    "watchers_count": 9,
+    "language": "Python",
+    "open_issues_count": 0,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/meinardmueller",
+      "avatar_url": "https://avatars.githubusercontent.com/u/40728202?v=4",
+      "login": "meinardmueller",
+      "type": "User"
+    },
+    "topics": [
+      "dtw",
+      "python",
+      "synchronization",
+      "music",
+      "chromagram",
+      "onset"
+    ]
+  },
+  "doi": "https://doi.org/10.5281/zenodo.5288713",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install synctoolbox\"",
+        "\"This repository contains a Python package called Sync Toolbox, which provides open-source reference implementations for full-fledged music synchronization pipelines\"",
+        "\"To install the Sync Toolbox locally, you can use the Python package manager pip: `pip install synctoolbox`\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:17:56Z"
+    }
+  }
+}

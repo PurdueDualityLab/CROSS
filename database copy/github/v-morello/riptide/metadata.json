@@ -1,0 +1,63 @@
+{
+  "parser": "github",
+  "uid": "github/v-morello/riptide",
+  "url": "https://github.com/v-morello/riptide",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2020MNRAS.497.4654M",
+      "https://ui.adsabs.harvard.edu/abs/2023ascl.soft10010M/abstract"
+    ],
+    "title": "riptide: Pulsar searching with the Fast Folding Algorithm",
+    "url": "https://github.com/v-morello/riptide",
+    "name": "riptide",
+    "full_name": "v-morello/riptide",
+    "html_url": "https://github.com/v-morello/riptide",
+    "description": "Pulsar searching with the Fast Folding Algorithm (FFA)",
+    "created_at": "2020-04-08T08:58:00Z",
+    "updated_at": "2023-10-26T07:47:42Z",
+    "clone_url": "https://github.com/v-morello/riptide.git",
+    "homepage": "https://riptide-ffa.readthedocs.io/",
+    "size": 1024,
+    "stargazers_count": 23,
+    "watchers_count": 23,
+    "language": "Python",
+    "open_issues_count": 1,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 10,
+    "owner": {
+      "html_url": "https://github.com/v-morello",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31064823?v=4",
+      "login": "v-morello",
+      "type": "User"
+    },
+    "timestamp": "2023-11-05 00:33:30.069559",
+    "avatar": "https://avatars.githubusercontent.com/u/31064823?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install riptide-ffa\"",
+        "\"riptide ... is a pulsar searching package implementing the Fast Folding Algorithm (FFA), the theoretically optimal search method for periodic signals. Its interface is entirely in python while the core algorithms are implemented in C. riptide provides: * A library of functions and classes to use interactively to process dedispersed time series * A pipeline executable...\"",
+        "\"The easiest method is to use pip install, which pulls the latest release from the python package index and installs all required dependencies: `pip install riptide-ffa`\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:35:53Z"
+    }
+  }
+}

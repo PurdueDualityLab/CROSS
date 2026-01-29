@@ -1,0 +1,65 @@
+{
+  "parser": "github",
+  "uid": "github/cas-bioinf/rboAnalyzer",
+  "url": "https://github.com/cas-bioinf/rboAnalyzer",
+  "data": {
+    "timestamp": "2020-11-08 00:20:35.189611",
+    "name": "rboAnalyzer",
+    "url": "https://api.github.com/repos/cas-bioinf/rboAnalyzer",
+    "full_name": "cas-bioinf/rboAnalyzer",
+    "html_url": "https://github.com/cas-bioinf/rboAnalyzer",
+    "private": false,
+    "description": "Tool for analysing BLAST output for ncRNA sequences",
+    "created_at": "2018-07-11T15:05:19Z",
+    "updated_at": "2020-05-21T09:38:13Z",
+    "clone_url": "https://github.com/cas-bioinf/rboAnalyzer.git",
+    "homepage": null,
+    "size": 5652,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Python",
+    "open_issues_count": 0,
+    "license": {
+      "key": "gpl-2.0",
+      "name": "GNU General Public License v2.0",
+      "spdx_id": "GPL-2.0",
+      "url": "https://api.github.com/licenses/gpl-2.0",
+      "node_id": "MDc6TGljZW5zZTg="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/cas-bioinf",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/25302416?v=4",
+      "login": "cas-bioinf",
+      "type": "Organization"
+    },
+    "topics": [
+      "rna",
+      "rna-structure-prediction",
+      "blast",
+      "blast-search"
+    ]
+  },
+  "doi": "10.3389/fgene.2020.00675",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "conda-forge",
+      "evidence": [
+        "README install command: \"conda install -c conda-forge -c bioconda -c schwarz.marek rboanalyzer\"",
+        "\"rboAnalyzer is a tool complementing the BLAST algorithm when searching for a query sequence that is RNA with a secondary structure\"",
+        "\"rboAnalyzer - tool for analyzing BLAST search output for RNA sequences\" and example commands like \"rboAnalyzer -in 6S_super_short.xml -q 6S_query.fasta -db genomes.bdb --html 6S_out.html\" show it is run as an end-user analysis program producing research outputs (HTML, CSV, JSON)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T22:50:23Z"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+group_label,asf_n,asf_score_median_iqr,asf_missing_median_iqr,rs_n,rs_score_median_iqr,rs_missing_median_iqr,delta_median,cliffs_delta
+RS: All projects,2575,3.9 (3.3–5.1),28% (11–33),5937,2.9 (2.5–3.6),22% (11–33),-1.00,-0.516
+RS: Individual maintainer,2575,3.9 (3.3–5.1),28% (11–33),1778,2.7 (2.3–3.2),28% (11–33),-1.20,-0.657
+RS: Research group or lab,2575,3.9 (3.3–5.1),28% (11–33),1679,3.1 (2.6–3.8),17% (11–28),-0.80,-0.442
+"RS: Institution (university, lab, government research organization)",2575,3.9 (3.3–5.1),28% (11–33),1552,2.8 (2.5–3.5),28% (11–33),-1.10,-0.558
+RS: Community or foundation (open source governance),2575,3.9 (3.3–5.1),28% (11–33),531,3.6 (3.2–4.5),11% (11–17),-0.30,-0.151
+RS: Vendor or commercial entity,2575,3.9 (3.3–5.1),28% (11–33),291,3.0 (2.6–3.8),17% (11–28),-0.90,-0.443
+RS: Unknown,2575,3.9 (3.3–5.1),28% (11–33),99,2.5 (2.2–2.7),33% (28–33),-1.40,-0.781
+RS: Mixed or shared responsibility,2575,3.9 (3.3–5.1),28% (11–33),7,3.0 (2.5–3.8),17% (8–22),-0.90,-0.415

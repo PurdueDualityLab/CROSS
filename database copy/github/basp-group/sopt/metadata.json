@@ -1,0 +1,63 @@
+{
+  "parser": "github",
+  "uid": "github/basp-group/sopt",
+  "url": "https://github.com/basp-group/sopt",
+  "data": {
+    "doi": [
+      "http://adsabs.harvard.edu/abs/2013ISPL...20..591C",
+      "https://ui.adsabs.harvard.edu/abs/2013ascl.soft07020C/abstract"
+    ],
+    "title": "SOPT: Sparse OPTimisation",
+    "url": "https://github.com/basp-group/sopt",
+    "name": "sopt",
+    "full_name": "basp-group/sopt",
+    "html_url": "https://github.com/basp-group/sopt",
+    "description": "SOPT: Sparse OPTimisation.",
+    "created_at": "2013-02-22T16:26:16Z",
+    "updated_at": "2022-06-08T02:14:59Z",
+    "clone_url": "https://github.com/basp-group/sopt.git",
+    "homepage": "http://basp-group.github.io/sopt/",
+    "size": 4110,
+    "stargazers_count": 19,
+    "watchers_count": 19,
+    "language": "C++",
+    "open_issues_count": 7,
+    "license": {
+      "key": "gpl-2.0",
+      "name": "GNU General Public License v2.0",
+      "spdx_id": "GPL-2.0",
+      "url": "https://api.github.com/licenses/gpl-2.0",
+      "node_id": "MDc6TGljZW5zZTg="
+    },
+    "subscribers_count": 7,
+    "owner": {
+      "html_url": "https://github.com/basp-group",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3670102?v=4",
+      "login": "basp-group",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:24:14.863779",
+    "avatar": "https://avatars.githubusercontent.com/u/3670102?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"SOPT is a C++ package to perform Sparse OPTimisation. It solves a variety of sparse regularisation problems, including the SARA algorithm.\"",
+        "\"When referencing this code, please cite our related papers\" followed by multiple research articles, indicating it is used directly in producing research results.",
+        "Installation instructions show building from the cloned source: \"cd /path/to/code\\nmkdir build\\ncd build\\ncmake -DCMAKE_BUILD_TYPE=Release ..\\nmake\" with no mention of package registries or binaries."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T22:00:10Z"
+    }
+  }
+}

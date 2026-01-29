@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/Multiscale-Genomics/VRE",
+  "url": "https://github.com/Multiscale-Genomics/VRE",
+  "data": {
+    "doi": "10.1101/602474",
+    "name": "VRE",
+    "url": "https://github.com/Multiscale-Genomics/VRE",
+    "full_name": "Multiscale-Genomics/VRE",
+    "html_url": "https://github.com/Multiscale-Genomics/VRE",
+    "description": "MuG Virtual Research Environment",
+    "created_at": "2017-03-17T14:23:11Z",
+    "updated_at": "2024-08-31T21:09:53Z",
+    "clone_url": "https://github.com/Multiscale-Genomics/VRE.git",
+    "size": 527630,
+    "stargazers_count": 6,
+    "watchers_count": 6,
+    "language": "JavaScript",
+    "open_issues_count": 4,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "subscribers_count": 8,
+    "owner": {
+      "html_url": "https://github.com/Multiscale-Genomics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19903538?v=4",
+      "login": "Multiscale-Genomics",
+      "type": "Organization"
+    },
+    "topics": [
+      "php",
+      "vre"
+    ],
+    "timestamp": "2025-06-01 01:02:46.283888",
+    "avatar": "https://avatars.githubusercontent.com/u/19903538?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"MuG VRE is a web application aimed to allow MuG users to access MuG data and explore and exploit it together with its own data via a selection of tools and visualizers.\"",
+        "\"MuG VRE is a web application aimed to allow MuG users to access MuG data and explore and exploit it together with its own data via a selection of tools and visualizers.\"",
+        "\"URL * https://vre.multiscalegenomics.eu/ : production web site - version 1.1 * https://dev.multiscalegenomics.eu/ : development web site - version 1.2\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T19:32:18Z"
+    }
+  }
+}

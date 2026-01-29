@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/grdspcht/ggret",
+  "url": "https://github.com/grdspcht/ggret",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.15495857",
+    "name": "ggret",
+    "url": "https://github.com/grdspcht/ggret",
+    "full_name": "grdspcht/ggret",
+    "html_url": "https://github.com/grdspcht/ggret",
+    "description": "ggret: Visualisation of tree-based phylogenetic networks",
+    "created_at": "2023-02-01T16:53:52Z",
+    "updated_at": "2025-06-12T20:45:48Z",
+    "clone_url": "https://github.com/grdspcht/ggret.git",
+    "homepage": "https://grdspcht.github.io/ggret/",
+    "size": 2126,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "R",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/grdspcht",
+      "avatar_url": "https://avatars.githubusercontent.com/u/58748614?v=4",
+      "login": "grdspcht",
+      "type": "User"
+    },
+    "timestamp": "2025-06-15 00:58:27.489345",
+    "avatar": "https://avatars.githubusercontent.com/u/58748614?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"ggplot2\")\"",
+        "\"ggret is an R package for the visualization and annotation of Ancestral Recombination Graphs (ARGs) and other tree-based phylogenetic networks. It extends the functionality of ggtree and ggplot2.\"",
+        "Installation uses `remotes::install_github(\"grdspcht/ggret\", ...)`, indicating it is an R package intended to be imported and used within R workflows rather than a standalone application."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:04:56Z"
+    }
+  }
+}

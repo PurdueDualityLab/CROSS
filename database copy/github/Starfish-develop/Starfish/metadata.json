@@ -1,0 +1,72 @@
+{
+  "parser": "github",
+  "uid": "github/Starfish-develop/Starfish",
+  "url": "https://github.com/Starfish-develop/Starfish",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2015ApJ...812..128C",
+      "https://ui.adsabs.harvard.edu/abs/2015ascl.soft05007C/abstract"
+    ],
+    "title": "Starfish: Robust spectroscopic inference tools",
+    "url": "https://github.com/Starfish-develop/Starfish",
+    "name": "Starfish",
+    "full_name": "Starfish-develop/Starfish",
+    "html_url": "https://github.com/Starfish-develop/Starfish",
+    "description": "Tools for Flexible Spectroscopic Inference",
+    "created_at": "2013-07-24T13:14:29Z",
+    "updated_at": "2022-06-08T16:46:43Z",
+    "clone_url": "https://github.com/Starfish-develop/Starfish.git",
+    "homepage": "https://starfish.readthedocs.io/en/latest/",
+    "size": 310630,
+    "stargazers_count": 56,
+    "watchers_count": 56,
+    "language": "Python",
+    "open_issues_count": 24,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "subscribers_count": 11,
+    "owner": {
+      "html_url": "https://github.com/Starfish-develop",
+      "avatar_url": "https://avatars.githubusercontent.com/u/85192441?v=4",
+      "login": "Starfish-develop",
+      "type": "Organization"
+    },
+    "topics": [
+      "starfish",
+      "python",
+      "spectra",
+      "astronomy",
+      "astrophysics",
+      "inference",
+      "mcmc"
+    ],
+    "timestamp": "2022-07-17 17:23:02.456632",
+    "avatar": "https://avatars.githubusercontent.com/u/85192441?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"$ pip install astrostarfish\"",
+        "\"Starfish is a set of tools used for spectroscopic inference. We designed the package to robustly determine stellar parameters using high resolution spectral models.\"",
+        "\"If you use this code or derivative components of this code in your research, please cite our paper as well as the code.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T20:21:42Z"
+    }
+  }
+}

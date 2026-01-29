@@ -1,0 +1,28 @@
+{
+  "repo": "https://github.com/apache/infrastructure-jira-issues-importer-2",
+  "timestamp_utc": "2026-01-24T02:47:51Z",
+  "repo_metadata": {
+    "name": "infrastructure-jira-issues-importer-2",
+    "full_name": "apache/infrastructure-jira-issues-importer-2",
+    "html_url": "https://github.com/apache/infrastructure-jira-issues-importer-2",
+    "description": "Test importing Jira tickets into Github",
+    "default_branch": "main",
+    "archived": false,
+    "fork": false,
+    "stargazers_count": 0
+  },
+  "data": {
+    "date": "2026-01-23T21:47:51-05:00",
+    "repo": {
+      "name": "github.com/apache/infrastructure-jira-issues-importer-2",
+      "commit": "HEAD"
+    },
+    "scorecard": {
+      "version": "v5.4.0",
+      "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+    },
+    "score": -1.0,
+    "checks": null,
+    "metadata": null
+  }
+}

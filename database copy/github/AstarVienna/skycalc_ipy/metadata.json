@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/AstarVienna/skycalc_ipy",
+  "url": "https://github.com/AstarVienna/skycalc_ipy",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2021A%26A...648A..59P",
+      "https://ui.adsabs.harvard.edu/abs/2021ascl.soft09007L/abstract"
+    ],
+    "title": "SkyCalc_ipy: SkyCalc wrapper for interactive Python",
+    "url": "https://github.com/AstarVienna/skycalc_ipy",
+    "name": "skycalc_ipy",
+    "full_name": "AstarVienna/skycalc_ipy",
+    "html_url": "https://github.com/AstarVienna/skycalc_ipy",
+    "description": "iPython version of skycalc_cli",
+    "created_at": "2018-12-04T08:24:16Z",
+    "updated_at": "2021-12-26T11:24:29Z",
+    "clone_url": "https://github.com/AstarVienna/skycalc_ipy.git",
+    "size": 348,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Python",
+    "open_issues_count": 2,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/AstarVienna",
+      "avatar_url": "https://avatars.githubusercontent.com/u/81577446?v=4",
+      "login": "AstarVienna",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:10:57.065391",
+    "avatar": "https://avatars.githubusercontent.com/u/81577446?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"[![Poetry](https://img.shields.io/endpoint?url=https://python-poetry.org/badge/v0.json)](https://python-poetry.org/)\"",
+        "\"A python package which mirrors the functionality of ESO's `skycalc_cli` utility, but can be used from within an ipython session or Juypter notebook.\" (indicates a Python package intended to be imported/used in sessions, i.e., a dependency library)",
+        "The package reproduces ESO sky calculation functionality, which is an astronomical tool used directly in scientific/observational workflows (direct research execution)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T16:37:39Z"
+    }
+  }
+}

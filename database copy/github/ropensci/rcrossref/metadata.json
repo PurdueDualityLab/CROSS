@@ -1,0 +1,77 @@
+{
+  "parser": "github",
+  "uid": "github/ropensci/rcrossref",
+  "url": "https://github.com/ropensci/rcrossref",
+  "data": {
+    "timestamp": "2022-01-27 10:11:35.093031",
+    "name": "rcrossref",
+    "url": "https://api.github.com/repos/ropensci/rcrossref",
+    "full_name": "ropensci/rcrossref",
+    "html_url": "https://github.com/ropensci/rcrossref",
+    "private": false,
+    "description": "R client for various CrossRef APIs",
+    "created_at": "2013-09-21T20:42:30Z",
+    "updated_at": "2022-01-27T09:12:55Z",
+    "clone_url": "https://github.com/ropensci/rcrossref.git",
+    "homepage": "https://docs.ropensci.org/rcrossref",
+    "size": 45689,
+    "stargazers_count": 145,
+    "watchers_count": 145,
+    "language": "R",
+    "open_issues_count": 18,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "owner": {
+      "html_url": "https://github.com/ropensci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1200269?v=4",
+      "login": "ropensci",
+      "type": "Organization"
+    },
+    "topics": [
+      "crossref-api",
+      "doi",
+      "metadata",
+      "api",
+      "r",
+      "rstats",
+      "api-wrapper",
+      "r-package",
+      "citations",
+      "Crossref",
+      "full-text",
+      "literature",
+      "pdf",
+      "publications",
+      "TDM",
+      "text-ming",
+      "xml",
+      "literature"
+    ]
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"rcrossref\")\"",
+        "Owner is the rOpenSci organization, which runs community-governed R packages: badges and links show rOpenSci docs and code of conduct (\"Please note that this package is released with a Contributor Code of Conduct (https://ropensci.org/code-of-conduct/)\").",
+        "Described as an \"R interface to Crossref APIs\" and loaded as a library: \"Load `rcrossref`\" / \"library('rcrossref')\", indicating it is used as an R package dependency."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T02:35:01Z"
+    }
+  }
+}

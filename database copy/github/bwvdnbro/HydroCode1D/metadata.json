@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/bwvdnbro/HydroCode1D",
+  "url": "https://github.com/bwvdnbro/HydroCode1D",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2022MNRAS.511.2367B",
+      "https://ui.adsabs.harvard.edu/abs/2020ascl.soft12009V/abstract"
+    ],
+    "title": "HydroCode1D: 1D finite volume code",
+    "url": "https://github.com/bwvdnbro/HydroCode1D",
+    "name": "HydroCode1D",
+    "full_name": "bwvdnbro/HydroCode1D",
+    "html_url": "https://github.com/bwvdnbro/HydroCode1D",
+    "description": "Basic 1D finite volume code that can handle pure 1D problems and problems with 2D and 3D spherical symmetry.",
+    "created_at": "2018-02-21T13:33:26Z",
+    "updated_at": "2022-06-13T15:29:31Z",
+    "clone_url": "https://github.com/bwvdnbro/HydroCode1D.git",
+    "size": 1035,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "C++",
+    "license": {
+      "key": "agpl-3.0",
+      "name": "GNU Affero General Public License v3.0",
+      "spdx_id": "AGPL-3.0",
+      "url": "https://api.github.com/licenses/agpl-3.0",
+      "node_id": "MDc6TGljZW5zZTE="
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/bwvdnbro",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7336967?v=4",
+      "login": "bwvdnbro",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:13:14.198220",
+    "avatar": "https://avatars.githubusercontent.com/u/7336967?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"To run the code, download a copy of this repository. Then, configure the code\"",
+        "\"Powerful 1D finite volume code that can run any problem with 1D or 2D/3D spherical symmetry including external gravity or self-gravity.\"",
+        "\"To run the code, download a copy of this repository. Then, configure the code using `cmake`...\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T22:32:32Z"
+    }
+  }
+}

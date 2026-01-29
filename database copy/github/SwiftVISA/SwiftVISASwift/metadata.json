@@ -1,0 +1,57 @@
+{
+  "parser": "github",
+  "uid": "github/SwiftVISA/SwiftVISASwift",
+  "url": "https://github.com/SwiftVISA/SwiftVISASwift",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.7767610",
+    "name": "SwiftVISASwift",
+    "url": "https://github.com/SwiftVISA/SwiftVISASwift",
+    "full_name": "SwiftVISA/SwiftVISASwift",
+    "html_url": "https://github.com/SwiftVISA/SwiftVISASwift",
+    "description": "A Swift backend for communicating to instruments over TCPIP over the VISA protocol.",
+    "created_at": "2020-12-16T18:49:23Z",
+    "updated_at": "2023-02-15T04:49:31Z",
+    "clone_url": "https://github.com/SwiftVISA/SwiftVISASwift.git",
+    "size": 5826,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "Swift",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/SwiftVISA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51682419?v=4",
+      "login": "SwiftVISA",
+      "type": "Organization"
+    },
+    "timestamp": "2023-04-02 00:37:04.375803",
+    "avatar": "https://avatars.githubusercontent.com/u/51682419?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "Swift Package Manager",
+      "evidence": [
+        "\"SwiftVISASwift allows for message based communication over the VISA protocol for TCPIP instruments.\"",
+        "\"To use SwiftVISASwift in your project, include the following dependency in your `Package.swift` file.\"",
+        "\"Installation can be done through the Swift Package Manager.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T20:22:55Z"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/benmkent/SparseGridsKit.jl",
+  "url": "https://github.com/benmkent/SparseGridsKit.jl",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.17183587",
+    "name": "SparseGridsKit.jl",
+    "url": "https://github.com/benmkent/SparseGridsKit.jl",
+    "full_name": "benmkent/SparseGridsKit.jl",
+    "html_url": "https://github.com/benmkent/SparseGridsKit.jl",
+    "description": "Simple sparse grid interpolation Julia implementation",
+    "created_at": "2024-10-24T12:40:22Z",
+    "updated_at": "2025-09-25T16:38:27Z",
+    "clone_url": "https://github.com/benmkent/SparseGridsKit.jl.git",
+    "homepage": "https://benmkent.github.io/SparseGridsKit.jl/",
+    "size": 18857,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Julia",
+    "open_issues_count": 9,
+    "license": {
+      "key": "agpl-3.0",
+      "name": "GNU Affero General Public License v3.0",
+      "spdx_id": "AGPL-3.0",
+      "url": "https://api.github.com/licenses/agpl-3.0",
+      "node_id": "MDc6TGljZW5zZTE="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/benmkent",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52756911?v=4",
+      "login": "benmkent",
+      "type": "User"
+    },
+    "timestamp": "2025-09-28 00:57:20.817718",
+    "avatar": "https://avatars.githubusercontent.com/u/52756911?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Vendor or commercial entity",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "Julia General registry (Pkg.add)",
+      "evidence": [
+        "\"A simple implementation of sparse grid polynomial interpolation\"",
+        "\"To add the package use the following command: `] add SparseGridsKit`\"",
+        "\"This package aims to aid fast algorithm development and analysis, with an emphasis on applications in uncertainty quantification.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T22:03:15Z"
+    }
+  }
+}

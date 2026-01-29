@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/SWAT-Sheffield/SAC",
+  "url": "https://github.com/SWAT-Sheffield/SAC",
+  "data": {
+    "doi": [
+      "http://adsabs.harvard.edu/abs/2008A%26A...486..655S",
+      "https://ui.adsabs.harvard.edu/abs/2013ascl.soft06001G/abstract"
+    ],
+    "title": "SAC: Sheffield Advanced Code",
+    "url": "https://github.com/SWAT-Sheffield/SAC",
+    "name": "SAC",
+    "full_name": "SWAT-Sheffield/SAC",
+    "html_url": "https://github.com/SWAT-Sheffield/SAC",
+    "description": "The Sheffield Advanced Code",
+    "created_at": "2014-10-06T13:29:00Z",
+    "updated_at": "2019-02-28T07:15:23Z",
+    "clone_url": "https://github.com/SWAT-Sheffield/SAC.git",
+    "homepage": "http://sac.readthedocs.org/",
+    "size": 13657,
+    "language": "Perl",
+    "open_issues_count": 1,
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/SWAT-Sheffield",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9036395?v=4",
+      "login": "SWAT-Sheffield",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-17 17:24:15.625782",
+    "avatar": "https://avatars.githubusercontent.com/u/9036395?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"SAC is a 1-3D ideal MHD / HD solver that solves for pertubations on top of a static background.\"",
+        "\"The standard way to build SAC is:: cd sac/src make vac\" (indicates users build and run the solver as an application from source)",
+        "README only describes cloning and building from the repository (no mention of package managers, containers, or binaries), implying distribution via source repo. The owning GitHub organization \"SWAT-Sheffield\" suggests a specific research group or lab."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T20:17:27Z"
+    }
+  }
+}

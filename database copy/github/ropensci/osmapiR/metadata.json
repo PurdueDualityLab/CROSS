@@ -1,0 +1,67 @@
+{
+  "parser": "github",
+  "uid": "github/ropensci/osmapiR",
+  "url": "https://github.com/ropensci/osmapiR",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.13627998",
+    "name": "osmapiR",
+    "url": "https://github.com/ropensci/osmapiR",
+    "full_name": "ropensci/osmapiR",
+    "html_url": "https://github.com/ropensci/osmapiR",
+    "description": "An R interface to OpenStreetMap API for fetching and saving data from/to the OpenStreetMap database",
+    "created_at": "2023-06-25T10:12:07Z",
+    "updated_at": "2024-09-06T07:50:33Z",
+    "clone_url": "https://github.com/ropensci/osmapiR.git",
+    "homepage": "https://docs.ropensci.org/osmapiR/",
+    "size": 10068,
+    "stargazers_count": 10,
+    "watchers_count": 10,
+    "language": "R",
+    "open_issues_count": 2,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/ropensci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1200269?v=4",
+      "login": "ropensci",
+      "type": "Organization"
+    },
+    "topics": [
+      "openstreetmap",
+      "openstreetmap-api",
+      "osm",
+      "r",
+      "r-package",
+      "osmapi"
+    ],
+    "timestamp": "2024-09-08 00:44:10.174656",
+    "avatar": "https://avatars.githubusercontent.com/u/1200269?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"osmapiR\")\"",
+        "\"osmapiR is an R interface to the OpenStreetMap API v0.6 for fetching and saving raw geodata from/to the OpenStreetMap database.\" (R package intended to be used by other R code)",
+        "\"To install latest CRAN version: install.packages(\"osmapiR\")\" (distribution via CRAN package registry)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T02:32:30Z"
+    }
+  }
+}

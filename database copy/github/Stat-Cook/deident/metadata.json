@@ -1,0 +1,57 @@
+{
+  "parser": "github",
+  "uid": "github/Stat-Cook/deident",
+  "url": "https://github.com/Stat-Cook/deident",
+  "data": {
+    "doi": "https://doi.org/10.6084/m9.figshare.28033418",
+    "name": "deident",
+    "url": "https://github.com/Stat-Cook/deident",
+    "full_name": "Stat-Cook/deident",
+    "html_url": "https://github.com/Stat-Cook/deident",
+    "created_at": "2023-05-18T11:08:01Z",
+    "updated_at": "2025-01-24T11:29:25Z",
+    "clone_url": "https://github.com/Stat-Cook/deident.git",
+    "size": 1170,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "R",
+    "open_issues_count": 4,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/Stat-Cook",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51404549?v=4",
+      "login": "Stat-Cook",
+      "type": "User"
+    },
+    "timestamp": "2025-01-26 00:43:40.357031",
+    "avatar": "https://avatars.githubusercontent.com/u/51404549?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Tools for creating and applying a semi-automated persistent de-identification pipeline to sensitive data.  The package is implemented in R.\" (R package, typically used as a library)",
+        "\"To install the current version, run the command `devtools::install_github(\"Stat-Cook/deident\")`\" (installation from GitHub source repo)",
+        "\"Contribution to `deident` is welcome, to do so please open an issue ... or feel free to fork the repository.\" (single-user GitHub repo, no institutional or community governance indicated; de-identification tooling supports handling sensitive data rather than doing domain-specific analysis)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T20:22:11Z"
+    }
+  }
+}

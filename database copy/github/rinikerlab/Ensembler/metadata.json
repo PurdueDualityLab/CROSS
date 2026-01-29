@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/rinikerlab/Ensembler",
+  "url": "https://github.com/rinikerlab/Ensembler",
+  "data": {
+    "timestamp": "2021-04-11 00:43:44.232734",
+    "name": "Ensembler",
+    "url": "https://api.github.com/repos/rinikerlab/Ensembler",
+    "full_name": "rinikerlab/Ensembler",
+    "html_url": "https://github.com/rinikerlab/Ensembler",
+    "private": false,
+    "description": null,
+    "created_at": "2020-04-23T12:35:42Z",
+    "updated_at": "2021-03-22T11:05:49Z",
+    "clone_url": "https://github.com/rinikerlab/Ensembler.git",
+    "homepage": null,
+    "size": 692129,
+    "stargazers_count": 34,
+    "watchers_count": 34,
+    "language": "Python",
+    "open_issues_count": 4,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/rinikerlab",
+      "avatar_url": "https://avatars.githubusercontent.com/u/48841290?v=4",
+      "login": "rinikerlab",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "doi": "10.1021/ACS.JCIM.0C01283",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install ensembler-rinikerlab\"",
+        "\"Ensembler is a python package that allows fast and easy access to one and two-dimensional model systems simulations.\"",
+        "Example usage shows it being imported as a library: \"from ensembler.potentials.OneD import fourWellPotential\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T02:10:27Z"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "parser": "github",
+  "uid": "github/lh3/bfc",
+  "url": "https://github.com/lh3/bfc",
+  "data": {
+    "title": "bfc",
+    "url": "https://github.com/lh3/bfc",
+    "credit": [],
+    "tags": [
+      "high-throughput-sequencing"
+    ],
+    "description": "High-performance error correction for Illumina resequencing data",
+    "name": "bfc",
+    "full_name": "lh3/bfc",
+    "html_url": "https://github.com/lh3/bfc",
+    "created_at": "2014-12-30T21:34:14Z",
+    "updated_at": "2023-12-15T15:02:38Z",
+    "clone_url": "https://github.com/lh3/bfc.git",
+    "size": 526,
+    "stargazers_count": 68,
+    "watchers_count": 68,
+    "language": "TeX",
+    "open_issues_count": 8,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 18,
+    "owner": {
+      "html_url": "https://github.com/lh3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/480346?v=4",
+      "login": "lh3",
+      "type": "User"
+    },
+    "topics": [
+      "bioinformatics",
+      "genomics"
+    ],
+    "timestamp": "2024-04-14 00:34:12.439761",
+    "avatar": "https://avatars.githubusercontent.com/u/480346?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"BFC is a standalone high-performance tool for correcting sequencing errors from Illumina sequencing data.\"",
+        "\"BFC can be invoked as: ```sh\nbfc -s 3g -t16 reads.fq.gz | gzip -1 > corrected.fq.gz\n```\"",
+        "\"An alternative implementation of the algorithm is available at the [kmc branch][kmc-branch] of this repository.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:53:50Z"
+    }
+  }
+}

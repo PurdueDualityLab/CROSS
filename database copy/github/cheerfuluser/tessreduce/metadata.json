@@ -1,0 +1,63 @@
+{
+  "parser": "github",
+  "uid": "github/cheerfuluser/tessreduce",
+  "url": "https://github.com/CheerfulUser/TESSreduce",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2022MNRAS.512.2777T",
+      "https://ui.adsabs.harvard.edu/abs/2021arXiv211115006R",
+      "https://ui.adsabs.harvard.edu/abs/2021ascl.soft12016R/abstract"
+    ],
+    "title": "TESSreduce: Transient focused reduction for TESS data",
+    "url": "https://github.com/CheerfulUser/TESSreduce",
+    "name": "TESSreduce",
+    "full_name": "CheerfulUser/TESSreduce",
+    "html_url": "https://github.com/CheerfulUser/TESSreduce",
+    "description": "Transient focused reduction for TESS data",
+    "created_at": "2020-09-16T14:33:15Z",
+    "updated_at": "2022-06-28T09:44:17Z",
+    "clone_url": "https://github.com/CheerfulUser/TESSreduce.git",
+    "size": 16325,
+    "stargazers_count": 6,
+    "watchers_count": 6,
+    "language": "Jupyter Notebook",
+    "open_issues_count": 2,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/CheerfulUser",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25831737?v=4",
+      "login": "CheerfulUser",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 16:49:42.925624",
+    "avatar": "https://avatars.githubusercontent.com/u/25831737?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"With this package that builds on lightkurve, you can reduce TESS data while preserving transient signals.\"",
+        "\"TESSreduce can be installed through pip: `pip install git+https://github.com/CheerfulUser/TESSreduce.git`\"",
+        "\"TESS data can be complicated, and there are a lot of other functions burried in TESSreduce, so if you want some guidence on how to do a specific analysis contact me at: ryan.ridden@canterbury.ac.nz\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T22:54:22Z"
+    }
+  }
+}

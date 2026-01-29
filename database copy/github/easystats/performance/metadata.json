@@ -1,0 +1,69 @@
+{
+  "parser": "github",
+  "uid": "github/easystats/performance",
+  "url": "https://github.com/easystats/performance",
+  "data": {
+    "timestamp": "2021-04-25 00:43:38.394796",
+    "name": "performance",
+    "url": "https://api.github.com/repos/easystats/performance",
+    "full_name": "easystats/performance",
+    "html_url": "https://github.com/easystats/performance",
+    "private": false,
+    "description": ":muscle: Models' quality and performance metrics (R2, ICC, LOO, AIC, BF, ...)",
+    "created_at": "2019-02-10T09:01:04Z",
+    "updated_at": "2021-04-23T17:46:54Z",
+    "clone_url": "https://github.com/easystats/performance.git",
+    "homepage": "https://easystats.github.io/performance/",
+    "size": 20400,
+    "stargazers_count": 336,
+    "watchers_count": 336,
+    "language": "R",
+    "open_issues_count": 44,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 10,
+    "owner": {
+      "html_url": "https://github.com/easystats",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47102598?v=4",
+      "login": "easystats",
+      "type": "Organization"
+    },
+    "topics": [
+      "r2",
+      "aic",
+      "performance",
+      "models",
+      "loo",
+      "r",
+      "easystats",
+      "mixed-models"
+    ]
+  },
+  "doi": "https://doi.org/10.5281/zenodo.4700887",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"| Release | CRAN | `install.packages(\"performance\")` |\"",
+        "\"The primary goal of the **performance** package is to fill this gap and to provide utilities for computing **indices of model quality** and **goodness of fit**.\" (R package intended to be loaded and used by other analyses)",
+        "\"Once you have downloaded the package, you can then load it using: `library(\"performance\")`\" (used as an imported library/dependency in R)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:40:47Z"
+    }
+  }
+}

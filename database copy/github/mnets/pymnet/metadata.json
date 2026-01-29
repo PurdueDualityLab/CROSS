@@ -1,0 +1,64 @@
+{
+  "parser": "github",
+  "uid": "github/mnets/pymnet",
+  "url": "https://github.com/mnets/pymnet",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.12806499",
+    "name": "pymnet",
+    "url": "https://github.com/mnets/pymnet",
+    "full_name": "mnets/pymnet",
+    "html_url": "https://github.com/mnets/pymnet",
+    "description": "The original library for analyzing multilayer networks.",
+    "created_at": "2020-06-29T17:24:07Z",
+    "updated_at": "2024-07-26T09:53:15Z",
+    "clone_url": "https://github.com/mnets/pymnet.git",
+    "homepage": "https://mnets.github.io/pymnet/",
+    "size": 3789,
+    "stargazers_count": 118,
+    "watchers_count": 118,
+    "language": "Python",
+    "open_issues_count": 8,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 7,
+    "owner": {
+      "html_url": "https://github.com/mnets",
+      "avatar_url": "https://avatars.githubusercontent.com/u/167196783?v=4",
+      "login": "mnets",
+      "type": "Organization"
+    },
+    "topics": [
+      "network-analysis",
+      "python",
+      "multilayer-networks"
+    ],
+    "timestamp": "2024-07-28 00:40:56.459058",
+    "avatar": "https://avatars.githubusercontent.com/u/167196783?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"$ python -m pip install pymnet\"",
+        "\"pymnet is a Python package for creating, analyzing, and visualizing multilayer networks\" (indicates a reusable Python package/library).",
+        "\"It is designed for network scientists with an easy-to-use yet flexible interface, featuring, inter alia, representations of a very general class of multilayer networks, structural metrics of multilayer networks, and random multilayer-network models.\" (domain-specific analysis tool for research on multilayer networks)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:24:29Z"
+    }
+  }
+}

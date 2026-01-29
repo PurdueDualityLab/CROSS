@@ -1,0 +1,56 @@
+{
+  "parser": "github",
+  "uid": "github/miguelzuma/hi_class_public",
+  "url": "https://github.com/miguelzuma/hi_class_public",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2018JCAP...08..022G",
+      "https://ui.adsabs.harvard.edu/abs/2017JCAP...08..019Z",
+      "https://ui.adsabs.harvard.edu/abs/2018ascl.soft08010Z/abstract"
+    ],
+    "title": "hi_class: Horndeski in the Cosmic Linear Anisotropy Solving System",
+    "url": "https://github.com/miguelzuma/hi_class_public",
+    "name": "hi_class_public",
+    "full_name": "miguelzuma/hi_class_public",
+    "html_url": "https://github.com/miguelzuma/hi_class_public",
+    "description": "Public version of Horndeski in the Cosmic Linear Anisotropy Solving System",
+    "created_at": "2016-03-14T21:31:09Z",
+    "updated_at": "2022-06-21T03:21:42Z",
+    "clone_url": "https://github.com/miguelzuma/hi_class_public.git",
+    "size": 36207,
+    "stargazers_count": 25,
+    "watchers_count": 25,
+    "language": "C",
+    "open_issues_count": 3,
+    "subscribers_count": 12,
+    "owner": {
+      "html_url": "https://github.com/miguelzuma",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5014027?v=4",
+      "login": "miguelzuma",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:18:05.419730",
+    "avatar": "https://avatars.githubusercontent.com/u/5014027?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"For download and information, see http://class-code.net\"",
+        "\"Download the code from the webpage and unpack the archive ... or clone it from https://github.com/lesgourg/class_public. Go to the class directory ... and compile (make clean; make class).\"",
+        "\"To check that the code runs, type: ./class explanatory.ini\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:20:23Z"
+    }
+  }
+}

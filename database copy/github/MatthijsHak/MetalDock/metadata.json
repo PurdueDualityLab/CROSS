@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/MatthijsHak/MetalDock",
+  "url": "https://github.com/MatthijsHak/MetalDock",
+  "data": {
+    "doi": "10.1021/ACS.JCIM.3C01582",
+    "name": "MetalDock",
+    "url": "https://github.com/MatthijsHak/MetalDock",
+    "full_name": "MatthijsHak/MetalDock",
+    "html_url": "https://github.com/MatthijsHak/MetalDock",
+    "description": "Dock organometallic compounds to proteins/DNA/biomolecules",
+    "created_at": "2022-06-15T07:54:46Z",
+    "updated_at": "2024-04-14T02:23:35Z",
+    "clone_url": "https://github.com/MatthijsHak/MetalDock.git",
+    "size": 93729,
+    "stargazers_count": 4,
+    "watchers_count": 4,
+    "language": "Python",
+    "open_issues_count": 4,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/MatthijsHak",
+      "avatar_url": "https://avatars.githubusercontent.com/u/95848709?v=4",
+      "login": "MatthijsHak",
+      "type": "User"
+    },
+    "timestamp": "2024-04-21 00:35:53.916441",
+    "avatar": "https://avatars.githubusercontent.com/u/95848709?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"MetalDock is a versatile open-source software docking tool designed to facilitate the docking of metal-organic complexes for various transtions metals with proteins, DNA, or other biomolecules.\"",
+        "The README presents MetalDock as a standalone \"software docking tool\" rather than a library to be imported by other software.",
+        "The project is on GitHub with no mention of package managers, containers, or binaries; users are directed to documentation, implying use via the source repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T19:06:28Z"
+    }
+  }
+}

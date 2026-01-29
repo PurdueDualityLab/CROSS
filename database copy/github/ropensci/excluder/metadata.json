@@ -1,0 +1,67 @@
+{
+  "parser": "github",
+  "uid": "github/ropensci/excluder",
+  "url": "https://github.com/ropensci/excluder",
+  "data": {
+    "timestamp": "2022-01-27 10:11:35.299400",
+    "name": "excluder",
+    "url": "https://api.github.com/repos/ropensci/excluder",
+    "full_name": "ropensci/excluder",
+    "html_url": "https://github.com/ropensci/excluder",
+    "private": false,
+    "description": "Checks for Exclusion Criteria in Online Data",
+    "created_at": "2021-02-06T22:48:32Z",
+    "updated_at": "2021-12-30T16:03:07Z",
+    "clone_url": "https://github.com/ropensci/excluder.git",
+    "homepage": "https://docs.ropensci.org/excluder/",
+    "size": 2492,
+    "stargazers_count": 6,
+    "watchers_count": 6,
+    "language": "R",
+    "open_issues_count": 0,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "owner": {
+      "html_url": "https://github.com/ropensci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1200269?v=4",
+      "login": "ropensci",
+      "type": "Organization"
+    },
+    "topics": [
+      "qualtrics",
+      "mturk",
+      "datacleaning",
+      "exclusion",
+      "r",
+      "rstats",
+      "r-package",
+      "data-extraction"
+    ]
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"excluder\")\"",
+        "The goal of `{excluder}` is to facilitate checking for, marking, and excluding rows of data frames for common exclusion criteria. This package applies to data collected from Qualtrics surveys…",
+        "This package provides three primary verbs: `mark` functions… `check` functions… `exclude` functions…"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T02:27:44Z"
+    }
+  }
+}

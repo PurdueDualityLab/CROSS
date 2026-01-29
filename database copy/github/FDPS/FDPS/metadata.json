@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/FDPS/FDPS",
+  "url": "https://github.com/FDPS/FDPS",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2016PASJ...68...54I",
+      "https://ui.adsabs.harvard.edu/abs/2016ascl.soft04011I/abstract"
+    ],
+    "title": "FDPS: Framework for Developing Particle Simulators",
+    "url": "https://github.com/FDPS/FDPS",
+    "name": "FDPS",
+    "full_name": "FDPS/FDPS",
+    "html_url": "https://github.com/FDPS/FDPS",
+    "description": "Github repository for FDPS",
+    "created_at": "2015-02-10T05:46:43Z",
+    "updated_at": "2022-06-03T00:19:24Z",
+    "clone_url": "https://github.com/FDPS/FDPS.git",
+    "size": 101774,
+    "stargazers_count": 64,
+    "watchers_count": 64,
+    "language": "C++",
+    "open_issues_count": 4,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 24,
+    "owner": {
+      "html_url": "https://github.com/FDPS",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10935829?v=4",
+      "login": "FDPS",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-17 17:21:53.056544",
+    "avatar": "https://avatars.githubusercontent.com/u/10935829?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Builds and releases",
+      "distribution_details": null,
+      "evidence": [
+        "\"FDPS is a general-purpose, high-performance library for particle simulations.\"",
+        "\"The current version is 8.0a. The previous versions are here (https://github.com/FDPS/FDPS/releases).\"",
+        "\"Tutorial of FDPS is here ... Specification is here ... Tutorial and specification of Fortran/C interface to FDPS are ...\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T17:09:59Z"
+    }
+  }
+}

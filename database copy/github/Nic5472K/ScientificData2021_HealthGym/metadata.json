@@ -1,0 +1,56 @@
+{
+  "parser": "github",
+  "uid": "github/Nic5472K/ScientificData2021_HealthGym",
+  "url": "https://github.com/Nic5472K/ScientificData2021_HealthGym",
+  "data": {
+    "doi": "10.1038/S41597-022-01784-7",
+    "name": "ScientificData2021_HealthGym",
+    "url": "https://github.com/Nic5472K/ScientificData2021_HealthGym",
+    "full_name": "Nic5472K/ScientificData2021_HealthGym",
+    "html_url": "https://github.com/Nic5472K/ScientificData2021_HealthGym",
+    "created_at": "2021-09-27T06:09:39Z",
+    "updated_at": "2023-01-09T21:49:18Z",
+    "clone_url": "https://github.com/Nic5472K/ScientificData2021_HealthGym.git",
+    "size": 31101,
+    "stargazers_count": 6,
+    "watchers_count": 6,
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/Nic5472K",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32753860?v=4",
+      "login": "Nic5472K",
+      "type": "User"
+    },
+    "timestamp": "2023-01-29 00:42:09.218762",
+    "avatar": "https://avatars.githubusercontent.com/u/32753860?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This is the official repository for \\n\\\"The Health Gym: Synthetic Health-Related Datasets for the Development of Reinforcement Learning Algorithms\\\"\"",
+        "\"Two versions of the code can be found in this repository\\n \\tA) Demo: with descriptions on preprocessing the ground truth dataset\\nand\\n \\tB) Academic: with the codes commented line by line\"",
+        "The README describes cloning/using this GitHub repository as the project location, with no mention of package managers, containers, or binaries, implying distribution via the source repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T19:39:58Z"
+    }
+  }
+}

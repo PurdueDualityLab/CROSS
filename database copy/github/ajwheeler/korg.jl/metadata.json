@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/ajwheeler/korg.jl",
+  "url": "https://github.com/ajwheeler/Korg.jl",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2022arXiv221100029W",
+      "https://ui.adsabs.harvard.edu/abs/2022ascl.soft11016W/abstract"
+    ],
+    "title": "Korg: 1D local thermodynamic equilibrium stellar spectral synthesis",
+    "url": "https://github.com/ajwheeler/Korg.jl",
+    "name": "Korg.jl",
+    "full_name": "ajwheeler/Korg.jl",
+    "html_url": "https://github.com/ajwheeler/Korg.jl",
+    "description": "1D LTE stellar spectral synthesis in pure Julia",
+    "created_at": "2021-02-18T18:08:50Z",
+    "updated_at": "2022-11-15T08:44:30Z",
+    "clone_url": "https://github.com/ajwheeler/Korg.jl.git",
+    "size": 45900,
+    "stargazers_count": 15,
+    "watchers_count": 15,
+    "language": "Julia",
+    "open_issues_count": 20,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/ajwheeler",
+      "avatar_url": "https://avatars.githubusercontent.com/u/711963?v=4",
+      "login": "ajwheeler",
+      "type": "User"
+    },
+    "timestamp": "2022-12-04 00:35:22.862482",
+    "avatar": "https://avatars.githubusercontent.com/u/711963?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"See the [documentation for `synth`](https://ajwheeler.github.io/Korg.jl/stable/API/#Korg.synth), or [the documentation for `synthesize`](https://ajwheeler.github.io/Korg.jl/stable/API/#Korg.synthesize\"",
+        "\"Korg is a package for computing stellar spectra from 1D model atmospheres and linelists assuming local thermodynamic equilibrium. It can be used with Julia or Python.\"",
+        "Example shows `using Korg` and Python `from juliacall import Main as jl` ... `Korg.synth(...)`, indicating it is imported as a library/package dependency."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T21:03:34Z"
+    }
+  }
+}

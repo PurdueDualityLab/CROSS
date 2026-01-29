@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/fchuffar/protopackage",
+  "url": "https://github.com/fchuffar/protopackage",
+  "data": {
+    "name": "protopackage",
+    "url": "https://github.com/fchuffar/protopackage",
+    "full_name": "fchuffar/protopackage",
+    "html_url": "https://github.com/fchuffar/protopackage",
+    "private": false,
+    "description": null,
+    "created_at": "2023-06-30T19:27:58Z",
+    "updated_at": "2023-07-03T09:15:29Z",
+    "clone_url": "https://github.com/fchuffar/protopackage.git",
+    "homepage": null,
+    "size": 18,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": "R",
+    "open_issues_count": 0,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/fchuffar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13216225?v=4",
+      "login": "fchuffar",
+      "type": "User"
+    },
+    "topics": [],
+    "timestamp": "2023-07-09 00:54:07.353011",
+    "avatar": "https://avatars.githubusercontent.com/u/13216225?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"An empty R package build as a prototype. It illustrates development practices in R: documentation, literate programming, testing, versioning, continuous integration.\"",
+        "Installation is shown via `devtools::install_github(\"fchuffar/protopackage\")`, indicating it is an R package intended to be installed and used as a library/dependency.",
+        "Development and CI instructions (`devtools::document(); devtools::install(); devtools::check(); devtools::build()`) and `git clone git@github.com:fchuffar/protopackage.git` show distribution and use directly from the GitHub source repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T23:50:51Z"
+    }
+  }
+}

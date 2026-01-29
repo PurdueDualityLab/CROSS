@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/fitbenchmarking/fitbenchmarking",
+  "url": "https://github.com/fitbenchmarking/fitbenchmarking",
+  "data": {
+    "timestamp": "2021-06-13 00:32:41.223402",
+    "name": "fitbenchmarking",
+    "url": "https://api.github.com/repos/fitbenchmarking/fitbenchmarking",
+    "full_name": "fitbenchmarking/fitbenchmarking",
+    "html_url": "https://github.com/fitbenchmarking/fitbenchmarking",
+    "private": false,
+    "description": "Tool for comparing the run time and accuracy of minimizers on fit benchmarking problems",
+    "created_at": "2018-03-20T14:26:19Z",
+    "updated_at": "2021-06-10T18:19:19Z",
+    "clone_url": "https://github.com/fitbenchmarking/fitbenchmarking.git",
+    "homepage": null,
+    "size": 16259,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "Python",
+    "open_issues_count": 93,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "subscribers_count": 24,
+    "owner": {
+      "html_url": "https://github.com/fitbenchmarking",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49585251?v=4",
+      "login": "fitbenchmarking",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "doi": "https://doi.org/10.5281/zenodo.4892752",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"FitBenchmarking is an open source tool for comparing different minimizers/fitting frameworks.\"",
+        "\"The package is the result of a collaboration between STFC’s Scientific Computing Department and ISIS Neutron and Muon Facility and the Diamond Light Source.\"",
+        "Badges and links point to GitHub repository and documentation, with installation instructions hosted on ReadTheDocs, implying users obtain and run the tool from the source repo/documented install process."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T23:52:17Z"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "parser": "github",
+  "uid": "github/alphapsa/PIPE",
+  "url": "https://github.com/alphapsa/PIPE",
+  "data": {
+    "doi": [],
+    "title": "PIPE: Extracting PSF photometry from CHEOPS data",
+    "url": "https://github.com/alphapsa/PIPE",
+    "name": "PIPE",
+    "full_name": "alphapsa/PIPE",
+    "html_url": "https://github.com/alphapsa/PIPE",
+    "description": "PSF Imagette Photometric Extraction - PSF photometry for CHEOPS data",
+    "created_at": "2021-03-09T00:26:48Z",
+    "updated_at": "2024-03-26T05:40:57Z",
+    "clone_url": "https://github.com/alphapsa/PIPE.git",
+    "homepage": "https://pipe-cheops.readthedocs.io/en/latest/",
+    "size": 3532,
+    "stargazers_count": 9,
+    "watchers_count": 9,
+    "language": "Python",
+    "open_issues_count": 3,
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/alphapsa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13644798?v=4",
+      "login": "alphapsa",
+      "type": "User"
+    },
+    "timestamp": "2024-04-14 00:33:25.899146",
+    "avatar": "https://avatars.githubusercontent.com/u/13644798?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"how to download required calibration files (including a PSF library). The latest\"",
+        "\"PIPE (PSF Imagette Photometric Extraction) is a photometric extraction package for CHEOPS that is complementing the official Data Reduction Pipeline (DRP).\"",
+        "\"The comprehensive PIPE manual includes instructions on how to install PIPE and how to download required calibration files (including a PSF library).\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T21:06:15Z"
+    }
+  }
+}

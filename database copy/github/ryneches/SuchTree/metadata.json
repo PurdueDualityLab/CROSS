@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/ryneches/SuchTree",
+  "url": "https://github.com/ryneches/SuchTree",
+  "data": {
+    "doi": "10.21105/joss.00678",
+    "name": "SuchTree",
+    "url": "https://github.com/ryneches/SuchTree",
+    "full_name": "ryneches/SuchTree",
+    "html_url": "https://github.com/ryneches/SuchTree",
+    "description": "A Python library for fast, thread-safe computations on phylogenetic trees",
+    "created_at": "2016-05-04T06:09:27Z",
+    "updated_at": "2023-04-26T05:51:02Z",
+    "clone_url": "https://github.com/ryneches/SuchTree.git",
+    "size": 19212,
+    "stargazers_count": 26,
+    "watchers_count": 26,
+    "language": "Jupyter Notebook",
+    "open_issues_count": 8,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/ryneches",
+      "avatar_url": "https://avatars.githubusercontent.com/u/440383?v=4",
+      "login": "ryneches",
+      "type": "User"
+    },
+    "timestamp": "2023-07-09 00:48:40.702650",
+    "avatar": "https://avatars.githubusercontent.com/u/440383?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install SuchTree\"",
+        "Owner is a GitHub user account: `owner_type: User` and badges link to personal Mastodon `@ryneches`, suggesting personal maintenance.",
+        "README describes it as a tool users run on their own data: “So, you have a phylogenetic tree, and you want to do some statistics with it… SuchTree is designed to solve this problem…”, and usage shows `from SuchTree import SuchTree` then constructing trees from files/URLs/strings."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T03:15:10Z"
+    }
+  }
+}

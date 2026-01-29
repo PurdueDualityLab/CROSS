@@ -1,0 +1,67 @@
+{
+  "parser": "github",
+  "uid": "github/PabloMSanAla/fabada",
+  "url": "https://github.com/PabloMSanAla/fabada",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2023RASTI...2..129S",
+      "https://ui.adsabs.harvard.edu/abs/2023ascl.soft07062S/abstract"
+    ],
+    "title": "FABADA: Non-parametric noise reduction using Bayesian inference",
+    "url": "https://github.com/PabloMSanAla/fabada",
+    "name": "fabada",
+    "full_name": "PabloMSanAla/fabada",
+    "html_url": "https://github.com/PabloMSanAla/fabada",
+    "description": "Fully Adaptive Bayesian Algorithm for Data Analysis (FABADA) is a new approach of noise reduction methods. In this repository is shown the package developed for this new method based on \\citepaper.",
+    "created_at": "2020-06-21T18:00:52Z",
+    "updated_at": "2023-08-08T10:42:38Z",
+    "clone_url": "https://github.com/PabloMSanAla/fabada.git",
+    "size": 158527,
+    "stargazers_count": 20,
+    "watchers_count": 20,
+    "language": "Jupyter Notebook",
+    "open_issues_count": 3,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/PabloMSanAla",
+      "avatar_url": "https://avatars.githubusercontent.com/u/48026860?v=4",
+      "login": "PabloMSanAla",
+      "type": "User"
+    },
+    "topics": [
+      "python",
+      "noise-reduction",
+      "astronomy"
+    ],
+    "timestamp": "2023-08-12 18:54:52.866770",
+    "avatar": "https://avatars.githubusercontent.com/u/48026860?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install fabada\"",
+        "\"We try to make the usage of FABADA as simple as possible. For that purpose, we have create a PyPI package to install FABADA.\"",
+        "\"Using pip you can either install the last relase by `pip install fabada` or you can install the latest version of the code as ... `pip install -e .`\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T19:46:09Z"
+    }
+  }
+}

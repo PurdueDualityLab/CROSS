@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/ValeevGroup/mpqc",
+  "url": "https://github.com/ValeevGroup/mpqc",
+  "data": {
+    "timestamp": "2022-03-10 12:16:09.127905",
+    "name": "mpqc",
+    "url": "https://api.github.com/repos/ValeevGroup/mpqc",
+    "full_name": "ValeevGroup/mpqc",
+    "html_url": "https://github.com/ValeevGroup/mpqc",
+    "private": false,
+    "description": "The Massively Parallel Quantum Chemistry program, MPQC, computes properties of atoms and molecules from first principles using the time independent Schrödinger equation.",
+    "created_at": "2013-08-15T15:28:10Z",
+    "updated_at": "2022-01-27T18:47:45Z",
+    "clone_url": "https://github.com/ValeevGroup/mpqc.git",
+    "homepage": null,
+    "size": 364241,
+    "stargazers_count": 48,
+    "watchers_count": 48,
+    "language": "C++",
+    "open_issues_count": 5,
+    "license": null,
+    "subscribers_count": 27,
+    "owner": {
+      "html_url": "https://github.com/ValeevGroup",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5217762?v=4",
+      "login": "ValeevGroup",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "doi": "https://doi.org/10.1021/acs.jctc.6b00884",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"The Massively Parallel Quantum Chemistry (MPQC) platform is a research package for *ab initio* simulation of the electronic structure of molecules and periodic solids.\"",
+        "\"MPQC is developed by the [Valeev Group](http://research.valeyev.net) at [Virginia Tech](http://www.vt.edu).\"",
+        "README presents MPQC as a research package/platform with no mention of package managers or binaries; distribution is via the GitHub repository (badges, logo, and documentation all reference the repo)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T20:36:47Z"
+    }
+  }
+}

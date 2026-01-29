@@ -1,0 +1,77 @@
+{
+  "parser": "github",
+  "uid": "github/ropensci/rbhl",
+  "url": "https://github.com/ropensci/rbhl",
+  "data": {
+    "timestamp": "2022-01-27 10:11:35.060165",
+    "name": "rbhl",
+    "url": "https://api.github.com/repos/ropensci/rbhl",
+    "full_name": "ropensci/rbhl",
+    "html_url": "https://github.com/ropensci/rbhl",
+    "private": false,
+    "description": "R interface to the Biodiversity Heritage Library (BHL) API",
+    "created_at": "2011-07-18T19:21:22Z",
+    "updated_at": "2021-07-16T15:30:44Z",
+    "clone_url": "https://github.com/ropensci/rbhl.git",
+    "homepage": "https://docs.ropensci.org/rbhl",
+    "size": 570,
+    "stargazers_count": 13,
+    "watchers_count": 13,
+    "language": "R",
+    "open_issues_count": 0,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "owner": {
+      "html_url": "https://github.com/ropensci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1200269?v=4",
+      "login": "ropensci",
+      "type": "Organization"
+    },
+    "topics": [
+      "web-api",
+      "biodiversity-heritage-library",
+      "data",
+      "metadata",
+      "api-wrapper",
+      "r",
+      "rstats",
+      "r-package",
+      "API",
+      "BHL",
+      "conservation",
+      "library",
+      "OCR",
+      "species",
+      "taxonomy",
+      "text-mining",
+      "web-services",
+      "data-access"
+    ]
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Unknown",
+      "research_role": "Unknown",
+      "distribution_pathway": "Unknown",
+      "distribution_details": null,
+      "evidence": [
+        "Owner organization is listed as 'ropensci', which is an open-source community/foundation for R packages.",
+        "README only states: 'This package has been archived. The former README is now in README-not.md.', providing no functional description.",
+        "No installation or usage instructions are present in the current README, so distribution channel and role in research cannot be determined."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T02:34:45Z"
+    }
+  }
+}

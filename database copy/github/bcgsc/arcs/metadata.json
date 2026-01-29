@@ -1,0 +1,72 @@
+{
+  "parser": "github",
+  "uid": "github/bcgsc/arcs",
+  "url": "https://github.com/bcgsc/arcs",
+  "data": {
+    "title": "arcs",
+    "url": "https://github.com/bcgsc/arcs",
+    "credit": [],
+    "tags": [
+      "genome-assembly",
+      "high-throughput-sequencing"
+    ],
+    "description": "🌈Scaffold genome sequence assemblies using linked read sequencing data",
+    "name": "arcs",
+    "full_name": "bcgsc/arcs",
+    "html_url": "https://github.com/bcgsc/arcs",
+    "created_at": "2016-06-06T19:10:09Z",
+    "updated_at": "2022-09-09T02:26:54Z",
+    "clone_url": "https://github.com/bcgsc/arcs.git",
+    "size": 111200,
+    "stargazers_count": 80,
+    "watchers_count": 80,
+    "language": "C++",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 25,
+    "owner": {
+      "html_url": "https://github.com/bcgsc",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2319317?v=4",
+      "login": "bcgsc",
+      "type": "Organization"
+    },
+    "topics": [
+      "c-plus-plus",
+      "science",
+      "bioinformatics",
+      "assembler",
+      "scaffold",
+      "genome",
+      "10xgenomics",
+      "graph"
+    ],
+    "timestamp": "2022-11-20 00:44:32.252241",
+    "avatar": "https://avatars.githubusercontent.com/u/2319317?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"If using the `arcs-make` Makefile, ensure that the directory where the `arcs` binary is located is on your PATH.\"",
+        "\"ARCS and ARKS are genome sequence assembly scaffolders using linked and long read sequencing data\"",
+        "\"To run the `arcs` executable in default mode, run `arcs <alignments>`.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T22:01:25Z"
+    }
+  }
+}

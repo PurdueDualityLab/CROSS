@@ -1,0 +1,55 @@
+{
+  "parser": "github",
+  "uid": "github/asgr/Rfits",
+  "url": "https://github.com/asgr/Rfits",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2024MNRAS.tmp..336R",
+      "https://ui.adsabs.harvard.edu/abs/2024ascl.soft02002R/abstract"
+    ],
+    "title": "Rfits: FITS file manipulation in R",
+    "url": "https://github.com/asgr/Rfits",
+    "name": "Rfits",
+    "full_name": "asgr/Rfits",
+    "html_url": "https://github.com/asgr/Rfits",
+    "description": "Rfits stuff",
+    "created_at": "2019-09-11T08:51:31Z",
+    "updated_at": "2024-02-27T05:06:56Z",
+    "clone_url": "https://github.com/asgr/Rfits.git",
+    "size": 3046,
+    "stargazers_count": 11,
+    "watchers_count": 11,
+    "language": "C",
+    "open_issues_count": 2,
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/asgr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5617132?v=4",
+      "login": "asgr",
+      "type": "User"
+    },
+    "timestamp": "2024-03-03 00:33:53.538440",
+    "avatar": "https://avatars.githubusercontent.com/u/5617132?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"# install.packages(\"remotes\")\"",
+        "\"The goal of Rfits is to create a mid to high level interface to astronomy FITS files.\" (an R interface library for FITS files, used via library())",
+        "\"library(Rfits)\" (shows it is used as an R package dependency, not a standalone application)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T21:25:03Z"
+    }
+  }
+}

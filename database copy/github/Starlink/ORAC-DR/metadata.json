@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/Starlink/ORAC-DR",
+  "url": "https://github.com/Starlink/ORAC-DR",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2008AN....329..295C",
+      "https://ui.adsabs.harvard.edu/abs/2013ascl.soft10001J/abstract"
+    ],
+    "title": "ORAC-DR: Astronomy data reduction pipeline",
+    "url": "https://github.com/Starlink/ORAC-DR",
+    "name": "ORAC-DR",
+    "full_name": "Starlink/ORAC-DR",
+    "html_url": "https://github.com/Starlink/ORAC-DR",
+    "description": "The ORAC-DR astronomy data reduction pipeline",
+    "created_at": "2012-07-23T14:18:58Z",
+    "updated_at": "2021-12-02T23:21:06Z",
+    "clone_url": "https://github.com/Starlink/ORAC-DR.git",
+    "size": 25503,
+    "stargazers_count": 8,
+    "watchers_count": 8,
+    "language": "Perl",
+    "subscribers_count": 15,
+    "owner": {
+      "html_url": "https://github.com/Starlink",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2018671?v=4",
+      "login": "Starlink",
+      "type": "Organization"
+    },
+    "topics": [
+      "perl",
+      "orac-dr",
+      "pipeline-framework",
+      "astronomy"
+    ],
+    "timestamp": "2022-07-17 17:24:05.894885",
+    "avatar": "https://avatars.githubusercontent.com/u/2018671?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Vendor or commercial entity",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"* `ORAC_PERLBIN`   Set to a suitable perl binary\"",
+        "\"This is the ORAC Data Reduction pipeline software (ORAC-DR)\"",
+        "\"You can use it to reduce astronomical data from the James Clerk Maxwell Telescope, the United Kingdom Infrared Telescope, the Anglo-Australian Telescope and the Las Cumbres Observatory.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T20:21:46Z"
+    }
+  }
+}

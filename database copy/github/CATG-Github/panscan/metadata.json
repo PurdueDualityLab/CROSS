@@ -1,0 +1,64 @@
+{
+  "parser": "github",
+  "uid": "github/CATG-Github/panscan",
+  "url": "https://github.com/CATG-Github/panscan",
+  "data": {
+    "name": "panscan",
+    "url": "https://github.com/CATG-Github/panscan",
+    "full_name": "CATG-Github/panscan",
+    "html_url": "https://github.com/CATG-Github/panscan",
+    "private": false,
+    "description": "A computational tool that identifies novel sequences, SVs, and gene duplications using pangenome VCF file and assemblies.",
+    "created_at": "2025-03-19T05:52:12Z",
+    "updated_at": "2025-05-30T07:25:07Z",
+    "clone_url": "https://github.com/CATG-Github/panscan.git",
+    "homepage": "",
+    "size": 1079,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "Python",
+    "open_issues_count": 1,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/CATG-Github",
+      "avatar_url": "https://avatars.githubusercontent.com/u/154121768?v=4",
+      "login": "CATG-Github",
+      "type": "Organization"
+    },
+    "topics": [
+      "bioinformatics",
+      "computational-biology",
+      "pangenome"
+    ],
+    "timestamp": "2025-06-01 01:02:46.860690",
+    "avatar": "https://avatars.githubusercontent.com/u/154121768?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install .\"",
+        "\"PanScan is a computational toolkit for the exploration of gene duplications, novel sequences and complex structural variants (SVs). It supports gene duplication annotation, complex region visualization, and provides modules for variant and sequence comparison.\"",
+        "Usage is via a CLI application: \"usage: panscan [-h] {complex,preprocess_vcf,novel_seq,find_uniq_variants,make_dup_mtx,gene_dup} ...\" and examples like \"panscan complex \\ ...\" showing it is run as an end-user tool."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T16:48:08Z"
+    }
+  }
+}

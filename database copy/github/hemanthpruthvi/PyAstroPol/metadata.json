@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/hemanthpruthvi/PyAstroPol",
+  "url": "https://github.com/hemanthpruthvi/PyAstroPol",
+  "data": {
+    "timestamp": "2020-11-29 00:22:13.194990",
+    "name": "PyAstroPol",
+    "url": "https://api.github.com/repos/hemanthpruthvi/PyAstroPol",
+    "full_name": "hemanthpruthvi/PyAstroPol",
+    "html_url": "https://github.com/hemanthpruthvi/PyAstroPol",
+    "private": false,
+    "description": "Instrumental Polarization Analysis of Astronomical Optics",
+    "created_at": "2020-08-18T14:40:04Z",
+    "updated_at": "2020-11-24T08:56:07Z",
+    "clone_url": "https://github.com/hemanthpruthvi/PyAstroPol.git",
+    "homepage": "",
+    "size": 9533,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Python",
+    "open_issues_count": 0,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/hemanthpruthvi",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/69858702?v=4",
+      "login": "hemanthpruthvi",
+      "type": "User"
+    },
+    "topics": []
+  },
+  "doi": "https://doi.org/10.5281/zenodo.4285762",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"Download the package from the Github.\"",
+        "\"The package has one simple goal : compute 4x4 Mueller matrix for the given optical system, and it is developed keeping astronomical optics in view.\"",
+        "\"4. Import this package to your `Python` script using `import PyAstroPol as pap`\" (used directly by researchers to analyze optical systems and compute Mueller matrices)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:19:04Z"
+    }
+  }
+}

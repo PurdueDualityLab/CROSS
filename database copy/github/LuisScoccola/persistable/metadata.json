@@ -1,0 +1,66 @@
+{
+  "parser": "github",
+  "uid": "github/LuisScoccola/persistable",
+  "url": "https://github.com/LuisScoccola/persistable",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.7697173",
+    "name": "persistable",
+    "url": "https://github.com/LuisScoccola/persistable",
+    "full_name": "LuisScoccola/persistable",
+    "html_url": "https://github.com/LuisScoccola/persistable",
+    "description": "density-based clustering for exploratory data analysis based on multi-parameter persistence",
+    "created_at": "2021-07-07T21:58:19Z",
+    "updated_at": "2023-02-09T00:51:08Z",
+    "clone_url": "https://github.com/LuisScoccola/persistable.git",
+    "size": 11683,
+    "stargazers_count": 33,
+    "watchers_count": 33,
+    "language": "Python",
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/LuisScoccola",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1679929?v=4",
+      "login": "LuisScoccola",
+      "type": "User"
+    },
+    "topics": [
+      "cluster-analysis",
+      "clustering",
+      "clustering-algorithm",
+      "machine-learning",
+      "machine-learning-algorithms",
+      "topological-data-analysis",
+      "unsupervised-learning"
+    ],
+    "timestamp": "2023-03-12 00:38:49.963176",
+    "avatar": "https://avatars.githubusercontent.com/u/1679929?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install persistable-clustering\"",
+        "\"Persistent and stable clustering (Persistable) is a density-based clustering algorithm intended for exploratory data analysis.\"",
+        "\"In order to run Persistable's interactive mode from a Jupyter notebook, run the following in a Jupyter cell: `import persistable` ... `pi.start_ui()`\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T19:02:37Z"
+    }
+  }
+}

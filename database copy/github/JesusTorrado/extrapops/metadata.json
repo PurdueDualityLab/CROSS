@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/JesusTorrado/extrapops",
+  "url": "https://github.com/JesusTorrado/extrapops",
+  "data": {
+    "doi": [],
+    "title": "extrapops: fast simulation and analysis of extra-galactic binary GW sources",
+    "url": "https://github.com/JesusTorrado/extrapops",
+    "name": "extrapops",
+    "full_name": "JesusTorrado/extrapops",
+    "html_url": "https://github.com/JesusTorrado/extrapops",
+    "description": "extrapops: fast simulation and analysis of extra-galactic binary GW sources",
+    "created_at": "2023-03-14T16:41:08Z",
+    "updated_at": "2023-03-18T08:14:54Z",
+    "clone_url": "https://github.com/JesusTorrado/extrapops.git",
+    "size": 414,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "Python",
+    "license": {
+      "key": "lgpl-3.0",
+      "name": "GNU Lesser General Public License v3.0",
+      "spdx_id": "LGPL-3.0",
+      "url": "https://api.github.com/licenses/lgpl-3.0",
+      "node_id": "MDc6TGljZW5zZTEy"
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/JesusTorrado",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2233649?v=4",
+      "login": "JesusTorrado",
+      "type": "User"
+    },
+    "topics": [
+      "binary-black-holes",
+      "gravitational-waves"
+    ],
+    "timestamp": "2023-03-26 00:37:16.690966",
+    "avatar": "https://avatars.githubusercontent.com/u/2233649?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"`extrapops`: fast simulation and analysis of extra-galactic binary GW sources\"",
+        "\"This package contains tools for simulating extra-galactic populations of gravitational waves sources...\" (indicates a reusable package/library, i.e., dependency artifact)",
+        "\"It can approximately assess the detectability of individual sources by LISA, and compute the background due to unresolved sources in the LISA band\" (directly used to generate scientific simulations and analyses)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T18:05:20Z"
+    }
+  }
+}

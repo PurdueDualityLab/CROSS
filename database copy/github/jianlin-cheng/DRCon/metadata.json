@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/jianlin-cheng/DRCon",
+  "url": "https://github.com/jianlin-cheng/DRCon",
+  "data": {
+    "timestamp": "2022-02-27 00:45:52.278742",
+    "name": "DRCon",
+    "url": "https://api.github.com/repos/jianlin-cheng/DRCon",
+    "full_name": "jianlin-cheng/DRCon",
+    "html_url": "https://github.com/jianlin-cheng/DRCon",
+    "private": false,
+    "description": "Deep dilated convolutional residual neural network for predicting interchain contacts of protein homodimers",
+    "created_at": "2021-08-20T14:36:15Z",
+    "updated_at": "2022-02-04T21:37:18Z",
+    "clone_url": "https://github.com/jianlin-cheng/DRCon.git",
+    "homepage": null,
+    "size": 103923,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "Python",
+    "open_issues_count": 0,
+    "license": null,
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/jianlin-cheng",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20481009?v=4",
+      "login": "jianlin-cheng",
+      "type": "User"
+    },
+    "topics": []
+  },
+  "doi": "10.1101/2021.09.19.460941",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Deep dilated convolutional residual neural network for predicting interchain contacts of protein homodimers\"",
+        "\"# Running DRCon\" and final command: \"USAGE: python DRCON_pred.py <MODEL_PATH> <OUTPUT_PATH> ...\" indicating it is run as an end-user program for predictions.",
+        "Installation and usage are described only via cloning and running Python scripts from this GitHub repository; no mention of PyPI, containers, or other package registries."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:34:19Z"
+    }
+  }
+}

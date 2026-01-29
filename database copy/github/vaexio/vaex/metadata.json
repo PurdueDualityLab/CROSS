@@ -1,0 +1,74 @@
+{
+  "parser": "github",
+  "uid": "github/vaexio/vaex",
+  "url": "https://github.com/vaexio/vaex",
+  "data": {
+    "doi": [
+      "http://adsabs.harvard.edu/abs/2018A%26A...618A..13B",
+      "https://ui.adsabs.harvard.edu/abs/2018ascl.soft10004B/abstract"
+    ],
+    "title": "VaeX: Visualization and eXploration of Out-of-Core DataFrames",
+    "url": "https://github.com/vaexio/vaex",
+    "name": "vaex",
+    "full_name": "vaexio/vaex",
+    "html_url": "https://github.com/vaexio/vaex",
+    "description": "Out-of-Core hybrid Apache Arrow/NumPy DataFrame for Python, ML, visualization and exploration of big tabular data at a billion rows per second 🚀",
+    "created_at": "2014-09-27T09:44:42Z",
+    "updated_at": "2022-07-17T03:32:20Z",
+    "clone_url": "https://github.com/vaexio/vaex.git",
+    "homepage": "https://vaex.io",
+    "size": 148895,
+    "stargazers_count": 7176,
+    "watchers_count": 7176,
+    "language": "Python",
+    "open_issues_count": 406,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 138,
+    "owner": {
+      "html_url": "https://github.com/vaexio",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45720408?v=4",
+      "login": "vaexio",
+      "type": "Organization"
+    },
+    "topics": [
+      "dataframe",
+      "python",
+      "bigdata",
+      "tabular-data",
+      "visualization",
+      "memory-mapped-file",
+      "hdf5",
+      "machine-learning",
+      "machinelearning"
+    ],
+    "timestamp": "2022-07-17 17:17:53.337373",
+    "avatar": "https://avatars.githubusercontent.com/u/45720408?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Vendor or commercial entity",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"$ pip install vaex\"",
+        "\"Vaex is a high performance Python library for lazy Out-of-Core DataFrames (similar to Pandas), to visualize and explore big tabular datasets.\" (library intended to be imported as a dependency)",
+        "\"With pip: `$ pip install vaex` Or conda: `$ conda install -c conda-forge vaex`\" (distribution via package registries, including PyPI)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:35:57Z"
+    }
+  }
+}

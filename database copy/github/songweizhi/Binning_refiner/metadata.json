@@ -1,0 +1,66 @@
+{
+  "parser": "github",
+  "uid": "github/songweizhi/Binning_refiner",
+  "url": "https://github.com/songweizhi/Binning_refiner",
+  "data": {
+    "name": "Binning_refiner",
+    "url": "https://github.com/songweizhi/Binning_refiner",
+    "full_name": "songweizhi/Binning_refiner",
+    "html_url": "https://github.com/songweizhi/Binning_refiner",
+    "private": false,
+    "description": "Improving genome bins through the combination of different binning programs ",
+    "created_at": "2016-09-27T10:53:03Z",
+    "updated_at": "2023-12-10T16:46:39Z",
+    "clone_url": "https://github.com/songweizhi/Binning_refiner.git",
+    "homepage": "",
+    "size": 91822,
+    "stargazers_count": 30,
+    "watchers_count": 30,
+    "language": "Python",
+    "open_issues_count": 1,
+    "license": {
+      "key": "agpl-3.0",
+      "name": "GNU Affero General Public License v3.0",
+      "spdx_id": "AGPL-3.0",
+      "url": "https://api.github.com/licenses/agpl-3.0",
+      "node_id": "MDc6TGljZW5zZTE="
+    },
+    "subscribers_count": 6,
+    "owner": {
+      "html_url": "https://github.com/songweizhi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11952278?v=4",
+      "login": "songweizhi",
+      "type": "User"
+    },
+    "topics": [
+      "metagenomics",
+      "binning",
+      "refinement",
+      "binning-refiner",
+      "bioinformatics"
+    ],
+    "timestamp": "2024-03-17 00:35:26.444749",
+    "avatar": "https://avatars.githubusercontent.com/u/11952278?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install Binning_refiner\"",
+        "PyPI badges and install instructions: `Binning_refiner can now be installed with \"pip install Binning_refiner\"` and links to `https://pypi.python.org/pypi/Binning_refiner`.",
+        "Described as a command-line tool users run: `Binning_refiner -h` and example command `Binning_refiner -i input_bin_folder -p Human -plot`."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T03:43:19Z"
+    }
+  }
+}

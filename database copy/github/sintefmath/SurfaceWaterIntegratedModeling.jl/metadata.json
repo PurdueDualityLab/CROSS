@@ -1,0 +1,57 @@
+{
+  "parser": "github",
+  "uid": "github/sintefmath/SurfaceWaterIntegratedModeling.jl",
+  "url": "https://github.com/sintefmath/SurfaceWaterIntegratedModeling.jl",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.15306692",
+    "name": "SurfaceWaterIntegratedModeling.jl",
+    "url": "https://github.com/sintefmath/SurfaceWaterIntegratedModeling.jl",
+    "full_name": "sintefmath/SurfaceWaterIntegratedModeling.jl",
+    "html_url": "https://github.com/sintefmath/SurfaceWaterIntegratedModeling.jl",
+    "description": "SWIM - Surface Water Integrated Modeling",
+    "created_at": "2024-03-08T13:19:20Z",
+    "updated_at": "2025-05-01T20:36:55Z",
+    "clone_url": "https://github.com/sintefmath/SurfaceWaterIntegratedModeling.jl.git",
+    "size": 94386,
+    "stargazers_count": 13,
+    "watchers_count": 13,
+    "language": "Julia",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "subscribers_count": 9,
+    "owner": {
+      "html_url": "https://github.com/sintefmath",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1901550?v=4",
+      "login": "sintefmath",
+      "type": "Organization"
+    },
+    "timestamp": "2025-05-04 00:55:53.400633",
+    "avatar": "https://avatars.githubusercontent.com/u/1901550?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "Julia General registry",
+      "evidence": [
+        "\"It is developed and maintained by the Applied Computational Science research group at SINTEF Digital.\"",
+        "\"SWIM is an open-source software package for static modeling and prediction of surface water and urban flooding based on analysis of terrain topography.\"",
+        "\"The package is registered in the Julia package registry, and can be installed using: ... pkg> add SurfaceWaterIntegratedModeling\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T03:28:54Z"
+    }
+  }
+}

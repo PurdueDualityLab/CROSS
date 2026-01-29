@@ -1,0 +1,69 @@
+{
+  "parser": "github",
+  "uid": "github/bcgsc/ntHash",
+  "url": "https://github.com/bcgsc/ntHash",
+  "data": {
+    "url": "https://github.com/bcgsc/ntHash",
+    "title": "Nthash",
+    "description": "Fast hash function for DNA sequences",
+    "doi": "https://academic.oup.com/bioinformatics/article/32/22/3492/2525588",
+    "name": "ntHash",
+    "full_name": "bcgsc/ntHash",
+    "html_url": "https://github.com/bcgsc/ntHash",
+    "created_at": "2015-05-15T18:44:10Z",
+    "updated_at": "2022-07-20T19:23:13Z",
+    "clone_url": "https://github.com/bcgsc/ntHash.git",
+    "homepage": "http://www.bcgsc.ca/platform/bioinfo/software/nthash/",
+    "size": 12456,
+    "stargazers_count": 68,
+    "watchers_count": 68,
+    "language": "C++",
+    "open_issues_count": 5,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 22,
+    "owner": {
+      "html_url": "https://github.com/bcgsc",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2319317?v=4",
+      "login": "bcgsc",
+      "type": "Organization"
+    },
+    "topics": [
+      "hash-methods",
+      "hash-algorithm",
+      "k-mer-hashing",
+      "genomics",
+      "bioinformatics",
+      "hash",
+      "bloom-filter"
+    ],
+    "timestamp": "2022-07-20 17:29:56.332562",
+    "avatar": "https://avatars.githubusercontent.com/u/2319317?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"Download the repo (either from the releases section or close using `git clone https://github.com/bcgsc/ntHash`). Setup meson in an arbitrary directory (e.g. `build`), by running the following command \"",
+        "\"ntHash is an efficient rolling hash function for k-mers and spaced seeds.\"",
+        "\"To use ntHash in a C++ project: - Import ntHash in the code using `#include <nthash/nthash.hpp>` ... Link the code with `libnthash.a`\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T22:01:41Z"
+    }
+  }
+}

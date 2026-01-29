@@ -1,0 +1,72 @@
+{
+  "parser": "github",
+  "uid": "github/projectmesa/mesa",
+  "url": "https://github.com/projectmesa/mesa",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.15090710",
+    "name": "mesa",
+    "url": "https://github.com/projectmesa/mesa",
+    "full_name": "projectmesa/mesa",
+    "html_url": "https://github.com/projectmesa/mesa",
+    "description": "Mesa is an open-source Python library for agent-based modeling, ideal for simulating complex systems and exploring emergent behaviors.",
+    "created_at": "2014-09-19T21:16:30Z",
+    "updated_at": "2025-03-29T17:30:31Z",
+    "clone_url": "https://github.com/projectmesa/mesa.git",
+    "homepage": "https://mesa.readthedocs.io",
+    "size": 14277,
+    "stargazers_count": 2862,
+    "watchers_count": 2862,
+    "language": "Python",
+    "open_issues_count": 156,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "subscribers_count": 94,
+    "owner": {
+      "html_url": "https://github.com/projectmesa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8754505?v=4",
+      "login": "projectmesa",
+      "type": "Organization"
+    },
+    "topics": [
+      "mesa",
+      "agent-based-modeling",
+      "agent-based-simulation",
+      "simulation-framework",
+      "simulation",
+      "simulation-environment",
+      "complex-systems",
+      "complexity-analysis",
+      "modeling-agents",
+      "spatial-models",
+      "gis"
+    ],
+    "timestamp": "2025-03-30 00:52:44.449319",
+    "avatar": "https://avatars.githubusercontent.com/u/8754505?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install -U mesa\"",
+        "\"Mesa allows users to quickly create agent-based models using built-in core components (such as spatial grids and agent schedulers) or customized implementations\" (indicates a reusable modeling framework/library).",
+        "\"To install our latest stable release, run: pip install -U mesa\" and PyPI badges in the table (shows distribution via the PyPI package registry)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:57:09Z"
+    }
+  }
+}

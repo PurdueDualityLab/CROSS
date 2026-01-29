@@ -1,0 +1,64 @@
+{
+  "parser": "github",
+  "uid": "github/glis-glis/loci",
+  "url": "https://github.com/glis-glis/loci",
+  "data": {
+    "doi": [],
+    "title": "loci: Smooth Cubic Multivariate Local Interpolations",
+    "url": "https://github.com/glis-glis/loci",
+    "name": "loci",
+    "full_name": "glis-glis/loci",
+    "html_url": "https://github.com/glis-glis/loci",
+    "description": "Smooth Cubic Multivariate Local Interpolations",
+    "created_at": "2017-11-07T14:01:36Z",
+    "updated_at": "2021-07-28T14:21:12Z",
+    "clone_url": "https://github.com/glis-glis/loci.git",
+    "size": 709,
+    "language": "Jupyter Notebook",
+    "license": {
+      "key": "mpl-2.0",
+      "name": "Mozilla Public License 2.0",
+      "spdx_id": "MPL-2.0",
+      "url": "https://api.github.com/licenses/mpl-2.0",
+      "node_id": "MDc6TGljZW5zZTE0"
+    },
+    "owner": {
+      "html_url": "https://github.com/glis-glis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31037208?v=4",
+      "login": "glis-glis",
+      "type": "User"
+    },
+    "topics": [
+      "c",
+      "python",
+      "jupyter-notebook",
+      "interpolation",
+      "grid",
+      "cubic",
+      "local"
+    ],
+    "timestamp": "2022-07-17 17:19:24.363655",
+    "avatar": "https://avatars.githubusercontent.com/u/31037208?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"loci is a shared library for interpolations in up to 4 dimensions.\"",
+        "\"The library can be linked both statically and dynamically. A python-wrapper is available in `python/loci`\"",
+        "\"Clone a copy of loci to your local computer and make the shared library:\" followed by `git clone https://github.com/glis-glis/loci.git` and `make`"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:01:52Z"
+    }
+  }
+}

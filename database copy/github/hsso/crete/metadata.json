@@ -1,0 +1,55 @@
+{
+  "parser": "github",
+  "uid": "github/hsso/crete",
+  "url": "https://github.com/hsso/crete",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2014A%26A...564A.124D",
+      "https://ui.adsabs.harvard.edu/abs/2016ascl.soft12009D/abstract"
+    ],
+    "title": "CRETE: Comet RadiativE Transfer and Excitation",
+    "url": "https://github.com/hsso/crete",
+    "name": "crete",
+    "full_name": "hsso/crete",
+    "html_url": "https://github.com/hsso/crete",
+    "description": "Comet RadiativE Transfer and Excitation",
+    "created_at": "2014-12-08T22:32:44Z",
+    "updated_at": "2018-08-08T14:47:03Z",
+    "clone_url": "https://github.com/hsso/crete.git",
+    "size": 441,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "FORTRAN",
+    "open_issues_count": 1,
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/hsso",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8900031?v=4",
+      "login": "hsso",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-17 17:20:54.699985",
+    "avatar": "https://avatars.githubusercontent.com/u/8900031?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"CRETE is a 1D water excitation and radiation transfer code for sub-millimeter wavelengths\" (domain-specific scientific code, suggesting a research group tool).",
+        "\"From the top-level directory, run the `configure.sh` shell script to install `crete`.\" (installed and run as a standalone program, not described as a library).",
+        "Instructions focus on cloning and running configure scripts, setting PATH to `$RATRAN/bin`, with no mention of package managers or containers, indicating source-repo-based distribution."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:22:18Z"
+    }
+  }
+}

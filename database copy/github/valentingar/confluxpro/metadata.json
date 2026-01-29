@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/valentingar/confluxpro",
+  "url": "https://github.com/valentingar/ConFluxPro",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.15728971",
+    "name": "ConFluxPro",
+    "url": "https://github.com/valentingar/ConFluxPro",
+    "full_name": "valentingar/ConFluxPro",
+    "html_url": "https://github.com/valentingar/ConFluxPro",
+    "description": "A toolkit for soil gas analysis",
+    "created_at": "2021-01-14T16:53:31Z",
+    "updated_at": "2025-06-27T06:47:35Z",
+    "clone_url": "https://github.com/valentingar/ConFluxPro.git",
+    "homepage": "https://valentingar.github.io/ConFluxPro/",
+    "size": 4834,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "R",
+    "open_issues_count": 3,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/valentingar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/74970146?v=4",
+      "login": "valentingar",
+      "type": "User"
+    },
+    "timestamp": "2025-06-29 00:58:45.299664",
+    "avatar": "https://avatars.githubusercontent.com/u/74970146?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"ConFluxPro\")\"",
+        "\"ConFluxPro is a free toolbox for modelling soil gas fluxes using the Flux Gradient Method (FGM). It provides functions for data preparation, a framework for model set-up and implements different FGM models\" (R package providing functions, i.e. a library).",
+        "\"You can install the latest release from CRAN: install.packages(\"ConFluxPro\")\" (distribution via CRAN package registry)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:36:14Z"
+    }
+  }
+}

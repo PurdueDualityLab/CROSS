@@ -1,0 +1,55 @@
+{
+  "parser": "github",
+  "uid": "github/chfeder/turbulence_generator",
+  "url": "https://github.com/chfeder/turbulence_generator",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2010A%26A...512A..81F",
+      "https://ui.adsabs.harvard.edu/abs/2022ascl.soft04001F/abstract"
+    ],
+    "title": "TG: Turbulence Generator",
+    "url": "https://github.com/chfeder/turbulence_generator",
+    "name": "turbulence_generator",
+    "full_name": "chfeder/turbulence_generator",
+    "html_url": "https://github.com/chfeder/turbulence_generator",
+    "description": "Turbulence driving and initial conditions generator",
+    "created_at": "2022-04-25T10:57:20Z",
+    "updated_at": "2022-05-21T02:51:44Z",
+    "clone_url": "https://github.com/chfeder/turbulence_generator.git",
+    "homepage": "https://www.mso.anu.edu.au/~chfeder/pubs/forcing/forcing.html",
+    "size": 143,
+    "stargazers_count": 4,
+    "watchers_count": 4,
+    "language": "C++",
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/chfeder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11024175?v=4",
+      "login": "chfeder",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 16:48:59.013771",
+    "avatar": "https://avatars.githubusercontent.com/u/11024175?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This tool generates a time sequence of random Fourier modes via an Ornstein-Uhlenbeck (OU) process, used to drive turbulence in hydrodynamical simulation codes.\"",
+        "\"Directory 'plugins' contains examples of how TurbGen.h is used in hydrodynamical codes.\" (indicates it is used as a component/library by other codes)",
+        "\"What are the first steps when working with this repository? * Create a fork of this repo to your own bitbucket account. * Clone the fork from your bitbucket account to your local computer.\" (indicates distribution via source repository)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T22:54:57Z"
+    }
+  }
+}

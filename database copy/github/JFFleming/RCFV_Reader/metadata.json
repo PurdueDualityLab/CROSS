@@ -1,0 +1,48 @@
+{
+  "parser": "github",
+  "uid": "github/JFFleming/RCFV_Reader",
+  "url": "https://github.com/JFFleming/RCFV_Reader",
+  "data": {
+    "doi": "10.1186/s12859-023-05270-8",
+    "name": "RCFV_Reader",
+    "url": "https://github.com/JFFleming/RCFV_Reader",
+    "full_name": "JFFleming/RCFV_Reader",
+    "html_url": "https://github.com/JFFleming/RCFV_Reader",
+    "description": "RCFV reader is a new software to quickly calculate normalised relative compositional frequency variability.",
+    "created_at": "2022-11-08T19:57:23Z",
+    "updated_at": "2022-11-08T19:58:15Z",
+    "clone_url": "https://github.com/JFFleming/RCFV_Reader.git",
+    "size": 16,
+    "language": "Perl",
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/JFFleming",
+      "avatar_url": "https://avatars.githubusercontent.com/u/84772413?v=4",
+      "login": "JFFleming",
+      "type": "User"
+    },
+    "timestamp": "2023-04-30 00:39:06.201665",
+    "avatar": "https://avatars.githubusercontent.com/u/84772413?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"RCFV Reader is a new software to quickly calculate normalised relative compositional frequency variability.\"",
+        "\"Welcome to RCFV Reader. RCFV Reader accepts FASTA files as input, and then outputs 6 files.\" and description of output files containing RCFV and nRCFV values for datasets, characters, and taxa.",
+        "Usage is shown as running a Perl script directly: \"perl RCFVReader.pl dna <filename> <prefix for output files>\" with no mention of package managers or releases, implying source-based distribution."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T18:02:32Z"
+    }
+  }
+}

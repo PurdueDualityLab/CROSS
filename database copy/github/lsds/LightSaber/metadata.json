@@ -1,0 +1,73 @@
+{
+  "parser": "github",
+  "uid": "github/lsds/LightSaber",
+  "url": "https://github.com/lsds/LightSaber",
+  "data": {
+    "timestamp": "2022-05-12 03:43:45.198611",
+    "name": "LightSaber",
+    "url": "https://api.github.com/repos/lsds/LightSaber",
+    "full_name": "lsds/LightSaber",
+    "html_url": "https://github.com/lsds/LightSaber",
+    "private": false,
+    "description": "Multi-core Window-Based Stream Processing Engine",
+    "created_at": "2020-03-16T12:20:42Z",
+    "updated_at": "2022-04-27T15:32:33Z",
+    "clone_url": "https://github.com/lsds/LightSaber.git",
+    "homepage": "https://lsds.doc.ic.ac.uk/projects/lightsaber",
+    "size": 1624,
+    "stargazers_count": 44,
+    "watchers_count": 44,
+    "language": "C++",
+    "open_issues_count": 0,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/lsds",
+      "avatar_url": "https://avatars.githubusercontent.com/u/989082?v=4",
+      "login": "lsds",
+      "type": "Organization"
+    },
+    "topics": [
+      "llvm",
+      "incremental-computation",
+      "aggregation",
+      "stream-processing",
+      "sliding-windows",
+      "numa",
+      "multi-core",
+      "cpp",
+      "rdma",
+      "ssd",
+      "libaio",
+      "compression"
+    ]
+  },
+  "contact": "George Theodorakis <g.theodorakis17@imperial.ac.uk>",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Infrastructure",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Containers",
+      "distribution_details": null,
+      "evidence": [
+        "README container command: \"$ docker run -ti lightsaber\"",
+        "\"LightSaber is a stream processing engine that balances parallelism and incremental processing when executing window aggregation queries on multi-core CPUs.\"",
+        "\"This project offers two systems to help tackle this problem.\" and description of Scabbard as a single-node stream processing engine providing fault-tolerance semantics, indicating a runtime platform for stream processing."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:57:32Z"
+    }
+  }
+}

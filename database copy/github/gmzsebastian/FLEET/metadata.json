@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/gmzsebastian/FLEET",
+  "url": "https://github.com/gmzsebastian/FLEET",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2020ApJ...904...74G",
+      "https://ui.adsabs.harvard.edu/abs/2020ascl.soft09019G/abstract"
+    ],
+    "title": "FLEET: Finding Luminous and Exotic Extragalactic Transients",
+    "url": "https://github.com/gmzsebastian/FLEET",
+    "name": "FLEET",
+    "full_name": "gmzsebastian/FLEET",
+    "html_url": "https://github.com/gmzsebastian/FLEET",
+    "description": "Finding Luminous and Exotic Extragalactic Transients",
+    "created_at": "2020-07-27T19:10:18Z",
+    "updated_at": "2021-11-14T20:51:00Z",
+    "clone_url": "https://github.com/gmzsebastian/FLEET.git",
+    "size": 22852,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/gmzsebastian",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10391602?v=4",
+      "login": "gmzsebastian",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:13:46.652828",
+    "avatar": "https://avatars.githubusercontent.com/u/10391602?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"FLEET is the *Finding Luminous and Exotic Extragalactic Transients* package, a machine learning pipeline desgined to find the most likely superluminous supernovae (SLSNe) and tidal disruption events (TDEs) from transient surveys.\"",
+        "\"* Code: https://github.com/gmzsebastian/fleet\"",
+        "\"For instructions on how to install and use FLEET, see the documentation at http://fleet-pipe.readthedocs.io/.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:02:40Z"
+    }
+  }
+}

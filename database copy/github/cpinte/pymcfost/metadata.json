@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/cpinte/pymcfost",
+  "url": "https://github.com/cpinte/pymcfost",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2020MNRAS.493L.143N",
+      "https://ui.adsabs.harvard.edu/abs/2022ascl.soft07024P/abstract"
+    ],
+    "title": "pymcfost: Python interface to the MCFOST 3D radiative transfer code",
+    "url": "https://github.com/cpinte/pymcfost",
+    "name": "pymcfost",
+    "full_name": "cpinte/pymcfost",
+    "html_url": "https://github.com/cpinte/pymcfost",
+    "description": "python interface to the 3D radiative transfer code mcfost",
+    "created_at": "2018-09-24T08:35:29Z",
+    "updated_at": "2022-07-17T02:33:50Z",
+    "clone_url": "https://github.com/cpinte/pymcfost.git",
+    "size": 422,
+    "stargazers_count": 11,
+    "watchers_count": 11,
+    "language": "Python",
+    "open_issues_count": 1,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/cpinte",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4163533?v=4",
+      "login": "cpinte",
+      "type": "User"
+    },
+    "timestamp": "2022-08-07 00:44:18.268771",
+    "avatar": "https://avatars.githubusercontent.com/u/4163533?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install pymcfost\"",
+        "\"pymcfost is a python interface to the 3D radiative transfer code mcfost. The goal is to provide a simple and light interface to explore and plot a single (or a few) model(s).\"",
+        "Functionality includes: \"set up continuum and line models,\" \"plot observables : SEDs, image (with convolution), polarisation maps and vectors, visibilities, channels maps..., moment maps.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:12:00Z"
+    }
+  }
+}

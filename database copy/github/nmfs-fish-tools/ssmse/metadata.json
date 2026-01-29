@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/nmfs-fish-tools/ssmse",
+  "url": "https://github.com/nmfs-fish-tools/SSMSE",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.10014307",
+    "name": "SSMSE",
+    "url": "https://github.com/nmfs-fish-tools/SSMSE",
+    "full_name": "nmfs-fish-tools/SSMSE",
+    "html_url": "https://github.com/nmfs-fish-tools/SSMSE",
+    "description": "Management Strategy Evaluation (MSE) using Stock Synthesis (SS3)",
+    "created_at": "2019-07-15T20:44:06Z",
+    "updated_at": "2023-09-08T15:35:54Z",
+    "clone_url": "https://github.com/nmfs-fish-tools/SSMSE.git",
+    "homepage": "https://noaa-fisheries-integrated-toolbox.github.io/SSMSE",
+    "size": 41934,
+    "stargazers_count": 14,
+    "watchers_count": 14,
+    "language": "R",
+    "open_issues_count": 29,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 9,
+    "owner": {
+      "html_url": "https://github.com/nmfs-fish-tools",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49072821?v=4",
+      "login": "nmfs-fish-tools",
+      "type": "Organization"
+    },
+    "topics": [
+      "stock-synthesis"
+    ],
+    "timestamp": "2023-11-05 00:33:46.662274",
+    "avatar": "https://avatars.githubusercontent.com/u/49072821?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"remotes::install_github(\"nmfs-ost/SSMSE\")\"",
+        "\"The United States Department of Commerce (DOC) GitHub project code is provided on an ‘as is’ basis\" and NOAA/NOAA Fisheries logos and links indicate a U.S. government research organization.",
+        "\"This package was developed to increase the ease of using the stock assessment software Stock Synthesis (SS3) directly as an operating model (OM) in Management Strategy Evaluation (MSE).\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:39:54Z"
+    }
+  }
+}

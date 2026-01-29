@@ -1,0 +1,73 @@
+{
+  "parser": "github",
+  "uid": "github/Schuch666/eva3dm",
+  "url": "https://github.com/Schuch666/eva3dm",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.15213216",
+    "name": "eva3dm",
+    "url": "https://github.com/Schuch666/eva3dm",
+    "full_name": "Schuch666/eva3dm",
+    "html_url": "https://github.com/Schuch666/eva3dm",
+    "description": "A package to evaluate 3d weather and air quality models",
+    "created_at": "2024-04-25T20:36:46Z",
+    "updated_at": "2025-04-17T18:52:39Z",
+    "clone_url": "https://github.com/Schuch666/eva3dm.git",
+    "homepage": "https://schuch666.github.io/eva3dm/",
+    "size": 9473,
+    "stargazers_count": 4,
+    "watchers_count": 4,
+    "language": "R",
+    "open_issues_count": 10,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/Schuch666",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32721340?v=4",
+      "login": "Schuch666",
+      "type": "User"
+    },
+    "topics": [
+      "air-quality-model",
+      "atmos",
+      "atmosphere",
+      "atmospheric-chemistry",
+      "atmospheric-modelling",
+      "atmospheric-models",
+      "atmospheric-science",
+      "evaluation",
+      "model-evaluation",
+      "model-evaluation-metrics",
+      "wrf-chem",
+      "air-quality-model-evaluation"
+    ],
+    "timestamp": "2025-04-20 00:52:36.844939",
+    "avatar": "https://avatars.githubusercontent.com/u/32721340?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"`install.packages(\"eva3dm\")`\"",
+        "\"An R-package focusing on **EVA**luation of **3D** weather and air quality **M**odels, streamlining the entire workflow from data preparation to post-processing, statistical analysis, and visualization\" (domain-specific analysis toolkit).",
+        "\"Integration with other packages like `terra`, `ncdf4`, `qualR`, `riem` and `openair`\" and many functions are meant to be called from R code, indicating it is used as a library/dependency."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T20:18:34Z"
+    }
+  }
+}

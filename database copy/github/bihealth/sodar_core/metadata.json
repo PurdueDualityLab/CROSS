@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/bihealth/sodar_core",
+  "url": "https://github.com/bihealth/sodar_core",
+  "data": {
+    "timestamp": "2020-11-22 00:31:56.600080",
+    "name": "sodar_core",
+    "url": "https://api.github.com/repos/bihealth/sodar_core",
+    "full_name": "bihealth/sodar_core",
+    "html_url": "https://github.com/bihealth/sodar_core",
+    "private": false,
+    "description": "Django-based framework for building scientific data management web apps.",
+    "created_at": "2019-01-11T09:50:04Z",
+    "updated_at": "2020-11-12T08:51:31Z",
+    "clone_url": "https://github.com/bihealth/sodar_core.git",
+    "homepage": "",
+    "size": 3317,
+    "stargazers_count": 9,
+    "watchers_count": 9,
+    "language": "Python",
+    "open_issues_count": 0,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 6,
+    "owner": {
+      "html_url": "https://github.com/bihealth",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/11364301?v=4",
+      "login": "bihealth",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "doi": "https://doi.org/10.5281/zenodo.4269347",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install django-sodar-core==0.10.12\"",
+        "\"SODAR Core is a framework for Django web application development.\" and \"These apps can be used for any Django application\" – indicates it is a reusable framework/library consumed by other Django projects, i.e., a dependency.",
+        "\"It was conceived to facilitate the creation of scientific data management and analysis web applications\" – shows it supports building research applications rather than directly doing the analysis itself, i.e., research-support tooling."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T22:04:48Z"
+    }
+  }
+}

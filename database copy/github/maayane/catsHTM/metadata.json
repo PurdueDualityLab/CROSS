@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/maayane/catsHTM",
+  "url": "https://github.com/maayane/catsHTM",
+  "data": {
+    "doi": [
+      "http://adsabs.harvard.edu/abs/2018PASP..130g5002S",
+      "https://ui.adsabs.harvard.edu/abs/2018ascl.soft10013S/abstract"
+    ],
+    "title": "catsHTM: Catalog cross-matching tool",
+    "url": "https://github.com/maayane/catsHTM",
+    "name": "catsHTM",
+    "full_name": "maayane/catsHTM",
+    "html_url": "https://github.com/maayane/catsHTM",
+    "description": "A tool for fast accessing and cross-matching large astronomical catalogs",
+    "created_at": "2018-03-27T08:18:03Z",
+    "updated_at": "2022-03-18T08:36:14Z",
+    "clone_url": "https://github.com/maayane/catsHTM.git",
+    "size": 25872,
+    "stargazers_count": 22,
+    "watchers_count": 22,
+    "language": "Python",
+    "open_issues_count": 2,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "subscribers_count": 7,
+    "owner": {
+      "html_url": "https://github.com/maayane",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9591631?v=4",
+      "login": "maayane",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:17:49.956833",
+    "avatar": "https://avatars.githubusercontent.com/u/9591631?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"* Web download is now available. See instructions [here](http://euler1.weizmann.ac.il/catsHTM/)\"",
+        "\"The `catsHTM` package is a tool for fast accessing and cross-matching large astronomical catalogs\"",
+        "Usage shown as an end-user script: `>>> import catsHTM` then `catsHTM.cone_search('FIRST',0,0,500)` and `catsHTM.xmatch_2cats('FIRST','NVSS',...)`"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:59:47Z"
+    }
+  }
+}

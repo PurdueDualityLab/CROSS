@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/JuliaArrays/LazyArrays.jl",
+  "url": "https://github.com/JuliaArrays/LazyArrays.jl",
+  "data": {
+    "timestamp": "2022-05-12 03:43:40.040289",
+    "name": "LazyArrays.jl",
+    "url": "https://api.github.com/repos/JuliaArrays/LazyArrays.jl",
+    "full_name": "JuliaArrays/LazyArrays.jl",
+    "html_url": "https://github.com/JuliaArrays/LazyArrays.jl",
+    "private": false,
+    "description": "Lazy arrays and linear algebra in Julia",
+    "created_at": "2018-06-06T14:17:05Z",
+    "updated_at": "2022-05-05T08:32:39Z",
+    "clone_url": "https://github.com/JuliaArrays/LazyArrays.jl.git",
+    "homepage": "",
+    "size": 1132,
+    "stargazers_count": 213,
+    "watchers_count": 213,
+    "language": "Julia",
+    "open_issues_count": 34,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 8,
+    "owner": {
+      "html_url": "https://github.com/JuliaArrays",
+      "avatar_url": "https://avatars.githubusercontent.com/u/21312771?v=4",
+      "login": "JuliaArrays",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "rsotm": "2022-02",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "Julia General registry (Julia package ecosystem)",
+      "evidence": [
+        "Owner is the GitHub organization `JuliaArrays`, indicating a community project around Julia array tooling.",
+        "README: \"This package supports lazy analogues of array operations\" and examples use `using LazyArrays, LinearAlgebra`, showing it is a Julia package intended to be imported as a dependency.",
+        "Badge: `pkgeval` from `juliahub.com/docs/General/LazyArrays` indicates it is registered in Julia’s General package registry and distributed via the Julia package manager."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T18:07:22Z"
+    }
+  }
+}

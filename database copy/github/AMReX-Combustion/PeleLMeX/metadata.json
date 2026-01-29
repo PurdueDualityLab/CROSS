@@ -1,0 +1,65 @@
+{
+  "parser": "github",
+  "uid": "github/AMReX-Combustion/PeleLMeX",
+  "url": "https://github.com/AMReX-Combustion/PeleLMeX",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.10056232",
+    "name": "PeleLMeX",
+    "url": "https://github.com/AMReX-Combustion/PeleLMeX",
+    "full_name": "AMReX-Combustion/PeleLMeX",
+    "html_url": "https://github.com/AMReX-Combustion/PeleLMeX",
+    "description": "An adaptive mesh hydrodynamics simulation code for low Mach number reacting flows without level sub-cycling.",
+    "created_at": "2021-03-05T00:56:50Z",
+    "updated_at": "2023-10-31T08:29:21Z",
+    "clone_url": "https://github.com/AMReX-Combustion/PeleLMeX.git",
+    "homepage": "https://amrex-combustion.github.io/PeleLMeX/",
+    "size": 201450,
+    "stargazers_count": 16,
+    "watchers_count": 16,
+    "language": "C++",
+    "open_issues_count": 5,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "subscribers_count": 10,
+    "owner": {
+      "html_url": "https://github.com/AMReX-Combustion",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28372265?v=4",
+      "login": "AMReX-Combustion",
+      "type": "Organization"
+    },
+    "topics": [
+      "amrex",
+      "combustion",
+      "low-mach-number",
+      "gpu-acceleration"
+    ],
+    "timestamp": "2023-11-05 00:33:45.710910",
+    "avatar": "https://avatars.githubusercontent.com/u/28372265?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"well as [CMake](https://cmake.org/download/) >= 3.23 for compiling the [SUNDIALS](https://github.com/LLNL/sundials) third party library.\"",
+        "“PeleLMeX is a solver for high fidelity reactive flow simulations, namely direct numerical simulation (DNS) and large eddy simulation (LES).”",
+        "“Both GNUmake and CMake can be used to build *PeleLMeX* executables.”"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T16:20:40Z"
+    }
+  }
+}

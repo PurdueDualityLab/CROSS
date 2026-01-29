@@ -1,0 +1,68 @@
+{
+  "parser": "github",
+  "uid": "github/anuwu/GOTHIC",
+  "url": "https://github.com/anuwu/GOTHIC",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2020arXiv201112177B",
+      "https://ui.adsabs.harvard.edu/abs/2020ascl.soft11008B/abstract"
+    ],
+    "title": "GOTHIC: Double nuclei galaxy detector",
+    "url": "https://github.com/anuwu/GOTHIC",
+    "name": "GOTHIC",
+    "full_name": "anuwu/GOTHIC",
+    "html_url": "https://github.com/anuwu/GOTHIC",
+    "description": "Double Nuclei Galaxy Finder from SDSS. Check https://arxiv.org/abs/2011.12177",
+    "created_at": "2020-01-13T17:07:49Z",
+    "updated_at": "2022-06-27T12:25:08Z",
+    "clone_url": "https://github.com/anuwu/GOTHIC.git",
+    "size": 1249,
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/anuwu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45432794?v=4",
+      "login": "anuwu",
+      "type": "User"
+    },
+    "topics": [
+      "sdss",
+      "astronomy",
+      "astrophysics",
+      "astroinformatics",
+      "image-processing",
+      "image-classification",
+      "rare-object-detection"
+    ],
+    "timestamp": "2022-07-17 17:13:32.009477",
+    "avatar": "https://avatars.githubusercontent.com/u/45432794?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"The aim of this project is automate searching the Sloan Digital Sky Survey (**SDSS**) catalog to find galaxies that look similar to NGC-3758\"",
+        "\"How do I conduct my own grand search? - Clone this repository to your local directory or your google drive... Run the `DAGN-Blindtest.ipynb` notebook. It is self-explanatory.\"",
+        "\"We have found about 25, previously undiscovered, confirmed double-nuclei galaxies using this pipeline. Here are some of them, and there are more to come!\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T21:19:12Z"
+    }
+  }
+}

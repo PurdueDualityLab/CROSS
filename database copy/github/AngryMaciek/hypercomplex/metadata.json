@@ -1,0 +1,64 @@
+{
+  "parser": "github",
+  "uid": "github/AngryMaciek/hypercomplex",
+  "url": "https://github.com/AngryMaciek/hypercomplex",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.7938823",
+    "name": "hypercomplex",
+    "url": "https://github.com/AngryMaciek/hypercomplex",
+    "full_name": "AngryMaciek/hypercomplex",
+    "html_url": "https://github.com/AngryMaciek/hypercomplex",
+    "description": "Abstract & fast header-only C++ template library for lattice-based cryptosystems in high-dimensional algebras",
+    "created_at": "2020-10-22T11:26:51Z",
+    "updated_at": "2023-05-16T14:09:15Z",
+    "clone_url": "https://github.com/AngryMaciek/hypercomplex.git",
+    "homepage": "https://angrymaciek.github.io/hypercomplex",
+    "size": 2020,
+    "language": "C++",
+    "open_issues_count": 9,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/AngryMaciek",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19755308?v=4",
+      "login": "AngryMaciek",
+      "type": "User"
+    },
+    "topics": [
+      "algebra",
+      "mathematics",
+      "precision",
+      "cryptography",
+      "post-quantum-cryptography"
+    ],
+    "timestamp": "2023-05-21 00:37:44.928272",
+    "avatar": "https://avatars.githubusercontent.com/u/19755308?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "conda (Anaconda)",
+      "evidence": [
+        "\"Header-only *C++* template library for lattice-based cryptosystems in high-dimensional algebras.\" (indicates a reusable library, i.e., dependency)",
+        "\"Full documentation & API are available...\" and JOSS publication imply it is used to implement cryptographic research computations (direct research execution).",
+        "Badges: \"[![conda](https://anaconda.org/angrymaciek/hypercomplex/badges/version.svg)](https://anaconda.org/AngryMaciek/hypercomplex)\" and \"[![DockerHub]...](https://hub.docker.com/r/angrymaciek/hypercomplex)\" show distribution via Anaconda (package registry) and Docker Hub. The owner is a single GitHub user \"AngryMaciek\", suggesting an individual maintainer."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T16:35:48Z"
+    }
+  }
+}

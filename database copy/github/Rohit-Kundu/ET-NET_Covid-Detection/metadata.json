@@ -1,0 +1,65 @@
+{
+  "parser": "github",
+  "uid": "github/Rohit-Kundu/ET-NET_Covid-Detection",
+  "url": "https://github.com/Rohit-Kundu/ET-NET_Covid-Detection",
+  "data": {
+    "timestamp": "2022-03-06 00:44:45.039208",
+    "name": "ET-NET_Covid-Detection",
+    "url": "https://api.github.com/repos/Rohit-Kundu/ET-NET_Covid-Detection",
+    "full_name": "Rohit-Kundu/ET-NET_Covid-Detection",
+    "html_url": "https://github.com/Rohit-Kundu/ET-NET_Covid-Detection",
+    "private": false,
+    "description": "An Ensemble Transfer Learning Network for COVID-19 detection from lung CT-scan images.",
+    "created_at": "2021-07-07T06:14:47Z",
+    "updated_at": "2021-09-08T03:53:16Z",
+    "clone_url": "https://github.com/Rohit-Kundu/ET-NET_Covid-Detection.git",
+    "homepage": "",
+    "size": 19,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": "Python",
+    "open_issues_count": 0,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/Rohit-Kundu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/80497999?v=4",
+      "login": "Rohit-Kundu",
+      "type": "User"
+    },
+    "topics": [
+      "deep-learning",
+      "ensemble-learning",
+      "covid-19",
+      "ct-scan-images"
+    ]
+  },
+  "doi": "10.1007/S11042-021-11319-8",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"Download the dataset from [Kaggle](https://www.kaggle.com/plameneduardo/sarscov2-ctscan-dataset) and split it into 5-fold cross-validation train and validation sets.\"",
+        "\"To run the ensemble model on the base learners run the following: `python main.py --root \"path/\"`\" (indicates an end-user executable application script)",
+        "\"Based on our paper \\\"ET-NET: An Ensemble of Transfer Learning Models for Prediction of COVID-19 Infection through Chest CT-scan Images\\\"\" (links software directly to research analysis/results)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T20:10:14Z"
+    }
+  }
+}

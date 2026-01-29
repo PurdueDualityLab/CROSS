@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/cagrikymk/JAX-ReaxFF",
+  "url": "https://github.com/cagrikymk/JAX-ReaxFF",
+  "data": {
+    "doi": "10.1021/ACS.JCTC.2C00363",
+    "name": "JAX-ReaxFF",
+    "url": "https://github.com/cagrikymk/JAX-ReaxFF",
+    "full_name": "cagrikymk/JAX-ReaxFF",
+    "html_url": "https://github.com/cagrikymk/JAX-ReaxFF",
+    "description": "JAX-ReaxFF: A Gradient Based Framework for Extremely Fast Optimization of Reactive Force Fields",
+    "created_at": "2021-07-25T18:26:48Z",
+    "updated_at": "2022-10-23T00:31:11Z",
+    "clone_url": "https://github.com/cagrikymk/JAX-ReaxFF.git",
+    "size": 664,
+    "stargazers_count": 28,
+    "watchers_count": 28,
+    "language": "Python",
+    "open_issues_count": 3,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/cagrikymk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15324155?v=4",
+      "login": "cagrikymk",
+      "type": "User"
+    },
+    "timestamp": "2022-10-23 00:55:29.366139",
+    "avatar": "https://avatars.githubusercontent.com/u/15324155?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install .\"",
+        "\"JAX-ReaxFF: A Gradient Based Framework for Extremely Fast Optimization of Reactive Force Fields\"",
+        "\"We present JAX-Reaxff, a new optimizer that leverages modern machine learning infrastructure to dramatically speed up this process.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T22:33:17Z"
+    }
+  }
+}

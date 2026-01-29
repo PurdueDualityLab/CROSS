@@ -1,0 +1,68 @@
+{
+  "parser": "github",
+  "uid": "github/Keck-DataReductionPipelines/KcwiDRP",
+  "url": "https://github.com/Keck-DataReductionPipelines/KcwiDRP",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2021ApJ...914...92M",
+      "https://ui.adsabs.harvard.edu/abs/2023ascl.soft01018N/abstract"
+    ],
+    "title": "kderp: Keck Cosmic Web Imager Data Extraction and Reduction Pipeline in IDL",
+    "url": "https://github.com/Keck-DataReductionPipelines/KcwiDRP",
+    "name": "KcwiDRP",
+    "full_name": "Keck-DataReductionPipelines/KcwiDRP",
+    "html_url": "https://github.com/Keck-DataReductionPipelines/KcwiDRP",
+    "description": "KCWI data reduction pipeline. Developers: Don Neill, Matt Matuszewski, Chris Martin (Caltech)",
+    "created_at": "2018-03-12T21:32:16Z",
+    "updated_at": "2022-05-09T17:09:01Z",
+    "clone_url": "https://github.com/Keck-DataReductionPipelines/KcwiDRP.git",
+    "size": 8479,
+    "stargazers_count": 9,
+    "watchers_count": 9,
+    "language": "IDL",
+    "open_issues_count": 4,
+    "license": {
+      "key": "gpl-2.0",
+      "name": "GNU General Public License v2.0",
+      "spdx_id": "GPL-2.0",
+      "url": "https://api.github.com/licenses/gpl-2.0",
+      "node_id": "MDc6TGljZW5zZTg="
+    },
+    "subscribers_count": 7,
+    "owner": {
+      "html_url": "https://github.com/Keck-DataReductionPipelines",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9344298?v=4",
+      "login": "Keck-DataReductionPipelines",
+      "type": "Organization"
+    },
+    "topics": [
+      "kcwi",
+      "keck",
+      "drp",
+      "idl"
+    ],
+    "timestamp": "2023-02-05 00:40:44.327839",
+    "avatar": "https://avatars.githubusercontent.com/u/9344298?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"KCWI Data Extraction and Reduction Pipeline\" indicates a domain-specific data reduction pipeline, suggesting an end-user scientific application.",
+        "The repository name and brief description imply it is used to extract and reduce KCWI data, a core scientific data-processing task (direct research execution).",
+        "The README only presents the repository and refers to another file for details, with no mention of package managers or binaries, implying distribution via the source repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T18:11:25Z"
+    }
+  }
+}

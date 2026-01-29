@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/alejostark/phase_space_cosmo_fisher",
+  "url": "https://github.com/alejostark/phase_space_cosmo_fisher",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2017PhRvD..96b3543S",
+      "https://ui.adsabs.harvard.edu/abs/2016ascl.soft11019S/abstract"
+    ],
+    "title": "phase_space_cosmo_fisher: Fisher matrix 2D contours",
+    "url": "https://github.com/alejostark/phase_space_cosmo_fisher",
+    "name": "phase_space_cosmo_fisher",
+    "full_name": "alejostark/phase_space_cosmo_fisher",
+    "html_url": "https://github.com/alejostark/phase_space_cosmo_fisher",
+    "description": "Code used to produce Fisher matrix contours in Stark, Miller Huterer 2016",
+    "created_at": "2016-11-17T17:20:02Z",
+    "updated_at": "2017-09-13T09:30:27Z",
+    "clone_url": "https://github.com/alejostark/phase_space_cosmo_fisher.git",
+    "size": 100,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Python",
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/alejostark",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5475327?v=4",
+      "login": "alejostark",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:20:59.004180",
+    "avatar": "https://avatars.githubusercontent.com/u/5475327?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Codes used to produce Fisher matrix 2D contours found in Stark, Miller Huterer 2017\"",
+        "\"This is the main code which calculates the fisher matrix and generates 2d marginalized contours of cosmological parameters...\"",
+        "\"Open fisher_matrix.py ... Run fisher_matrix to generate 2d contours of whatever cosmological case you specify.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T21:04:53Z"
+    }
+  }
+}

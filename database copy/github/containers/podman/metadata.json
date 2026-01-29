@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/containers/podman",
+  "url": "https://github.com/containers/podman",
+  "data": {
+    "timestamp": "2021-03-07 10:16:22.385101",
+    "name": "podman",
+    "url": "https://api.github.com/repos/containers/podman",
+    "full_name": "containers/podman",
+    "html_url": "https://github.com/containers/podman",
+    "private": false,
+    "description": "Podman: A tool for managing OCI containers and pods",
+    "created_at": "2017-11-01T15:01:27Z",
+    "updated_at": "2021-03-07T17:00:28Z",
+    "clone_url": "https://github.com/containers/podman.git",
+    "homepage": "",
+    "size": 71368,
+    "stargazers_count": 7455,
+    "watchers_count": 7455,
+    "language": "Go",
+    "open_issues_count": 249,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "subscribers_count": 164,
+    "owner": {
+      "html_url": "https://github.com/containers",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5874934?v=4",
+      "login": "containers",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Infrastructure",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"[![LFX Health Score](https://insights.linuxfoundation.org/api/badge/health-score?project=podman-container-tools&repos=https://github.com/containers/podman)](https://insights.linuxfoundation.org/projec\"",
+        "\"Podman (the POD MANager) is a tool for managing containers and images, volumes mounted into those containers, and pods made from groups of containers.\"",
+        "\"Podman runs containers on Linux, but can also be used on Mac and Windows systems using a Podman-managed virtual machine.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:10:50Z"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/adammoss/supernovae",
+  "url": "https://github.com/adammoss/supernovae",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2017ApJ...837L..28C",
+      "https://ui.adsabs.harvard.edu/abs/2017ascl.soft05017C/abstract"
+    ],
+    "title": "supernovae: Photometric classification of supernovae",
+    "url": "https://github.com/adammoss/supernovae",
+    "name": "supernovae",
+    "full_name": "adammoss/supernovae",
+    "html_url": "https://github.com/adammoss/supernovae",
+    "created_at": "2016-06-20T19:28:42Z",
+    "updated_at": "2021-02-06T03:07:39Z",
+    "clone_url": "https://github.com/adammoss/supernovae.git",
+    "size": 89987,
+    "stargazers_count": 9,
+    "watchers_count": 9,
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/adammoss",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3430494?v=4",
+      "login": "adammoss",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:20:19.016802",
+    "avatar": "https://avatars.githubusercontent.com/u/3430494?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Code to classify supernovae based on their lightcurves.\"",
+        "Usage is via direct execution of scripts: \"python preprocess.py\", \"python run.py -f test.ini\", \"python arch.py\"",
+        "No mention of package managers or releases; instructions assume cloning and running from the repository with commands like \"python run.py -f test.ini\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T20:44:37Z"
+    }
+  }
+}

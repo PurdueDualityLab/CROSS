@@ -1,0 +1,63 @@
+{
+  "parser": "github",
+  "uid": "github/ssadedin/bazam",
+  "url": "https://github.com/ssadedin/bazam",
+  "data": {
+    "title": "bazam",
+    "url": "https://github.com/ssadedin/bazam",
+    "credit": [],
+    "tags": [
+      "high-throughput-sequencing",
+      "utilities"
+    ],
+    "description": "A read extraction and realignment tool for next generation sequencing data",
+    "name": "bazam",
+    "full_name": "ssadedin/bazam",
+    "html_url": "https://github.com/ssadedin/bazam",
+    "created_at": "2018-05-01T00:05:39Z",
+    "updated_at": "2022-07-18T20:52:40Z",
+    "clone_url": "https://github.com/ssadedin/bazam.git",
+    "size": 1653,
+    "stargazers_count": 86,
+    "watchers_count": 86,
+    "language": "Groovy",
+    "open_issues_count": 19,
+    "license": {
+      "key": "lgpl-2.1",
+      "name": "GNU Lesser General Public License v2.1",
+      "spdx_id": "LGPL-2.1",
+      "url": "https://api.github.com/licenses/lgpl-2.1",
+      "node_id": "MDc6TGljZW5zZTEx"
+    },
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/ssadedin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/138868?v=4",
+      "login": "ssadedin",
+      "type": "User"
+    },
+    "timestamp": "2022-07-18 17:43:27.577724",
+    "avatar": "https://avatars.githubusercontent.com/u/138868?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "conda",
+      "evidence": [
+        "README install command: \"conda install -c bioconda bazam\"",
+        "\"A tool to extract paired reads in FASTQ format from coordinate sorted BAM files.\"",
+        "\"Bazam is released as an executable JAR file that you can run directly with java\" and example using `java -jar bazam.jar` show it is run as an end-user tool."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T03:46:10Z"
+    }
+  }
+}

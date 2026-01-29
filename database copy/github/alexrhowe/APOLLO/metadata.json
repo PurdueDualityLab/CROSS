@@ -1,0 +1,55 @@
+{
+  "parser": "github",
+  "uid": "github/alexrhowe/APOLLO",
+  "url": "https://github.com/alexrhowe/APOLLO",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2017ApJ...835...96H",
+      "https://ui.adsabs.harvard.edu/abs/2023ascl.soft07058H/abstract"
+    ],
+    "title": "APOLLO:  Radiative transfer and atmosphere spectroscopic retrieval for exoplanets",
+    "url": "https://github.com/alexrhowe/APOLLO",
+    "name": "APOLLO",
+    "full_name": "alexrhowe/APOLLO",
+    "html_url": "https://github.com/alexrhowe/APOLLO",
+    "description": "Atmosphere retrieval code for exoplanets",
+    "created_at": "2019-07-23T18:30:37Z",
+    "updated_at": "2022-07-05T18:09:08Z",
+    "clone_url": "https://github.com/alexrhowe/APOLLO.git",
+    "size": 3630,
+    "stargazers_count": 4,
+    "watchers_count": 4,
+    "language": "Python",
+    "open_issues_count": 45,
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/alexrhowe",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53234440?v=4",
+      "login": "alexrhowe",
+      "type": "User"
+    },
+    "timestamp": "2023-08-12 18:54:55.270863",
+    "avatar": "https://avatars.githubusercontent.com/u/53234440?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"USER GUIDE TO THE APOLLO ATMOSPHERE RETRIEVAL CODE\" and \"APOLLO is an atmosphere code for extrasolar planets designed to fit forward models to both transit and emission spectra and to retrieve atmospheric properties.\"",
+        "\"APOLLO has two operational modes: one to compute a planetary spectrum given a set of parameters, and one to retrieve those parameters based on an observed spectrum. For most purposes, the code is called with two command line arguments: python Apollo.py <input file> <Spectrum OR Retrieval>\"",
+        "\"To install APOLLO, unpack the Apollo.tar tarfile, and compile the code IN THE SRC DIRECTORY using the Cython setup file: python setup.py build_ext --inplace\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T21:05:46Z"
+    }
+  }
+}

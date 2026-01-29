@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/nikhilroxtomar/FANet",
+  "url": "https://github.com/nikhilroxtomar/FANet",
+  "data": {
+    "timestamp": "2022-06-26 00:42:42.328098",
+    "name": "FANet",
+    "url": "https://api.github.com/repos/nikhilroxtomar/FANet",
+    "full_name": "nikhilroxtomar/FANet",
+    "html_url": "https://github.com/nikhilroxtomar/FANet",
+    "private": false,
+    "description": "FANet: A Feedback Attention Network for Improved Biomedical Image Segmentation [IEEE Transactions on Neural Networks and Learning Systems]",
+    "created_at": "2020-11-04T14:26:03Z",
+    "updated_at": "2022-06-17T14:28:08Z",
+    "clone_url": "https://github.com/nikhilroxtomar/FANet.git",
+    "homepage": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9741842",
+    "size": 558,
+    "stargazers_count": 9,
+    "watchers_count": 9,
+    "language": "Python",
+    "open_issues_count": 1,
+    "license": null,
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/nikhilroxtomar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17056306?v=4",
+      "login": "nikhilroxtomar",
+      "type": "User"
+    },
+    "topics": [
+      "semantic-segmentation",
+      "deep-learning",
+      "computer-vision",
+      "machine-learning",
+      "unet",
+      "pytorch"
+    ]
+  },
+  "doi": "10.1109/TNNLS.2022.3159394",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "Title and description present FANet as a specific model implementation: \"FANet: A Feedback Attention Network for Improved Biomedical Image Segmentation\" and \"We propose a novel architecture called feedback attention network (FANet)...\" indicating an end-user research application for segmentation.",
+        "Abstract describes using the network to produce segmentation results on datasets: \"We show that our proposed feedback attention model provides a substantial improvement on most segmentation metrics tested on seven publicly available biomedical imaging datasets\" indicating direct production of research results.",
+        "README provides only paper link, architecture figure, datasets, and citation, with no mention of package managers or binaries, implying use via cloning the repository/source."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T01:38:14Z"
+    }
+  }
+}

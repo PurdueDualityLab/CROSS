@@ -1,0 +1,67 @@
+{
+  "parser": "github",
+  "uid": "github/pokynmr/ipick",
+  "url": "https://github.com/pokynmr/iPick",
+  "data": {
+    "timestamp": "2021-10-03 00:37:18.416804",
+    "name": "iPick",
+    "url": "https://api.github.com/repos/pokynmr/iPick",
+    "full_name": "pokynmr/iPick",
+    "html_url": "https://github.com/pokynmr/iPick",
+    "private": false,
+    "description": "Multiprocessing Peak Picking Software for UCSF NMR Spectra",
+    "created_at": "2020-06-15T20:13:53Z",
+    "updated_at": "2021-07-08T11:47:58Z",
+    "clone_url": "https://github.com/pokynmr/iPick.git",
+    "homepage": "",
+    "size": 1320,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "Python",
+    "open_issues_count": 0,
+    "license": {
+      "key": "bsd-2-clause",
+      "name": "BSD 2-Clause \"Simplified\" License",
+      "spdx_id": "BSD-2-Clause",
+      "url": "https://api.github.com/licenses/bsd-2-clause",
+      "node_id": "MDc6TGljZW5zZTQ="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/pokynmr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46821344?v=4",
+      "login": "pokynmr",
+      "type": "User"
+    },
+    "topics": [
+      "peaks",
+      "nmrfam-sparky",
+      "reliability-score",
+      "noise-peaks",
+      "spectra",
+      "nmr"
+    ]
+  },
+  "doi": "10.1016/J.JMR.2021.106995",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"Open a Terminal and download the code:\"",
+        "\"Multiprocessing Peak Picking Software for UCSF NMR Spectra\" and described as a program/module used to perform the peak picking task in NMR spectra, indicating an end-user analysis application.",
+        "\"If you want to use the code from this repository, you can run the module by following these steps: Open a Terminal and download the code: git clone https://github.com/pokynmr/iPick.git\" (distribution via cloning source repo)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:55:04Z"
+    }
+  }
+}

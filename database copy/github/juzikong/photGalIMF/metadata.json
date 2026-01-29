@@ -1,0 +1,49 @@
+{
+  "parser": "github",
+  "uid": "github/juzikong/photGalIMF",
+  "url": "https://github.com/juzikong/photGalIMF",
+  "data": {
+    "doi": [],
+    "title": "photGalIMF",
+    "url": "https://github.com/juzikong/photGalIMF",
+    "name": "photGalIMF",
+    "full_name": "juzikong/photGalIMF",
+    "html_url": "https://github.com/juzikong/photGalIMF",
+    "description": "supplementary repository of the GalIMF galaxy chemical evolution code to calculate photometric luminosity of simulated galaxies",
+    "created_at": "2024-01-19T09:01:50Z",
+    "updated_at": "2024-07-19T09:22:12Z",
+    "clone_url": "https://github.com/juzikong/photGalIMF.git",
+    "size": 98945,
+    "language": "Python",
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/juzikong",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20602290?v=4",
+      "login": "juzikong",
+      "type": "User"
+    },
+    "timestamp": "2024-07-21 00:39:54.811211",
+    "avatar": "https://avatars.githubusercontent.com/u/20602290?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"The photGalIMF code can calculate the stellar mass and luminosity evolution of a galaxy...\"",
+        "\"That is, this is a post-processing code. It is a supplementary repository of the GalIMF galaxy chemical evolution code to calculate (post-processing) the photometric luminosity of simulated galaxies.\"",
+        "\"You could test the code by directly running stellar_luminosity.py and/or galaxy_luminosity_evolution.py\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:40:56Z"
+    }
+  }
+}

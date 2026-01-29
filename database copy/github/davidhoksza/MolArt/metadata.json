@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/davidhoksza/MolArt",
+  "url": "https://github.com/cusbg/MolArt",
+  "data": {
+    "timestamp": "2020-11-01 00:19:30.864455",
+    "name": "MolArt",
+    "url": "https://api.github.com/repos/cusbg/MolArt",
+    "full_name": "cusbg/MolArt",
+    "html_url": "https://github.com/cusbg/MolArt",
+    "private": false,
+    "description": "MOLeculAR structure annoTator",
+    "created_at": "2018-02-22T10:07:41Z",
+    "updated_at": "2020-10-28T16:19:50Z",
+    "clone_url": "https://github.com/cusbg/MolArt.git",
+    "homepage": "https://davidhoksza.github.io/MolArt/",
+    "size": 39093,
+    "stargazers_count": 15,
+    "watchers_count": 15,
+    "language": "JavaScript",
+    "open_issues_count": 1,
+    "license": null,
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/cusbg",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/73171224?v=4",
+      "login": "cusbg",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "doi": "10.1093/bioinformatics/bty489",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"- Sequence information comes from [UniProt website REST API](https://www.uniprot.org/help/api) or can be provided by the user\"",
+        "\"MolArt is a responsive, easy-to-use JavaScript plugin which enables users to view annotated protein sequence ... and overlay the annotations over a corresponding experimental or predicted protein structure.\"",
+        "\"Since it does not have any software dependencies and all the data are obtained on the fly, it is easy to integrate it to any web page.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:28:05Z"
+    }
+  }
+}

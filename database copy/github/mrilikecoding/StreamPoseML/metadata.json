@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/mrilikecoding/StreamPoseML",
+  "url": "https://github.com/mrilikecoding/StreamPoseML",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.14298482",
+    "name": "StreamPoseML",
+    "url": "https://github.com/mrilikecoding/StreamPoseML",
+    "full_name": "mrilikecoding/StreamPoseML",
+    "html_url": "https://github.com/mrilikecoding/StreamPoseML",
+    "description": "pose estimation / ML model wrapper and annotation utility",
+    "created_at": "2023-02-21T00:06:16Z",
+    "updated_at": "2024-12-27T17:42:11Z",
+    "clone_url": "https://github.com/mrilikecoding/StreamPoseML.git",
+    "size": 29721,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "Python",
+    "open_issues_count": 9,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/mrilikecoding",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3507761?v=4",
+      "login": "mrilikecoding",
+      "type": "User"
+    },
+    "timestamp": "2024-12-29 00:48:04.734171",
+    "avatar": "https://avatars.githubusercontent.com/u/3507761?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install stream-pose-ml\"",
+        "\"StreamPoseML is an open-source toolkit for creating real-time, video-based classification applications using body pose data. It provides both a Python package and a web application\"",
+        "\"Core tools for video processing, pose extraction, dataset creation, and model training\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:27:52Z"
+    }
+  }
+}

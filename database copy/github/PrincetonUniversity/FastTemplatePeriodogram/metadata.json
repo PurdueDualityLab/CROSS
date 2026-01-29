@@ -1,0 +1,75 @@
+{
+  "parser": "github",
+  "uid": "github/PrincetonUniversity/FastTemplatePeriodogram",
+  "url": "https://github.com/PrincetonUniversity/FastTemplatePeriodogram",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2021arXiv210112348H",
+      "https://ui.adsabs.harvard.edu/abs/2021ascl.soft12025H/abstract"
+    ],
+    "title": "FTP: Fast Template Periodogram",
+    "url": "https://github.com/PrincetonUniversity/FastTemplatePeriodogram",
+    "name": "FastTemplatePeriodogram",
+    "full_name": "PrincetonUniversity/FastTemplatePeriodogram",
+    "html_url": "https://github.com/PrincetonUniversity/FastTemplatePeriodogram",
+    "description": "NlogN algorithm for least-squares fitting of periodic templates to noisy, non-equispaced time-series data.",
+    "created_at": "2016-10-24T13:22:39Z",
+    "updated_at": "2022-01-10T07:33:12Z",
+    "clone_url": "https://github.com/PrincetonUniversity/FastTemplatePeriodogram.git",
+    "size": 1953,
+    "stargazers_count": 42,
+    "watchers_count": 42,
+    "language": "Jupyter Notebook",
+    "open_issues_count": 1,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 9,
+    "owner": {
+      "html_url": "https://github.com/PrincetonUniversity",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1919273?v=4",
+      "login": "PrincetonUniversity",
+      "type": "Organization"
+    },
+    "topics": [
+      "periodogram",
+      "nfft",
+      "fourier-series",
+      "harmonics",
+      "lomb-scargle-periodogram",
+      "frequencies",
+      "optimal-parameters",
+      "time-series",
+      "astronomy",
+      "periodic",
+      "signal-processing"
+    ],
+    "timestamp": "2022-07-17 16:49:37.932409",
+    "avatar": "https://avatars.githubusercontent.com/u/1919273?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"$ pip install ftperiodogram\"",
+        "The ``ftperiodogram`` library is complete with API documentation and consistency checks using ``py.test``.",
+        "Installing with ``pip`` should work::\n\n    $ pip install ftperiodogram"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T19:51:03Z"
+    }
+  }
+}

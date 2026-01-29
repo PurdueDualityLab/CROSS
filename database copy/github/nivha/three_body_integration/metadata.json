@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/nivha/three_body_integration",
+  "url": "https://github.com/nivha/three_body_integration",
+  "data": {
+    "doi": [
+      "http://adsabs.harvard.edu/abs/2018MNRAS.479.3155H",
+      "https://ui.adsabs.harvard.edu/abs/2018ascl.soft07024H/abstract"
+    ],
+    "title": "TBI: Three-Body Integration",
+    "url": "https://github.com/nivha/three_body_integration",
+    "name": "three_body_integration",
+    "full_name": "nivha/three_body_integration",
+    "html_url": "https://github.com/nivha/three_body_integration",
+    "created_at": "2017-07-05T06:57:52Z",
+    "updated_at": "2021-05-30T12:03:07Z",
+    "clone_url": "https://github.com/nivha/three_body_integration.git",
+    "size": 60,
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/nivha",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7469704?v=4",
+      "login": "nivha",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:18:14.027282",
+    "avatar": "https://avatars.githubusercontent.com/u/7469704?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Code for our paper \\\"Extreme close approaches in hierarchical triple systems with comparable masses\\\"\"",
+        "\"The code includes the simulations done in the paper.\"",
+        "\"For a quick prediction if your three-body system is about to collide simply plug your initial conditions in predict_collision_from_initial_conditions.py\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T01:38:38Z"
+    }
+  }
+}

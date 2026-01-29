@@ -1,0 +1,48 @@
+{
+  "parser": "github",
+  "uid": "github/dusanmarceta/Synthetic-Population-of-Interstellar-Obejcts",
+  "url": "https://github.com/dusanmarceta/Synthetic-Population-of-Interstellar-Obejcts",
+  "data": {
+    "doi": [],
+    "title": "Synthetic Population of Interstellar Obejcts",
+    "url": "https://github.com/dusanmarceta/Synthetic-Population-of-Interstellar-Obejcts",
+    "name": "Synthetic-Population-of-Interstellar-Obejcts",
+    "full_name": "dusanmarceta/Synthetic-Population-of-Interstellar-Obejcts",
+    "html_url": "https://github.com/dusanmarceta/Synthetic-Population-of-Interstellar-Obejcts",
+    "created_at": "2022-09-20T08:14:51Z",
+    "updated_at": "2022-09-20T11:14:25Z",
+    "clone_url": "https://github.com/dusanmarceta/Synthetic-Population-of-Interstellar-Obejcts.git",
+    "size": 68,
+    "language": "Python",
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/dusanmarceta",
+      "avatar_url": "https://avatars.githubusercontent.com/u/103255610?v=4",
+      "login": "dusanmarceta",
+      "type": "User"
+    },
+    "timestamp": "2022-09-25 00:44:13.415499",
+    "avatar": "https://avatars.githubusercontent.com/u/103255610?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Author:      Dusan Marceta\" (single named author suggests an individual maintainer)",
+        "\"This code can be used for generating a synthetic population of interstellar objects (orbits and sizes) in arbitrary volume of space around the Sun\" (end users run the code to generate scientific data, indicating application software and direct research execution)",
+        "README describes inputs/outputs and required python libraries but gives no instructions for installation via package managers or binaries, implying use directly from the source repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T23:38:36Z"
+    }
+  }
+}

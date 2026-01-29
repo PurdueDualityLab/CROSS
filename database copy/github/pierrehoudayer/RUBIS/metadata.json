@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/pierrehoudayer/RUBIS",
+  "url": "https://github.com/pierrehoudayer/RUBIS",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2023A%26A...675A.181H",
+      "https://ui.adsabs.harvard.edu/abs/2023ascl.soft07044H/abstract"
+    ],
+    "title": "RUBIS: Fast centrifugal deformation program for stellar and planetary models",
+    "url": "https://github.com/pierrehoudayer/RUBIS",
+    "name": "RUBIS",
+    "full_name": "pierrehoudayer/RUBIS",
+    "html_url": "https://github.com/pierrehoudayer/RUBIS",
+    "description": "Rotation code Using Barotropy conservation over Isopotential Surfaces (RUBIS)",
+    "created_at": "2023-01-25T16:35:03Z",
+    "updated_at": "2023-07-04T23:51:14Z",
+    "clone_url": "https://github.com/pierrehoudayer/RUBIS.git",
+    "size": 33645,
+    "stargazers_count": 5,
+    "watchers_count": 5,
+    "language": "Python",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/pierrehoudayer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/91544829?v=4",
+      "login": "pierrehoudayer",
+      "type": "User"
+    },
+    "timestamp": "2023-08-12 18:55:04.886619",
+    "avatar": "https://avatars.githubusercontent.com/u/91544829?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Builds and releases",
+      "distribution_details": null,
+      "evidence": [
+        "\"RUBIS ... is a centrifugal deformation program that takes as input a 1D model ... and returns its deformed version\" (end users run it as a program to deform stellar/planetary models).",
+        "\"On a practical level, the user interface can be found in the file `RUBIS.py`\" (indicates a user-facing application script rather than just a library).",
+        "The README links to a tagged release: \"`RUBIS` is currently in version `v.1.1.0`...\" and provides a GitHub Releases link: \"https://github.com/pierrehoudayer/RUBIS/releases/tag/v1.1.0\" (indicating distribution via versioned releases)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T01:52:09Z"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/MRCIEU/metaboprep",
+  "url": "https://github.com/MRCIEU/metaboprep",
+  "data": {
+    "timestamp": "2021-12-05 00:38:20.070564",
+    "name": "metaboprep",
+    "url": "https://api.github.com/repos/MRCIEU/metaboprep",
+    "full_name": "MRCIEU/metaboprep",
+    "html_url": "https://github.com/MRCIEU/metaboprep",
+    "private": false,
+    "description": "a pipeline of metabolomics data processing and quality control",
+    "created_at": "2020-03-23T09:16:19Z",
+    "updated_at": "2021-12-02T14:49:08Z",
+    "clone_url": "https://github.com/MRCIEU/metaboprep.git",
+    "homepage": null,
+    "size": 17129,
+    "stargazers_count": 7,
+    "watchers_count": 7,
+    "language": "R",
+    "open_issues_count": 7,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 10,
+    "owner": {
+      "html_url": "https://github.com/MRCIEU",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15654827?v=4",
+      "login": "MRCIEU",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "doi": "10.1101/2021.07.07.451488",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"# install.packages(\"pak\")\"",
+        "\"The goal of `metaboprep` is to: 1. Read in and processes (un)targeted metabolite data... 3. Perform data filtering on the data set using a standard pipeline\" (domain-specific metabolomics analysis).",
+        "\"library(metaboprep)\" and functions like `read_metabolon(...)`, `Metaboprep(...)`, `quality_control(...)` show it is an R package intended to be imported and used as a dependency in R scripts."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T19:04:46Z"
+    }
+  }
+}

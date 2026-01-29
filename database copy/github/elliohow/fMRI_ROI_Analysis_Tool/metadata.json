@@ -1,0 +1,65 @@
+{
+  "parser": "github",
+  "uid": "github/elliohow/fMRI_ROI_Analysis_Tool",
+  "url": "https://github.com/elliohow/fMRI_ROI_Analysis_Tool",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.7877605",
+    "name": "fMRI_ROI_Analysis_Tool",
+    "url": "https://github.com/elliohow/fMRI_ROI_Analysis_Tool",
+    "full_name": "elliohow/fMRI_ROI_Analysis_Tool",
+    "html_url": "https://github.com/elliohow/fMRI_ROI_Analysis_Tool",
+    "description": "An analysis tool that uses per-voxel statistical maps in conjunction with FSL atlases to create per-region statistical maps. Current usage includes the creation of regional maps of temporal signal to noise ratio.",
+    "created_at": "2020-03-11T13:23:59Z",
+    "updated_at": "2023-05-12T13:58:01Z",
+    "clone_url": "https://github.com/elliohow/fMRI_ROI_Analysis_Tool.git",
+    "size": 342863,
+    "stargazers_count": 8,
+    "watchers_count": 8,
+    "language": "Python",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/elliohow",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47447365?v=4",
+      "login": "elliohow",
+      "type": "User"
+    },
+    "topics": [
+      "fmri",
+      "fmri-preprocessing",
+      "python",
+      "neuroimaging",
+      "brain-imaging",
+      "fmri-roi-analysis"
+    ],
+    "timestamp": "2023-05-14 00:37:18.233610",
+    "avatar": "https://avatars.githubusercontent.com/u/47447365?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Builds and releases",
+      "distribution_details": null,
+      "evidence": [
+        "\"fRAT is an open-source python-based GUI application used to simplify the processing and analysis of fMRI data by converting voxelwise maps into ROI-wise maps.\"",
+        "\"fRAT: an interactive, Python-based tool for region-of-interest summaries of functional imaging data.\"",
+        "Badge and link: \"Github release (latest by date)\" pointing to https://github.com/elliohow/fmri_roi_analysis_tool/releases/latest, and mention of versioning and tag list for releases."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T23:43:58Z"
+    }
+  }
+}

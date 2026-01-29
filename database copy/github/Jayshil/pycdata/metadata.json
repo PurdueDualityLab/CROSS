@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/Jayshil/pycdata",
+  "url": "https://github.com/Jayshil/pycdata",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2024A%26A...687A.302F",
+      "https://ui.adsabs.harvard.edu/abs/2025ascl.soft04006P/abstract"
+    ],
+    "title": "pycdata: Dataset importer for pycheops",
+    "url": "https://github.com/Jayshil/pycdata",
+    "name": "pycdata",
+    "full_name": "Jayshil/pycdata",
+    "html_url": "https://github.com/Jayshil/pycdata",
+    "description": "A module to import datasets from various instruments in pycheops",
+    "created_at": "2021-11-22T16:13:28Z",
+    "updated_at": "2024-07-31T17:33:09Z",
+    "clone_url": "https://github.com/Jayshil/pycdata.git",
+    "size": 220,
+    "language": "Python",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/Jayshil",
+      "avatar_url": "https://avatars.githubusercontent.com/u/40012574?v=4",
+      "login": "Jayshil",
+      "type": "User"
+    },
+    "timestamp": "2025-04-20 00:52:21.542236",
+    "avatar": "https://avatars.githubusercontent.com/u/40012574?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"By providing the name of the target to the `name` keyword, and choosing whether to use PDC-SAP flux with `pdc` boolean, the TESS data products, which are readable to [`pycheops`](https://github.com/pm\"",
+        "\"pycdata is a module to import datasets from various telescopes/instruments in pycheops.\"",
+        "\"from pycdata import dpr\" (used as an imported module rather than a standalone program)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T18:04:56Z"
+    }
+  }
+}

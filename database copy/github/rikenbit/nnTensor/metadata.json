@@ -1,0 +1,57 @@
+{
+  "parser": "github",
+  "uid": "github/rikenbit/nnTensor",
+  "url": "https://github.com/rikenbit/nnTensor",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.7848088",
+    "name": "nnTensor",
+    "url": "https://github.com/rikenbit/nnTensor",
+    "full_name": "rikenbit/nnTensor",
+    "html_url": "https://github.com/rikenbit/nnTensor",
+    "description": "R package for Non-negative Tensor Decomposition",
+    "created_at": "2018-05-28T09:34:32Z",
+    "updated_at": "2022-12-27T01:47:52Z",
+    "clone_url": "https://github.com/rikenbit/nnTensor.git",
+    "size": 734,
+    "stargazers_count": 12,
+    "watchers_count": 12,
+    "language": "R",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 12,
+    "owner": {
+      "html_url": "https://github.com/rikenbit",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7158513?v=4",
+      "login": "rikenbit",
+      "type": "Organization"
+    },
+    "timestamp": "2023-04-30 00:37:49.438797",
+    "avatar": "https://avatars.githubusercontent.com/u/7158513?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN",
+      "evidence": [
+        "\"R package for Non-negative Tensor Decomposition\" (indicates an R package, typically used as a library/dependency).",
+        "CRAN badges and link: \"https://cran.r-project.org/package=nnTensor\" and download badges (indicate distribution via the CRAN package registry).",
+        "The package implements non-negative matrix/tensor factorization methods used in many cited research works, implying it directly performs analytical computations for research."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T02:10:24Z"
+    }
+  }
+}

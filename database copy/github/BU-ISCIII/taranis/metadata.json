@@ -1,0 +1,67 @@
+{
+  "parser": "github",
+  "uid": "github/BU-ISCIII/taranis",
+  "url": "https://github.com/BU-ISCIII/taranis",
+  "data": {
+    "timestamp": "2022-03-27 00:53:35.943943",
+    "name": "taranis",
+    "url": "https://api.github.com/repos/BU-ISCIII/taranis",
+    "full_name": "BU-ISCIII/taranis",
+    "html_url": "https://github.com/BU-ISCIII/taranis",
+    "private": false,
+    "description": "cg/wgMLST allele calling software, schema evaluation and allele distance estimation for outbreak reserch.",
+    "created_at": "2018-10-17T15:00:53Z",
+    "updated_at": "2022-03-13T12:07:01Z",
+    "clone_url": "https://github.com/BU-ISCIII/taranis.git",
+    "homepage": "",
+    "size": 3484,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "Python",
+    "open_issues_count": 0,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/BU-ISCIII",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29040266?v=4",
+      "login": "BU-ISCIII",
+      "type": "Organization"
+    },
+    "topics": [
+      "sequencing",
+      "cgmlst",
+      "wgmlst",
+      "mlst",
+      "bacterial-genomes",
+      "outbreak-data-analysis",
+      "outbreak-detection"
+    ]
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "conda (conda-forge, bioconda)",
+      "evidence": [
+        "\"taranys is a computational stand-alone pipeline for gene-by-gene allele calling analysis based on BLASTn using whole genome (wg) and core genome (cg) multilocus sequence typing (MLST) schemas\"",
+        "Usage examples show it run as a command-line tool: `Usage: taranys analyze-schema [OPTIONS]`, `taranys allele-calling ...`, `taranys distance-matrix ...`",
+        "Installation via conda is recommended: `micromamba install -c conda-forge -c bioconda -c defaults taranys` indicating distribution through conda/bioconda package registries."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T16:40:31Z"
+    }
+  }
+}

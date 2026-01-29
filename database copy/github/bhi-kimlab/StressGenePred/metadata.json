@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/bhi-kimlab/StressGenePred",
+  "url": "https://github.com/bhi-kimlab/StressGenePred",
+  "data": {
+    "timestamp": "2020-12-27 00:31:35.257665",
+    "name": "StressGenePred",
+    "url": "https://api.github.com/repos/bhi-kimlab/StressGenePred",
+    "full_name": "bhi-kimlab/StressGenePred",
+    "html_url": "https://github.com/bhi-kimlab/StressGenePred",
+    "private": false,
+    "description": "Stress predicting framework with microarray data based on CMCL and logical correlation model",
+    "created_at": "2019-04-06T02:49:48Z",
+    "updated_at": "2019-10-16T04:09:08Z",
+    "clone_url": "https://github.com/bhi-kimlab/StressGenePred.git",
+    "homepage": null,
+    "size": 214,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": "Python",
+    "open_issues_count": 0,
+    "license": null,
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/bhi-kimlab",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/24263727?v=4",
+      "login": "bhi-kimlab",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "doi": "10.1186/S12864-019-6283-Z",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "The README describes running scripts directly: `python learn.py ...`, `python test.py ...`, indicating it is an end-user analysis program rather than a library.",
+        "The tool performs domain-specific analysis: \"Stress Predictor based on Machine Learning\" and includes \"GSEA (Gene set enrichment test) Testing\", directly generating scientific analysis outputs.",
+        "Installation/usage is via cloning and running Python scripts; there is no mention of PyPI, containers, or other registries, implying distribution via the source repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T22:04:19Z"
+    }
+  }
+}

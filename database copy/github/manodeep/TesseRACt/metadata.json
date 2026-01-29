@@ -1,0 +1,51 @@
+{
+  "parser": "github",
+  "uid": "github/manodeep/TesseRACt",
+  "url": "https://github.com/manodeep/TesseRACt",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2015ApJ...811..152L",
+      "https://ui.adsabs.harvard.edu/abs/2021ascl.soft05004L/abstract"
+    ],
+    "title": "TesseRACt: Tessellation-based Recovery of Amorphous halo Concentrations",
+    "url": "https://github.com/manodeep/TesseRACt",
+    "name": "TesseRACt",
+    "full_name": "manodeep/TesseRACt",
+    "html_url": "https://github.com/manodeep/TesseRACt",
+    "created_at": "2018-04-10T23:27:31Z",
+    "updated_at": "2018-04-10T23:31:47Z",
+    "clone_url": "https://github.com/manodeep/TesseRACt.git",
+    "size": 44581,
+    "language": "Python",
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/manodeep",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3004941?v=4",
+      "login": "manodeep",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:12:03.534678",
+    "avatar": "https://avatars.githubusercontent.com/u/3004941?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"a number of formats including Gadget-2, Gasoline, binary, and ASCII as well\"",
+        "\"The TesseRACt package is designed to compute concentrations of simulated dark matter halos from volume info for particles generated using Voronoi tesselation.\"",
+        "\"This package includes: * **vorovol**: C program for computing the Voronoi diagram of particle data... * routines for computing concentrations...\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:00:51Z"
+    }
+  }
+}

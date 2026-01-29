@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/varchasgopalaswamy/AutoUncertainties",
+  "url": "https://github.com/varchasgopalaswamy/AutoUncertainties",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.15741742",
+    "name": "AutoUncertainties",
+    "url": "https://github.com/varchasgopalaswamy/AutoUncertainties",
+    "full_name": "varchasgopalaswamy/AutoUncertainties",
+    "html_url": "https://github.com/varchasgopalaswamy/AutoUncertainties",
+    "description": "Drop-in Uncertainty Propagation with Automatic Differentiation",
+    "created_at": "2021-09-22T21:51:17Z",
+    "updated_at": "2025-07-10T10:23:28Z",
+    "clone_url": "https://github.com/varchasgopalaswamy/AutoUncertainties.git",
+    "homepage": "https://autouncertainties.readthedocs.io/en/latest/",
+    "size": 466,
+    "stargazers_count": 8,
+    "watchers_count": 8,
+    "language": "Python",
+    "open_issues_count": 6,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/varchasgopalaswamy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2359219?v=4",
+      "login": "varchasgopalaswamy",
+      "type": "User"
+    },
+    "timestamp": "2025-07-13 01:00:45.478672",
+    "avatar": "https://avatars.githubusercontent.com/u/2359219?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install auto-uncertainties\"",
+        "\"AutoUncertainties is a package that makes handling linear uncertainty propagation for scientific applications straightforward and automatic using auto-differentiation.\"",
+        "\"AutoUncertainties is a Python package for uncertainty propagation of independent random variables. It provides a drop-in mechanism to add uncertainty information to Python scalar and NumPy array objects.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:36:47Z"
+    }
+  }
+}

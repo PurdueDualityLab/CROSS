@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/TeamCOMPAS/COMPAS",
+  "url": "https://github.com/TeamCOMPAS/COMPAS",
+  "data": {
+    "timestamp": "2022-01-23 00:36:16.427983",
+    "name": "COMPAS",
+    "url": "https://api.github.com/repos/TeamCOMPAS/COMPAS",
+    "full_name": "TeamCOMPAS/COMPAS",
+    "html_url": "https://github.com/TeamCOMPAS/COMPAS",
+    "private": false,
+    "description": "COMPAS rapid binary population synthesis code",
+    "created_at": "2019-09-17T10:48:48Z",
+    "updated_at": "2021-12-24T23:42:49Z",
+    "clone_url": "https://github.com/TeamCOMPAS/COMPAS.git",
+    "homepage": "http://compas.science",
+    "size": 261759,
+    "stargazers_count": 37,
+    "watchers_count": 37,
+    "language": "Jupyter Notebook",
+    "open_issues_count": 47,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 11,
+    "owner": {
+      "html_url": "https://github.com/TeamCOMPAS",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22152683?v=4",
+      "login": "TeamCOMPAS",
+      "type": "User"
+    },
+    "topics": []
+  },
+  "doi": "https://doi.org/10.5281/zenodo.5847518",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"COMPAS is a publicly available rapid binary population synthesis code (https://compas.science/) that is designed so that evolution prescriptions and model parameters are easily\"",
+        "\"COMPAS is a publicly available rapid binary population synthesis code ... that is designed so that evolution prescriptions and model parameters are easily adjustable. COMPAS draws properties for a binary star system ... and evolves it from zero-age main sequence to the end of its life as two compact remnants.\"",
+        "\"Simulations in this paper made use of the COMPAS rapid binary population synthesis code (version X.X.X), which is freely available at http://github.com/TeamCOMPAS/COMPAS.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T20:24:35Z"
+    }
+  }
+}

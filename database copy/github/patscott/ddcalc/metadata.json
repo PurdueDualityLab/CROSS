@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/patscott/ddcalc",
+  "url": "https://github.com/patscott/DDCalc",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2020JCAP...10..015H",
+      "https://ui.adsabs.harvard.edu/abs/2017EPJC...77..831B",
+      "https://ui.adsabs.harvard.edu/abs/2020ascl.soft11030B/abstract"
+    ],
+    "title": "DDCalc: Dark matter direct detection phenomenology package",
+    "url": "https://github.com/patscott/DDCalc",
+    "name": "DDCalc",
+    "full_name": "patscott/DDCalc",
+    "html_url": "https://github.com/patscott/DDCalc",
+    "description": "Dark matter direct detection phenomenology package",
+    "created_at": "2017-03-18T21:56:44Z",
+    "updated_at": "2021-04-22T03:01:14Z",
+    "clone_url": "https://github.com/patscott/DDCalc.git",
+    "size": 6669,
+    "stargazers_count": 4,
+    "watchers_count": 4,
+    "language": "Fortran",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 7,
+    "owner": {
+      "html_url": "https://github.com/patscott",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1249657?v=4",
+      "login": "patscott",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:13:20.053220",
+    "avatar": "https://avatars.githubusercontent.com/u/1249657?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"The DDCalc software package is a set of routines and a frontend for doing various dark matter direct detection calculations for several experimental results.\"",
+        "\"The routines are designed to be accessible to other software packages.\" and list of library artifacts: \"DDCalc.o, DDCalc.a, DDCalc.so Object, static library, and shared object files for linking with other software.\"",
+        "\"Any questions, comments, or suggestions should be directed to the GAMBIT Dark Matter Workgroup, via ddcalc@projects.hepforge.org.\" and contributors list tied to specific research institutions."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T01:47:32Z"
+    }
+  }
+}

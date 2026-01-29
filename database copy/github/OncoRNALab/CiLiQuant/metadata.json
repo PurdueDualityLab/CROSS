@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/OncoRNALab/CiLiQuant",
+  "url": "https://github.com/OncoRNALab/CiLiQuant",
+  "data": {
+    "timestamp": "2021-10-03 00:37:16.417014",
+    "name": "CiLiQuant",
+    "url": "https://api.github.com/repos/OncoRNALab/CiLiQuant",
+    "full_name": "OncoRNALab/CiLiQuant",
+    "html_url": "https://github.com/OncoRNALab/CiLiQuant",
+    "private": false,
+    "description": null,
+    "created_at": "2021-09-08T10:01:41Z",
+    "updated_at": "2021-09-15T08:09:10Z",
+    "clone_url": "https://github.com/OncoRNALab/CiLiQuant.git",
+    "homepage": null,
+    "size": 163,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": "Python",
+    "open_issues_count": 0,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/OncoRNALab",
+      "avatar_url": "https://avatars.githubusercontent.com/u/74721403?v=4",
+      "login": "OncoRNALab",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"To use this tool, you can simply download the CiLiQuant.py script or clone the repository using the command line:\"",
+        "Owner is an organization named OncoRNALab, indicating a lab-based project rather than an individual or company.",
+        "\"This script separates junction reads based on their linear or circular origin... used to compare the relative linear and circular transcript abundance.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T19:42:34Z"
+    }
+  }
+}

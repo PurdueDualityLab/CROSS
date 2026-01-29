@@ -1,0 +1,63 @@
+{
+  "parser": "github",
+  "uid": "github/david-deboer/radiobear",
+  "url": "https://github.com/david-deboer/radiobear",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2019PhDT........71T",
+      "https://ui.adsabs.harvard.edu/abs/2019Icar..322..168D",
+      "https://ui.adsabs.harvard.edu/abs/2025ascl.soft02001D/abstract"
+    ],
+    "title": "RadioBEAR: BErkeley Atmospheric Radiative transfer",
+    "url": "https://github.com/david-deboer/radiobear",
+    "name": "radiobear",
+    "full_name": "david-deboer/radiobear",
+    "html_url": "https://github.com/david-deboer/radiobear",
+    "description": "radioBEAR:  radio - BErkeley Atmospheric Radiative transfer",
+    "created_at": "2019-03-16T23:51:54Z",
+    "updated_at": "2024-03-19T09:01:22Z",
+    "clone_url": "https://github.com/david-deboer/radiobear.git",
+    "size": 17407,
+    "stargazers_count": 4,
+    "watchers_count": 4,
+    "language": "Python",
+    "open_issues_count": 3,
+    "license": {
+      "key": "bsd-2-clause",
+      "name": "BSD 2-Clause \"Simplified\" License",
+      "spdx_id": "BSD-2-Clause",
+      "url": "https://api.github.com/licenses/bsd-2-clause",
+      "node_id": "MDc6TGljZW5zZTQ="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/david-deboer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4715126?v=4",
+      "login": "david-deboer",
+      "type": "User"
+    },
+    "timestamp": "2025-02-16 00:46:57.710210",
+    "avatar": "https://avatars.githubusercontent.com/u/4715126?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "\"planetary atmosphere code to calculate the brightness temperature of planetary atmospheres in the meter-to-millimeter wavelength range.\"",
+        "\"Here is an example, from working area:\n~/rbwork> from radiobear import planet\n~/rbwork> j = planet.Planet('jupiter')\n~/rbwork> catch_data = j.run(freqs='1:100:5', b='disc')\"",
+        "\"From the top-level 'radiobear' directory, install (`pip install .`)*\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T23:27:35Z"
+    }
+  }
+}

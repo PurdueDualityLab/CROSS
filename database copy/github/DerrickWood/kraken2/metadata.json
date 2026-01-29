@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/DerrickWood/kraken2",
+  "url": "https://github.com/DerrickWood/kraken2",
+  "data": {
+    "doi": "10.1101/762302",
+    "name": "kraken2",
+    "url": "https://github.com/DerrickWood/kraken2",
+    "full_name": "DerrickWood/kraken2",
+    "html_url": "https://github.com/DerrickWood/kraken2",
+    "description": "The second version of the Kraken taxonomic sequence classification system ",
+    "created_at": "2018-06-26T19:15:52Z",
+    "updated_at": "2025-05-17T16:18:02Z",
+    "clone_url": "https://github.com/DerrickWood/kraken2.git",
+    "size": 648,
+    "stargazers_count": 786,
+    "watchers_count": 786,
+    "language": "C++",
+    "open_issues_count": 536,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 28,
+    "owner": {
+      "html_url": "https://github.com/DerrickWood",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5395172?v=4",
+      "login": "DerrickWood",
+      "type": "User"
+    },
+    "timestamp": "2025-05-18 00:54:59.930204",
+    "avatar": "https://avatars.githubusercontent.com/u/5395172?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "Bioconda",
+      "evidence": [
+        "README badge: \"install with-bioconda\" linking to \"http://bioconda.github.io/recipes/kraken2/README.html\" indicates distribution via the Bioconda package registry.",
+        "Description: \"The second version of the Kraken taxonomic sequence classification system\" indicates it is an analysis tool users run for taxonomic sequence classification (application software).",
+        "Multiple references to papers and a protocol \"describing use of Kraken 2\" show it is core to producing scientific results (direct research execution)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T17:02:18Z"
+    }
+  }
+}

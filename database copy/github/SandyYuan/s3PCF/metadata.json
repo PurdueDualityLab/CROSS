@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/SandyYuan/s3PCF",
+  "url": "https://github.com/SandyYuan/s3PCF",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2017MNRAS.472..577Y",
+      "https://ui.adsabs.harvard.edu/abs/2020ascl.soft05009Y/abstract"
+    ],
+    "title": "s3PCF: Compute the 3-point correlation function in the squeezed limit",
+    "url": "https://github.com/SandyYuan/s3PCF",
+    "name": "s3PCF",
+    "full_name": "SandyYuan/s3PCF",
+    "html_url": "https://github.com/SandyYuan/s3PCF",
+    "description": "squeezed 3PCF package",
+    "created_at": "2018-06-09T15:05:08Z",
+    "updated_at": "2021-08-18T17:22:04Z",
+    "clone_url": "https://github.com/SandyYuan/s3PCF.git",
+    "size": 25,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "Python",
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/SandyYuan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12791861?v=4",
+      "login": "SandyYuan",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:14:35.361947",
+    "avatar": "https://avatars.githubusercontent.com/u/12791861?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"To install, simply download the .py files to the directory you want the mock catalogs to live in. If you are not on the Eisenstein Group computer clusters at CfA, you may need to change the `product_d\"",
+        "\"A code that computes the 3-point correlation function (3PCF) in the squeezed limit given galaxy positions and pair positions.\"",
+        "\"To install, simply download the .py files to the directory you want the mock catalogs to live in.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T20:18:02Z"
+    }
+  }
+}

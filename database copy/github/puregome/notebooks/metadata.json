@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/puregome/notebooks",
+  "url": "https://github.com/puregome/notebooks",
+  "data": {
+    "timestamp": "2020-12-20 00:25:38.217505",
+    "name": "notebooks",
+    "url": "https://api.github.com/repos/puregome/notebooks",
+    "full_name": "puregome/notebooks",
+    "html_url": "https://github.com/puregome/notebooks",
+    "private": false,
+    "description": "Notebooks of the PuReGoMe Project of the Netherlands eScience Center and Utrecht University.",
+    "created_at": "2020-04-17T17:22:55Z",
+    "updated_at": "2020-12-18T11:09:04Z",
+    "clone_url": "https://github.com/puregome/notebooks.git",
+    "homepage": "",
+    "size": 14335,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Jupyter Notebook",
+    "open_issues_count": 0,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/puregome",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/63842753?v=4",
+      "login": "puregome",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "doi": "10.5281/zenodo.4337242",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"python3 -m pip install .\"",
+        "\"PuReGoMe is a research project of Utrecht University and the Netherlands eScience Center. We analyze Dutch social media messages to assess the opinion of the public towards the COVID-19 pandemic measures...\"",
+        "The README describes end-to-end data collection and analysis workflows via notebooks (e.g. `tweet-counts.ipynb`, `sentiment-pattern.ipynb`, `fasttext.ipynb`) that a researcher runs to perform the study, indicating an application-style research tool."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:57:55Z"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "parser": "github",
+  "uid": "github/omerveille/VSMOD",
+  "url": "https://github.com/omerveille/VSMOD",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.17304236",
+    "name": "VSMOD",
+    "url": "https://github.com/omerveille/VSMOD",
+    "full_name": "omerveille/VSMOD",
+    "html_url": "https://github.com/omerveille/VSMOD",
+    "created_at": "2023-12-05T20:10:12Z",
+    "updated_at": "2025-10-10T12:06:14Z",
+    "clone_url": "https://github.com/omerveille/VSMOD.git",
+    "size": 23479,
+    "stargazers_count": 5,
+    "watchers_count": 5,
+    "language": "Python",
+    "license": {
+      "key": "bsd-2-clause",
+      "name": "BSD 2-Clause \"Simplified\" License",
+      "spdx_id": "BSD-2-Clause",
+      "url": "https://api.github.com/licenses/bsd-2-clause",
+      "node_id": "MDc6TGljZW5zZTQ="
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/omerveille",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8049869?v=4",
+      "login": "omerveille",
+      "type": "User"
+    },
+    "timestamp": "2025-10-12 00:49:54.983311",
+    "avatar": "https://avatars.githubusercontent.com/u/8049869?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"1) Download the plugin as a zip file or clone this repository. If you downloaded a zip file, extract it. You can clone/extract it wherever you want.\"",
+        "\"VSMOD is a 3D Slicer plugin that aims to ease Vessel Segmentation and MODelization for angiography images.\"",
+        "\"To install the plugin, you have to do the following steps: 1) Download the plugin as a zip file or clone this repository.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:42:55Z"
+    }
+  }
+}

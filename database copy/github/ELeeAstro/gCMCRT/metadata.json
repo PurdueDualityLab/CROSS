@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/ELeeAstro/gCMCRT",
+  "url": "https://github.com/ELeeAstro/gCMCRT",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2021arXiv211015640L",
+      "https://ui.adsabs.harvard.edu/abs/2021ascl.soft11015L/abstract"
+    ],
+    "title": "gCMCRT: 3D Monte Carlo Radiative Transfer for exoplanet atmospheres using GPUs",
+    "url": "https://github.com/ELeeAstro/gCMCRT",
+    "name": "gCMCRT",
+    "full_name": "ELeeAstro/gCMCRT",
+    "html_url": "https://github.com/ELeeAstro/gCMCRT",
+    "description": "3D Monte Carlo Radiative Transfer for exoplanet atmospheres using GPUs.",
+    "created_at": "2021-10-29T09:45:27Z",
+    "updated_at": "2022-04-13T15:04:30Z",
+    "clone_url": "https://github.com/ELeeAstro/gCMCRT.git",
+    "size": 12226,
+    "stargazers_count": 5,
+    "watchers_count": 5,
+    "language": "Fortran",
+    "license": {
+      "key": "agpl-3.0",
+      "name": "GNU Affero General Public License v3.0",
+      "spdx_id": "AGPL-3.0",
+      "url": "https://api.github.com/licenses/agpl-3.0",
+      "node_id": "MDc6TGljZW5zZTE="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/ELeeAstro",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38210132?v=4",
+      "login": "ELeeAstro",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 16:49:54.567194",
+    "avatar": "https://avatars.githubusercontent.com/u/38210132?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Vendor or commercial entity",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"You will need to install the latest drivers from Nvidia: https://www.nvidia.com/Download/index.aspx\"",
+        "\"gCMCRT - 3D Monte Carlo Radiative Transfer for exoplanet atmospheres with GPUs\" (describes a domain-specific radiative transfer code used to generate spectra and synthetic observations)",
+        "\"Run gCMCRT to produce Em_001.txt (dayside) and Em_002.txt (nightside) output files\" and then \"Run em_spec.py to convert the output to synthetic observations\" (shows it directly produces research spectra/results)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T17:05:14Z"
+    }
+  }
+}

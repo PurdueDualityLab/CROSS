@@ -1,0 +1,68 @@
+{
+  "parser": "github",
+  "uid": "github/brentp/somalier",
+  "url": "https://github.com/brentp/somalier",
+  "data": {
+    "title": "somalier",
+    "url": "https://github.com/brentp/somalier",
+    "credit": [],
+    "tags": [
+      "high-throughput-sequencing",
+      "utilities"
+    ],
+    "description": "fast sample-swap and relatedness checks on BAMs/CRAMs/VCFs/GVCFs... \"like damn that is one smart wine guy\"",
+    "name": "somalier",
+    "full_name": "brentp/somalier",
+    "html_url": "https://github.com/brentp/somalier",
+    "created_at": "2018-08-07T14:52:04Z",
+    "updated_at": "2022-07-06T14:36:20Z",
+    "clone_url": "https://github.com/brentp/somalier.git",
+    "size": 1684,
+    "stargazers_count": 169,
+    "watchers_count": 169,
+    "language": "Nim",
+    "open_issues_count": 33,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 10,
+    "owner": {
+      "html_url": "https://github.com/brentp",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1739?v=4",
+      "login": "brentp",
+      "type": "User"
+    },
+    "topics": [
+      "cancer-genomics",
+      "bioinformatics",
+      "genomics"
+    ],
+    "timestamp": "2022-07-18 17:46:58.674308",
+    "avatar": "https://avatars.githubusercontent.com/u/1739?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"The usage is also described above. Briefly, after downloading the somalier binary and a sites vcf from the [releases](https://github.com/brentp/somalier/releases/latest) run:\"",
+        "Somalier is available via bioconda, see [here](https://bioconda.github.io/recipes/somalier/README.html).",
+        "Alternatively, you can get a static binary from [here](https://github.com/brentp/somalier/releases). Users can also get a docker image [here](https://hub.docker.com/r/brentp/somalier/tags) which contains htslib and a somalier binary ready-for-use."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T22:10:48Z"
+    }
+  }
+}

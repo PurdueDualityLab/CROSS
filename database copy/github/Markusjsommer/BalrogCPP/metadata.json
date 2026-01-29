@@ -1,0 +1,63 @@
+{
+  "parser": "github",
+  "uid": "github/Markusjsommer/BalrogCPP",
+  "url": "https://github.com/Markusjsommer/BalrogCPP",
+  "data": {
+    "title": "Balrog",
+    "url": "https://github.com/Markusjsommer/BalrogCPP",
+    "credit": [],
+    "tags": [
+      "genome-annotation",
+      "genomics",
+      "high-throughput-sequencing"
+    ],
+    "description": "A universal protein model for prokaryotic gene prediction",
+    "name": "BalrogCPP",
+    "full_name": "Markusjsommer/BalrogCPP",
+    "html_url": "https://github.com/Markusjsommer/BalrogCPP",
+    "created_at": "2020-12-01T20:40:51Z",
+    "updated_at": "2023-01-28T08:49:00Z",
+    "clone_url": "https://github.com/Markusjsommer/BalrogCPP.git",
+    "size": 7675,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "C++",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/Markusjsommer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16809312?v=4",
+      "login": "Markusjsommer",
+      "type": "User"
+    },
+    "timestamp": "2024-04-21 00:36:05.482058",
+    "avatar": "https://avatars.githubusercontent.com/u/16809312?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "conda-forge",
+      "evidence": [
+        "README install command: \"conda install balrog -c conda-forge -c bioconda -y\"",
+        "\"This is intended as a repository for stable bioconda releases. The main Balrog repo can be found here\"",
+        "\"Balrog is a prokaryotic gene finder based on a Temporal Convolutional Network.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T19:05:51Z"
+    }
+  }
+}

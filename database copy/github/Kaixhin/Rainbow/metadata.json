@@ -1,0 +1,63 @@
+{
+  "parser": "github",
+  "uid": "github/Kaixhin/Rainbow",
+  "url": "https://github.com/Kaixhin/Rainbow",
+  "data": {
+    "timestamp": "2022-05-12 03:43:43.285023",
+    "name": "Rainbow",
+    "url": "https://api.github.com/repos/Kaixhin/Rainbow",
+    "full_name": "Kaixhin/Rainbow",
+    "html_url": "https://github.com/Kaixhin/Rainbow",
+    "private": false,
+    "description": "Rainbow: Combining Improvements in Deep Reinforcement Learning",
+    "created_at": "2017-10-09T07:21:24Z",
+    "updated_at": "2022-05-10T15:22:35Z",
+    "clone_url": "https://github.com/Kaixhin/Rainbow.git",
+    "homepage": null,
+    "size": 176,
+    "stargazers_count": 1316,
+    "watchers_count": 1316,
+    "language": "Python",
+    "open_issues_count": 8,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 42,
+    "owner": {
+      "html_url": "https://github.com/Kaixhin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/991891?v=4",
+      "login": "Kaixhin",
+      "type": "User"
+    },
+    "topics": [
+      "deep-learning",
+      "deep-reinforcement-learning"
+    ]
+  },
+  "contact": "Kai Arulkumaran <kailash.arulkumaran13@imperial.ac.uk>",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Builds and releases",
+      "distribution_details": null,
+      "evidence": [
+        "\"Run the original Rainbow with the default arguments: `python main.py`\" (indicates an end-user executable application script)",
+        "\"Rainbow: Combining Improvements in Deep Reinforcement Learning\" and references to RL papers show it is an implementation used to run RL experiments and produce results",
+        "\"Results and pretrained models can be found in the releases\" (indicates distribution via GitHub releases/build artifacts)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T18:10:55Z"
+    }
+  }
+}

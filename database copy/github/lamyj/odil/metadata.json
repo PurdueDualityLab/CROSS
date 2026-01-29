@@ -1,0 +1,64 @@
+{
+  "parser": "github",
+  "uid": "github/lamyj/odil",
+  "url": "https://github.com/lamyj/odil",
+  "data": {
+    "url": "https://github.com/lamyj/odil",
+    "title": "Odil",
+    "description": "Odil is a C++11 library for the DICOM standard",
+    "name": "odil",
+    "full_name": "lamyj/odil",
+    "html_url": "https://github.com/lamyj/odil",
+    "created_at": "2015-04-08T10:55:06Z",
+    "updated_at": "2022-06-01T04:31:51Z",
+    "clone_url": "https://github.com/lamyj/odil.git",
+    "size": 3093,
+    "stargazers_count": 75,
+    "watchers_count": 75,
+    "language": "C++",
+    "open_issues_count": 7,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 14,
+    "owner": {
+      "html_url": "https://github.com/lamyj",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4102070?v=4",
+      "login": "lamyj",
+      "type": "User"
+    },
+    "topics": [
+      "c-plus-plus",
+      "dicom",
+      "python",
+      "medical-imaging"
+    ],
+    "timestamp": "2022-07-20 17:29:56.883876",
+    "avatar": "https://avatars.githubusercontent.com/u/4102070?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"[![Build Status (Appveyor)](https://ci.appveyor.com/api/projects/status/github/lamyj/odil?svg=true)](https://ci.appveyor.com/project/lamyj/odil)\"",
+        "\"Odil is a [DICOM][] library which provides a user-friendly C++11 and Python API for the different parts of the DICOM standard\" (indicates it is a library to be used by other software).",
+        "\"Reading and writing data sets with any transfer syntax\" and other DICOM operations show it directly processes scientific/medical imaging data, contributing to research outputs."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:49:17Z"
+    }
+  }
+}

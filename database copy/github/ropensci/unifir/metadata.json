@@ -1,0 +1,69 @@
+{
+  "parser": "github",
+  "uid": "github/ropensci/unifir",
+  "url": "https://github.com/ropensci/unifir",
+  "data": {
+    "timestamp": "2022-05-15 00:44:25.056293",
+    "name": "unifir",
+    "url": "https://api.github.com/repos/ropensci/unifir",
+    "full_name": "ropensci/unifir",
+    "html_url": "https://github.com/ropensci/unifir",
+    "private": false,
+    "description": "A unifying interface for calling Unity from R",
+    "created_at": "2021-06-03T20:06:53Z",
+    "updated_at": "2022-05-06T12:23:35Z",
+    "clone_url": "https://github.com/ropensci/unifir.git",
+    "homepage": "https://docs.ropensci.org/unifir/",
+    "size": 2141,
+    "stargazers_count": 15,
+    "watchers_count": 15,
+    "language": "R",
+    "open_issues_count": 0,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/ropensci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1200269?v=4",
+      "login": "ropensci",
+      "type": "Organization"
+    },
+    "topics": [
+      "rstats",
+      "cran",
+      "cran-r",
+      "r",
+      "unifir",
+      "visualization",
+      "unity",
+      "unity3d"
+    ]
+  },
+  "doi": "https://doi.org/10.5281/zenodo.6539478",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages('unifir')\"",
+        "\"unifir is a unifying API for creating and managing Unity scenes directly from R... primarily designed around being easy to wrap in other packages, so that any number of packages interacting with Unity can all share a common framework.\"",
+        "\"unifir is a first step towards an open-source, fully reproducible approach for constructing immersive virtual environments.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T03:10:48Z"
+    }
+  }
+}

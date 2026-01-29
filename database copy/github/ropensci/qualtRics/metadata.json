@@ -1,0 +1,68 @@
+{
+  "parser": "github",
+  "uid": "github/ropensci/qualtRics",
+  "url": "https://github.com/ropensci/qualtRics",
+  "data": {
+    "timestamp": "2022-01-27 10:11:35.163625",
+    "name": "qualtRics",
+    "url": "https://api.github.com/repos/ropensci/qualtRics",
+    "full_name": "ropensci/qualtRics",
+    "html_url": "https://github.com/ropensci/qualtRics",
+    "private": false,
+    "description": "Download ⬇️ Qualtrics survey data directly into R!",
+    "created_at": "2016-10-13T14:51:26Z",
+    "updated_at": "2021-12-28T00:40:07Z",
+    "clone_url": "https://github.com/ropensci/qualtRics.git",
+    "homepage": "https://docs.ropensci.org/qualtRics",
+    "size": 11600,
+    "stargazers_count": 164,
+    "watchers_count": 164,
+    "language": "R",
+    "open_issues_count": 25,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "owner": {
+      "html_url": "https://github.com/ropensci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1200269?v=4",
+      "login": "ropensci",
+      "type": "Organization"
+    },
+    "topics": [
+      "qualtrics",
+      "qualtrics-api",
+      "survey",
+      "r",
+      "r-package",
+      "api",
+      "rstats",
+      "survey-data",
+      "data-access"
+    ]
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"qualtRics\")\"",
+        "The repository owner is the rOpenSci organization, and the README shows an rOpenSci review badge and footer, indicating community governance: \"[![rOpenSci](https://badges.ropensci.org/192_status.svg)]\" and \"[![ropensci_footer](https://ropensci.org/public_images/ropensci_footer.png)](https://ropensci.org)\"",
+        "It is an R package intended to be imported and used from R code: \"The qualtRics R package implements the retrieval of survey data using the Qualtrics API\" and functions are called via `library(qualtRics)` and then `all_surveys()`, `fetch_survey()` etc."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T02:34:19Z"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "parser": "github",
+  "uid": "github/brentp/peddy",
+  "url": "https://github.com/brentp/peddy",
+  "data": {
+    "title": "peddy",
+    "url": "https://github.com/brentp/peddy",
+    "credit": [],
+    "description": "genotype :: ped correspondence check, ancestry check, sex check. directly, quickly on VCF",
+    "name": "peddy",
+    "full_name": "brentp/peddy",
+    "html_url": "https://github.com/brentp/peddy",
+    "created_at": "2015-07-17T21:52:22Z",
+    "updated_at": "2022-06-08T06:59:15Z",
+    "clone_url": "https://github.com/brentp/peddy.git",
+    "size": 41260,
+    "stargazers_count": 110,
+    "watchers_count": 110,
+    "language": "Jupyter Notebook",
+    "open_issues_count": 25,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 7,
+    "owner": {
+      "html_url": "https://github.com/brentp",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1739?v=4",
+      "login": "brentp",
+      "type": "User"
+    },
+    "topics": [
+      "genomics",
+      "vcf",
+      "bioinformatics",
+      "pedigree",
+      "genotype",
+      "ancestry"
+    ],
+    "timestamp": "2022-07-18 17:46:16.971445",
+    "avatar": "https://avatars.githubusercontent.com/u/1739?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install -r requirements.txt\"",
+        "\"peddy compares familial-relationships and sexes as reported in a PED/FAM file with those inferred from a VCF.\"",
+        "\"Most users will only need to run as a command-line tool with a ped and VCF, e.g: `python -m peddy ...`\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T22:10:43Z"
+    }
+  }
+}

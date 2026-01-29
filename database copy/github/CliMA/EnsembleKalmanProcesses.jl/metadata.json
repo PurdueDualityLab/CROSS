@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/CliMA/EnsembleKalmanProcesses.jl",
+  "url": "https://github.com/CliMA/EnsembleKalmanProcesses.jl",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.7407193",
+    "name": "EnsembleKalmanProcesses.jl",
+    "url": "https://github.com/CliMA/EnsembleKalmanProcesses.jl",
+    "full_name": "CliMA/EnsembleKalmanProcesses.jl",
+    "html_url": "https://github.com/CliMA/EnsembleKalmanProcesses.jl",
+    "description": "Implements Optimization and approximate uncertainty quantification algorithms, Ensemble Kalman Inversion, and Ensemble Kalman Processes.",
+    "created_at": "2020-11-18T18:03:57Z",
+    "updated_at": "2022-12-11T18:53:25Z",
+    "clone_url": "https://github.com/CliMA/EnsembleKalmanProcesses.jl.git",
+    "homepage": "https://clima.github.io/EnsembleKalmanProcesses.jl/dev",
+    "size": 19897,
+    "stargazers_count": 48,
+    "watchers_count": 48,
+    "language": "Julia",
+    "open_issues_count": 15,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/CliMA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43161188?v=4",
+      "login": "CliMA",
+      "type": "Organization"
+    },
+    "timestamp": "2022-12-18 00:33:46.600353",
+    "avatar": "https://avatars.githubusercontent.com/u/43161188?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"[dlm-img]: https://img.shields.io/badge/dynamic/json?url=http%3A%2F%2Fjuliapkgstats.com%2Fapi%2Fv1%2Fmonthly_downloads%2FEnsembleKalmanProcesses&query=total_requests&suffix=%2Fmonth&label=Downloads\"",
+        "\"EnsembleKalmanProcesses (EKP) enables users to find an (locally-) optimal parameter set `u` for a computer code `G` to fit some (noisy) observational data `y`.\" (domain-specific optimization/inversion tool)",
+        "Usage example shows `using EnsembleKalmanProcesses` and `using EnsembleKalmanProcesses.ParameterDistributions`, indicating it is imported as a Julia package (a library dependency)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T16:54:00Z"
+    }
+  }
+}

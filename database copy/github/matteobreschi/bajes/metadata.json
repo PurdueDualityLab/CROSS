@@ -1,0 +1,70 @@
+{
+  "parser": "github",
+  "uid": "github/matteobreschi/bajes",
+  "url": "https://github.com/matteobreschi/bajes",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2021PhRvD.104d2001B",
+      "https://ui.adsabs.harvard.edu/abs/2023ascl.soft03017B/abstract"
+    ],
+    "title": "bajes: Bayesian Jenaer software",
+    "url": "https://github.com/matteobreschi/bajes",
+    "name": "bajes",
+    "full_name": "matteobreschi/bajes",
+    "html_url": "https://github.com/matteobreschi/bajes",
+    "description": "Bayesian Jenaer software",
+    "created_at": "2021-01-30T08:40:15Z",
+    "updated_at": "2022-12-14T11:54:47Z",
+    "clone_url": "https://github.com/matteobreschi/bajes.git",
+    "size": 18850,
+    "stargazers_count": 19,
+    "watchers_count": 19,
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/matteobreschi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42244716?v=4",
+      "login": "matteobreschi",
+      "type": "User"
+    },
+    "topics": [
+      "bayesian-inference",
+      "astrophysics",
+      "gravitational-waves",
+      "kilonovae",
+      "multi-messenger",
+      "python",
+      "sampling-methods"
+    ],
+    "timestamp": "2023-04-02 00:36:49.037130",
+    "avatar": "https://avatars.githubusercontent.com/u/42244716?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"However, the user might need to download some further packages.\"",
+        "\"*bajes* [baɪɛs] is a Python software for Bayesian inference developed at Friedrich-Schiller-Universtät Jena and specialized in the analysis of gravitational-wave and multi-messenger transients.\"",
+        "\"bajes provides an homonymous Python module that includes: `bajes.inf`: implementation of the statistical objects and Bayesian workflow, `bajes.obs`: tools and methods for data analysis of multi-messenger signals.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:14:16Z"
+    }
+  }
+}

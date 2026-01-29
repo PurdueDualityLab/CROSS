@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/ropensci/gtfsr",
+  "url": "https://github.com/ropensci/gtfsr",
+  "data": {
+    "timestamp": "2022-01-27 10:11:35.145650",
+    "name": "gtfsr",
+    "url": "https://api.github.com/repos/ropensci/gtfsr",
+    "full_name": "ropensci/gtfsr",
+    "html_url": "https://github.com/ropensci/gtfsr",
+    "private": false,
+    "description": "Package for obtaining, validating, viewing, and storing GTFS (transit) data",
+    "created_at": "2016-03-31T00:30:10Z",
+    "updated_at": "2021-04-14T01:44:24Z",
+    "clone_url": "https://github.com/ropensci/gtfsr.git",
+    "homepage": "https://docs.ropensci.org/gtfsr",
+    "size": 50188,
+    "stargazers_count": 68,
+    "watchers_count": 68,
+    "language": "R",
+    "open_issues_count": 12,
+    "license": null,
+    "owner": {
+      "html_url": "https://github.com/ropensci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1200269?v=4",
+      "login": "ropensci",
+      "type": "Organization"
+    },
+    "topics": [
+      "r",
+      "rstats",
+      "r-package",
+      "peer-reviewed",
+      "data-access"
+    ]
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This package has been archived, with ongoing developed moved to [r-transit/tidytransit](https://github.com/r-transit/tidytransit).\" (indicates an R package/library, i.e., a dependency artifact)",
+        "rOpenSci badge and ownership (organization `ropensci`) indicate community/open-science governance rather than an individual or single institution.",
+        "As an R package for GTFS (transit feed) data, it would be used to analyze transportation data, directly contributing to research outputs in that domain."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T02:29:14Z"
+    }
+  }
+}

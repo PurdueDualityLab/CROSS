@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/asalda/FiCUS",
+  "url": "https://github.com/asalda/FiCUS",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2023MNRAS.522.6295S",
+      "https://ui.adsabs.harvard.edu/abs/2025ascl.soft08019S/abstract"
+    ],
+    "title": "FiCUS: FItting the stellar Continuum of Uv Spectra",
+    "url": "https://github.com/asalda/FiCUS",
+    "name": "FiCUS",
+    "full_name": "asalda/FiCUS",
+    "html_url": "https://github.com/asalda/FiCUS",
+    "description": "FItting the stellar Continuum of Uv Spectra (FiCUS)",
+    "created_at": "2021-08-31T10:07:28Z",
+    "updated_at": "2025-09-05T08:18:13Z",
+    "clone_url": "https://github.com/asalda/FiCUS.git",
+    "size": 68696,
+    "stargazers_count": 8,
+    "watchers_count": 8,
+    "language": "Python",
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/asalda",
+      "avatar_url": "https://avatars.githubusercontent.com/u/89804075?v=4",
+      "login": "asalda",
+      "type": "User"
+    },
+    "timestamp": "2025-09-07 00:51:49.751391",
+    "avatar": "https://avatars.githubusercontent.com/u/89804075?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"The INPUT file can, for example, inherit the name of the spectrum to be fitted, and must always be placed into the [/FiCUS/inputs/](inputs/) folder beforehand. The 'MASK' extension of the INPUT file i\"",
+        "\"FiCUS is a Python script to fit the stellar continuum of extragalactic ultraviolet (UV) spectra... and returns an estimation of the galaxy stellar age, metallicity and dust extinction, as well as other secondary Spectral Energy Distribution (SED) parameters.\"",
+        "\"The code is composed of two .py files: ficus.py is the main script. It reads the INPUT file provided by the user, and performs the fit according to the options enclosed in the CONFIGURATION file... It gives the best-fit parameters, creates the OUTPUT files and figures.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T21:24:37Z"
+    }
+  }
+}

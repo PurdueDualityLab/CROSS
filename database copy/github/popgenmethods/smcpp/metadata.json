@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/popgenmethods/smcpp",
+  "url": "https://github.com/popgenmethods/smcpp",
+  "data": {
+    "timestamp": "2022-03-20 00:46:08.244796",
+    "name": "smcpp",
+    "url": "https://api.github.com/repos/popgenmethods/smcpp",
+    "full_name": "popgenmethods/smcpp",
+    "html_url": "https://github.com/popgenmethods/smcpp",
+    "private": false,
+    "description": "SMC++ infers population history from whole-genome sequence data.",
+    "created_at": "2016-11-28T02:28:47Z",
+    "updated_at": "2022-03-08T07:15:44Z",
+    "clone_url": "https://github.com/popgenmethods/smcpp.git",
+    "homepage": null,
+    "size": 6332,
+    "stargazers_count": 97,
+    "watchers_count": 97,
+    "language": "C++",
+    "open_issues_count": 54,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 13,
+    "owner": {
+      "html_url": "https://github.com/popgenmethods",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12285311?v=4",
+      "login": "popgenmethods",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"$ pip install git+https://github.com/popgenmethods/smcpp\"",
+        "\"SMC++ is a program for estimating the size history of populations from whole genome sequence data.\"",
+        "\"SMC++ comprises several subcommands which are accessed using the syntax:: $ smc++ <subcommand>\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:55:30Z"
+    }
+  }
+}

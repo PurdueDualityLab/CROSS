@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/wathela/FIRST-CLASSIFIER",
+  "url": "https://github.com/wathela/FIRST-CLASSIFIER",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2018MNRAS.480.2085A",
+      "https://ui.adsabs.harvard.edu/abs/2019ascl.soft08023A/abstract"
+    ],
+    "title": "FIRST Classifier: Automated compact and extended radio sources classifier",
+    "url": "https://github.com/wathela/FIRST-CLASSIFIER",
+    "name": "FIRST-CLASSIFIER",
+    "full_name": "wathela/FIRST-CLASSIFIER",
+    "html_url": "https://github.com/wathela/FIRST-CLASSIFIER",
+    "description": "FIRST Classifier: Compact and Extended Radio Galaxies Classification using Deep Convolutional Neural Networks",
+    "created_at": "2018-04-08T22:12:43Z",
+    "updated_at": "2021-06-01T09:34:53Z",
+    "clone_url": "https://github.com/wathela/FIRST-CLASSIFIER.git",
+    "size": 89225,
+    "stargazers_count": 4,
+    "watchers_count": 4,
+    "language": "Python",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/wathela",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20660576?v=4",
+      "login": "wathela",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:16:00.682004",
+    "avatar": "https://avatars.githubusercontent.com/u/20660576?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"Predicted morphology type (corresponding to the highest probability), a plot showing classification probabilities, and a direct link to download the FITS file cut-out for the target.\"",
+        "\"We present the FIRST Classifier, an online system for automated classification of compact and extended radio sources.\"",
+        "\"The current version of the FIRST classifier can predict the morphological class for a single source or a list of sources as Compact, FRI, FRII, or BENT.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:51:19Z"
+    }
+  }
+}

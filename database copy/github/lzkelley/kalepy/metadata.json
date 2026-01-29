@@ -1,0 +1,70 @@
+{
+  "parser": "github",
+  "uid": "github/lzkelley/kalepy",
+  "url": "https://github.com/lzkelley/kalepy",
+  "data": {
+    "timestamp": "2021-01-24 06:57:40.163603",
+    "name": "kalepy",
+    "url": "https://api.github.com/repos/lzkelley/kalepy",
+    "full_name": "lzkelley/kalepy",
+    "html_url": "https://github.com/lzkelley/kalepy",
+    "private": false,
+    "description": "Kernel Density Estimation and (re)sampling",
+    "created_at": "2019-05-17T18:56:34Z",
+    "updated_at": "2021-01-22T20:34:36Z",
+    "clone_url": "https://github.com/lzkelley/kalepy.git",
+    "homepage": "",
+    "size": 75925,
+    "stargazers_count": 23,
+    "watchers_count": 23,
+    "language": "Python",
+    "open_issues_count": 0,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/lzkelley",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3839265?v=4",
+      "login": "lzkelley",
+      "type": "User"
+    },
+    "topics": [
+      "python",
+      "python3",
+      "statistics",
+      "kde",
+      "kernel-density-estimation",
+      "statistical-analysis",
+      "resampling",
+      "pdfs",
+      "resample"
+    ]
+  },
+  "doi": "https://doi.org/10.5281/zenodo.4456130",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install kalepy\"",
+        "\"This package performs KDE operations on multidimensional data to: **1) calculate estimated PDFs** ... and **2) resample new data** from those PDFs.\"",
+        "Installation section: \"from pypi (i.e. via pip)  ```bash  pip install kalepy  ```\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:59:23Z"
+    }
+  }
+}

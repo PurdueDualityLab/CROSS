@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/abs2k12/COCOA",
+  "url": "https://github.com/abs2k12/COCOA",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2018MNRAS.475.4170A",
+      "https://ui.adsabs.harvard.edu/abs/2017ascl.soft03002A/abstract"
+    ],
+    "title": "COCOA: Simulating Observations of Star Cluster Simulations",
+    "url": "https://github.com/abs2k12/COCOA",
+    "name": "COCOA",
+    "full_name": "abs2k12/COCOA",
+    "html_url": "https://github.com/abs2k12/COCOA",
+    "description": "COCOA Code for Simulating Observations of Star Cluster Simulations",
+    "created_at": "2017-03-27T10:21:18Z",
+    "updated_at": "2018-11-15T14:57:12Z",
+    "clone_url": "https://github.com/abs2k12/COCOA.git",
+    "size": 568,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "Python",
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/abs2k12",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2988762?v=4",
+      "login": "abs2k12",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:20:40.450763",
+    "avatar": "https://avatars.githubusercontent.com/u/2988762?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"1) Projection Module (projection.py): This module requires the extended snapshot from MOCCA as an input. The projection module has an input file (input_projection.py) that needs to be setup. There are\"",
+        "\"The main purpose of the COCOA code is to be able to simulate observations of star cluster simulations.\"",
+        "\"COCOA was designed primarily to be used on UNIX machines with bash shell. To run the code, the user will need Python 2.7.\" (instructions are via running scripts from the repo, no mention of package managers)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T20:43:54Z"
+    }
+  }
+}

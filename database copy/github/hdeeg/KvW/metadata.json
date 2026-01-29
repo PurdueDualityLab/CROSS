@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/hdeeg/KvW",
+  "url": "https://github.com/hdeeg/KvW",
+  "data": {
+    "doi": [],
+    "title": "Modified Kwee–Van Woerden Method for Eclipse Minimum Timing with Reliable Error Estimates",
+    "url": "https://github.com/hdeeg/KvW",
+    "name": "KvW",
+    "full_name": "hdeeg/KvW",
+    "html_url": "https://github.com/hdeeg/KvW",
+    "description": "Kwee Van Woerden algorithm for eclipse or transit minimum timing, with improved error calculation",
+    "created_at": "2020-10-26T00:39:02Z",
+    "updated_at": "2023-09-20T15:19:09Z",
+    "clone_url": "https://github.com/hdeeg/KvW.git",
+    "size": 52,
+    "stargazers_count": 4,
+    "watchers_count": 4,
+    "language": "Prolog",
+    "open_issues_count": 1,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/hdeeg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28144968?v=4",
+      "login": "hdeeg",
+      "type": "User"
+    },
+    "timestamp": "2023-11-26 00:35:58.116151",
+    "avatar": "https://avatars.githubusercontent.com/u/28144968?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"The main programs are `kvw.py` (python) and `kvw.pro` (IDL).\"",
+        "\"Both IDL and phython codes are functions that return the eclipse minimum time with its error; they also provide optional text output, graphics, as well as several levels of debug information.\"",
+        "\"In directory with the codes, within IPython or similar interactive environment: `run kvw`\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:08:25Z"
+    }
+  }
+}

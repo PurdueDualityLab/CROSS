@@ -1,0 +1,28 @@
+{ {% load static %}
+  "name": "Codex",
+  "short_name": "Codex",
+  "description": "Comic book reader",
+  "scope": "{% url 'app:start' %}",
+  "start_url" : "{% url 'app:start' %}",
+  "icons": [
+    {
+      "src": "{% static 'img/logo.svg' %}",
+      "sizes": "any 192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "{% static 'img/logo-maskable.svg' %}",
+      "sizes": "any 192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "display": "standalone",
+  "lang": "en-US",
+  "background_color": "#2A2A2A",
+  "theme_color": "#cc7b19",
+  "dir": "auto",
+  "orientation": "any",
+  "status_bar": "default"
+}

@@ -1,0 +1,66 @@
+{
+  "parser": "github",
+  "uid": "github/hpgem/nanomesh",
+  "url": "https://github.com/hpgem/nanomesh",
+  "data": {
+    "timestamp": "2022-03-06 00:44:38.218690",
+    "name": "nanomesh",
+    "url": "https://api.github.com/repos/hpgem/nanomesh",
+    "full_name": "hpgem/nanomesh",
+    "html_url": "https://github.com/hpgem/nanomesh",
+    "private": false,
+    "description": "Python workflow tool for generating meshes from 2D and 3D microscopy image data",
+    "created_at": "2020-11-09T20:43:41Z",
+    "updated_at": "2022-02-27T10:14:02Z",
+    "clone_url": "https://github.com/hpgem/nanomesh.git",
+    "homepage": "http://nanomesh.readthedocs.org",
+    "size": 169116,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "Jupyter Notebook",
+    "open_issues_count": 19,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "subscribers_count": 6,
+    "owner": {
+      "html_url": "https://github.com/hpgem",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50169972?v=4",
+      "login": "hpgem",
+      "type": "Organization"
+    },
+    "topics": [
+      "meshing",
+      "microscopy",
+      "python",
+      "jupyter",
+      "image-processing"
+    ]
+  },
+  "doi": "10.5281/zenodo.6325409",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install nanomesh\"",
+        "\"Nanomesh is a Python workflow tool for generating meshes from 2D and 3D image data.\"",
+        "\"This example shows the workflow for generating a mesh from segmented data, and demonstrates a few of the features of Nanomesh.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:21:39Z"
+    }
+  }
+}

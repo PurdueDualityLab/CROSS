@@ -1,0 +1,51 @@
+{
+  "parser": "github",
+  "uid": "github/dcorre/otrain",
+  "url": "https://github.com/dcorre/otrain",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2021arXiv211210280M",
+      "https://ui.adsabs.harvard.edu/abs/2021ascl.soft12019C/abstract"
+    ],
+    "title": "O'TRAIN: Optical TRAnsient Identification NEtwork",
+    "url": "https://github.com/dcorre/otrain",
+    "name": "otrain",
+    "full_name": "dcorre/otrain",
+    "html_url": "https://github.com/dcorre/otrain",
+    "created_at": "2021-05-08T09:45:57Z",
+    "updated_at": "2021-12-21T07:52:07Z",
+    "clone_url": "https://github.com/dcorre/otrain.git",
+    "size": 169,
+    "language": "Python",
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/dcorre",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18632113?v=4",
+      "login": "dcorre",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 16:49:41.787739",
+    "avatar": "https://avatars.githubusercontent.com/u/18632113?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Generic Tools to help identification of transients in astronomical images, based on Convolutional Neural Network.\"",
+        "\"Effortless execution through the command line.\" and \"Usage of trained model to classify any new cutouts\" (indicating an end-user analysis tool for astronomical data).",
+        "README only links to documentation and shows CI badges; installation says \"See documentation\" with no mention of PyPI, containers as primary distribution, or other package registries, implying use via the source repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T23:29:18Z"
+    }
+  }
+}

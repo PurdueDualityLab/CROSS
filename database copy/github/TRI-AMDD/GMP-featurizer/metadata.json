@@ -1,0 +1,57 @@
+{
+  "parser": "github",
+  "uid": "github/TRI-AMDD/GMP-featurizer",
+  "url": "https://github.com/TRI-AMDD/GMP-featurizer",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.8170029",
+    "name": "GMP-featurizer",
+    "url": "https://github.com/TRI-AMDD/GMP-featurizer",
+    "full_name": "TRI-AMDD/GMP-featurizer",
+    "html_url": "https://github.com/TRI-AMDD/GMP-featurizer",
+    "description": "Feature calculator for GMP features",
+    "created_at": "2022-07-11T17:09:50Z",
+    "updated_at": "2023-07-20T01:34:48Z",
+    "clone_url": "https://github.com/TRI-AMDD/GMP-featurizer.git",
+    "size": 24196,
+    "stargazers_count": 5,
+    "watchers_count": 5,
+    "language": "C++",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/TRI-AMDD",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62159728?v=4",
+      "login": "TRI-AMDD",
+      "type": "Organization"
+    },
+    "timestamp": "2023-08-12 18:56:44.610085",
+    "avatar": "https://avatars.githubusercontent.com/u/62159728?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install -r requirements.txt\"",
+        "\"This package is used to efficiently and accurately compute the GMP features and their derivatives for any chemical systems.\"",
+        "\"Import modules and load data\" followed by `from GMPFeaturizer import GMPFeaturizer, ASEAtomsConverter, PymatgenStructureConverter` (used as an importable Python package/library)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T20:24:13Z"
+    }
+  }
+}

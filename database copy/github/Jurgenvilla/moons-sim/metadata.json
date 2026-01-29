@@ -1,0 +1,51 @@
+{
+  "parser": "github",
+  "uid": "github/Jurgenvilla/moons-sim",
+  "url": "https://github.com/Jurgenvilla/moons-sim",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2025arXiv250201389S",
+      "https://ui.adsabs.harvard.edu/abs/2025ascl.soft09009G/abstract"
+    ],
+    "title": "moons-sim: 1D Spectral Simulator for VLT-MOONS",
+    "url": "https://github.com/Jurgenvilla/moons-sim",
+    "name": "moons-sim",
+    "full_name": "Jurgenvilla/moons-sim",
+    "html_url": "https://github.com/Jurgenvilla/moons-sim",
+    "description": "1D Spectral Simulator for VLT-MOONS",
+    "created_at": "2019-07-12T15:21:51Z",
+    "updated_at": "2020-11-17T11:44:00Z",
+    "clone_url": "https://github.com/Jurgenvilla/moons-sim.git",
+    "size": 79624,
+    "language": "Python",
+    "owner": {
+      "html_url": "https://github.com/Jurgenvilla",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2405448?v=4",
+      "login": "Jurgenvilla",
+      "type": "User"
+    },
+    "timestamp": "2025-10-05 00:52:30.929031",
+    "avatar": "https://avatars.githubusercontent.com/u/2405448?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install PyAstronomy numpy astropy sys scipy matplotlib math warnings\"",
+        "\"1D Spectral Simulator for VLT-MOONS (in development) Produces a 1D (optimally extracted) MOONS spectrum for a set of observing conditions...\"",
+        "\"The simulator can be run from the command line: > python moons_sim.py arg1 arg2 arg3 ...\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T18:09:57Z"
+    }
+  }
+}

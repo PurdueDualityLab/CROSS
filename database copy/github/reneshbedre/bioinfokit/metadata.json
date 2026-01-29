@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/reneshbedre/bioinfokit",
+  "url": null,
+  "data": {
+    "title": "bioinfokit",
+    "url": "https://github.com/reneshbedre/bioinfokit",
+    "credit": [],
+    "tags": [
+      "utilities",
+      "high-throughput-sequencing"
+    ],
+    "description": "The bioinfokit toolkit aims to provide various easy-to-use functionalities to analyze, visualize, and interpret the biological data generated from genome-scale omics experiments.",
+    "name": "bioinfokit",
+    "full_name": "reneshbedre/bioinfokit",
+    "html_url": "https://github.com/reneshbedre/bioinfokit",
+    "created_at": "2019-03-07T22:21:15Z",
+    "updated_at": "2022-07-18T15:03:16Z",
+    "clone_url": "https://github.com/reneshbedre/bioinfokit.git",
+    "size": 1111,
+    "stargazers_count": 224,
+    "watchers_count": 224,
+    "language": "Python",
+    "open_issues_count": 13,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 8,
+    "owner": {
+      "html_url": "https://github.com/reneshbedre",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37003729?v=4",
+      "login": "reneshbedre",
+      "type": "User"
+    },
+    "timestamp": "2022-07-18 17:43:32.671210"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install bioinfokit\"",
+        "\"The bioinfokit toolkit aimed to provide various easy-to-use functionalities to analyze, visualize, and interpret the biological data generated from genome-scale omics experiments.\"",
+        "Multiple usage examples are via imported functions like `bioinfokit.visuz.GeneExpression.volcano(df, ...)`, indicating it is a library consumed by other code."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T02:08:14Z"
+    }
+  }
+}

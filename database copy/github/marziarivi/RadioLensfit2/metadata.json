@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/marziarivi/RadioLensfit2",
+  "url": "https://github.com/marziarivi/RadioLensfit2",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2022A%26C....3900574R",
+      "https://ui.adsabs.harvard.edu/abs/2022ascl.soft08019R/abstract"
+    ],
+    "title": "RadioLensfit: Radio weak lensing shear measurement in the visibility domain",
+    "url": "https://github.com/marziarivi/RadioLensfit2",
+    "name": "RadioLensfit2",
+    "full_name": "marziarivi/RadioLensfit2",
+    "html_url": "https://github.com/marziarivi/RadioLensfit2",
+    "description": "Radio Weak Lensing shear measurement in the Visibility Domain ",
+    "created_at": "2018-11-20T13:15:07Z",
+    "updated_at": "2022-02-16T14:56:39Z",
+    "clone_url": "https://github.com/marziarivi/RadioLensfit2.git",
+    "size": 460,
+    "language": "C",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/marziarivi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6614454?v=4",
+      "login": "marziarivi",
+      "type": "User"
+    },
+    "timestamp": "2022-09-04 00:43:32.837005",
+    "avatar": "https://avatars.githubusercontent.com/u/6614454?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Three tools are provided. **1. Generate catalog** ... **2. Simulate visibilities** ... **3. RadioLensfit2**\" (command-line tools for users to run analyses/simulations)",
+        "\"Measurement of star forming galaxy ellipticies from a radio weak lensing observation.\" (directly performs scientific measurement/analysis)",
+        "Installation section describes editing Makefile and running `make all`, with no mention of package managers or binaries, implying build from source in this repo."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T01:13:23Z"
+    }
+  }
+}

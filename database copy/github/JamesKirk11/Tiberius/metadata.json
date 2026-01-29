@@ -1,0 +1,63 @@
+{
+  "parser": "github",
+  "uid": "github/JamesKirk11/Tiberius",
+  "url": "https://github.com/JamesKirk11/Tiberius",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2024AJ....167...90K",
+      "https://ui.adsabs.harvard.edu/abs/2025ascl.soft02009K/abstract"
+    ],
+    "title": "Tiberius: Time series spectral extraction and transit light curve fitting",
+    "url": "https://github.com/JamesKirk11/Tiberius",
+    "name": "Tiberius",
+    "full_name": "JamesKirk11/Tiberius",
+    "html_url": "https://github.com/JamesKirk11/Tiberius",
+    "description": "The Tiberius pipeline to extract time-series spectra and fit exoplanet transit light curves.",
+    "created_at": "2022-11-16T14:25:19Z",
+    "updated_at": "2024-12-02T14:37:58Z",
+    "clone_url": "https://github.com/JamesKirk11/Tiberius.git",
+    "homepage": "https://tiberius.readthedocs.io/",
+    "size": 44803,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Jupyter Notebook",
+    "open_issues_count": 2,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/JamesKirk11",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13677312?v=4",
+      "login": "JamesKirk11",
+      "type": "User"
+    },
+    "timestamp": "2025-02-16 00:46:55.834472",
+    "avatar": "https://avatars.githubusercontent.com/u/13677312?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"The Tiberius pipeline to extract time-series spectra and fit exoplanet transit light curves.\"",
+        "\"In the meantime, please checkout the READMEs under reduction_utils (to extract stellar spectra) and fitting_utils (to fit transit light curves).\"",
+        "\"All necessary python modules should be installed via following the installation instructions on the readthedocs.\" (no mention of package managers or binaries, implying use via source repo)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T18:04:05Z"
+    }
+  }
+}

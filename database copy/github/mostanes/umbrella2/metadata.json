@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/mostanes/umbrella2",
+  "url": "https://github.com/mostanes/umbrella2",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2020arXiv200804724S",
+      "https://ui.adsabs.harvard.edu/abs/2020ascl.soft08006S/abstract"
+    ],
+    "title": "Umbrella: Asteroid detection, validation, and identification",
+    "url": "https://github.com/mostanes/umbrella2",
+    "name": "umbrella2",
+    "full_name": "mostanes/umbrella2",
+    "html_url": "https://github.com/mostanes/umbrella2",
+    "description": "Highly modular open-source asteroid detection library written under dotnet.",
+    "created_at": "2018-09-30T14:05:42Z",
+    "updated_at": "2021-09-03T06:41:50Z",
+    "clone_url": "https://github.com/mostanes/umbrella2.git",
+    "size": 349,
+    "language": "C#",
+    "open_issues_count": 4,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/mostanes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26716644?v=4",
+      "login": "mostanes",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:14:03.446620",
+    "avatar": "https://avatars.githubusercontent.com/u/26716644?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Umbrella2 is a highly modular, open-source library for asteroid detection written under dotnet.\"",
+        "\"Functions are provided for: * Reading and writing FITS files ... * Object detection, including very faint trails ... * SkyBoT and VizieR querying\"",
+        "\"Please use stable branches if you need to compile the library.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T01:25:55Z"
+    }
+  }
+}

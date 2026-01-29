@@ -1,0 +1,53 @@
+{
+  "parser": "github",
+  "uid": "github/AarhusCosmology/prospect_public",
+  "url": "https://github.com/AarhusCosmology/prospect_public",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2023arXiv231202972B",
+      "https://ui.adsabs.harvard.edu/abs/2023ascl.soft12002B/abstract"
+    ],
+    "title": "PROSPECT: Profile likelihood for frequentist cosmological inference",
+    "url": "https://github.com/AarhusCosmology/prospect_public",
+    "name": "prospect_public",
+    "full_name": "AarhusCosmology/prospect_public",
+    "html_url": "https://github.com/AarhusCosmology/prospect_public",
+    "created_at": "2023-10-20T14:36:47Z",
+    "updated_at": "2023-12-14T11:14:47Z",
+    "clone_url": "https://github.com/AarhusCosmology/prospect_public.git",
+    "size": 32245,
+    "stargazers_count": 6,
+    "watchers_count": 6,
+    "language": "Python",
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/AarhusCosmology",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61975979?v=4",
+      "login": "AarhusCosmology",
+      "type": "Organization"
+    },
+    "timestamp": "2024-01-28 00:34:16.278772",
+    "avatar": "https://avatars.githubusercontent.com/u/61975979?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "\"PROSPECT: A profile likelihood code for frequentist cosmological inference\"",
+        "\"Install PROSPECT by running `pip install prospect-public` in a terminal.\"",
+        "\"PROSPECT runs either fron an input yaml file or from a folder made by a previous run of PROSPECT... To run it from the command line, do `prospect my_input_file.yaml`\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T16:21:40Z"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/openmsr/CAD_to_OpenMC",
+  "url": "https://github.com/openmsr/CAD_to_OpenMC",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.10519185",
+    "name": "CAD_to_OpenMC",
+    "url": "https://github.com/openmsr/CAD_to_OpenMC",
+    "full_name": "openmsr/CAD_to_OpenMC",
+    "html_url": "https://github.com/openmsr/CAD_to_OpenMC",
+    "description": "code to target the conversion from a step-file to a h5m-geometry for neutronics ",
+    "created_at": "2022-04-27T07:37:07Z",
+    "updated_at": "2025-06-25T08:45:02Z",
+    "clone_url": "https://github.com/openmsr/CAD_to_OpenMC.git",
+    "size": 51400,
+    "stargazers_count": 32,
+    "watchers_count": 32,
+    "language": "Python",
+    "open_issues_count": 5,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/openmsr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36203476?v=4",
+      "login": "openmsr",
+      "type": "Organization"
+    },
+    "timestamp": "2025-06-29 00:58:46.055314",
+    "avatar": "https://avatars.githubusercontent.com/u/36203476?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"5. Optionally install the msh refinement tool mmg (https://www.mmgtools.org), which may be run in conjunction with the cq/stl-mesher backend to avoid the high aspect ratio triangles that this backend \"",
+        "\"This is a python package intended to establish an open source link between CAD tools in general and the nuetron and photon transport code OpenMC.\"",
+        "\"4. Install the main package: `pip install CAD_to_OpenMC`.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:44:15Z"
+    }
+  }
+}

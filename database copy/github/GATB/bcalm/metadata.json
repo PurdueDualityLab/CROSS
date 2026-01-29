@@ -1,0 +1,68 @@
+{
+  "parser": "github",
+  "uid": "github/GATB/bcalm",
+  "url": "https://github.com/GATB/bcalm",
+  "data": {
+    "title": "bcalm",
+    "url": "https://github.com/GATB/bcalm",
+    "credit": [],
+    "tags": [
+      "high-throughput-sequencing"
+    ],
+    "description": "compacted de Bruijn graph construction in low memory",
+    "name": "bcalm",
+    "full_name": "GATB/bcalm",
+    "html_url": "https://github.com/GATB/bcalm",
+    "created_at": "2014-12-25T16:11:49Z",
+    "updated_at": "2022-06-14T04:42:46Z",
+    "clone_url": "https://github.com/GATB/bcalm.git",
+    "size": 577,
+    "stargazers_count": 84,
+    "watchers_count": 84,
+    "language": "Python",
+    "open_issues_count": 15,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 11,
+    "owner": {
+      "html_url": "https://github.com/GATB",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10297284?v=4",
+      "login": "GATB",
+      "type": "Organization"
+    },
+    "topics": [
+      "bioinformatics",
+      "debruijn",
+      "unitigs",
+      "graph"
+    ],
+    "timestamp": "2022-07-18 17:43:28.060852",
+    "avatar": "https://avatars.githubusercontent.com/u/10297284?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "conda-forge",
+      "evidence": [
+        "README install command: \"conda install -c conda-forge -c bioconda bcalm\"",
+        "\"BCALM 2 is a bioinformatics tool for constructing the compacted de Bruijn graph from sequencing data.\"",
+        "Usage is shown as an end-user command-line program: `./bcalm -in reads.fastq -kmer-size 21 -abundance-min 2`."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T17:19:01Z"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/mikegrudic/MakeCloud",
+  "url": "https://github.com/mikegrudic/MakeCloud",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2019MNRAS.488.2970G",
+      "https://ui.adsabs.harvard.edu/abs/2021ascl.soft06011G/abstract"
+    ],
+    "title": "MakeCloud: Turbulent GMC initial conditions for GIZMO",
+    "url": "https://github.com/mikegrudic/MakeCloud",
+    "name": "MakeCloud",
+    "full_name": "mikegrudic/MakeCloud",
+    "html_url": "https://github.com/mikegrudic/MakeCloud",
+    "description": "MakeCloud: Make turbulent GMC initial conditions for GIZMO",
+    "created_at": "2017-03-06T19:05:40Z",
+    "updated_at": "2022-04-02T16:05:15Z",
+    "clone_url": "https://github.com/mikegrudic/MakeCloud.git",
+    "size": 6206,
+    "stargazers_count": 4,
+    "watchers_count": 4,
+    "language": "Python",
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/mikegrudic",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2715993?v=4",
+      "login": "mikegrudic",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:11:49.700812",
+    "avatar": "https://avatars.githubusercontent.com/u/2715993?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Run python MakeCloud.py -h for instructions\" indicates it is run as a script/application rather than imported as a library.",
+        "Example usage: \"python MakeCloud.py --M=1e6 --R=100 --N=1000000\" shows it directly generates astrophysical cloud initial conditions, a research result artifact.",
+        "README lists only required Python packages and shows direct script execution, with no mention of package managers, releases, or containers, implying distribution via the source repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T01:20:38Z"
+    }
+  }
+}

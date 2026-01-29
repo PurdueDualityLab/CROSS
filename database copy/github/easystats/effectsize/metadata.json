@@ -1,0 +1,72 @@
+{
+  "parser": "github",
+  "uid": "github/easystats/effectsize",
+  "url": "https://github.com/easystats/effectsize",
+  "data": {
+    "timestamp": "2020-12-27 00:31:25.388566",
+    "name": "effectsize",
+    "url": "https://api.github.com/repos/easystats/effectsize",
+    "full_name": "easystats/effectsize",
+    "html_url": "https://github.com/easystats/effectsize",
+    "private": false,
+    "description": ":dragon: Compute and work with indices of effect size and standardized parameters",
+    "created_at": "2019-10-08T05:20:04Z",
+    "updated_at": "2020-12-24T12:36:54Z",
+    "clone_url": "https://github.com/easystats/effectsize.git",
+    "homepage": "https://easystats.github.io/effectsize/",
+    "size": 10909,
+    "stargazers_count": 123,
+    "watchers_count": 123,
+    "language": "R",
+    "open_issues_count": 14,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 8,
+    "owner": {
+      "html_url": "https://github.com/easystats",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/47102598?v=4",
+      "login": "easystats",
+      "type": "Organization"
+    },
+    "topics": [
+      "effectsize",
+      "correlation",
+      "conversion",
+      "interpretation",
+      "cohens-d",
+      "anova",
+      "standardization",
+      "hedges-g",
+      "effect-size",
+      "compute",
+      "standardized"
+    ]
+  },
+  "doi": "https://doi.org/10.5281/zenodo.4384509",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"effectsize\")\"",
+        "\"The goal of this package is to provide utilities to work with indices of effect size and standardized parameters, allowing computation and conversion of indices such as Cohen’s d, r, odds-ratios, etc.\"",
+        "\"Tip: Instead of `library(effectsize)`, use `library(easystats)`. This will make all features of the easystats-ecosystem available.\" (indicates it is an R package/library used by other code)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:40:38Z"
+    }
+  }
+}

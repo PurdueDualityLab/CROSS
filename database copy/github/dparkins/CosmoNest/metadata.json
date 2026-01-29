@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/dparkins/CosmoNest",
+  "url": "https://github.com/dparkins/CosmoNest",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2006PhRvD..73l3523P",
+      "https://ui.adsabs.harvard.edu/abs/2006ApJ...638L..51M",
+      "https://ui.adsabs.harvard.edu/abs/2011ascl.soft10019P/abstract"
+    ],
+    "title": "CosmoNest: Cosmological Nested Sampling",
+    "url": "https://github.com/dparkins/CosmoNest",
+    "name": "CosmoNest",
+    "full_name": "dparkins/CosmoNest",
+    "html_url": "https://github.com/dparkins/CosmoNest",
+    "description": "Cosmological Nested Sampling (to be used with cosmomc)",
+    "created_at": "2013-03-12T06:32:02Z",
+    "updated_at": "2014-09-12T12:26:24Z",
+    "clone_url": "https://github.com/dparkins/CosmoNest.git",
+    "size": 224,
+    "language": "FORTRAN",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/dparkins",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3622802?v=4",
+      "login": "dparkins",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:24:48.109740",
+    "avatar": "https://avatars.githubusercontent.com/u/3622802?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "Project name and brief description only: \"CosmoNest\" / \"Cosmological Nested Sampling (to be used with cosmomc)\" indicates a small, likely individually maintained research code.",
+        "\"Cosmological Nested Sampling (to be used with cosmomc)\" implies it is a component used by another program (cosmomc), i.e., a dependency rather than a standalone end-user application.",
+        "The README provides only a title and short description with no mention of package managers, binaries, or services, implying distribution directly from the source repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T23:36:27Z"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/ropensci/jstor",
+  "url": "https://github.com/ropensci/jstor",
+  "data": {
+    "timestamp": "2022-01-27 10:11:35.217480",
+    "name": "jstor",
+    "url": "https://api.github.com/repos/ropensci/jstor",
+    "full_name": "ropensci/jstor",
+    "html_url": "https://github.com/ropensci/jstor",
+    "private": false,
+    "description": "Import journal data from DfR (JSTOR)",
+    "created_at": "2017-12-13T10:48:30Z",
+    "updated_at": "2021-12-08T20:12:20Z",
+    "clone_url": "https://github.com/ropensci/jstor.git",
+    "homepage": "https://docs.ropensci.org/jstor",
+    "size": 6486,
+    "stargazers_count": 44,
+    "watchers_count": 44,
+    "language": "R",
+    "open_issues_count": 17,
+    "license": null,
+    "owner": {
+      "html_url": "https://github.com/ropensci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1200269?v=4",
+      "login": "ropensci",
+      "type": "Organization"
+    },
+    "topics": [
+      "jstor",
+      "text-analysis",
+      "text-mining",
+      "r",
+      "peer-reviewed",
+      "r-package",
+      "rstats",
+      "literature"
+    ]
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"jstor\")\"",
+        "\"jstor provides functions and suggests workflows for importing datasets from DfR. It was developed to deal with very large datasets...\" (R package-style functional library, used as a dependency).",
+        "\"In order to use `jstor`, you first need to load it: `library(jstor)`\" (indicates it is an importable R package rather than a standalone application)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T02:30:35Z"
+    }
+  }
+}

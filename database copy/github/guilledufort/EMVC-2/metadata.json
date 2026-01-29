@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/guilledufort/EMVC-2",
+  "url": "https://github.com/guilledufort/EMVC-2",
+  "data": {
+    "doi": "10.1093/BIOINFORMATICS/BTAD681",
+    "name": "EMVC-2",
+    "url": "https://github.com/guilledufort/EMVC-2",
+    "full_name": "guilledufort/EMVC-2",
+    "html_url": "https://github.com/guilledufort/EMVC-2",
+    "description": "An efficient SNV variant caller based on the expectation maximization algorithm. EMVC-2 is implemented in C and uses a python wrapper.",
+    "created_at": "2023-06-02T10:49:59Z",
+    "updated_at": "2023-12-16T00:27:28Z",
+    "clone_url": "https://github.com/guilledufort/EMVC-2.git",
+    "size": 7344,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "C",
+    "open_issues_count": 1,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/guilledufort",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60487627?v=4",
+      "login": "guilledufort",
+      "type": "User"
+    },
+    "timestamp": "2024-05-05 00:36:43.604918",
+    "avatar": "https://avatars.githubusercontent.com/u/60487627?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "conda",
+      "evidence": [
+        "README install command: \"conda install -c bioconda emvc-2\"",
+        "\"An efficient SNV variant caller based on the expectation maximization algorithm. EMVC-2 is implemented in C and uses a python wrapper.\" (domain-specific variant calling tool, run as a program)",
+        "Usage section shows command-line execution: \"emvc-2 [-h] -i BAM_FILE -r REF_FILE ... -o OUT_FILE\" and example \"./emvc-2 -i example/example.bam ...\" (end-user application for analysis)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:05:58Z"
+    }
+  }
+}

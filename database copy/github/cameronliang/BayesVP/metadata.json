@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/cameronliang/BayesVP",
+  "url": "https://github.com/cameronliang/bayesvp",
+  "data": {
+    "doi": [
+      "http://adsabs.harvard.edu/abs/2018MNRAS.479.1822L",
+      "http://adsabs.harvard.edu/abs/2017arXiv171009852L",
+      "https://ui.adsabs.harvard.edu/abs/2017ascl.soft11004L/abstract"
+    ],
+    "title": "BayesVP: Full Bayesian Voigt profile fitting",
+    "url": "https://github.com/cameronliang/bayesvp",
+    "name": "bayesvp",
+    "full_name": "cameronliang/bayesvp",
+    "html_url": "https://github.com/cameronliang/bayesvp",
+    "created_at": "2016-07-05T17:23:27Z",
+    "updated_at": "2022-04-12T03:12:23Z",
+    "clone_url": "https://github.com/cameronliang/bayesvp.git",
+    "size": 2287,
+    "stargazers_count": 7,
+    "watchers_count": 7,
+    "language": "Ruby",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/cameronliang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18225386?v=4",
+      "login": "cameronliang",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:19:43.734136",
+    "avatar": "https://avatars.githubusercontent.com/u/18225386?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install bayesvp --user\"",
+        "\"Author:        Cameron Liang (cameron.liang@gmail.com)\" and only one named author plus a single contributor suggests an individual maintainer rather than an institution or community project.",
+        "\"`bayesvp` is a Bayesian MCMC parallel Voigt profile fitting routine. `bayesvp` provides a number of helpful executable scripts that work with command line arguments\" – described as an executable tool users run for Voigt profile fitting, i.e., an application."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T22:48:41Z"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/rhyspoulton/OrbWeaver",
+  "url": "https://github.com/rhyspoulton/OrbWeaver",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2019arXiv191110281P",
+      "https://ui.adsabs.harvard.edu/abs/2019ascl.soft11019P/abstract"
+    ],
+    "title": "OrbWeaver: Galaxy/(sub)halo orbital processing tool",
+    "url": "https://github.com/rhyspoulton/OrbWeaver",
+    "name": "OrbWeaver",
+    "full_name": "rhyspoulton/OrbWeaver",
+    "html_url": "https://github.com/rhyspoulton/OrbWeaver",
+    "description": "Galaxy/(sub)halo orbital processing tool",
+    "created_at": "2018-08-08T00:53:50Z",
+    "updated_at": "2020-03-16T09:58:51Z",
+    "clone_url": "https://github.com/rhyspoulton/OrbWeaver.git",
+    "size": 285,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "C++",
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/rhyspoulton",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13027948?v=4",
+      "login": "rhyspoulton",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:15:32.474234",
+    "avatar": "https://avatars.githubusercontent.com/u/13027948?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"Orbweaver uses cmake as a build tool as it does many system-level checks, like looking for libraries and setting up the rules for the build, and then generates the actual build scripts in one of the s\"",
+        "\"OrbWeaver is designed to extract orbits from halo catalogs enabling a large statistical study of their orbital parameters.\"",
+        "\"The simplest way to build is to use the following steps from the root of the repository: mkdir build; cd build; cmake ..; make all\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T02:09:29Z"
+    }
+  }
+}

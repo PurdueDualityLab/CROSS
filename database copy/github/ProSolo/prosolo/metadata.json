@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/ProSolo/prosolo",
+  "url": "https://github.com/ProSolo/prosolo",
+  "data": {
+    "title": "ProSolo",
+    "url": "https://github.com/ProSolo/prosolo",
+    "credit": [],
+    "description": "ProSolo, variant calling from single cell DNA-seq data, or: bulk backing vocals for single cell solos.",
+    "name": "prosolo",
+    "full_name": "ProSolo/prosolo",
+    "html_url": "https://github.com/ProSolo/prosolo",
+    "created_at": "2017-01-31T16:55:55Z",
+    "updated_at": "2022-06-05T07:03:01Z",
+    "clone_url": "https://github.com/ProSolo/prosolo.git",
+    "size": 323,
+    "stargazers_count": 21,
+    "watchers_count": 21,
+    "language": "Rust",
+    "open_issues_count": 1,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/ProSolo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/40427071?v=4",
+      "login": "ProSolo",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-18 17:46:26.724134",
+    "avatar": "https://avatars.githubusercontent.com/u/40427071?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Vendor or commercial entity",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "Bioconda",
+      "evidence": [
+        "\"ProSolo is a variant caller for multiple displacement amplified DNA sequencing data from diploid single cells.\"",
+        "\"ProSolo is available via Bioconda, a distribution of bioinformatics software for the conda package manager.\"",
+        "\"To then use it, you only need to activate its environment with `conda activate prosolo`\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T19:51:10Z"
+    }
+  }
+}

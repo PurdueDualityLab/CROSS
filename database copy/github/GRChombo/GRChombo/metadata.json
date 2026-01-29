@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/GRChombo/GRChombo",
+  "url": "https://github.com/GRChombo/GRChombo",
+  "data": {
+    "timestamp": "2021-12-12 00:38:25.227833",
+    "name": "GRChombo",
+    "url": "https://api.github.com/repos/GRChombo/GRChombo",
+    "full_name": "GRChombo/GRChombo",
+    "html_url": "https://github.com/GRChombo/GRChombo",
+    "private": false,
+    "description": "An AMR based open-source code for numerical relativity simulations.",
+    "created_at": "2018-01-24T15:51:18Z",
+    "updated_at": "2021-12-10T10:56:21Z",
+    "clone_url": "https://github.com/GRChombo/GRChombo.git",
+    "homepage": "",
+    "size": 13986,
+    "stargazers_count": 30,
+    "watchers_count": 30,
+    "language": "C++",
+    "open_issues_count": 39,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "subscribers_count": 16,
+    "owner": {
+      "html_url": "https://github.com/GRChombo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11063947?v=4",
+      "login": "GRChombo",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "doi": "https://doi.org/10.5281/zenodo.5771949",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"GRChombo is an open-source code for numerical relativity simulations.\"",
+        "\"It is developed and maintained by a collaboration of numerical relativists with a wide range of research interests... and has been used in many papers since its first release in 2015.\"",
+        "\"Detailed installation instructions and usage examples are available in our wiki\" (no mention of package managers or binaries, implying use via the source repository)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T17:19:57Z"
+    }
+  }
+}

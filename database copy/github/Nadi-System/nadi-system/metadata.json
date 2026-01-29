@@ -1,0 +1,64 @@
+{
+  "parser": "github",
+  "uid": "github/Nadi-System/nadi-system",
+  "url": "https://github.com/Nadi-System/nadi-system",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.16956958",
+    "name": "nadi-system",
+    "url": "https://github.com/Nadi-System/nadi-system",
+    "full_name": "Nadi-System/nadi-system",
+    "html_url": "https://github.com/Nadi-System/nadi-system",
+    "description": "Domain Specific Programming language for Network Analysis and Data Integration (NADI) System. The repo contains command line tool, IDE, python library, etc.",
+    "created_at": "2025-04-15T19:24:34Z",
+    "updated_at": "2025-08-27T18:56:24Z",
+    "clone_url": "https://github.com/Nadi-System/nadi-system.git",
+    "homepage": "https://nadi-system.github.io/",
+    "size": 3434,
+    "stargazers_count": 4,
+    "watchers_count": 4,
+    "language": "Rust",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "owner": {
+      "html_url": "https://github.com/Nadi-System",
+      "avatar_url": "https://avatars.githubusercontent.com/u/159494864?v=4",
+      "login": "Nadi-System",
+      "type": "Organization"
+    },
+    "topics": [
+      "domain-specific-language",
+      "geographical-information-system",
+      "hydrology",
+      "network-analysis",
+      "plugin-system"
+    ],
+    "timestamp": "2025-08-31 00:53:20.831290",
+    "avatar": "https://avatars.githubusercontent.com/u/159494864?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Vendor or commercial entity",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Builds and releases",
+      "distribution_details": "GitHub Releases",
+      "evidence": [
+        "README mentions releases: \"Prebuilt binaries are available for windows in the releases page. Use the `nadi-ide` binary for the GUI, refer to Nadi Book for details on other binaries.\"",
+        "\"Collection of Utilities to do Network Analysis and Data Integration. This is made targeting analysis of point data in a river system but it should work for any network analysis that work on directed tree network.\"",
+        "\"The repo contains the tools for using nadi through Command Line Interface (CLI), Integrated Development Environment (IDE), `mdbook` (documentation writing tool), or as a python library.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T19:38:42Z"
+    }
+  }
+}

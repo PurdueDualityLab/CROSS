@@ -1,0 +1,55 @@
+{
+  "parser": "github",
+  "uid": "github/yyZhang14/dbEssLnc",
+  "url": "https://github.com/yyZhang14/dbEssLnc",
+  "data": {
+    "doi": "10.1016/J.CSBJ.2022.05.043",
+    "name": "dbEssLnc",
+    "url": "https://github.com/yyZhang14/dbEssLnc",
+    "full_name": "yyZhang14/dbEssLnc",
+    "html_url": "https://github.com/yyZhang14/dbEssLnc",
+    "description": "a Vue.js project",
+    "created_at": "2021-06-21T08:33:43Z",
+    "updated_at": "2022-03-14T17:43:15Z",
+    "clone_url": "https://github.com/yyZhang14/dbEssLnc.git",
+    "size": 40447,
+    "language": "Vue",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/yyZhang14",
+      "avatar_url": "https://avatars.githubusercontent.com/u/86227741?v=4",
+      "login": "yyZhang14",
+      "type": "User"
+    },
+    "timestamp": "2022-09-11 00:44:11.414229",
+    "avatar": "https://avatars.githubusercontent.com/u/86227741?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "npm",
+      "evidence": [
+        "README install command: \"npm install -g cnpm --registry=https://registry.npm.taobao.org\"",
+        "\"The dbEssLnc database has a web-based user-friendly interface for the users to browse, to search, to visualize and to blast search the records in the database. The dbEssLnc database is freely accessible at https://esslnc.pufengdu.org.\"",
+        "\"If you want to run this code in your development environment,you should first install Node.js and MySQL on your machine.\" (instructions to run the web application from source)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T05:10:28Z"
+    }
+  }
+}

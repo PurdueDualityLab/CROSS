@@ -1,0 +1,55 @@
+{
+  "parser": "github",
+  "uid": "github/marius311/pypico",
+  "url": "https://github.com/marius311/pypico",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2007ApJ...654....2F",
+      "https://ui.adsabs.harvard.edu/abs/2013ascl.soft06011F/abstract"
+    ],
+    "title": "Pico: Parameters for the Impatient Cosmologist",
+    "url": "https://github.com/marius311/pypico",
+    "name": "pypico",
+    "full_name": "marius311/pypico",
+    "html_url": "https://github.com/marius311/pypico",
+    "description": "Quickly compute the CMB powerspectra and matter transfer functions.",
+    "created_at": "2012-10-09T23:11:50Z",
+    "updated_at": "2022-03-30T11:10:01Z",
+    "clone_url": "https://github.com/marius311/pypico.git",
+    "size": 192,
+    "stargazers_count": 7,
+    "watchers_count": 7,
+    "language": "Python",
+    "open_issues_count": 4,
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/marius311",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1510968?v=4",
+      "login": "marius311",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:24:17.551149",
+    "avatar": "https://avatars.githubusercontent.com/u/1510968?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install git+https://github.com/marius311/pypico [--user] [--upgrade]\"",
+        "\"PICO computes Cosmic Microwave Background power spectra and matter transfer functions orders of magnitude faster than CAMB or CLASS.\"",
+        "\"After that, PICO is used from the Python shell. Typical usage starts by loading a PICO data file: `import pypico`\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:02:07Z"
+    }
+  }
+}

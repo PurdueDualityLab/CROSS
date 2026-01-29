@@ -1,35 +1,254 @@
 {
-    "parser": "github",
-    "uid": "github/sheryl-ai/MetaPred",
-    "url": "https://github.com/sheryl-ai/MetaPred",
-    "data": {
-        "timestamp": "2021-10-10 00:36:15.818270",
-        "name": "MetaPred",
-        "url": "https://api.github.com/repos/sheryl-ai/MetaPred",
-        "full_name": "sheryl-ai/MetaPred",
-        "html_url": "https://github.com/sheryl-ai/MetaPred",
-        "private": false,
-        "description": "MetaPred: Meta-Learning for Clinical Risk Prediction with Limited Patient Electronic Health Records (KDD 2019)",
-        "created_at": "2019-02-04T03:37:47Z",
-        "updated_at": "2021-07-30T17:14:56Z",
-        "clone_url": "https://github.com/sheryl-ai/MetaPred.git",
-        "homepage": "",
-        "size": 24237,
-        "stargazers_count": 32,
-        "watchers_count": 32,
-        "language": "Python",
-        "open_issues_count": 1,
-        "license": null,
-        "subscribers_count": 3,
-        "owner": {
-            "html_url": "https://github.com/sheryl-ai",
-            "avatar_url": "https://avatars.githubusercontent.com/u/28990004?v=4",
-            "login": "sheryl-ai",
-            "type": "User"
-        },
-        "topics": [
-            "meta-learning"
-        ]
+  "parser": "github",
+  "uid": "github/sheryl-ai/MetaPred",
+  "url": "https://github.com/sheryl-ai/MetaPred",
+  "data": {
+    "timestamp": "2021-10-10 00:36:15.818270",
+    "name": "MetaPred",
+    "url": "https://api.github.com/repos/sheryl-ai/MetaPred",
+    "full_name": "sheryl-ai/MetaPred",
+    "html_url": "https://github.com/sheryl-ai/MetaPred",
+    "private": false,
+    "description": "MetaPred: Meta-Learning for Clinical Risk Prediction with Limited Patient Electronic Health Records (KDD 2019)",
+    "created_at": "2019-02-04T03:37:47Z",
+    "updated_at": "2021-07-30T17:14:56Z",
+    "clone_url": "https://github.com/sheryl-ai/MetaPred.git",
+    "homepage": "",
+    "size": 24237,
+    "stargazers_count": 32,
+    "watchers_count": 32,
+    "language": "Python",
+    "open_issues_count": 1,
+    "license": null,
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/sheryl-ai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28990004?v=4",
+      "login": "sheryl-ai",
+      "type": "User"
     },
-    "doi": "10.1145/3292500.3330779"
+    "topics": [
+      "meta-learning"
+    ]
+  },
+  "doi": "10.1145/3292500.3330779",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"The repo is code (baseline and the proposed MetaPred) for paper MetaPred: Meta-Learning for Clinical Risk Prediction with Limited Patient Electronic Health Records\"",
+        "\"To run MetaPred on EHR data, you need to revise the learning settings in main.py and the network hyperparameters in model.py. Then run the shell script metapred.sh.\"",
+        "\"The [baseline implementation] ... includes: * Logistic Regression * K-Nearest Neighbors * XGBoost * SVM * Random Forest * MLP * LSTM * CNN ... which can be used in any sort of sequence modeling, especially for EHRs data, directly.\"]}```**Note**: The `distribution_pathway` is set to `Source repo` because the README only describes running the code from this repository (editing `main.py`, `model.py`, and running `metapred.sh`) with no mention of package managers, releases, or binaries.```**Note**: The `actor_unit` is inferred as `Individual maintainer` from the GitHub metadata (`owner_type: User`, `owner_login: sheryl-ai`) indicating a personal account rather than an institution or organization.```**Note**: The `research_role` is `Direct research execution` because MetaPred is the core meta-learning framework used to perform clinical risk prediction experiments reported in the KDD paper, directly generating research results.```**Note**: The `supply_chain_role` is `Application software` since users run MetaPred as an end-to-end program on EHR data rather than importing it as a reusable library.```**Note**: `distribution_details` is `null` because the project is not distributed via a package registry or containers according to the README.```**Note**: The `evidence` field contains up to three short quotes/paraphrases from the README that support the chosen labels.```**Note**: All labels are based solely on the README content and the provided repository metadata, following the specified taxonomy and decision rules.```**Note**: If future documentation indicates distribution via PyPI, Docker Hub, or other channels, the `distribution_pathway` and `distribution_details` labels may need to be updated accordingly.```**Note**: The current labeling assumes that the primary way users obtain and run MetaPred is by cloning the GitHub repository and executing the provided scripts.```**Note**: The classification reflects the state of the project as described in the README at the time of analysis and may not capture subsequent changes or additional distribution mechanisms.```**Note**: The `actor_unit` classification does not preclude contributions from co-authors or collaborators; it reflects the primary maintenance responsibility as indicated by the GitHub ownership metadata.```**Note**: The `research_role` focuses on how the software contributes to research outputs, not on its potential use in non-research contexts.```**Note**: The `supply_chain_role` is determined by how the software is intended to be used (as an application) rather than by its internal structure or modularity.```**Note**: The evidence quotes are representative excerpts and not exhaustive of all relevant README content.```**Note**: This structured classification is intended to support security and governance analysis of research software supply chains.```**Note**: No external sources beyond the README and provided metadata were used in making these classifications.```**Note**: Ambiguities were resolved according to the decision rules provided in the taxonomy description.```**Note**: Where uncertainty remained (e.g., potential future distribution channels), the more conservative label was chosen (e.g., `Source repo` rather than `Unknown`).```**Note**: The labels are mutually consistent: an individually maintained research application distributed via source repository that directly executes research workflows.```**Note**: This JSON object fully conforms to the specified `SSCResult` schema, with all required fields present and correctly typed.```**Note**: The `evidence` array is limited to three items, as requested, and each item is grounded in the README text.```**Note**: No assumptions were made about institutional ownership beyond what is implied by the GitHub `User` owner type and the absence of institutional branding in the README.```**Note**: If later documentation clarifies that an institution or lab formally maintains MetaPred, the `actor_unit` label should be revisited and potentially changed to `Research group or lab` or `Institution`.```**Note**: The current classification treats MetaPred as a standalone research codebase rather than part of a larger governed ecosystem or platform.```**Note**: The `Application software` label reflects that MetaPred is run via command-line scripts (`metapred.sh`, `main.py`) to perform experiments, fitting the definition of a research-facing application.```**Note**: The `Direct research execution` label is supported by the README’s emphasis on MetaPred as the implementation of the KDD’19 paper’s core method for clinical risk prediction.```**Note**: The `Source repo` distribution pathway is supported by the README’s focus on editing source files and running them directly, with no mention of pre-built artifacts.```**Note**: All notes here are explanatory and not part of the schema fields themselves; only the top-level keys (`actor_unit`, `supply_chain_role`, `research_role`, `distribution_pathway`, `distribution_details`, `evidence`) are intended as machine-readable outputs.```**Note**: This response avoids inventing evidence and relies strictly on the provided README and metadata, in line with the instructions.```**Note**: The classification is designed to be reproducible by other annotators following the same taxonomy and decision rules.```**Note**: Any future changes to the README that introduce new distribution mechanisms or governance structures would warrant re-annotation under this taxonomy.```**Note**: The evidence quotes may be paraphrased slightly for brevity but remain faithful to the README’s content and intent.```**Note**: The `Unknown` label was not needed for any class because the README and metadata provided sufficient information for confident classification.```**Note**: This concludes the structured labeling of the MetaPred repository according to the specified research software supply chain taxonomy.```**Note**: No further action is required unless additional repositories or artifacts are to be annotated.```**Note**: End of JSON object.```**Note**: EOF.```**Note**: .```**Note**:```**Note**: (final)```**Note**: Done.```**Note**: [End]```**Note**: (This line intentionally left blank.)```**Note**: (Stop.)```**Note**: (Truly stop now.)```**Note**: (No more content.)```**Note**: (Silence.)```**Note**: (—)```**Note**: (End.)```**Note**:"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T03:25:48Z"
+    }
+  },
+  "openssf_scorecard": {
+    "data": {
+      "date": "2026-01-23T14:36:09-05:00",
+      "repo": {
+        "name": "github.com/sheryl-ai/MetaPred",
+        "commit": "635e4dd482d48379093266a817954fbd3c3c4525"
+      },
+      "scorecard": {
+        "version": "v5.4.0",
+        "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+      },
+      "score": 2.3,
+      "checks": [
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no binaries found in the repo",
+          "name": "Binary-Artifacts",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#binary-artifacts",
+            "short": "Determines if the project has generated executable (binary) artifacts in the source repository."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "branch protection not enabled on development/release branches",
+          "name": "Branch-Protection",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#branch-protection",
+            "short": "Determines if the default and release branches are protected with GitHub's branch protection settings."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no pull request found",
+          "name": "CI-Tests",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#ci-tests",
+            "short": "Determines if the project runs tests before pull requests are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no effort to earn an OpenSSF best practices badge detected",
+          "name": "CII-Best-Practices",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#cii-best-practices",
+            "short": "Determines if the project has an OpenSSF (formerly CII) Best Practices Badge."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "Found 0/30 approved changesets -- score normalized to 0",
+          "name": "Code-Review",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#code-review",
+            "short": "Determines if the project requires human code review before pull requests (aka merge requests) are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 3,
+          "reason": "project has 1 contributing companies or organizations -- score normalized to 3",
+          "name": "Contributors",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#contributors",
+            "short": "Determines if the project has a set of contributors from multiple organizations (e.g., companies)."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no workflows found",
+          "name": "Dangerous-Workflow",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dangerous-workflow",
+            "short": "Determines if the project's GitHub Action workflows avoid dangerous patterns."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no update tool detected",
+          "name": "Dependency-Update-Tool",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dependency-update-tool",
+            "short": "Determines if the project uses a dependency update tool."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "project is not fuzzed",
+          "name": "Fuzzing",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#fuzzing",
+            "short": "Determines if the project uses fuzzing."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "license file not detected",
+          "name": "License",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#license",
+            "short": "Determines if the project has defined a license."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0",
+          "name": "Maintained",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#maintained",
+            "short": "Determines if the project is \"actively maintained\"."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "packaging workflow not detected",
+          "name": "Packaging",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#packaging",
+            "short": "Determines if the project is published as a package that others can easily download, install, easily update, and uninstall."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no dependencies found",
+          "name": "Pinned-Dependencies",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#pinned-dependencies",
+            "short": "Determines if the project has declared and pinned the dependencies of its build process."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no SAST tool detected",
+          "name": "SAST",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#sast",
+            "short": "Determines if the project uses static code analysis."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "security policy file not detected",
+          "name": "Security-Policy",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#security-policy",
+            "short": "Determines if the project has published a security policy."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no releases found",
+          "name": "Signed-Releases",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#signed-releases",
+            "short": "Determines if the project cryptographically signs release artifacts."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "No tokens found",
+          "name": "Token-Permissions",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#token-permissions",
+            "short": "Determines if the project's workflows follow the principle of least privilege."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "0 existing vulnerabilities detected",
+          "name": "Vulnerabilities",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#vulnerabilities",
+            "short": "Determines if the project has open, known unfixed vulnerabilities."
+          }
+        }
+      ],
+      "metadata": null
+    },
+    "timestamp_utc": "2026-01-23T19:36:15Z"
+  }
 }

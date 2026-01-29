@@ -1,0 +1,57 @@
+{
+  "parser": "github",
+  "uid": "github/kitokamada/QUIDS",
+  "url": "https://github.com/kitokamada/QUIDS",
+  "data": {
+    "doi": [],
+    "title": "QUIDS: Q/U Integrated Dust Shells",
+    "url": "https://github.com/kitokamada/QUIDS",
+    "name": "QUIDS",
+    "full_name": "kitokamada/QUIDS",
+    "html_url": "https://github.com/kitokamada/QUIDS",
+    "description": "Q/U Integrated Dust Shells",
+    "created_at": "2025-07-23T18:02:57Z",
+    "updated_at": "2025-07-31T21:45:42Z",
+    "clone_url": "https://github.com/kitokamada/QUIDS.git",
+    "size": 6814,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Jupyter Notebook",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "owner": {
+      "html_url": "https://github.com/kitokamada",
+      "avatar_url": "https://avatars.githubusercontent.com/u/135876292?v=4",
+      "login": "kitokamada",
+      "type": "User"
+    },
+    "timestamp": "2025-08-10 00:59:31.360586",
+    "avatar": "https://avatars.githubusercontent.com/u/135876292?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"This script generates **logarithmically spaced spherical shell coordinates** sampled in angular direction using a **HEALPix grid**, and saves them in FITS binary tables.\"",
+        "“QUIDS is a Python package for generating synthetic Stokes Q and U polarization maps using 3D dust density and Galactic Magnetic Field (GMF) shell data.”",
+        "“This package is particularly relevant for modeling and probing how local Galactic features contribute to or interfere with global polarization signals.”"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:45:27Z"
+    }
+  }
+}

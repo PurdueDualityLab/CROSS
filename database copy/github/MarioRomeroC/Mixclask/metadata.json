@@ -1,0 +1,52 @@
+{
+  "parser": "github",
+  "uid": "github/MarioRomeroC/Mixclask",
+  "url": "https://github.com/MarioRomeroC/Mixclask",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2023MNRAS.521.1727R",
+      "https://ui.adsabs.harvard.edu/abs/2023ascl.soft06029R/abstract"
+    ],
+    "title": "Mixclask: Mixing Cloudy and SKIRT",
+    "url": "https://github.com/MarioRomeroC/Mixclask",
+    "name": "Mixclask",
+    "full_name": "MarioRomeroC/Mixclask",
+    "html_url": "https://github.com/MarioRomeroC/Mixclask",
+    "description": "Mixing cloudy and skirt",
+    "created_at": "2021-10-12T13:10:05Z",
+    "updated_at": "2021-12-09T12:21:09Z",
+    "clone_url": "https://github.com/MarioRomeroC/Mixclask.git",
+    "size": 963,
+    "language": "Python",
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/MarioRomeroC",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25634276?v=4",
+      "login": "MarioRomeroC",
+      "type": "User"
+    },
+    "timestamp": "2023-07-02 00:53:56.726853",
+    "avatar": "https://avatars.githubusercontent.com/u/25634276?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"> 'cloudy_path':'/path/to/your/cloudy/exe'\"",
+        "\"This is the current version of Mixclask, first used in: Predicting interstellar radiation fields from chemical evolution models. By M. Romero, P. Corcho-Caballero, I. Millán-Irigoyen, M. Mollá and Y. Ascasibar.\" (personal GitHub owner, no institutional governance mentioned)",
+        "\"This code combines cloudy ... and skirt ... to predict spectra and gas properties in astrophysical contexts (galaxies, HII regions...).\" (end users run it as a scientific application)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T19:05:39Z"
+    }
+  }
+}

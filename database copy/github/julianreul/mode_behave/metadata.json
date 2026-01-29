@@ -1,0 +1,55 @@
+{
+  "parser": "github",
+  "uid": "github/julianreul/mode_behave",
+  "url": "https://github.com/julianreul/mode_behave",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.8225871",
+    "name": "mode_behave",
+    "url": "https://github.com/julianreul/mode_behave",
+    "full_name": "julianreul/mode_behave",
+    "html_url": "https://github.com/julianreul/mode_behave",
+    "description": "A Python package for estimating mixed logit models with nonparametric distributions",
+    "created_at": "2022-08-09T04:56:00Z",
+    "updated_at": "2022-10-04T08:05:42Z",
+    "clone_url": "https://github.com/julianreul/mode_behave.git",
+    "size": 16715,
+    "language": "Python",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/julianreul",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42872728?v=4",
+      "login": "julianreul",
+      "type": "User"
+    },
+    "timestamp": "2023-08-20 00:31:27.460109",
+    "avatar": "https://avatars.githubusercontent.com/u/42872728?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install -e .\"",
+        "\"MO|DE.behave is a Python-based software package for the estimation and simulation of discrete choice models.\"",
+        "Example usage shows it imported and run as an analysis tool: \"import mode_behave_public as mb\" then model = mb.Core(...), model.estimate_mixed_logit(...), model.visualize_space(...), model.forecast(...)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:40:18Z"
+    }
+  }
+}

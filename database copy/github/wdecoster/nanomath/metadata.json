@@ -1,0 +1,57 @@
+{
+  "parser": "github",
+  "uid": "github/wdecoster/nanomath",
+  "url": "https://github.com/wdecoster/nanomath",
+  "data": {
+    "url": "https://github.com/wdecoster/nanomath",
+    "title": "Python3-nanomath",
+    "description": "A few simple math function for other Oxford Nanopore processing scripts",
+    "name": "nanomath",
+    "full_name": "wdecoster/nanomath",
+    "html_url": "https://github.com/wdecoster/nanomath",
+    "created_at": "2017-06-05T08:28:23Z",
+    "updated_at": "2022-06-20T18:06:35Z",
+    "clone_url": "https://github.com/wdecoster/nanomath.git",
+    "size": 84,
+    "stargazers_count": 7,
+    "watchers_count": 7,
+    "language": "Python",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/wdecoster",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11660522?v=4",
+      "login": "wdecoster",
+      "type": "User"
+    },
+    "timestamp": "2022-07-20 17:27:59.383111",
+    "avatar": "https://avatars.githubusercontent.com/u/11660522?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install nanomath\"",
+        "\"This module provides a few simple math and statistics functions for other scripts processing Oxford Nanopore sequencing data\" (indicates a library used by other software, i.e., dependency).",
+        "\"This module provides a few simple math and statistics functions for other scripts processing Oxford Nanopore sequencing data\" and the citation to a bioinformatics publication indicate it directly supports sequencing-data analysis for research."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:52:38Z"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/ropensci/emld",
+  "url": "https://github.com/ropensci/emld",
+  "data": {
+    "timestamp": "2022-01-27 10:11:35.211047",
+    "name": "emld",
+    "url": "https://api.github.com/repos/ropensci/emld",
+    "full_name": "ropensci/emld",
+    "html_url": "https://github.com/ropensci/emld",
+    "private": false,
+    "description": ":package: JSON-LD representation of EML",
+    "created_at": "2017-10-25T05:24:04Z",
+    "updated_at": "2021-11-06T00:03:53Z",
+    "clone_url": "https://github.com/ropensci/emld.git",
+    "homepage": "https://docs.ropensci.org/emld",
+    "size": 2776,
+    "stargazers_count": 12,
+    "watchers_count": 12,
+    "language": "R",
+    "open_issues_count": 8,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "owner": {
+      "html_url": "https://github.com/ropensci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1200269?v=4",
+      "login": "ropensci",
+      "type": "Organization"
+    },
+    "topics": [
+      "data-extraction"
+    ]
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"# install.packages(\"devtools\")\"",
+        "The repository owner is the rOpenSci organization, which curates and governs a collection of R packages rather than a single-lab project.",
+        "\"The goal of emld is to provide a way to work with EML metadata in the JSON-LD format...\" and it is used as a backend by the EML R package, indicating it is a reusable library component."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T02:27:31Z"
+    }
+  }
+}

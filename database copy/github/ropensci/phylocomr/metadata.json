@@ -1,0 +1,72 @@
+{
+  "parser": "github",
+  "uid": "github/ropensci/phylocomr",
+  "url": "https://github.com/ropensci/phylocomr",
+  "data": {
+    "timestamp": "2022-01-27 10:11:35.172272",
+    "name": "phylocomr",
+    "url": "https://api.github.com/repos/ropensci/phylocomr",
+    "full_name": "ropensci/phylocomr",
+    "html_url": "https://github.com/ropensci/phylocomr",
+    "private": false,
+    "description": "Phylocom R interface",
+    "created_at": "2016-11-29T11:56:22Z",
+    "updated_at": "2021-03-17T16:40:43Z",
+    "clone_url": "https://github.com/ropensci/phylocomr.git",
+    "homepage": "https://docs.ropensci.org/phylocomr",
+    "size": 774,
+    "stargazers_count": 15,
+    "watchers_count": 15,
+    "language": "C",
+    "open_issues_count": 0,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "owner": {
+      "html_url": "https://github.com/ropensci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1200269?v=4",
+      "login": "ropensci",
+      "type": "Organization"
+    },
+    "topics": [
+      "evolution",
+      "ecology",
+      "community-ecology",
+      "r",
+      "rstats",
+      "r-package",
+      "characterevolution",
+      "communitystructure",
+      "Phylocom",
+      "phylodiversity",
+      "phylogeny",
+      "species",
+      "data-extraction"
+    ]
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"phylocomr\")\"",
+        "\"phylocomr gives you access to the Phylocom C library\" and lists many R functions, indicating it is an R package intended to be called by other R code rather than a standalone app.",
+        "Examples show functions like `ph_phylomatic`, `ph_aot`, `ph_bladj` producing phylogenetic analyses and trait statistics, directly generating research-relevant outputs (trees, trait conservatism, phylogenetic signal)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T02:33:34Z"
+    }
+  }
+}

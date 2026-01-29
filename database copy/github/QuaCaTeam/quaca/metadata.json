@@ -1,0 +1,65 @@
+{
+  "parser": "github",
+  "uid": "github/QuaCaTeam/quaca",
+  "url": "https://github.com/QuaCaTeam/quaca",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.8101845",
+    "name": "quaca",
+    "url": "https://github.com/QuaCaTeam/quaca",
+    "full_name": "QuaCaTeam/quaca",
+    "html_url": "https://github.com/QuaCaTeam/quaca",
+    "description": "QuaCa is an open-source library which provides fast calculations of nonequilibrium atom-surface interactions.",
+    "created_at": "2020-05-18T12:06:08Z",
+    "updated_at": "2023-07-07T13:25:56Z",
+    "clone_url": "https://github.com/QuaCaTeam/quaca.git",
+    "homepage": "https://quacateam.github.io/quaca/",
+    "size": 21640,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "C++",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/QuaCaTeam",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65653300?v=4",
+      "login": "QuaCaTeam",
+      "type": "Organization"
+    },
+    "topics": [
+      "physics",
+      "fluctuations",
+      "integration",
+      "casimir",
+      "quantum"
+    ],
+    "timestamp": "2023-07-16 00:48:43.195415",
+    "avatar": "https://avatars.githubusercontent.com/u/65653300?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "“QuaCa stands for Quantum / Casimir Friction and is a numerical framework to calculate just that.”",
+        "“Two executables called `Friction` and `Decay` should now have been build and can be found in the `quaca/bin` directory.”",
+        "“To obtain the source code type `git clone https://github.com/QuaCaTeam/quaca.git` into the console”"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T19:53:00Z"
+    }
+  }
+}

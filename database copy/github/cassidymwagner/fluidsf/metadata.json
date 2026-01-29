@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/cassidymwagner/fluidsf",
+  "url": "https://github.com/cassidymwagner/fluidsf",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.17179994",
+    "name": "fluidsf",
+    "url": "https://github.com/cassidymwagner/fluidsf",
+    "full_name": "cassidymwagner/fluidsf",
+    "html_url": "https://github.com/cassidymwagner/fluidsf",
+    "description": "FluidSF is a package used to calculate structure functions from fluid data.",
+    "created_at": "2022-06-21T21:53:00Z",
+    "updated_at": "2025-10-07T21:11:46Z",
+    "clone_url": "https://github.com/cassidymwagner/fluidsf.git",
+    "homepage": "https://cassidymwagner.github.io/fluidsf",
+    "size": 226360,
+    "stargazers_count": 7,
+    "watchers_count": 7,
+    "language": "Jupyter Notebook",
+    "open_issues_count": 5,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/cassidymwagner",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18169742?v=4",
+      "login": "cassidymwagner",
+      "type": "User"
+    },
+    "timestamp": "2025-10-12 00:49:58.014846",
+    "avatar": "https://avatars.githubusercontent.com/u/18169742?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"$ pip install fluidsf\"",
+        "\"FluidSF is a Python package for calculating structure functions from fluid data. These structure functions can be used to estimate turbulence cascade rates...\"",
+        "\"Once FluidSF is installed, you can load the module into Python and run some basic calculations with any data. Here we'll initialize linearly increasing velocity fields.\" (shows `import fluidsf` and function calls)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T22:50:46Z"
+    }
+  }
+}

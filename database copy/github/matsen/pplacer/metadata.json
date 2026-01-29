@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/matsen/pplacer",
+  "url": "https://github.com/matsen/pplacer",
+  "data": {
+    "url": "https://github.com/matsen/pplacer",
+    "title": "Pplacer",
+    "description": "Phylogenetic placement and downstream analysis",
+    "doi": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-11-538",
+    "name": "pplacer",
+    "full_name": "matsen/pplacer",
+    "html_url": "https://github.com/matsen/pplacer",
+    "created_at": "2009-08-07T00:21:26Z",
+    "updated_at": "2022-07-14T06:55:52Z",
+    "clone_url": "https://github.com/matsen/pplacer.git",
+    "homepage": "http://matsen.fredhutch.org/pplacer/",
+    "size": 9054,
+    "stargazers_count": 65,
+    "watchers_count": 65,
+    "language": "OCaml",
+    "open_issues_count": 31,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 13,
+    "owner": {
+      "html_url": "https://github.com/matsen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112708?v=4",
+      "login": "matsen",
+      "type": "User"
+    },
+    "timestamp": "2022-07-20 17:26:43.362110",
+    "avatar": "https://avatars.githubusercontent.com/u/112708?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"* [**Download compiled binaries**](https://github.com/matsen/pplacer/releases/latest) (Linux x86_64, ARM64, macOS ARM64)\"",
+        "\"pplacer places reads on a phylogenetic tree. guppy ... yanalyzes them. rppr is a helpful tool for working with reference packages.\"",
+        "\"Several other tools have used pplacer as one of their main components.\" (indicates it is an application used in research workflows)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:14:06Z"
+    }
+  }
+}

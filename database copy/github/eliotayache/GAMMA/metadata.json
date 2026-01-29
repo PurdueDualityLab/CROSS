@@ -1,0 +1,55 @@
+{
+  "parser": "github",
+  "uid": "github/eliotayache/GAMMA",
+  "url": "https://github.com/eliotayache/GAMMA",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2021arXiv210409397A",
+      "https://ui.adsabs.harvard.edu/abs/2021ascl.soft04024A/abstract"
+    ],
+    "title": "GAMMA: Relativistic hydro and local cooling on a moving mesh",
+    "url": "https://github.com/eliotayache/GAMMA",
+    "name": "GAMMA",
+    "full_name": "eliotayache/GAMMA",
+    "html_url": "https://github.com/eliotayache/GAMMA",
+    "description": "Relativistic hydro and local cooling on a moving mesh",
+    "created_at": "2021-04-19T20:00:11Z",
+    "updated_at": "2021-11-15T20:35:15Z",
+    "clone_url": "https://github.com/eliotayache/GAMMA.git",
+    "size": 21217,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "C++",
+    "open_issues_count": 1,
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/eliotayache",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28777824?v=4",
+      "login": "eliotayache",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:12:09.372446",
+    "avatar": "https://avatars.githubusercontent.com/u/28777824?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"GAMMA is a code for modeling relativistic hydrodynamics and non-thermal emission on a moving mesh.\"",
+        "\"Clone this repository in a directory of your choice. Move to the directory and build the code.\" followed by `mpirun -n N_nodes ./bin/GAMMA` usage, indicating an end-user simulation application run from source.",
+        "\"Python plotting functions are available in `/bin/Tools/plotting_scripts.py`. These functions should be run from this directory.\", together with the publication reference, shows it directly produces research simulation outputs."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T23:43:39Z"
+    }
+  }
+}

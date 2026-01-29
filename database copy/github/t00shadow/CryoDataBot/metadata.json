@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/t00shadow/CryoDataBot",
+  "url": "https://github.com/t00shadow/CryoDataBot",
+  "data": {
+    "name": "CryoDataBot",
+    "url": "https://github.com/t00shadow/CryoDataBot",
+    "full_name": "t00shadow/CryoDataBot",
+    "html_url": "https://github.com/t00shadow/CryoDataBot",
+    "private": false,
+    "description": "A Robust Pipeline for Curating High-Quality CryoEM Datasets for AI-Driven Structural Biology",
+    "created_at": "2024-07-03T19:35:40Z",
+    "updated_at": "2025-07-10T12:49:16Z",
+    "clone_url": "https://github.com/t00shadow/CryoDataBot.git",
+    "homepage": "",
+    "size": 12629,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "Python",
+    "open_issues_count": 0,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/t00shadow",
+      "avatar_url": "https://avatars.githubusercontent.com/u/111927716?v=4",
+      "login": "t00shadow",
+      "type": "User"
+    },
+    "topics": [],
+    "timestamp": "2025-07-13 01:01:06.542541",
+    "avatar": "https://avatars.githubusercontent.com/u/111927716?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"Activate the virtual environment and pip install packages from the requirements.txt.\"",
+        "\"CryoDataBot is a Python workflow designed for curating high-quality cryoEM datasets for AI-driven structural biology.\"",
+        "\"### Option 1: Run from source... Clone the repo and change directory to CryoDataBot.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:00:25Z"
+    }
+  }
+}

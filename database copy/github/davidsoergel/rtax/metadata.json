@@ -1,0 +1,52 @@
+{
+  "parser": "github",
+  "uid": "github/davidsoergel/rtax",
+  "url": "https://github.com/davidsoergel/rtax",
+  "data": {
+    "url": "https://github.com/davidsoergel/rtax",
+    "title": "Rtax",
+    "description": "Rapid and accurate taxonomic classification of short paired-end sequence reads from the 16S ribosomal RNA gene.",
+    "doi": "http://www.nature.com/ismej/journal/v6/n7/abs/ismej2011208a.html",
+    "name": "rtax",
+    "full_name": "davidsoergel/rtax",
+    "html_url": "https://github.com/davidsoergel/rtax",
+    "created_at": "2013-11-06T15:15:45Z",
+    "updated_at": "2021-10-09T15:26:51Z",
+    "clone_url": "https://github.com/davidsoergel/rtax.git",
+    "size": 728,
+    "stargazers_count": 5,
+    "watchers_count": 5,
+    "language": "Perl",
+    "open_issues_count": 3,
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/davidsoergel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1347381?v=4",
+      "login": "davidsoergel",
+      "type": "User"
+    },
+    "timestamp": "2022-07-20 17:27:12.682336",
+    "avatar": "https://avatars.githubusercontent.com/u/1347381?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"Download\"",
+        "\"RTAX provides rapid taxonomic assignments of paired-end reads using a consensus algorithm.\"",
+        "\"RTAX consists of a set of perl scripts and a shell script (\"rtax\") to wire them together. No compilation is needed; just extract the package to a convenient location.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:28:43Z"
+    }
+  }
+}

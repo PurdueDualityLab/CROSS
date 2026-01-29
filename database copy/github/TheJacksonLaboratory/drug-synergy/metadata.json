@@ -1,0 +1,57 @@
+{
+  "parser": "github",
+  "uid": "github/TheJacksonLaboratory/drug-synergy",
+  "url": "https://github.com/TheJacksonLaboratory/drug-synergy",
+  "data": {
+    "doi": "10.1093/BIOADV/VBAD051",
+    "name": "drug-synergy",
+    "url": "https://github.com/TheJacksonLaboratory/drug-synergy",
+    "full_name": "TheJacksonLaboratory/drug-synergy",
+    "html_url": "https://github.com/TheJacksonLaboratory/drug-synergy",
+    "description": "Drug synergy prediction tool",
+    "created_at": "2022-06-07T17:45:10Z",
+    "updated_at": "2023-05-04T14:10:22Z",
+    "clone_url": "https://github.com/TheJacksonLaboratory/drug-synergy.git",
+    "size": 15503,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Jupyter Notebook",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/TheJacksonLaboratory",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19977120?v=4",
+      "login": "TheJacksonLaboratory",
+      "type": "Organization"
+    },
+    "timestamp": "2023-11-12 00:35:27.570216",
+    "avatar": "https://avatars.githubusercontent.com/u/19977120?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install acda\"",
+        "\"This repository stores drug synergy prediction codebase for Augmented Cancer Drug Atlas (ACDA) and the analysis jupyter notebooks which use the ACDA code.\"",
+        "\"For ease of sharing and use we implemented it as a python package.\" and \"pip install acda\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T20:25:05Z"
+    }
+  }
+}

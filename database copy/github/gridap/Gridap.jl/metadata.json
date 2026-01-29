@@ -1,0 +1,67 @@
+{
+  "parser": "github",
+  "uid": "github/gridap/Gridap.jl",
+  "url": "https://github.com/gridap/Gridap.jl",
+  "data": {
+    "timestamp": "2020-08-30 00:18:41.365194",
+    "name": "Gridap.jl",
+    "url": "https://api.github.com/repos/gridap/Gridap.jl",
+    "full_name": "gridap/Gridap.jl",
+    "html_url": "https://github.com/gridap/Gridap.jl",
+    "private": false,
+    "description": "Grid-based approximation of partial differential equations in Julia",
+    "created_at": "2019-03-15T10:47:03Z",
+    "updated_at": "2020-08-28T09:47:12Z",
+    "clone_url": "https://github.com/gridap/Gridap.jl.git",
+    "homepage": "",
+    "size": 7815,
+    "stargazers_count": 101,
+    "watchers_count": 101,
+    "language": "Julia",
+    "open_issues_count": 27,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 12,
+    "owner": {
+      "html_url": "https://github.com/gridap",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/49163828?v=4",
+      "login": "gridap",
+      "type": "Organization"
+    },
+    "topics": [
+      "julia",
+      "pdes",
+      "partial-differential-equations",
+      "finite-elements",
+      "numerical-methods",
+      "gridap"
+    ]
+  },
+  "doi": "https://doi.org/10.5281/zenodo.3999839",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "Julia General registry",
+      "evidence": [
+        "\"Gridap provides a set of tools for the grid-based approximation of partial differential equations (PDEs) written in the Julia programming language. The library currently supports...\" (described as a library/toolbox, intended to be used from Julia code)",
+        "\"Gridap has a very expressive API allowing one to solve complex PDEs with very few lines of code. The user can write the underlying weak form...\" (used as a computational tool to solve PDEs, directly producing scientific results)",
+        "\"Gridap is a registered package in the official Julia package registry... Open the Julia REPL, type `]` to enter package mode, and install as follows `pkg> add Gridap`\" (installation via Julia package registry)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:05:03Z"
+    }
+  }
+}

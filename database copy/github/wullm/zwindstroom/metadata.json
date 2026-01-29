@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/wullm/zwindstroom",
+  "url": "https://github.com/wullm/zwindstroom",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2022arXiv220200670E",
+      "https://ui.adsabs.harvard.edu/abs/2022ascl.soft02003E/abstract"
+    ],
+    "title": "Zwindstroom: Cosmological growth factors from fluid calculations",
+    "url": "https://github.com/wullm/zwindstroom",
+    "name": "zwindstroom",
+    "full_name": "wullm/zwindstroom",
+    "html_url": "https://github.com/wullm/zwindstroom",
+    "description": "Library for cosmic neutrino calculations",
+    "created_at": "2022-01-09T19:28:38Z",
+    "updated_at": "2022-05-19T20:12:20Z",
+    "clone_url": "https://github.com/wullm/zwindstroom.git",
+    "size": 74,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "C",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/wullm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13404568?v=4",
+      "login": "wullm",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 16:49:24.723985",
+    "avatar": "https://avatars.githubusercontent.com/u/13404568?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"The purpose of Zwindstroom is to provide methods for computing background quantities and scale-dependent growth factors for massive neutrino cosmologies.\"",
+        "\"A flexible python interface makes it easy to interact with CLASS (through classy). There is also a Zwindstroom plugin for the cosmological initial conditions generator monofonIC…\" (indicates it is used as a component/library)",
+        "Installation instructions only show building from source with CMake and then `import zwindstroom`, with no mention of package managers or releases, implying source-repo distribution."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T04:54:56Z"
+    }
+  }
+}

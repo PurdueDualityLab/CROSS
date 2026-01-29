@@ -1,0 +1,64 @@
+{
+  "parser": "github",
+  "uid": "github/pikarpov-LANL/Sapsan",
+  "url": "https://github.com/pikarpov-LANL/Sapsan",
+  "data": {
+    "timestamp": "2021-11-28 00:36:05.657646",
+    "name": "Sapsan",
+    "url": "https://api.github.com/repos/pikarpov-LANL/Sapsan",
+    "full_name": "pikarpov-LANL/Sapsan",
+    "html_url": "https://github.com/pikarpov-LANL/Sapsan",
+    "private": false,
+    "description": "ML-based turbulence modeling for astrophysics",
+    "created_at": "2019-11-13T21:41:00Z",
+    "updated_at": "2021-11-23T09:36:07Z",
+    "clone_url": "https://github.com/pikarpov-LANL/Sapsan.git",
+    "homepage": "https://sapsan.app",
+    "size": 51779,
+    "stargazers_count": 9,
+    "watchers_count": 9,
+    "language": "Python",
+    "open_issues_count": 5,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/pikarpov-LANL",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57731529?v=4",
+      "login": "pikarpov-LANL",
+      "type": "User"
+    },
+    "topics": [
+      "turbulence",
+      "astrophysics",
+      "machine-learning"
+    ]
+  },
+  "doi": "https://doi.org/10.5281/zenodo.5720254",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install sapsan\"",
+        "\"Sapsan is a pipeline for Machine Learning (ML) based turbulence modeling. While turbulence is important in a wide range of mediums, the pipeline primarily focuses on astrophysical applications.\"",
+        "\"To make sure everything is alright, run a test of your setup: `sapsan test`\" and commands like `sapsan get_examples` and `sapsan create {name}` indicate it is run as an end-user application/CLI."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:52:28Z"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/Starlink/hds-v5",
+  "url": "https://github.com/Starlink/hds-v5",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2008StaUN..92.....W",
+      "https://ui.adsabs.harvard.edu/abs/2015ascl.soft02009P/abstract"
+    ],
+    "title": "HDS: Hierarchical Data System",
+    "url": "https://github.com/Starlink/hds-v5",
+    "name": "hds-v5",
+    "full_name": "Starlink/hds-v5",
+    "html_url": "https://github.com/Starlink/hds-v5",
+    "description": "HDS API implemented using HDF5",
+    "created_at": "2014-09-04T16:56:29Z",
+    "updated_at": "2022-02-04T12:33:02Z",
+    "clone_url": "https://github.com/Starlink/hds-v5.git",
+    "size": 706,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "C",
+    "subscribers_count": 7,
+    "owner": {
+      "html_url": "https://github.com/Starlink",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2018671?v=4",
+      "login": "Starlink",
+      "type": "Organization"
+    },
+    "topics": [
+      "astronomy",
+      "file-format",
+      "c"
+    ],
+    "timestamp": "2022-07-17 17:23:16.215383",
+    "avatar": "https://avatars.githubusercontent.com/u/2018671?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Vendor or commercial entity",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This library is an attempt to reimplement the HDS API in terms of the HDF5 API. The idea is that this library could be dropped in as a direct replacement to HDS\" (indicates a reusable library / dependency).",
+        "\"HDF (and currently HDF5) has been adopted much more widely in the scientific community and is now a de facto standard for storing scientific data in a hierarchical manner.\" (shows it is for scientific data handling, directly tied to research data storage/processing).",
+        "README provides only source-level technical notes and no install instructions beyond the repository itself, implying distribution via the source repo."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T20:21:53Z"
+    }
+  }
+}

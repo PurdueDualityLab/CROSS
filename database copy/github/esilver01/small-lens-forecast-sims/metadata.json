@@ -1,0 +1,47 @@
+{
+  "parser": "github",
+  "uid": "github/esilver01/small-lens-forecast-sims",
+  "url": "https://github.com/esilver01/small-lens-forecast-sims",
+  "data": {
+    "doi": [],
+    "title": "Conventional and Sub-Conventional Strong Lensing (CASSL): Forecasts and Simulations",
+    "url": "https://github.com/esilver01/small-lens-forecast-sims",
+    "name": "small-lens-forecast-sims",
+    "full_name": "esilver01/small-lens-forecast-sims",
+    "html_url": "https://github.com/esilver01/small-lens-forecast-sims",
+    "created_at": "2025-09-08T16:43:51Z",
+    "updated_at": "2025-09-08T16:52:47Z",
+    "clone_url": "https://github.com/esilver01/small-lens-forecast-sims.git",
+    "size": 5971,
+    "language": "Jupyter Notebook",
+    "owner": {
+      "html_url": "https://github.com/esilver01",
+      "avatar_url": "https://avatars.githubusercontent.com/u/70253762?v=4",
+      "login": "esilver01",
+      "type": "User"
+    },
+    "timestamp": "2025-09-28 00:56:53.643094",
+    "avatar": "https://avatars.githubusercontent.com/u/70253762?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"The CASSL Pipeline for JWST strong lensing forecasts and simulations\" indicates it is a pipeline application used to run simulations/forecasts.",
+        "\"used in the paper 'ML-Driven Strong Lens Discoveries: Down to θ_E∼0.03″ and Mhalo<10^11M☉'\" shows it directly contributes to producing research results for that paper.",
+        "README only describes the pipeline and associated paper, with no mention of package managers, containers, or binaries, implying access via the source repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T23:46:33Z"
+    }
+  }
+}

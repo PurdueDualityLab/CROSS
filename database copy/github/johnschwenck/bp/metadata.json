@@ -1,0 +1,51 @@
+{
+  "parser": "github",
+  "uid": "github/johnschwenck/bp",
+  "url": "https://github.com/johnschwenck/bp",
+  "data": {
+    "doi": "10.1371/journal.pone.0268934",
+    "name": "bp",
+    "url": "https://github.com/johnschwenck/bp",
+    "full_name": "johnschwenck/bp",
+    "html_url": "https://github.com/johnschwenck/bp",
+    "description": "An R package for analyzing blood pressure data",
+    "created_at": "2020-10-29T04:44:29Z",
+    "updated_at": "2022-11-20T23:42:04Z",
+    "clone_url": "https://github.com/johnschwenck/bp.git",
+    "size": 3380,
+    "stargazers_count": 17,
+    "watchers_count": 17,
+    "language": "R",
+    "open_issues_count": 1,
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/johnschwenck",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60413604?v=4",
+      "login": "johnschwenck",
+      "type": "User"
+    },
+    "timestamp": "2023-01-22 00:40:57.365165",
+    "avatar": "https://avatars.githubusercontent.com/u/60413604?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"bp\")\"",
+        "\"bp: Blood Pressure Analysis for R\" and installation via library(bp) indicate it is an R package intended to be imported and used by R scripts, i.e., a dependency library.",
+        "\"The goal of the package is to provide a comprehensive toolbox for analyzing blood pressure (BP) data using a variety of statistical metrics and visualizations\" shows it directly performs scientific data analysis."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:37:18Z"
+    }
+  }
+}

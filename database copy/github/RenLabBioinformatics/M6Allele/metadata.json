@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/RenLabBioinformatics/M6Allele",
+  "url": "https://github.com/RenLabBioinformatics/M6Allele",
+  "data": {
+    "name": "M6Allele",
+    "url": "https://github.com/RenLabBioinformatics/M6Allele",
+    "full_name": "RenLabBioinformatics/M6Allele",
+    "html_url": "https://github.com/RenLabBioinformatics/M6Allele",
+    "private": false,
+    "description": "M6Allele: A toolkit for detection of allele-specific RNA N6-methyladenosine modifications",
+    "created_at": "2024-03-07T03:53:54Z",
+    "updated_at": "2024-06-15T03:42:52Z",
+    "clone_url": "https://github.com/RenLabBioinformatics/M6Allele.git",
+    "homepage": null,
+    "size": 506,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": "Java",
+    "open_issues_count": 0,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/RenLabBioinformatics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36150099?v=4",
+      "login": "RenLabBioinformatics",
+      "type": "User"
+    },
+    "topics": [],
+    "timestamp": "2024-11-24 00:49:30.905523",
+    "avatar": "https://avatars.githubusercontent.com/u/36150099?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Containers",
+      "distribution_details": null,
+      "evidence": [
+        "README container command: \"docker run -v /path/to/your_work_directory:/data renlab303/m6allelepipe -f AseGeneDetection -s sample.txt -gzip true -se true -fa your_fasta_file.fa -g your_gtf_file.gtf\"",
+        "\"We have developed an algorithm called **M6Allele** for identifying allele-specific m6A modifications. To facilitate its usage by researchers, we have also encapsulated our analysis process into a pipeline.\"",
+        "Usage is via running commands like `docker run ... renlab303/m6allelepipe -f AseGeneDetection ...` and `java -jar ./M6Allele.jar AseGeneDetection` to detect ASE genes and ASM m6A signals, i.e., an analysis application."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T20:09:15Z"
+    }
+  }
+}

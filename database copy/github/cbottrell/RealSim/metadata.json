@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/cbottrell/RealSim",
+  "url": "https://github.com/cbottrell/RealSim",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2024ApJ...968...90H",
+      "https://ui.adsabs.harvard.edu/abs/2019MNRAS.490.5390B",
+      "https://ui.adsabs.harvard.edu/abs/2024ascl.soft07008B/abstract"
+    ],
+    "title": "RealSim: Statistical observational realism for synthetic images from galaxy simulations",
+    "url": "https://github.com/cbottrell/RealSim",
+    "name": "RealSim",
+    "full_name": "cbottrell/RealSim",
+    "html_url": "https://github.com/cbottrell/RealSim",
+    "description": "RealSim is the statistical observational realism suite described in Bottrell et al 2017ab and made public in Bottrell et al 2019b.",
+    "created_at": "2019-07-10T21:26:45Z",
+    "updated_at": "2022-01-13T02:57:05Z",
+    "clone_url": "https://github.com/cbottrell/RealSim.git",
+    "size": 20055,
+    "stargazers_count": 9,
+    "watchers_count": 9,
+    "language": "Jupyter Notebook",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "owner": {
+      "html_url": "https://github.com/cbottrell",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10750507?v=4",
+      "login": "cbottrell",
+      "type": "User"
+    },
+    "timestamp": "2024-07-14 00:41:05.404083",
+    "avatar": "https://avatars.githubusercontent.com/u/10750507?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"Find this script here: http://skyserver.sdss.org/dr7/en/help/download/sqlcl/ for `Python 2`. Modified to `Python 3` for this pipeline by CB.\"",
+        "\"This repository is for the public release of the statistical observational realism suite... the suite allows one to generate survey-realistic synthetic images of galaxies\" (end-user tool to generate images).",
+        "\"If you use my suite for your research, I would appreciate a citation to (Bottrell et al (2017a) and the public release in Bottrell et al (2019b).\" (used directly in research workflows)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T22:51:54Z"
+    }
+  }
+}

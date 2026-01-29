@@ -1,0 +1,55 @@
+{
+  "parser": "github",
+  "uid": "github/igmhub/ForestFlow",
+  "url": "https://github.com/igmhub/ForestFlow",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2024arXiv240905682C",
+      "https://ui.adsabs.harvard.edu/abs/2024ascl.soft12022C/abstract"
+    ],
+    "title": "ForestFlow: Lyman-alpha cosmology emulator",
+    "url": "https://github.com/igmhub/ForestFlow",
+    "name": "ForestFlow",
+    "full_name": "igmhub/ForestFlow",
+    "html_url": "https://github.com/igmhub/ForestFlow",
+    "description": "This code is a neural network emulator for the 3D flux power spectrum of the Lyman-alpha forest",
+    "created_at": "2023-11-08T09:02:41Z",
+    "updated_at": "2024-12-21T22:38:49Z",
+    "clone_url": "https://github.com/igmhub/ForestFlow.git",
+    "size": 132233,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "TeX",
+    "open_issues_count": 2,
+    "subscribers_count": 8,
+    "owner": {
+      "html_url": "https://github.com/igmhub",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24413275?v=4",
+      "login": "igmhub",
+      "type": "Organization"
+    },
+    "timestamp": "2025-01-12 00:47:59.924675",
+    "avatar": "https://avatars.githubusercontent.com/u/24413275?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install -e . [jupyter] # try with or without space between the . and jupyter if you need it\"",
+        "\"Lyman-alpha Cosmology Emulator. This code is a normalising flow emulator for the 3D flux power spectrum of the Lyman-alpha forest.\"",
+        "\"Clone the ForestFlow repo and perform an *editable* installation: git clone https://github.com/igmhub/ForestFlow.git\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:25:06Z"
+    }
+  }
+}

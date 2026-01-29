@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/thelfer/mfem-mgis",
+  "url": "https://github.com/thelfer/mfem-mgis",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.15166161",
+    "name": "mfem-mgis",
+    "url": "https://github.com/thelfer/mfem-mgis",
+    "full_name": "thelfer/mfem-mgis",
+    "html_url": "https://github.com/thelfer/mfem-mgis",
+    "description": "Couple MFEM and MGIS",
+    "created_at": "2020-06-08T09:13:22Z",
+    "updated_at": "2025-04-12T21:32:36Z",
+    "clone_url": "https://github.com/thelfer/mfem-mgis.git",
+    "size": 77472,
+    "stargazers_count": 11,
+    "watchers_count": 11,
+    "language": "C++",
+    "open_issues_count": 12,
+    "license": {
+      "key": "lgpl-3.0",
+      "name": "GNU Lesser General Public License v3.0",
+      "spdx_id": "LGPL-3.0",
+      "url": "https://api.github.com/licenses/lgpl-3.0",
+      "node_id": "MDc6TGljZW5zZTEy"
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/thelfer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13975528?v=4",
+      "login": "thelfer",
+      "type": "User"
+    },
+    "timestamp": "2025-04-13 02:14:00.659971",
+    "avatar": "https://avatars.githubusercontent.com/u/13975528?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This project shows how to build an `MFEM` `NonlinearFormIntegrator` on top of the `MGIS` library.\" (indicates it is an extension/component to be used within MFEM, i.e., a dependency)",
+        "\"Some examples of MFEM-MGIS use (with mesh inputs) are stored on another repository here: `MFEM-MGIS-EXAMPLES`.\" (shows it is used to run scientific examples, implying direct role in simulations/analyses)",
+        "README only references GitHub pages for docs and examples and links to installation guidelines, with no mention of package managers or binaries, implying distribution via the source repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T04:24:21Z"
+    }
+  }
+}

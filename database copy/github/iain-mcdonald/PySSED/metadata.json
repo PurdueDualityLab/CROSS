@@ -1,0 +1,53 @@
+{
+  "parser": "github",
+  "uid": "github/iain-mcdonald/PySSED",
+  "url": "https://github.com/iain-mcdonald/PySSED",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2024RASTI...3...89M",
+      "https://ui.adsabs.harvard.edu/abs/2024ascl.soft04019M/abstract"
+    ],
+    "title": "PySSED: Python Stellar Spectral Energy Distributions",
+    "url": "https://github.com/iain-mcdonald/PySSED",
+    "name": "PySSED",
+    "full_name": "iain-mcdonald/PySSED",
+    "html_url": "https://github.com/iain-mcdonald/PySSED",
+    "created_at": "2021-07-13T15:32:17Z",
+    "updated_at": "2024-03-06T17:53:01Z",
+    "clone_url": "https://github.com/iain-mcdonald/PySSED.git",
+    "size": 78762,
+    "stargazers_count": 4,
+    "watchers_count": 4,
+    "language": "Python",
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/iain-mcdonald",
+      "avatar_url": "https://avatars.githubusercontent.com/u/84905141?v=4",
+      "login": "iain-mcdonald",
+      "type": "User"
+    },
+    "timestamp": "2024-05-05 00:36:20.892328",
+    "avatar": "https://avatars.githubusercontent.com/u/84905141?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"PySSED should work out of the box using Python3 src/pyssed.py (see requirements.txt). However, if you need to add more filters, you will also need to download the model data files. Documentation, incl\"",
+        "\"PySSED should work out of the box using Python3 src/pyssed.py\" – indicates it is run directly as a program, i.e., application software.",
+        "\"To run the NESS models as in the MNRAS paper, you will need to change the programme setup...\" – software is used to run scientific models for a specific paper, i.e., direct research execution."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:23:52Z"
+    }
+  }
+}

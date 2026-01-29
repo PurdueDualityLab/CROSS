@@ -1,0 +1,48 @@
+{
+  "parser": "github",
+  "uid": "github/binzhulab/SUITOR",
+  "url": "https://github.com/binzhulab/SUITOR",
+  "data": {
+    "doi": "10.1371/JOURNAL.PCBI.1009309",
+    "name": "SUITOR",
+    "url": "https://github.com/binzhulab/SUITOR",
+    "full_name": "binzhulab/SUITOR",
+    "html_url": "https://github.com/binzhulab/SUITOR",
+    "created_at": "2020-06-30T19:33:40Z",
+    "updated_at": "2022-01-19T19:29:21Z",
+    "clone_url": "https://github.com/binzhulab/SUITOR.git",
+    "size": 2633,
+    "language": "R",
+    "open_issues_count": 1,
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/binzhulab",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51965629?v=4",
+      "login": "binzhulab",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 00:41:25.902501",
+    "avatar": "https://avatars.githubusercontent.com/u/51965629?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"devtools\")\"",
+        "\"Here we present an R package `SUITOR`, an unsupervised cross-validation tool to select the optimal number of signatures.\"",
+        "\"Once the installation is successful, it can be loaded on R by calling `library(SUITOR)`\" (indicates it is used as an R package/library dependency)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T22:04:52Z"
+    }
+  }
+}

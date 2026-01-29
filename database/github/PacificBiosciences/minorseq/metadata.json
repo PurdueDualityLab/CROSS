@@ -1,50 +1,269 @@
 {
-    "parser": "github",
-    "uid": "github/PacificBiosciences/minorseq",
+  "parser": "github",
+  "uid": "github/PacificBiosciences/minorseq",
+  "url": "https://github.com/PacificBiosciences/minorseq",
+  "data": {
+    "title": "minorseq",
     "url": "https://github.com/PacificBiosciences/minorseq",
-    "data": {
-        "title": "minorseq",
-        "url": "https://github.com/PacificBiosciences/minorseq",
-        "credit": [],
-        "tags": [
-            "pacbio-sequencing",
-            "high-throughput-sequencing"
-        ],
-        "description": "Minor Variant Calling and Phasing Tools",
-        "name": "minorseq",
-        "full_name": "PacificBiosciences/minorseq",
-        "html_url": "https://github.com/PacificBiosciences/minorseq",
-        "created_at": "2017-02-14T19:36:40Z",
-        "updated_at": "2023-01-28T02:20:29Z",
-        "clone_url": "https://github.com/PacificBiosciences/minorseq.git",
-        "size": 2058,
-        "stargazers_count": 15,
-        "watchers_count": 15,
-        "license": {
-            "key": "bsd-3-clause-clear",
-            "name": "BSD 3-Clause Clear License",
-            "spdx_id": "BSD-3-Clause-Clear",
-            "url": "https://api.github.com/licenses/bsd-3-clause-clear",
-            "node_id": "MDc6TGljZW5zZTIx"
-        },
-        "subscribers_count": 18,
-        "owner": {
-            "html_url": "https://github.com/PacificBiosciences",
-            "avatar_url": "https://avatars.githubusercontent.com/u/999745?v=4",
-            "login": "PacificBiosciences",
-            "type": "Organization"
-        },
-        "topics": [
-            "minor-variant",
-            "haplotypes",
-            "phasing",
-            "drug-resistance",
-            "statistics",
-            "next-generation-sequencing",
-            "long-read",
-            "pacbio"
-        ],
-        "timestamp": "2023-03-12 00:41:25.629909",
-        "avatar": "https://avatars.githubusercontent.com/u/999745?v=4"
+    "credit": [],
+    "tags": [
+      "pacbio-sequencing",
+      "high-throughput-sequencing"
+    ],
+    "description": "Minor Variant Calling and Phasing Tools",
+    "name": "minorseq",
+    "full_name": "PacificBiosciences/minorseq",
+    "html_url": "https://github.com/PacificBiosciences/minorseq",
+    "created_at": "2017-02-14T19:36:40Z",
+    "updated_at": "2023-01-28T02:20:29Z",
+    "clone_url": "https://github.com/PacificBiosciences/minorseq.git",
+    "size": 2058,
+    "stargazers_count": 15,
+    "watchers_count": 15,
+    "license": {
+      "key": "bsd-3-clause-clear",
+      "name": "BSD 3-Clause Clear License",
+      "spdx_id": "BSD-3-Clause-Clear",
+      "url": "https://api.github.com/licenses/bsd-3-clause-clear",
+      "node_id": "MDc6TGljZW5zZTIx"
+    },
+    "subscribers_count": 18,
+    "owner": {
+      "html_url": "https://github.com/PacificBiosciences",
+      "avatar_url": "https://avatars.githubusercontent.com/u/999745?v=4",
+      "login": "PacificBiosciences",
+      "type": "Organization"
+    },
+    "topics": [
+      "minor-variant",
+      "haplotypes",
+      "phasing",
+      "drug-resistance",
+      "statistics",
+      "next-generation-sequencing",
+      "long-read",
+      "pacbio"
+    ],
+    "timestamp": "2023-03-12 00:41:25.629909",
+    "avatar": "https://avatars.githubusercontent.com/u/999745?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Vendor or commercial entity",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "bioconda",
+      "evidence": [
+        "\"MinorSeq – Minor Variant Calling and Phasing Tools\" and tools like `juliet` and `julietflow` are command-line programs users run for variant calling and pipelines, indicating application software used directly in analyses.",
+        "\"`juliet` identifies minor variants from aligned ccs reads\" and \"`julietflow` automatizes the minor variant pipeline\" show the software directly performs scientific data analysis (variant calling, pipelines), i.e., direct research execution.",
+        "\"Latest version can be installed via bioconda package `minorseq`.\" indicates distribution via a package registry (Bioconda)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T19:46:37Z"
     }
+  },
+  "openssf_scorecard": {
+    "data": {
+      "date": "2026-01-23T08:43:23-05:00",
+      "repo": {
+        "name": "github.com/PacificBiosciences/minorseq",
+        "commit": "2a071d993372418e458c23cab6a23d9fb4e00b85"
+      },
+      "scorecard": {
+        "version": "v5.4.0",
+        "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+      },
+      "score": 2.6,
+      "checks": [
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no binaries found in the repo",
+          "name": "Binary-Artifacts",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#binary-artifacts",
+            "short": "Determines if the project has generated executable (binary) artifacts in the source repository."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "branch protection not enabled on development/release branches",
+          "name": "Branch-Protection",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#branch-protection",
+            "short": "Determines if the default and release branches are protected with GitHub's branch protection settings."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no pull request found",
+          "name": "CI-Tests",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#ci-tests",
+            "short": "Determines if the project runs tests before pull requests are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no effort to earn an OpenSSF best practices badge detected",
+          "name": "CII-Best-Practices",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#cii-best-practices",
+            "short": "Determines if the project has an OpenSSF (formerly CII) Best Practices Badge."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "Found 0/4 approved changesets -- score normalized to 0",
+          "name": "Code-Review",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#code-review",
+            "short": "Determines if the project requires human code review before pull requests (aka merge requests) are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "project has 0 contributing companies or organizations -- score normalized to 0",
+          "name": "Contributors",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#contributors",
+            "short": "Determines if the project has a set of contributors from multiple organizations (e.g., companies)."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no workflows found",
+          "name": "Dangerous-Workflow",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dangerous-workflow",
+            "short": "Determines if the project's GitHub Action workflows avoid dangerous patterns."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no update tool detected",
+          "name": "Dependency-Update-Tool",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dependency-update-tool",
+            "short": "Determines if the project uses a dependency update tool."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "project is not fuzzed",
+          "name": "Fuzzing",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#fuzzing",
+            "short": "Determines if the project uses fuzzing."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "license file detected",
+          "name": "License",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#license",
+            "short": "Determines if the project has defined a license."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "project is archived",
+          "name": "Maintained",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#maintained",
+            "short": "Determines if the project is \"actively maintained\"."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "packaging workflow not detected",
+          "name": "Packaging",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#packaging",
+            "short": "Determines if the project is published as a package that others can easily download, install, easily update, and uninstall."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no dependencies found",
+          "name": "Pinned-Dependencies",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#pinned-dependencies",
+            "short": "Determines if the project has declared and pinned the dependencies of its build process."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no SAST tool detected",
+          "name": "SAST",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#sast",
+            "short": "Determines if the project uses static code analysis."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "security policy file not detected",
+          "name": "Security-Policy",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#security-policy",
+            "short": "Determines if the project has published a security policy."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no releases found",
+          "name": "Signed-Releases",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#signed-releases",
+            "short": "Determines if the project cryptographically signs release artifacts."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "No tokens found",
+          "name": "Token-Permissions",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#token-permissions",
+            "short": "Determines if the project's workflows follow the principle of least privilege."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "0 existing vulnerabilities detected",
+          "name": "Vulnerabilities",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#vulnerabilities",
+            "short": "Determines if the project has open, known unfixed vulnerabilities."
+          }
+        }
+      ],
+      "metadata": null
+    },
+    "timestamp_utc": "2026-01-23T13:43:27Z"
+  }
 }

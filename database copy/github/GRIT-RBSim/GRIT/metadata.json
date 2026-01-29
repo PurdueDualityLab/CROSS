@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/GRIT-RBSim/GRIT",
+  "url": "https://github.com/GRIT-RBSim/GRIT",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2021ApJ...919...50C",
+      "https://ui.adsabs.harvard.edu/abs/2021ascl.soft12021C/abstract"
+    ],
+    "title": "GRIT: Gravitational Rigid-body InTegrators for simulating coupled dynamics",
+    "url": "https://github.com/GRIT-RBSim/GRIT",
+    "name": "GRIT",
+    "full_name": "GRIT-RBSim/GRIT",
+    "html_url": "https://github.com/GRIT-RBSim/GRIT",
+    "description": "Gravitational Rigid-body InTegrators, for simulating the coupled dynamics of both spin and orbit.",
+    "created_at": "2021-04-07T19:19:11Z",
+    "updated_at": "2022-03-04T01:40:35Z",
+    "clone_url": "https://github.com/GRIT-RBSim/GRIT.git",
+    "size": 340,
+    "stargazers_count": 6,
+    "watchers_count": 6,
+    "language": "C++",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/GRIT-RBSim",
+      "avatar_url": "https://avatars.githubusercontent.com/u/82004002?v=4",
+      "login": "GRIT-RBSim",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 16:49:40.322664",
+    "avatar": "https://avatars.githubusercontent.com/u/82004002?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This is a package dedicated to the simulation of N gravitationally interacting rigid bodies (instead of point masses).\"",
+        "\"Once it is compiled, an executable file named `simulate` will be generated in the directory `bin`.\"",
+        "\"Try `./bin/simulate sample/solar_system` in the **base directory** of the repository tree to run a short time simulation for the solar system.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T17:20:04Z"
+    }
+  }
+}

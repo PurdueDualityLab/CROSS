@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/phil-mansfield/gotetra",
+  "url": "https://github.com/phil-mansfield/gotetra",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2017ApJ...843..140D",
+      "https://ui.adsabs.harvard.edu/abs/2020ascl.soft05011M/abstract"
+    ],
+    "title": "gotetra: Cosmic velocity fields tracking through the use of tetrahedra",
+    "url": "https://github.com/phil-mansfield/gotetra",
+    "name": "gotetra",
+    "full_name": "phil-mansfield/gotetra",
+    "html_url": "https://github.com/phil-mansfield/gotetra",
+    "description": "A Go-based tracking of cosmic velocity fields through the use of tetrahedra",
+    "created_at": "2014-10-28T22:59:10Z",
+    "updated_at": "2022-05-31T22:21:43Z",
+    "clone_url": "https://github.com/phil-mansfield/gotetra.git",
+    "size": 8520,
+    "stargazers_count": 9,
+    "watchers_count": 9,
+    "language": "Go",
+    "open_issues_count": 5,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/phil-mansfield",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4722826?v=4",
+      "login": "phil-mansfield",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:14:33.896737",
+    "avatar": "https://avatars.githubusercontent.com/u/4722826?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"5. Download this package and dependencies into right directories by running\"",
+        "\"`gotetra` is a Go-based package which uses phase-space tesselation techniques to extract information about cosmological N-body simulations. The key application this code is the generation of high resolution images of density fields.\"",
+        "\"Go to `$GOPATH/src/github.com/phil-mansfield/gotetra/render/main` and run the command `go build main.go`. This will create the main gotetra binary. ... Render the image by running the command `$ ./main -Render render.cfg box.cfg`.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:50:51Z"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/gsuissa/hardCORE",
+  "url": "https://github.com/gsuissa/hardCORE",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2018MNRAS.476.2613S",
+      "https://ui.adsabs.harvard.edu/abs/2021ascl.soft02010S/abstract"
+    ],
+    "title": "hardCORE: Exoplanet core radius fractions calculator",
+    "url": "https://github.com/gsuissa/hardCORE",
+    "name": "hardCORE",
+    "full_name": "gsuissa/hardCORE",
+    "html_url": "https://github.com/gsuissa/hardCORE",
+    "created_at": "2017-09-05T04:49:45Z",
+    "updated_at": "2022-06-11T18:46:03Z",
+    "clone_url": "https://github.com/gsuissa/hardCORE.git",
+    "size": 24,
+    "stargazers_count": 4,
+    "watchers_count": 4,
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "owner": {
+      "html_url": "https://github.com/gsuissa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31299942?v=4",
+      "login": "gsuissa",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:12:50.129039",
+    "avatar": "https://avatars.githubusercontent.com/u/31299942?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "“`hardCORE` is a package that implements the model of Suissa et. al 2018. It calculates the minimum, maximum, and marginal core radius fractions… for a solid exoplanet using only its mass and radius.”",
+        "“This package was used to constrain core sizes of the TRAPPIST-1 planets.”",
+        "README presents the project as a code package in this repository with no mention of package managers or releases, implying use directly from the source repo."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:05:26Z"
+    }
+  }
+}

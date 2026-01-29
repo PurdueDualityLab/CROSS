@@ -1,0 +1,55 @@
+{
+  "parser": "github",
+  "uid": "github/ropensci/DataSpaceR",
+  "url": "https://github.com/ropensci/DataSpaceR",
+  "data": {
+    "timestamp": "2022-01-27 10:11:35.190068",
+    "name": "DataSpaceR",
+    "url": "https://api.github.com/repos/ropensci/DataSpaceR",
+    "full_name": "ropensci/DataSpaceR",
+    "html_url": "https://github.com/ropensci/DataSpaceR",
+    "private": false,
+    "description": "R Interface to the CAVD DataSpace",
+    "created_at": "2017-04-25T22:53:52Z",
+    "updated_at": "2021-11-18T00:25:25Z",
+    "clone_url": "https://github.com/ropensci/DataSpaceR.git",
+    "homepage": "https://docs.ropensci.org/DataSpaceR",
+    "size": 2183,
+    "stargazers_count": 4,
+    "watchers_count": 4,
+    "language": "R",
+    "open_issues_count": 3,
+    "license": null,
+    "owner": {
+      "html_url": "https://github.com/ropensci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1200269?v=4",
+      "login": "ropensci",
+      "type": "Organization"
+    },
+    "topics": [
+      "cavd-dataspace",
+      "data-access"
+    ]
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"DataSpaceR\")\"",
+        "\"DataSpaceR is an R interface to the CAVD DataSpace, a data sharing and discovery tool that facilitates exploration of HIV immunological data from pre-clinical and clinical HIV vaccine studies.\"",
+        "\"This package is intended for use by immunologists, bioinformaticians, and statisticians in HIV vaccine research, or anyone interested in the analysis of HIV immunological data across assays, studies, and time.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T02:12:33Z"
+    }
+  }
+}

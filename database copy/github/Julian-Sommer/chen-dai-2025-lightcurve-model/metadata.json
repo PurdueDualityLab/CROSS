@@ -1,0 +1,50 @@
+{
+  "parser": "github",
+  "uid": "github/Julian-Sommer/chen-dai-2025-lightcurve-model",
+  "url": "https://github.com/Julian-Sommer/chen-dai-2025-lightcurve-model",
+  "data": {
+    "doi": [],
+    "title": "Electromagnetic Counterpart Lightcurve Toolkit for AGN-Embedded BBH Mergers",
+    "url": "https://github.com/Julian-Sommer/chen-dai-2025-lightcurve-model",
+    "name": "chen-dai-2025-lightcurve-model",
+    "full_name": "Julian-Sommer/chen-dai-2025-lightcurve-model",
+    "html_url": "https://github.com/Julian-Sommer/chen-dai-2025-lightcurve-model",
+    "description": "This code generates lightcurves based on the theoretical model of electromagnetic counterparts of BBH mergers embedded in AGN disks from Chen & Dai (2025), ApJ, 987, 214.",
+    "created_at": "2025-09-29T14:38:21Z",
+    "updated_at": "2025-10-10T09:19:33Z",
+    "clone_url": "https://github.com/Julian-Sommer/chen-dai-2025-lightcurve-model.git",
+    "size": 130,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Python",
+    "owner": {
+      "html_url": "https://github.com/Julian-Sommer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65716879?v=4",
+      "login": "Julian-Sommer",
+      "type": "User"
+    },
+    "timestamp": "2025-10-12 00:49:33.796836",
+    "avatar": "https://avatars.githubusercontent.com/u/65716879?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install pagn numpy scipy matplotlib astropy tqdm\"",
+        "\"A Python package for modeling jet-head shock breakout emission from embedded black holes in supermassive black hole accretion disks\"",
+        "Usage is via CLI commands like `python bbh_counterpart_cli.py generate-multiband-lc` and `find-best-lc`, producing CSV and PNG outputs for scientific analysis."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T18:09:13Z"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "repo": "https://github.com/apache/incubator-mynewt-documentation",
+  "timestamp_utc": "2026-01-24T02:42:05Z",
+  "repo_metadata": {
+    "name": "incubator-mynewt-documentation",
+    "full_name": "apache/incubator-mynewt-documentation",
+    "html_url": "https://github.com/apache/incubator-mynewt-documentation",
+    "description": "Mirror of Apache MyNewt Documentation (Incubating)",
+    "default_branch": "master",
+    "archived": false,
+    "fork": false,
+    "stargazers_count": 1
+  },
+  "data": {
+    "date": "2026-01-23T21:42:05-05:00",
+    "repo": {
+      "name": "github.com/apache/incubator-mynewt-documentation",
+      "commit": "HEAD"
+    },
+    "scorecard": {
+      "version": "v5.4.0",
+      "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+    },
+    "score": -1.0,
+    "checks": null,
+    "metadata": null
+  }
+}

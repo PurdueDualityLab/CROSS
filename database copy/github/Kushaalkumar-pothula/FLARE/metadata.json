@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/Kushaalkumar-pothula/FLARE",
+  "url": "https://github.com/Kushaalkumar-pothula/FLARE",
+  "data": {
+    "doi": [],
+    "title": "FLARE: Synthetic Fast Radio Burst catalog generator",
+    "url": "https://github.com/Kushaalkumar-pothula/FLARE",
+    "name": "FLARE",
+    "full_name": "Kushaalkumar-pothula/FLARE",
+    "html_url": "https://github.com/Kushaalkumar-pothula/FLARE",
+    "description": "Generates a synthetic Fast Radio Burst catalog, using the Monte Carlo technique.",
+    "created_at": "2021-02-21T07:48:49Z",
+    "updated_at": "2021-06-26T17:07:20Z",
+    "clone_url": "https://github.com/Kushaalkumar-pothula/FLARE.git",
+    "size": 589,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/Kushaalkumar-pothula",
+      "avatar_url": "https://avatars.githubusercontent.com/u/66947837?v=4",
+      "login": "Kushaalkumar-pothula",
+      "type": "User"
+    },
+    "topics": [
+      "astrophysics",
+      "monte-carlo-simulation"
+    ],
+    "timestamp": "2022-07-17 17:12:37.811327",
+    "avatar": "https://avatars.githubusercontent.com/u/66947837?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"FLARE is an astrophysical code written in Python to generate a synthetic catalog of 100,000 Fast Radio Bursts (FRBs).\"",
+        "\"To install FLARE on a computer, run the following commands in your terminal: ```bash\n> git clone https://github.com/Kushaalkumar-pothula/FLARE.git\n> cd FLARE```\"",
+        "\"If you use FLARE in your research, please cite FLARE by adding this BibTeX entry to your bibliography:\" and description of generating and analyzing FRB catalogs."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T18:20:37Z"
+    }
+  }
+}

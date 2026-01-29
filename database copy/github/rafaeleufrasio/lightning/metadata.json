@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/rafaeleufrasio/lightning",
+  "url": "https://github.com/rafaeleufrasio/lightning",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2017ApJ...851...10E",
+      "https://ui.adsabs.harvard.edu/abs/2017ascl.soft11009E/abstract"
+    ],
+    "title": "Lightning: SED Fitting Package",
+    "url": "https://github.com/rafaeleufrasio/lightning",
+    "name": "lightning",
+    "full_name": "rafaeleufrasio/lightning",
+    "html_url": "https://github.com/rafaeleufrasio/lightning",
+    "description": "Lightning SED Fitting Package",
+    "created_at": "2017-11-21T22:35:16Z",
+    "updated_at": "2021-12-02T15:28:09Z",
+    "clone_url": "https://github.com/rafaeleufrasio/lightning.git",
+    "size": 1332210,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "IDL",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/rafaeleufrasio",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15216531?v=4",
+      "login": "rafaeleufrasio",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:19:40.568714",
+    "avatar": "https://avatars.githubusercontent.com/u/15216531?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Lightning is a spectral energy distribution (SED) fitting code originally designed to rapidly fit non-parametric star formation history (SFH) models to photometric galaxy data.\"",
+        "\"Now, Lightning employs a variety of methods... to fit X-ray to far-infrared (FIR) SEDs.\"",
+        "\"To install the most recent version of the Lightning package, you can use `git` as follows: ... git clone --depth 1 https://github.com/rafaeleufrasio/lightning\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T02:03:39Z"
+    }
+  }
+}

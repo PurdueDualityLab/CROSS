@@ -1,0 +1,56 @@
+{
+  "parser": "github",
+  "uid": "github/vterron/lemon",
+  "url": "https://github.com/vterron/lemon",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/#abs/2018A&C....22...28S",
+      "https://ui.adsabs.harvard.edu/#abs/2011hsa6.conf..755T",
+      "https://ui.adsabs.harvard.edu/abs/2018ascl.soft09001T/abstract"
+    ],
+    "title": "LEMON: Differential photometry pipeline",
+    "url": "https://github.com/vterron/lemon",
+    "name": "lemon",
+    "full_name": "vterron/lemon",
+    "html_url": "https://github.com/vterron/lemon",
+    "description": "Differential photometry for humans (and astronomers)",
+    "created_at": "2012-06-04T17:49:42Z",
+    "updated_at": "2022-06-29T07:21:35Z",
+    "clone_url": "https://github.com/vterron/lemon.git",
+    "size": 4519,
+    "stargazers_count": 60,
+    "watchers_count": 60,
+    "language": "Python",
+    "open_issues_count": 13,
+    "subscribers_count": 9,
+    "owner": {
+      "html_url": "https://github.com/vterron",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1575425?v=4",
+      "login": "vterron",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:18:04.022975",
+    "avatar": "https://avatars.githubusercontent.com/u/1575425?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"LEMON_ is a differential-photometry pipeline, written in Python_, that determines the changes in the brightness of astronomical objects over time and compiles their measurements into `light curves`_.\"",
+        "Example usage as a command-line tool: \"$ lemon astrometry data/*.fits HAT-P-16/ ... $ lemon diffphot phot.LEMONdB curves.LEMONdB\"",
+        "README shows usage and documentation links but no mention of installation via package managers or binaries, implying use directly from the source repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T04:40:35Z"
+    }
+  }
+}

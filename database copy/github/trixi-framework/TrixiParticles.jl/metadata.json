@@ -1,0 +1,65 @@
+{
+  "parser": "github",
+  "uid": "github/trixi-framework/TrixiParticles.jl",
+  "url": "https://github.com/trixi-framework/TrixiParticles.jl",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.14680972",
+    "name": "TrixiParticles.jl",
+    "url": "https://github.com/trixi-framework/TrixiParticles.jl",
+    "full_name": "trixi-framework/TrixiParticles.jl",
+    "html_url": "https://github.com/trixi-framework/TrixiParticles.jl",
+    "description": "TrixiParticles.jl: Particle-based multiphysics simulations in Julia",
+    "created_at": "2022-06-20T13:16:09Z",
+    "updated_at": "2025-02-01T07:31:48Z",
+    "clone_url": "https://github.com/trixi-framework/TrixiParticles.jl.git",
+    "homepage": "https://trixi-framework.github.io/TrixiParticles.jl/",
+    "size": 36146,
+    "stargazers_count": 42,
+    "watchers_count": 42,
+    "language": "Julia",
+    "open_issues_count": 108,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 7,
+    "owner": {
+      "html_url": "https://github.com/trixi-framework",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67895161?v=4",
+      "login": "trixi-framework",
+      "type": "Organization"
+    },
+    "topics": [
+      "julia",
+      "multiphysics",
+      "simulation",
+      "smoothed-particle-hydrodynamics"
+    ],
+    "timestamp": "2025-02-02 00:46:28.270116",
+    "avatar": "https://avatars.githubusercontent.com/u/67895161?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "Julia General registry",
+      "evidence": [
+        "README install command: \"julia> Pkg.add([\"TrixiParticles\", \"OrdinaryDiffEq\", \"Plots\"])\"",
+        "\"TrixiParticles.jl is a high-performance numerical simulation framework for particle-based methods, focused on the simulation of complex multiphysics problems\"",
+        "\"If you use TrixiParticles.jl in your own research or write a paper using results obtained with the help of TrixiParticles.jl, please cite it\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:30:38Z"
+    }
+  }
+}

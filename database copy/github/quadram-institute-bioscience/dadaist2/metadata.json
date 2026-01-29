@@ -1,0 +1,69 @@
+{
+  "parser": "github",
+  "uid": "github/quadram-institute-bioscience/dadaist2",
+  "url": "https://github.com/quadram-institute-bioscience/dadaist2",
+  "data": {
+    "timestamp": "2021-07-25 00:31:13.715999",
+    "name": "dadaist2",
+    "url": "https://api.github.com/repos/quadram-institute-bioscience/dadaist2",
+    "full_name": "quadram-institute-bioscience/dadaist2",
+    "html_url": "https://github.com/quadram-institute-bioscience/dadaist2",
+    "private": false,
+    "description": "🎨 dadaist2 - Highway to R",
+    "created_at": "2020-05-02T08:34:14Z",
+    "updated_at": "2021-07-24T12:08:12Z",
+    "clone_url": "https://github.com/quadram-institute-bioscience/dadaist2.git",
+    "homepage": "https://quadram-institute-bioscience.github.io/dadaist2/",
+    "size": 40929,
+    "stargazers_count": 6,
+    "watchers_count": 6,
+    "language": "HTML",
+    "open_issues_count": 1,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/quadram-institute-bioscience",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37581082?v=4",
+      "login": "quadram-institute-bioscience",
+      "type": "Organization"
+    },
+    "topics": [
+      "dada2",
+      "asv",
+      "bioinformatics",
+      "16s",
+      "amplicon-pipeline",
+      "taxonomy",
+      "phyloseq",
+      "metabarcoding"
+    ]
+  },
+  "doi": "10.3390/ijms22105309",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "Bioconda",
+      "evidence": [
+        "Owner organization is \"quadram-institute-bioscience\" and project website is hosted at quadram-institute-bioscience.github.io, indicating an institutional research institute.",
+        "Described as a \"Standalone wrapper for [DADA2] package, to quickly generate a feature table and a set of representative sequences from a folder with Paired End Illumina reads.\", indicating an end-user analysis application.",
+        "Paper title: \"Dadaist2: A Toolkit to Automate and Simplify Statistical Analysis and Plotting of Metabarcoding Experiments.\", showing it directly performs scientific data analysis for research results."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T02:01:25Z"
+    }
+  }
+}

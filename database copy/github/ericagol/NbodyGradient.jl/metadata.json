@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/ericagol/NbodyGradient.jl",
+  "url": "https://github.com/ericagol/NbodyGradient.jl",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2021MNRAS.507.1582A",
+      "https://ui.adsabs.harvard.edu/abs/2025ascl.soft03002A/abstract"
+    ],
+    "title": "NbodyGradient: Compute gradients of N-body integrations",
+    "url": "https://github.com/ericagol/NbodyGradient.jl",
+    "name": "NbodyGradient.jl",
+    "full_name": "ericagol/NbodyGradient.jl",
+    "html_url": "https://github.com/ericagol/NbodyGradient.jl",
+    "description": "N-body integrator computes derivatives with respect to initial conditions for TTVs, RV, Photodynamics & more",
+    "created_at": "2017-12-05T15:11:58Z",
+    "updated_at": "2025-02-18T16:07:17Z",
+    "clone_url": "https://github.com/ericagol/NbodyGradient.jl.git",
+    "size": 7788,
+    "stargazers_count": 24,
+    "watchers_count": 24,
+    "language": "Julia",
+    "open_issues_count": 45,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/ericagol",
+      "avatar_url": "https://avatars.githubusercontent.com/u/243664?v=4",
+      "login": "ericagol",
+      "type": "User"
+    },
+    "timestamp": "2025-03-09 00:40:14.926324",
+    "avatar": "https://avatars.githubusercontent.com/u/243664?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"A set of Julia routines for computing gradients of N-body integrations.\"",
+        "\"Under development by Eric Agol, David Hernandez and Zach Langford\"",
+        "README links to GitHub documentation and CI badges, with no mention of package managers or binaries, implying use via cloning the repository/source."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T23:45:34Z"
+    }
+  }
+}

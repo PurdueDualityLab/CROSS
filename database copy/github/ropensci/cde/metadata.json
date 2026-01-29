@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/ropensci/cde",
+  "url": "https://github.com/ropensci/cde",
+  "data": {
+    "timestamp": "2022-01-27 10:11:35.193870",
+    "name": "cde",
+    "url": "https://api.github.com/repos/ropensci/cde",
+    "full_name": "ropensci/cde",
+    "html_url": "https://github.com/ropensci/cde",
+    "private": false,
+    "description": "Repo for R package to query and download WFD data from the EA Catchment Data Explorer site",
+    "created_at": "2017-05-29T06:30:28Z",
+    "updated_at": "2021-10-12T16:31:22Z",
+    "clone_url": "https://github.com/ropensci/cde.git",
+    "homepage": "https://docs.ropensci.org/cde",
+    "size": 1534,
+    "stargazers_count": 5,
+    "watchers_count": 5,
+    "language": "R",
+    "open_issues_count": 3,
+    "license": null,
+    "owner": {
+      "html_url": "https://github.com/ropensci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1200269?v=4",
+      "login": "ropensci",
+      "type": "Organization"
+    },
+    "topics": [
+      "data-access"
+    ]
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"# install.packages(\"remotes\")\"",
+        "\"`cde` is a package for R which facilitates searching and download of the WFD reporting data for all waterbodies from the EA CDE website.\" (R package intended to be used as a dependency)",
+        "\"The ability to access these data from within the R environment allows for efficient collation and interrogation of data and reproducible analysis of trends or patterns in water quality and pressures on waterbodies across England.\" (used directly for research data analysis)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T02:25:29Z"
+    }
+  }
+}

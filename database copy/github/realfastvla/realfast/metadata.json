@@ -1,0 +1,67 @@
+{
+  "parser": "github",
+  "uid": "github/realfastvla/realfast",
+  "url": "https://github.com/realfastvla/realfast",
+  "data": {
+    "name": "realfast",
+    "url": "https://github.com/realfastvla/realfast",
+    "full_name": "realfastvla/realfast",
+    "html_url": "https://github.com/realfastvla/realfast",
+    "private": false,
+    "description": "Real-time interferometric data analysis for the VLA",
+    "created_at": "2015-03-06T16:11:32Z",
+    "updated_at": "2023-02-10T20:07:38Z",
+    "clone_url": "https://github.com/realfastvla/realfast.git",
+    "homepage": "http://realfast.io",
+    "size": 21358,
+    "stargazers_count": 7,
+    "watchers_count": 7,
+    "language": "Python",
+    "open_issues_count": 30,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "subscribers_count": 6,
+    "owner": {
+      "html_url": "https://github.com/realfastvla",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20173956?v=4",
+      "login": "realfastvla",
+      "type": "Organization"
+    },
+    "topics": [
+      "data-analysis",
+      "cluster",
+      "radio",
+      "astronomy",
+      "transient-astronomy",
+      "distributed-computing"
+    ],
+    "timestamp": "2023-07-05 14:50:27.381547",
+    "avatar": "https://avatars.githubusercontent.com/u/20173956?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"This application is designed to integrate specific protocols and services only availble on the correlator cluster at the VLA. If you'd like to build it yourself, you will need to use the [anaconda](ht\"",
+        "\"Realfast is the name of a project and software package related to radio interferometric data analysis at the Very Large Array.\"",
+        "\"This repo includes a Python 3 application that integrates a transient search pipeline with the real-time environment at the VLA.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T02:07:12Z"
+    }
+  }
+}

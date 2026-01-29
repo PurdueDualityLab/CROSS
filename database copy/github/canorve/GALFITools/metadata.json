@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/canorve/GALFITools",
+  "url": "https://github.com/canorve/GALFITools",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.17010007",
+    "name": "GALFITools",
+    "url": "https://github.com/canorve/GALFITools",
+    "full_name": "canorve/GALFITools",
+    "html_url": "https://github.com/canorve/GALFITools",
+    "description": "A library for GALFIT",
+    "created_at": "2018-11-10T02:36:41Z",
+    "updated_at": "2026-01-07T00:26:16Z",
+    "clone_url": "https://github.com/canorve/GALFITools.git",
+    "size": 87896,
+    "stargazers_count": 17,
+    "watchers_count": 17,
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/canorve",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3579189?v=4",
+      "login": "canorve",
+      "type": "User"
+    },
+    "topics": [
+      "python",
+      "python3"
+    ],
+    "timestamp": "2026-01-11 01:01:49.503370",
+    "avatar": "https://avatars.githubusercontent.com/u/3579189?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install GALFITools\"",
+        "\"GALFITools emerges as an collection of Python routines. These routines enhances the input and output parsing associated with GALFIT.\"",
+        "\"GALFITools extends its utility through an array of functionalities, including the facilitation of mask creation, star selection for PSFs, generation of multiple initial parameters, simulate galaxy images, multigaussian expansion (MGE) fitting, as well as computation of sky background and other pertinent photometric variables.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T22:49:16Z"
+    }
+  }
+}

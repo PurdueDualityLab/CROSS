@@ -1,0 +1,57 @@
+{
+  "parser": "github",
+  "uid": "github/kathlandgren/SWAMPE",
+  "url": "https://github.com/kathlandgren/SWAMPE",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.7402247",
+    "name": "SWAMPE",
+    "url": "https://github.com/kathlandgren/SWAMPE",
+    "full_name": "kathlandgren/SWAMPE",
+    "html_url": "https://github.com/kathlandgren/SWAMPE",
+    "description": "2D spectral-core shallow-water exoplanet atmosphere model",
+    "created_at": "2021-02-05T16:12:46Z",
+    "updated_at": "2022-12-09T16:53:06Z",
+    "clone_url": "https://github.com/kathlandgren/SWAMPE.git",
+    "size": 1190723,
+    "stargazers_count": 4,
+    "watchers_count": 4,
+    "language": "Python",
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/kathlandgren",
+      "avatar_url": "https://avatars.githubusercontent.com/u/78450083?v=4",
+      "login": "kathlandgren",
+      "type": "User"
+    },
+    "timestamp": "2022-12-11 00:40:21.746346",
+    "avatar": "https://avatars.githubusercontent.com/u/78450083?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Shallow-Water Atmospheric Model in Python for Exoplanets\" (domain-specific model code, suggesting an application users run for simulations).",
+        "\"If you use SWAMPE in your research, please cite the JOSS paper\" (explicit research usage and coupling to scientific results).",
+        "Bug reports and contributions are directed via GitHub issues and contact email, with no mention of package managers or binaries, implying use via the source repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:41:58Z"
+    }
+  }
+}

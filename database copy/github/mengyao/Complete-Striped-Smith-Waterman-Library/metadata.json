@@ -1,0 +1,52 @@
+{
+  "parser": "github",
+  "uid": "github/mengyao/Complete-Striped-Smith-Waterman-Library",
+  "url": "https://github.com/mengyao/Complete-Striped-Smith-Waterman-Library",
+  "data": {
+    "url": "https://github.com/mengyao/Complete-Striped-Smith-Waterman-Library",
+    "title": "Ssw-align",
+    "description": "Smith-Waterman aligner based on libssw",
+    "doi": "http://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0082138",
+    "name": "Complete-Striped-Smith-Waterman-Library",
+    "full_name": "mengyao/Complete-Striped-Smith-Waterman-Library",
+    "html_url": "https://github.com/mengyao/Complete-Striped-Smith-Waterman-Library",
+    "created_at": "2011-10-19T16:32:25Z",
+    "updated_at": "2022-07-19T22:32:20Z",
+    "clone_url": "https://github.com/mengyao/Complete-Striped-Smith-Waterman-Library.git",
+    "size": 12643,
+    "stargazers_count": 246,
+    "watchers_count": 246,
+    "language": "C",
+    "open_issues_count": 1,
+    "subscribers_count": 19,
+    "owner": {
+      "html_url": "https://github.com/mengyao",
+      "avatar_url": "https://avatars.githubusercontent.com/u/611700?v=4",
+      "login": "mengyao",
+      "type": "User"
+    },
+    "timestamp": "2022-07-20 17:27:31.639613",
+    "avatar": "https://avatars.githubusercontent.com/u/611700?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"1. Download `ssw.h` and `ssw.c`, and put them in the same folder of your own program files.\"",
+        "\"SSW library provides an API that can be flexibly used by programs written in C, C++ and other languages.\" (indicates it is a library dependency)",
+        "\"We also provide a software that can do protein and genome alignment directly.\" and extensive description of alignment inputs/outputs (direct genomic analysis use)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:18:14Z"
+    }
+  }
+}

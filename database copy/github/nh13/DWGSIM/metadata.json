@@ -1,0 +1,65 @@
+{
+  "parser": "github",
+  "uid": "github/nh13/DWGSIM",
+  "url": null,
+  "data": {
+    "title": "DWGSIM",
+    "url": "https://github.com/nh13/DWGSIM",
+    "credit": [
+      "Nils Homer"
+    ],
+    "tags": [
+      "genomics",
+      "high-throughput-sequencing",
+      "genomics"
+    ],
+    "description": "a whole genome simulator for next-generation sequencing based off of wgsim found in SAMtools, which was written by Heng Li, and forked from DNAA. It was modified to handle ABI SOLiD and Ion Torrent data, as well as various assumptions about aligners and positions of indels. Many new features have been subsequently added.",
+    "name": "DWGSIM",
+    "full_name": "nh13/DWGSIM",
+    "html_url": "https://github.com/nh13/DWGSIM",
+    "created_at": "2011-10-19T00:19:14Z",
+    "updated_at": "2022-07-06T22:41:30Z",
+    "clone_url": "https://github.com/nh13/DWGSIM.git",
+    "size": 4362,
+    "stargazers_count": 65,
+    "watchers_count": 65,
+    "language": "C",
+    "open_issues_count": 2,
+    "license": {
+      "key": "gpl-2.0",
+      "name": "GNU General Public License v2.0",
+      "spdx_id": "GPL-2.0",
+      "url": "https://api.github.com/licenses/gpl-2.0",
+      "node_id": "MDc6TGljZW5zZTg="
+    },
+    "subscribers_count": 6,
+    "owner": {
+      "html_url": "https://github.com/nh13",
+      "avatar_url": "https://avatars.githubusercontent.com/u/846274?v=4",
+      "login": "nh13",
+      "type": "User"
+    },
+    "timestamp": "2022-07-18 17:43:40.154602"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "Bioconda",
+      "evidence": [
+        "Owner metadata: owner_type is User and owner_login is a single person (nh13), indicating an individual maintainer.",
+        "The README shows a Bioconda installation badge: \"install with bioconda\" linking to \"bioconda.github.io/recipes/dwgsim\" indicating distribution via a package registry.",
+        "The project name and welcome line \"Welcome to DWGSIM\" plus Bioconda context indicate it is a domain tool (DWGSIM is a sequencing read simulator) used directly in research workflows, i.e., application software for direct research execution."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T01:36:53Z"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "parser": "github",
+  "uid": "github/aksholokhov/pysr3",
+  "url": "https://github.com/aksholokhov/pysr3",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.7839335",
+    "name": "pysr3",
+    "url": "https://github.com/aksholokhov/pysr3",
+    "full_name": "aksholokhov/pysr3",
+    "html_url": "https://github.com/aksholokhov/pysr3",
+    "description": "SciKit-Learn compatible library for training mixed-effects models.",
+    "created_at": "2019-12-29T03:57:47Z",
+    "updated_at": "2023-02-03T10:09:14Z",
+    "clone_url": "https://github.com/aksholokhov/pysr3.git",
+    "size": 14072,
+    "stargazers_count": 8,
+    "watchers_count": 8,
+    "language": "Python",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/aksholokhov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6594476?v=4",
+      "login": "aksholokhov",
+      "type": "User"
+    },
+    "timestamp": "2023-04-30 00:37:48.877025",
+    "avatar": "https://avatars.githubusercontent.com/u/6594476?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install pysr3>=0.3.5\"",
+        "\"pysr3 models are fully compatible to sklearn standards, so you can use them as you normally would use a sklearn model.\" (indicates it is a library imported into other code)",
+        "\"pysr3 can be installed via pip install pysr3>=0.3.5\" (indicates distribution via Python package registry)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T21:04:04Z"
+    }
+  }
+}

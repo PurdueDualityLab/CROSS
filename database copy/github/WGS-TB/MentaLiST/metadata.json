@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/WGS-TB/MentaLiST",
+  "url": "https://github.com/WGS-TB/MentaLiST",
+  "data": {
+    "title": "mentalist",
+    "url": "https://github.com/WGS-TB/MentaLiST",
+    "credit": [],
+    "description": "The MLST pipeline developed by the PathOGiST research group",
+    "name": "MentaLiST",
+    "full_name": "WGS-TB/MentaLiST",
+    "html_url": "https://github.com/WGS-TB/MentaLiST",
+    "created_at": "2017-04-04T21:42:39Z",
+    "updated_at": "2022-04-06T23:12:10Z",
+    "clone_url": "https://github.com/WGS-TB/MentaLiST.git",
+    "size": 134237,
+    "stargazers_count": 23,
+    "watchers_count": 23,
+    "language": "Julia",
+    "open_issues_count": 39,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 7,
+    "owner": {
+      "html_url": "https://github.com/WGS-TB",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19986579?v=4",
+      "login": "WGS-TB",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-18 17:45:45.353152",
+    "avatar": "https://avatars.githubusercontent.com/u/19986579?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "Julia General registry",
+      "evidence": [
+        "README install command: \"julia> Pkg.add(\"Distributed\")\"",
+        "\"MentaLiST -- The MLST pipeline developed by the PathOGiST research group\"",
+        "\"We introduce MentaLiST, a new MLST caller, based on a k-mer counting algorithm... specifically designed and implemented to handle large typing schemes.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T20:37:55Z"
+    }
+  }
+}

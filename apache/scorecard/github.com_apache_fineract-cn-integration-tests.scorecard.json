@@ -1,0 +1,28 @@
+{
+  "repo": "https://github.com/apache/fineract-cn-integration-tests",
+  "timestamp_utc": "2026-01-24T01:53:27Z",
+  "repo_metadata": {
+    "name": "fineract-cn-integration-tests",
+    "full_name": "apache/fineract-cn-integration-tests",
+    "html_url": "https://github.com/apache/fineract-cn-integration-tests",
+    "description": "Apache Fineract CN integration tests",
+    "default_branch": "master",
+    "archived": true,
+    "fork": false,
+    "stargazers_count": 2
+  },
+  "data": {
+    "date": "2026-01-23T20:53:26-05:00",
+    "repo": {
+      "name": "github.com/apache/fineract-cn-integration-tests",
+      "commit": "HEAD"
+    },
+    "scorecard": {
+      "version": "v5.4.0",
+      "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+    },
+    "score": -1.0,
+    "checks": null,
+    "metadata": null
+  }
+}

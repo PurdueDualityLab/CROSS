@@ -1,0 +1,65 @@
+{
+  "parser": "github",
+  "uid": "github/dglaeser/gridformat",
+  "url": "https://github.com/dglaeser/gridformat",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.10008062",
+    "name": "gridformat",
+    "url": "https://github.com/dglaeser/gridformat",
+    "full_name": "dglaeser/gridformat",
+    "html_url": "https://github.com/dglaeser/gridformat",
+    "description": "Header-only C++-Library for grid file I/O",
+    "created_at": "2022-10-28T11:57:40Z",
+    "updated_at": "2023-10-16T22:55:19Z",
+    "clone_url": "https://github.com/dglaeser/gridformat.git",
+    "homepage": "https://dglaeser.github.io/gridformat/",
+    "size": 17611,
+    "stargazers_count": 12,
+    "watchers_count": 12,
+    "language": "C++",
+    "open_issues_count": 27,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/dglaeser",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49902895?v=4",
+      "login": "dglaeser",
+      "type": "User"
+    },
+    "topics": [
+      "computational-grid",
+      "input-output",
+      "numerical-modeling",
+      "simulation"
+    ],
+    "timestamp": "2023-10-23 11:39:00.668231",
+    "avatar": "https://avatars.githubusercontent.com/u/49902895?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"[![API Documentation](https://img.shields.io/badge/doc-API-ff69b4)](https://dglaeser.github.io/gridformat)\"",
+        "\"`GridFormat` is a header-only C++ library for reading/writing data from/to standardized grid file formats...\" (library intended to be used by other applications)",
+        "\"Thus, applications that operate on grid-like data structures such as numerical simulations, GIS or computational geometry applications, can leverage `GridFormat` to import/export their data...\" (used inside simulation/analysis codes, directly tied to research data handling)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:32:55Z"
+    }
+  }
+}

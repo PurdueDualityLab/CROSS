@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/OP2/PyOP2",
+  "url": "https://github.com/OP2/PyOP2",
+  "data": {
+    "timestamp": "2022-05-12 03:43:55.019019",
+    "name": "PyOP2",
+    "url": "https://api.github.com/repos/OP2/PyOP2",
+    "full_name": "OP2/PyOP2",
+    "html_url": "https://github.com/OP2/PyOP2",
+    "private": false,
+    "description": "Framework for performance-portable parallel computations on unstructured meshes",
+    "created_at": "2012-06-13T08:28:09Z",
+    "updated_at": "2022-04-19T08:15:17Z",
+    "clone_url": "https://github.com/OP2/PyOP2.git",
+    "homepage": "https://op2.github.io/PyOP2",
+    "size": 11028,
+    "stargazers_count": 68,
+    "watchers_count": 68,
+    "language": "Python",
+    "open_issues_count": 21,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 28,
+    "owner": {
+      "html_url": "https://github.com/OP2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1544411?v=4",
+      "login": "OP2",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "contact": "David Ham <david.ham@imperial.ac.uk>",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Vendor or commercial entity",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"<https://www.firedrakeproject.org/download.html>`__.  This will give\"",
+        "\"This repository is archived, PyOP2 can now be found inside the `Firedrake repository`\" (indicates it is a component within another project).",
+        "\"PyOP2 requires Python 3.6 or later.\" and discussion of dependencies and testing platforms indicate it is a Python software library rather than a standalone end-user app."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T19:41:20Z"
+    }
+  }
+}

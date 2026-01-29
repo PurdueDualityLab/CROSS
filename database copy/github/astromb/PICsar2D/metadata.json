@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/astromb/PICsar2D",
+  "url": "https://github.com/astromb/PICsar2D",
+  "data": {
+    "doi": [
+      "http://adsabs.harvard.edu/abs/2015NewA...36...37B",
+      "https://ui.adsabs.harvard.edu/abs/2016ascl.soft07009B/abstract"
+    ],
+    "title": "PICsar: Particle in cell pulsar magnetosphere simulator",
+    "url": "https://github.com/astromb/PICsar2D",
+    "name": "PICsar2D",
+    "full_name": "astromb/PICsar2D",
+    "html_url": "https://github.com/astromb/PICsar2D",
+    "description": "Particle In Cell pulSAR code",
+    "created_at": "2017-06-19T18:17:12Z",
+    "updated_at": "2020-05-28T14:23:12Z",
+    "clone_url": "https://github.com/astromb/PICsar2D.git",
+    "size": 1677,
+    "stargazers_count": 5,
+    "watchers_count": 5,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/astromb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8334286?v=4",
+      "login": "astromb",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:21:33.906748",
+    "avatar": "https://avatars.githubusercontent.com/u/8334286?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Particle In Cell pulsar code by Mikhail A. Belyaev\" (single named author suggests individual maintainer).",
+        "\"step-by-step guide for compiling PICsar2D, running it, and analyzing the output\" (indicates users run it directly as an application to analyze results).",
+        "README only mentions compiling and running the code, implying distribution via the source repository rather than a package manager or binaries."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T21:27:12Z"
+    }
+  }
+}

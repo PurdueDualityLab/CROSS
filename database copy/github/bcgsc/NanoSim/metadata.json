@@ -1,0 +1,66 @@
+{
+  "parser": "github",
+  "uid": "github/bcgsc/NanoSim",
+  "url": "https://github.com/bcgsc/NanoSim",
+  "data": {
+    "title": "NanoSim",
+    "url": "https://github.com/bcgsc/NanoSim",
+    "credit": [],
+    "description": "Nanopore sequence read simulator",
+    "name": "NanoSim",
+    "full_name": "bcgsc/NanoSim",
+    "html_url": "https://github.com/bcgsc/NanoSim",
+    "created_at": "2015-11-05T23:55:27Z",
+    "updated_at": "2022-06-17T19:36:32Z",
+    "clone_url": "https://github.com/bcgsc/NanoSim.git",
+    "size": 868881,
+    "stargazers_count": 149,
+    "watchers_count": 149,
+    "language": "Python",
+    "open_issues_count": 14,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 15,
+    "owner": {
+      "html_url": "https://github.com/bcgsc",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2319317?v=4",
+      "login": "bcgsc",
+      "type": "Organization"
+    },
+    "topics": [
+      "genome",
+      "transcriptome",
+      "simulator",
+      "oxford-nanopore",
+      "nanopore-sequencing"
+    ],
+    "timestamp": "2022-07-18 17:46:01.533523",
+    "avatar": "https://avatars.githubusercontent.com/u/2319317?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "conda",
+      "evidence": [
+        "README install command: \"conda install -c bioconda nanosim\"",
+        "\"NanoSim is a fast and scalable read simulator that captures the technology-specific features of ONT data\" (end users run it as a simulator).",
+        "\"If you use NanoSim to simulate genomic reads, please cite the following paper\" (used directly to generate simulated data for research)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T22:01:16Z"
+    }
+  }
+}

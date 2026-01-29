@@ -1,0 +1,65 @@
+{
+  "parser": "github",
+  "uid": "github/antismash/antismash",
+  "url": "https://github.com/antismash/antismash",
+  "data": {
+    "title": "antiSMASH",
+    "url": "https://github.com/antismash/antismash",
+    "credit": [],
+    "tags": [
+      "metabolic-network-analysis",
+      "metagenomic-sequencing-analysis",
+      "high-throughput-sequencing"
+    ],
+    "description": "antiSMASH",
+    "name": "antismash",
+    "full_name": "antismash/antismash",
+    "html_url": "https://github.com/antismash/antismash",
+    "created_at": "2017-06-02T13:20:06Z",
+    "updated_at": "2025-03-29T10:47:24Z",
+    "clone_url": "https://github.com/antismash/antismash.git",
+    "homepage": "https://antismash.secondarymetabolites.org",
+    "size": 103889,
+    "stargazers_count": 200,
+    "watchers_count": 200,
+    "language": "Python",
+    "open_issues_count": 32,
+    "license": {
+      "key": "agpl-3.0",
+      "name": "GNU Affero General Public License v3.0",
+      "spdx_id": "AGPL-3.0",
+      "url": "https://api.github.com/licenses/agpl-3.0",
+      "node_id": "MDc6TGljZW5zZTE="
+    },
+    "subscribers_count": 13,
+    "owner": {
+      "html_url": "https://github.com/antismash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17174811?v=4",
+      "login": "antismash",
+      "type": "Organization"
+    },
+    "timestamp": "2025-03-30 00:53:26.602972",
+    "avatar": "https://avatars.githubusercontent.com/u/17174811?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"The development of antiSMASH was started as a collaboration of the Department of Microbial Physiology and Groningen Bioinformatics Centre of the University of Groningen, the Department of Microbiology of the University of Tübingen, the Manchester Institute of Biotechnology, and the Department of Bioengineering and Therapeutic Sciences at the University of California, San Francisco... development continues now at the Bioinformatics Group at Wageningen University and The Novo Nordisk Foundation Center for Biosustainability in Lyngby.\"",
+        "\"antiSMASH - the antibiotics and Secondary Metabolite Analysis SHell\" (domain-specific analysis shell, indicating an end-user research application).",
+        "\"There are multiple options on how to get your own copy of antiSMASH up and running. See our install documentation for detailed information.\" (installation from project documentation, with no mention of package registries or containers, implying source-based distribution)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T21:18:44Z"
+    }
+  }
+}

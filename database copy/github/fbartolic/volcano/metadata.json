@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/fbartolic/volcano",
+  "url": "https://github.com/fbartolic/volcano",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2022PSJ.....3...67B",
+      "https://ui.adsabs.harvard.edu/abs/2025ascl.soft09021B/abstract"
+    ],
+    "title": "volcano: Mapping exoplanet surfaces from one-dimensional time-series data",
+    "url": "https://github.com/fbartolic/volcano",
+    "name": "volcano",
+    "full_name": "fbartolic/volcano",
+    "html_url": "https://github.com/fbartolic/volcano",
+    "description": "Mapping the surface of Jupiter's moon Io from one-dimensional time-series data.",
+    "created_at": "2020-01-31T14:27:18Z",
+    "updated_at": "2022-09-07T10:48:10Z",
+    "clone_url": "https://github.com/fbartolic/volcano.git",
+    "size": 127773,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "TeX",
+    "open_issues_count": 1,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/fbartolic",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18243408?v=4",
+      "login": "fbartolic",
+      "type": "User"
+    },
+    "timestamp": "2025-10-05 00:52:24.323794",
+    "avatar": "https://avatars.githubusercontent.com/u/18243408?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"<img src=\"https://dev.azure.com/constan7in3/volcano/_apis/build/status/fbartolic.volcano?branchName=master\"/>\"",
+        "Owner metadata: owner_type is User and owner_login is a single person (fbartolic), indicating an individual maintainer.",
+        "README describes a specific scientific task: “Mapping the surface of Jupiter's moon Io with starry,” implying this code is run as an application to perform that analysis rather than as a general-purpose library."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:50:28Z"
+    }
+  }
+}

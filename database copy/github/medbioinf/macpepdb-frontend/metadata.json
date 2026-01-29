@@ -1,0 +1,55 @@
+{
+  "parser": "github",
+  "uid": "github/medbioinf/macpepdb-frontend",
+  "url": "https://github.com/medbioinf/macpepdb-frontend",
+  "data": {
+    "doi": "10.1021/acs.jproteome.0c00967",
+    "name": "macpepdb-frontend",
+    "url": "https://github.com/medbioinf/macpepdb-frontend",
+    "full_name": "medbioinf/macpepdb-frontend",
+    "html_url": "https://github.com/medbioinf/macpepdb-frontend",
+    "description": "WASM frontend to keep up with MaCPepDB",
+    "created_at": "2023-12-11T19:49:19Z",
+    "updated_at": "2025-08-28T17:48:53Z",
+    "clone_url": "https://github.com/medbioinf/macpepdb-frontend.git",
+    "size": 1229,
+    "language": "Rust",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/medbioinf",
+      "avatar_url": "https://avatars.githubusercontent.com/u/139237371?v=4",
+      "login": "medbioinf",
+      "type": "Organization"
+    },
+    "timestamp": "2025-08-31 00:53:41.976974",
+    "avatar": "https://avatars.githubusercontent.com/u/139237371?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Containers",
+      "distribution_details": null,
+      "evidence": [
+        "README container command: \"docker run --rm -v $(pwd)/nginx.conf:/etc/nginx/conf.d/default.conf:ro -v $(pwd)/target/dx/macpepdb-frontend/release/web/public:/var/www/html:ro -v <PATH_TO_ADJUSTED_CONFIG>:/var/www/html/assets/confi\"",
+        "\"MaCPepDB only provides an web API for accessing the data. This is a separate frontend to make data access much easier.\"",
+        "\"Serve the created `target/dx/macpepdb-frontend/release/web/public` folder with any web server, e.g. NginX. A very simple config is provided `nginx.conf`. using Docker simply call: ... docker run ... nginx:alpine-slim\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:17:27Z"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "parser": "github",
+  "uid": "github/lsds/Saber",
+  "url": "https://github.com/lsds/Saber",
+  "data": {
+    "timestamp": "2022-05-12 03:43:45.786901",
+    "name": "Saber",
+    "url": "https://api.github.com/repos/lsds/Saber",
+    "full_name": "lsds/Saber",
+    "html_url": "https://github.com/lsds/Saber",
+    "private": false,
+    "description": "Window-Based Hybrid CPU/GPU Stream Processing Engine",
+    "created_at": "2016-06-23T14:59:25Z",
+    "updated_at": "2022-04-23T10:42:28Z",
+    "clone_url": "https://github.com/lsds/Saber.git",
+    "homepage": "",
+    "size": 70888,
+    "stargazers_count": 38,
+    "watchers_count": 38,
+    "language": "Java",
+    "open_issues_count": 9,
+    "license": null,
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/lsds",
+      "avatar_url": "https://avatars.githubusercontent.com/u/989082?v=4",
+      "login": "lsds",
+      "type": "Organization"
+    },
+    "topics": [
+      "stream-processing",
+      "hybrid",
+      "multicore",
+      "gpu",
+      "high-throughput",
+      "saber",
+      "stream",
+      "streaming-data",
+      "streaming",
+      "sliding-windows",
+      "multicore-cpu"
+    ]
+  },
+  "contact": "Peter Pietzuch <prp@imperial.ac.uk>",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"The Saber source code is available to download from:\"",
+        "\"Readme for reproducibility submission of paper ID 195\" and detailed experiment scripts indicate this is a research artifact tied to a specific paper and lab, not a general product.",
+        "\"The Saber source code is available to download from: https://github.com/lsds/saber/tree/sigmod16-reproducibility\" shows distribution via a GitHub source repository and branch for reproducibility."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:57:40Z"
+    }
+  }
+}

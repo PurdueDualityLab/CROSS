@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/jeremysanders/contbin",
+  "url": "https://github.com/jeremysanders/contbin",
+  "data": {
+    "doi": [
+      "http://adsabs.harvard.edu/abs/2006MNRAS.371..829S",
+      "https://ui.adsabs.harvard.edu/abs/2016ascl.soft09023S/abstract"
+    ],
+    "title": "contbin: Contour binning and accumulative smoothing",
+    "url": "https://github.com/jeremysanders/contbin",
+    "name": "contbin",
+    "full_name": "jeremysanders/contbin",
+    "html_url": "https://github.com/jeremysanders/contbin",
+    "description": "Contour binning code",
+    "created_at": "2013-11-20T11:44:59Z",
+    "updated_at": "2022-06-15T21:13:09Z",
+    "clone_url": "https://github.com/jeremysanders/contbin.git",
+    "size": 98,
+    "stargazers_count": 10,
+    "watchers_count": 10,
+    "language": "C++",
+    "license": {
+      "key": "gpl-2.0",
+      "name": "GNU General Public License v2.0",
+      "spdx_id": "GPL-2.0",
+      "url": "https://api.github.com/licenses/gpl-2.0",
+      "node_id": "MDc6TGljZW5zZTg="
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/jeremysanders",
+      "avatar_url": "https://avatars.githubusercontent.com/u/274711?v=4",
+      "login": "jeremysanders",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:21:14.635058",
+    "avatar": "https://avatars.githubusercontent.com/u/274711?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Contour binning and accumulative smoothing software\" and multiple command-line programs (contbin, accumulate_smooth, etc.) indicate end-user executables rather than a library.",
+        "The README describes using the tools to bin images, smooth data, and create FITS outputs and maps (e.g. temperature, metallicity), which are core analysis steps tied to the reference paper Sanders (2006).",
+        "Build and install instructions focus on compiling with gcc and running `make`/`make install`, with development and bug reports at the GitHub repo URL, and no mention of package managers or binary releases."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:32:43Z"
+    }
+  }
+}

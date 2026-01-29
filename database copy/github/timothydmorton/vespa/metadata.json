@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/timothydmorton/vespa",
+  "url": "https://github.com/timothydmorton/VESPA",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2015ApJ...809...25M",
+      "https://ui.adsabs.harvard.edu/abs/2015ascl.soft03011M/abstract"
+    ],
+    "title": "VESPA: False positive probabilities calculator",
+    "url": "https://github.com/timothydmorton/VESPA",
+    "name": "VESPA",
+    "full_name": "timothydmorton/VESPA",
+    "html_url": "https://github.com/timothydmorton/VESPA",
+    "description": "Validation of Exoplanet Signals using a Probabilistic Algorithm--- calculating false positive probabilities for transit signals",
+    "created_at": "2015-01-20T19:57:52Z",
+    "updated_at": "2022-04-10T20:50:44Z",
+    "clone_url": "https://github.com/timothydmorton/VESPA.git",
+    "size": 188434,
+    "stargazers_count": 33,
+    "watchers_count": 33,
+    "language": "Jupyter Notebook",
+    "open_issues_count": 18,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 8,
+    "owner": {
+      "html_url": "https://github.com/timothydmorton",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1895387?v=4",
+      "login": "timothydmorton",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:23:08.497202",
+    "avatar": "https://avatars.githubusercontent.com/u/1895387?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install vespa [--user]\"",
+        "\"Validation of Exoplanet Signals using a Probabilistic Algorithm--- calculating false positive probabilities for transit signals\"",
+        "\"4. Run the following from the command line ... $  calcfpp ... This will run the calculation for you, creating result files, diagnostic plots, etc.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:26:24Z"
+    }
+  }
+}

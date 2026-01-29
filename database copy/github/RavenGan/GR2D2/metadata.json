@@ -1,0 +1,50 @@
+{
+  "parser": "github",
+  "uid": "github/RavenGan/GR2D2",
+  "url": "https://github.com/RavenGan/GR2D2",
+  "data": {
+    "doi": "10.1093/BIB/BBAC426",
+    "name": "GR2D2",
+    "url": "https://github.com/RavenGan/GR2D2",
+    "full_name": "RavenGan/GR2D2",
+    "html_url": "https://github.com/RavenGan/GR2D2",
+    "description": "Take Monte Carlo samples from the posterior distribution based on the graphical R2D2 prior, to estimate the precision matrix for multivariate Gaussian data",
+    "created_at": "2022-03-21T17:51:01Z",
+    "updated_at": "2022-10-05T15:01:48Z",
+    "clone_url": "https://github.com/RavenGan/GR2D2.git",
+    "size": 12,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "R",
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/RavenGan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46891773?v=4",
+      "login": "RavenGan",
+      "type": "User"
+    },
+    "timestamp": "2023-01-01 00:41:16.643471",
+    "avatar": "https://avatars.githubusercontent.com/u/46891773?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Draw Monte Carlo samples from the posterior distribution based on the graphical R2D2 prior, to estimate the precision matrix for multivariate Gaussian data.\"",
+        "Usage example shows direct function calls: `GR2D2_hubs <- GR2D2_E(hubs_S, n, burnin, nmc, eps = 1e-20)` indicating it is run as an analysis tool rather than a reusable library described for packaging.",
+        "\"See GR2D2_samplecode.R, in which we provide three different precision matrix structures.\" implies distribution as source code and example scripts in the repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T20:08:46Z"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/jfarek/xatlas",
+  "url": "https://github.com/jfarek/xatlas",
+  "data": {
+    "title": "xAtlas",
+    "url": "https://github.com/jfarek/xatlas",
+    "credit": [],
+    "description": "xAtlas is a fast and retrainable small variant caller that has been developed at the Baylor College of Medicine Human Genome Sequencing Center.",
+    "name": "xatlas",
+    "full_name": "jfarek/xatlas",
+    "html_url": "https://github.com/jfarek/xatlas",
+    "created_at": "2018-02-12T22:08:16Z",
+    "updated_at": "2022-02-25T15:59:41Z",
+    "clone_url": "https://github.com/jfarek/xatlas.git",
+    "size": 72,
+    "stargazers_count": 19,
+    "watchers_count": 19,
+    "language": "C++",
+    "open_issues_count": 2,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/jfarek",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20506792?v=4",
+      "login": "jfarek",
+      "type": "User"
+    },
+    "timestamp": "2022-07-18 17:47:31.750596",
+    "avatar": "https://avatars.githubusercontent.com/u/20506792?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"xAtlas is a fast and scalable small variant caller\" (domain-specific genomics analysis tool, used as an application)",
+        "Build instructions are via cloning and building with CMake: \"xAtlas can be built using CMake by running the following commands from the base directory\" (indicates source-repo-based distribution)",
+        "Described as a variant caller used in genome sequencing workflows, implying it directly produces analysis results relevant to research."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:33:20Z"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/nbarbey/TomograPy",
+  "url": "https://github.com/nbarbey/TomograPy",
+  "data": {
+    "doi": [
+      "http://adsabs.harvard.edu/abs/2013SoPh..283..227B",
+      "https://ui.adsabs.harvard.edu/abs/2011ascl.soft04001B/abstract"
+    ],
+    "title": "TomograPy: A Fast, Instrument-Independent, Solar Tomography Software",
+    "url": "https://github.com/nbarbey/TomograPy",
+    "name": "TomograPy",
+    "full_name": "nbarbey/TomograPy",
+    "html_url": "https://github.com/nbarbey/TomograPy",
+    "description": "Siddon tomography algorithm",
+    "created_at": "2010-08-27T17:00:47Z",
+    "updated_at": "2022-07-07T11:47:41Z",
+    "clone_url": "https://github.com/nbarbey/TomograPy.git",
+    "homepage": "http://nbarbey.github.com/TomograPy/",
+    "size": 3314,
+    "stargazers_count": 14,
+    "watchers_count": 14,
+    "language": "Python",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/nbarbey",
+      "avatar_url": "https://avatars.githubusercontent.com/u/295277?v=4",
+      "login": "nbarbey",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:24:58.745460",
+    "avatar": "https://avatars.githubusercontent.com/u/295277?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"TomograPy : A python tomography package\"",
+        "\"This is a fast parallelized tomography projector / backprojector. It originates from solar tomography application but could be use for other applications.\"",
+        "\"To get started, take a look at tomograpy/__init__.py or in IPython, just do : >>> import tomograpy\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T01:33:49Z"
+    }
+  }
+}

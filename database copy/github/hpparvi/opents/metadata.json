@@ -1,0 +1,64 @@
+{
+  "parser": "github",
+  "uid": "github/hpparvi/opents",
+  "url": "https://github.com/hpparvi/opents",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2016MNRAS.461.3399P",
+      "https://ui.adsabs.harvard.edu/abs/2016ascl.soft07010P/abstract"
+    ],
+    "title": "K2PS: K2 Planet search",
+    "url": "https://github.com/hpparvi/opents",
+    "name": "opents",
+    "full_name": "hpparvi/opents",
+    "html_url": "https://github.com/hpparvi/opents",
+    "description": "Open exoplanet transit search pipeline",
+    "created_at": "2016-02-12T11:46:34Z",
+    "updated_at": "2022-06-07T15:46:58Z",
+    "clone_url": "https://github.com/hpparvi/opents.git",
+    "size": 1568,
+    "stargazers_count": 6,
+    "watchers_count": 6,
+    "language": "Python",
+    "open_issues_count": 4,
+    "subscribers_count": 9,
+    "owner": {
+      "html_url": "https://github.com/hpparvi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/327523?v=4",
+      "login": "hpparvi",
+      "type": "User"
+    },
+    "topics": [
+      "exoplanets",
+      "tess",
+      "kepler",
+      "k2",
+      "transiting-exoplanets",
+      "transiting-planets",
+      "astronomy"
+    ],
+    "timestamp": "2022-07-17 17:21:34.727396",
+    "avatar": "https://avatars.githubusercontent.com/u/327523?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Open exoplanet transit search pipeline (OpenTS) is a Python package for searching exoplanet transit signals from photometric light curves.\"",
+        "\"At its simplest, the transit search can be run as\n\n    opents data_directory\"",
+        "\"Installation\n\n    python setup.py install\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:21:55Z"
+    }
+  }
+}

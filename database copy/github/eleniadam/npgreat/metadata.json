@@ -1,0 +1,48 @@
+{
+  "parser": "github",
+  "uid": "github/eleniadam/npgreat",
+  "url": "https://github.com/eleniadam/npgreat",
+  "data": {
+    "doi": "10.1186/S12859-022-05081-3",
+    "name": "npgreat",
+    "url": "https://github.com/eleniadam/npgreat",
+    "full_name": "eleniadam/npgreat",
+    "html_url": "https://github.com/eleniadam/npgreat",
+    "description": "A hybrid assembly method that utilizes Nanopore and Linked-Reads datasets for the assembly of the human subtelomere regions.",
+    "created_at": "2021-10-14T14:35:29Z",
+    "updated_at": "2023-01-09T11:21:42Z",
+    "clone_url": "https://github.com/eleniadam/npgreat.git",
+    "size": 41901,
+    "language": "Python",
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/eleniadam",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31490261?v=4",
+      "login": "eleniadam",
+      "type": "User"
+    },
+    "timestamp": "2023-02-19 00:39:44.002865",
+    "avatar": "https://avatars.githubusercontent.com/u/31490261?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"NPGREAT is a hybrid assembly method that utilizes two complementary types of data for the assembly of the human subtelomere regions\" (indicates a domain-specific analysis/assembly tool, i.e., an application).",
+        "\"The manual of NPGREAT, containing detailed istructions on how to use the tool is located here\" (suggests users run the tool directly rather than import it as a library or install via a package registry).",
+        "The repository is owned by a personal GitHub user account (owner_login: eleniadam) with no mention of institutional or community governance in the README, indicating an individual maintainer."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T23:43:36Z"
+    }
+  }
+}

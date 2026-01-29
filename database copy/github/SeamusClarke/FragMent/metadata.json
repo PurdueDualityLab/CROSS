@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/SeamusClarke/FragMent",
+  "url": "https://github.com/SeamusClarke/FragMent",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2019MNRAS.484.4024C",
+      "https://ui.adsabs.harvard.edu/abs/2020ascl.soft01004C/abstract"
+    ],
+    "title": "FragMent: Fragmentation techniques for studying filaments",
+    "url": "https://github.com/SeamusClarke/FragMent",
+    "name": "FragMent",
+    "full_name": "SeamusClarke/FragMent",
+    "html_url": "https://github.com/SeamusClarke/FragMent",
+    "description": "A collection of fragmentation techniques for studying filaments",
+    "created_at": "2018-09-18T08:38:21Z",
+    "updated_at": "2021-09-01T06:24:13Z",
+    "clone_url": "https://github.com/SeamusClarke/FragMent.git",
+    "size": 147,
+    "stargazers_count": 5,
+    "watchers_count": 5,
+    "language": "Python",
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/SeamusClarke",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34774908?v=4",
+      "login": "SeamusClarke",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:15:10.550678",
+    "avatar": "https://avatars.githubusercontent.com/u/34774908?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"export PYTHONPATH=$PYTHONPATH:\"Path to FragMent's download location\"\"",
+        "\"FragMent is a python/C module which collates a number techniques used to study fragmentation in filaments. It also performs model selection...\"",
+        "\"Included in the repository is an example script which calls all the functions in FragMent. Here I go through each method included in FragMent and detail how to use them.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T20:19:10Z"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "parser": "github",
+  "uid": "github/ropensci/tiler",
+  "url": "https://github.com/ropensci/tiler",
+  "data": {
+    "timestamp": "2022-01-27 10:11:35.238360",
+    "name": "tiler",
+    "url": "https://api.github.com/repos/ropensci/tiler",
+    "full_name": "ropensci/tiler",
+    "html_url": "https://github.com/ropensci/tiler",
+    "private": false,
+    "description": "Generate geographic and non-geographic map tiles from R",
+    "created_at": "2018-05-30T17:00:22Z",
+    "updated_at": "2021-06-17T07:29:00Z",
+    "clone_url": "https://github.com/ropensci/tiler.git",
+    "homepage": "https://docs.ropensci.org/tiler",
+    "size": 6121,
+    "stargazers_count": 56,
+    "watchers_count": 56,
+    "language": "R",
+    "open_issues_count": 6,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "owner": {
+      "html_url": "https://github.com/ropensci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1200269?v=4",
+      "login": "ropensci",
+      "type": "Organization"
+    },
+    "topics": [
+      "r",
+      "r-package",
+      "rstats",
+      "geospatial"
+    ]
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"tiler\")\"",
+        "\"The `tiler` package provides a tile generator function for creating map tile sets for use with packages such as `leaflet`.\" (R package intended to be used by other R code)",
+        "\"Install `tiler` from CRAN with\n\n``` r\ninstall.packages(\"tiler\")\n```\" (distributed via CRAN package registry)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T02:40:11Z"
+    }
+  }
+}

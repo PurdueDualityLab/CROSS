@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/Romea/aroco",
+  "url": "https://github.com/Romea/aroco",
+  "data": {
+    "name": "aroco",
+    "url": "https://github.com/Romea/aroco",
+    "full_name": "Romea/aroco",
+    "html_url": "https://github.com/Romea/aroco",
+    "private": false,
+    "description": null,
+    "created_at": "2023-05-31T09:11:59Z",
+    "updated_at": "2024-11-12T09:40:46Z",
+    "clone_url": "https://github.com/Romea/aroco.git",
+    "homepage": null,
+    "size": 1744,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": "Python",
+    "open_issues_count": 0,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "subscribers_count": 0,
+    "owner": {
+      "html_url": "https://github.com/Romea",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20208303?v=4",
+      "login": "Romea",
+      "type": "Organization"
+    },
+    "topics": [],
+    "timestamp": "2024-11-17 00:52:18.818853",
+    "avatar": "https://avatars.githubusercontent.com/u/20208303?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This project contains several ROS2 packages for working with Aroco robot, both in real-world applications and simulations.\"",
+        "\"Aroco project was developed by **Jean Laneurit** in the context of BaudetRob ANR project.\"",
+        "Usage instructions rely on cloning/importing from GitHub via `wget https://raw.githubusercontent.com/Romea/aroco/...` and building with `colcon build`, indicating source-based distribution."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T20:10:25Z"
+    }
+  }
+}

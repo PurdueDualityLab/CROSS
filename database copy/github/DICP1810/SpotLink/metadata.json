@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/DICP1810/SpotLink",
+  "url": "https://github.com/DICP1810/SpotLink",
+  "data": {
+    "timestamp": "2022-07-10 00:43:48.378118",
+    "name": "SpotLink",
+    "url": "https://api.github.com/repos/DICP1810/SpotLink",
+    "full_name": "DICP1810/SpotLink",
+    "html_url": "https://github.com/DICP1810/SpotLink",
+    "private": false,
+    "description": "SpotLinkTest",
+    "created_at": "2021-11-26T02:24:51Z",
+    "updated_at": "2022-01-17T10:12:42Z",
+    "clone_url": "https://github.com/DICP1810/SpotLink.git",
+    "homepage": null,
+    "size": 216519,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "HTML",
+    "open_issues_count": 0,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 0,
+    "owner": {
+      "html_url": "https://github.com/DICP1810",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46855251?v=4",
+      "login": "DICP1810",
+      "type": "User"
+    },
+    "topics": []
+  },
+  "doi": "10.1101/2021.12.31.474672",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"- Runtime: [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) provided by Microsoft is needed. Please make sure it has been installed before running SpotLink. [Click hear to Download .\"",
+        "\"SpotLink is a software for identifying site non-specific cross-links from LC-MS/MS, which can realize the identification from simple proteins to the proteomics.\"",
+        "Windows desktop-style requirements and a user manual indicate an end-user application: \"SpotLink has a user friendly user interface to set parameters.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T16:59:51Z"
+    }
+  }
+}

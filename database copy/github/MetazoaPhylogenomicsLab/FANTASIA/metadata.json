@@ -1,0 +1,57 @@
+{
+  "parser": "github",
+  "uid": "github/MetazoaPhylogenomicsLab/FANTASIA",
+  "url": "https://github.com/MetazoaPhylogenomicsLab/FANTASIA",
+  "data": {
+    "doi": "10.1101/2024.02.14.580341",
+    "name": "FANTASIA",
+    "url": "https://github.com/MetazoaPhylogenomicsLab/FANTASIA",
+    "full_name": "MetazoaPhylogenomicsLab/FANTASIA",
+    "html_url": "https://github.com/MetazoaPhylogenomicsLab/FANTASIA",
+    "created_at": "2024-02-13T16:24:46Z",
+    "updated_at": "2024-06-26T09:01:59Z",
+    "clone_url": "https://github.com/MetazoaPhylogenomicsLab/FANTASIA.git",
+    "size": 400,
+    "stargazers_count": 16,
+    "watchers_count": 16,
+    "language": "Shell",
+    "open_issues_count": 4,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/MetazoaPhylogenomicsLab",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62691665?v=4",
+      "login": "MetazoaPhylogenomicsLab",
+      "type": "User"
+    },
+    "timestamp": "2024-07-14 00:41:37.622787",
+    "avatar": "https://avatars.githubusercontent.com/u/62691665?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"Download the singularity image from [here](https://cloud.sylabs.io/library/gemma.martinezredondo/fantasia/fantasia) by executing:\"",
+        "\"FANTASIA (Functional ANnoTAtion based on embedding space SImilArity) is a pipeline for annotating GO terms in protein sequence files\" (end-user analysis pipeline).",
+        "\"This pipeline results from joined efforts with equal contribution between Ana Roja's lab ... and Rosa Fernández's lab ...\" (developed by specific research labs)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T19:14:22Z"
+    }
+  }
+}

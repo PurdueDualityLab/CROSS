@@ -1,46 +1,265 @@
 {
-    "parser": "github",
-    "uid": "github/JuliaDynamics/DrWatson.jl",
-    "url": "https://github.com/JuliaDynamics/DrWatson.jl",
-    "data": {
-        "timestamp": "2020-11-01 00:19:21.595158",
-        "name": "DrWatson.jl",
-        "url": "https://api.github.com/repos/JuliaDynamics/DrWatson.jl",
-        "full_name": "JuliaDynamics/DrWatson.jl",
-        "html_url": "https://github.com/JuliaDynamics/DrWatson.jl",
-        "private": false,
-        "description": "The perfect sidekick to your scientific inquiries",
-        "created_at": "2019-01-29T16:05:41Z",
-        "updated_at": "2020-10-30T10:11:49Z",
-        "clone_url": "https://github.com/JuliaDynamics/DrWatson.jl.git",
-        "homepage": "https://juliadynamics.github.io/DrWatson.jl/dev/",
-        "size": 2928,
-        "stargazers_count": 288,
-        "watchers_count": 288,
-        "language": "Julia",
-        "open_issues_count": 23,
-        "license": {
-            "key": "other",
-            "name": "Other",
-            "spdx_id": "NOASSERTION",
-            "url": null,
-            "node_id": "MDc6TGljZW5zZTA="
-        },
-        "subscribers_count": 10,
-        "owner": {
-            "html_url": "https://github.com/JuliaDynamics",
-            "avatar_url": "https://avatars1.githubusercontent.com/u/31774341?v=4",
-            "login": "JuliaDynamics",
-            "type": "Organization"
-        },
-        "topics": [
-            "science",
-            "science-research",
-            "project-management",
-            "project-assistant",
-            "simulations",
-            "setup-tool"
-        ]
+  "parser": "github",
+  "uid": "github/JuliaDynamics/DrWatson.jl",
+  "url": "https://github.com/JuliaDynamics/DrWatson.jl",
+  "data": {
+    "timestamp": "2020-11-01 00:19:21.595158",
+    "name": "DrWatson.jl",
+    "url": "https://api.github.com/repos/JuliaDynamics/DrWatson.jl",
+    "full_name": "JuliaDynamics/DrWatson.jl",
+    "html_url": "https://github.com/JuliaDynamics/DrWatson.jl",
+    "private": false,
+    "description": "The perfect sidekick to your scientific inquiries",
+    "created_at": "2019-01-29T16:05:41Z",
+    "updated_at": "2020-10-30T10:11:49Z",
+    "clone_url": "https://github.com/JuliaDynamics/DrWatson.jl.git",
+    "homepage": "https://juliadynamics.github.io/DrWatson.jl/dev/",
+    "size": 2928,
+    "stargazers_count": 288,
+    "watchers_count": 288,
+    "language": "Julia",
+    "open_issues_count": 23,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
     },
-    "doi": "https://doi.org/10.5281/zenodo.4133570"
+    "subscribers_count": 10,
+    "owner": {
+      "html_url": "https://github.com/JuliaDynamics",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/31774341?v=4",
+      "login": "JuliaDynamics",
+      "type": "Organization"
+    },
+    "topics": [
+      "science",
+      "science-research",
+      "project-management",
+      "project-assistant",
+      "simulations",
+      "setup-tool"
+    ]
+  },
+  "doi": "https://doi.org/10.5281/zenodo.4133570",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"[![Package Downloads](https://img.shields.io/badge/dynamic/json?url=http%3A%2F%2Fjuliapkgstats.com%2Fapi%2Fv1%2Ftotal_downloads%2FDrWatson&query=total_requests&label=Downloads)](http://juliapkgstats.c\"",
+        "\"DrWatson is a **scientific project assistant** software. It helps people manage their scientific projects (or any project for that matter).\"",
+        "\"Specifically, it is a Julia package created to help people 'deal' with their simulations, simulation parameters, where are files saved, experimental data, scripts, existing simulations, project source code, establishing reproducibility, and in general their scientific projects.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T18:07:35Z"
+    }
+  },
+  "openssf_scorecard": {
+    "data": {
+      "date": "2026-01-23T08:17:44-05:00",
+      "repo": {
+        "name": "github.com/JuliaDynamics/DrWatson.jl",
+        "commit": "83f9cbf716b604ca1046339e6486ba1ef54d23a2"
+      },
+      "scorecard": {
+        "version": "v5.4.0",
+        "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+      },
+      "score": 5.1,
+      "checks": [
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no binaries found in the repo",
+          "name": "Binary-Artifacts",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#binary-artifacts",
+            "short": "Determines if the project has generated executable (binary) artifacts in the source repository."
+          }
+        },
+        {
+          "details": null,
+          "score": 3,
+          "reason": "branch protection is not maximal on development and all release branches",
+          "name": "Branch-Protection",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#branch-protection",
+            "short": "Determines if the default and release branches are protected with GitHub's branch protection settings."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "0 out of 26 merged PRs checked by a CI test -- score normalized to 0",
+          "name": "CI-Tests",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#ci-tests",
+            "short": "Determines if the project runs tests before pull requests are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no effort to earn an OpenSSF best practices badge detected",
+          "name": "CII-Best-Practices",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#cii-best-practices",
+            "short": "Determines if the project has an OpenSSF (formerly CII) Best Practices Badge."
+          }
+        },
+        {
+          "details": null,
+          "score": 7,
+          "reason": "Found 17/24 approved changesets -- score normalized to 7",
+          "name": "Code-Review",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#code-review",
+            "short": "Determines if the project requires human code review before pull requests (aka merge requests) are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "project has 25 contributing companies or organizations",
+          "name": "Contributors",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#contributors",
+            "short": "Determines if the project has a set of contributors from multiple organizations (e.g., companies)."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no dangerous workflow patterns detected",
+          "name": "Dangerous-Workflow",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dangerous-workflow",
+            "short": "Determines if the project's GitHub Action workflows avoid dangerous patterns."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "update tool detected",
+          "name": "Dependency-Update-Tool",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dependency-update-tool",
+            "short": "Determines if the project uses a dependency update tool."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "project is not fuzzed",
+          "name": "Fuzzing",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#fuzzing",
+            "short": "Determines if the project uses fuzzing."
+          }
+        },
+        {
+          "details": null,
+          "score": 9,
+          "reason": "license file detected",
+          "name": "License",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#license",
+            "short": "Determines if the project has defined a license."
+          }
+        },
+        {
+          "details": null,
+          "score": 3,
+          "reason": "2 commit(s) and 2 issue activity found in the last 90 days -- score normalized to 3",
+          "name": "Maintained",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#maintained",
+            "short": "Determines if the project is \"actively maintained\"."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "packaging workflow not detected",
+          "name": "Packaging",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#packaging",
+            "short": "Determines if the project is published as a package that others can easily download, install, easily update, and uninstall."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "dependency not pinned by hash detected -- score normalized to 0",
+          "name": "Pinned-Dependencies",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#pinned-dependencies",
+            "short": "Determines if the project has declared and pinned the dependencies of its build process."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "SAST tool is not run on all commits -- score normalized to 0",
+          "name": "SAST",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#sast",
+            "short": "Determines if the project uses static code analysis."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "security policy file not detected",
+          "name": "Security-Policy",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#security-policy",
+            "short": "Determines if the project has published a security policy."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no releases found",
+          "name": "Signed-Releases",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#signed-releases",
+            "short": "Determines if the project cryptographically signs release artifacts."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "detected GitHub workflow tokens with excessive permissions",
+          "name": "Token-Permissions",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#token-permissions",
+            "short": "Determines if the project's workflows follow the principle of least privilege."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "0 existing vulnerabilities detected",
+          "name": "Vulnerabilities",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#vulnerabilities",
+            "short": "Determines if the project has open, known unfixed vulnerabilities."
+          }
+        }
+      ],
+      "metadata": null
+    },
+    "timestamp_utc": "2026-01-23T13:18:08Z"
+  }
 }

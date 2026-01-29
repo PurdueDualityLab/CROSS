@@ -1,0 +1,71 @@
+{
+  "parser": "github",
+  "uid": "github/carnotresearch/cr-sparse",
+  "url": "https://github.com/carnotresearch/cr-sparse",
+  "data": {
+    "timestamp": "2021-12-05 00:38:11.379949",
+    "name": "cr-sparse",
+    "url": "https://api.github.com/repos/carnotresearch/cr-sparse",
+    "full_name": "carnotresearch/cr-sparse",
+    "html_url": "https://github.com/carnotresearch/cr-sparse",
+    "private": false,
+    "description": "Functional models and algorithms for sparse signal processing",
+    "created_at": "2020-12-22T08:31:17Z",
+    "updated_at": "2021-12-03T13:38:31Z",
+    "clone_url": "https://github.com/carnotresearch/cr-sparse.git",
+    "homepage": "https://cr-sparse.readthedocs.io/en/latest",
+    "size": 64219,
+    "stargazers_count": 19,
+    "watchers_count": 19,
+    "language": "Jupyter Notebook",
+    "open_issues_count": 10,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/carnotresearch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/71070447?v=4",
+      "login": "carnotresearch",
+      "type": "Organization"
+    },
+    "topics": [
+      "sparse-representations",
+      "jax",
+      "wavelets",
+      "convex-optimization",
+      "linear-operators",
+      "compressive-sensing",
+      "functional-programming",
+      "xla",
+      "l1-regularization",
+      "sparse-linear-systems"
+    ]
+  },
+  "doi": "https://doi.org/10.5281/zenodo.5749792",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"python -m pip install cr-sparse\"",
+        "\"CR-Sparse is a Python library that enables efficiently solving a wide variety of sparse representation based signal processing problems. It is a cohesive collection of sub-libraries working together.\"",
+        "\"Installation from PyPI:  python -m pip install cr-sparse\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T22:50:05Z"
+    }
+  }
+}

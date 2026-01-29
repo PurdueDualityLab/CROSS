@@ -1,0 +1,57 @@
+{
+  "parser": "github",
+  "uid": "github/haotianteng/BoostNano",
+  "url": "https://github.com/haotianteng/BoostNano",
+  "data": {
+    "doi": "10.1101/2024.10.25.620206",
+    "name": "BoostNano",
+    "url": "https://github.com/haotianteng/BoostNano",
+    "full_name": "haotianteng/BoostNano",
+    "html_url": "https://github.com/haotianteng/BoostNano",
+    "description": "A segmentation toolkit for segment the Nanopore RNA signal.",
+    "created_at": "2019-04-13T14:56:16Z",
+    "updated_at": "2025-02-18T20:01:14Z",
+    "clone_url": "https://github.com/haotianteng/BoostNano.git",
+    "size": 42299,
+    "stargazers_count": 19,
+    "watchers_count": 19,
+    "language": "Python",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/haotianteng",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11155295?v=4",
+      "login": "haotianteng",
+      "type": "User"
+    },
+    "timestamp": "2025-03-02 00:48:31.083234",
+    "avatar": "https://avatars.githubusercontent.com/u/11155295?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"BOOSTNANO is a tool for preprocessing ONT-Nanopore RNA sequencing reads(before basecalling)\"",
+        "\"Check out the sample code in the Jupyter Notebook Sample.ipynb for how to use the package.\" and usage via `python boostnano_eval.py ...` indicates an end-user tool rather than a library dependency.",
+        "Installation instructions use `git clone https://github.com/haotianteng/BoostNano.git` and `python BoostNano/setup.py install`, indicating distribution primarily via the source repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:07:45Z"
+    }
+  }
+}

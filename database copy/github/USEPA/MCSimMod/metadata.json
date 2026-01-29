@@ -1,0 +1,65 @@
+{
+  "parser": "github",
+  "uid": "github/USEPA/MCSimMod",
+  "url": "https://github.com/USEPA/MCSimMod",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.16883665",
+    "name": "MCSimMod",
+    "url": "https://github.com/USEPA/MCSimMod",
+    "full_name": "USEPA/MCSimMod",
+    "html_url": "https://github.com/USEPA/MCSimMod",
+    "description": "MCSim Models in R",
+    "created_at": "2024-02-23T22:20:09Z",
+    "updated_at": "2025-08-19T18:21:28Z",
+    "clone_url": "https://github.com/USEPA/MCSimMod.git",
+    "size": 1676,
+    "stargazers_count": 7,
+    "watchers_count": 7,
+    "language": "C",
+    "open_issues_count": 1,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/USEPA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1304320?v=4",
+      "login": "USEPA",
+      "type": "Organization"
+    },
+    "topics": [
+      "ode-model",
+      "pbpk",
+      "pbpk-modeling",
+      "r",
+      "ode"
+    ],
+    "timestamp": "2025-08-24 00:55:51.602747",
+    "avatar": "https://avatars.githubusercontent.com/u/1304320?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"deSolve\")\"",
+        "\"MCSimMod is an R package that facilitates ordinary differential equation (ODE) modeling.\"",
+        "\"MCSimMod allows one to perform simulations for ODE models that are encoded in the GNU MCSim model specification language using ODE solvers from the R package deSolve.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T20:35:12Z"
+    }
+  }
+}

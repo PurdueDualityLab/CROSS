@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/AstarVienna/irdb",
+  "url": "https://github.com/AstarVienna/irdb",
+  "data": {
+    "doi": [],
+    "title": "ScopeSim Instrument Reference Database",
+    "url": "https://github.com/AstarVienna/irdb",
+    "name": "irdb",
+    "full_name": "AstarVienna/irdb",
+    "html_url": "https://github.com/AstarVienna/irdb",
+    "description": "A database containing instrument data for infrared telescopes",
+    "created_at": "2018-06-29T11:25:07Z",
+    "updated_at": "2022-05-11T14:02:18Z",
+    "clone_url": "https://github.com/AstarVienna/irdb.git",
+    "size": 97792,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "Jupyter Notebook",
+    "open_issues_count": 16,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/AstarVienna",
+      "avatar_url": "https://avatars.githubusercontent.com/u/81577446?v=4",
+      "login": "AstarVienna",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:11:02.813181",
+    "avatar": "https://avatars.githubusercontent.com/u/81577446?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This repository contains the data files needed by ``ScopeSim`` to create a model of any given optical train.\"",
+        "\"Primary packages are complete packages which can be used by ``scopesim`` to simulate the readout files from a full optical system\"",
+        "\"The IRDB is closely tied to [ScopeSIM](https://github.com/AstarVienna/ScopeSim).\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T16:37:36Z"
+    }
+  }
+}

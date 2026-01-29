@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/wustat/rjaf",
+  "url": "https://github.com/wustat/rjaf",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.15174882",
+    "name": "rjaf",
+    "url": "https://github.com/wustat/rjaf",
+    "full_name": "wustat/rjaf",
+    "html_url": "https://github.com/wustat/rjaf",
+    "description": "Regularized Joint Assignment Forest with Treatment Arm Clustering",
+    "created_at": "2021-09-20T20:10:30Z",
+    "updated_at": "2025-04-09T12:51:11Z",
+    "clone_url": "https://github.com/wustat/rjaf.git",
+    "size": 9536,
+    "language": "R",
+    "license": {
+      "key": "agpl-3.0",
+      "name": "GNU Affero General Public License v3.0",
+      "spdx_id": "AGPL-3.0",
+      "url": "https://api.github.com/licenses/agpl-3.0",
+      "node_id": "MDc6TGljZW5zZTE="
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/wustat",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19987326?v=4",
+      "login": "wustat",
+      "type": "User"
+    },
+    "topics": [
+      "causal-inference",
+      "machine-learning"
+    ],
+    "timestamp": "2025-04-13 02:14:02.035890",
+    "avatar": "https://avatars.githubusercontent.com/u/19987326?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"rjaf\")\"",
+        "“`rjaf` is an `R` package that implements a regularized and clustered joint assignment forest…” (library-style package, used via `library(rjaf)`)",
+        "“The following scripts demonstrate the function `rjaf()`, which constructs a joint forest model to estimate the optimal treatment assignment…” (core analysis/modeling functionality for treatment assignment)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:54:58Z"
+    }
+  }
+}

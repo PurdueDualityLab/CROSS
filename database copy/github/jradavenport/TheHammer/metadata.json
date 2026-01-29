@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/jradavenport/TheHammer",
+  "url": "https://github.com/jradavenport/TheHammer",
+  "data": {
+    "doi": [
+      "http://adsabs.harvard.edu/abs/2007AJ....134.2398C",
+      "https://ui.adsabs.harvard.edu/abs/2014ascl.soft05003C/abstract"
+    ],
+    "title": "The Hammer: An IDL Spectral Typing Suite",
+    "url": "https://github.com/jradavenport/TheHammer",
+    "name": "TheHammer",
+    "full_name": "jradavenport/TheHammer",
+    "html_url": "https://github.com/jradavenport/TheHammer",
+    "description": "The Hammer: An IDL Spectral Typing Suite",
+    "created_at": "2014-11-14T03:29:14Z",
+    "updated_at": "2020-06-14T17:09:14Z",
+    "clone_url": "https://github.com/jradavenport/TheHammer.git",
+    "size": 1828,
+    "stargazers_count": 4,
+    "watchers_count": 4,
+    "language": "Prolog",
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/jradavenport",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3179868?v=4",
+      "login": "jradavenport",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:23:51.880054",
+    "avatar": "https://avatars.githubusercontent.com/u/3179868?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"The Hammer spectral typing algorithm was originally developed for use on late-type SDSS spectra, but has subsequently been modified to allow it to classify spectra in a variety of formats with targets spanning the MK spectral sequence.\"",
+        "\"The Hammer processes a list of input spectra by automatically estimating each object's spectral type and measuring activity and metallicity tracers in late type stars.\"",
+        "\"The distribution provided above contains a README file to explain the usage of routine, as well as a small set of spectra and associated output files to demonstrate the usage of the code.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:39:15Z"
+    }
+  }
+}

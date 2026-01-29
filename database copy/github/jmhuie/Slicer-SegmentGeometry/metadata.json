@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/jmhuie/Slicer-SegmentGeometry",
+  "url": "https://github.com/jmhuie/Slicer-SegmentGeometry",
+  "data": {
+    "timestamp": "2022-07-03 00:39:30.940404",
+    "name": "Slicer-SegmentGeometry",
+    "url": "https://api.github.com/repos/jmhuie/Slicer-SegmentGeometry",
+    "full_name": "jmhuie/Slicer-SegmentGeometry",
+    "html_url": "https://github.com/jmhuie/Slicer-SegmentGeometry",
+    "private": false,
+    "description": "Extension to calculate second moment of area and other cross-sectional properties in 3D Slicer",
+    "created_at": "2021-03-14T01:30:40Z",
+    "updated_at": "2022-05-10T17:10:50Z",
+    "clone_url": "https://github.com/jmhuie/Slicer-SegmentGeometry.git",
+    "homepage": "https://doi.org/10.1093/iob/obac009",
+    "size": 90303,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "Python",
+    "open_issues_count": 0,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/jmhuie",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52302862?v=4",
+      "login": "jmhuie",
+      "type": "User"
+    },
+    "topics": [
+      "3d-slicer-extension"
+    ]
+  },
+  "doi": "10.1093/IOB/OBAC009",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"The official method of obtaining SlicerBiomech is through 3D Slicer's built-in Extensions Manager. To obtain SlicerBiomech, first install the most recent stable release of <a href=\"https://download.sl\"",
+        "\"This is the repository for the SlicerBiomech extension for 3D Slicer. SlicerBiomech enables the collection and modeling of biomechanical data from 3D specimen data, within the 3D Slicer application.\"",
+        "\"Use the 3D Slicer Extensions Manager module to search for SlicerBiomech and install the extension. After restarting 3D Slicer, SlicerBiomech modules will be available to use in the application.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:35:27Z"
+    }
+  }
+}

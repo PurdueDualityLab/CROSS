@@ -1,0 +1,56 @@
+{
+  "parser": "github",
+  "uid": "github/CatarinaMMarques/FisherCosmology",
+  "url": "https://github.com/CatarinaMMarques/FisherCosmology",
+  "data": {
+    "doi": [],
+    "title": "FRIDDA: Fisher foRecast code for combIned reDshift Drift and Alpha",
+    "url": "https://github.com/CatarinaMMarques/FisherCosmology",
+    "name": "FisherCosmology",
+    "full_name": "CatarinaMMarques/FisherCosmology",
+    "html_url": "https://github.com/CatarinaMMarques/FisherCosmology",
+    "description": "Forecasting Code for Redshift Drift and Alpha Measurements",
+    "created_at": "2022-04-08T08:37:46Z",
+    "updated_at": "2023-03-16T00:46:24Z",
+    "clone_url": "https://github.com/CatarinaMMarques/FisherCosmology.git",
+    "size": 1764,
+    "language": "Jupyter Notebook",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/CatarinaMMarques",
+      "avatar_url": "https://avatars.githubusercontent.com/u/83832933?v=4",
+      "login": "CatarinaMMarques",
+      "type": "User"
+    },
+    "timestamp": "2023-03-26 00:37:16.284742",
+    "avatar": "https://avatars.githubusercontent.com/u/83832933?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Forecasting code, based on Fisher Matrix Analysis techniques, for the cosmological impact of redshift drift and fine-structure constant, α, measurements as well as their combination.\"",
+        "\"The structure of this repository is as follows:\" followed by code modules, indicating users run this code directly from the repository.",
+        "\"If you use FRIDDA in your work please cite: Marques, C.M.J., Martins, C.J.A.P., Alves, C.S., Fundamental cosmology from ANDES precision spectroscopy...\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T16:52:11Z"
+    }
+  }
+}

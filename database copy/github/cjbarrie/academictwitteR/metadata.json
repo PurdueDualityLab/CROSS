@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/cjbarrie/academictwitteR",
+  "url": "https://github.com/cjbarrie/academictwitteR",
+  "data": {
+    "timestamp": "2021-06-13 00:32:41.984935",
+    "name": "academictwitteR",
+    "url": "https://api.github.com/repos/cjbarrie/academictwitteR",
+    "full_name": "cjbarrie/academictwitteR",
+    "html_url": "https://github.com/cjbarrie/academictwitteR",
+    "private": false,
+    "description": "Repo for academictwitteR package to query the Twitter Academic Research Product Track v2 API endpoint.",
+    "created_at": "2021-02-18T15:38:58Z",
+    "updated_at": "2021-06-12T15:03:18Z",
+    "clone_url": "https://github.com/cjbarrie/academictwitteR.git",
+    "homepage": "",
+    "size": 2331,
+    "stargazers_count": 133,
+    "watchers_count": 133,
+    "language": "R",
+    "open_issues_count": 17,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/cjbarrie",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29574597?v=4",
+      "login": "cjbarrie",
+      "type": "User"
+    },
+    "topics": []
+  },
+  "doi": "https://doi.org/10.5281/zenodo.4905468",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"academictwitteR\")\"",
+        "\"Repo containing code to for R package <tt>academictwitteR</tt> to collect tweets from v2 API endpoint for the Academic Research Product Track.\"",
+        "\"To cite package ‘academictwitteR’ in publications use: Barrie, Christopher and Ho, Justin Chun-ting. (2021). academictwitteR: an R package to access the Twitter Academic Research Product Track v2 API endpoint.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T22:57:19Z"
+    }
+  }
+}

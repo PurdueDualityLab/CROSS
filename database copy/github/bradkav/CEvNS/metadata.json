@@ -1,0 +1,67 @@
+{
+  "parser": "github",
+  "uid": "github/bradkav/CEvNS",
+  "url": "https://github.com/bradkav/CEvNS",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2018JCAP...11..016B",
+      "https://ui.adsabs.harvard.edu/abs/2021ascl.soft11005K/abstract"
+    ],
+    "title": "CEvNS: Calculate Coherent Elastic Neutrino-Nucleus Scattering cross sections and recoil spectra",
+    "url": "https://github.com/bradkav/CEvNS",
+    "name": "CEvNS",
+    "full_name": "bradkav/CEvNS",
+    "html_url": "https://github.com/bradkav/CEvNS",
+    "description": "Code for calculating Coherent Elastic Neutrino-Nucleus Scattering (CEvNS) cross sections and recoil spectra. Also includes code for obtaining New Physics constraints from the COHERENT-2017 results.",
+    "created_at": "2017-01-25T14:41:18Z",
+    "updated_at": "2022-06-22T08:47:51Z",
+    "clone_url": "https://github.com/bradkav/CEvNS.git",
+    "size": 3234,
+    "stargazers_count": 5,
+    "watchers_count": 5,
+    "language": "Jupyter Notebook",
+    "open_issues_count": 1,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 6,
+    "owner": {
+      "html_url": "https://github.com/bradkav",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5381472?v=4",
+      "login": "bradkav",
+      "type": "User"
+    },
+    "topics": [
+      "cross-sections",
+      "neutrinos",
+      "physics"
+    ],
+    "timestamp": "2022-07-17 16:50:00.424376",
+    "avatar": "https://avatars.githubusercontent.com/u/5381472?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Vendor or commercial entity",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Code for calculating Coherent Elastic Neutrino-Nucleus Scattering (CEvNS) cross sections and recoil spectra.\"",
+        "\"Import the module `CEvNS.py`: `import CEvNS`\"",
+        "\"This code was used to generate plots and perform some calculations for the following projects\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T22:09:26Z"
+    }
+  }
+}

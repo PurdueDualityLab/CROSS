@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/llt1836/TE-HI-GCN",
+  "url": "https://github.com/llt1836/TE-HI-GCN",
+  "data": {
+    "timestamp": "2022-03-13 00:44:25.642158",
+    "name": "TE-HI-GCN",
+    "url": "https://api.github.com/repos/llt1836/TE-HI-GCN",
+    "full_name": "llt1836/TE-HI-GCN",
+    "html_url": "https://github.com/llt1836/TE-HI-GCN",
+    "private": false,
+    "description": null,
+    "created_at": "2021-04-15T11:37:05Z",
+    "updated_at": "2021-12-08T14:19:54Z",
+    "clone_url": "https://github.com/llt1836/TE-HI-GCN.git",
+    "homepage": null,
+    "size": 46982,
+    "stargazers_count": 4,
+    "watchers_count": 4,
+    "language": "Python",
+    "open_issues_count": 3,
+    "license": null,
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/llt1836",
+      "avatar_url": "https://avatars.githubusercontent.com/u/71361327?v=4",
+      "login": "llt1836",
+      "type": "User"
+    },
+    "topics": []
+  },
+  "doi": "10.1007/S12021-021-09548-1",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Vendor or commercial entity",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"The implementation of TE-HI-GCN in our paper: Lanting Li et.al 'TE-HI-GCN: An Ensemble of Transfer Hierachical Graph Convolutional Networks for Disorder Diagnosis.'\"",
+        "Instructions to run scripts directly: \"1、f-GCN: python train-fGCN.py\" and similar commands for HI-GCN, E-HI-GCN, TE-HI-GCN, indicating an end-user research application.",
+        "Repository is used by cloning and running Python scripts; README gives only command-line usage and no mention of package managers, containers, or binaries, implying distribution via source code."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:56:03Z"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "parser": "github",
+  "uid": "github/ropensci/censo2017",
+  "url": "https://github.com/ropensci/censo2017",
+  "data": {
+    "timestamp": "2022-01-27 10:11:35.296134",
+    "name": "censo2017",
+    "url": "https://api.github.com/repos/ropensci/censo2017",
+    "full_name": "ropensci/censo2017",
+    "html_url": "https://github.com/ropensci/censo2017",
+    "private": false,
+    "description": "Una Base de Datos de Alto Rendimiento del Censo 2017 de Chile.",
+    "created_at": "2020-10-29T22:24:24Z",
+    "updated_at": "2022-01-19T22:27:14Z",
+    "clone_url": "https://github.com/ropensci/censo2017.git",
+    "homepage": "https://docs.ropensci.org/censo2017/",
+    "size": 1318,
+    "stargazers_count": 19,
+    "watchers_count": 19,
+    "language": "R",
+    "open_issues_count": 0,
+    "license": {
+      "key": "cc0-1.0",
+      "name": "Creative Commons Zero v1.0 Universal",
+      "spdx_id": "CC0-1.0",
+      "url": "https://api.github.com/licenses/cc0-1.0",
+      "node_id": "MDc6TGljZW5zZTY="
+    },
+    "owner": {
+      "html_url": "https://github.com/ropensci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1200269?v=4",
+      "login": "ropensci",
+      "type": "Organization"
+    },
+    "topics": [
+      "chile",
+      "censo",
+      "census",
+      "demografia",
+      "demographics",
+      "rstats",
+      "redatam",
+      "duckdb",
+      "data-access"
+    ]
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"censo2017\")\"",
+        "\"Censo 2017 (Paquete R)\" and installation via `install.packages(\"censo2017\")` indicate it is an R package distributed through CRAN.",
+        "\"Provee un acceso conveniente a mas de 17 millones de registros de la base de datos del Censo 2017\" shows it is used directly by researchers to access and analyze census data, i.e., an application for research tasks."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T02:25:33Z"
+    }
+  }
+}

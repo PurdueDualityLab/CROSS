@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/astrostat/TD-CARMA",
+  "url": "https://github.com/astrostat/TD-CARMA",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2023ApJ...950...37M",
+      "https://ui.adsabs.harvard.edu/abs/2025ascl.soft05017M/abstract"
+    ],
+    "title": "TD-CARMA: Estimates of gravitational lens time delays with flexible CARMA processes",
+    "url": "https://github.com/astrostat/TD-CARMA",
+    "name": "TD-CARMA",
+    "full_name": "astrostat/TD-CARMA",
+    "html_url": "https://github.com/astrostat/TD-CARMA",
+    "created_at": "2023-10-03T14:29:24Z",
+    "updated_at": "2023-10-03T14:29:39Z",
+    "clone_url": "https://github.com/astrostat/TD-CARMA.git",
+    "size": 96,
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/astrostat",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7632236?v=4",
+      "login": "astrostat",
+      "type": "Organization"
+    },
+    "timestamp": "2025-06-08 00:56:52.965349",
+    "avatar": "https://avatars.githubusercontent.com/u/7632236?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Fit CARMA processes to AGN light curves to estimate gravitational lens time delays.\"",
+        "\"main_gpcarma.py : use to fit multiple TD-CARMA(p,q,m) models in parallel\"",
+        "Instructions reference running scripts directly (e.g., \"mpiexec -n X python3 new_td_gp.py\"), implying use from the source repository rather than via a package manager or binaries."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T21:52:16Z"
+    }
+  }
+}

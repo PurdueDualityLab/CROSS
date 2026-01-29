@@ -1,0 +1,71 @@
+{
+  "parser": "github",
+  "uid": "github/wcxve/elisa",
+  "url": "https://github.com/wcxve/elisa",
+  "data": {
+    "doi": [],
+    "title": "ELISA: Efficient Library for Spectral Analysis in High-Energy Astrophysics",
+    "url": "https://github.com/wcxve/elisa",
+    "name": "elisa",
+    "full_name": "wcxve/elisa",
+    "html_url": "https://github.com/wcxve/elisa",
+    "description": "Efficient library for spectral analysis in high-energy astrophysics.",
+    "created_at": "2023-07-11T14:36:11Z",
+    "updated_at": "2024-07-24T09:03:59Z",
+    "clone_url": "https://github.com/wcxve/elisa.git",
+    "homepage": "https://elisa-lib.readthedocs.io",
+    "size": 13988,
+    "stargazers_count": 9,
+    "watchers_count": 9,
+    "language": "Python",
+    "open_issues_count": 17,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/wcxve",
+      "avatar_url": "https://avatars.githubusercontent.com/u/58248583?v=4",
+      "login": "wcxve",
+      "type": "User"
+    },
+    "topics": [
+      "spectral-analysis",
+      "python",
+      "astrophysics",
+      "astronomy",
+      "jax",
+      "numpyro",
+      "elisa",
+      "gamma-ray",
+      "x-ray"
+    ],
+    "timestamp": "2024-07-28 00:40:43.115201",
+    "avatar": "https://avatars.githubusercontent.com/u/58248583?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install astro-elisa\"",
+        "“ELISA aims to provide a modern and efficient tool to explore and analyze the spectral data.” (domain-specific analysis library)",
+        "PyPI badges and install instructions: “pip install astro-elisa” (Python package intended to be imported/used in environments)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:51:50Z"
+    }
+  }
+}

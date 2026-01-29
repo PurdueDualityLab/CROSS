@@ -1,0 +1,70 @@
+{
+  "parser": "github",
+  "uid": "github/PaulHancock/Aegean",
+  "url": "https://github.com/PaulHancock/Aegean",
+  "data": {
+    "doi": [
+      "http://adsabs.harvard.edu/abs/2012MNRAS.422.1812H",
+      "http://adsabs.harvard.edu/abs/2018PASA...35...11H",
+      "https://ui.adsabs.harvard.edu/abs/2012ascl.soft12009H/abstract"
+    ],
+    "title": "Aegean: Compact source finding in radio images",
+    "url": "https://github.com/PaulHancock/Aegean",
+    "name": "Aegean",
+    "full_name": "PaulHancock/Aegean",
+    "html_url": "https://github.com/PaulHancock/Aegean",
+    "description": "The Aegean source finding program and associated tools",
+    "created_at": "2014-07-21T04:34:04Z",
+    "updated_at": "2022-06-08T12:57:59Z",
+    "clone_url": "https://github.com/PaulHancock/Aegean.git",
+    "homepage": "http://aegeantools.rtfd.io/",
+    "size": 7314,
+    "stargazers_count": 43,
+    "watchers_count": 43,
+    "language": "Python",
+    "open_issues_count": 15,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/PaulHancock",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8219382?v=4",
+      "login": "PaulHancock",
+      "type": "User"
+    },
+    "topics": [
+      "astronomy-library",
+      "source-finding",
+      "python",
+      "cataloguer"
+    ],
+    "timestamp": "2022-07-17 16:31:16.059977",
+    "avatar": "https://avatars.githubusercontent.com/u/8219382?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"Or you can clone or download the repository and then use `pip install .`\"",
+        "\"AegeanTools software package\" and list of programs like `aegean` described as \"The Aegean source finding program. All your radio astronomy source finding needs in one spiffy program.\" (end-user tools)",
+        "\"If you use Aegean or any of the AegeanTools for your research please give credit by citing\" followed by astronomy papers, indicating direct use in research analysis."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T19:48:00Z"
+    }
+  }
+}

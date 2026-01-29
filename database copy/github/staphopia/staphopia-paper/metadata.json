@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/staphopia/staphopia-paper",
+  "url": "https://github.com/staphopia/staphopia-paper",
+  "data": {
+    "timestamp": "2020-12-27 00:31:42.102069",
+    "name": "staphopia-paper",
+    "url": "https://api.github.com/repos/staphopia/staphopia-paper",
+    "full_name": "staphopia/staphopia-paper",
+    "html_url": "https://github.com/staphopia/staphopia-paper",
+    "private": false,
+    "description": "Code used for Staphopia manuscript",
+    "created_at": "2018-03-20T01:59:02Z",
+    "updated_at": "2018-06-22T20:43:12Z",
+    "clone_url": "https://github.com/staphopia/staphopia-paper.git",
+    "homepage": null,
+    "size": 32906,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": "TeX",
+    "open_issues_count": 0,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/staphopia",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/9426738?v=4",
+      "login": "staphopia",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "doi": "10.7287/PEERJ.PREPRINTS.26890V2",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"staphopia-paper\" and owner org \"staphopia\" indicate a specific research project/group identity rather than a general community or company.",
+        "\"Code used for Staphopia manuscript\" implies this repository contains the code used to generate results for a specific scientific paper, i.e., an analysis application.",
+        "The README presents the repo itself as the place to obtain the code (no mention of packages, containers, or binaries), implying distribution directly from the source repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T03:46:38Z"
+    }
+  }
+}

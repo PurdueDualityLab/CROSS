@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/trygvrad/DF-XRM_viz",
+  "url": "https://github.com/trygvrad/DF-XRM_viz",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.7792903",
+    "name": "DF-XRM_viz",
+    "url": "https://github.com/trygvrad/DF-XRM_viz",
+    "full_name": "trygvrad/DF-XRM_viz",
+    "html_url": "https://github.com/trygvrad/DF-XRM_viz",
+    "description": "Visualization of DF-XRM",
+    "created_at": "2021-07-06T11:12:48Z",
+    "updated_at": "2023-03-03T09:38:25Z",
+    "clone_url": "https://github.com/trygvrad/DF-XRM_viz.git",
+    "size": 7716,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "Jupyter Notebook",
+    "open_issues_count": 3,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/trygvrad",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2361452?v=4",
+      "login": "trygvrad",
+      "type": "User"
+    },
+    "timestamp": "2023-04-16 00:34:33.959539",
+    "avatar": "https://avatars.githubusercontent.com/u/2361452?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "\"Visualization of DF-XRM, made to be hosted at https://trygvrad-df-xrm-viz-df-xrm-vis-streamlit-91mzhk.streamlit.app/\"",
+        "\"You may run a standalone version by using streamlit locally by calling `streamlit run DF-XRM_vis_streamlit.py` or run the jupyter example.\"",
+        "\"Uploading a `.cif` file to `DF-XRM_vis` ... will plot the attenuation length with respect to the energy ... and plot the transmission with respect to the sample thickness\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T04:30:45Z"
+    }
+  }
+}

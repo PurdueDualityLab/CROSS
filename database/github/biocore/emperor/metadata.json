@@ -1,48 +1,267 @@
 {
-    "parser": "github",
-    "uid": "github/biocore/emperor",
+  "parser": "github",
+  "uid": "github/biocore/emperor",
+  "url": "https://github.com/biocore/emperor",
+  "data": {
     "url": "https://github.com/biocore/emperor",
-    "data": {
-        "url": "https://github.com/biocore/emperor",
-        "title": "Python3-emperor",
-        "description": "Emperor a tool for the analysis and visualization of large microbial ecology datasets",
-        "doi": "https://dx.doi.org/10.1186/2047-217X-2-16.",
-        "name": "emperor",
-        "full_name": "biocore/emperor",
-        "html_url": "https://github.com/biocore/emperor",
-        "created_at": "2013-01-22T18:27:18Z",
-        "updated_at": "2022-04-17T12:42:42Z",
-        "clone_url": "https://github.com/biocore/emperor.git",
-        "homepage": "http://biocore.github.io/emperor/",
-        "size": 30153,
-        "stargazers_count": 52,
-        "watchers_count": 52,
-        "language": "JavaScript",
-        "open_issues_count": 59,
-        "license": {
-            "key": "other",
-            "name": "Other",
-            "spdx_id": "NOASSERTION",
-            "url": null,
-            "node_id": "MDc6TGljZW5zZTA="
-        },
-        "subscribers_count": 12,
-        "owner": {
-            "html_url": "https://github.com/biocore",
-            "avatar_url": "https://avatars.githubusercontent.com/u/6241857?v=4",
-            "login": "biocore",
-            "type": "Organization"
-        },
-        "topics": [
-            "microbiome",
-            "visualization",
-            "emperor",
-            "python",
-            "bioinformatics",
-            "ordination",
-            "biplots"
-        ],
-        "timestamp": "2022-07-20 17:26:49.203559",
-        "avatar": "https://avatars.githubusercontent.com/u/6241857?v=4"
+    "title": "Python3-emperor",
+    "description": "Emperor a tool for the analysis and visualization of large microbial ecology datasets",
+    "doi": "https://dx.doi.org/10.1186/2047-217X-2-16.",
+    "name": "emperor",
+    "full_name": "biocore/emperor",
+    "html_url": "https://github.com/biocore/emperor",
+    "created_at": "2013-01-22T18:27:18Z",
+    "updated_at": "2022-04-17T12:42:42Z",
+    "clone_url": "https://github.com/biocore/emperor.git",
+    "homepage": "http://biocore.github.io/emperor/",
+    "size": 30153,
+    "stargazers_count": 52,
+    "watchers_count": 52,
+    "language": "JavaScript",
+    "open_issues_count": 59,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 12,
+    "owner": {
+      "html_url": "https://github.com/biocore",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6241857?v=4",
+      "login": "biocore",
+      "type": "Organization"
+    },
+    "topics": [
+      "microbiome",
+      "visualization",
+      "emperor",
+      "python",
+      "bioinformatics",
+      "ordination",
+      "biplots"
+    ],
+    "timestamp": "2022-07-20 17:26:49.203559",
+    "avatar": "https://avatars.githubusercontent.com/u/6241857?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"You can start using Emperor through [QIIME 2](https://qiime2.org)'s [interfaces](https://docs.qiime2.org/2021.2/interfaces/) (the command line or the graphical user interface), or alternatively using \"",
+        "\"Emperor is a next-generation tool for the analysis and visualization of large microbial ecology datasets.\"",
+        "\"You can start using Emperor through QIIME 2's interfaces (the command line or the graphical user interface), or alternatively using the Python interface (compatible with the Jupyter notebook...)\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T22:05:33Z"
     }
+  },
+  "openssf_scorecard": {
+    "data": {
+      "date": "2026-01-23T10:00:57-05:00",
+      "repo": {
+        "name": "github.com/biocore/emperor",
+        "commit": "ba319b96e4072837e2c76bf597b2bc7ff5eb7259"
+      },
+      "scorecard": {
+        "version": "v5.4.0",
+        "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+      },
+      "score": 4.2,
+      "checks": [
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no binaries found in the repo",
+          "name": "Binary-Artifacts",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#binary-artifacts",
+            "short": "Determines if the project has generated executable (binary) artifacts in the source repository."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "branch protection not enabled on development/release branches",
+          "name": "Branch-Protection",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#branch-protection",
+            "short": "Determines if the default and release branches are protected with GitHub's branch protection settings."
+          }
+        },
+        {
+          "details": null,
+          "score": 2,
+          "reason": "8 out of 29 merged PRs checked by a CI test -- score normalized to 2",
+          "name": "CI-Tests",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#ci-tests",
+            "short": "Determines if the project runs tests before pull requests are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no effort to earn an OpenSSF best practices badge detected",
+          "name": "CII-Best-Practices",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#cii-best-practices",
+            "short": "Determines if the project has an OpenSSF (formerly CII) Best Practices Badge."
+          }
+        },
+        {
+          "details": null,
+          "score": 6,
+          "reason": "Found 19/30 approved changesets -- score normalized to 6",
+          "name": "Code-Review",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#code-review",
+            "short": "Determines if the project requires human code review before pull requests (aka merge requests) are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "project has 26 contributing companies or organizations",
+          "name": "Contributors",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#contributors",
+            "short": "Determines if the project has a set of contributors from multiple organizations (e.g., companies)."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no dangerous workflow patterns detected",
+          "name": "Dangerous-Workflow",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dangerous-workflow",
+            "short": "Determines if the project's GitHub Action workflows avoid dangerous patterns."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no update tool detected",
+          "name": "Dependency-Update-Tool",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dependency-update-tool",
+            "short": "Determines if the project uses a dependency update tool."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "project is not fuzzed",
+          "name": "Fuzzing",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#fuzzing",
+            "short": "Determines if the project uses fuzzing."
+          }
+        },
+        {
+          "details": null,
+          "score": 9,
+          "reason": "license file detected",
+          "name": "License",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#license",
+            "short": "Determines if the project has defined a license."
+          }
+        },
+        {
+          "details": null,
+          "score": 5,
+          "reason": "6 commit(s) and 1 issue activity found in the last 90 days -- score normalized to 5",
+          "name": "Maintained",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#maintained",
+            "short": "Determines if the project is \"actively maintained\"."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "packaging workflow not detected",
+          "name": "Packaging",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#packaging",
+            "short": "Determines if the project is published as a package that others can easily download, install, easily update, and uninstall."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "dependency not pinned by hash detected -- score normalized to 0",
+          "name": "Pinned-Dependencies",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#pinned-dependencies",
+            "short": "Determines if the project has declared and pinned the dependencies of its build process."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "SAST tool is not run on all commits -- score normalized to 0",
+          "name": "SAST",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#sast",
+            "short": "Determines if the project uses static code analysis."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "security policy file not detected",
+          "name": "Security-Policy",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#security-policy",
+            "short": "Determines if the project has published a security policy."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no releases found",
+          "name": "Signed-Releases",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#signed-releases",
+            "short": "Determines if the project cryptographically signs release artifacts."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "detected GitHub workflow tokens with excessive permissions",
+          "name": "Token-Permissions",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#token-permissions",
+            "short": "Determines if the project's workflows follow the principle of least privilege."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "0 existing vulnerabilities detected",
+          "name": "Vulnerabilities",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#vulnerabilities",
+            "short": "Determines if the project has open, known unfixed vulnerabilities."
+          }
+        }
+      ],
+      "metadata": null
+    },
+    "timestamp_utc": "2026-01-23T15:01:19Z"
+  }
 }

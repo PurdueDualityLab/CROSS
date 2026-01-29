@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/mary77/scQcut",
+  "url": "https://github.com/mary77/scQcut",
+  "data": {
+    "timestamp": "2021-11-21 00:36:19.773460",
+    "name": "scQcut",
+    "url": "https://api.github.com/repos/mary77/scQcut",
+    "full_name": "mary77/scQcut",
+    "html_url": "https://github.com/mary77/scQcut",
+    "private": false,
+    "description": "A completely parameter-free method for graph-based single cell RNA-seq clustering",
+    "created_at": "2020-10-30T22:39:34Z",
+    "updated_at": "2021-07-19T01:22:10Z",
+    "clone_url": "https://github.com/mary77/scQcut.git",
+    "homepage": null,
+    "size": 8,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Python",
+    "open_issues_count": 0,
+    "license": null,
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/mary77",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12682250?v=4",
+      "login": "mary77",
+      "type": "User"
+    },
+    "topics": []
+  },
+  "doi": "10.1101/2021.07.15.452521",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "Code is used as an end-user analysis tool: example usage `myObj = scQcut()` then `clust, net, k, clusts, dqn, range1 = myObj.getAutoAsymGeomComm(data, metric)` to process data.",
+        "Input description is domain-specific research data: `% data: normalized single cell data (rows are cells and columns are genes)` indicating direct use in scientific analysis.",
+        "No mention of packages, releases, or registries; only direct invocation of functions, implying distribution via the source repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T01:13:19Z"
+    }
+  }
+}

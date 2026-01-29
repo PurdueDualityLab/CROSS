@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/ComputationalRegulatoryGenomicsICL/TFBS",
+  "url": "https://github.com/ComputationalRegulatoryGenomicsICL/TFBS",
+  "data": {
+    "url": "https://github.com/ComputationalRegulatoryGenomicsICL/TFBS",
+    "title": "Libtfbs-perl",
+    "description": "TFBS perl module",
+    "doi": "https://github.com/ComputationalRegulatoryGenomicsICL/TFBS.git",
+    "name": "TFBS",
+    "full_name": "ComputationalRegulatoryGenomicsICL/TFBS",
+    "html_url": "https://github.com/ComputationalRegulatoryGenomicsICL/TFBS",
+    "created_at": "2013-12-12T14:59:52Z",
+    "updated_at": "2022-03-15T08:51:56Z",
+    "clone_url": "https://github.com/ComputationalRegulatoryGenomicsICL/TFBS.git",
+    "size": 601,
+    "stargazers_count": 5,
+    "watchers_count": 5,
+    "language": "Perl",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 6,
+    "owner": {
+      "html_url": "https://github.com/ComputationalRegulatoryGenomicsICL",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1623799?v=4",
+      "login": "ComputationalRegulatoryGenomicsICL",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-20 17:29:41.667489",
+    "avatar": "https://avatars.githubusercontent.com/u/1623799?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"TFBS is a computational framework for transcription factor binding site analysis. It can also be used for analysis involving other DNA paterns representable by matrices, e.g. splice sites.\"",
+        "\"The TFBS modules are distributed as a tar file in standard perl CPAN distribution form.\"",
+        "\"use TFBS::PatternGen::Gibbs;\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T16:55:51Z"
+    }
+  }
+}

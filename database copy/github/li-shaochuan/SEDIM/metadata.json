@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/li-shaochuan/SEDIM",
+  "url": "https://github.com/li-shaochuan/SEDIM",
+  "data": {
+    "timestamp": "2022-01-30 00:37:12.937833",
+    "name": "SEDIM",
+    "url": "https://api.github.com/repos/li-shaochuan/SEDIM",
+    "full_name": "li-shaochuan/SEDIM",
+    "html_url": "https://github.com/li-shaochuan/SEDIM",
+    "private": false,
+    "description": null,
+    "created_at": "2021-04-21T11:08:00Z",
+    "updated_at": "2021-10-26T11:00:19Z",
+    "clone_url": "https://github.com/li-shaochuan/SEDIM.git",
+    "homepage": null,
+    "size": 28,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Python",
+    "open_issues_count": 0,
+    "license": null,
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/li-shaochuan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52021016?v=4",
+      "login": "li-shaochuan",
+      "type": "User"
+    },
+    "topics": []
+  },
+  "doi": "10.1093/BIB/BBAB368",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "“By default, we provide the origin code. SEDIM is written in python 3.7, and tensorflow-gpu==1.14.” (implies users run the code as an application for analyses)",
+        "“Surrogate-assisted Evolutionary Deep Imputation Model (SEDIM) is proposed to automatically design the architectures of deep neural networks for imputing gene expression levels in scRNA-seq data…” (core analysis/imputation tool for research data)",
+        "README provides only conceptual description and environment info, with no mention of package managers, containers, or binaries, implying distribution via the source repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:54:20Z"
+    }
+  }
+}

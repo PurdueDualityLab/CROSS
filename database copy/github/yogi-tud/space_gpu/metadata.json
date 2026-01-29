@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/yogi-tud/space_gpu",
+  "url": "https://github.com/yogi-tud/space_gpu",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.6884000",
+    "name": "space_gpu",
+    "url": "https://github.com/yogi-tud/space_gpu",
+    "full_name": "yogi-tud/space_gpu",
+    "html_url": "https://github.com/yogi-tud/space_gpu",
+    "created_at": "2022-06-28T08:50:19Z",
+    "updated_at": "2022-06-28T08:59:38Z",
+    "clone_url": "https://github.com/yogi-tud/space_gpu.git",
+    "size": 3473,
+    "language": "Cuda",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/yogi-tud",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6371841?v=4",
+      "login": "yogi-tud",
+      "type": "User"
+    },
+    "timestamp": "2022-07-24 00:43:14.261515",
+    "avatar": "https://avatars.githubusercontent.com/u/6371841?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"The binary takes a number of different runtime parameters that control the experiment.\"",
+        "\"`SPACE` is a GPU centric C++ software for compaction experiments. It consists of data generators and a flexible experiment framework. Addtionally, scripts to visualize experiments are provided.\"",
+        "\"The binary takes a number of different runtime parameters that control the experiment.\" and example command `./gpu_compressstore2 ...` indicating end-user execution of a binary for experiments."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:58:59Z"
+    }
+  }
+}

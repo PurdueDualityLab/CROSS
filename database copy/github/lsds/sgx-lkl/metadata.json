@@ -1,0 +1,68 @@
+{
+  "parser": "github",
+  "uid": "github/lsds/sgx-lkl",
+  "url": "https://github.com/lsds/sgx-lkl",
+  "data": {
+    "timestamp": "2022-05-12 03:43:46.361001",
+    "name": "sgx-lkl",
+    "url": "https://api.github.com/repos/lsds/sgx-lkl",
+    "full_name": "lsds/sgx-lkl",
+    "html_url": "https://github.com/lsds/sgx-lkl",
+    "private": false,
+    "description": "SGX-LKL Library OS for running Linux applications inside of Intel SGX enclaves",
+    "created_at": "2017-12-06T15:22:02Z",
+    "updated_at": "2022-05-09T01:52:56Z",
+    "clone_url": "https://github.com/lsds/sgx-lkl.git",
+    "homepage": "",
+    "size": 38351,
+    "stargazers_count": 222,
+    "watchers_count": 222,
+    "language": "C",
+    "open_issues_count": 172,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 25,
+    "owner": {
+      "html_url": "https://github.com/lsds",
+      "avatar_url": "https://avatars.githubusercontent.com/u/989082?v=4",
+      "login": "lsds",
+      "type": "Organization"
+    },
+    "topics": [
+      "sgx",
+      "trusted-execution",
+      "linux",
+      "java",
+      "jvm",
+      "enclave",
+      "javascipt"
+    ]
+  },
+  "contact": "Christian Priebe <christian.priebe13@imperial.ac.uk>",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Infrastructure",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"[![Build Status](https://dev.azure.com/sgx-lkl/sgx-lkl/_apis/build/status/sgx-lkl?branchName=oe_port)](https://dev.azure.com/sgx-lkl/sgx-lkl/_build/latest?definitionId=1&branchName=oe_port)\"",
+        "\"The SGX-LKL project is designed to run existing unmodified Linux binaries inside of Intel SGX enclaves.\"",
+        "\"SGX-LKL-OE is distributed as Debian package. This package is alpha quality and not meant for production.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:57:49Z"
+    }
+  }
+}

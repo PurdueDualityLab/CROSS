@@ -1,0 +1,53 @@
+{
+  "parser": "github",
+  "uid": "github/astro-informatics/RequiSim",
+  "url": "https://github.com/astro-informatics/RequiSim",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2018PhRvD..98d3532T",
+      "https://ui.adsabs.harvard.edu/abs/2018ascl.soft09016T/abstract"
+    ],
+    "title": "RequiSim: Variance weighted overlap calculator",
+    "url": "https://github.com/astro-informatics/RequiSim",
+    "name": "RequiSim",
+    "full_name": "astro-informatics/RequiSim",
+    "html_url": "https://github.com/astro-informatics/RequiSim",
+    "created_at": "2018-04-05T11:37:02Z",
+    "updated_at": "2018-04-17T08:07:28Z",
+    "clone_url": "https://github.com/astro-informatics/RequiSim.git",
+    "size": 3418,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Python",
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/astro-informatics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10872187?v=4",
+      "login": "astro-informatics",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-17 17:17:55.588453",
+    "avatar": "https://avatars.githubusercontent.com/u/10872187?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"You can import the functions defined in `RequiSim.py` as needed. A demo script showing how to use these is provided.\" (indicates it is imported as a module, i.e., a dependency)",
+        "\"purpose: Computes the Variance Weighted Overlap which is a measure of the bias on the lensing signal from power spectrum modelling bias.\" (domain-specific scientific computation, directly used in analysis)",
+        "\"The knowledge matrix must be given as a 2D numpy array. This can be loaded with `np.loadtxt()` function or read from an interactive Python session or script.\" (implies use directly from the source repository, no mention of package registries or binaries)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T21:25:53Z"
+    }
+  }
+}

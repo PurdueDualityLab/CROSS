@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/ropensci/cld3",
+  "url": "https://github.com/ropensci/cld3",
+  "data": {
+    "timestamp": "2022-01-27 10:11:35.196820",
+    "name": "cld3",
+    "url": "https://api.github.com/repos/ropensci/cld3",
+    "full_name": "ropensci/cld3",
+    "html_url": "https://github.com/ropensci/cld3",
+    "private": false,
+    "description": "Bindings to Google's Compact Language Detector 3 ",
+    "created_at": "2017-06-05T20:36:30Z",
+    "updated_at": "2021-11-25T09:54:02Z",
+    "clone_url": "https://github.com/ropensci/cld3.git",
+    "homepage": "https://docs.ropensci.org/cld3",
+    "size": 692,
+    "stargazers_count": 37,
+    "watchers_count": 37,
+    "language": "C++",
+    "open_issues_count": 4,
+    "license": null,
+    "owner": {
+      "html_url": "https://github.com/ropensci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1200269?v=4",
+      "login": "ropensci",
+      "type": "Organization"
+    },
+    "topics": [
+      "cld",
+      "cld3",
+      "language-detection",
+      "language-detector",
+      "r",
+      "rstats",
+      "r-package",
+      "literature"
+    ]
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"cld3\")\"",
+        "\"R Wrapper for Google's Compact Language Detector 3\" (an R package wrapping a library, intended to be imported via `library(cld3)`).",
+        "\"Google's Compact Language Detector 3 is a neural network model for language identification\" and examples show `detect_language()` used directly for analysis, indicating it directly performs research-relevant text/language analysis."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T02:26:12Z"
+    }
+  }
+}

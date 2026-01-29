@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/spacetelescope/astronify",
+  "url": "https://github.com/spacetelescope/astronify",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2022NatAs...6...22H",
+      "https://ui.adsabs.harvard.edu/abs/2024ascl.soft08005B/abstract"
+    ],
+    "title": "Astronify: Astronomical data sonification",
+    "url": "https://github.com/spacetelescope/astronify",
+    "name": "astronify",
+    "full_name": "spacetelescope/astronify",
+    "html_url": "https://github.com/spacetelescope/astronify",
+    "description": "Astronomical data sonification.",
+    "created_at": "2020-03-23T16:44:56Z",
+    "updated_at": "2024-07-14T15:50:44Z",
+    "clone_url": "https://github.com/spacetelescope/astronify.git",
+    "homepage": "https://astronify.readthedocs.io",
+    "size": 5061,
+    "stargazers_count": 72,
+    "watchers_count": 72,
+    "language": "Python",
+    "open_issues_count": 34,
+    "subscribers_count": 10,
+    "owner": {
+      "html_url": "https://github.com/spacetelescope",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2751928?v=4",
+      "login": "spacetelescope",
+      "type": "Organization"
+    },
+    "topics": [
+      "astronomy",
+      "sonification"
+    ],
+    "timestamp": "2024-09-08 00:43:48.366025",
+    "avatar": "https://avatars.githubusercontent.com/u/2751928?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "\"Sonification of astronomical data.\" and \"Tools for sonifying astronomical data.\" indicate it is an application users run for a research task (sonifying data).",
+        "The repository owner is the organization \"spacetelescope\", a formal institutional account (Space Telescope Science Institute).",
+        "PyPI badge and link: \"https://badge.fury.io/py/astronify.svg\" with alt text \"PyPi Status\", and install instructions are hosted in docs, indicating distribution via the PyPI package registry."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T03:44:08Z"
+    }
+  }
+}

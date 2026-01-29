@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/molscat/molscat",
+  "url": "https://github.com/molscat/molscat",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2019CoPhC.241....9H",
+      "https://ui.adsabs.harvard.edu/abs/2020ascl.soft10001H/abstract"
+    ],
+    "title": "MBF: MOLSCAT 2020, BOUND, and FIELD for atomic and molecular collisions",
+    "url": "https://github.com/molscat/molscat",
+    "name": "molscat",
+    "full_name": "molscat/molscat",
+    "html_url": "https://github.com/molscat/molscat",
+    "created_at": "2018-11-07T10:53:00Z",
+    "updated_at": "2022-07-08T08:43:21Z",
+    "clone_url": "https://github.com/molscat/molscat.git",
+    "size": 12747,
+    "stargazers_count": 22,
+    "watchers_count": 22,
+    "language": "Fortran",
+    "open_issues_count": 1,
+    "subscribers_count": 9,
+    "owner": {
+      "html_url": "https://github.com/molscat",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44835777?v=4",
+      "login": "molscat",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-17 17:13:44.809999",
+    "avatar": "https://avatars.githubusercontent.com/u/44835777?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"GNUmakefile first needs to be adapted for your own working environment.  MOLSCAT, BOUND and FIELD executables make use of BLAS and LAPACK library routines.  If optimised versions of these library rout\"",
+        "\"MOLSCAT is a general-purpose package for performing non-reactive quantum scattering calculations for atomic and molecular collisions using coupled-channel methods.\"",
+        "\"This release contains the following files: 1. Fortran source code files... 2. A makefile (GNUmakefile) which may be used to make the MOLSCAT, BOUND or FIELD executables...\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:24:57Z"
+    }
+  }
+}

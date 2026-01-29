@@ -1,0 +1,65 @@
+{
+  "parser": "github",
+  "uid": "github/EcoJulia/Microbiome.jl",
+  "url": "https://github.com/EcoJulia/Microbiome.jl",
+  "data": {
+    "timestamp": "2021-11-21 00:36:10.664735",
+    "name": "Microbiome.jl",
+    "url": "https://api.github.com/repos/EcoJulia/Microbiome.jl",
+    "full_name": "EcoJulia/Microbiome.jl",
+    "html_url": "https://github.com/EcoJulia/Microbiome.jl",
+    "private": false,
+    "description": "For analysis of microbiome and microbial community data",
+    "created_at": "2017-08-24T21:44:00Z",
+    "updated_at": "2021-11-18T10:17:11Z",
+    "clone_url": "https://github.com/EcoJulia/Microbiome.jl.git",
+    "homepage": "",
+    "size": 2820,
+    "stargazers_count": 34,
+    "watchers_count": 34,
+    "language": "Julia",
+    "open_issues_count": 3,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 8,
+    "owner": {
+      "html_url": "https://github.com/EcoJulia",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22506369?v=4",
+      "login": "EcoJulia",
+      "type": "Organization"
+    },
+    "topics": [
+      "microbiome",
+      "julia-language",
+      "ecology",
+      "biology"
+    ]
+  },
+  "doi": "https://doi.org/10.5281/zenodo.5682344",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "Julia General registry",
+      "evidence": [
+        "\"Microbiome.jl is a package for manipulating and analyzing microbiome and microbial community data.\"",
+        "\"Install `Microbiome.jl` from the Julia REPL: julia> using Pkg; julia> pkg\"add Microbiome\"\"",
+        "Badges and text indicate it is an EcoJulia project (\"EcoJulia maintainer\" badge, companion packages in the EcoJulia ecosystem), suggesting community ecosystem governance rather than a single lab."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T17:06:12Z"
+    }
+  }
+}

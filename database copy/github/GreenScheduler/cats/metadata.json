@@ -1,0 +1,71 @@
+{
+  "parser": "github",
+  "uid": "github/GreenScheduler/cats",
+  "url": "https://github.com/GreenScheduler/cats",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.15753041",
+    "name": "cats",
+    "url": "https://github.com/GreenScheduler/cats",
+    "full_name": "GreenScheduler/cats",
+    "html_url": "https://github.com/GreenScheduler/cats",
+    "description": "CATS: the Climate-Aware Task Scheduler 🐈 🐈‍⬛",
+    "created_at": "2023-05-04T09:16:56Z",
+    "updated_at": "2025-07-07T15:40:09Z",
+    "clone_url": "https://github.com/GreenScheduler/cats.git",
+    "homepage": "https://cats.readthedocs.io/",
+    "size": 9458,
+    "stargazers_count": 68,
+    "watchers_count": 68,
+    "language": "Python",
+    "open_issues_count": 28,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 6,
+    "owner": {
+      "html_url": "https://github.com/GreenScheduler",
+      "avatar_url": "https://avatars.githubusercontent.com/u/132558689?v=4",
+      "login": "GreenScheduler",
+      "type": "Organization"
+    },
+    "topics": [
+      "climate",
+      "computing",
+      "scheduling",
+      "carbon",
+      "carbon-footprint",
+      "electricity",
+      "electricity-consumption",
+      "energy",
+      "energy-consumption",
+      "job-scheduler"
+    ],
+    "timestamp": "2025-07-13 01:00:42.986424",
+    "avatar": "https://avatars.githubusercontent.com/u/132558689?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Vendor or commercial entity",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install climate-aware-task-scheduler\"",
+        "\"The Climate-Aware Task Scheduler is a lightweight Python package designed to schedule tasks based on the estimated carbon intensity of the electricity grid at any given moment.\"",
+        "\"Install via `pip` as follows: `pip install climate-aware-task-scheduler`\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T17:42:50Z"
+    }
+  }
+}

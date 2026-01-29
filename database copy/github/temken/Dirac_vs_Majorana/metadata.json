@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/temken/Dirac_vs_Majorana",
+  "url": "https://github.com/temken/Dirac_vs_Majorana",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2020JCAP...06..056C",
+      "https://ui.adsabs.harvard.edu/abs/2021ascl.soft12012E/abstract"
+    ],
+    "title": "DiracVsMajorana: Statistical discrimination of sub-GeV Majorana and Dirac dark matter",
+    "url": "https://github.com/temken/Dirac_vs_Majorana",
+    "name": "Dirac_vs_Majorana",
+    "full_name": "temken/Dirac_vs_Majorana",
+    "html_url": "https://github.com/temken/Dirac_vs_Majorana",
+    "description": "Statistical discrimination of sub-GeV Majorana and Dirac dark matter at direct detection experiments.",
+    "created_at": "2020-03-06T14:50:47Z",
+    "updated_at": "2022-01-05T09:26:58Z",
+    "clone_url": "https://github.com/temken/Dirac_vs_Majorana.git",
+    "size": 45,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "C++",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/temken",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29034913?v=4",
+      "login": "temken",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 16:49:45.339880",
+    "avatar": "https://avatars.githubusercontent.com/u/29034913?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Vendor or commercial entity",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This code determines the statistical significance with which a successful electron scattering experiment could reject the Majorana hypothesis...\"",
+        "\"*/bin/*: Contains the executable.\" and \"The code is compiled by running `make` from the root directory in the terminal to compile DiracVsMajorana.\"",
+        "\"The author of this code is Timon Emken.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T04:02:19Z"
+    }
+  }
+}

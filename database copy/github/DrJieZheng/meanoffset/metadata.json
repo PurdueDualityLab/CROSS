@@ -1,0 +1,51 @@
+{
+  "parser": "github",
+  "uid": "github/DrJieZheng/meanoffset",
+  "url": "https://github.com/DrJieZheng/meanoffset",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2024NewA..11002224Z",
+      "https://ui.adsabs.harvard.edu/abs/2024ascl.soft04013Z/abstract"
+    ],
+    "title": "Meanoffset: Photometric image alignment with row and column means",
+    "url": "https://github.com/DrJieZheng/meanoffset",
+    "name": "meanoffset",
+    "full_name": "DrJieZheng/meanoffset",
+    "html_url": "https://github.com/DrJieZheng/meanoffset",
+    "created_at": "2024-04-29T17:21:03Z",
+    "updated_at": "2024-04-29T17:47:15Z",
+    "clone_url": "https://github.com/DrJieZheng/meanoffset.git",
+    "size": 6,
+    "language": "Python",
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/DrJieZheng",
+      "avatar_url": "https://avatars.githubusercontent.com/u/168158969?v=4",
+      "login": "DrJieZheng",
+      "type": "User"
+    },
+    "timestamp": "2024-05-05 00:36:22.882268",
+    "avatar": "https://avatars.githubusercontent.com/u/168158969?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "By Dr Jie Zheng, Dr Lin-Qiao Jiang, Mr Chao-Yue Li, and Dr Jian-Feng Tian",
+        "Installation: `pip3 install qmatch`",
+        "Usage: `import qmatch` (demonstrates it is a Python package imported as a dependency for photometric image alignment, a research analysis task)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T17:03:18Z"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/ntlucia/BrownDwarf-SpectralIndices",
+  "url": "https://github.com/ntlucia/BrownDwarf-SpectralIndices",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2024arXiv240402140O",
+      "https://ui.adsabs.harvard.edu/abs/2024ascl.soft05013O/abstract"
+    ],
+    "title": "LTdwarfIndices: Variable brown dwarf identifier",
+    "url": "https://github.com/ntlucia/BrownDwarf-SpectralIndices",
+    "name": "BrownDwarf-SpectralIndices",
+    "full_name": "ntlucia/BrownDwarf-SpectralIndices",
+    "html_url": "https://github.com/ntlucia/BrownDwarf-SpectralIndices",
+    "description": "Method to determine if a brown dwarf is a candidate to be a photometric variable or not, by means of the study of spectral indices.",
+    "created_at": "2023-06-13T20:22:09Z",
+    "updated_at": "2023-06-15T19:47:10Z",
+    "clone_url": "https://github.com/ntlucia/BrownDwarf-SpectralIndices.git",
+    "size": 32,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Python",
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/ntlucia",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26672990?v=4",
+      "login": "ntlucia",
+      "type": "User"
+    },
+    "timestamp": "2024-06-02 00:37:53.336879",
+    "avatar": "https://avatars.githubusercontent.com/u/26672990?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Method to determine if ONE brown dwarf is a candidate to be a photometric variable or non-variable, by means of the study of spectral indices.\"",
+        "\"We have two files: - To analyze a single Brown Dwarf ... - To analyse a set sample indices of many Brown Dwarfs ...\"",
+        "\"Run code with: python LTdwarfIndices.py\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T01:40:31Z"
+    }
+  }
+}

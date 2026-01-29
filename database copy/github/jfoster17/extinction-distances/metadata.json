@@ -1,0 +1,53 @@
+{
+  "parser": "github",
+  "uid": "github/jfoster17/extinction-distances",
+  "url": "https://github.com/jfoster17/extinction-distances",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2012ApJ...751..157F",
+      "https://ui.adsabs.harvard.edu/abs/2017ascl.soft08025F/abstract"
+    ],
+    "title": "extinction-distances: Estimating distances to dark clouds",
+    "url": "https://github.com/jfoster17/extinction-distances",
+    "name": "extinction-distances",
+    "full_name": "jfoster17/extinction-distances",
+    "html_url": "https://github.com/jfoster17/extinction-distances",
+    "description": "Code to implement the blue star number count method from Foster et al. (2012) http://adsabs.harvard.edu/abs/2012ApJ...751..157F",
+    "created_at": "2013-02-19T18:26:59Z",
+    "updated_at": "2015-06-02T18:30:12Z",
+    "clone_url": "https://github.com/jfoster17/extinction-distances.git",
+    "size": 65636,
+    "language": "Python",
+    "open_issues_count": 6,
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/jfoster17",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3639698?v=4",
+      "login": "jfoster17",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:20:00.809862",
+    "avatar": "https://avatars.githubusercontent.com/u/3639698?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"to download and install my fork of the astroquery package from\"",
+        "\"Code to implement the blue star number count method from Foster et al. (2012)\"",
+        "\"Import the package\n\n    from extinction_distance.distance import BaseDistObj\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:33:27Z"
+    }
+  }
+}

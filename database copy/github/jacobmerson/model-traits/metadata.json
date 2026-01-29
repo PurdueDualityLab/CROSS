@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/jacobmerson/model-traits",
+  "url": "https://github.com/jacobmerson/model-traits",
+  "data": {
+    "timestamp": "2021-08-29 00:33:32.519028",
+    "name": "model-traits",
+    "url": "https://api.github.com/repos/jacobmerson/model-traits",
+    "full_name": "jacobmerson/model-traits",
+    "html_url": "https://github.com/jacobmerson/model-traits",
+    "private": false,
+    "description": "simple library for dealing with simulation boundary conditions",
+    "created_at": "2020-12-23T08:12:48Z",
+    "updated_at": "2021-08-09T08:06:34Z",
+    "clone_url": "https://github.com/jacobmerson/model-traits.git",
+    "homepage": null,
+    "size": 580,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "C++",
+    "open_issues_count": 3,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/jacobmerson",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2366140?v=4",
+      "login": "jacobmerson",
+      "type": "User"
+    },
+    "topics": []
+  },
+  "doi": "https://doi.org/10.5281/zenodo.5247209",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "Spack",
+      "evidence": [
+        "\"This is a simple library for dealing with applying simulation information onto a model very flexible way.\"",
+        "\"The easiest way to use `model-traits` in a downstream CMake library is ... you can link against the `ModelTraits::ModelTraits` target for the core library, and the `ModelTraits::IO` library to use the build in IO Backends.\"",
+        "\"Automatic: install `model-traits` with [spack](https://spack.readthedocs.io/en/latest/). Once spack is installed just do: `spack install model-traits`\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:29:15Z"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/cinemascience/cinema_snap",
+  "url": "https://github.com/cinemascience/cinema_snap",
+  "data": {
+    "timestamp": "2022-04-17 00:56:20.594608",
+    "name": "cinema_snap",
+    "url": "https://api.github.com/repos/cinemascience/cinema_snap",
+    "full_name": "cinemascience/cinema_snap",
+    "html_url": "https://github.com/cinemascience/cinema_snap",
+    "private": false,
+    "description": "React-based web viewer",
+    "created_at": "2020-09-22T22:32:06Z",
+    "updated_at": "2021-08-19T01:05:16Z",
+    "clone_url": "https://github.com/cinemascience/cinema_snap.git",
+    "homepage": null,
+    "size": 395,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": "JavaScript",
+    "open_issues_count": 0,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 14,
+    "owner": {
+      "html_url": "https://github.com/cinemascience",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36246440?v=4",
+      "login": "cinemascience",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "doi": "10.1063/5.0057878",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Unknown",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"### Making a Progressive Web App\"",
+        "\"This program was produced under U.S. Government contract 89233218CNA000001 for Los Alamos National Laboratory (LANL), which is operated by Triad National Security, LLC for the U.S. Department of Energy/National Nuclear Security Administration.\"",
+        "\"This project was bootstrapped with Create React App\" and the presence of scripts like `npm start` and `npm run build` indicate it is an end-user web application rather than a library."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T22:56:49Z"
+    }
+  }
+}

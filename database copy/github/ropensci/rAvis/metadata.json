@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/ropensci/rAvis",
+  "url": "https://github.com/ropensci/rAvis",
+  "data": {
+    "timestamp": "2022-01-27 10:11:35.095995",
+    "name": "rAvis",
+    "url": "https://api.github.com/repos/ropensci/rAvis",
+    "full_name": "ropensci/rAvis",
+    "html_url": "https://github.com/ropensci/rAvis",
+    "private": false,
+    "description": "rAvis: an R-package to download the information stored in “proyectoavis”, a citizen science bird project. ",
+    "created_at": "2013-11-04T14:51:32Z",
+    "updated_at": "2020-09-30T16:14:05Z",
+    "clone_url": "https://github.com/ropensci/rAvis.git",
+    "homepage": "https://docs.ropensci.org/rAvis",
+    "size": 10666,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "R",
+    "open_issues_count": 1,
+    "license": null,
+    "owner": {
+      "html_url": "https://github.com/ropensci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1200269?v=4",
+      "login": "ropensci",
+      "type": "Organization"
+    },
+    "topics": [
+      "r",
+      "rstats",
+      "avis",
+      "citizen-science",
+      "bird",
+      "birds",
+      "proyectoavis",
+      "r-package",
+      "data-access"
+    ]
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Unknown",
+      "research_role": "Unknown",
+      "distribution_pathway": "Unknown",
+      "distribution_details": null,
+      "evidence": [
+        "Owner organization is listed as 'ropensci', which is an open-source community for R packages.",
+        "README only states: 'This repository has been archived. The former README is now in README-NOT.md.', providing no functional description.",
+        "No installation or usage instructions are present in the current README, so distribution channel and role in research cannot be determined."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T02:34:25Z"
+    }
+  }
+}

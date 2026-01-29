@@ -1,0 +1,70 @@
+{
+  "parser": "github",
+  "uid": "github/samtools/bcftools",
+  "url": "https://github.com/samtools/bcftools",
+  "data": {
+    "title": "BCFtools",
+    "url": "https://github.com/samtools/bcftools",
+    "credit": [
+      "Heng Li",
+      "John Marshall",
+      "Petr Danecek",
+      "Shane McCarthy"
+    ],
+    "tags": [
+      "high-throughput-sequencing",
+      "utilities",
+      "wgs-analysis"
+    ],
+    "description": "This is the official development repository for BCFtools. See installation instructions and other documentation here http://samtools.github.io/bcftools/howtos/install.html",
+    "name": "bcftools",
+    "full_name": "samtools/bcftools",
+    "html_url": "https://github.com/samtools/bcftools",
+    "created_at": "2013-07-12T12:55:22Z",
+    "updated_at": "2022-07-15T13:11:42Z",
+    "clone_url": "https://github.com/samtools/bcftools.git",
+    "homepage": "http://samtools.github.io/bcftools/",
+    "size": 18234,
+    "stargazers_count": 469,
+    "watchers_count": 469,
+    "language": "C",
+    "open_issues_count": 228,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 47,
+    "owner": {
+      "html_url": "https://github.com/samtools",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1518450?v=4",
+      "login": "samtools",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-18 17:43:30.654661",
+    "avatar": "https://avatars.githubusercontent.com/u/1518450?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"[![Build Status](https://api.cirrus-ci.com/github/samtools/bcftools.svg?branch=develop)](https://api.cirrus-ci.com/github/samtools/bcftools)\"",
+        "\"This is the official development repository for BCFtools. It contains all the vcf* commands...\" (indicates a user-facing tool suite rather than a library)",
+        "Quoted abstract: \"SAMtools and BCFtools are widely used programs for processing and analysing high-throughput sequencing data.\" (direct analysis of scientific data)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T03:17:08Z"
+    }
+  }
+}

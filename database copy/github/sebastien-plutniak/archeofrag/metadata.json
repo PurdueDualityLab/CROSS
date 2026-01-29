@@ -1,0 +1,64 @@
+{
+  "parser": "github",
+  "uid": "github/sebastien-plutniak/archeofrag",
+  "url": "https://github.com/sebastien-plutniak/archeofrag",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.6912425",
+    "name": "archeofrag",
+    "url": "https://github.com/sebastien-plutniak/archeofrag",
+    "full_name": "sebastien-plutniak/archeofrag",
+    "html_url": "https://github.com/sebastien-plutniak/archeofrag",
+    "description": "R package for Refitting and Spatial Analysis in Archaeology",
+    "created_at": "2020-09-30T17:12:40Z",
+    "updated_at": "2022-07-27T09:15:02Z",
+    "clone_url": "https://github.com/sebastien-plutniak/archeofrag.git",
+    "size": 1947,
+    "stargazers_count": 11,
+    "watchers_count": 11,
+    "language": "R",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/sebastien-plutniak",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53480606?v=4",
+      "login": "sebastien-plutniak",
+      "type": "User"
+    },
+    "topics": [
+      "archaeology",
+      "archaeological-science",
+      "archaeological-objects",
+      "network-analysis",
+      "fragmentation"
+    ],
+    "timestamp": "2022-07-31 00:40:40.958107",
+    "avatar": "https://avatars.githubusercontent.com/u/53480606?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Vendor or commercial entity",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"archeofrag\")\"",
+        "\"An R package for refitting and spatial analysis in archeology.\"",
+        "\"The package can be installed from CRAN with: install.packages(\"archeofrag\")\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T03:21:54Z"
+    }
+  }
+}

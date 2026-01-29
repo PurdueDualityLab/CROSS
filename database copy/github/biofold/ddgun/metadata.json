@@ -1,0 +1,51 @@
+{
+  "parser": "github",
+  "uid": "github/biofold/ddgun",
+  "url": "https://github.com/biofold/ddgun",
+  "data": {
+    "doi": "10.1093/nar/gkac325",
+    "name": "ddgun",
+    "url": "https://github.com/biofold/ddgun",
+    "full_name": "biofold/ddgun",
+    "html_url": "https://github.com/biofold/ddgun",
+    "description": "predict stability change upon mutation",
+    "created_at": "2021-03-14T04:22:37Z",
+    "updated_at": "2023-01-11T02:53:56Z",
+    "clone_url": "https://github.com/biofold/ddgun.git",
+    "size": 4700,
+    "stargazers_count": 15,
+    "watchers_count": 15,
+    "language": "Python",
+    "open_issues_count": 6,
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/biofold",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15142086?v=4",
+      "login": "biofold",
+      "type": "Organization"
+    },
+    "timestamp": "2023-04-23 00:39:36.980540",
+    "avatar": "https://avatars.githubusercontent.com/u/15142086?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"- [models.tar.gz](https://zenodo.org/record/4613881/files/models.tar.gz?download=1): Models of protein mutants used for the predictions.\"",
+        "\"DDGun is an untrained method for predicting the stability change upon mutation\" (domain-specific prediction tool, used directly by researchers).",
+        "Installation and use are via cloning and running scripts: \"git clone https://github.com/biofold/ddgun\" and then running \"./ddgun_3d.py\" / \"./ddgun_seq.py\" (end-user command-line application from source)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T22:06:10Z"
+    }
+  }
+}

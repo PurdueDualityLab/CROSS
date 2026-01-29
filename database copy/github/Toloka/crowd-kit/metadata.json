@@ -1,0 +1,72 @@
+{
+  "parser": "github",
+  "uid": "github/Toloka/crowd-kit",
+  "url": "https://github.com/Toloka/crowd-kit",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.10934189",
+    "name": "crowd-kit",
+    "url": "https://github.com/Toloka/crowd-kit",
+    "full_name": "Toloka/crowd-kit",
+    "html_url": "https://github.com/Toloka/crowd-kit",
+    "description": "Control the quality of your labeled data with the Python tools you already know.",
+    "created_at": "2021-03-01T23:02:08Z",
+    "updated_at": "2024-03-28T23:27:30Z",
+    "clone_url": "https://github.com/Toloka/crowd-kit.git",
+    "homepage": "https://crowd-kit.readthedocs.io/",
+    "size": 1381,
+    "stargazers_count": 190,
+    "watchers_count": 190,
+    "language": "Python",
+    "open_issues_count": 4,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 13,
+    "owner": {
+      "html_url": "https://github.com/Toloka",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76212487?v=4",
+      "login": "Toloka",
+      "type": "Organization"
+    },
+    "topics": [
+      "data-science",
+      "data-mining",
+      "crowd",
+      "toloka",
+      "labeling",
+      "annotation",
+      "aggregations",
+      "python",
+      "crowdsourcing",
+      "quality-control",
+      "truth-inference"
+    ],
+    "timestamp": "2024-04-07 00:36:30.985464",
+    "avatar": "https://avatars.githubusercontent.com/u/76212487?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Vendor or commercial entity",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"uv pip install -e '.[dev,docs,learning]'\"",
+        "“Crowd-Kit is a powerful Python library that implements commonly-used aggregation methods for crowdsourced annotation and offers the relevant metrics and datasets.”",
+        "“To install Crowd-Kit, run the following command: `pip install crowd-kit`. If you also want to use the `learning` subpackage, type `pip install crowd-kit[learning]`.”"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T20:25:53Z"
+    }
+  }
+}

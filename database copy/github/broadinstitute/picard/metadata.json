@@ -1,0 +1,75 @@
+{
+  "parser": "github",
+  "uid": "github/broadinstitute/picard",
+  "url": "https://github.com/broadinstitute/picard",
+  "data": {
+    "title": "Picard",
+    "url": "https://github.com/broadinstitute/picard",
+    "credit": [
+      "Alec Wysoker",
+      "Jay Carey",
+      "Jeff Gentry",
+      "Nils Homer",
+      "Tim Fennell",
+      "Yossi Farjoun"
+    ],
+    "tags": [
+      "chip-sequencing",
+      "dna-sequencing",
+      "high-throughput-sequencing",
+      "rna-sequencing",
+      "utilities",
+      "wgs-analysis"
+    ],
+    "description": "A set of command line tools (in Java) for manipulating high-throughput sequencing (HTS) data and formats such as SAM/BAM/CRAM and VCF.",
+    "name": "picard",
+    "full_name": "broadinstitute/picard",
+    "html_url": "https://github.com/broadinstitute/picard",
+    "created_at": "2014-03-28T20:43:35Z",
+    "updated_at": "2022-07-17T16:22:29Z",
+    "clone_url": "https://github.com/broadinstitute/picard.git",
+    "homepage": "https://broadinstitute.github.io/picard/",
+    "size": 211724,
+    "stargazers_count": 789,
+    "watchers_count": 789,
+    "language": "Java",
+    "open_issues_count": 249,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 166,
+    "owner": {
+      "html_url": "https://github.com/broadinstitute",
+      "avatar_url": "https://avatars.githubusercontent.com/u/393552?v=4",
+      "login": "broadinstitute",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-18 17:46:21.092831",
+    "avatar": "https://avatars.githubusercontent.com/u/393552?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"Picard is migrating to [semantic versioning](https://semver.org/). We will eventually adhere to it strictly and bump our major version whenever there are breaking changes to our API, but until we more\"",
+        "\"A set of Java command line tools for manipulating high-throughput sequencing (HTS) data and formats.\"",
+        "Build instructions emphasize cloning and building from the repo: \"First, clone the repo: git clone https://github.com/broadinstitute/picard.git\" and then \"To build a fully-packaged, runnable Picard jar...\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T22:11:26Z"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/christophuv/PeakBot_example",
+  "url": "https://github.com/christophuv/PeakBot_Example",
+  "data": {
+    "timestamp": "2022-04-10 00:53:52.156705",
+    "name": "PeakBot_Example",
+    "url": "https://api.github.com/repos/christophuv/PeakBot_Example",
+    "full_name": "christophuv/PeakBot_Example",
+    "html_url": "https://github.com/christophuv/PeakBot_Example",
+    "private": false,
+    "description": "Example scripts on how to use PeakBot",
+    "created_at": "2021-08-12T11:30:46Z",
+    "updated_at": "2021-12-15T07:44:00Z",
+    "clone_url": "https://github.com/christophuv/PeakBot_Example.git",
+    "homepage": null,
+    "size": 126369,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": "Python",
+    "open_issues_count": 0,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/christophuv",
+      "avatar_url": "https://avatars.githubusercontent.com/u/78472147?v=4",
+      "login": "christophuv",
+      "type": "User"
+    },
+    "topics": []
+  },
+  "doi": "10.1101/2021.10.11.463887",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This script shows how to use the PeakBot framework.\" (end-user scripts for using a framework)",
+        "\"train.py – This script shows how to train a new PeakBot model... detect.py – This script shows how to detect chromatographic peaks in a new chromatogram with a PeakBot model. group.py – This script shows how detected chromatographic peaks can be grouped into a data matrix\" (application-style workflow for analysis)",
+        "\"Once the training has finished... the model can be used to detect all similar chromatographic peaks in new LC-HRMS chromatograms in an untargeted manner.\" (direct analytical role in LC-HRMS research)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T22:56:22Z"
+    }
+  }
+}

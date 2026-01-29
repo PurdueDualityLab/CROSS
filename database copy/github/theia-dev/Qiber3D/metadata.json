@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/theia-dev/Qiber3D",
+  "url": "https://github.com/theia-dev/Qiber3D",
+  "data": {
+    "name": "Qiber3D",
+    "url": "https://github.com/theia-dev/Qiber3D",
+    "full_name": "theia-dev/Qiber3D",
+    "html_url": "https://github.com/theia-dev/Qiber3D",
+    "private": false,
+    "description": "Automated quantification of fibrous networks",
+    "created_at": "2021-01-28T10:33:26Z",
+    "updated_at": "2022-11-25T06:22:07Z",
+    "clone_url": "https://github.com/theia-dev/Qiber3D.git",
+    "homepage": null,
+    "size": 8457,
+    "stargazers_count": 4,
+    "watchers_count": 4,
+    "language": "Python",
+    "open_issues_count": 0,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/theia-dev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53050231?v=4",
+      "login": "theia-dev",
+      "type": "Organization"
+    },
+    "topics": [],
+    "timestamp": "2023-04-02 00:38:04.873427",
+    "avatar": "https://avatars.githubusercontent.com/u/53050231?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install Qiber3D\"",
+        "Owner is a GitHub organization: `owner_type: Organization` and repo under `theia-dev/Qiber3D`, suggesting a community-style project rather than an individual.",
+        "\"Automated quantification of fibrous networks\" and example code that loads image stacks and computes network statistics indicate it is an analysis application used directly for scientific quantification."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:23:45Z"
+    }
+  }
+}

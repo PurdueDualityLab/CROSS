@@ -1,0 +1,64 @@
+{
+  "parser": "github",
+  "uid": "github/tp2vis/distribute",
+  "url": "https://github.com/tp2vis/distribute",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2019PASP..131e4505K",
+      "https://ui.adsabs.harvard.edu/abs/2019ascl.soft04021K/abstract"
+    ],
+    "title": "TP2VIS: Total Power Map to Visibilities",
+    "url": "https://github.com/tp2vis/distribute",
+    "name": "distribute",
+    "full_name": "tp2vis/distribute",
+    "html_url": "https://github.com/tp2vis/distribute",
+    "created_at": "2017-12-11T20:25:22Z",
+    "updated_at": "2022-03-02T21:10:16Z",
+    "clone_url": "https://github.com/tp2vis/distribute.git",
+    "size": 881,
+    "stargazers_count": 9,
+    "watchers_count": 9,
+    "language": "Python",
+    "open_issues_count": 3,
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/tp2vis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34458220?v=4",
+      "login": "tp2vis",
+      "type": "User"
+    },
+    "topics": [
+      "total",
+      "power",
+      "to",
+      "visibilities",
+      "tp2vis",
+      "alma",
+      "development",
+      "study"
+    ],
+    "timestamp": "2022-07-17 17:16:55.669326",
+    "avatar": "https://avatars.githubusercontent.com/u/34458220?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"## Download\"",
+        "\"This project provides tools to create visibilities from a single dish cube using the method of Koda et al. 2011\"",
+        "\"You need only one script 'tp2vis.py'.\" and usage via CASA commands like `tp2vis('tp.im','tp.ms','12m.ptg',rms=0.67)` indicate it is run as an end-user analysis tool."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:29:22Z"
+    }
+  }
+}

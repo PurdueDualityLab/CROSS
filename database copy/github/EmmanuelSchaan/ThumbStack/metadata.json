@@ -1,0 +1,53 @@
+{
+  "parser": "github",
+  "uid": "github/EmmanuelSchaan/ThumbStack",
+  "url": "https://github.com/EmmanuelSchaan/ThumbStack",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2020arXiv200905557S",
+      "https://ui.adsabs.harvard.edu/abs/2021ascl.soft02004S/abstract"
+    ],
+    "title": "ThumbStack: Map and profile stacking pipeline",
+    "url": "https://github.com/EmmanuelSchaan/ThumbStack",
+    "name": "ThumbStack",
+    "full_name": "EmmanuelSchaan/ThumbStack",
+    "html_url": "https://github.com/EmmanuelSchaan/ThumbStack",
+    "created_at": "2018-08-31T16:45:29Z",
+    "updated_at": "2022-04-27T02:18:25Z",
+    "clone_url": "https://github.com/EmmanuelSchaan/ThumbStack.git",
+    "size": 41574,
+    "stargazers_count": 4,
+    "watchers_count": 4,
+    "language": "Python",
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/EmmanuelSchaan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2760268?v=4",
+      "login": "EmmanuelSchaan",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:12:53.405436",
+    "avatar": "https://avatars.githubusercontent.com/u/2760268?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"ThumbStack produces stacked maps and profiles, given catalogs of object positions and maps.\"",
+        "\"It is designed for thermal and kinematic Sunyaev-Zel'dovich measurements. It outputs 2D stacked maps and radial profiles...\"",
+        "\"Please feel free to use this code in your work, and contact me with any questions or suggestions (eschaan@lbl.gov).\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T17:08:05Z"
+    }
+  }
+}

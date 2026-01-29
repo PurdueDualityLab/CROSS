@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/beastraban/INSANE",
+  "url": "https://github.com/beastraban/INSANE",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2022JCAP...01..036W",
+      "https://ui.adsabs.harvard.edu/abs/2021arXiv210316594W",
+      "https://ui.adsabs.harvard.edu/abs/2022ascl.soft02025W/abstract"
+    ],
+    "title": "INSANE: INflationary potential Simulator and ANalysis Engine",
+    "url": "https://github.com/beastraban/INSANE",
+    "name": "INSANE",
+    "full_name": "beastraban/INSANE",
+    "html_url": "https://github.com/beastraban/INSANE",
+    "description": "INflationary potential Simulator and ANalysis Engine",
+    "created_at": "2021-10-18T15:28:01Z",
+    "updated_at": "2021-10-22T07:13:49Z",
+    "clone_url": "https://github.com/beastraban/INSANE.git",
+    "size": 1572,
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/beastraban",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33986427?v=4",
+      "login": "beastraban",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 16:49:12.794980",
+    "avatar": "https://avatars.githubusercontent.com/u/33986427?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"-> pip install .\"",
+        "\"This package takes either a numeric inflationary potential or a symbolic one, calculates the background evolution ... and then ... calculate the primordial power spectrum it yields.\"",
+        "\"The package contains 2 main modules: BackgroundSolver solves the background equations, and the MsSolver module solves and analyses the MS equations.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T22:02:03Z"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "parser": "github",
+  "uid": "github/Adamtaranto/Yanagiba",
+  "url": "https://github.com/Adamtaranto/Yanagiba",
+  "data": {
+    "url": "https://github.com/Adamtaranto/Yanagiba",
+    "title": "Yanagiba",
+    "description": "Filter and slice Nanopore reads which have been basecalled with Albacore.",
+    "name": "Yanagiba",
+    "full_name": "Adamtaranto/Yanagiba",
+    "html_url": "https://github.com/Adamtaranto/Yanagiba",
+    "created_at": "2017-08-04T03:29:18Z",
+    "updated_at": "2017-08-04T04:46:04Z",
+    "clone_url": "https://github.com/Adamtaranto/Yanagiba.git",
+    "size": 11,
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/Adamtaranto",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2160099?v=4",
+      "login": "Adamtaranto",
+      "type": "User"
+    },
+    "timestamp": "2022-07-20 17:27:48.815217",
+    "avatar": "https://avatars.githubusercontent.com/u/2160099?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install yanagiba\"",
+        "\"Yanagiba is used to filter short or low quality Oxford Nanopore reads which have been basecalled with Albacore. Takes fastq.gz and an Albacore summary file as input.\"",
+        "\"Install from PyPi: `pip install yanagiba`\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T16:21:57Z"
+    }
+  }
+}

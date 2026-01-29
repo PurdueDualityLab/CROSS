@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/bertrandplez/Turbospectrum2019",
+  "url": "https://github.com/bertrandplez/Turbospectrum2019",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/1998A%26A...330.1109A",
+      "https://ui.adsabs.harvard.edu/abs/2012ascl.soft05004P/abstract"
+    ],
+    "title": "Turbospectrum: Code for spectral synthesis",
+    "url": "https://github.com/bertrandplez/Turbospectrum2019",
+    "name": "Turbospectrum2019",
+    "full_name": "bertrandplez/Turbospectrum2019",
+    "html_url": "https://github.com/bertrandplez/Turbospectrum2019",
+    "description": "synthetic spectrum calculation companion to MARCS",
+    "created_at": "2019-04-25T15:09:52Z",
+    "updated_at": "2022-04-06T14:10:33Z",
+    "clone_url": "https://github.com/bertrandplez/Turbospectrum2019.git",
+    "size": 12185,
+    "stargazers_count": 15,
+    "watchers_count": 15,
+    "language": "Fortran",
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/bertrandplez",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30231362?v=4",
+      "login": "bertrandplez",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:24:38.669722",
+    "avatar": "https://avatars.githubusercontent.com/u/30231362?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"synthetic spectrum calculation companion to MARCS\" (domain-specific scientific computation tool, used directly for calculations)",
+        "\"Further development of the code with NLTE capability (v20) has been made and is available at:  https://github.com/bertrandplez/Turbospectrum_NLTE.\" (distributed via GitHub source repository)",
+        "\"The v19 public repository has not been archived, and is open to improvements by anyone.\" (emphasis on repository as main distribution and collaboration point)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T22:03:46Z"
+    }
+  }
+}

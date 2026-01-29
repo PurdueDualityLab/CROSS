@@ -1,0 +1,69 @@
+{
+  "parser": "github",
+  "uid": "github/s-will/LocARNA",
+  "url": "https://github.com/s-will/LocARNA",
+  "data": {
+    "title": "locarna",
+    "url": "https://github.com/s-will/LocARNA",
+    "credit": [],
+    "tags": [
+      "structure-visualization-&-analysis",
+      "high-throughput-sequencing"
+    ],
+    "description": "Alignment of RNAs",
+    "name": "LocARNA",
+    "full_name": "s-will/LocARNA",
+    "html_url": "https://github.com/s-will/LocARNA",
+    "created_at": "2015-12-15T17:36:51Z",
+    "updated_at": "2024-03-27T13:37:21Z",
+    "clone_url": "https://github.com/s-will/LocARNA.git",
+    "homepage": "https://s-will.github.io/LocARNA",
+    "size": 21711,
+    "stargazers_count": 24,
+    "watchers_count": 24,
+    "language": "C++",
+    "open_issues_count": 11,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/s-will",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11848365?v=4",
+      "login": "s-will",
+      "type": "User"
+    },
+    "topics": [
+      "alignment",
+      "rna-structure-prediction",
+      "rna-structural-analysis"
+    ],
+    "timestamp": "2024-04-21 00:37:00.636736",
+    "avatar": "https://avatars.githubusercontent.com/u/11848365?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "conda-forge",
+      "evidence": [
+        "README install command: \"conda install -c conda-forge -c bioconda locarna\"",
+        "\"The LocARNA package provides several tools for the structural analysis of RNA. LocARNA's main functionality is to align a set of a priori unaligned RNAs sequences and at the same time predict their common structure.\"",
+        "\"Most of the package's functionality is accessible via the command-line tool `mlocarna` through its various options.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T03:15:52Z"
+    }
+  }
+}

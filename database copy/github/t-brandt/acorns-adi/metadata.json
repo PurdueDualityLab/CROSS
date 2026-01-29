@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/t-brandt/acorns-adi",
+  "url": "https://github.com/t-brandt/acorns-adi",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2013ApJ...764..183B",
+      "https://ui.adsabs.harvard.edu/abs/2013ascl.soft03026B/abstract"
+    ],
+    "title": "ACORNS-ADI: Algorithms for Calibration, Optimized Registration and Nulling the Star in Angular Differential Imaging",
+    "url": "https://github.com/t-brandt/acorns-adi",
+    "name": "acorns-adi",
+    "full_name": "t-brandt/acorns-adi",
+    "html_url": "https://github.com/t-brandt/acorns-adi",
+    "description": "A software package to reduce angular differential imaging data from Subaru/HiCIAO",
+    "created_at": "2012-09-07T15:10:45Z",
+    "updated_at": "2019-10-10T14:07:57Z",
+    "clone_url": "https://github.com/t-brandt/acorns-adi.git",
+    "size": 1200,
+    "language": "Python",
+    "license": {
+      "key": "bsd-2-clause",
+      "name": "BSD 2-Clause \"Simplified\" License",
+      "spdx_id": "BSD-2-Clause",
+      "url": "https://api.github.com/licenses/bsd-2-clause",
+      "node_id": "MDc6TGljZW5zZTQ="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/t-brandt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2295093?v=4",
+      "login": "t-brandt",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 16:30:34.498324",
+    "avatar": "https://avatars.githubusercontent.com/u/2295093?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"- scipy 0.9+ (http://scipy.org/Download)\"",
+        "\"To install and run, simply extract the directory and run ./acorns-adi.py or python acorns-adi.py . Follow the on-screen instructions to set up the parameters and reduce your data.\"",
+        "\"Algorithms for Calibration, Optimized Registration and Nulling the Star in Angular Differential Imaging\" and \"reduce your data\" indicate it directly processes scientific imaging data."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:00:18Z"
+    }
+  }
+}

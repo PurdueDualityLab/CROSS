@@ -1,0 +1,63 @@
+{
+  "parser": "github",
+  "uid": "github/DEIB-GECO/CombSAFE",
+  "url": "https://github.com/DEIB-GECO/CombSAFE",
+  "data": {
+    "doi": "10.1093/BIOINFORMATICS/BTAB815",
+    "name": "CombSAFE",
+    "url": "https://github.com/DEIB-GECO/CombSAFE",
+    "full_name": "DEIB-GECO/CombSAFE",
+    "html_url": "https://github.com/DEIB-GECO/CombSAFE",
+    "description": "Combinatorial and Semantic Analysis of Functional Elements",
+    "created_at": "2021-02-18T10:21:10Z",
+    "updated_at": "2022-03-19T22:16:32Z",
+    "clone_url": "https://github.com/DEIB-GECO/CombSAFE.git",
+    "size": 35909,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/DEIB-GECO",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26458078?v=4",
+      "login": "DEIB-GECO",
+      "type": "Organization"
+    },
+    "topics": [
+      "epigenetics",
+      "semantic-annotation",
+      "big-data-analysis",
+      "chromatin-state"
+    ],
+    "timestamp": "2023-11-26 00:37:33.501198",
+    "avatar": "https://avatars.githubusercontent.com/u/26458078?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"![alt text](https://drive.google.com/uc?export=download&id=1WyFjK1eYM9nSbMKLht0dXp6ouscZ381P) <br/>\"",
+        "\"This repository contains the implementation of the *Combinatorial and Semantic Analysis of Functional Elements* (CombSAFE)... It is a flexible computational method to identify combinations of static and dynamic functional elements genome-wide\"",
+        "Usage is via a notebook and functions like `combsafe.create_dataset`, `identify_functional_states`, `single_gene_analysis`, and genome-wide analyses, indicating an end-user analysis pipeline rather than a reusable library."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T16:59:07Z"
+    }
+  }
+}

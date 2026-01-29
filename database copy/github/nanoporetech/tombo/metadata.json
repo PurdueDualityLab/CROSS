@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/nanoporetech/tombo",
+  "url": "https://github.com/nanoporetech/tombo",
+  "data": {
+    "url": "https://github.com/nanoporetech/tombo",
+    "title": "Tombo",
+    "description": "Tombo is a suite of tools primarily for the identification of modified nucleotides from raw nanopore sequencing data. ",
+    "doi": "https://www.biorxiv.org/content/10.1101/094672v2",
+    "name": "tombo",
+    "full_name": "nanoporetech/tombo",
+    "html_url": "https://github.com/nanoporetech/tombo",
+    "created_at": "2017-11-18T10:12:56Z",
+    "updated_at": "2022-05-24T21:11:51Z",
+    "clone_url": "https://github.com/nanoporetech/tombo.git",
+    "size": 39632,
+    "stargazers_count": 180,
+    "watchers_count": 180,
+    "language": "Python",
+    "open_issues_count": 91,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 42,
+    "owner": {
+      "html_url": "https://github.com/nanoporetech",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7668184?v=4",
+      "login": "nanoporetech",
+      "type": "Organization"
+    },
+    "topics": [
+      "epigenetics"
+    ],
+    "timestamp": "2022-07-20 17:27:40.017801",
+    "avatar": "https://avatars.githubusercontent.com/u/7668184?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Vendor or commercial entity",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install numpy\"",
+        "\"Tombo is a suite of tools primarily for the identification of modified nucleotides from nanopore sequencing data. Tombo also provides tools for the analysis and visualization of raw nanopore signal.\"",
+        "\"Conda installation (preferred method)… conda install -c bioconda ont-tombo\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:32:10Z"
+    }
+  }
+}

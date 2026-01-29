@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/ParaFly/ParaFly",
+  "url": "https://github.com/ParaFly/ParaFly",
+  "data": {
+    "title": "Parafly",
+    "url": "https://github.com/ParaFly/ParaFly",
+    "credit": [],
+    "tags": [
+      "utilities",
+      "other"
+    ],
+    "description": "ParaFly - parallel cmd processing utility",
+    "name": "ParaFly",
+    "full_name": "ParaFly/ParaFly",
+    "html_url": "https://github.com/ParaFly/ParaFly",
+    "created_at": "2017-09-03T13:17:34Z",
+    "updated_at": "2022-06-26T15:02:10Z",
+    "clone_url": "https://github.com/ParaFly/ParaFly.git",
+    "size": 367,
+    "stargazers_count": 11,
+    "watchers_count": 11,
+    "language": "Shell",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/ParaFly",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31590597?v=4",
+      "login": "ParaFly",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-18 17:46:12.489530",
+    "avatar": "https://avatars.githubusercontent.com/u/31590597?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Vendor or commercial entity",
+      "supply_chain_role": "Application software",
+      "research_role": "Incidental or general-purpose",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "Repo owner is an organization account: owner_login: ParaFly, owner_type: Organization.",
+        "README describes it as a generic utility: \"ParaFly - parallel cmd processing utility\" indicating an end-user command-line tool rather than a library.",
+        "No mention of package managers, containers, or binaries; only the repository README is present, implying distribution primarily via the source repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T19:47:19Z"
+    }
+  }
+}

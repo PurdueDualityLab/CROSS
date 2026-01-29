@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/ncbi/ncbi-vdb",
+  "url": "https://github.com/ncbi/ncbi-vdb",
+  "data": {
+    "url": "https://github.com/ncbi/ncbi-vdb",
+    "title": "Libncbi-vdb-dev",
+    "description": "ncbi-vdb",
+    "name": "ncbi-vdb",
+    "full_name": "ncbi/ncbi-vdb",
+    "html_url": "https://github.com/ncbi/ncbi-vdb",
+    "created_at": "2014-08-21T21:23:54Z",
+    "updated_at": "2022-06-28T15:36:42Z",
+    "clone_url": "https://github.com/ncbi/ncbi-vdb.git",
+    "size": 110104,
+    "stargazers_count": 77,
+    "watchers_count": 77,
+    "language": "C",
+    "open_issues_count": 15,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 25,
+    "owner": {
+      "html_url": "https://github.com/ncbi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3812119?v=4",
+      "login": "ncbi",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-20 17:29:00.026785",
+    "avatar": "https://avatars.githubusercontent.com/u/3812119?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"Windows Defender and a few other anti-virus tools have recently been [falsely](https://www.virustotal.com/#/file/042af43fc1318b07a4411c1bea2ff7eed8efe07ca954685268ce42f8f818b10e/detection) warning abo\"",
+        "\"The SRA Toolkit and SDK from NCBI is a collection of tools and libraries for using data in the INSDC Sequence Read Archives.\"",
+        "\"NCBI's SRA changed the source build system to use CMake in toolkit release 3.0.0.\" (indicates an end-user toolkit used to work with research data)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:34:20Z"
+    }
+  }
+}

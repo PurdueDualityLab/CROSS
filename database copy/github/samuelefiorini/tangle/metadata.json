@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/samuelefiorini/tangle",
+  "url": "https://github.com/samuelefiorini/tangle",
+  "data": {
+    "timestamp": "2022-02-27 00:45:51.407153",
+    "name": "tangle",
+    "url": "https://api.github.com/repos/samuelefiorini/tangle",
+    "full_name": "samuelefiorini/tangle",
+    "html_url": "https://github.com/samuelefiorini/tangle",
+    "private": false,
+    "description": "TANGLE: Time spAN Guided neuraL attEntion model",
+    "created_at": "2018-02-14T06:48:09Z",
+    "updated_at": "2019-04-26T09:13:45Z",
+    "clone_url": "https://github.com/samuelefiorini/tangle.git",
+    "homepage": "",
+    "size": 38264,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Jupyter Notebook",
+    "open_issues_count": 0,
+    "license": null,
+    "subscribers_count": 0,
+    "owner": {
+      "html_url": "https://github.com/samuelefiorini",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15000098?v=4",
+      "login": "samuelefiorini",
+      "type": "User"
+    },
+    "topics": [
+      "machine-learning",
+      "data-science",
+      "healthcare",
+      "medicare",
+      "pharmaceuticals",
+      "australia"
+    ]
+  },
+  "doi": "10.1371/JOURNAL.PONE.0211844",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"`$ pip install git+https://github.com/samuelefiorini/tangle.git`\"",
+        "“TANGLE is a timespan-guided neural attention mechanism that can be used to integrate sequences of Medicare services… which can be further used for some target prediction task.” (describes a model/mechanism to be used within other software)",
+        "“To use TANGLE for your sequence classification task, you simply need to install the core `tangle` package and its dependencies.” (indicates it is a package/library for use in tasks)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T03:17:21Z"
+    }
+  }
+}

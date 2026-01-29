@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/vdhooftcompmet/MS2LDA",
+  "url": "https://github.com/vdhooftcompmet/MS2LDA",
+  "data": {
+    "name": "MS2LDA",
+    "url": "https://github.com/vdhooftcompmet/MS2LDA",
+    "full_name": "vdhooftcompmet/MS2LDA",
+    "html_url": "https://github.com/vdhooftcompmet/MS2LDA",
+    "private": false,
+    "description": "Unsupervised Substructure Discovery using Topic Modelling with Automated Annotation.",
+    "created_at": "2024-04-19T07:45:18Z",
+    "updated_at": "2025-03-14T20:32:22Z",
+    "clone_url": "https://github.com/vdhooftcompmet/MS2LDA.git",
+    "homepage": null,
+    "size": 195846,
+    "stargazers_count": 4,
+    "watchers_count": 4,
+    "language": "Jupyter Notebook",
+    "open_issues_count": 0,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/vdhooftcompmet",
+      "avatar_url": "https://avatars.githubusercontent.com/u/95919621?v=4",
+      "login": "vdhooftcompmet",
+      "type": "Organization"
+    },
+    "topics": [],
+    "timestamp": "2025-03-23 00:50:53.790262",
+    "avatar": "https://avatars.githubusercontent.com/u/95919621?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install ms2lda\"",
+        "\"MS2LDA is an advanced tool designed for unsupervised substructure discovery in mass spectrometry data, utilizing topic modeling and providing automated annotation of discovered motifs.\"",
+        "\"You can install MS2LDA using pip, Conda, or Poetry\" and the example `pip install ms2lda` indicates distribution via PyPI."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:37:22Z"
+    }
+  }
+}

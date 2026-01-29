@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/idptools/metapredict",
+  "url": "https://github.com/idptools/metapredict",
+  "data": {
+    "timestamp": "2021-11-07 00:35:42.162184",
+    "name": "metapredict",
+    "url": "https://api.github.com/repos/idptools/metapredict",
+    "full_name": "idptools/metapredict",
+    "html_url": "https://github.com/idptools/metapredict",
+    "private": false,
+    "description": "A machine learning based protein disorder predictor.",
+    "created_at": "2020-09-16T22:00:56Z",
+    "updated_at": "2021-10-20T06:45:08Z",
+    "clone_url": "https://github.com/idptools/metapredict.git",
+    "homepage": null,
+    "size": 7402,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "Python",
+    "open_issues_count": 0,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/idptools",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67078335?v=4",
+      "login": "idptools",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "doi": "10.1016/j.bpj.2021.08.039",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install metapredict\"",
+        "\"Metapredict is a software package written in Python. It can be installed from PyPI (the Python Package Index) using the tool `pip`.\"",
+        "\"How can I use metapredict? Metapredict can be used in five different ways: 1. As a stand-alone command-line tool ... 2. As a Python library for integrating into your favorite bioinformatics pipeline\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:24:59Z"
+    }
+  }
+}

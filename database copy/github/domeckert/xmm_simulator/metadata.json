@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/domeckert/xmm_simulator",
+  "url": "https://github.com/domeckert/xmm_simulator",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2022A%26A...662A.123E",
+      "https://ui.adsabs.harvard.edu/abs/2025ascl.soft12018E/abstract"
+    ],
+    "title": "xmm_simulator: XMM mock data simulator",
+    "url": "https://github.com/domeckert/xmm_simulator",
+    "name": "xmm_simulator",
+    "full_name": "domeckert/xmm_simulator",
+    "html_url": "https://github.com/domeckert/xmm_simulator",
+    "description": "Python class to generate mock XMM-Newton spectra and images from 3D cubes extracted from hydro simulations",
+    "created_at": "2021-05-21T14:52:31Z",
+    "updated_at": "2025-11-21T08:21:32Z",
+    "clone_url": "https://github.com/domeckert/xmm_simulator.git",
+    "size": 464106,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "Python",
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/domeckert",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47885645?v=4",
+      "login": "domeckert",
+      "type": "User"
+    },
+    "timestamp": "2026-01-11 01:01:05.687813",
+    "avatar": "https://avatars.githubusercontent.com/u/47885645?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install .\"",
+        "\"A Python package to generate mock XMM-Newton images and spectra from 3D galaxy cluster simulations from hydrodynamical simulations.\"",
+        "Installation instructions use git clone and local pip install: \"git clone https://github.com/domeckert/xmm_simulator.git\" and \"pip install .\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:35:49Z"
+    }
+  }
+}

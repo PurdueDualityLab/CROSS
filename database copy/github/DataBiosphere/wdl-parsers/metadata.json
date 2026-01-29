@@ -1,0 +1,56 @@
+{
+  "parser": "github",
+  "uid": "github/DataBiosphere/wdl-parsers",
+  "url": "https://github.com/DataBiosphere/wdl-parsers",
+  "data": {
+    "url": "https://github.com/DataBiosphere/wdl-parsers",
+    "title": "Python3-wdlparse",
+    "description": "A package that provides the generated ANTLR4 WDL parsers for Python.",
+    "name": "wdl-parsers",
+    "full_name": "DataBiosphere/wdl-parsers",
+    "html_url": "https://github.com/DataBiosphere/wdl-parsers",
+    "created_at": "2020-12-23T17:39:43Z",
+    "updated_at": "2022-05-01T06:05:00Z",
+    "clone_url": "https://github.com/DataBiosphere/wdl-parsers.git",
+    "size": 18,
+    "language": "Python",
+    "open_issues_count": 1,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "subscribers_count": 7,
+    "owner": {
+      "html_url": "https://github.com/DataBiosphere",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32805087?v=4",
+      "login": "DataBiosphere",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-20 17:29:29.555273",
+    "avatar": "https://avatars.githubusercontent.com/u/32805087?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install wdlparse\"",
+        "\"A Python package that provides the generated `Hermes` and `Antlr4` WDL parsers for Python.\"",
+        "Installation section: \"pip install wdlparse\" (indicates distribution via Python package registry, i.e., PyPI)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T17:01:05Z"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "parser": "github",
+  "uid": "github/SKA-INAF/caesar-rest",
+  "url": "https://github.com/SKA-INAF/caesar-rest",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2021MNRAS.502...60R",
+      "https://ui.adsabs.harvard.edu/abs/2021ascl.soft08009R/abstract"
+    ],
+    "title": "caesar-rest: Web service for the caesar source extractor",
+    "url": "https://github.com/SKA-INAF/caesar-rest",
+    "name": "caesar-rest",
+    "full_name": "SKA-INAF/caesar-rest",
+    "html_url": "https://github.com/SKA-INAF/caesar-rest",
+    "description": "Rest API for caesar source finder application",
+    "created_at": "2020-04-17T09:16:44Z",
+    "updated_at": "2022-01-13T18:36:30Z",
+    "clone_url": "https://github.com/SKA-INAF/caesar-rest.git",
+    "size": 746,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Python",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/SKA-INAF",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32369098?v=4",
+      "login": "SKA-INAF",
+      "type": "Organization"
+    },
+    "topics": [
+      "rest-api",
+      "flask",
+      "celery",
+      "image-processing",
+      "radio-astronomy",
+      "caesar"
+    ],
+    "timestamp": "2022-07-17 17:11:14.676313",
+    "avatar": "https://avatars.githubusercontent.com/u/32369098?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"caesar-rest is a REST-ful web service for astronomical source extraction and classification with the caesar source extractor [https://github.com/SKA-INAF/caesar]. The software is developed in python a\"",
+        "\"caesar-rest is a REST-ful web service for astronomical source extraction and classification with the caesar source extractor\"",
+        "\"The software is developed in python and consists of a few containerized microservices, deployable on standalone servers or on a distributed cloud infrastructure. The core component is the REST web application... providing APIs for managing the input data ... and source finding jobs\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T20:16:11Z"
+    }
+  }
+}

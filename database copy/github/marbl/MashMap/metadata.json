@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/marbl/MashMap",
+  "url": "https://github.com/marbl/MashMap",
+  "data": {
+    "title": "MashMap",
+    "url": "https://github.com/marbl/MashMap",
+    "credit": [],
+    "tags": [
+      "high-throughput-sequencing"
+    ],
+    "description": "A fast approximate aligner for long DNA sequences",
+    "name": "MashMap",
+    "full_name": "marbl/MashMap",
+    "html_url": "https://github.com/marbl/MashMap",
+    "created_at": "2017-01-13T15:24:22Z",
+    "updated_at": "2023-07-10T01:32:18Z",
+    "clone_url": "https://github.com/marbl/MashMap.git",
+    "size": 2417,
+    "stargazers_count": 213,
+    "watchers_count": 213,
+    "language": "C++",
+    "open_issues_count": 22,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 16,
+    "owner": {
+      "html_url": "https://github.com/marbl",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6492934?v=4",
+      "login": "marbl",
+      "type": "Organization"
+    },
+    "timestamp": "2023-07-16 00:52:03.159240",
+    "avatar": "https://avatars.githubusercontent.com/u/6492934?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"[![GitHub Downloads](https://img.shields.io/github/downloads/marbl/MashMap/total.svg?style=social&logo=github&label=Download)](https://github.com/marbl/MashMap/releases)\"",
+        "\"MashMap implements a fast and approximate algorithm for computing local alignment boundaries between long DNA sequences. It can be useful for mapping genome assembly or long reads (PacBio/ONT) to reference genome(s).\"",
+        "\"Follow `INSTALL.txt` to compile and install MashMap. We also provide dependency-free linux and OSX binaries for user convenience through the latest release.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:01:21Z"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "parser": "github",
+  "uid": "github/adrn/pyia",
+  "url": "https://github.com/adrn/pyia",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2021ApJ...916...88G",
+      "https://ui.adsabs.harvard.edu/abs/2021ascl.soft09008P/abstract"
+    ],
+    "title": "pyia: Python package for working with Gaia data",
+    "url": "https://github.com/adrn/pyia",
+    "name": "pyia",
+    "full_name": "adrn/pyia",
+    "html_url": "https://github.com/adrn/pyia",
+    "description": "a Python package for working with data from the Gaia mission",
+    "created_at": "2017-12-18T20:35:18Z",
+    "updated_at": "2022-01-21T13:15:52Z",
+    "clone_url": "https://github.com/adrn/pyia.git",
+    "size": 2381,
+    "stargazers_count": 15,
+    "watchers_count": 15,
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/adrn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/583379?v=4",
+      "login": "adrn",
+      "type": "User"
+    },
+    "topics": [
+      "gaia",
+      "astronomy",
+      "data-structures",
+      "python"
+    ],
+    "timestamp": "2022-07-17 17:10:56.475557",
+    "avatar": "https://avatars.githubusercontent.com/u/583379?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install git+https://github.com/adrn/pyia\"",
+        "Owner metadata: owner_type is User and README copyright line: \"Copyright 2017-2024 Adrian Price-Whelan and contributors.\" indicating an individual-led project.",
+        "README calls it a Python \"package\" and provides `pip install pyia`, implying it is intended to be imported as a library dependency rather than only run as a standalone app."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T20:50:49Z"
+    }
+  }
+}

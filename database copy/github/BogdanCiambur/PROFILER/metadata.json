@@ -1,0 +1,63 @@
+{
+  "parser": "github",
+  "uid": "github/BogdanCiambur/PROFILER",
+  "url": "https://github.com/BogdanCiambur/PROFILER",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2016PASA...33...62C",
+      "https://ui.adsabs.harvard.edu/abs/2017ascl.soft05010C/abstract"
+    ],
+    "title": "PROFILER: 1D galaxy light profile decomposition",
+    "url": "https://github.com/BogdanCiambur/PROFILER",
+    "name": "PROFILER",
+    "full_name": "BogdanCiambur/PROFILER",
+    "html_url": "https://github.com/BogdanCiambur/PROFILER",
+    "description": "This repository contains the code Profiler, a Python program for decomposing galaxy light profiles in 1D",
+    "created_at": "2016-07-24T03:04:02Z",
+    "updated_at": "2021-09-16T03:16:32Z",
+    "clone_url": "https://github.com/BogdanCiambur/PROFILER.git",
+    "size": 25328,
+    "stargazers_count": 4,
+    "watchers_count": 4,
+    "language": "Python",
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/BogdanCiambur",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19526241?v=4",
+      "login": "BogdanCiambur",
+      "type": "User"
+    },
+    "topics": [
+      "galaxy-morphology",
+      "galaxy",
+      "decompose-galaxy-profiles",
+      "astronomical-algorithms",
+      "python",
+      "profile",
+      "lmfit"
+    ],
+    "timestamp": "2022-07-17 17:20:21.988226",
+    "avatar": "https://avatars.githubusercontent.com/u/19526241?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"2. The Python library lmfit (https://pypi.python.org/pypi/lmfit OR if pip is available, then in the terminal $> pip install lmfit)\"",
+        "\"This repository contains the code Profiler, a Python program for decomposing galaxy light profiles in 1D\"",
+        "\"If an alias is created as above, then from the terminal, in any directory, typing \"$> profiler\" will launch the GUI.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T16:47:03Z"
+    }
+  }
+}

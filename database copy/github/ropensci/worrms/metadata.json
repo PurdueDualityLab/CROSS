@@ -1,0 +1,77 @@
+{
+  "parser": "github",
+  "uid": "github/ropensci/worrms",
+  "url": "https://github.com/ropensci/worrms",
+  "data": {
+    "timestamp": "2022-01-27 10:11:35.175837",
+    "name": "worrms",
+    "url": "https://api.github.com/repos/ropensci/worrms",
+    "full_name": "ropensci/worrms",
+    "html_url": "https://github.com/ropensci/worrms",
+    "private": false,
+    "description": "World Register of Marine Species R client",
+    "created_at": "2016-12-23T01:03:45Z",
+    "updated_at": "2022-01-01T04:47:39Z",
+    "clone_url": "https://github.com/ropensci/worrms.git",
+    "homepage": "https://docs.ropensci.org/worrms",
+    "size": 336,
+    "stargazers_count": 13,
+    "watchers_count": 13,
+    "language": "R",
+    "open_issues_count": 4,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "owner": {
+      "html_url": "https://github.com/ropensci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1200269?v=4",
+      "login": "ropensci",
+      "type": "Organization"
+    },
+    "topics": [
+      "taxonomy",
+      "marine-species",
+      "api-wrapper",
+      "biology",
+      "rstats",
+      "r",
+      "r-package",
+      "taxize",
+      "biological-data",
+      "fish",
+      "marine-biology",
+      "API",
+      "api-client",
+      "marine",
+      "science",
+      "species",
+      "web",
+      "worms"
+    ]
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"worrms\")\"",
+        "\"worrms is a R client for the World Register of Marine Species\" (an R package intended to be used by other R code).",
+        "Badges and links indicate it is an rOpenSci community package with contributor code of conduct: \"Please note that this package is released with a Contributor Code of Conduct\" and rOpenSci footer image/link."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T03:11:33Z"
+    }
+  }
+}

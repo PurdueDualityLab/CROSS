@@ -1,42 +1,261 @@
 {
-    "parser": "github",
-    "uid": "github/nuclear-multimessenger-astronomy/nmma",
+  "parser": "github",
+  "uid": "github/nuclear-multimessenger-astronomy/nmma",
+  "url": "https://github.com/nuclear-multimessenger-astronomy/nmma",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2023NatCo..14.8352P",
+      "https://ui.adsabs.harvard.edu/abs/2024ascl.soft02001P/abstract"
+    ],
+    "title": "NMMA: Nuclear Multi Messenger Astronomy framework",
     "url": "https://github.com/nuclear-multimessenger-astronomy/nmma",
-    "data": {
-        "doi": [
-            "https://ui.adsabs.harvard.edu/abs/2023NatCo..14.8352P",
-            "https://ui.adsabs.harvard.edu/abs/2024ascl.soft02001P/abstract"
-        ],
-        "title": "NMMA: Nuclear Multi Messenger Astronomy framework",
-        "url": "https://github.com/nuclear-multimessenger-astronomy/nmma",
-        "name": "nmma",
-        "full_name": "nuclear-multimessenger-astronomy/nmma",
-        "html_url": "https://github.com/nuclear-multimessenger-astronomy/nmma",
-        "description": "A pythonic library for probing nuclear physics and cosmology with multimessenger analysis",
-        "created_at": "2022-02-02T22:03:19Z",
-        "updated_at": "2024-02-29T16:34:37Z",
-        "clone_url": "https://github.com/nuclear-multimessenger-astronomy/nmma.git",
-        "homepage": "https://nuclear-multimessenger-astronomy.github.io/nmma/",
-        "size": 170449,
-        "stargazers_count": 24,
-        "watchers_count": 24,
-        "language": "Jupyter Notebook",
-        "open_issues_count": 34,
-        "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "spdx_id": "GPL-3.0",
-            "url": "https://api.github.com/licenses/gpl-3.0",
-            "node_id": "MDc6TGljZW5zZTk="
-        },
-        "subscribers_count": 5,
-        "owner": {
-            "html_url": "https://github.com/nuclear-multimessenger-astronomy",
-            "avatar_url": "https://avatars.githubusercontent.com/u/98920591?v=4",
-            "login": "nuclear-multimessenger-astronomy",
-            "type": "Organization"
-        },
-        "timestamp": "2024-03-03 00:33:53.878420",
-        "avatar": "https://avatars.githubusercontent.com/u/98920591?v=4"
+    "name": "nmma",
+    "full_name": "nuclear-multimessenger-astronomy/nmma",
+    "html_url": "https://github.com/nuclear-multimessenger-astronomy/nmma",
+    "description": "A pythonic library for probing nuclear physics and cosmology with multimessenger analysis",
+    "created_at": "2022-02-02T22:03:19Z",
+    "updated_at": "2024-02-29T16:34:37Z",
+    "clone_url": "https://github.com/nuclear-multimessenger-astronomy/nmma.git",
+    "homepage": "https://nuclear-multimessenger-astronomy.github.io/nmma/",
+    "size": 170449,
+    "stargazers_count": 24,
+    "watchers_count": 24,
+    "language": "Jupyter Notebook",
+    "open_issues_count": 34,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/nuclear-multimessenger-astronomy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98920591?v=4",
+      "login": "nuclear-multimessenger-astronomy",
+      "type": "Organization"
+    },
+    "timestamp": "2024-03-03 00:33:53.878420",
+    "avatar": "https://avatars.githubusercontent.com/u/98920591?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"When utilizing this code for a publication, kindly make a reference to the package by its name, NMMA, and a citation to the companion paper [An updated nuclear-physics and multi-messenger astrophysics\"",
+        "\"NMMA – a pythonic library for probing nuclear physics and cosmology with multimessenger analysis\"",
+        "\"A tutorial on how to produce simulations of lightcurves is given here\" (indicates direct scientific simulation/analysis use)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:40:45Z"
     }
+  },
+  "openssf_scorecard": {
+    "data": {
+      "date": "2026-01-23T13:16:43-05:00",
+      "repo": {
+        "name": "github.com/nuclear-multimessenger-astronomy/nmma",
+        "commit": "1fcde68cab9be80cfbb3ce1e155a1ae5359b3aa8"
+      },
+      "scorecard": {
+        "version": "v5.4.0",
+        "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+      },
+      "score": 3.6,
+      "checks": [
+        {
+          "details": null,
+          "score": 0,
+          "reason": "binaries present in source code",
+          "name": "Binary-Artifacts",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#binary-artifacts",
+            "short": "Determines if the project has generated executable (binary) artifacts in the source repository."
+          }
+        },
+        {
+          "details": null,
+          "score": 6,
+          "reason": "branch protection is not maximal on development and all release branches",
+          "name": "Branch-Protection",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#branch-protection",
+            "short": "Determines if the default and release branches are protected with GitHub's branch protection settings."
+          }
+        },
+        {
+          "details": null,
+          "score": 8,
+          "reason": "5 out of 6 merged PRs checked by a CI test -- score normalized to 8",
+          "name": "CI-Tests",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#ci-tests",
+            "short": "Determines if the project runs tests before pull requests are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no effort to earn an OpenSSF best practices badge detected",
+          "name": "CII-Best-Practices",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#cii-best-practices",
+            "short": "Determines if the project has an OpenSSF (formerly CII) Best Practices Badge."
+          }
+        },
+        {
+          "details": null,
+          "score": 3,
+          "reason": "Found 4/13 approved changesets -- score normalized to 3",
+          "name": "Code-Review",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#code-review",
+            "short": "Determines if the project requires human code review before pull requests (aka merge requests) are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "project has 7 contributing companies or organizations",
+          "name": "Contributors",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#contributors",
+            "short": "Determines if the project has a set of contributors from multiple organizations (e.g., companies)."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no dangerous workflow patterns detected",
+          "name": "Dangerous-Workflow",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dangerous-workflow",
+            "short": "Determines if the project's GitHub Action workflows avoid dangerous patterns."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no update tool detected",
+          "name": "Dependency-Update-Tool",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dependency-update-tool",
+            "short": "Determines if the project uses a dependency update tool."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "project is not fuzzed",
+          "name": "Fuzzing",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#fuzzing",
+            "short": "Determines if the project uses fuzzing."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "license file detected",
+          "name": "License",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#license",
+            "short": "Determines if the project has defined a license."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0",
+          "name": "Maintained",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#maintained",
+            "short": "Determines if the project is \"actively maintained\"."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "packaging workflow detected",
+          "name": "Packaging",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#packaging",
+            "short": "Determines if the project is published as a package that others can easily download, install, easily update, and uninstall."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "dependency not pinned by hash detected -- score normalized to 0",
+          "name": "Pinned-Dependencies",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#pinned-dependencies",
+            "short": "Determines if the project has declared and pinned the dependencies of its build process."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "SAST tool is not run on all commits -- score normalized to 0",
+          "name": "SAST",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#sast",
+            "short": "Determines if the project uses static code analysis."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "security policy file not detected",
+          "name": "Security-Policy",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#security-policy",
+            "short": "Determines if the project has published a security policy."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no releases found",
+          "name": "Signed-Releases",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#signed-releases",
+            "short": "Determines if the project cryptographically signs release artifacts."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "detected GitHub workflow tokens with excessive permissions",
+          "name": "Token-Permissions",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#token-permissions",
+            "short": "Determines if the project's workflows follow the principle of least privilege."
+          }
+        },
+        {
+          "details": null,
+          "score": 9,
+          "reason": "1 existing vulnerabilities detected",
+          "name": "Vulnerabilities",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#vulnerabilities",
+            "short": "Determines if the project has open, known unfixed vulnerabilities."
+          }
+        }
+      ],
+      "metadata": null
+    },
+    "timestamp_utc": "2026-01-23T18:17:17Z"
+  }
 }

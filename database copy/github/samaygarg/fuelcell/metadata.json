@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/samaygarg/fuelcell",
+  "url": "https://github.com/samaygarg/fuelcell",
+  "data": {
+    "timestamp": "2021-03-21 00:23:07.076903",
+    "name": "fuelcell",
+    "url": "https://api.github.com/repos/samaygarg/fuelcell",
+    "full_name": "samaygarg/fuelcell",
+    "html_url": "https://github.com/samaygarg/fuelcell",
+    "private": false,
+    "description": "Electrochemical data analysis package",
+    "created_at": "2020-09-03T02:21:10Z",
+    "updated_at": "2021-03-18T18:50:27Z",
+    "clone_url": "https://github.com/samaygarg/fuelcell.git",
+    "homepage": "",
+    "size": 12630,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "Python",
+    "open_issues_count": 1,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/samaygarg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60327888?v=4",
+      "login": "samaygarg",
+      "type": "User"
+    },
+    "topics": []
+  },
+  "doi": "https://doi.org/10.5281/zenodo.4606814",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install fuelcell\"",
+        "\"`fuelcell` is a Python package which streamlines electrochemical data analysis.\"",
+        "\"`fuelcell` includes both a standard Python package which can be used programmatically and incorporated into an existing workflow, as well as a standalone graphical user interface for interactive use.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T03:16:41Z"
+    }
+  }
+}

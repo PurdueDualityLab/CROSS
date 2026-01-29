@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/ants-project/ANTs",
+  "url": "https://github.com/ants-project/ANTs",
+  "data": {
+    "timestamp": "2021-01-24 06:57:47.069073",
+    "name": "ANTs",
+    "url": "https://api.github.com/repos/ants-project/ANTs",
+    "full_name": "ants-project/ANTs",
+    "html_url": "https://github.com/ants-project/ANTs",
+    "private": false,
+    "description": null,
+    "created_at": "2019-08-21T08:37:13Z",
+    "updated_at": "2019-08-21T08:39:06Z",
+    "clone_url": "https://github.com/ants-project/ANTs.git",
+    "homepage": null,
+    "size": 6337,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": "R",
+    "open_issues_count": 0,
+    "license": null,
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/ants-project",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54352578?v=4",
+      "login": "ants-project",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "doi": "10.1038/S41598-020-69265-8",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"Or download and install the package following the standard R installation process.\"",
+        "\"Animal Network Toolkit Software (ANTs) is a free open R package for analysing animal networks.\"",
+        "\"The R package ‘Animal Network Toolkit’ (ANTs) was developed with the aim of implementing in one package the different social network analysis techniques currently used in the study of animal social networks.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T21:18:54Z"
+    }
+  }
+}

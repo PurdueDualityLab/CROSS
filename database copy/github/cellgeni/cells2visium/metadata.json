@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/cellgeni/cells2visium",
+  "url": "https://github.com/cellgeni/cells2visium",
+  "data": {
+    "name": "cells2visium",
+    "url": "https://github.com/cellgeni/cells2visium",
+    "full_name": "cellgeni/cells2visium",
+    "html_url": "https://github.com/cellgeni/cells2visium",
+    "private": false,
+    "description": "segmenting H&E images from Visium to assign each visium spot to the number of cell, occupancy and other morphological features of cells",
+    "created_at": "2024-08-06T16:07:43Z",
+    "updated_at": "2025-09-24T13:01:31Z",
+    "clone_url": "https://github.com/cellgeni/cells2visium.git",
+    "homepage": null,
+    "size": 69,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Python",
+    "open_issues_count": 0,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/cellgeni",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34610939?v=4",
+      "login": "cellgeni",
+      "type": "Organization"
+    },
+    "topics": [],
+    "timestamp": "2025-09-28 00:57:49.117451",
+    "avatar": "https://avatars.githubusercontent.com/u/34610939?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "Command-line usage indicates an end-user tool: `cells2visium /path/to/img path/to/spaceranger/folder path/to/output/folder` and `python cells2visium_batch.py conf.yaml`.",
+        "The outputs are domain-specific analysis metrics for Visium spatial transcriptomics: parameters like `n_cell`, `occupancy`, `seg_prob`, `elongation`, and `occupancy_tissue`.",
+        "Installation and use are described only via cloning and using `requirements.txt` and running scripts/CLI, with no mention of package managers, containers, or binary releases."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T22:53:03Z"
+    }
+  }
+}

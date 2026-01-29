@@ -1,57 +1,276 @@
 {
-    "parser": "github",
-    "uid": "github/PolyChord/PolyChordLite",
+  "parser": "github",
+  "uid": "github/PolyChord/PolyChordLite",
+  "url": "https://github.com/PolyChord/PolyChordLite",
+  "data": {
+    "doi": [
+      "http://adsabs.harvard.edu/abs/2015MNRAS.450L..61H",
+      "https://ui.adsabs.harvard.edu/abs/2015ascl.soft02011H/abstract"
+    ],
+    "title": "PolyChord: Nested sampling for cosmology",
     "url": "https://github.com/PolyChord/PolyChordLite",
-    "data": {
-        "doi": [
-            "http://adsabs.harvard.edu/abs/2015MNRAS.450L..61H",
-            "https://ui.adsabs.harvard.edu/abs/2015ascl.soft02011H/abstract"
-        ],
-        "title": "PolyChord: Nested sampling for cosmology",
-        "url": "https://github.com/PolyChord/PolyChordLite",
-        "name": "PolyChordLite",
-        "full_name": "PolyChord/PolyChordLite",
-        "html_url": "https://github.com/PolyChord/PolyChordLite",
-        "description": "Public version of PolyChord: See polychord.co.uk for PolyChordPro",
-        "created_at": "2018-10-10T13:50:06Z",
-        "updated_at": "2022-04-27T13:59:57Z",
-        "clone_url": "https://github.com/PolyChord/PolyChordLite.git",
-        "homepage": "https://polychord.io/",
-        "size": 1545,
-        "stargazers_count": 55,
-        "watchers_count": 55,
-        "language": "Fortran",
-        "open_issues_count": 11,
-        "license": {
-            "key": "other",
-            "name": "Other",
-            "spdx_id": "NOASSERTION",
-            "url": null,
-            "node_id": "MDc6TGljZW5zZTA="
-        },
-        "subscribers_count": 6,
-        "owner": {
-            "html_url": "https://github.com/PolyChord",
-            "avatar_url": "https://avatars.githubusercontent.com/u/38859081?v=4",
-            "login": "PolyChord",
-            "type": "Organization"
-        },
-        "topics": [
-            "bayesian-inference",
-            "nested-sampling",
-            "astronomy",
-            "cosmology",
-            "particle-physics",
-            "sampling-methods",
-            "statistics",
-            "polychord",
-            "log-likelihood",
-            "mpi",
-            "posterior",
-            "openmpi",
-            "gfortran"
-        ],
-        "timestamp": "2022-07-17 17:23:15.395574",
-        "avatar": "https://avatars.githubusercontent.com/u/38859081?v=4"
+    "name": "PolyChordLite",
+    "full_name": "PolyChord/PolyChordLite",
+    "html_url": "https://github.com/PolyChord/PolyChordLite",
+    "description": "Public version of PolyChord: See polychord.co.uk for PolyChordPro",
+    "created_at": "2018-10-10T13:50:06Z",
+    "updated_at": "2022-04-27T13:59:57Z",
+    "clone_url": "https://github.com/PolyChord/PolyChordLite.git",
+    "homepage": "https://polychord.io/",
+    "size": 1545,
+    "stargazers_count": 55,
+    "watchers_count": 55,
+    "language": "Fortran",
+    "open_issues_count": 11,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 6,
+    "owner": {
+      "html_url": "https://github.com/PolyChord",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38859081?v=4",
+      "login": "PolyChord",
+      "type": "Organization"
+    },
+    "topics": [
+      "bayesian-inference",
+      "nested-sampling",
+      "astronomy",
+      "cosmology",
+      "particle-physics",
+      "sampling-methods",
+      "statistics",
+      "polychord",
+      "log-likelihood",
+      "mpi",
+      "posterior",
+      "openmpi",
+      "gfortran"
+    ],
+    "timestamp": "2022-07-17 17:23:15.395574",
+    "avatar": "https://avatars.githubusercontent.com/u/38859081?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install git+https://github.com/PolyChord/PolyChordLite@master\"",
+        "Owner is the GitHub organization `PolyChord`, and README lists academic authors with contact at a university email (\"wh260@mrao.cam.ac.uk\"), indicating a research project/lab origin.",
+        "Users are instructed to run provided executables and scripts to perform nested sampling analyses, e.g. \"First, try a couple of quick examples: ... $  ./bin/gaussian ini/gaussian.ini\" and Python usage via `pypolychord.run()` that produces scientific output files."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T19:50:15Z"
     }
+  },
+  "openssf_scorecard": {
+    "data": {
+      "date": "2026-01-23T08:45:46-05:00",
+      "repo": {
+        "name": "github.com/PolyChord/PolyChordLite",
+        "commit": "370f6af5d59a4d3af2ed3333acfba152fdb7a4cf"
+      },
+      "scorecard": {
+        "version": "v5.4.0",
+        "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+      },
+      "score": 5.4,
+      "checks": [
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no binaries found in the repo",
+          "name": "Binary-Artifacts",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#binary-artifacts",
+            "short": "Determines if the project has generated executable (binary) artifacts in the source repository."
+          }
+        },
+        {
+          "details": null,
+          "score": 8,
+          "reason": "branch protection is not maximal on development and all release branches",
+          "name": "Branch-Protection",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#branch-protection",
+            "short": "Determines if the default and release branches are protected with GitHub's branch protection settings."
+          }
+        },
+        {
+          "details": null,
+          "score": 5,
+          "reason": "7 out of 13 merged PRs checked by a CI test -- score normalized to 5",
+          "name": "CI-Tests",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#ci-tests",
+            "short": "Determines if the project runs tests before pull requests are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no effort to earn an OpenSSF best practices badge detected",
+          "name": "CII-Best-Practices",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#cii-best-practices",
+            "short": "Determines if the project has an OpenSSF (formerly CII) Best Practices Badge."
+          }
+        },
+        {
+          "details": null,
+          "score": 7,
+          "reason": "Found 10/13 approved changesets -- score normalized to 7",
+          "name": "Code-Review",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#code-review",
+            "short": "Determines if the project requires human code review before pull requests (aka merge requests) are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "project has 7 contributing companies or organizations",
+          "name": "Contributors",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#contributors",
+            "short": "Determines if the project has a set of contributors from multiple organizations (e.g., companies)."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no dangerous workflow patterns detected",
+          "name": "Dangerous-Workflow",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dangerous-workflow",
+            "short": "Determines if the project's GitHub Action workflows avoid dangerous patterns."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no update tool detected",
+          "name": "Dependency-Update-Tool",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dependency-update-tool",
+            "short": "Determines if the project uses a dependency update tool."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "project is not fuzzed",
+          "name": "Fuzzing",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#fuzzing",
+            "short": "Determines if the project uses fuzzing."
+          }
+        },
+        {
+          "details": null,
+          "score": 9,
+          "reason": "license file detected",
+          "name": "License",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#license",
+            "short": "Determines if the project has defined a license."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "12 commit(s) and 1 issue activity found in the last 90 days -- score normalized to 10",
+          "name": "Maintained",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#maintained",
+            "short": "Determines if the project is \"actively maintained\"."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "packaging workflow not detected",
+          "name": "Packaging",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#packaging",
+            "short": "Determines if the project is published as a package that others can easily download, install, easily update, and uninstall."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "dependency not pinned by hash detected -- score normalized to 0",
+          "name": "Pinned-Dependencies",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#pinned-dependencies",
+            "short": "Determines if the project has declared and pinned the dependencies of its build process."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "SAST tool is not run on all commits -- score normalized to 0",
+          "name": "SAST",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#sast",
+            "short": "Determines if the project uses static code analysis."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "security policy file not detected",
+          "name": "Security-Policy",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#security-policy",
+            "short": "Determines if the project has published a security policy."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no releases found",
+          "name": "Signed-Releases",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#signed-releases",
+            "short": "Determines if the project cryptographically signs release artifacts."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "detected GitHub workflow tokens with excessive permissions",
+          "name": "Token-Permissions",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#token-permissions",
+            "short": "Determines if the project's workflows follow the principle of least privilege."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "0 existing vulnerabilities detected",
+          "name": "Vulnerabilities",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#vulnerabilities",
+            "short": "Determines if the project has open, known unfixed vulnerabilities."
+          }
+        }
+      ],
+      "metadata": null
+    },
+    "timestamp_utc": "2026-01-23T13:46:01Z"
+  }
 }

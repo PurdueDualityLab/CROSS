@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/cosmo-ethz/hide",
+  "url": "https://github.com/cosmo-ethz/hide",
+  "data": {
+    "doi": [
+      "http://adsabs.harvard.edu/abs/2016arXiv160707443A",
+      "https://ui.adsabs.harvard.edu/abs/2016ascl.soft07019A/abstract"
+    ],
+    "title": "HIDE: HI Data Emulator",
+    "url": "https://github.com/cosmo-ethz/hide",
+    "name": "hide",
+    "full_name": "cosmo-ethz/hide",
+    "html_url": "https://github.com/cosmo-ethz/hide",
+    "description": "A package for simulating of a single dish radio telescope survey",
+    "created_at": "2016-07-18T08:56:32Z",
+    "updated_at": "2022-02-23T14:48:50Z",
+    "clone_url": "https://github.com/cosmo-ethz/hide.git",
+    "size": 25500,
+    "stargazers_count": 8,
+    "watchers_count": 8,
+    "language": "Python",
+    "open_issues_count": 3,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/cosmo-ethz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8969967?v=4",
+      "login": "cosmo-ethz",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:21:29.913867",
+    "avatar": "https://avatars.githubusercontent.com/u/8969967?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"HIDE is a package for simulating of a single dish radio telescope survey. As such, it takes healpix maps as inputs and processes them into TOD.\"",
+        "\"The HIDE package has been developed at ETH Zurich in the Software Lab of the Cosmology Research Group of the ETH Institute of Astronomy.\"",
+        "\"The development is coordinated on GitHub <http://github.com/cosmo-ethz/hide> and contributions are welcome.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T23:11:20Z"
+    }
+  }
+}

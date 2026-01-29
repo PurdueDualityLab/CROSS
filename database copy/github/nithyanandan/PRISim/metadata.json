@@ -1,0 +1,72 @@
+{
+  "parser": "github",
+  "uid": "github/nithyanandan/PRISim",
+  "url": "https://github.com/nithyanandan/PRISim",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2020arXiv200207692C",
+      "https://ui.adsabs.harvard.edu/abs/2020ascl.soft06010T/abstract"
+    ],
+    "title": "PRISim: Precision Radio Interferometer Simulator",
+    "url": "https://github.com/nithyanandan/PRISim",
+    "name": "PRISim",
+    "full_name": "nithyanandan/PRISim",
+    "html_url": "https://github.com/nithyanandan/PRISim",
+    "description": "Precision Radio Interferometry Simulator (for radio astronomy applications)",
+    "created_at": "2013-12-27T04:50:28Z",
+    "updated_at": "2021-10-08T21:00:44Z",
+    "clone_url": "https://github.com/nithyanandan/PRISim.git",
+    "size": 22817,
+    "stargazers_count": 12,
+    "watchers_count": 12,
+    "language": "Jupyter Notebook",
+    "open_issues_count": 10,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/nithyanandan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5192621?v=4",
+      "login": "nithyanandan",
+      "type": "User"
+    },
+    "topics": [
+      "python",
+      "radio-astronomy",
+      "radioastronomy",
+      "interferometry",
+      "simulations",
+      "power-spectrum",
+      "astronomy",
+      "cosmology"
+    ],
+    "timestamp": "2022-07-17 17:14:23.838067",
+    "avatar": "https://avatars.githubusercontent.com/u/5192621?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"If this does not work, try a manual download, as follows:\"",
+        "\"PRISim (Precision Radio Interferometer Simulator) – A modular radio interferometer array simulator, including the radio sky and instrumental effects.\"",
+        "\"Run on terminal: `mpirun -n nproc run_prisim.py -i parameterfile.yaml`\" (end users execute it as a program)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:38:36Z"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "parser": "github",
+  "uid": "github/yongsukyee/uncertain_blackholemass",
+  "url": "https://github.com/yongsukyee/uncertain_blackholemass",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2023MNRAS.524.3116Y",
+      "https://ui.adsabs.harvard.edu/abs/2023ascl.soft09002Y/abstract"
+    ],
+    "title": "UBHM: Uncertainty quantification of black hole mass estimation",
+    "url": "https://github.com/yongsukyee/uncertain_blackholemass",
+    "name": "uncertain_blackholemass",
+    "full_name": "yongsukyee/uncertain_blackholemass",
+    "html_url": "https://github.com/yongsukyee/uncertain_blackholemass",
+    "description": "Uncertainty quantification of black hole mass estimation",
+    "created_at": "2023-02-17T10:16:25Z",
+    "updated_at": "2023-07-26T09:52:36Z",
+    "clone_url": "https://github.com/yongsukyee/uncertain_blackholemass.git",
+    "homepage": "https://github.com/yongsukyee/uncertain_blackholemass",
+    "size": 11870,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Jupyter Notebook",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/yongsukyee",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11021594?v=4",
+      "login": "yongsukyee",
+      "type": "User"
+    },
+    "topics": [
+      "agn",
+      "black-hole",
+      "conformal-prediction",
+      "neural-networks",
+      "prediction",
+      "prediction-intervals",
+      "pytorch",
+      "quasar",
+      "uncertainty-quantification"
+    ],
+    "timestamp": "2023-09-03 00:32:30.094941",
+    "avatar": "https://avatars.githubusercontent.com/u/11021594?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install -r requirement.txt\"",
+        "\"Predicting virial black hole masses using neural network model and quantifying their uncertainties.\"",
+        "\"To run: `$ python run_featureextractor.py`\" and \"To run: `$ python run_uqregressor.py`\" indicating end-user execution scripts."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:59:02Z"
+    }
+  }
+}

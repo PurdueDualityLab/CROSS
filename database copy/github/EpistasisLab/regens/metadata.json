@@ -1,0 +1,63 @@
+{
+  "parser": "github",
+  "uid": "github/EpistasisLab/regens",
+  "url": "https://github.com/EpistasisLab/regens",
+  "data": {
+    "timestamp": "2021-03-07 00:25:48.211991",
+    "name": "regens",
+    "url": "https://api.github.com/repos/EpistasisLab/regens",
+    "full_name": "EpistasisLab/regens",
+    "html_url": "https://github.com/EpistasisLab/regens",
+    "private": false,
+    "description": "Recombines real genomic segments to simulate whole genomes",
+    "created_at": "2020-09-21T18:23:46Z",
+    "updated_at": "2021-03-05T18:44:28Z",
+    "clone_url": "https://github.com/EpistasisLab/regens.git",
+    "homepage": "",
+    "size": 216089,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "Python",
+    "open_issues_count": 0,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/EpistasisLab",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20861190?v=4",
+      "login": "EpistasisLab",
+      "type": "Organization"
+    },
+    "topics": [
+      "simulated-datasets",
+      "gwas-tools"
+    ]
+  },
+  "doi": "https://doi.org/10.5281/zenodo.4289063",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"REGENS recombines these segments in a way that simulates completely new individuals while simultaneously preserving the input genomes' linkage disequilibrium (LD) pattern with extremely high fidelity.\"",
+        "\"REGENS (REcombinatory Genome ENumeration of Subpopulations) is an open source Python package ... that simulates whole genomes from real genomic segments.\"",
+        "\"The following command uses `ACB.bed`, `ACB.bim`, and `ACB.fam` to simulate 10000 individuals...\" (shows it is run as an end-user simulation tool producing research data)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T17:08:39Z"
+    }
+  }
+}

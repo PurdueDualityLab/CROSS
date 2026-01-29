@@ -1,0 +1,66 @@
+source,target,value
+actor_unit: Individual maintainer,supply_chain_role: Application software,1341
+supply_chain_role: Application software,research_role: Direct research execution,3972
+research_role: Direct research execution,distribution_pathway: Installer or binary,836
+research_role: Direct research execution,distribution_pathway: Source repo,1251
+actor_unit: Research group or lab,supply_chain_role: Application software,1499
+supply_chain_role: Application software,research_role: Research-support tooling,550
+research_role: Research-support tooling,distribution_pathway: Installer or binary,190
+"actor_unit: Institution (university, lab, government research organization)",supply_chain_role: Dependency software artifact,416
+supply_chain_role: Dependency software artifact,research_role: Research-support tooling,1650
+research_role: Research-support tooling,distribution_pathway: Package registry,1481
+"actor_unit: Institution (university, lab, government research organization)",supply_chain_role: Application software,1334
+research_role: Direct research execution,distribution_pathway: Containers,112
+research_role: Direct research execution,distribution_pathway: Package registry,1929
+actor_unit: Individual maintainer,supply_chain_role: Dependency software artifact,607
+actor_unit: Research group or lab,supply_chain_role: Dependency software artifact,483
+supply_chain_role: Dependency software artifact,research_role: Direct research execution,436
+actor_unit: Community or foundation (open source governance),supply_chain_role: Dependency software artifact,450
+actor_unit: Unknown,supply_chain_role: Unknown,141
+supply_chain_role: Unknown,research_role: Unknown,237
+research_role: Unknown,distribution_pathway: Unknown,215
+actor_unit: Community or foundation (open source governance),supply_chain_role: Application software,160
+actor_unit: Vendor or commercial entity,supply_chain_role: Application software,207
+actor_unit: Vendor or commercial entity,supply_chain_role: Dependency software artifact,126
+research_role: Direct research execution,distribution_pathway: Network service,198
+research_role: Research-support tooling,distribution_pathway: Network service,150
+research_role: Research-support tooling,distribution_pathway: Source repo,397
+actor_unit: Community or foundation (open source governance),supply_chain_role: Infrastructure,21
+supply_chain_role: Infrastructure,research_role: Research-support tooling,82
+actor_unit: Individual maintainer,supply_chain_role: Unknown,27
+research_role: Research-support tooling,distribution_pathway: Containers,33
+research_role: Direct research execution,distribution_pathway: Unknown,2
+supply_chain_role: Dependency software artifact,research_role: Incidental or general-purpose,3
+research_role: Incidental or general-purpose,distribution_pathway: Network service,2
+"actor_unit: Institution (university, lab, government research organization)",supply_chain_role: Infrastructure,29
+research_role: Research-support tooling,distribution_pathway: Unknown,8
+research_role: Incidental or general-purpose,distribution_pathway: Package registry,8
+actor_unit: Vendor or commercial entity,supply_chain_role: Infrastructure,16
+actor_unit: Mixed or shared responsibility,supply_chain_role: Dependency software artifact,7
+research_role: Direct research execution,distribution_pathway: Builds and releases,80
+research_role: Research-support tooling,distribution_pathway: Builds and releases,31
+research_role: Unknown,distribution_pathway: Source repo,26
+supply_chain_role: Application software,research_role: Unknown,6
+research_role: Unknown,distribution_pathway: Network service,2
+actor_unit: Research group or lab,supply_chain_role: Unknown,6
+actor_unit: Community or foundation (open source governance),supply_chain_role: Unknown,57
+supply_chain_role: Application software,research_role: Incidental or general-purpose,17
+research_role: Incidental or general-purpose,distribution_pathway: Source repo,8
+actor_unit: Mixed or shared responsibility,supply_chain_role: Application software,4
+actor_unit: Research group or lab,supply_chain_role: Infrastructure,15
+actor_unit: Individual maintainer,supply_chain_role: Infrastructure,4
+actor_unit: Unknown,supply_chain_role: Dependency software artifact,1
+actor_unit: Community or foundation (open source governance),supply_chain_role: Governance software,6
+supply_chain_role: Governance software,research_role: Research-support tooling,6
+"actor_unit: Institution (university, lab, government research organization)",supply_chain_role: Unknown,5
+research_role: Incidental or general-purpose,distribution_pathway: Installer or binary,3
+supply_chain_role: Infrastructure,research_role: Incidental or general-purpose,4
+actor_unit: Community or foundation (open source governance),supply_chain_role: Runtime instrumentation software,1
+supply_chain_role: Runtime instrumentation software,research_role: Research-support tooling,2
+research_role: Incidental or general-purpose,distribution_pathway: Containers,2
+"actor_unit: Institution (university, lab, government research organization)",supply_chain_role: Runtime instrumentation software,1
+actor_unit: Vendor or commercial entity,supply_chain_role: Unknown,1
+supply_chain_role: Dependency software artifact,research_role: Unknown,1
+research_role: Unknown,distribution_pathway: Package registry,1
+actor_unit: Platform operator (registry or hosting operator),supply_chain_role: Infrastructure,1
+research_role: Incidental or general-purpose,distribution_pathway: Builds and releases,1

@@ -1,0 +1,28 @@
+{
+  "repo": "https://github.com/apache/flex-falcon",
+  "timestamp_utc": "2026-01-24T01:54:22Z",
+  "repo_metadata": {
+    "name": "flex-falcon",
+    "full_name": "apache/flex-falcon",
+    "html_url": "https://github.com/apache/flex-falcon",
+    "description": "Mirror of Apache Flex Falcon",
+    "default_branch": "master",
+    "archived": false,
+    "fork": false,
+    "stargazers_count": 1
+  },
+  "data": {
+    "date": "2026-01-23T20:54:22-05:00",
+    "repo": {
+      "name": "github.com/apache/flex-falcon",
+      "commit": "HEAD"
+    },
+    "scorecard": {
+      "version": "v5.4.0",
+      "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+    },
+    "score": -1.0,
+    "checks": null,
+    "metadata": null
+  }
+}

@@ -1,79 +1,136 @@
-# Research Software
+# Operationalizing Research Software for Supply Chain Security (Artifact)
 
-[![DOI](https://zenodo.org/badge/268308501.svg)](https://zenodo.org/badge/latestdoi/268308501)
 
- - [**annotate**](https://rseng.github.io/software/) a repository in the static web interface or by [opening an issue](https://github.com/rseng/software/issues/new/choose) or in bulk [on your local machine](https://rseng.github.io/rse/tutorials/annotation/) 
- - [**view**](https://rseng.github.io/software/) this research software, taxonomy, and criteria
- - Use the **api** to see [repos](https://rseng.github.io/software/api/repos/index.json), [taxonomy](https://rseng.github.io/software/api/taxonomy/index.json), and [criteria](https://rseng.github.io/software/api/criteria/index.json)
+This repository contains the code and analyses for **"Operationalizing Research Software for Supply Chain Security"** by Kalu et al.
 
-**coming soon** annotate statically on the GitHub pages here, and automated weekly annotation prompts on social media and slack.
+It is built on top of the **Research Software Engineering (rseng)** and **uses the rseng/software database**. We credit and acknowledge the rseng repositories and database that provide the underlying data ([![DOI](https://zenodo.org/badge/268308501.svg)](https://zenodo.org/badge/latestdoi/268308501), (https://github.com/rseng/software/tree/1.0.0)). 
 
-What is research software? Simply stated, research software exists to support
-research. If we want to pursue better research, we then must understand it [3].
-This leads us to ask some basic question:
+Our work uses this foundation data to propose a Research Software Supply Chain based Taxonomy for Research Software. Then we tested this taxonomy with OpenSSF scorecard (collection and analysis scripts), We also collect a benchmark database of Apache Software Foundation (ASF) project repositories (to which we also obtained the OpenSSF Scorecard reports), and finally we present summary tables to highlight our results.
 
- 1. What is research software
- 2. What are criteria that might help to identify research software?
- 3. How do we organize research software?
 
-While we could make an attempt to derive a holistic definition, this approach 
-would be limited in not taking into account the context under which the definition
-is considered. For example, needing to define research software to determine
-eligibility for a grant is a different scenario than a journal needing
-to decide if a piece of software is in scope for publication, and both
-are different from an effort to study research software. In all cases, 
-the fundamental need for a context-specific definition is not only important in these
-scenarios, but also for basic communication. If I am to call something research
-software, it's essential that you know the criteria that I am using to consider it,
-how highly I consider each of those criteria, and a possibly classification
-that I am using to further drive my choices.
 
-## A Context Specific Definition
+## Our Contributions  (scripts and analyses)
 
-This repository, paired with [the document that prompted its original thinking](https://docs.google.com/document/d/1wDb0udH9OrFWrMBsAVb8RrUMCKKRHoyEep7yveJ1d0k/edit), takes the stance that it would be
-very challenging if not possible to create a single definition for research software.
-However, it's very reasonable to derive criteria, or questions that we can easily
-answer, that can be used to determine a relative strength of a piece of software
-on a dimension of "strongly yes" to "strongly no." We can also derive a taxonomy,
-or categorization of research software types that might further filter this decision
-making. Both of these classifications, a scoring and location in the taxonomy,
-can then be transparently stated and used to answer if a specific piece of software
-is indeed research software. Importantly, while the choice of threshold for scoring
-and taxonomy filter is subjective, the classification and answers to the criteria
-are not. We have a transparent, methodic way to define pieces of software, and we leave
-some final definition up to the individual or group that warrants needing the definition.
+All project-specific work for this paper lives in `scripts/`. Below is what each script does and how to run it.
 
-## Understanding for Science
+### 1) Batch taxonomy annotation (GPT 5.1)
 
-An understanding of the qualities of software that are required to support 
-this research life-cycle is essential to continue and maximize the potential for discovery. 
-In this light, research software is also about people, namely the developers and 
-community that utilizes it. If we can better characterize this community to 
-better understand how its needs map to research software, we can again better support scientific discovery.
 
-[3] C. Goble, "Better Software, Better Research," in IEEE Internet Computing, vol. 18, no. 5, pp. 4-8, Sept.-Oct. 2014, doi: 10.1109/MIC.2014.88.
-
-## How does it work?
-
- 1. **Taxonomy and Criteria** are served programaticaly from the [Research Software Engineering (rseng)](https://rseng.github.io/rseng) repository. If you want to contribute to either of those, that's the repository you should contribute to.
- 2. **Database**: the [Research Software Encyclopedia](https://github.com/rseng/rse) drives generation and update of the database here.
- 3. **Update** is automated using [GitHub Workflows](.github/workflows) that are run on a weekly bases.
- 4. **Annotate** via the command line or web interface by cloning the repository to and following instructions in the [annotate docs](https://rseng.github.io/rse/tutorials/annotation/). Your contribution is recorded in the git history, and your avatar is added to the contributor graphic. Other methods of annotation will also be available.
-
-## Web Interface
-
-A static web interface of the software database is generated automatically and served
-by the repository at [https://rseng.github.io/software/](https://rseng.github.io/software/). If you want to generate this
-manually you can do:
+What batch annotation does:
+- Reads `database/github/**/metadata.json` and applies the RSSC prompt (defined inside `scripts/annotate_db_gpt.py`).
+- Writes results to `New_SSC_Taxonomy.gpt-5.1` inside each metadata file.
+- `--batch-size` + `--batch-index` let you process the dataset in chunks.
+- `--auto-batch` runs all chunks sequentially.
+- `--progress-file` + `--resume` skip completed entries and allow restart-safe runs.
+For large runs of the GPT annotator, `scripts/annotate_db_gpt.py` supports batching and resumable progress logs.
 
 ```bash
-rse export --type static-web docs/
-rse export --type static-web docs/ --force # if exists
+# process a single batch
+python scripts/annotate_db_gpt.py --batch-size 100 --batch-index 0
+
+# process all batches sequentially
+python scripts/annotate_db_gpt.py --batch-size 100 --auto-batch
+
+# record progress and resume safely after failures
+python scripts/annotate_db_gpt.py --batch-size 100 --auto-batch \
+  --progress-file /tmp/annotate.progress.jsonl --resume
 ```
 
-Further, a static API is exported to [https://rseng.github.io/software/data.json](https://rseng.github.io/software/data.json) that provides a listing of your software repositories
-for some programmatic usage.
+### 2) OpenSSF Scorecard collection
 
-# Development Work
+- `scripts/scorecard_runner.py`  
+  Runs OpenSSF Scorecard over the rseng database and writes results into each repo’s `metadata.json` under `openssf_scorecard`.
+  ```bash
+  python scripts/scorecard_runner.py --token-file .scorecard_tokens.env --progress-file .scorecard.progress.jsonl --resume
+  ```
 
-For previous development work, see the [devel](devel) folder.
+- `scripts/run_scorecard_list.py`  
+  Runs Scorecard over a **list of repo URLs** and writes JSON outputs under `apache/scorecard/` plus an append-only JSONL at `apache/scorecard.results.jsonl`.
+  ```bash
+  python scripts/run_scorecard_list.py --repo-list apache/apache_github_org_repos.txt --token-file .scorecard_tokens.env --resume
+  ```
+
+### 3) Apache repository list builders
+
+- `scripts/get_apache_projects.py`  
+  Fetches ASF project registry and writes a GitHub repo list to `apache/apache_repos.txt` by default.
+  ```bash
+  python scripts/get_apache_projects.py
+  ```
+
+- `scripts/get_apache_github_org_repos.py`  
+  Lists all repositories in the **apache** GitHub org and writes `apache/apache_github_org_repos.txt`.
+  ```bash
+  python scripts/get_apache_github_org_repos.py
+  ```
+
+### 4) Database and analysis outputs
+
+- `scripts/db_results.py`  
+  Builds:
+  - `scorecard_by_actor.csv` (aggregated stats by actor_unit)
+  - `scorecard_missing.csv` (repos missing scorecard and/or taxonomy)
+  - `scorecard_repo_results.csv` (per-repo rows with taxonomy + scorecard scores + created_at)
+  ```bash
+  python scripts/db_results.py --repo-root . --repo-output scorecard_repo_results.csv
+  ```
+
+- `scripts/summarize_repo_results.py`  
+  Summarizes the per-repo CSV into:
+  - `taxonomy_category_percentages.csv`
+  - `scorecard_by_distribution_pathway.csv`
+  - `taxonomy_sankey.csv` (Sankey links as CSV)
+  ```bash
+  python scripts/summarize_repo_results.py --input-csv scorecard_repo_results.csv --exclude-na
+  ```
+  `--exclude-na` drops `-1` scores (not applicable / insufficient evidence) from averages while keeping `0` (evaluated and failed).
+
+- `scripts/make_summary_table.py`  
+  Produces a combined ASF vs RS summary table:
+  - `results/summary_table.csv`
+  - `results/summary_table.tex`
+  ```bash
+  python scripts/make_summary_table.py \
+    --rs scorecard_repo_results.csv \
+    --asf apache/scorecard.results.jsonl \
+    --outdir results/
+  ```
+
+## Outputs (CSV / Sankey)
+
+- `scorecard_repo_results.csv` — per-repo taxonomy + scorecard scores (rseng database)
+- `taxonomy_category_percentages.csv` — taxonomy distribution table
+- `scorecard_by_distribution_pathway.csv` — average scores by distribution_pathway
+- `taxonomy_sankey.csv` — Sankey links (source, target, value)
+- `results/summary_table.csv` / `results/summary_table.tex` — ASF vs RS comparisons
+
+## Tokens and configuration
+
+### GitHub tokens (Scorecard)
+Create `.scorecard_tokens.env` (ignored by git) with one token per line or KEY=VALUE:
+```
+GITHUB_TOKEN_1="ghp_..."
+GITHUB_TOKEN_2="ghp_..."
+```
+
+### OpenAI tokens (GPT annotation)
+Set `OPENAI_API_KEY` in `.env`:
+```
+OPENAI_API_KEY="sk-..."
+```
+
+## Installing dependencies
+
+### OpenSSF Scorecard CLI
+```
+brew install scorecard
+# or
+go install github.com/ossf/scorecard/v5/cmd/scorecard@latest
+```
+
+### Python packages
+```
+python -m venv .venv
+source .venv/bin/activate
+pip install pandas numpy tqdm python-dotenv openai
+```

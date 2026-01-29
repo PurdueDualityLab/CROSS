@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/PDBeurope/pdb-images",
+  "url": "https://github.com/PDBeurope/pdb-images",
+  "data": {
+    "title": "pdb‑images",
+    "url": "https://github.com/PDBeurope/pdb-images",
+    "credit": [],
+    "description": "Generates images from mmCIF/BCIF files",
+    "name": "pdb-images",
+    "full_name": "PDBeurope/pdb-images",
+    "html_url": "https://github.com/PDBeurope/pdb-images",
+    "created_at": "2023-03-23T12:55:50Z",
+    "updated_at": "2024-12-19T05:42:40Z",
+    "clone_url": "https://github.com/PDBeurope/pdb-images.git",
+    "size": 1941,
+    "stargazers_count": 38,
+    "watchers_count": 38,
+    "language": "TypeScript",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "subscribers_count": 6,
+    "owner": {
+      "html_url": "https://github.com/PDBeurope",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8808449?v=4",
+      "login": "PDBeurope",
+      "type": "Organization"
+    },
+    "timestamp": "2025-01-12 00:50:32.010465",
+    "avatar": "https://avatars.githubusercontent.com/u/8808449?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "npm",
+      "evidence": [
+        "README install command: \"npm install -g pdb-images\"",
+        "\"PDBImages is a command-line tool for generating images of macromolecular structures from mmCIF or binary CIF structure files based on Mol*.\"",
+        "\"PDBImages is available in the npm registry. You can install it globally on your machine (requires Node.js >= 18): npm install -g pdb-images\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T19:45:16Z"
+    }
+  }
+}

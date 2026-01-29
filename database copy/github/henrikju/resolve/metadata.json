@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/henrikju/resolve",
+  "url": "https://github.com/henrikju/resolve",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2015A%26A...581A..59J",
+      "https://ui.adsabs.harvard.edu/abs/2016A%26A...586A..76J",
+      "https://ui.adsabs.harvard.edu/abs/2015ascl.soft05028J/abstract"
+    ],
+    "title": "RESOLVE: Bayesian algorithm for aperture synthesis imaging in radio astronomy",
+    "url": "https://github.com/henrikju/resolve",
+    "name": "resolve",
+    "full_name": "henrikju/resolve",
+    "html_url": "https://github.com/henrikju/resolve",
+    "description": "A Bayesian radio aperture synthesis algorithm.",
+    "created_at": "2015-03-19T13:40:15Z",
+    "updated_at": "2022-01-11T12:41:11Z",
+    "clone_url": "https://github.com/henrikju/resolve.git",
+    "size": 587,
+    "stargazers_count": 9,
+    "watchers_count": 9,
+    "language": "Python",
+    "license": {
+      "key": "gpl-2.0",
+      "name": "GNU General Public License v2.0",
+      "spdx_id": "GPL-2.0",
+      "url": "https://api.github.com/licenses/gpl-2.0",
+      "node_id": "MDc6TGljZW5zZTg="
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/henrikju",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2954303?v=4",
+      "login": "henrikju",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:22:57.663259",
+    "avatar": "https://avatars.githubusercontent.com/u/2954303?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"RESOLVE is a Bayesian inference package for image reconstruction in radio interferometry.\"",
+        "\"RESOLVE is a python package with much functionality actually being deferred to underlying C routines. For the end user it is simply started as a command line python tool using the main function resolve.py: python resolve.py *data_pathname imsize cellsize resolve mode*\"",
+        "\"For more information, soon, you can refer to the [RESOLVE Wiki](https://github.com/henrikju/resolve/wiki).\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:19:18Z"
+    }
+  }
+}

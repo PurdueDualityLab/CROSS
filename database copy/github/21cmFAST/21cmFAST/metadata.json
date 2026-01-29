@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/21cmFAST/21cmFAST",
+  "url": "https://github.com/21cmfast/21cmFAST",
+  "data": {
+    "timestamp": "2020-10-25 00:28:55.962466",
+    "name": "21cmFAST",
+    "url": "https://api.github.com/repos/21cmfast/21cmFAST",
+    "full_name": "21cmfast/21cmFAST",
+    "html_url": "https://github.com/21cmfast/21cmFAST",
+    "private": false,
+    "description": "Official repository for 21cmFAST: a code for generating fast simulations of the cosmological 21cm signal",
+    "created_at": "2019-06-12T20:13:12Z",
+    "updated_at": "2020-10-23T16:06:56Z",
+    "clone_url": "https://github.com/21cmfast/21cmFAST.git",
+    "homepage": null,
+    "size": 24847,
+    "stargazers_count": 7,
+    "watchers_count": 7,
+    "language": "C",
+    "open_issues_count": 51,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 7,
+    "owner": {
+      "html_url": "https://github.com/21cmfast",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/51762336?v=4",
+      "login": "21cmfast",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "doi": "https://doi.org/10.5281/zenodo.4107189",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "conda-forge",
+      "evidence": [
+        "README install command: \"conda install -c conda-forge 21cmFAST\"",
+        "\"This is the official repository for ``21cmFAST``: a semi-numerical code that is able to produce 3D cosmological realisations of many physical fields in the early Universe.\"",
+        "\"21cmFAST has been widely used, for example, by the Murchison Widefield Array (MWA), LOw-Frequency ARray (LOFAR) and Hydrogen Epoch of Reionization Array (HERA), to model the large-scale cosmological 21-cm signal.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T16:17:38Z"
+    }
+  }
+}

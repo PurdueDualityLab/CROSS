@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/anwarbio/bioassays",
+  "url": "https://github.com/anwarbio/bioassays",
+  "data": {
+    "timestamp": "2020-10-11 00:26:27.455140",
+    "name": "bioassays",
+    "url": "https://api.github.com/repos/anwarbio/bioassays",
+    "full_name": "anwarbio/bioassays",
+    "html_url": "https://github.com/anwarbio/bioassays",
+    "private": false,
+    "description": null,
+    "created_at": "2020-06-12T16:30:20Z",
+    "updated_at": "2020-10-09T10:56:46Z",
+    "clone_url": "https://github.com/anwarbio/bioassays.git",
+    "homepage": null,
+    "size": 1039,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": "R",
+    "open_issues_count": 0,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/anwarbio",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/7861503?v=4",
+      "login": "anwarbio",
+      "type": "User"
+    },
+    "topics": []
+  },
+  "doi": "https://doi.org/10.5281/zenodo.4075110",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"bioassays\")\"",
+        "\"'Bioassays' is an R package, designed to provide a wide range of functions relevant to multi-well plate assays.\"",
+        "\"Bioassays can help in formatting, visualizing and analyzing multi-well plate data. It has functions for handling outliers... for estimating values from standard curves, for summarizing data and for doing statistical analysis.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T21:19:15Z"
+    }
+  }
+}

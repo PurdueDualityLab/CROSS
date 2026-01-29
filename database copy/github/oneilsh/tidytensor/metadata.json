@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/oneilsh/tidytensor",
+  "url": "https://github.com/oneilsh/tidytensor",
+  "data": {
+    "timestamp": "2021-10-10 00:36:08.785146",
+    "name": "tidytensor",
+    "url": "https://api.github.com/repos/oneilsh/tidytensor",
+    "full_name": "oneilsh/tidytensor",
+    "html_url": "https://github.com/oneilsh/tidytensor",
+    "private": false,
+    "description": "Utilities for multidimensional arrays as named hierarchical structures",
+    "created_at": "2018-12-05T18:58:21Z",
+    "updated_at": "2021-10-07T21:01:04Z",
+    "clone_url": "https://github.com/oneilsh/tidytensor.git",
+    "homepage": "",
+    "size": 15899,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "R",
+    "open_issues_count": 0,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 0,
+    "owner": {
+      "html_url": "https://github.com/oneilsh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/77859?v=4",
+      "login": "oneilsh",
+      "type": "User"
+    },
+    "topics": []
+  },
+  "doi": "https://doi.org/10.5281/zenodo.5555276",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"A simple `devtools::install_github(\"oneilsh/tidytensor\")` will do it. If you don't have `devtools`, first grab it with `install.packages(\"devtools\")`.\"",
+        "\"TidyTensor is an R package for inspecting and manipulating tensors (multidimensional arrays).\"",
+        "\"Designed to complement the  `keras` package for deep learning in R, functionality is layered on top of base R types.\" (indicates it is used as a library/dependency in R workflows)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:43:03Z"
+    }
+  }
+}

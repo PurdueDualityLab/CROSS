@@ -1,0 +1,70 @@
+{
+  "parser": "github",
+  "uid": "github/mirochaj/ares",
+  "url": "https://github.com/mirochaj/ares",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2020ApJ...897..175T",
+      "https://ui.adsabs.harvard.edu/abs/2014MNRAS.443.1211M",
+      "https://ui.adsabs.harvard.edu/abs/2020ascl.soft11010M/abstract"
+    ],
+    "title": "ARES: Accelerated Reionization Era Simulations",
+    "url": "https://github.com/mirochaj/ares",
+    "name": "ares",
+    "full_name": "mirochaj/ares",
+    "html_url": "https://github.com/mirochaj/ares",
+    "description": "Accelerated Reionization Era Simulations",
+    "created_at": "2020-03-23T20:25:55Z",
+    "updated_at": "2022-06-30T13:23:07Z",
+    "clone_url": "https://github.com/mirochaj/ares.git",
+    "size": 47189,
+    "stargazers_count": 10,
+    "watchers_count": 10,
+    "language": "Python",
+    "open_issues_count": 3,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/mirochaj",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3018135?v=4",
+      "login": "mirochaj",
+      "type": "User"
+    },
+    "topics": [
+      "21-cm-cosmology",
+      "galaxy-formation",
+      "reionization",
+      "cosmic-dawn",
+      "intensity-mapping"
+    ],
+    "timestamp": "2022-07-17 17:13:30.815328",
+    "avatar": "https://avatars.githubusercontent.com/u/3018135?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"**ares** will look in ``ares/input`` for lookup tables of various kinds. To download said lookup tables, run:\"",
+        "\"The Accelerated Reionization Era Simulations (ARES) code was designed to rapidly generate models for the global 21-cm signal. It can also be used as a 1-D radiative transfer code...\"",
+        "\"To clone a copy and install: git clone https://github.org/mirochaj/ares.git ... python setup.py install\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:22:08Z"
+    }
+  }
+}

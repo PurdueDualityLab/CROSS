@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/ahmedmagds/GNUVID",
+  "url": "https://github.com/ahmedmagds/GNUVID",
+  "data": {
+    "title": "GNUVID",
+    "url": "https://github.com/ahmedmagds/GNUVID",
+    "credit": [],
+    "tags": [
+      "dna-sequencing",
+      "high-throughput-sequencing"
+    ],
+    "description": "Gene Novelty Unit-based Virus Identification for SARS-CoV-2",
+    "name": "GNUVID",
+    "full_name": "ahmedmagds/GNUVID",
+    "html_url": "https://github.com/ahmedmagds/GNUVID",
+    "created_at": "2020-05-31T03:52:07Z",
+    "updated_at": "2021-10-24T02:29:32Z",
+    "clone_url": "https://github.com/ahmedmagds/GNUVID.git",
+    "size": 333116,
+    "stargazers_count": 3,
+    "watchers_count": 3,
+    "language": "Python",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/ahmedmagds",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18128206?v=4",
+      "login": "ahmedmagds",
+      "type": "User"
+    },
+    "timestamp": "2022-07-18 17:45:08.489482",
+    "avatar": "https://avatars.githubusercontent.com/u/18128206?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"[![Anaconda_install](https://anaconda.org/bioconda/gnuvid/badges/installer/conda.svg)](https://anaconda.org/bioconda/gnuvid)\"",
+        "\"GNUVID (GNU-based Virus IDentification) is a Python3 program. It ranks CDS nucleotide sequences in a genome fna file... It can type your query genome in seconds.\"",
+        "\"GNUVID is a command-line application written in Python3. Simply download and use!\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T21:02:32Z"
+    }
+  }
+}

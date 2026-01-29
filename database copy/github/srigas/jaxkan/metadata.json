@@ -1,0 +1,63 @@
+{
+  "parser": "github",
+  "uid": "github/srigas/jaxkan",
+  "url": "https://github.com/srigas/jaxKAN",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.15046478",
+    "name": "jaxKAN",
+    "url": "https://github.com/srigas/jaxKAN",
+    "full_name": "srigas/jaxKAN",
+    "html_url": "https://github.com/srigas/jaxKAN",
+    "description": "Kolmogorov-Arnold Networks built on JAX",
+    "created_at": "2024-05-11T08:36:28Z",
+    "updated_at": "2025-04-10T08:42:26Z",
+    "clone_url": "https://github.com/srigas/jaxKAN.git",
+    "homepage": "https://jaxkan.readthedocs.io",
+    "size": 17334,
+    "stargazers_count": 72,
+    "watchers_count": 72,
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/srigas",
+      "avatar_url": "https://avatars.githubusercontent.com/u/70939180?v=4",
+      "login": "srigas",
+      "type": "User"
+    },
+    "topics": [
+      "flax",
+      "jax",
+      "kolmogorov-arnold-networks"
+    ],
+    "timestamp": "2025-04-13 02:14:03.567415",
+    "avatar": "https://avatars.githubusercontent.com/u/70939180?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "\"jaxKAN is a Python package designed to enable the training of Kolmogorov-Arnold Networks (KANs) using the JAX framework. Built on Flax's NNX module, jaxKAN provides a collection of KAN layers that serve as foundational building blocks for various KAN architectures\" (library of layers, used by other code).",
+        "\"If you utilized `jaxKAN` for your own academic work, please use the following citation\" (explicit research usage and contribution to research results).",
+        "PyPI badge and link: \"[![PyPI version](https://img.shields.io/pypi/v/jaxkan.svg)](https://pypi.org/project/jaxkan/)\" (distribution via PyPI)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T03:46:07Z"
+    }
+  }
+}

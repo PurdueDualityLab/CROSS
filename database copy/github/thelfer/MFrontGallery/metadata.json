@@ -1,0 +1,66 @@
+{
+  "parser": "github",
+  "uid": "github/thelfer/MFrontGallery",
+  "url": "https://github.com/thelfer/MFrontGallery",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.13258209",
+    "name": "MFrontGallery",
+    "url": "https://github.com/thelfer/MFrontGallery",
+    "full_name": "thelfer/MFrontGallery",
+    "html_url": "https://github.com/thelfer/MFrontGallery",
+    "description": "This project shows how to create a compilation project for MFront properties, behaviours and models",
+    "created_at": "2017-09-13T17:28:47Z",
+    "updated_at": "2025-05-23T18:10:25Z",
+    "clone_url": "https://github.com/thelfer/MFrontGallery.git",
+    "homepage": "https://thelfer.github.io/MFrontGallery/web/index.html",
+    "size": 6305,
+    "stargazers_count": 22,
+    "watchers_count": 22,
+    "language": "CMake",
+    "open_issues_count": 6,
+    "license": {
+      "key": "lgpl-3.0",
+      "name": "GNU Lesser General Public License v3.0",
+      "spdx_id": "LGPL-3.0",
+      "url": "https://api.github.com/licenses/lgpl-3.0",
+      "node_id": "MDc6TGljZW5zZTEy"
+    },
+    "subscribers_count": 6,
+    "owner": {
+      "html_url": "https://github.com/thelfer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13975528?v=4",
+      "login": "thelfer",
+      "type": "User"
+    },
+    "topics": [
+      "heat-transfer",
+      "material-properties",
+      "solid-mechanics",
+      "material-knowledge-management",
+      "mfront"
+    ],
+    "timestamp": "2025-05-25 00:56:07.127850",
+    "avatar": "https://avatars.githubusercontent.com/u/13975528?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"ready-to-use `MFront` implementations of various material properties, behaviours and models\" (indicates components to be used by other software/models)",
+        "\"generic-behaviours: this part is dedicated to various mechanical behaviours that can be adapted to describe many materials\" (domain-specific modeling components for simulations/analyses)",
+        "\"The last purpose of this project is to show how to build a compilation project for `MFront`'s properties, behaviours and models.\" and version/tag info imply use via cloning/building from the repository rather than a package registry."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T04:24:17Z"
+    }
+  }
+}

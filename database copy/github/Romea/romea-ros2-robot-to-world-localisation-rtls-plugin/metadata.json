@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/Romea/romea-ros2-robot-to-world-localisation-rtls-plugin",
+  "url": "https://github.com/Romea/romea-ros2-robot-to-world-localisation-rtls-plugin",
+  "data": {
+    "name": "romea-ros2-robot-to-world-localisation-rtls-plugin",
+    "url": "https://github.com/Romea/romea-ros2-robot-to-world-localisation-rtls-plugin",
+    "full_name": "Romea/romea-ros2-robot-to-world-localisation-rtls-plugin",
+    "html_url": "https://github.com/Romea/romea-ros2-robot-to-world-localisation-rtls-plugin",
+    "private": false,
+    "description": null,
+    "created_at": "2023-09-28T19:27:41Z",
+    "updated_at": "2024-12-09T20:49:16Z",
+    "clone_url": "https://github.com/Romea/romea-ros2-robot-to-world-localisation-rtls-plugin.git",
+    "homepage": null,
+    "size": 25,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": "C++",
+    "open_issues_count": 0,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "subscribers_count": 0,
+    "owner": {
+      "html_url": "https://github.com/Romea",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20208303?v=4",
+      "login": "Romea",
+      "type": "Organization"
+    },
+    "topics": [],
+    "timestamp": "2025-01-19 00:48:48.141487",
+    "avatar": "https://avatars.githubusercontent.com/u/20208303?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This package is a RTLS plugin for robot localisation. It schedules ranging... It provides these measurements to the localization filter as well as a rough estimation of robot pose\" (domain-specific localization functionality).",
+        "\"ROS2 plugin node description\" with subscribed/published topics indicates it is a ROS2 node/plugin executed in a robot localization system, not a generic library.",
+        "\"romea_ros2_robot_to_world_localisation_rtls_plugin project was developed by Jean Laneurit in the context of BaudetRob2 ANR project\" (research project context, implying research use and source-based distribution via this repo)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T20:11:48Z"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/Pithikos/C-Thread-Pool",
+  "url": "https://github.com/Pithikos/C-Thread-Pool",
+  "data": {
+    "url": "https://github.com/Pithikos/C-Thread-Pool",
+    "title": "Cthreadpool-dev",
+    "description": "A minimal but powerful thread pool in ANSI C",
+    "name": "C-Thread-Pool",
+    "full_name": "Pithikos/C-Thread-Pool",
+    "html_url": "https://github.com/Pithikos/C-Thread-Pool",
+    "created_at": "2011-11-05T12:36:12Z",
+    "updated_at": "2022-07-16T17:07:52Z",
+    "clone_url": "https://github.com/Pithikos/C-Thread-Pool.git",
+    "size": 188,
+    "stargazers_count": 1386,
+    "watchers_count": 1386,
+    "language": "C",
+    "open_issues_count": 44,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 68,
+    "owner": {
+      "html_url": "https://github.com/Pithikos",
+      "avatar_url": "https://avatars.githubusercontent.com/u/400048?v=4",
+      "login": "Pithikos",
+      "type": "User"
+    },
+    "timestamp": "2022-07-20 17:29:33.652866",
+    "avatar": "https://avatars.githubusercontent.com/u/400048?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Vendor or commercial entity",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This is a minimal but advanced threadpool implementation.\" (generic C thread pool, not research-specific)",
+        "\"The library is not precompiled so you have to compile it with your project.\" (used as a library/dependency in other projects)",
+        "Usage instructions show compiling from the GitHub repository source: `gcc example.c thpool.c ... -o example` with no mention of package managers or releases."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T19:49:49Z"
+    }
+  }
+}

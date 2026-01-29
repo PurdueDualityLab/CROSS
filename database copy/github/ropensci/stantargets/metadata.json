@@ -1,0 +1,72 @@
+{
+  "parser": "github",
+  "uid": "github/ropensci/stantargets",
+  "url": "https://github.com/ropensci/stantargets",
+  "data": {
+    "timestamp": "2021-04-25 00:43:38.868074",
+    "name": "stantargets",
+    "url": "https://api.github.com/repos/ropensci/stantargets",
+    "full_name": "ropensci/stantargets",
+    "html_url": "https://github.com/ropensci/stantargets",
+    "private": false,
+    "description": "Reproducible Bayesian data analysis pipelines with targets and cmdstanr",
+    "created_at": "2020-11-23T21:41:44Z",
+    "updated_at": "2021-04-21T12:20:27Z",
+    "clone_url": "https://github.com/ropensci/stantargets.git",
+    "homepage": "https://wlandau.github.io/stantargets",
+    "size": 1082,
+    "stargazers_count": 17,
+    "watchers_count": 17,
+    "language": "R",
+    "open_issues_count": 0,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/ropensci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1200269?v=4",
+      "login": "ropensci",
+      "type": "Organization"
+    },
+    "topics": [
+      "r",
+      "rstats",
+      "reproducibility",
+      "high-performance-computing",
+      "stan",
+      "bayesian",
+      "statistics",
+      "targets",
+      "make",
+      "rstats-package",
+      "r-targetopia"
+    ]
+  },
+  "doi": "https://doi.org/10.5281/zenodo.4706113",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"remotes::install_github(\"ropensci/stantargets\")\"",
+        "\"To ease this burden, the `stantargets` R package creates Stan pipelines that are concise, efficient, scalable, and tailored to the needs of Bayesian statisticians.\" (describes it as an R package used within other workflows, i.e., a dependency)",
+        "\"Because the purpose of `stantargets` is to combine `targets` and `cmdstanr`\" (indicates it is tooling that orchestrates other research tools, supporting workflows rather than being the core analysis itself)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T02:38:52Z"
+    }
+  }
+}

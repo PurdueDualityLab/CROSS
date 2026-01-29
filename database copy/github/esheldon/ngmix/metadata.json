@@ -1,0 +1,67 @@
+{
+  "parser": "github",
+  "uid": "github/esheldon/ngmix",
+  "url": "https://github.com/esheldon/ngmix",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2016PhRvD..94b2002B",
+      "https://ui.adsabs.harvard.edu/abs/2015ascl.soft08008S/abstract"
+    ],
+    "title": "NGMIX: Gaussian mixture models for 2D images",
+    "url": "https://github.com/esheldon/ngmix",
+    "name": "ngmix",
+    "full_name": "esheldon/ngmix",
+    "html_url": "https://github.com/esheldon/ngmix",
+    "description": "Gaussian mixtures and image processing implemented in python",
+    "created_at": "2013-11-09T22:50:03Z",
+    "updated_at": "2022-07-11T01:27:12Z",
+    "clone_url": "https://github.com/esheldon/ngmix.git",
+    "size": 5638,
+    "stargazers_count": 37,
+    "watchers_count": 37,
+    "language": "Python",
+    "open_issues_count": 9,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 8,
+    "owner": {
+      "html_url": "https://github.com/esheldon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/621661?v=4",
+      "login": "esheldon",
+      "type": "User"
+    },
+    "topics": [
+      "python",
+      "image-processing",
+      "c"
+    ],
+    "timestamp": "2022-07-17 17:22:42.725347",
+    "avatar": "https://avatars.githubusercontent.com/u/621661?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "conda-forge",
+      "evidence": [
+        "README install command: \"conda install -c conda-forge ngmix\"",
+        "\"Gaussian mixture models and other tools for working with 2d images, implemented in python.\"",
+        "Installation shows it as a Python package with dependencies: \"dependencies - * numpy * numba >= 0.43\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:46:28Z"
+    }
+  }
+}

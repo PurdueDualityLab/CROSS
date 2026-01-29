@@ -1,0 +1,65 @@
+{
+  "parser": "github",
+  "uid": "github/jdidion/atropos",
+  "url": "https://github.com/jdidion/atropos",
+  "data": {
+    "url": "https://github.com/jdidion/atropos",
+    "title": "Atropos",
+    "description": "An NGS read trimming tool that is specific, sensitive, and speedy. (production)",
+    "doi": "https://peerj.com/articles/3720/",
+    "name": "atropos",
+    "full_name": "jdidion/atropos",
+    "html_url": "https://github.com/jdidion/atropos",
+    "created_at": "2016-06-17T18:09:07Z",
+    "updated_at": "2022-06-27T11:05:25Z",
+    "clone_url": "https://github.com/jdidion/atropos.git",
+    "size": 342871,
+    "stargazers_count": 111,
+    "watchers_count": 111,
+    "language": "Python",
+    "open_issues_count": 23,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 8,
+    "owner": {
+      "html_url": "https://github.com/jdidion",
+      "avatar_url": "https://avatars.githubusercontent.com/u/125854?v=4",
+      "login": "jdidion",
+      "type": "User"
+    },
+    "topics": [
+      "python3",
+      "bioinformatics",
+      "ngs",
+      "trimming"
+    ],
+    "timestamp": "2022-07-20 17:25:40.832300",
+    "avatar": "https://avatars.githubusercontent.com/u/125854?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install atropos[tqdm,pysam,ngstream]\"",
+        "\"Atropos is tool for specific, sensitive, and speedy trimming of NGS reads.\"",
+        "\"Atropos is available from [pypi](https://pypi.python.org/pypi/atropos) and can be installed using `pip`.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:31:43Z"
+    }
+  }
+}

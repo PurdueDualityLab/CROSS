@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/biocore/unifrac",
+  "url": "https://github.com/biocore/unifrac",
+  "data": {
+    "url": "https://github.com/biocore/unifrac",
+    "title": "Libssu-dev",
+    "description": "high-performance phylogenetic diversity calculations (dev)",
+    "doi": "https://www.nature.com/articles/s41592-018-0187-8",
+    "name": "unifrac",
+    "full_name": "biocore/unifrac",
+    "html_url": "https://github.com/biocore/unifrac",
+    "created_at": "2016-08-26T23:34:02Z",
+    "updated_at": "2022-04-16T04:00:53Z",
+    "clone_url": "https://github.com/biocore/unifrac.git",
+    "size": 1611,
+    "stargazers_count": 28,
+    "watchers_count": 28,
+    "language": "Python",
+    "open_issues_count": 14,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "subscribers_count": 10,
+    "owner": {
+      "html_url": "https://github.com/biocore",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6241857?v=4",
+      "login": "biocore",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-20 17:29:07.482662",
+    "avatar": "https://avatars.githubusercontent.com/u/6241857?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install iow\"",
+        "\"This repository produces the Python interface against the C API exposed via a shared library provided by the dependent unifrac-binaries repository.\" (library interface, used by other tools)",
+        "\"Currently, this module is used for phylogenetic diversity calculations in `qiime diversity beta-phylogenetic` for UniFrac and `qiime diversity alpha-phylogenetic-alt` for Faith's PD.\" (directly computes research-relevant diversity metrics)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T22:05:44Z"
+    }
+  }
+}

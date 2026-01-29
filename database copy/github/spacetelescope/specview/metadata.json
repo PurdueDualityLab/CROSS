@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/spacetelescope/specview",
+  "url": "https://github.com/spacetelescope/specview",
+  "data": {
+    "doi": [
+      "http://adsabs.harvard.edu/abs/2002SPIE.4847..410B",
+      "https://ui.adsabs.harvard.edu/abs/2012ascl.soft10016S/abstract"
+    ],
+    "title": "Specview: 1-D spectral visualization and analysis of astronomical spectrograms",
+    "url": "https://github.com/spacetelescope/specview",
+    "name": "specview",
+    "full_name": "spacetelescope/specview",
+    "html_url": "https://github.com/spacetelescope/specview",
+    "description": "Archived, see https://github.com/spacetelescope/specviz for future development. Spectrum visualization, manipulation,  and fitting",
+    "created_at": "2015-02-16T21:11:39Z",
+    "updated_at": "2018-01-25T20:06:56Z",
+    "clone_url": "https://github.com/spacetelescope/specview.git",
+    "size": 2716,
+    "stargazers_count": 6,
+    "watchers_count": 6,
+    "language": "Python",
+    "subscribers_count": 18,
+    "owner": {
+      "html_url": "https://github.com/spacetelescope",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2751928?v=4",
+      "login": "spacetelescope",
+      "type": "Organization"
+    },
+    "topics": [
+      "spectroscopy",
+      "astronomy",
+      "viewer",
+      "data-analysis"
+    ],
+    "timestamp": "2022-07-17 17:24:28.633529",
+    "avatar": "https://avatars.githubusercontent.com/u/2751928?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"This repo represents the work done for the first sprint aimed at creating a one-dimensional spectral analysis tool.\" (indicates a scientific analysis application)",
+        "\"Whether or not this code base will become an astropy affiliate package, the current framework as been placed under the `package-template`_\" (shows it is a scientific Python package, but no mention of package registry or binaries)",
+        "Owner org is `spacetelescope` and README references JWST Data Analysis Task Force and Forum, implying development under a formal space telescope science institution."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T03:44:41Z"
+    }
+  }
+}

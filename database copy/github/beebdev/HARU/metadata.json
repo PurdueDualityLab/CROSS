@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/beebdev/HARU",
+  "url": "https://github.com/beebdev/HARU",
+  "data": {
+    "name": "HARU",
+    "url": "https://github.com/beebdev/HARU",
+    "full_name": "beebdev/HARU",
+    "html_url": "https://github.com/beebdev/HARU",
+    "private": false,
+    "description": "Hardware Accelerated Read Until",
+    "created_at": "2021-07-09T02:54:32Z",
+    "updated_at": "2022-11-17T19:55:44Z",
+    "clone_url": "https://github.com/beebdev/HARU.git",
+    "homepage": null,
+    "size": 49191,
+    "stargazers_count": 6,
+    "watchers_count": 6,
+    "language": "Verilog",
+    "open_issues_count": 0,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/beebdev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/79354485?v=4",
+      "login": "beebdev",
+      "type": "User"
+    },
+    "topics": [],
+    "timestamp": "2023-05-14 00:38:43.352693",
+    "avatar": "https://avatars.githubusercontent.com/u/79354485?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"To quickly test out HARU, you can download the pre-built binary package built for Kria from the [latest release](https://github.com/beebdev/HARU/releases).\"",
+        "\"HARU is a heterogenous compute solution for Oxford Nanopore Technologies' adaptive sampling...\" (describes a concrete tool/solution users run for a genomics task)",
+        "\"To quickly test out HARU, you can download the pre-built binary package built for Kria from the latest release.\" (indicates distribution via built binary packages/releases)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T22:02:38Z"
+    }
+  }
+}

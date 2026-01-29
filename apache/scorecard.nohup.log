@@ -1,0 +1,60 @@
+nohup: ignoring input
+Repos: 2745
+Workers: 5
+Out dir: apache/scorecard
+[checkpoint] processed=50 success=49 skipped=0 errors=1
+[checkpoint] processed=100 success=99 skipped=0 errors=1
+[checkpoint] processed=150 success=148 skipped=0 errors=2
+[checkpoint] processed=200 success=198 skipped=0 errors=2
+[checkpoint] processed=250 success=248 skipped=0 errors=2
+[checkpoint] processed=300 success=297 skipped=0 errors=3
+[checkpoint] processed=350 success=347 skipped=0 errors=3
+[checkpoint] processed=400 success=392 skipped=0 errors=8
+[checkpoint] processed=450 success=404 skipped=0 errors=46
+[checkpoint] processed=500 success=450 skipped=0 errors=50
+[checkpoint] processed=550 success=500 skipped=0 errors=50
+[checkpoint] processed=600 success=550 skipped=0 errors=50
+[checkpoint] processed=650 success=599 skipped=0 errors=51
+[checkpoint] processed=700 success=649 skipped=0 errors=51
+[checkpoint] processed=750 success=699 skipped=0 errors=51
+[checkpoint] processed=800 success=749 skipped=0 errors=51
+[checkpoint] processed=850 success=795 skipped=0 errors=55
+[checkpoint] processed=900 success=845 skipped=0 errors=55
+[checkpoint] processed=950 success=891 skipped=0 errors=59
+[checkpoint] processed=1000 success=906 skipped=0 errors=94
+[checkpoint] processed=1050 success=956 skipped=0 errors=94
+[checkpoint] processed=1100 success=1006 skipped=0 errors=94
+[checkpoint] processed=1150 success=1056 skipped=0 errors=94
+[checkpoint] processed=1200 success=1106 skipped=0 errors=94
+[checkpoint] processed=1250 success=1156 skipped=0 errors=94
+[checkpoint] processed=1300 success=1206 skipped=0 errors=94
+[checkpoint] processed=1350 success=1256 skipped=0 errors=94
+[checkpoint] processed=1400 success=1306 skipped=0 errors=94
+[checkpoint] processed=1450 success=1350 skipped=0 errors=100
+[checkpoint] processed=1500 success=1400 skipped=0 errors=100
+[checkpoint] processed=1550 success=1446 skipped=0 errors=104
+[checkpoint] processed=1600 success=1466 skipped=0 errors=134
+[checkpoint] processed=1650 success=1508 skipped=0 errors=142
+[checkpoint] processed=1700 success=1557 skipped=0 errors=143
+[checkpoint] processed=1750 success=1607 skipped=0 errors=143
+[checkpoint] processed=1800 success=1656 skipped=0 errors=144
+[checkpoint] processed=1850 success=1706 skipped=0 errors=144
+[checkpoint] processed=1900 success=1756 skipped=0 errors=144
+[checkpoint] processed=1950 success=1800 skipped=0 errors=150
+[checkpoint] processed=2000 success=1850 skipped=0 errors=150
+[checkpoint] processed=2050 success=1900 skipped=0 errors=150
+[checkpoint] processed=2100 success=1949 skipped=0 errors=151
+[checkpoint] processed=2150 success=1965 skipped=0 errors=185
+[checkpoint] processed=2200 success=2015 skipped=0 errors=185
+[checkpoint] processed=2250 success=2065 skipped=0 errors=185
+[checkpoint] processed=2300 success=2115 skipped=0 errors=185
+[checkpoint] processed=2350 success=2165 skipped=0 errors=185
+[checkpoint] processed=2400 success=2215 skipped=0 errors=185
+[checkpoint] processed=2450 success=2265 skipped=0 errors=185
+[checkpoint] processed=2500 success=2313 skipped=0 errors=187
+[checkpoint] processed=2550 success=2362 skipped=0 errors=188
+[checkpoint] processed=2600 success=2406 skipped=0 errors=194
+[checkpoint] processed=2650 success=2456 skipped=0 errors=194
+[checkpoint] processed=2700 success=2506 skipped=0 errors=194
+Done.
+success=2551 skipped=0 errors=194

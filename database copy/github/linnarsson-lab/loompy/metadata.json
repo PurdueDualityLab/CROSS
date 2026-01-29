@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/linnarsson-lab/loompy",
+  "url": "https://github.com/linnarsson-lab/loompy",
+  "data": {
+    "url": "https://github.com/linnarsson-lab/loompy",
+    "title": "Python3-loompy",
+    "description": "Python implementation of the Loom file format - http://loompy.org",
+    "name": "loompy",
+    "full_name": "linnarsson-lab/loompy",
+    "html_url": "https://github.com/linnarsson-lab/loompy",
+    "created_at": "2017-03-29T11:38:54Z",
+    "updated_at": "2022-07-06T19:06:18Z",
+    "clone_url": "https://github.com/linnarsson-lab/loompy.git",
+    "size": 19926,
+    "stargazers_count": 119,
+    "watchers_count": 119,
+    "language": "Python",
+    "open_issues_count": 39,
+    "license": {
+      "key": "bsd-2-clause",
+      "name": "BSD 2-Clause \"Simplified\" License",
+      "spdx_id": "BSD-2-Clause",
+      "url": "https://api.github.com/licenses/bsd-2-clause",
+      "node_id": "MDc6TGljZW5zZTQ="
+    },
+    "subscribers_count": 10,
+    "owner": {
+      "html_url": "https://github.com/linnarsson-lab",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10656411?v=4",
+      "login": "linnarsson-lab",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-20 17:27:58.176381",
+    "avatar": "https://avatars.githubusercontent.com/u/10656411?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Loom, loompy, and the loom-viewer are being developed by members of the Linnarsson Lab\" (lab-identified ownership)",
+        "The project name and versioning (\"loompy v3.0\") indicate a reusable software component rather than a standalone end-user application, consistent with a library/dependency role.",
+        "README links only to documentation and a related viewer repo, with no mention of package managers, binaries, or services, implying distribution via the source repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:55:14Z"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "parser": "github",
+  "uid": "github/OpenMS/OpenMS",
+  "url": "https://github.com/OpenMS/OpenMS",
+  "data": {
+    "doi": "10.1007/978-1-60761-987-1_23",
+    "name": "OpenMS",
+    "url": "https://github.com/OpenMS/OpenMS",
+    "full_name": "OpenMS/OpenMS",
+    "html_url": "https://github.com/OpenMS/OpenMS",
+    "description": "The codebase of the OpenMS project",
+    "created_at": "2014-01-09T10:15:13Z",
+    "updated_at": "2025-04-30T12:20:14Z",
+    "clone_url": "https://github.com/OpenMS/OpenMS.git",
+    "homepage": "https://www.openms.de",
+    "size": 653267,
+    "stargazers_count": 506,
+    "watchers_count": 506,
+    "language": "C++",
+    "open_issues_count": 703,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 29,
+    "owner": {
+      "html_url": "https://github.com/OpenMS",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5994841?v=4",
+      "login": "OpenMS",
+      "type": "Organization"
+    },
+    "topics": [
+      "openms",
+      "c-plus-plus",
+      "ms-data",
+      "mass-spectrometry",
+      "linux",
+      "macos",
+      "windows",
+      "proteomics",
+      "analyses",
+      "algorithms",
+      "metabolomics",
+      "3-clause-bsd",
+      "hacktoberfest"
+    ],
+    "timestamp": "2025-05-04 00:56:12.349515",
+    "avatar": "https://avatars.githubusercontent.com/u/5994841?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"[![License (3-Clause BSD)](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg?logo=data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9i\"",
+        "\"OpenMS is an open-source software C++ library for LC-MS data management and analyses. It offers an infrastructure for rapid development of mass spectrometry-related software.\"",
+        "\"It comes with a vast variety of pre-built and ready-to-use tools for proteomics and metabolomics data analysis (TOPPTools) as well as powerful 1D, 2D and 3D visualization (TOPPView).\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T19:43:37Z"
+    }
+  }
+}

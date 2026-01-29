@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/giuspugl/MCMole3D",
+  "url": "https://github.com/giuspugl/MCMole3D",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2017MNRAS.469.2982P",
+      "https://ui.adsabs.harvard.edu/abs/2024ascl.soft09005P/abstract"
+    ],
+    "title": "MCMole3D: Statistical model for galactic molecular clouds",
+    "url": "https://github.com/giuspugl/MCMole3D",
+    "name": "MCMole3D",
+    "full_name": "giuspugl/MCMole3D",
+    "html_url": "https://github.com/giuspugl/MCMole3D",
+    "description": "MonteCarlo Molecular Line Emission 3d.Statistical Model for Galactic Molecular Clouds. For documentation please visit",
+    "created_at": "2016-03-18T16:55:30Z",
+    "updated_at": "2020-02-26T20:08:00Z",
+    "clone_url": "https://github.com/giuspugl/MCMole3D.git",
+    "homepage": "http://giuspugl.github.io/mcmole/index.html",
+    "size": 61,
+    "language": "Python",
+    "open_issues_count": 1,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/giuspugl",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8957029?v=4",
+      "login": "giuspugl",
+      "type": "User"
+    },
+    "timestamp": "2024-10-06 00:46:46.220775",
+    "avatar": "https://avatars.githubusercontent.com/u/8957029?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "\"MCMole3D is a python package which simulates the 3D molecular cloud emission in the Milky Way.\"",
+        "\"`MCMole3D` simulations have been used for the results in   [Puglisi et al 2017]\"",
+        "\"We maintain the package on PyPI, just need to run `pip install mcmole3d`\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:01:25Z"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "parser": "github",
+  "uid": "github/gpantel/MolPainter",
+  "url": "https://github.com/gpantel/MolPainter",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.7846421",
+    "name": "MolPainter",
+    "url": "https://github.com/gpantel/MolPainter",
+    "full_name": "gpantel/MolPainter",
+    "html_url": "https://github.com/gpantel/MolPainter",
+    "description": "A Tool for Drawing Complex Planar Molecular Systems of Arbitrary Composition and Placement",
+    "created_at": "2020-08-01T00:27:12Z",
+    "updated_at": "2023-03-20T03:42:38Z",
+    "clone_url": "https://github.com/gpantel/MolPainter.git",
+    "size": 7659,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/gpantel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5740723?v=4",
+      "login": "gpantel",
+      "type": "User"
+    },
+    "timestamp": "2023-04-23 00:38:12.689364",
+    "avatar": "https://avatars.githubusercontent.com/u/5740723?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install MolPainter\"",
+        "\"MolPainter is a novel graphical tool that enables users to specifically define the location of molecules in multi-layered, planar molecular systems.\"",
+        "\"MolSolvator, the sister program of MolPainter, is a command line tool that can rapidly solvate such planar systems within the context of the lattices of the \"solute\" systems produced by MolPainter.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:03:54Z"
+    }
+  }
+}

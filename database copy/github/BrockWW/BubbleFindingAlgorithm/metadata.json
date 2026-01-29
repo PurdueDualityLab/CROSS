@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/BrockWW/BubbleFindingAlgorithm",
+  "url": "https://github.com/BrockWW/BubbleFindingAlgorithm",
+  "data": {
+    "doi": [],
+    "title": "A New Superbubble Finding Algorithm: Description and Testing - Code",
+    "url": "https://github.com/BrockWW/BubbleFindingAlgorithm",
+    "name": "BubbleFindingAlgorithm",
+    "full_name": "BrockWW/BubbleFindingAlgorithm",
+    "html_url": "https://github.com/BrockWW/BubbleFindingAlgorithm",
+    "description": "Repository for developed algorithm used to find and measure supernovae bubbles in galaxy column density images.",
+    "created_at": "2024-02-08T19:46:40Z",
+    "updated_at": "2025-03-17T19:19:25Z",
+    "clone_url": "https://github.com/BrockWW/BubbleFindingAlgorithm.git",
+    "size": 9326,
+    "stargazers_count": 4,
+    "watchers_count": 4,
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/BrockWW",
+      "avatar_url": "https://avatars.githubusercontent.com/u/89614213?v=4",
+      "login": "BrockWW",
+      "type": "User"
+    },
+    "timestamp": "2025-03-23 00:50:13.069008",
+    "avatar": "https://avatars.githubusercontent.com/u/89614213?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install -r required_libraries.txt\"",
+        "\"We create an algorithm that is able to automatically detect and measure superbubbles left in galactic disks using common python libraries.\"",
+        "\"The algorithm takes an input column density galaxy image and returns the labels and basic measurements of the detected bubbles so tasks like plotting and further analysis can be done.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T16:47:38Z"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "parser": "github",
+  "uid": "github/jharno/cubep3m",
+  "url": "https://github.com/jharno/cubep3m",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2013MNRAS.436..540H",
+      "https://ui.adsabs.harvard.edu/abs/2012ascl.soft08018H/abstract"
+    ],
+    "title": "CUBEP3M: High performance P3M N-body code",
+    "url": "https://github.com/jharno/cubep3m",
+    "name": "cubep3m",
+    "full_name": "jharno/cubep3m",
+    "html_url": "https://github.com/jharno/cubep3m",
+    "description": "cosmological n-body code",
+    "created_at": "2011-11-29T04:08:12Z",
+    "updated_at": "2022-06-17T19:42:56Z",
+    "clone_url": "https://github.com/jharno/cubep3m.git",
+    "homepage": "https://wiki.cita.utoronto.ca/index.php/CubePM",
+    "size": 12977,
+    "stargazers_count": 30,
+    "watchers_count": 30,
+    "language": "FORTRAN",
+    "subscribers_count": 10,
+    "owner": {
+      "html_url": "https://github.com/jharno",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1123485?v=4",
+      "login": "jharno",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:24:34.982463",
+    "avatar": "https://avatars.githubusercontent.com/u/1123485?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "Instructions describe setting up simulation parameters and checkpoints: \"Personal cosmological parameters\", \"Checkpoints (redshift) for simulation 'xv' data\", \"Redshift for halofinder\", indicating a scientific simulation application.",
+        "Mentions batch-submission scripts and initialization scripts: \"batch-submission parameters\", \"batch-submission scripts\", \"Initialization scripts\", consistent with an end-user simulation code rather than a reusable library.",
+        "README instructions are about checking out the code and copying example config files within the repo, with no mention of package managers or binaries, implying distribution via cloning the source repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T00:33:50Z"
+    }
+  }
+}

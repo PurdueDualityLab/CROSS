@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/ImperialCollegeLondon/pytest_template_application",
+  "url": "https://github.com/ImperialCollegeLondon/pytest_template_application",
+  "data": {
+    "timestamp": "2022-05-12 03:43:35.361127",
+    "name": "pytest_template_application",
+    "url": "https://api.github.com/repos/ImperialCollegeLondon/pytest_template_application",
+    "full_name": "ImperialCollegeLondon/pytest_template_application",
+    "html_url": "https://github.com/ImperialCollegeLondon/pytest_template_application",
+    "private": false,
+    "description": "Python application template with automated QA and Docker image publishing",
+    "created_at": "2020-01-07T16:31:53Z",
+    "updated_at": "2021-02-02T12:05:43Z",
+    "clone_url": "https://github.com/ImperialCollegeLondon/pytest_template_application.git",
+    "homepage": "",
+    "size": 8,
+    "stargazers_count": 7,
+    "watchers_count": 7,
+    "language": "Python",
+    "open_issues_count": 0,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 8,
+    "owner": {
+      "html_url": "https://github.com/ImperialCollegeLondon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1220306?v=4",
+      "login": "ImperialCollegeLondon",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "contact": "Mark Woodbridge <m.woodbridge@imperial.ac.uk>",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"python -m pip install -U pip\"",
+        "\"It was developed by the Imperial College Research Computing Service for the Essential Software Engineering for Researchers course.\"",
+        "\"This is a minimal Python 3 application with automated tests using pytest, Coverage.py and GitHub Actions. It also provides pre-commit hooks ... and automated Docker image storage via GitHub Packages.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T18:01:26Z"
+    }
+  }
+}

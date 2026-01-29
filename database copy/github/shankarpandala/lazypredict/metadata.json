@@ -1,0 +1,69 @@
+{
+  "parser": "github",
+  "uid": "github/shankarpandala/lazypredict",
+  "url": "https://github.com/shankarpandala/lazypredict",
+  "data": {
+    "title": "LazyPredict",
+    "url": "https://github.com/shankarpandala/lazypredict",
+    "credit": [],
+    "tags": [
+      "machine-learning",
+      "other"
+    ],
+    "description": "Lazy Predict help build a lot of basic models without much code and helps understand which models works better without any parameter tuning",
+    "name": "lazypredict",
+    "full_name": "shankarpandala/lazypredict",
+    "html_url": "https://github.com/shankarpandala/lazypredict",
+    "created_at": "2019-11-16T09:56:35Z",
+    "updated_at": "2024-10-04T04:33:53Z",
+    "clone_url": "https://github.com/shankarpandala/lazypredict.git",
+    "size": 176,
+    "stargazers_count": 2872,
+    "watchers_count": 2872,
+    "language": "Python",
+    "open_issues_count": 95,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 30,
+    "owner": {
+      "html_url": "https://github.com/shankarpandala",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8924320?v=4",
+      "login": "shankarpandala",
+      "type": "User"
+    },
+    "topics": [
+      "machine-learning",
+      "automl",
+      "regression",
+      "classification"
+    ],
+    "timestamp": "2024-10-06 00:48:28.345635",
+    "avatar": "https://avatars.githubusercontent.com/u/8924320?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install lazypredict\"",
+        "\"To install Lazy Predict: `pip install lazypredict`\" (indicates distribution via Python package registry, PyPI)",
+        "\"To use Lazy Predict in a project: `import lazypredict`\" and examples importing `LazyClassifier`/`LazyRegressor` (shows it is used as a library dependency in other projects)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T03:24:13Z"
+    }
+  }
+}

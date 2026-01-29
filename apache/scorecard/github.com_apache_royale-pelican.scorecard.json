@@ -1,0 +1,28 @@
+{
+  "repo": "https://github.com/apache/royale-pelican",
+  "timestamp_utc": "2026-01-24T04:02:39Z",
+  "repo_metadata": {
+    "name": "royale-pelican",
+    "full_name": "apache/royale-pelican",
+    "html_url": "https://github.com/apache/royale-pelican",
+    "description": "Apache royale",
+    "default_branch": "main",
+    "archived": false,
+    "fork": false,
+    "stargazers_count": 0
+  },
+  "data": {
+    "date": "2026-01-23T23:02:39-05:00",
+    "repo": {
+      "name": "github.com/apache/royale-pelican",
+      "commit": "HEAD"
+    },
+    "scorecard": {
+      "version": "v5.4.0",
+      "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+    },
+    "score": -1.0,
+    "checks": null,
+    "metadata": null
+  }
+}

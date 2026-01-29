@@ -1,0 +1,66 @@
+{
+  "parser": "github",
+  "uid": "github/ratt-ru/codex-africanus",
+  "url": "https://github.com/ratt-ru/codex-africanus",
+  "data": {
+    "doi": [],
+    "title": "codex-africanus",
+    "url": "https://github.com/ratt-ru/codex-africanus",
+    "name": "codex-africanus",
+    "full_name": "ratt-ru/codex-africanus",
+    "html_url": "https://github.com/ratt-ru/codex-africanus",
+    "description": "Radio Astronomy Algorithms Library",
+    "created_at": "2018-03-28T10:20:18Z",
+    "updated_at": "2024-11-05T14:33:06Z",
+    "clone_url": "https://github.com/ratt-ru/codex-africanus.git",
+    "homepage": "https://codex-africanus.readthedocs.io",
+    "size": 1568,
+    "stargazers_count": 19,
+    "watchers_count": 19,
+    "language": "Python",
+    "open_issues_count": 30,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 19,
+    "owner": {
+      "html_url": "https://github.com/ratt-ru",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7933570?v=4",
+      "login": "ratt-ru",
+      "type": "Organization"
+    },
+    "topics": [
+      "radio-astronomy",
+      "python",
+      "numba",
+      "dask"
+    ],
+    "timestamp": "2024-12-22 00:51:10.116060",
+    "avatar": "https://avatars.githubusercontent.com/u/7933570?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "PyPI badge and link: `https://img.shields.io/pypi/v/codex-africanus.svg` with target `https://pypi.python.org/pypi/codex-africanus` indicates distribution via PyPI package registry.",
+        "Described as \"Radio Astronomy Building Blocks\", suggesting reusable components (library-style) for radio astronomy rather than a standalone end-user application.",
+        "Association with SKA (Square Kilometre Array) organization via Travis badge target `https://travis-ci.org/ska-sa/codex-africanus` and domain-specific description implies a research radio astronomy group or project team."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T02:05:53Z"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "parser": "github",
+  "uid": "github/noraeisner/LATTE",
+  "url": "https://github.com/noraeisner/LATTE",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2022MNRAS.tmp..699B",
+      "https://ui.adsabs.harvard.edu/abs/2020JOSS....5.2101E",
+      "https://ui.adsabs.harvard.edu/abs/2022ascl.soft05006E/abstract"
+    ],
+    "title": "LATTE: Lightcurve Analysis Tool for Transiting Exoplanet",
+    "url": "https://github.com/noraeisner/LATTE",
+    "name": "LATTE",
+    "full_name": "noraeisner/LATTE",
+    "html_url": "https://github.com/noraeisner/LATTE",
+    "description": "Lightcurve Analysis Tool for Transiting Exoplanet",
+    "created_at": "2019-11-16T17:40:51Z",
+    "updated_at": "2022-06-27T22:36:43Z",
+    "clone_url": "https://github.com/noraeisner/LATTE.git",
+    "size": 268254,
+    "stargazers_count": 23,
+    "watchers_count": 23,
+    "language": "Jupyter Notebook",
+    "open_issues_count": 30,
+    "license": {
+      "key": "lgpl-3.0",
+      "name": "GNU Lesser General Public License v3.0",
+      "spdx_id": "LGPL-3.0",
+      "url": "https://api.github.com/licenses/lgpl-3.0",
+      "node_id": "MDc6TGljZW5zZTEy"
+    },
+    "subscribers_count": 6,
+    "owner": {
+      "html_url": "https://github.com/noraeisner",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43934902?v=4",
+      "login": "noraeisner",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 16:48:45.877446",
+    "avatar": "https://avatars.githubusercontent.com/u/43934902?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"LATTE requires python3 to be installed on your computer, which can be download from https://www.python.org/downloads/. Once you have python3, you can download the code directly from github. Alternativ\"",
+        "\"Written by Nora L. Eisner\" (single named author/maintainer).",
+        "\"LATTE is an open source Python package that performs standard diagnostic tests to help identify, vet and characterise signals in the *TESS* lightcurves...\" (end-user analysis tool for research data)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T01:40:15Z"
+    }
+  }
+}

@@ -1,48 +1,267 @@
 {
-    "parser": "github",
-    "uid": "github/Cambridge-ICCS/FTorch",
+  "parser": "github",
+  "uid": "github/Cambridge-ICCS/FTorch",
+  "url": "https://github.com/Cambridge-ICCS/FTorch",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.14968153",
+    "name": "FTorch",
     "url": "https://github.com/Cambridge-ICCS/FTorch",
-    "data": {
-        "doi": "https://doi.org/10.5281/zenodo.14968153",
-        "name": "FTorch",
-        "url": "https://github.com/Cambridge-ICCS/FTorch",
-        "full_name": "Cambridge-ICCS/FTorch",
-        "html_url": "https://github.com/Cambridge-ICCS/FTorch",
-        "description": "A library for directly calling PyTorch ML models from Fortran.",
-        "created_at": "2022-10-14T15:56:34Z",
-        "updated_at": "2025-03-08T15:00:20Z",
-        "clone_url": "https://github.com/Cambridge-ICCS/FTorch.git",
-        "homepage": "https://cambridge-iccs.github.io/FTorch/",
-        "size": 7141,
-        "stargazers_count": 103,
-        "watchers_count": 103,
-        "language": "Fortran",
-        "open_issues_count": 58,
-        "license": {
-            "key": "mit",
-            "name": "MIT License",
-            "spdx_id": "MIT",
-            "url": "https://api.github.com/licenses/mit",
-            "node_id": "MDc6TGljZW5zZTEz"
-        },
-        "subscribers_count": 4,
-        "owner": {
-            "html_url": "https://github.com/Cambridge-ICCS",
-            "avatar_url": "https://avatars.githubusercontent.com/u/97293575?v=4",
-            "login": "Cambridge-ICCS",
-            "type": "Organization"
-        },
-        "topics": [
-            "fortran",
-            "pytorch",
-            "machine-learning",
-            "deep-learning",
-            "interoperability",
-            "torch",
-            "python",
-            "hacktoberfest"
-        ],
-        "timestamp": "2025-03-09 00:40:31.489506",
-        "avatar": "https://avatars.githubusercontent.com/u/97293575?v=4"
+    "full_name": "Cambridge-ICCS/FTorch",
+    "html_url": "https://github.com/Cambridge-ICCS/FTorch",
+    "description": "A library for directly calling PyTorch ML models from Fortran.",
+    "created_at": "2022-10-14T15:56:34Z",
+    "updated_at": "2025-03-08T15:00:20Z",
+    "clone_url": "https://github.com/Cambridge-ICCS/FTorch.git",
+    "homepage": "https://cambridge-iccs.github.io/FTorch/",
+    "size": 7141,
+    "stargazers_count": 103,
+    "watchers_count": 103,
+    "language": "Fortran",
+    "open_issues_count": 58,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/Cambridge-ICCS",
+      "avatar_url": "https://avatars.githubusercontent.com/u/97293575?v=4",
+      "login": "Cambridge-ICCS",
+      "type": "Organization"
+    },
+    "topics": [
+      "fortran",
+      "pytorch",
+      "machine-learning",
+      "deep-learning",
+      "interoperability",
+      "torch",
+      "python",
+      "hacktoberfest"
+    ],
+    "timestamp": "2025-03-09 00:40:31.489506",
+    "avatar": "https://avatars.githubusercontent.com/u/97293575?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"FTorch is a library enabling users to directly couple their PyTorch models to Fortran code.\"",
+        "\"This repository contains code, utilities, and examples for directly using PyTorch ML models from Fortran.\"",
+        "\"The installation process has three main steps: 1. Fetch the source code from GitHub via git...\" and the example `git clone https://github.com/Cambridge-ICCS/FTorch.git` indicating source-based installation."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T16:51:52Z"
     }
+  },
+  "openssf_scorecard": {
+    "data": {
+      "date": "2026-01-23T07:26:23-05:00",
+      "repo": {
+        "name": "github.com/Cambridge-ICCS/FTorch",
+        "commit": "8387f20106715bb7e192deb11729d1eb113f4f27"
+      },
+      "scorecard": {
+        "version": "v5.4.0",
+        "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+      },
+      "score": 6.7,
+      "checks": [
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no binaries found in the repo",
+          "name": "Binary-Artifacts",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#binary-artifacts",
+            "short": "Determines if the project has generated executable (binary) artifacts in the source repository."
+          }
+        },
+        {
+          "details": null,
+          "score": 6,
+          "reason": "branch protection is not maximal on development and all release branches",
+          "name": "Branch-Protection",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#branch-protection",
+            "short": "Determines if the default and release branches are protected with GitHub's branch protection settings."
+          }
+        },
+        {
+          "details": null,
+          "score": 9,
+          "reason": "14 out of 15 merged PRs checked by a CI test -- score normalized to 9",
+          "name": "CI-Tests",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#ci-tests",
+            "short": "Determines if the project runs tests before pull requests are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no effort to earn an OpenSSF best practices badge detected",
+          "name": "CII-Best-Practices",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#cii-best-practices",
+            "short": "Determines if the project has an OpenSSF (formerly CII) Best Practices Badge."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "all changesets reviewed",
+          "name": "Code-Review",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#code-review",
+            "short": "Determines if the project requires human code review before pull requests (aka merge requests) are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "project has 21 contributing companies or organizations",
+          "name": "Contributors",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#contributors",
+            "short": "Determines if the project has a set of contributors from multiple organizations (e.g., companies)."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "no dangerous workflow patterns detected",
+          "name": "Dangerous-Workflow",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dangerous-workflow",
+            "short": "Determines if the project's GitHub Action workflows avoid dangerous patterns."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no update tool detected",
+          "name": "Dependency-Update-Tool",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dependency-update-tool",
+            "short": "Determines if the project uses a dependency update tool."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "project is not fuzzed",
+          "name": "Fuzzing",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#fuzzing",
+            "short": "Determines if the project uses fuzzing."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "license file detected",
+          "name": "License",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#license",
+            "short": "Determines if the project has defined a license."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "30 commit(s) and 13 issue activity found in the last 90 days -- score normalized to 10",
+          "name": "Maintained",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#maintained",
+            "short": "Determines if the project is \"actively maintained\"."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "packaging workflow not detected",
+          "name": "Packaging",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#packaging",
+            "short": "Determines if the project is published as a package that others can easily download, install, easily update, and uninstall."
+          }
+        },
+        {
+          "details": null,
+          "score": 3,
+          "reason": "dependency not pinned by hash detected -- score normalized to 3",
+          "name": "Pinned-Dependencies",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#pinned-dependencies",
+            "short": "Determines if the project has declared and pinned the dependencies of its build process."
+          }
+        },
+        {
+          "details": null,
+          "score": 2,
+          "reason": "SAST tool is not run on all commits -- score normalized to 2",
+          "name": "SAST",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#sast",
+            "short": "Determines if the project uses static code analysis."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "security policy file not detected",
+          "name": "Security-Policy",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#security-policy",
+            "short": "Determines if the project has published a security policy."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no releases found",
+          "name": "Signed-Releases",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#signed-releases",
+            "short": "Determines if the project cryptographically signs release artifacts."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "GitHub workflow tokens follow principle of least privilege",
+          "name": "Token-Permissions",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#token-permissions",
+            "short": "Determines if the project's workflows follow the principle of least privilege."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "0 existing vulnerabilities detected",
+          "name": "Vulnerabilities",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#vulnerabilities",
+            "short": "Determines if the project has open, known unfixed vulnerabilities."
+          }
+        }
+      ],
+      "metadata": null
+    },
+    "timestamp_utc": "2026-01-23T12:26:41Z"
+  }
 }

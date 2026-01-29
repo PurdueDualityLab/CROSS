@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/radio1988/OneStopRNAseq",
+  "url": "https://github.com/radio1988/OneStopRNAseq",
+  "data": {
+    "timestamp": "2021-03-14 00:22:53.821893",
+    "name": "OneStopRNAseq",
+    "url": "https://api.github.com/repos/radio1988/OneStopRNAseq",
+    "full_name": "radio1988/OneStopRNAseq",
+    "html_url": "https://github.com/radio1988/OneStopRNAseq",
+    "private": false,
+    "description": null,
+    "created_at": "2020-05-08T14:35:17Z",
+    "updated_at": "2021-02-04T03:39:55Z",
+    "clone_url": "https://github.com/radio1988/OneStopRNAseq.git",
+    "homepage": null,
+    "size": 294285,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "Scala",
+    "open_issues_count": 1,
+    "license": null,
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/radio1988",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11168803?v=4",
+      "login": "radio1988",
+      "type": "User"
+    },
+    "topics": []
+  },
+  "doi": "10.3390/GENES11101165",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"Citation: Li R, Hu K, Liu H, Green MR, Zhu LJ. OneStopRNAseq: A Web Application for Comprehensive and Efficient Analyses of RNA-Seq Data. Genes (Basel). 2020 Oct 2;11(10):1165. doi: 10.3390/genes11101\"",
+        "\"OneStopRNAseq: A Web Application for Comprehensive and Efficient Analyses of RNA-Seq Data.\"",
+        "\"Website for submitting analysis jobs: https://mccb.umassmed.edu/OneStopRNAseq/index.php\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T02:03:13Z"
+    }
+  }
+}

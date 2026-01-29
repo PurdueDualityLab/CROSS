@@ -1,0 +1,58 @@
+{
+  "parser": "github",
+  "uid": "github/galizia-lab/pyview",
+  "url": "https://github.com/galizia-lab/pyview",
+  "data": {
+    "doi": "https://doi.org/10.12751/g-node.ezh5w2",
+    "name": "pyview",
+    "url": "https://github.com/galizia-lab/pyview",
+    "full_name": "galizia-lab/pyview",
+    "html_url": "https://github.com/galizia-lab/pyview",
+    "description": "GUI + API for processing and visualizing Calcium imaging data.  Largely based on the IDL software \"VIEW\" developed by Giovanni Galizia. Implemented in Python by Ajayrama Kumaraswamy",
+    "created_at": "2021-09-02T09:38:23Z",
+    "updated_at": "2023-02-24T11:15:05Z",
+    "clone_url": "https://github.com/galizia-lab/pyview.git",
+    "size": 50236,
+    "stargazers_count": 4,
+    "watchers_count": 4,
+    "language": "Jupyter Notebook",
+    "open_issues_count": 6,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/galizia-lab",
+      "avatar_url": "https://avatars.githubusercontent.com/u/89973106?v=4",
+      "login": "galizia-lab",
+      "type": "Organization"
+    },
+    "timestamp": "2023-02-26 00:42:14.630956",
+    "avatar": "https://avatars.githubusercontent.com/u/89973106?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Welcome to the repository containing the python implementation of PyView\" and owner is GitHub org `galizia-lab`, indicating a lab-based project.",
+        "\"PyView is a general purpose tool to analyze calcium imaging data of responses to sensory stimuli. It provides a powerful GUI to interactively visualize, analyse and assess the quality of imaging stacks\" (end-user analysis application).",
+        "Installation and use are via GitHub source and tags: \"Take note tag of the latest release of PyView from here\" and \"pip install git+https://git@github.com/galizia-lab/pyview.git@<tag name>\"; users may also \"get a ZIP or TARBALL of the source code of the lastest release of PyView here\"."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T23:56:43Z"
+    }
+  }
+}

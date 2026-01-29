@@ -1,0 +1,57 @@
+{
+  "parser": "github",
+  "uid": "github/DEIB-GECO/genereg",
+  "url": "https://github.com/DEIB-GECO/genereg",
+  "data": {
+    "doi": "10.1186/s12859-021-04481-1",
+    "name": "genereg",
+    "url": "https://github.com/DEIB-GECO/genereg",
+    "full_name": "DEIB-GECO/genereg",
+    "html_url": "https://github.com/DEIB-GECO/genereg",
+    "description": "Python library for the analysis of gene expression regulation systems of genes of interest in TCGA cancers.",
+    "created_at": "2018-08-23T19:12:06Z",
+    "updated_at": "2020-10-03T10:21:50Z",
+    "clone_url": "https://github.com/DEIB-GECO/genereg.git",
+    "size": 27664,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Python",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/DEIB-GECO",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26458078?v=4",
+      "login": "DEIB-GECO",
+      "type": "Organization"
+    },
+    "timestamp": "2023-11-19 00:37:54.140269",
+    "avatar": "https://avatars.githubusercontent.com/u/26458078?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "\"This library implements a method for analyzing the regulation systems of target genes in a specific genetic pathology\" (described as a library, indicating it is used as a dependency).",
+        "\"Adopting a linear regression approach, it builds a predictive model for the regulation of target genes expression, in order to identify the relevant features that explain the regulation of each gene of interest\" (directly performs domain-specific analysis for research results).",
+        "PyPI badge and link: \"[![PyPI version]...](https://pypi.org/project/genereg/)\" (indicates distribution via the PyPI package registry)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T16:59:25Z"
+    }
+  }
+}

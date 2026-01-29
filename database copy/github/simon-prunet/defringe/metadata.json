@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/simon-prunet/defringe",
+  "url": "https://github.com/simon-prunet/defringe",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2021PASP..133k4502P",
+      "https://ui.adsabs.harvard.edu/abs/2021ascl.soft12004P/abstract"
+    ],
+    "title": "Defringe: Fringe artifact correction",
+    "url": "https://github.com/simon-prunet/defringe",
+    "name": "defringe",
+    "full_name": "simon-prunet/defringe",
+    "html_url": "https://github.com/simon-prunet/defringe",
+    "description": "CCD infrared image defringing code in python, using cupy for GPU acceleration. Based on matrix completion of noisy matrix with low-rank regularization via nuclear norm.",
+    "created_at": "2021-10-13T08:02:40Z",
+    "updated_at": "2021-10-25T07:08:16Z",
+    "clone_url": "https://github.com/simon-prunet/defringe.git",
+    "size": 50,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "language": "Python",
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/simon-prunet",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31455690?v=4",
+      "login": "simon-prunet",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 16:49:49.265062",
+    "avatar": "https://avatars.githubusercontent.com/u/31455690?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"CCD infrared image defringing code in python, using cupy for GPU acceleration.\"",
+        "\"Main driver routine is algorithms.doit()\" (indicates it is run as an application to process images)",
+        "README describes code and usage but does not mention any package manager, containers, or binaries, implying distribution via the source repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T03:27:34Z"
+    }
+  }
+}

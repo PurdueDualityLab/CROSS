@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/bbye98/mdcraft",
+  "url": "https://github.com/bbye98/mdcraft",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.13308642",
+    "name": "mdcraft",
+    "url": "https://github.com/bbye98/mdcraft",
+    "full_name": "bbye98/mdcraft",
+    "html_url": "https://github.com/bbye98/mdcraft",
+    "description": "A Python assistant for performing and analyzing molecular dynamics simulations of soft matter systems",
+    "created_at": "2024-05-07T05:35:44Z",
+    "updated_at": "2024-08-16T19:43:14Z",
+    "clone_url": "https://github.com/bbye98/mdcraft.git",
+    "homepage": "https://mdcraft.readthedocs.io/",
+    "size": 12131,
+    "stargazers_count": 8,
+    "watchers_count": 8,
+    "language": "Python",
+    "open_issues_count": 1,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/bbye98",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43505873?v=4",
+      "login": "bbye98",
+      "type": "User"
+    },
+    "timestamp": "2024-08-18 00:42:02.856604",
+    "avatar": "https://avatars.githubusercontent.com/u/43505873?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"python3 -m pip install -e .\"",
+        "\"MDCraft is a toolkit of analysis modules and helper functions for molecular dynamics (MD) simulations.\"",
+        "Features list shows subpackages like `algorithm`, `analysis`, `fit`, `openmm`, indicating it is imported as a Python package rather than a standalone app."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T22:00:42Z"
+    }
+  }
+}

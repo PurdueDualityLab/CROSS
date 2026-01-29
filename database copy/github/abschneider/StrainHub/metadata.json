@@ -1,0 +1,65 @@
+{
+  "parser": "github",
+  "uid": "github/abschneider/StrainHub",
+  "url": "https://github.com/abschneider/StrainHub",
+  "data": {
+    "timestamp": "2020-12-27 00:31:36.180757",
+    "name": "StrainHub",
+    "url": "https://api.github.com/repos/abschneider/StrainHub",
+    "full_name": "abschneider/StrainHub",
+    "html_url": "https://github.com/abschneider/StrainHub",
+    "private": false,
+    "description": "Welcome to the StrainHub Repo - Files and Data - StrainHub Online:",
+    "created_at": "2019-02-24T20:29:30Z",
+    "updated_at": "2020-11-18T05:08:36Z",
+    "clone_url": "https://github.com/abschneider/StrainHub.git",
+    "homepage": "http://strainhub.io",
+    "size": 5414,
+    "stargazers_count": 7,
+    "watchers_count": 7,
+    "language": "HTML",
+    "open_issues_count": 0,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/abschneider",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/26801239?v=4",
+      "login": "abschneider",
+      "type": "User"
+    },
+    "topics": [
+      "phylogenetics",
+      "transmission-network",
+      "phylogenomics",
+      "phylogeography"
+    ]
+  },
+  "doi": "10.1093/BIOINFORMATICS/BTZ646",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Containers",
+      "distribution_details": null,
+      "evidence": [
+        "README container command: \"docker pull cford38/strainhub:latest\"",
+        "\"StrainHub is designed as a web-based software to generate disease transmission networks and associated metrics from a combination of a phylogenetic tree and associated metadata.\"",
+        "\"We created a web-based application, called StrainHub, in which a user can input a phylogenetic tree... StrainHub generates a transmission network... The outputs include the network... and the tree with characters reconstructed.\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T20:43:57Z"
+    }
+  }
+}

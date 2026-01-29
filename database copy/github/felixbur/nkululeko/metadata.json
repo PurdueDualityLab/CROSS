@@ -1,0 +1,63 @@
+{
+  "parser": "github",
+  "uid": "github/felixbur/nkululeko",
+  "url": "https://github.com/felixbur/nkululeko",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.17349217",
+    "name": "nkululeko",
+    "url": "https://github.com/felixbur/nkululeko",
+    "full_name": "felixbur/nkululeko",
+    "html_url": "https://github.com/felixbur/nkululeko",
+    "description": "Machine learning speaker characteristics",
+    "created_at": "2021-08-03T13:43:10Z",
+    "updated_at": "2025-11-06T12:45:02Z",
+    "clone_url": "https://github.com/felixbur/nkululeko.git",
+    "size": 48071,
+    "stargazers_count": 41,
+    "watchers_count": 41,
+    "language": "Python",
+    "open_issues_count": 21,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/felixbur",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2063797?v=4",
+      "login": "felixbur",
+      "type": "User"
+    },
+    "topics": [
+      "speech",
+      "machine-learning",
+      "pytorch"
+    ],
+    "timestamp": "2025-11-09 00:54:59.362510",
+    "avatar": "https://avatars.githubusercontent.com/u/2063797?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install nkululeko\"",
+        "\"Nkululeko is a software to detect speaker characteristics by machine learning experiments with a high-level interface... a framework ... that can be used to rapidly and automatically analyse audio data and explore machine learning models\"",
+        "Usage is shown as a command-line program: \"python -m nkululeko.nkululeko --config experiment.ini\" and it produces research outputs like \"a confusion matrix for the emodb emotional categories\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:51:18Z"
+    }
+  }
+}

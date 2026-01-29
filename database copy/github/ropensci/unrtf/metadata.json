@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/ropensci/unrtf",
+  "url": "https://github.com/ropensci/unrtf",
+  "data": {
+    "timestamp": "2022-01-27 10:11:35.197539",
+    "name": "unrtf",
+    "url": "https://api.github.com/repos/ropensci/unrtf",
+    "full_name": "ropensci/unrtf",
+    "html_url": "https://github.com/ropensci/unrtf",
+    "private": false,
+    "description": "Wrapper for 'unrtf' utility to extract text from RTF documents",
+    "created_at": "2017-06-09T10:47:03Z",
+    "updated_at": "2021-12-09T10:14:13Z",
+    "clone_url": "https://github.com/ropensci/unrtf.git",
+    "homepage": "https://docs.ropensci.org/unrtf",
+    "size": 100,
+    "stargazers_count": 12,
+    "watchers_count": 12,
+    "language": "C",
+    "open_issues_count": 2,
+    "license": null,
+    "owner": {
+      "html_url": "https://github.com/ropensci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1200269?v=4",
+      "login": "ropensci",
+      "type": "Organization"
+    },
+    "topics": [
+      "rtf",
+      "extract-text",
+      "unrtf",
+      "r",
+      "rstats",
+      "r-package",
+      "literature"
+    ]
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"install.packages(\"unrtf\")\"",
+        "Owner is the GitHub organization 'ropensci', which is a community-driven R ecosystem group rather than a single lab or company.",
+        "\"Wraps the unrtf utility to extract text from rtf files.\" (an R package function intended to be called from other R code)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T03:10:51Z"
+    }
+  }
+}

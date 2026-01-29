@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/CosmoStatGW/DarkSirensStat",
+  "url": "https://github.com/CosmoStatGW/DarkSirensStat",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2021arXiv210112660F",
+      "https://ui.adsabs.harvard.edu/abs/2021ascl.soft06032F/abstract"
+    ],
+    "title": "DarkSirensStat: Measuring modified GW propagation and the Hubble parameter",
+    "url": "https://github.com/CosmoStatGW/DarkSirensStat",
+    "name": "DarkSirensStat",
+    "full_name": "CosmoStatGW/DarkSirensStat",
+    "html_url": "https://github.com/CosmoStatGW/DarkSirensStat",
+    "description": "Statistical method for measuring modified GW propagation and Hubble parameter with dark sirens and galaxy catalogues",
+    "created_at": "2021-01-28T15:00:46Z",
+    "updated_at": "2022-03-22T01:47:02Z",
+    "clone_url": "https://github.com/CosmoStatGW/DarkSirensStat.git",
+    "size": 10712,
+    "stargazers_count": 10,
+    "watchers_count": 10,
+    "language": "Python",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/CosmoStatGW",
+      "avatar_url": "https://avatars.githubusercontent.com/u/78158898?v=4",
+      "login": "CosmoStatGW",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-17 17:11:41.620646",
+    "avatar": "https://avatars.githubusercontent.com/u/78158898?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install -r requirements.txt\"",
+        "\"This package implements a hierarchical bayesian framework for constraining the Hubble parameter and modified GW propagation with dark sirens and galaxy catalogues.\"",
+        "\"The default options are for running inference for H0 on the O3 BBH events... To run, execute `python main.py`\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T16:57:06Z"
+    }
+  }
+}

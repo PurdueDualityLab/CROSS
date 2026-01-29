@@ -1,33 +1,252 @@
 {
-    "parser": "github",
-    "uid": "github/JulianBMunoz/RelicFast",
+  "parser": "github",
+  "uid": "github/JulianBMunoz/RelicFast",
+  "url": "https://github.com/JulianBMunoz/RelicFast",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2018PhRvD..98d3503M",
+      "https://ui.adsabs.harvard.edu/abs/2023ascl.soft07003M/abstract"
+    ],
+    "title": "RelicFast: Fast scale-dependent halo bias",
     "url": "https://github.com/JulianBMunoz/RelicFast",
-    "data": {
-        "doi": [
-            "https://ui.adsabs.harvard.edu/abs/2018PhRvD..98d3503M",
-            "https://ui.adsabs.harvard.edu/abs/2023ascl.soft07003M/abstract"
-        ],
-        "title": "RelicFast: Fast scale-dependent halo bias",
-        "url": "https://github.com/JulianBMunoz/RelicFast",
-        "name": "RelicFast",
-        "full_name": "JulianBMunoz/RelicFast",
-        "html_url": "https://github.com/JulianBMunoz/RelicFast",
-        "description": "Code to find scale-dependent halo bias quickly and accurately",
-        "created_at": "2018-05-29T17:31:24Z",
-        "updated_at": "2021-08-09T04:51:36Z",
-        "clone_url": "https://github.com/JulianBMunoz/RelicFast.git",
-        "size": 15062,
-        "stargazers_count": 4,
-        "watchers_count": 4,
-        "language": "C",
-        "subscribers_count": 3,
-        "owner": {
-            "html_url": "https://github.com/JulianBMunoz",
-            "avatar_url": "https://avatars.githubusercontent.com/u/22434409?v=4",
-            "login": "JulianBMunoz",
-            "type": "User"
-        },
-        "timestamp": "2023-07-09 00:47:18.990652",
-        "avatar": "https://avatars.githubusercontent.com/u/22434409?v=4"
+    "name": "RelicFast",
+    "full_name": "JulianBMunoz/RelicFast",
+    "html_url": "https://github.com/JulianBMunoz/RelicFast",
+    "description": "Code to find scale-dependent halo bias quickly and accurately",
+    "created_at": "2018-05-29T17:31:24Z",
+    "updated_at": "2021-08-09T04:51:36Z",
+    "clone_url": "https://github.com/JulianBMunoz/RelicFast.git",
+    "size": 15062,
+    "stargazers_count": 4,
+    "watchers_count": 4,
+    "language": "C",
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/JulianBMunoz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22434409?v=4",
+      "login": "JulianBMunoz",
+      "type": "User"
+    },
+    "timestamp": "2023-07-09 00:47:18.990652",
+    "avatar": "https://avatars.githubusercontent.com/u/22434409?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"Details of the code are described in 'Efficient Computation of Galaxy Bias with Neutrinos and Other Relics' J.B. Muñoz and C. Dvorkin (2018) Phys. Rev. D 98, 043503 [arXiv:1805.11623].\" (indicates a research code implementing methods from a paper)",
+        "The repository is owned by a personal GitHub user account (owner_login: JulianBMunoz), suggesting an individually maintained research codebase.",
+        "Reference to the code only via the paper, with no mention of package managers, binaries, or services, implies distribution as source from the repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T18:09:21Z"
     }
+  },
+  "openssf_scorecard": {
+    "data": {
+      "date": "2026-01-23T08:19:15-05:00",
+      "repo": {
+        "name": "github.com/JulianBMunoz/RelicFast",
+        "commit": "505b8432919682346d2f10d427f0263438caa12a"
+      },
+      "scorecard": {
+        "version": "v5.4.0",
+        "commit": "80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e"
+      },
+      "score": 2.0,
+      "checks": [
+        {
+          "details": null,
+          "score": 8,
+          "reason": "binaries present in source code",
+          "name": "Binary-Artifacts",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#binary-artifacts",
+            "short": "Determines if the project has generated executable (binary) artifacts in the source repository."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "branch protection not enabled on development/release branches",
+          "name": "Branch-Protection",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#branch-protection",
+            "short": "Determines if the default and release branches are protected with GitHub's branch protection settings."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "0 out of 6 merged PRs checked by a CI test -- score normalized to 0",
+          "name": "CI-Tests",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#ci-tests",
+            "short": "Determines if the project runs tests before pull requests are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no effort to earn an OpenSSF best practices badge detected",
+          "name": "CII-Best-Practices",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#cii-best-practices",
+            "short": "Determines if the project has an OpenSSF (formerly CII) Best Practices Badge."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "Found 1/11 approved changesets -- score normalized to 0",
+          "name": "Code-Review",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#code-review",
+            "short": "Determines if the project requires human code review before pull requests (aka merge requests) are merged."
+          }
+        },
+        {
+          "details": null,
+          "score": 6,
+          "reason": "project has 2 contributing companies or organizations -- score normalized to 6",
+          "name": "Contributors",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#contributors",
+            "short": "Determines if the project has a set of contributors from multiple organizations (e.g., companies)."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no workflows found",
+          "name": "Dangerous-Workflow",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dangerous-workflow",
+            "short": "Determines if the project's GitHub Action workflows avoid dangerous patterns."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "no update tool detected",
+          "name": "Dependency-Update-Tool",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#dependency-update-tool",
+            "short": "Determines if the project uses a dependency update tool."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "project is not fuzzed",
+          "name": "Fuzzing",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#fuzzing",
+            "short": "Determines if the project uses fuzzing."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "license file not detected",
+          "name": "License",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#license",
+            "short": "Determines if the project has defined a license."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0",
+          "name": "Maintained",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#maintained",
+            "short": "Determines if the project is \"actively maintained\"."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "packaging workflow not detected",
+          "name": "Packaging",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#packaging",
+            "short": "Determines if the project is published as a package that others can easily download, install, easily update, and uninstall."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "dependency not pinned by hash detected -- score normalized to 0",
+          "name": "Pinned-Dependencies",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#pinned-dependencies",
+            "short": "Determines if the project has declared and pinned the dependencies of its build process."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "SAST tool is not run on all commits -- score normalized to 0",
+          "name": "SAST",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#sast",
+            "short": "Determines if the project uses static code analysis."
+          }
+        },
+        {
+          "details": null,
+          "score": 0,
+          "reason": "security policy file not detected",
+          "name": "Security-Policy",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#security-policy",
+            "short": "Determines if the project has published a security policy."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "no releases found",
+          "name": "Signed-Releases",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#signed-releases",
+            "short": "Determines if the project cryptographically signs release artifacts."
+          }
+        },
+        {
+          "details": null,
+          "score": -1,
+          "reason": "No tokens found",
+          "name": "Token-Permissions",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#token-permissions",
+            "short": "Determines if the project's workflows follow the principle of least privilege."
+          }
+        },
+        {
+          "details": null,
+          "score": 10,
+          "reason": "0 existing vulnerabilities detected",
+          "name": "Vulnerabilities",
+          "documentation": {
+            "url": "https://github.com/ossf/scorecard/blob/80ee3ecfedf8b19ab8991713a9fdb2e7dcd7262e/docs/checks.md#vulnerabilities",
+            "short": "Determines if the project has open, known unfixed vulnerabilities."
+          }
+        }
+      ],
+      "metadata": null
+    },
+    "timestamp_utc": "2026-01-23T13:19:24Z"
+  }
 }

@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/wdecoster/nanocomp",
+  "url": "https://github.com/wdecoster/nanocomp",
+  "data": {
+    "url": "https://github.com/wdecoster/nanocomp",
+    "title": "Nanocomp",
+    "description": "Comparison of multiple long read datasets",
+    "doi": "https://doi.org/10.1093/bioinformatics/bty149",
+    "name": "nanocomp",
+    "full_name": "wdecoster/nanocomp",
+    "html_url": "https://github.com/wdecoster/nanocomp",
+    "created_at": "2017-10-10T20:08:04Z",
+    "updated_at": "2022-05-02T14:04:15Z",
+    "clone_url": "https://github.com/wdecoster/nanocomp.git",
+    "size": 289,
+    "stargazers_count": 39,
+    "watchers_count": 39,
+    "language": "Python",
+    "open_issues_count": 4,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/wdecoster",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11660522?v=4",
+      "login": "wdecoster",
+      "type": "User"
+    },
+    "timestamp": "2022-07-20 17:28:25.155961",
+    "avatar": "https://avatars.githubusercontent.com/u/11660522?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"Specify the output format of the plots. JSON output allows for customisation by the end-user after plotting the figures (https://plotly.com/python-api-reference/generated/plotly.io.read_json.html).\"",
+        "\"Compare multiple runs of long read sequencing data and alignments. Creates violin plots or box plots of length, quality and percent identity...\"",
+        "\"NanoComp --bam alignment1.bam alignment2.bam alignment3.bam --outdir compare-runs\" (command-line tool used directly by researchers)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T04:52:26Z"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "parser": "github",
+  "uid": "github/dmilakovic/QSOSIM10",
+  "url": "https://github.com/dmilakovic/QSOSIM10",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2018ApJ...862...50M",
+      "https://ui.adsabs.harvard.edu/abs/2019ascl.soft12011M/abstract"
+    ],
+    "title": "QSOSIM: Simulated Quasar Spectrum Generator",
+    "url": "https://github.com/dmilakovic/QSOSIM10",
+    "name": "QSOSIM10",
+    "full_name": "dmilakovic/QSOSIM10",
+    "html_url": "https://github.com/dmilakovic/QSOSIM10",
+    "description": "Fortran code to generate artificial QSO spectra",
+    "created_at": "2014-10-13T01:38:17Z",
+    "updated_at": "2019-12-07T11:36:39Z",
+    "clone_url": "https://github.com/dmilakovic/QSOSIM10.git",
+    "size": 58755,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Fortran",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/dmilakovic",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8346157?v=4",
+      "login": "dmilakovic",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:15:21.475868",
+    "avatar": "https://avatars.githubusercontent.com/u/8346157?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "“To install QSOSIM, do the following… Run QSOSIM10 by typing “./qsosim10”.” (end-user executable program)",
+        "Instructions focus on compiling a single Fortran source file `qsosim10.f` and running the resulting executable, indicating a standalone application rather than a library.",
+        "No mention of package managers, registries, containers, or hosted services; distribution is implied via a downloadable source package that the user compiles and runs."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T23:35:13Z"
+    }
+  }
+}

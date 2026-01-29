@@ -1,0 +1,49 @@
+{
+  "parser": "github",
+  "uid": "github/AIgnesti/PT-REX",
+  "url": "https://github.com/AIgnesti/PT-REX",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2021arXiv211012720I",
+      "https://ui.adsabs.harvard.edu/abs/2021ascl.soft10021I/abstract"
+    ],
+    "title": "PT-REX: Point-to-point TRend EXtractor",
+    "url": "https://github.com/AIgnesti/PT-REX",
+    "name": "PT-REX",
+    "full_name": "AIgnesti/PT-REX",
+    "html_url": "https://github.com/AIgnesti/PT-REX",
+    "created_at": "2020-07-17T10:21:24Z",
+    "updated_at": "2020-11-06T11:34:35Z",
+    "clone_url": "https://github.com/AIgnesti/PT-REX.git",
+    "size": 833,
+    "owner": {
+      "html_url": "https://github.com/AIgnesti",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68424557?v=4",
+      "login": "AIgnesti",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 16:50:05.781428",
+    "avatar": "https://avatars.githubusercontent.com/u/68424557?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"python -m pip install -r requirements.txt\"",
+        "\"The PT-REX code is designed to carry out these studies between different emissions in extended sources.\"",
+        "\"PT-REX is a Python 3.x code\" and usage is via `python PT-REX.py ...` indicating it is run as a standalone analysis program on FITS images."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T16:20:14Z"
+    }
+  }
+}

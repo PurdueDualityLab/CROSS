@@ -1,0 +1,54 @@
+{
+  "parser": "github",
+  "uid": "github/sfschen/spinosaurus",
+  "url": "https://github.com/sfschen/spinosaurus",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2024JCAP...01..027C",
+      "https://ui.adsabs.harvard.edu/abs/2025ascl.soft11009C/abstract"
+    ],
+    "title": "spinosaurus: Lagrangian perturbation theory for galaxy shape and density correlations",
+    "url": "https://github.com/sfschen/spinosaurus",
+    "name": "spinosaurus",
+    "full_name": "sfschen/spinosaurus",
+    "html_url": "https://github.com/sfschen/spinosaurus",
+    "created_at": "2023-09-24T02:18:12Z",
+    "updated_at": "2025-07-23T19:58:22Z",
+    "clone_url": "https://github.com/sfschen/spinosaurus.git",
+    "size": 3214,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Jupyter Notebook",
+    "open_issues_count": 1,
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/sfschen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8505965?v=4",
+      "login": "sfschen",
+      "type": "User"
+    },
+    "timestamp": "2026-01-11 01:01:23.261351",
+    "avatar": "https://avatars.githubusercontent.com/u/8505965?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"spinosaurus computes 2-point functions of galaxy shapes and densities in Lagrangian perturbation theory.\"",
+        "\"It requires numpy, scipy and pyFFTW.\" (indicates a Python codebase likely run directly by users rather than as a packaged library)",
+        "README presents it as a code implementing calculations from a specific paper (Chen and Kokron 2023), implying direct use for scientific analysis rather than generic tooling."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T03:23:44Z"
+    }
+  }
+}

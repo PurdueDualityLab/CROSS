@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/bpairet/mayo_hci",
+  "url": "https://github.com/bpairet/mayo_hci",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2021MNRAS.503.3724P",
+      "https://ui.adsabs.harvard.edu/abs/2022ascl.soft04009P/abstract"
+    ],
+    "title": "MAYONNAISE: ADI data imaging processing pipeline",
+    "url": "https://github.com/bpairet/mayo_hci",
+    "name": "mayo_hci",
+    "full_name": "bpairet/mayo_hci",
+    "html_url": "https://github.com/bpairet/mayo_hci",
+    "created_at": "2020-08-02T12:07:41Z",
+    "updated_at": "2022-07-07T09:45:46Z",
+    "clone_url": "https://github.com/bpairet/mayo_hci.git",
+    "size": 48303,
+    "stargazers_count": 6,
+    "watchers_count": 6,
+    "language": "Jupyter Notebook",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/bpairet",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12684447?v=4",
+      "login": "bpairet",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 16:48:54.251506",
+    "avatar": "https://avatars.githubusercontent.com/u/12684447?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"MAYO is a pipeline for exoplanet and disk high-contrast imaging from ADI datasets.\"",
+        "\"An illustrative jupyter notebook is available at https://github.com/bpairet/mayo_hci/blob/master/example/Illustration%20of%20the%20MAYONNAISE%20pipeline.ipynb\" (indicates users clone/use from the GitHub repo)",
+        "\"MAYO pipeline, from Pairet et al. 2020\\n    Copyright (C) 2020, Benoit Pairet\" (single named author/maintainer)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T22:09:11Z"
+    }
+  }
+}

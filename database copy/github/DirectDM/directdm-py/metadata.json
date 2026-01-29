@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/DirectDM/directdm-py",
+  "url": "https://github.com/DirectDM/directdm-py",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2018EPJC...78..471H",
+      "https://ui.adsabs.harvard.edu/abs/2017arXiv170802678B",
+      "https://ui.adsabs.harvard.edu/abs/2018ascl.soft06016B/abstract"
+    ],
+    "title": "DirectDM-py: Dark matter direct detection",
+    "url": "https://github.com/DirectDM/directdm-py",
+    "name": "directdm-py",
+    "full_name": "DirectDM/directdm-py",
+    "html_url": "https://github.com/DirectDM/directdm-py",
+    "description": "Python version of the DirectDM package",
+    "created_at": "2017-08-11T17:53:06Z",
+    "updated_at": "2021-11-17T07:31:11Z",
+    "clone_url": "https://github.com/DirectDM/directdm-py.git",
+    "size": 512,
+    "stargazers_count": 4,
+    "watchers_count": 4,
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 3,
+    "owner": {
+      "html_url": "https://github.com/DirectDM",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30795796?v=4",
+      "login": "DirectDM",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-17 17:18:29.590672",
+    "avatar": "https://avatars.githubusercontent.com/u/30795796?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "\"DirectDM: a python package for dark matter direct detection\" and usage via `import directdm as ddm` indicate it is a Python library intended to be imported by other code, i.e., a dependency.",
+        "The package is used to \"calculate the direct detection scattering rates\" from dark matter effective field theory Wilson coefficients, which is a core physics analysis task, indicating direct research execution.",
+        "\"The latest release is available via the Python Package Index, so you can install it simply by executing `pip3 install directdm`\" shows distribution through the PyPI package registry."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T17:02:45Z"
+    }
+  }
+}

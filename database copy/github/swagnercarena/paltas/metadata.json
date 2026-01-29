@@ -1,0 +1,69 @@
+{
+  "parser": "github",
+  "uid": "github/swagnercarena/paltas",
+  "url": "https://github.com/swagnercarena/paltas",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2022arXiv220300690W",
+      "https://ui.adsabs.harvard.edu/abs/2022ascl.soft10029W/abstract"
+    ],
+    "title": "paltas: Simulation-based inference on strong gravitational lensing systems",
+    "url": "https://github.com/swagnercarena/paltas",
+    "name": "paltas",
+    "full_name": "swagnercarena/paltas",
+    "html_url": "https://github.com/swagnercarena/paltas",
+    "description": "Conduct simulation-based inference on strong gravitational lensing systems.",
+    "created_at": "2020-10-12T17:52:12Z",
+    "updated_at": "2022-09-09T21:32:20Z",
+    "clone_url": "https://github.com/swagnercarena/paltas.git",
+    "size": 6639,
+    "stargazers_count": 5,
+    "watchers_count": 5,
+    "language": "Python",
+    "open_issues_count": 2,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 2,
+    "owner": {
+      "html_url": "https://github.com/swagnercarena",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8857025?v=4",
+      "login": "swagnercarena",
+      "type": "User"
+    },
+    "topics": [
+      "simulation-based-inference",
+      "neural-network",
+      "astrophysics",
+      "cosmology",
+      "hierarchical-model"
+    ],
+    "timestamp": "2022-11-06 00:42:44.820306",
+    "avatar": "https://avatars.githubusercontent.com/u/8857025?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"$ pip install paltas\"",
+        "“`paltas` is a package for conducting simulation-based inference on strong gravitational lensing images.”",
+        "“The main functionality of `paltas` is to generate realistic datasets of strong gravitational lenses in a way that's modular, scalable, and user-friendly. To make a dataset with `paltas` all you need is a configuration file which you can then pass to the generate.py script:”"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T03:59:19Z"
+    }
+  }
+}

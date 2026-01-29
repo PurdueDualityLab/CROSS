@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/astronomyk/SimCADO",
+  "url": "https://github.com/astronomyk/SimCADO",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2020A%26A...639A.120L",
+      "https://ui.adsabs.harvard.edu/abs/2016SPIE.9911E..24L",
+      "https://ui.adsabs.harvard.edu/abs/2020ascl.soft12018L/abstract"
+    ],
+    "title": "SimCADO: Observations simulator for infrared telescopes and instruments",
+    "url": "https://github.com/astronomyk/SimCADO",
+    "name": "SimCADO",
+    "full_name": "astronomyk/SimCADO",
+    "html_url": "https://github.com/astronomyk/SimCADO",
+    "created_at": "2015-11-03T02:03:50Z",
+    "updated_at": "2022-07-14T11:10:50Z",
+    "clone_url": "https://github.com/astronomyk/SimCADO.git",
+    "size": 362188,
+    "stargazers_count": 4,
+    "watchers_count": 4,
+    "language": "Python",
+    "open_issues_count": 27,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/astronomyk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9432898?v=4",
+      "login": "astronomyk",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:13:09.123368",
+    "avatar": "https://avatars.githubusercontent.com/u/9432898?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"$ pip install simcado\"",
+        "\"SimCADO is a python package designed to simulate the effects of the Atmosphere, E-ELT, and MICADO instrument on incoming light.\"",
+        "\"The easiest way to run a simulation is to create, or load, a Source object and then call the `.run()` command... the resulting image will be output to a FITS file\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T21:37:41Z"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "parser": "github",
+  "uid": "github/B-UMMI/chewBBACA",
+  "url": null,
+  "data": {
+    "title": "chewBBACA",
+    "url": "https://github.com/B-UMMI/chewBBACA",
+    "credit": [],
+    "tags": [
+      "genome-annotation",
+      "genomics"
+    ],
+    "description": "A complete suite for gene-by-gene schema creation and strain identification.",
+    "name": "chewBBACA",
+    "full_name": "B-UMMI/chewBBACA",
+    "html_url": "https://github.com/B-UMMI/chewBBACA",
+    "created_at": "2017-08-04T14:06:28Z",
+    "updated_at": "2022-06-22T12:50:27Z",
+    "clone_url": "https://github.com/B-UMMI/chewBBACA.git",
+    "size": 24478,
+    "stargazers_count": 73,
+    "watchers_count": 73,
+    "language": "JavaScript",
+    "open_issues_count": 26,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 15,
+    "owner": {
+      "html_url": "https://github.com/B-UMMI",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8566625?v=4",
+      "login": "B-UMMI",
+      "type": "Organization"
+    },
+    "topics": [
+      "wgmlst",
+      "cgmlst",
+      "mlst",
+      "genomics",
+      "outbreak-detection",
+      "bacterial-genome-analysis",
+      "bacterial-strains",
+      "allele-calling",
+      "bioinformatics"
+    ],
+    "timestamp": "2022-07-18 17:43:35.121134"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI and Bioconda",
+      "evidence": [
+        "\"chewBBACA is a software suite for the creation and evaluation of core genome and whole genome MultiLocus Sequence Typing (cg/wgMLST) schemas and results.\"",
+        "PyPI badge and link: \"Install with-PyPI\" → https://pypi.org/project/chewBBACA/",
+        "Bioconda/Conda badges and links: \"Install with-bioconda\" → https://anaconda.org/bioconda/chewbbaca"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T16:38:50Z"
+    }
+  }
+}

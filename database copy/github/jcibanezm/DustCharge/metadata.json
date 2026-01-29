@@ -1,0 +1,52 @@
+{
+  "parser": "github",
+  "uid": "github/jcibanezm/DustCharge",
+  "url": "https://github.com/jcibanezm/DustCharge",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2019MNRAS.485.1220I",
+      "https://ui.adsabs.harvard.edu/abs/2019ascl.soft08016I/abstract"
+    ],
+    "title": "DustCharge: Charge distribution for a dust grain",
+    "url": "https://github.com/jcibanezm/DustCharge",
+    "name": "DustCharge",
+    "full_name": "jcibanezm/DustCharge",
+    "html_url": "https://github.com/jcibanezm/DustCharge",
+    "description": "Calculate the equilibrium charge distribution for a dust grain of a given size and composition, depending on the local interstellar medium conditions, such as: density, temperature, ionization fraction, local radiation field strength and cosmic ray ionization fraction.",
+    "created_at": "2018-07-27T14:26:10Z",
+    "updated_at": "2018-12-07T15:05:38Z",
+    "clone_url": "https://github.com/jcibanezm/DustCharge.git",
+    "size": 285,
+    "language": "Python",
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/jcibanezm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3493686?v=4",
+      "login": "jcibanezm",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:16:05.183632",
+    "avatar": "https://avatars.githubusercontent.com/u/3493686?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"- Add a note to download the tables by Draine.\"",
+        "\"#DustCharge functions.\" suggests a small, domain-specific codebase rather than a general-purpose library.",
+        "To-do and done lists describe adding physical processes (cosmic ray currents, shielding) to calculations, indicating it performs scientific/astrophysical computations directly used in research."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:31:09Z"
+    }
+  }
+}

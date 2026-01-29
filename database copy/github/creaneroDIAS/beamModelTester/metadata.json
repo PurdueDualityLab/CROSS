@@ -1,0 +1,50 @@
+{
+  "parser": "github",
+  "uid": "github/creaneroDIAS/beamModelTester",
+  "url": "https://github.com/creaneroDIAS/beamModelTester",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2019A%26C....2800311C",
+      "https://ui.adsabs.harvard.edu/abs/2019ascl.soft05006C/abstract"
+    ],
+    "title": "beamModelTester: Model evaluation for fixed antenna phased array radio telescopes",
+    "url": "https://github.com/creaneroDIAS/beamModelTester",
+    "name": "beamModelTester",
+    "full_name": "creaneroDIAS/beamModelTester",
+    "html_url": "https://github.com/creaneroDIAS/beamModelTester",
+    "description": "a general-purpose tool for evaluation of models of radio telescope beams.",
+    "created_at": "2019-09-17T14:49:02Z",
+    "updated_at": "2019-09-17T14:49:03Z",
+    "clone_url": "https://github.com/creaneroDIAS/beamModelTester.git",
+    "size": 152732,
+    "owner": {
+      "html_url": "https://github.com/creaneroDIAS",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35535656?v=4",
+      "login": "creaneroDIAS",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:16:48.215033",
+    "avatar": "https://avatars.githubusercontent.com/u/35535656?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"To install, run pip install \\<package\\>\\\"",
+        "\"beamModelTester is a general-purpose tool that enables evaluation of models of the variation in sensitivity and apparent polarisation of fixed antenna phased array radio telescopes.\"",
+        "\"This software operates in three modes: GUI interactive, Command Line interactive and Non-interactive mode. GUI Interactive mode can be started by running the **rungui.sh** script...\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": true,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T23:12:10Z"
+    }
+  }
+}

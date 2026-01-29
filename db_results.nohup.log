@@ -1,0 +1,10 @@
+nohup: ignoring input
+Found 6966 metadata.json files
+Repos with scorecard data: 5940
+Repos with taxonomy classification: 6824
+
+Created scorecard_by_actor.csv
+Actor units found: 7
+Checks analyzed: 19
+Missing scorecard/taxonomy list: scorecard_missing.csv (1231)
+Per-repo results: scorecard_repo_results.csv (6966)

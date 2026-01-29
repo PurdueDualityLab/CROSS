@@ -1,0 +1,63 @@
+{
+  "parser": "github",
+  "uid": "github/spacetelescope/spaceKLIP",
+  "url": "https://github.com/spacetelescope/spaceKLIP",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2022SPIE12180E..3NK",
+      "https://ui.adsabs.harvard.edu/abs/2025ascl.soft02014C/abstract"
+    ],
+    "title": "spaceKLIP: JWST coronagraphy data data reduction and analysis pipeline",
+    "url": "https://github.com/spacetelescope/spaceKLIP",
+    "name": "spaceKLIP",
+    "full_name": "spacetelescope/spaceKLIP",
+    "html_url": "https://github.com/spacetelescope/spaceKLIP",
+    "description": "Pipeline for reducing JWST high-contrast imaging data. Published in Kammerer et al. 2022 and Carter et al. 2022.",
+    "created_at": "2022-02-10T20:20:05Z",
+    "updated_at": "2025-02-07T18:32:06Z",
+    "clone_url": "https://github.com/spacetelescope/spaceKLIP.git",
+    "homepage": "https://ui.adsabs.harvard.edu/abs/2022SPIE12180E..3NK/abstract",
+    "size": 138697,
+    "stargazers_count": 16,
+    "watchers_count": 16,
+    "language": "Python",
+    "open_issues_count": 31,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 12,
+    "owner": {
+      "html_url": "https://github.com/spacetelescope",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2751928?v=4",
+      "login": "spacetelescope",
+      "type": "Organization"
+    },
+    "timestamp": "2025-02-16 00:46:54.519617",
+    "avatar": "https://avatars.githubusercontent.com/u/2751928?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Institution (university, lab, government research organization)",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "\"SpaceKLIP is a data reduction pipeline for JWST high-contrast imaging. The current release has been tested with NIRCam and MIRI coronagraphy data.\"",
+        "Repo owner is the GitHub organization \"spacetelescope\", associated with the Space Telescope Science Institute (institutional project).",
+        "README provides links to documentation and installation instructions but no mention of package managers or binaries, implying use via the source repository and docs-linked install process."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T03:44:37Z"
+    }
+  }
+}

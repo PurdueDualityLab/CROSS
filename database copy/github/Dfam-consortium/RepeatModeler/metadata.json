@@ -1,0 +1,60 @@
+{
+  "parser": "github",
+  "uid": "github/Dfam-consortium/RepeatModeler",
+  "url": "https://github.com/Dfam-consortium/RepeatModeler",
+  "data": {
+    "timestamp": "2020-12-13 00:25:28.481854",
+    "name": "RepeatModeler",
+    "url": "https://api.github.com/repos/Dfam-consortium/RepeatModeler",
+    "full_name": "Dfam-consortium/RepeatModeler",
+    "html_url": "https://github.com/Dfam-consortium/RepeatModeler",
+    "private": false,
+    "description": "De-Novo Repeat Discovery Tool",
+    "created_at": "2017-04-05T18:56:46Z",
+    "updated_at": "2020-12-11T21:27:37Z",
+    "clone_url": "https://github.com/Dfam-consortium/RepeatModeler.git",
+    "homepage": null,
+    "size": 1390,
+    "stargazers_count": 74,
+    "watchers_count": 74,
+    "language": "Perl",
+    "open_issues_count": 39,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "subscribers_count": 5,
+    "owner": {
+      "html_url": "https://github.com/Dfam-consortium",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/40807771?v=4",
+      "login": "Dfam-consortium",
+      "type": "Organization"
+    },
+    "topics": []
+  },
+  "doi": "10.1101/856591",
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"This is available for download at: https://github.com/Dfam-consortium/RepeatAfterMe.\"",
+        "\"RepeatModeler is a de novo transposable element (TE) family identification and modeling package.\"",
+        "\"RepeatModeler assists in automating the runs of the various algorithms given a genomic database... and producing a high quality library of TE families suitable for use with RepeatMasker and ultimately for submission to the Dfam database\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T17:02:32Z"
+    }
+  }
+}

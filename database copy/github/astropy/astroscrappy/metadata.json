@@ -1,0 +1,56 @@
+{
+  "parser": "github",
+  "uid": "github/astropy/astroscrappy",
+  "url": "https://github.com/astropy/astroscrappy",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2019Icar..321..324M",
+      "https://ui.adsabs.harvard.edu/abs/2001PASP..113.1420V",
+      "https://ui.adsabs.harvard.edu/abs/2019ascl.soft07032M/abstract"
+    ],
+    "title": "Astro-SCRAPPY: Speedy Cosmic Ray Annihilation Package in Python",
+    "url": "https://github.com/astropy/astroscrappy",
+    "name": "astroscrappy",
+    "full_name": "astropy/astroscrappy",
+    "html_url": "https://github.com/astropy/astroscrappy",
+    "description": "Speedy Cosmic Ray Annihilation Package in Python",
+    "created_at": "2015-06-03T23:53:02Z",
+    "updated_at": "2022-06-15T06:32:31Z",
+    "clone_url": "https://github.com/astropy/astroscrappy.git",
+    "size": 752,
+    "stargazers_count": 52,
+    "watchers_count": 52,
+    "language": "C",
+    "open_issues_count": 7,
+    "subscribers_count": 9,
+    "owner": {
+      "html_url": "https://github.com/astropy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/847984?v=4",
+      "login": "astropy",
+      "type": "Organization"
+    },
+    "timestamp": "2022-07-17 17:16:12.555932",
+    "avatar": "https://avatars.githubusercontent.com/u/847984?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Source repo",
+      "distribution_details": null,
+      "evidence": [
+        "Owner is the GitHub organization `astropy`, and README states: \"This project is Copyright (c) Astropy Developers\" indicating community governance under the Astropy project.",
+        "\"Astro-SCRAPPY is designed to detect cosmic rays in images (numpy arrays)\" – a Python package operating on numpy arrays, implying it is imported and used as a library component.",
+        "The README describes functionality (cosmic ray detection in images) but provides no installation command via a package manager or mention of releases, implying distribution primarily via the source repository."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T21:38:02Z"
+    }
+  }
+}

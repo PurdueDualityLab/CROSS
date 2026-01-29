@@ -1,0 +1,62 @@
+{
+  "parser": "github",
+  "uid": "github/CIRADA-Tools/RM-Tools",
+  "url": "https://github.com/CIRADA-Tools/RM-Tools",
+  "data": {
+    "doi": [
+      "https://ui.adsabs.harvard.edu/abs/2019ApJ...887L...7S",
+      "https://ui.adsabs.harvard.edu/abs/2020ascl.soft05003P/abstract"
+    ],
+    "title": "RM-Tools: Rotation measure (RM) synthesis and Stokes QU-fitting",
+    "url": "https://github.com/CIRADA-Tools/RM-Tools",
+    "name": "RM-Tools",
+    "full_name": "CIRADA-Tools/RM-Tools",
+    "html_url": "https://github.com/CIRADA-Tools/RM-Tools",
+    "description": "RM-synthesis, RM-clean and QU-fitting on polarised radio spectra",
+    "created_at": "2019-04-11T22:29:44Z",
+    "updated_at": "2022-06-07T23:58:26Z",
+    "clone_url": "https://github.com/CIRADA-Tools/RM-Tools.git",
+    "size": 56459,
+    "stargazers_count": 22,
+    "watchers_count": 22,
+    "language": "Python",
+    "open_issues_count": 26,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 7,
+    "owner": {
+      "html_url": "https://github.com/CIRADA-Tools",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49538616?v=4",
+      "login": "CIRADA-Tools",
+      "type": "User"
+    },
+    "timestamp": "2022-07-17 17:14:37.799791",
+    "avatar": "https://avatars.githubusercontent.com/u/49538616?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install \"RM-Tools[dev]\"\"",
+        "\"Currently hosted by CIRADA and maintained by Cameron Van Eck\" (indicates a research initiative / group hosting and maintenance rather than an individual only).",
+        "\"Python scripts to perform RM-synthesis, RM-clean and QU-fitting on polarised radio spectra\" and the listed terminal commands (end-user tools for scientific analysis, i.e., application software directly used in research)."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T16:49:13Z"
+    }
+  }
+}

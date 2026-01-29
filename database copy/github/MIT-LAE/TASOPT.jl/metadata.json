@@ -1,0 +1,59 @@
+{
+  "parser": "github",
+  "uid": "github/MIT-LAE/TASOPT.jl",
+  "url": "https://github.com/MIT-LAE/TASOPT.jl",
+  "data": {
+    "doi": "https://doi.org/10.5281/zenodo.16950139",
+    "name": "TASOPT.jl",
+    "url": "https://github.com/MIT-LAE/TASOPT.jl",
+    "full_name": "MIT-LAE/TASOPT.jl",
+    "html_url": "https://github.com/MIT-LAE/TASOPT.jl",
+    "description": "Medium fidelity aircraft-propulsion system design and optimization. ",
+    "created_at": "2023-12-04T18:58:45Z",
+    "updated_at": "2025-09-03T19:51:13Z",
+    "clone_url": "https://github.com/MIT-LAE/TASOPT.jl.git",
+    "homepage": "https://mit-lae.github.io/TASOPT.jl/",
+    "size": 95599,
+    "stargazers_count": 32,
+    "watchers_count": 32,
+    "language": "Julia",
+    "open_issues_count": 34,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 4,
+    "owner": {
+      "html_url": "https://github.com/MIT-LAE",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98771357?v=4",
+      "login": "MIT-LAE",
+      "type": "Organization"
+    },
+    "timestamp": "2025-09-07 00:52:10.330583",
+    "avatar": "https://avatars.githubusercontent.com/u/98771357?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "Julia General registry (Pkg.add)",
+      "evidence": [
+        "\"Transport Aircraft and the Environment System OPTimization (TASOPT) implemented in Julia.\"",
+        "\"The easiest way to run `TASOPT.jl` would be to add the package using the julia package manager... pkg> add TASOPT\"",
+        "\"You can then import `TASOPT` as you would with any Julia package: julia> using TASOPT\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-22T19:04:03Z"
+    }
+  }
+}

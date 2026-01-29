@@ -1,0 +1,56 @@
+{
+  "parser": "github",
+  "uid": "github/jydu/physamp",
+  "url": "https://github.com/jydu/physamp",
+  "data": {
+    "url": "https://github.com/jydu/physamp",
+    "title": "Physamp",
+    "description": "Phylogenetic Sampling and Optimization of sequence alignments",
+    "doi": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0619-8",
+    "name": "physamp",
+    "full_name": "jydu/physamp",
+    "html_url": "https://github.com/jydu/physamp",
+    "created_at": "2016-12-21T11:42:41Z",
+    "updated_at": "2021-05-25T07:48:20Z",
+    "clone_url": "https://github.com/jydu/physamp.git",
+    "size": 272,
+    "language": "C++",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/jydu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11715877?v=4",
+      "login": "jydu",
+      "type": "User"
+    },
+    "timestamp": "2022-07-20 17:26:29.539373",
+    "avatar": "https://avatars.githubusercontent.com/u/11715877?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Installer or binary",
+      "distribution_details": null,
+      "evidence": [
+        "README mentions binaries/installers: \"* Pre-compiled executables are available here [linux x64](http://biopp.univ-montp2.fr/repos/exe/lin64/physamp) [linux i386](http://biopp.univ-montp2.fr/repos/exe/lin32/physamp)\"",
+        "\"PhySamp is a package dedicated to phylogenetic sampling. It samples a sequence alignment according to its corresponding phylogenetic tree.\"",
+        "\"The PhySamp package currently contains two programs: *bppalnoptim* ... *bppphysamp* ...\""
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T00:41:18Z"
+    }
+  }
+}

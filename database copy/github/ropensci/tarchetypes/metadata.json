@@ -1,0 +1,71 @@
+{
+  "parser": "github",
+  "uid": "github/ropensci/tarchetypes",
+  "url": "https://github.com/ropensci/tarchetypes",
+  "data": {
+    "timestamp": "2022-01-27 10:11:35.292170",
+    "name": "tarchetypes",
+    "url": "https://api.github.com/repos/ropensci/tarchetypes",
+    "full_name": "ropensci/tarchetypes",
+    "html_url": "https://github.com/ropensci/tarchetypes",
+    "private": false,
+    "description": "Archetypes for targets and pipelines",
+    "created_at": "2020-07-27T02:25:17Z",
+    "updated_at": "2022-01-25T21:41:22Z",
+    "clone_url": "https://github.com/ropensci/tarchetypes.git",
+    "homepage": "https://docs.ropensci.org/tarchetypes",
+    "size": 2700,
+    "stargazers_count": 66,
+    "watchers_count": 66,
+    "language": "R",
+    "open_issues_count": 0,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "owner": {
+      "html_url": "https://github.com/ropensci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1200269?v=4",
+      "login": "ropensci",
+      "type": "Organization"
+    },
+    "topics": [
+      "reproducibility",
+      "high-performance-computing",
+      "r",
+      "data-science",
+      "rstats",
+      "pipeline",
+      "r-package",
+      "workflow",
+      "targets",
+      "r-targetopia",
+      "peer-reviewed",
+      "scalereprod"
+    ]
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN (or R ecosystem)",
+      "evidence": [
+        "README install command: \"| Release     | CRAN     | `install.packages(\"tarchetypes\")`                                     |\"",
+        "\"The `tarchetypes` R package is a collection of target and pipeline archetypes for the `targets` package.\" (an R package intended to be used by other code)",
+        "\"With `tarchetypes`, we can simplify the pipeline with the `tar_render()` archetype.\" (supports workflow/pipeline management rather than doing domain analysis itself)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T02:39:12Z"
+    }
+  }
+}

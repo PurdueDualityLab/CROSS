@@ -1,0 +1,69 @@
+{
+  "parser": "github",
+  "uid": "github/smith-chem-wisc/MetaMorpheus",
+  "url": "https://github.com/smith-chem-wisc/MetaMorpheus",
+  "data": {
+    "doi": "10.1021/ACS.JPROTEOME.0C00838",
+    "name": "MetaMorpheus",
+    "url": "https://github.com/smith-chem-wisc/MetaMorpheus",
+    "full_name": "smith-chem-wisc/MetaMorpheus",
+    "html_url": "https://github.com/smith-chem-wisc/MetaMorpheus",
+    "description": "Proteomics search software with integrated calibration, PTM discovery, bottom-up, top-down and LFQ capabilities",
+    "created_at": "2016-12-26T23:20:23Z",
+    "updated_at": "2024-10-03T21:28:10Z",
+    "clone_url": "https://github.com/smith-chem-wisc/MetaMorpheus.git",
+    "size": 209490,
+    "stargazers_count": 90,
+    "watchers_count": 90,
+    "language": "C#",
+    "open_issues_count": 236,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "subscribers_count": 11,
+    "owner": {
+      "html_url": "https://github.com/smith-chem-wisc",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15989786?v=4",
+      "login": "smith-chem-wisc",
+      "type": "Organization"
+    },
+    "topics": [
+      "ptm",
+      "database-search",
+      "proteome",
+      "uniprot",
+      "mass-match",
+      "spectra",
+      "calibration",
+      "proteomics-database-search",
+      "discovery"
+    ],
+    "timestamp": "2024-10-06 00:47:17.727273",
+    "avatar": "https://avatars.githubusercontent.com/u/15989786?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Research group or lab",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Network service",
+      "distribution_details": null,
+      "evidence": [
+        "README indicates network usage: \"[![Build status](https://ci.appveyor.com/api/projects/status/0jt31252xny5aoxt/branch/master?svg=true)](https://ci.appveyor.com/project/smith-chem-wisc/metamorpheus/branch/master)\"",
+        "\"MetaMorpheus is a bottom-up proteomics database search software with integrated post-translational modification (PTM) discovery capability.\"",
+        "\"Download the current version here... For first-time Windows users, choose 'MetaMorpheusInstaller.msi' and install MetaMorpheus.\" and badges for Docker and conda-forge indicate end-user application distribution."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-23T03:30:48Z"
+    }
+  }
+}

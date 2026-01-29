@@ -1,0 +1,64 @@
+{
+  "parser": "github",
+  "uid": "github/ropensci/dbhydroR",
+  "url": "https://github.com/ropensci/dbhydroR",
+  "data": {
+    "timestamp": "2022-01-27 10:11:35.157764",
+    "name": "dbhydroR",
+    "url": "https://api.github.com/repos/ropensci/dbhydroR",
+    "full_name": "ropensci/dbhydroR",
+    "html_url": "https://github.com/ropensci/dbhydroR",
+    "private": false,
+    "description": "R interface to the South Florida Water Management District's DBHYDRO Database :sweat_drops::palm_tree:",
+    "created_at": "2016-07-29T18:47:37Z",
+    "updated_at": "2021-11-27T13:59:27Z",
+    "clone_url": "https://github.com/ropensci/dbhydroR.git",
+    "homepage": "https://docs.ropensci.org/dbhydroR",
+    "size": 1832,
+    "stargazers_count": 11,
+    "watchers_count": 11,
+    "language": "R",
+    "open_issues_count": 1,
+    "license": null,
+    "owner": {
+      "html_url": "https://github.com/ropensci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1200269?v=4",
+      "login": "ropensci",
+      "type": "Organization"
+    },
+    "topics": [
+      "water-quality",
+      "water-resources",
+      "ecology",
+      "geoscience",
+      "groundwater",
+      "government-data",
+      "r",
+      "rstats",
+      "r-package",
+      "peer-reviewed",
+      "data-access"
+    ]
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Community or foundation (open source governance)",
+      "supply_chain_role": "Dependency software artifact",
+      "research_role": "Research-support tooling",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "CRAN",
+      "evidence": [
+        "\"This package has been archived.\" (R packages are typically consumed as dependencies within R projects.)",
+        "Badges and context indicate this is an R package under the rOpenSci organization, which curates research-focused R packages used for data access/analysis.",
+        "rOpenSci packages are normally distributed via CRAN as R packages, implying installation through an R package registry."
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": true,
+        "distribution_pathway": false
+      },
+      "timestamp_utc": "2026-01-23T02:27:04Z"
+    }
+  }
+}

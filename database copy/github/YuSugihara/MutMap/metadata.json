@@ -1,0 +1,56 @@
+{
+  "parser": "github",
+  "uid": "github/YuSugihara/MutMap",
+  "url": "https://github.com/YuSugihara/MutMap",
+  "data": {
+    "title": "MutMap",
+    "url": "https://github.com/YuSugihara/MutMap",
+    "credit": [],
+    "tags": [
+      "genotype-phenotype-analysis",
+      "genomics"
+    ],
+    "description": "MutMap pipeline to identify causative mutations responsible for a phenotype",
+    "name": "MutMap",
+    "full_name": "YuSugihara/MutMap",
+    "html_url": "https://github.com/YuSugihara/MutMap",
+    "created_at": "2019-06-06T00:56:45Z",
+    "updated_at": "2022-07-03T14:37:12Z",
+    "clone_url": "https://github.com/YuSugihara/MutMap.git",
+    "size": 94200,
+    "stargazers_count": 32,
+    "watchers_count": 32,
+    "language": "Python",
+    "open_issues_count": 3,
+    "subscribers_count": 1,
+    "owner": {
+      "html_url": "https://github.com/YuSugihara",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34593586?v=4",
+      "login": "YuSugihara",
+      "type": "User"
+    },
+    "timestamp": "2022-07-18 17:45:56.413333",
+    "avatar": "https://avatars.githubusercontent.com/u/34593586?v=4"
+  },
+  "New_SSC_Taxonomy": {
+    "gpt-5.1": {
+      "actor_unit": "Individual maintainer",
+      "supply_chain_role": "Application software",
+      "research_role": "Direct research execution",
+      "distribution_pathway": "Package registry",
+      "distribution_details": "PyPI",
+      "evidence": [
+        "README install command: \"pip install -e .\"",
+        "“Bulked segregant analysis, as implemented in MutMap … is a powerful and efficient method to identify agronomically important loci in crop plants.”",
+        "“usage: mutmap -r <FASTA> -c <BAM|FASTQ> -b <BAM|FASTQ> … MutMap version 2.3.9” (command-line tool run by users on their data)"
+      ],
+      "model": "gpt-5.1",
+      "overrides_applied": {
+        "actor_unit": false,
+        "research_role": false,
+        "distribution_pathway": true
+      },
+      "timestamp_utc": "2026-01-22T20:41:05Z"
+    }
+  }
+}
