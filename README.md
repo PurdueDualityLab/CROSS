@@ -3,10 +3,22 @@
 
 This repository contains the code and analyses for **"Operationalizing Research Software for Supply Chain Security"** by Kalu et al.
 
-It is built on top of the **Research Software Engineering (rseng)** and **uses the rseng/software database**. We credit and acknowledge the rseng repositories and database that provide the underlying data ([![DOI](https://zenodo.org/badge/268308501.svg)](https://zenodo.org/badge/latestdoi/268308501), (https://github.com/rseng/software/tree/1.0.0)). 
+It is built on top of the **Research Software Engineering (rseng)** and **uses the rseng/software database**. We credit and acknowledge the rseng repositories and database that provide the underlying data and framework ([![DOI](https://zenodo.org/badge/268308501.svg)](https://zenodo.org/badge/latestdoi/268308501), (https://github.com/rseng/software/tree/1.0.0)). 
 
 Our work uses this foundation data to propose a Research Software Supply Chain based Taxonomy for Research Software. Then we tested this taxonomy with OpenSSF scorecard (collection and analysis scripts), We also collect a benchmark database of Apache Software Foundation (ASF) project repositories (to which we also obtained the OpenSSF Scorecard reports), and finally we present summary tables to highlight our results.
 
+To cite this repo, use:
+
+```
+@misc{cross_artifact_github,
+  author       = {Kalu, Kelechi G. and Rattan, Soham and Schorlemmer, Taylor R. and Thiruvathukal, George K. and Carver, Jeffrey C. and Davis, James C.},
+  title        = {{Operationalizing Research Software for Supply Chain Security (Software Artiifact)}},
+  howpublished = {\url{https://github.com/PurdueDualityLab/CROSS}},
+  note         = {GitHub repository},
+  year         = {2026}
+}
+
+```
 
 
 ## Our Contributions  (scripts and analyses)
@@ -134,3 +146,7 @@ python -m venv .venv
 source .venv/bin/activate
 pip install pandas numpy tqdm python-dotenv openai
 ```
+
+
+#### References
+1. Sochat, V. (2021, October 7). rseng/software: Research Software Encyclopedia Database Release v1.0.0 (Version 1.0.0) [Data set].

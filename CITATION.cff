@@ -1,9 +1,8 @@
-cff-version: 1.1.0
-message: "If you use this software, please cite it as below."
-authors:
-  - family-names: Vanessa
-    given-names: Sochat
-    orcid: https://orcid.org/0000-0002-4387-3819
-title: "rseng/software: Research Software Encyclopedia Database Release v1.0.0"
-version: 1.0.0
-date-released: 2021-10-07
+Cite as;
+@misc{cross_artifact_github,
+  author       = {Kalu, Kelechi G. and Rattan, Soham and Schorlemmer, Taylor R. and Thiruvathukal, George K. and Carver, Jeffrey C. and Davis, James C.},
+  title        = {{Operationalizing Research Software for Supply Chain Security (Software Artiifact)}},
+  howpublished = {\url{https://github.com/PurdueDualityLab/CROSS}},
+  note         = {GitHub repository},
+  year         = {2026}
+}
