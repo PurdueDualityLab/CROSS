@@ -7,3 +7,4 @@ devel/software/scicrunch
 annotate.progress.jsonl
 generate.sh
 CITATION.cff
+.venv/
