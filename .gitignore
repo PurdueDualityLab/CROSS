@@ -3,3 +3,7 @@ dashboard.log
 .env
 .scorecard_tokens.env
 devel/software/scicrunch
+.scorecard.progress.jsonl
+annotate.progress.jsonl
+generate.sh
+CITATION.cff
