@@ -1,0 +1,42 @@
+{
+    "parser": "github",
+    "uid": "github/dfki-ric/better_launch",
+    "url": "https://github.com/dfki-ric/better_launch",
+    "data": {
+        "doi": "https://doi.org/10.5281/zenodo.18414064",
+        "name": "better_launch",
+        "url": "https://github.com/dfki-ric/better_launch",
+        "full_name": "dfki-ric/better_launch",
+        "html_url": "https://github.com/dfki-ric/better_launch",
+        "description": "A better replacement for the ROS2 launch system: intuitive, simple, memorable.",
+        "created_at": "2025-07-23T07:06:18Z",
+        "updated_at": "2026-03-03T01:30:11Z",
+        "clone_url": "https://github.com/dfki-ric/better_launch.git",
+        "homepage": "https://dfki-ric.github.io/better_launch/",
+        "size": 20413,
+        "stargazers_count": 267,
+        "watchers_count": 267,
+        "language": "Python",
+        "open_issues_count": 10,
+        "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "subscribers_count": 6,
+        "owner": {
+            "html_url": "https://github.com/dfki-ric",
+            "avatar_url": "https://avatars.githubusercontent.com/u/37366708?v=4",
+            "login": "dfki-ric",
+            "type": "Organization"
+        },
+        "topics": [
+            "launch",
+            "ros2"
+        ],
+        "timestamp": "2026-03-15 01:09:53.322635",
+        "avatar": "https://avatars.githubusercontent.com/u/37366708?v=4"
+    }
+}
