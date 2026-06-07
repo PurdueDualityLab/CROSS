@@ -1,0 +1,42 @@
+{
+    "parser": "github",
+    "uid": "github/almoulla/arve",
+    "url": "https://github.com/almoulla/arve",
+    "data": {
+        "doi": [
+            "https://scixplorer.org/abs/2025A%26A...701A.266A",
+            "https://emac.gsfc.nasa.gov?cid=2601-015",
+            "https://ui.adsabs.harvard.edu/abs/2026ascl.soft02006A/abstract"
+        ],
+        "title": "ARVE: Extreme precision radial velocity analysis",
+        "url": "https://github.com/almoulla/arve",
+        "name": "arve",
+        "full_name": "almoulla/arve",
+        "html_url": "https://github.com/almoulla/arve",
+        "description": "Analyzing Radial Velocity Elements",
+        "created_at": "2022-09-24T20:07:47Z",
+        "updated_at": "2026-05-12T09:56:38Z",
+        "clone_url": "https://github.com/almoulla/arve.git",
+        "homepage": "http://arve.readthedocs.io",
+        "size": 260078,
+        "stargazers_count": 9,
+        "watchers_count": 9,
+        "language": "Python",
+        "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "subscribers_count": 1,
+        "owner": {
+            "html_url": "https://github.com/almoulla",
+            "avatar_url": "https://avatars.githubusercontent.com/u/99747707?v=4",
+            "login": "almoulla",
+            "type": "User"
+        },
+        "timestamp": "2026-06-07 02:08:55.117377",
+        "avatar": "https://avatars.githubusercontent.com/u/99747707?v=4"
+    }
+}
