@@ -1,0 +1,37 @@
+{
+    "parser": "github",
+    "uid": "github/AstroLexandre/IsochroneSymplecticIntegrator_QuickExample",
+    "url": "https://github.com/AstroLexandre/IsochroneSymplecticIntegrator_QuickExample",
+    "data": {
+        "doi": [
+            "https://scixplorer.org/abs/2025A%26A...697A.106B",
+            "https://ui.adsabs.harvard.edu/abs/2026ascl.soft04002B/abstract"
+        ],
+        "title": "ISSI: Isochrone splitting for symplectic integrators",
+        "url": "https://github.com/AstroLexandre/IsochroneSymplecticIntegrator_QuickExample",
+        "name": "IsochroneSymplecticIntegrator_QuickExample",
+        "full_name": "AstroLexandre/IsochroneSymplecticIntegrator_QuickExample",
+        "html_url": "https://github.com/AstroLexandre/IsochroneSymplecticIntegrator_QuickExample",
+        "description": "Isochrone splitting in Hamiltonian systems",
+        "created_at": "2026-02-26T23:18:24Z",
+        "updated_at": "2026-05-13T14:51:22Z",
+        "clone_url": "https://github.com/AstroLexandre/IsochroneSymplecticIntegrator_QuickExample.git",
+        "size": 47,
+        "language": "Fortran",
+        "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "owner": {
+            "html_url": "https://github.com/AstroLexandre",
+            "avatar_url": "https://avatars.githubusercontent.com/u/263404306?v=4",
+            "login": "AstroLexandre",
+            "type": "User"
+        },
+        "timestamp": "2026-06-21 02:14:50.935130",
+        "avatar": "https://avatars.githubusercontent.com/u/263404306?v=4"
+    }
+}
