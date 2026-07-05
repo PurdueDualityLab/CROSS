@@ -1,0 +1,52 @@
+{
+    "parser": "github",
+    "uid": "github/systems-genomics-lab/deeptaxa",
+    "url": "https://github.com/systems-genomics-lab/deeptaxa",
+    "data": {
+        "doi": "10.1093/bioadv/vbag166",
+        "name": "deeptaxa",
+        "url": "https://github.com/systems-genomics-lab/deeptaxa",
+        "full_name": "systems-genomics-lab/deeptaxa",
+        "html_url": "https://github.com/systems-genomics-lab/deeptaxa",
+        "description": "Hybrid CNN-BERT deep learning for hierarchical taxonomic classification of 16S rRNA sequences",
+        "created_at": "2026-04-03T14:02:51Z",
+        "updated_at": "2026-07-03T08:21:02Z",
+        "clone_url": "https://github.com/systems-genomics-lab/deeptaxa.git",
+        "homepage": "https://systems-genomics-lab.github.io/deeptaxa/",
+        "size": 4528,
+        "stargazers_count": 10,
+        "watchers_count": 10,
+        "language": "Python",
+        "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "subscribers_count": 2,
+        "owner": {
+            "html_url": "https://github.com/systems-genomics-lab",
+            "avatar_url": "https://avatars.githubusercontent.com/u/112728057?v=4",
+            "login": "systems-genomics-lab",
+            "type": "Organization"
+        },
+        "topics": [
+            "16s-rrna",
+            "bert",
+            "bioinformatics",
+            "cnn",
+            "cnn-classification",
+            "convolutional-neural-networks",
+            "deep-learning",
+            "machine-learning",
+            "microbiome",
+            "python",
+            "taxonomic-classification",
+            "torch",
+            "transformers"
+        ],
+        "timestamp": "2026-07-05 01:46:31.390603",
+        "avatar": "https://avatars.githubusercontent.com/u/112728057?v=4"
+    }
+}
