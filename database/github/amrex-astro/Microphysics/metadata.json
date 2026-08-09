@@ -1,0 +1,47 @@
+{
+    "parser": "github",
+    "uid": "github/amrex-astro/Microphysics",
+    "url": "https://github.com/AMReX-Astro/Microphysics",
+    "data": {
+        "doi": "https://doi.org/10.5281/zenodo.21037753",
+        "name": "Microphysics",
+        "url": "https://github.com/AMReX-Astro/Microphysics",
+        "full_name": "AMReX-Astro/Microphysics",
+        "html_url": "https://github.com/AMReX-Astro/Microphysics",
+        "description": "common astrophysical microphysics routines with interfaces for the different AMReX codes",
+        "created_at": "2015-04-05T00:45:00Z",
+        "updated_at": "2026-08-05T00:38:35Z",
+        "clone_url": "https://github.com/AMReX-Astro/Microphysics.git",
+        "homepage": "https://amrex-astro.github.io/Microphysics",
+        "size": 147027,
+        "stargazers_count": 42,
+        "watchers_count": 42,
+        "language": "C++",
+        "open_issues_count": 73,
+        "license": {
+            "key": "other",
+            "name": "Other",
+            "spdx_id": "NOASSERTION",
+            "url": null,
+            "node_id": "MDc6TGljZW5zZTA="
+        },
+        "subscribers_count": 8,
+        "owner": {
+            "html_url": "https://github.com/AMReX-Astro",
+            "avatar_url": "https://avatars.githubusercontent.com/u/28324385?v=4",
+            "login": "AMReX-Astro",
+            "type": "Organization"
+        },
+        "topics": [
+            "equation-of-state",
+            "reactions",
+            "nuclear-reactions",
+            "conductivity",
+            "stars",
+            "microphysics-routines",
+            "amrex"
+        ],
+        "timestamp": "2026-08-09 00:45:13.809591",
+        "avatar": "https://avatars.githubusercontent.com/u/28324385?v=4"
+    }
+}

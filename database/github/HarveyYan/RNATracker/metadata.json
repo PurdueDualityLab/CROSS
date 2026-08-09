@@ -1,0 +1,37 @@
+{
+    "parser": "github",
+    "uid": "github/HarveyYan/RNATracker",
+    "url": "https://github.com/HarveyYan/RNATracker",
+    "data": {
+        "doi": "10.1093/BIOINFORMATICS/BTZ337",
+        "name": "RNATracker",
+        "url": "https://github.com/HarveyYan/RNATracker",
+        "full_name": "HarveyYan/RNATracker",
+        "html_url": "https://github.com/HarveyYan/RNATracker",
+        "description": "Prediction of mRNA subcellular localization using deep recurrent neural networks",
+        "created_at": "2018-12-22T03:41:21Z",
+        "updated_at": "2025-05-09T18:44:43Z",
+        "clone_url": "https://github.com/HarveyYan/RNATracker.git",
+        "size": 94670,
+        "stargazers_count": 15,
+        "watchers_count": 15,
+        "language": "Python",
+        "open_issues_count": 1,
+        "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "spdx_id": "GPL-3.0",
+            "url": "https://api.github.com/licenses/gpl-3.0",
+            "node_id": "MDc6TGljZW5zZTk="
+        },
+        "subscribers_count": 1,
+        "owner": {
+            "html_url": "https://github.com/HarveyYan",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7417817?v=4",
+            "login": "HarveyYan",
+            "type": "User"
+        },
+        "timestamp": "2026-08-09 00:45:50.470121",
+        "avatar": "https://avatars.githubusercontent.com/u/7417817?v=4"
+    }
+}
