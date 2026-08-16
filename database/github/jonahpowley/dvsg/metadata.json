@@ -1,0 +1,37 @@
+{
+    "parser": "github",
+    "uid": "github/jonahpowley/dvsg",
+    "url": "https://github.com/jonahpowley/dvsg",
+    "data": {
+        "doi": [
+            "https://scixplorer.org/abs/2026arXiv260411905P",
+            "https://ui.adsabs.harvard.edu/abs/2026ascl.soft04003P/abstract"
+        ],
+        "title": "dvsg: Kinematic disturbance parameter \u0394V\u22c6\u2212g calculator",
+        "url": "https://github.com/jonahpowley/dvsg",
+        "name": "dvsg",
+        "full_name": "jonahpowley/dvsg",
+        "html_url": "https://github.com/jonahpowley/dvsg",
+        "description": "Python code to calculate the kinematic disturbance parameter \u0394V\u22c6\u2212g",
+        "created_at": "2025-10-31T19:57:10Z",
+        "updated_at": "2026-05-02T21:04:07Z",
+        "clone_url": "https://github.com/jonahpowley/dvsg.git",
+        "size": 499,
+        "language": "Python",
+        "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "owner": {
+            "html_url": "https://github.com/jonahpowley",
+            "avatar_url": "https://avatars.githubusercontent.com/u/116847755?v=4",
+            "login": "jonahpowley",
+            "type": "User"
+        },
+        "timestamp": "2026-08-16 00:32:42.427774",
+        "avatar": "https://avatars.githubusercontent.com/u/116847755?v=4"
+    }
+}
