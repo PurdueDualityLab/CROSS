@@ -1,0 +1,55 @@
+{
+    "parser": "github",
+    "uid": "github/slemesp/GpuFitsCrypt",
+    "url": "https://github.com/slemesp/GpuFitsCrypt",
+    "data": {
+        "doi": [
+            "https://scixplorer.org/abs/2026arXiv260223067L",
+            "https://ui.adsabs.harvard.edu/abs/2026ascl.soft03021L/abstract"
+        ],
+        "title": "GpuFitsCrypt: High-performance FITS encryption library",
+        "url": "https://github.com/slemesp/GpuFitsCrypt",
+        "name": "GpuFitsCrypt",
+        "full_name": "slemesp/GpuFitsCrypt",
+        "html_url": "https://github.com/slemesp/GpuFitsCrypt",
+        "description": "A High-Throughput AES-GCM Implementation on GPUs for Secure, Policy-Based Access to Massive Astronomical Catalogs",
+        "created_at": "2026-02-21T00:21:46Z",
+        "updated_at": "2026-09-17T10:50:45Z",
+        "clone_url": "https://github.com/slemesp/GpuFitsCrypt.git",
+        "homepage": "https://gpufitscrypt.readthedocs.io",
+        "size": 28134,
+        "stargazers_count": 1,
+        "watchers_count": 1,
+        "language": "Cuda",
+        "open_issues_count": 1,
+        "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "owner": {
+            "html_url": "https://github.com/slemesp",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4924468?v=4",
+            "login": "slemesp",
+            "type": "User"
+        },
+        "topics": [
+            "aead",
+            "aes-gcm",
+            "ascl",
+            "astronomy",
+            "astrophysics",
+            "cplusplus",
+            "cryptography",
+            "cuda",
+            "fits",
+            "gpu-acceleration",
+            "python",
+            "security"
+        ],
+        "timestamp": "2026-10-04 03:02:34.460932",
+        "avatar": "https://avatars.githubusercontent.com/u/4924468?v=4"
+    }
+}
